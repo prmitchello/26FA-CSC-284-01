@@ -1,0 +1,76 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-09-22T19:34:25.759Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"e13428d0-6048-4b6b-b49e-c647bb5ba49b","sourceWindowId":"0f1f115d-724b-44dd-911d-b5f67ee57aee","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"6db3619396719772986e51789a05eb2d73c7ca0f","seq":1,"ms":-420,"op":"source.context"}
+{"text":"","version":1,"path":"exercises/module_02/Empployee.cpp","snapshot":true,"doc":1,"seq":2,"ms":-420,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":0,"text":"C"}],"doc":1,"seq":3,"ms":5536,"op":"edit"}
+{"version":3,"changes":[{"offset":1,"length":0,"text":"l"}],"doc":1,"seq":4,"ms":5696,"op":"edit"}
+{"version":4,"changes":[{"offset":2,"length":0,"text":"a"}],"doc":1,"seq":5,"ms":5815,"op":"edit"}
+{"version":5,"changes":[{"offset":3,"length":0,"text":"s"}],"doc":1,"seq":6,"ms":5981,"op":"edit"}
+{"version":6,"changes":[{"offset":4,"length":0,"text":"s"}],"doc":1,"seq":7,"ms":6154,"op":"edit"}
+{"version":7,"changes":[{"offset":5,"length":0,"text":" "}],"doc":1,"seq":8,"ms":6297,"op":"edit"}
+{"version":8,"changes":[{"offset":6,"length":0,"text":"E"}],"doc":1,"seq":9,"ms":6821,"op":"edit"}
+{"version":9,"changes":[{"offset":7,"length":0,"text":"m"}],"doc":1,"seq":10,"ms":6983,"op":"edit"}
+{"version":10,"changes":[{"offset":8,"length":0,"text":"p"}],"doc":1,"seq":11,"ms":7129,"op":"edit"}
+{"version":11,"changes":[{"offset":9,"length":0,"text":"l"}],"doc":1,"seq":12,"ms":7319,"op":"edit"}
+{"version":12,"changes":[{"offset":10,"length":0,"text":"o"}],"doc":1,"seq":13,"ms":7449,"op":"edit"}
+{"version":13,"changes":[{"offset":11,"length":0,"text":"t"}],"doc":1,"seq":14,"ms":7585,"op":"edit"}
+{"version":14,"changes":[{"offset":12,"length":0,"text":"e"}],"doc":1,"seq":15,"ms":7806,"op":"edit"}
+{"version":15,"changes":[{"offset":12,"length":1,"text":""}],"doc":1,"seq":16,"ms":8358,"op":"edit"}
+{"version":16,"changes":[{"offset":11,"length":1,"text":""}],"doc":1,"seq":17,"ms":8975,"op":"edit"}
+{"version":17,"changes":[{"offset":11,"length":0,"text":"y"}],"doc":1,"seq":18,"ms":9224,"op":"edit"}
+{"version":18,"changes":[{"offset":12,"length":0,"text":"e"}],"doc":1,"seq":19,"ms":9357,"op":"edit"}
+{"version":19,"changes":[{"offset":13,"length":0,"text":"e"}],"doc":1,"seq":20,"ms":9493,"op":"edit"}
+{"version":20,"changes":[{"offset":14,"length":0,"text":"{}"}],"doc":1,"seq":21,"ms":10331,"op":"edit"}
+{"version":21,"changes":[{"offset":15,"length":0,"text":"\n    \n"}],"doc":1,"seq":22,"ms":10528,"op":"edit"}
+{"version":22,"changes":[{"offset":20,"length":0,"text":"\n    "},{"offset":16,"length":4,"text":""}],"doc":1,"seq":23,"ms":10679,"op":"edit"}
+{"version":23,"changes":[{"offset":21,"length":0,"text":"\n    "},{"offset":17,"length":4,"text":""}],"doc":1,"seq":24,"ms":10806,"op":"edit"}
+{"version":24,"changes":[{"offset":22,"length":0,"text":"\n    "},{"offset":18,"length":4,"text":""}],"doc":1,"seq":25,"ms":10933,"op":"edit"}
+{"version":25,"changes":[{"offset":23,"length":0,"text":"\n    "},{"offset":19,"length":4,"text":""}],"doc":1,"seq":26,"ms":11086,"op":"edit"}
+{"version":26,"changes":[{"offset":24,"length":0,"text":"\n    "},{"offset":20,"length":4,"text":""}],"doc":1,"seq":27,"ms":11301,"op":"edit"}
+{"version":27,"changes":[{"offset":25,"length":0,"text":"\n    "},{"offset":21,"length":4,"text":""}],"doc":1,"seq":28,"ms":11446,"op":"edit"}
+{"version":28,"changes":[{"offset":26,"length":0,"text":"\n    "},{"offset":22,"length":4,"text":""}],"doc":1,"seq":29,"ms":11549,"op":"edit"}
+{"version":29,"changes":[{"offset":27,"length":0,"text":"\n    "},{"offset":23,"length":4,"text":""}],"doc":1,"seq":30,"ms":11661,"op":"edit"}
+{"version":30,"changes":[{"offset":24,"length":4,"text":""},{"offset":15,"length":0,"text":"\n    "}],"doc":1,"seq":31,"ms":13936,"op":"edit"}
+{"version":31,"changes":[{"offset":20,"length":0,"text":"\n    "},{"offset":16,"length":4,"text":""}],"doc":1,"seq":32,"ms":14216,"op":"edit"}
+{"version":32,"changes":[{"offset":21,"length":0,"text":"p"}],"doc":1,"seq":33,"ms":14942,"op":"edit"}
+{"version":33,"changes":[{"offset":22,"length":0,"text":"r"}],"doc":1,"seq":34,"ms":15080,"op":"edit"}
+{"version":34,"changes":[{"offset":23,"length":0,"text":"i"}],"doc":1,"seq":35,"ms":15136,"op":"edit"}
+{"version":35,"changes":[{"offset":24,"length":0,"text":"v"}],"doc":1,"seq":36,"ms":15485,"op":"edit"}
+{"version":36,"changes":[{"offset":25,"length":0,"text":"a"}],"doc":1,"seq":37,"ms":15870,"op":"edit"}
+{"version":37,"changes":[{"offset":26,"length":0,"text":"t"}],"doc":1,"seq":38,"ms":16161,"op":"edit"}
+{"version":38,"changes":[{"offset":27,"length":0,"text":"e"}],"doc":1,"seq":39,"ms":16316,"op":"edit"}
+{"version":39,"changes":[{"offset":28,"length":0,"text":":"}],"doc":1,"seq":40,"ms":16795,"op":"edit"}
+{"version":40,"changes":[{"offset":29,"length":0,"text":"\n    "}],"doc":1,"seq":41,"ms":16994,"op":"edit"}
+{"version":41,"changes":[{"offset":34,"length":0,"text":"\n    "},{"offset":30,"length":4,"text":""}],"doc":1,"seq":42,"ms":17312,"op":"edit"}
+{"version":42,"changes":[{"offset":35,"length":0,"text":"i"}],"doc":1,"seq":43,"ms":18024,"op":"edit"}
+{"version":43,"changes":[{"offset":36,"length":0,"text":"n"}],"doc":1,"seq":44,"ms":18129,"op":"edit"}
+{"version":44,"changes":[{"offset":37,"length":0,"text":"t"}],"doc":1,"seq":45,"ms":18202,"op":"edit"}
+{"version":45,"changes":[{"offset":38,"length":0,"text":" "}],"doc":1,"seq":46,"ms":18328,"op":"edit"}
+{"version":46,"changes":[{"offset":38,"length":1,"text":""}],"doc":1,"seq":47,"ms":19046,"op":"edit"}
+{"version":47,"changes":[{"offset":37,"length":1,"text":""}],"doc":1,"seq":48,"ms":19209,"op":"edit"}
+{"version":48,"changes":[{"offset":36,"length":1,"text":""}],"doc":1,"seq":49,"ms":19335,"op":"edit"}
+{"version":49,"changes":[{"offset":35,"length":1,"text":""}],"doc":1,"seq":50,"ms":19725,"op":"edit"}
+{"version":50,"changes":[{"offset":35,"length":0,"text":"s"}],"doc":1,"seq":51,"ms":20553,"op":"edit"}
+{"version":51,"changes":[{"offset":36,"length":0,"text":"t"}],"doc":1,"seq":52,"ms":21127,"op":"edit"}
+{"version":52,"changes":[{"offset":37,"length":0,"text":"r"}],"doc":1,"seq":53,"ms":21300,"op":"edit"}
+{"version":53,"changes":[{"offset":38,"length":0,"text":"i"}],"doc":1,"seq":54,"ms":21360,"op":"edit"}
+{"version":54,"changes":[{"offset":39,"length":0,"text":"n"}],"doc":1,"seq":55,"ms":21460,"op":"edit"}
+{"version":55,"changes":[{"offset":40,"length":0,"text":"g"}],"doc":1,"seq":56,"ms":21531,"op":"edit"}
+{"version":56,"changes":[{"offset":41,"length":0,"text":" "}],"doc":1,"seq":57,"ms":21653,"op":"edit"}
+{"version":57,"changes":[{"offset":42,"length":0,"text":"n"}],"doc":1,"seq":58,"ms":21944,"op":"edit"}
+{"version":58,"changes":[{"offset":43,"length":0,"text":"a"}],"doc":1,"seq":59,"ms":22047,"op":"edit"}
+{"version":59,"changes":[{"offset":44,"length":0,"text":"m"}],"doc":1,"seq":60,"ms":22146,"op":"edit"}
+{"version":60,"changes":[{"offset":45,"length":0,"text":"e"}],"doc":1,"seq":61,"ms":22248,"op":"edit"}
+{"version":61,"changes":[{"offset":46,"length":0,"text":";"}],"doc":1,"seq":62,"ms":23115,"op":"edit"}
+{"version":62,"changes":[{"offset":47,"length":0,"text":"\n    "}],"doc":1,"seq":63,"ms":23300,"op":"edit"}
+{"version":63,"changes":[{"offset":48,"length":4,"text":""}],"doc":1,"seq":64,"ms":23708,"op":"edit"}
+{"version":64,"changes":[{"offset":48,"length":0,"text":"    "}],"doc":1,"seq":65,"ms":24655,"op":"edit"}
+{"version":65,"changes":[{"offset":52,"length":0,"text":"d"}],"doc":1,"seq":66,"ms":25235,"op":"edit"}
+{"version":66,"changes":[{"offset":53,"length":0,"text":"o"}],"doc":1,"seq":67,"ms":25365,"op":"edit"}
+{"version":67,"changes":[{"offset":54,"length":0,"text":"u"}],"doc":1,"seq":68,"ms":25602,"op":"edit"}
+{"version":68,"changes":[{"offset":55,"length":0,"text":"b"}],"doc":1,"seq":69,"ms":25665,"op":"edit"}
+{"version":69,"changes":[{"offset":56,"length":0,"text":"l"}],"doc":1,"seq":70,"ms":25903,"op":"edit"}
+{"version":70,"changes":[{"offset":57,"length":0,"text":"e"}],"doc":1,"seq":71,"ms":26050,"op":"edit"}
+{"version":71,"changes":[{"offset":58,"length":0,"text":" "}],"doc":1,"seq":72,"ms":26149,"op":"edit"}
+{"text":"/*\nInstructions\n============\n1. Identify repetitive logic in the code.\n2. Refactor using an abstract base class (Employee) with \n   derived classes (SalariedEmployee, HourlyEmployee).\n3. Implement virtual functions to calculate and print\n4. Modify main() to use polymorphism to print\n   employee information without duplicating logic.\n5. How can we do this with templates instead of inheritance?\n*/\n\n#include <iostream>\n#include <string>\n\n// Function to calculate salary for a salaried employee\nvoid printSalariedEmployeeInfo(const std::string& name, double salary) {\n    std::cout << \"Salaried Employee: \" << name << \"\\n\";\n    std::cout << \"Monthly Salary: $\" << salary << \"\\n\\n\";\n}\n\n// Function to calculate salary for an hourly employee\nvoid printHourlyEmployeeInfo(const std::string& name, double hourlyRate, int hoursWorked) {\n    double totalPay = hourlyRate * hoursWorked;\n    std::cout << \"Hourly Employee: \" << name << \"\\n\";\n    std::cout << \"Total Pay: $\" << totalPay << \"\\n\\n\";\n}\n\nint main() {\n    printSalariedEmployeeInfo(\"Alice\", 5000);\n    printHourlyEmployeeInfo(\"Bob\", 20, 160);\n\n    return 0;\n}\n","version":1,"path":"exercises/module_02/employee/EmployeeSalary.cpp","snapshot":true,"doc":2,"seq":73,"ms":27491,"op":"snap"}
+{"version":72,"changes":[{"offset":0,"length":1,"text":""}],"doc":1,"seq":74,"ms":54907,"op":"edit"}
+{"version":73,"changes":[{"offset":0,"length":0,"text":"c"}],"doc":1,"seq":75,"ms":55127,"op":"edit"}
