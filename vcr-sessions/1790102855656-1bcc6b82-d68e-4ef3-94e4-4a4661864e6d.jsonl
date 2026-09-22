@@ -2,3 +2,4 @@
 {"branch":"main","commit":"6db3619396719772986e51789a05eb2d73c7ca0f","seq":1,"ms":-76,"op":"source.context"}
 {"source":"watcher","path":".vscode","doc":1,"seq":2,"ms":-76,"op":"fs.create"}
 {"source":"watcher","path":".vscode/build","doc":2,"seq":3,"ms":-76,"op":"fs.create"}
+{"seq":4,"ms":60588,"op":"end"}
