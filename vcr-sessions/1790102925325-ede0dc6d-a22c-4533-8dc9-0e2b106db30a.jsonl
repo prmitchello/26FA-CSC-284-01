@@ -1,3 +1,5 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-09-22T18:48:45.325Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"b488d905-4860-47e6-8a1f-db1f04109026","sourceWindowId":"d2bbaf31-b31c-4e59-97ee-242006912f99","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"6db3619396719772986e51789a05eb2d73c7ca0f","seq":1,"ms":-263,"op":"source.context"}
 {"text":"{\n    \"name\": \"Mitchello Pierre-Rene\"\n}\n","version":1,"path":"student.json","snapshot":true,"doc":1,"seq":2,"ms":-263,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":40,"text":""}],"doc":1,"seq":3,"ms":135435,"op":"edit"}
+{"seq":4,"ms":149479,"op":"end"}
