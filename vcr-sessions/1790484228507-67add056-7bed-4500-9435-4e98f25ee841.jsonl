@@ -33,3 +33,8 @@
 {"text":"{\n\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n\n}\n\n\n","version":1,"snapshot":true,"doc":2,"seq":32,"ms":534561,"op":"snap"}
 {"doc":2,"seq":33,"ms":539715,"op":"close"}
 {"text":"{\n\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n\n}\n\n\n","version":1,"snapshot":true,"doc":2,"seq":34,"ms":617291,"op":"snap"}
+{"doc":2,"seq":35,"ms":1179184,"op":"close"}
+{"doc":1,"seq":36,"ms":1188877,"op":"save"}
+{"doc":3,"seq":37,"ms":1188880,"op":"save"}
+{"doc":1,"seq":38,"ms":1194010,"op":"close"}
+{"doc":3,"seq":39,"ms":1195266,"op":"close"}
