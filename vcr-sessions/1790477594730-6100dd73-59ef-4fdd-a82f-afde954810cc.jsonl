@@ -25,3 +25,32 @@
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":7,"seq":24,"ms":332767,"op":"snap"}
 {"doc":7,"seq":25,"ms":336175,"op":"close"}
 {"text":"{\n    // Use IntelliSense to learn about possible attributes.\n    // Hover to view descriptions of existing attributes.\n    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387\n    \"version\": \"0.2.0\",\n    \"configurations\": []\n}","version":1,"snapshot":true,"doc":5,"seq":26,"ms":336183,"op":"snap"}
+{"doc":5,"seq":27,"ms":338050,"op":"close"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-sessions\": true,\n        \"files.autoSave\": true,\n\n    }\n}\n","version":1,"snapshot":true,"doc":4,"seq":28,"ms":338060,"op":"snap"}
+{"version":2,"changes":[{"offset":6,"length":0,"text":"\n    "}],"doc":4,"seq":29,"ms":345423,"op":"edit"}
+{"version":3,"changes":[{"offset":11,"length":0,"text":"\n    "}],"doc":4,"seq":30,"ms":345578,"op":"edit"}
+{"version":4,"changes":[{"offset":16,"length":0,"text":"\n    "}],"doc":4,"seq":31,"ms":345721,"op":"edit"}
+{"version":5,"changes":[{"offset":12,"length":4,"text":""},{"offset":7,"length":4,"text":""},{"offset":2,"length":4,"text":""}],"doc":4,"seq":32,"ms":346730,"op":"edit"}
+{"doc":4,"seq":33,"ms":346751,"op":"save"}
+{"version":6,"changes":[{"offset":1,"length":0,"text":"\n    "}],"doc":4,"seq":34,"ms":347625,"op":"edit"}
+{"doc":4,"seq":35,"ms":348643,"op":"save"}
+{"version":7,"changes":[{"offset":2,"length":4,"text":""},{"offset":1,"length":0,"text":"\n    "}],"doc":4,"seq":36,"ms":352742,"op":"edit"}
+{"version":8,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":6,"length":0,"text":"\"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-sessions\": true,\n        \"files.autoSave\": true,"}],"doc":4,"seq":37,"ms":353608,"op":"edit"}
+{"doc":4,"seq":38,"ms":354622,"op":"save"}
+{"version":9,"changes":[{"offset":104,"length":23,"text":""}],"doc":4,"seq":39,"ms":361890,"op":"edit"}
+{"version":10,"changes":[{"offset":268,"length":0,"text":"\n    "}],"doc":4,"seq":40,"ms":363161,"op":"edit"}
+{"version":11,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":273,"length":0,"text":"\"files.autoSave\": true,"}],"doc":4,"seq":41,"ms":363429,"op":"edit"}
+{"version":12,"changes":[{"offset":9,"length":1,"text":""}],"doc":4,"seq":42,"ms":371941,"op":"edit"}
+{"version":13,"changes":[{"offset":8,"length":1,"text":""}],"doc":4,"seq":43,"ms":372350,"op":"edit"}
+{"version":14,"changes":[{"offset":7,"length":1,"text":""}],"doc":4,"seq":44,"ms":373008,"op":"edit"}
+{"version":15,"changes":[{"offset":42,"length":1,"text":""}],"doc":4,"seq":45,"ms":376142,"op":"edit"}
+{"version":16,"changes":[{"offset":41,"length":1,"text":""}],"doc":4,"seq":46,"ms":376282,"op":"edit"}
+{"version":17,"changes":[{"offset":40,"length":1,"text":""}],"doc":4,"seq":47,"ms":378129,"op":"edit"}
+{"version":18,"changes":[{"offset":68,"length":1,"text":""}],"doc":4,"seq":48,"ms":379873,"op":"edit"}
+{"version":19,"changes":[{"offset":67,"length":1,"text":""}],"doc":4,"seq":49,"ms":380056,"op":"edit"}
+{"version":20,"changes":[{"offset":66,"length":1,"text":""}],"doc":4,"seq":50,"ms":380488,"op":"edit"}
+{"version":21,"changes":[{"offset":131,"length":89,"text":""}],"doc":4,"seq":51,"ms":391826,"op":"edit"}
+{"version":22,"changes":[{"offset":127,"length":4,"text":""}],"doc":4,"seq":52,"ms":392894,"op":"edit"}
+{"version":23,"changes":[{"offset":123,"length":4,"text":""}],"doc":4,"seq":53,"ms":394019,"op":"edit"}
+{"version":24,"changes":[{"offset":122,"length":1,"text":""}],"doc":4,"seq":54,"ms":394782,"op":"edit"}
+{"version":25,"changes":[{"offset":131,"length":23,"text":""}],"doc":4,"seq":55,"ms":397038,"op":"edit"}
