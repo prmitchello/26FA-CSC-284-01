@@ -23,3 +23,9 @@
 {"version":2,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":5,"length":130,"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    }\n}"}],"doc":1,"seq":22,"ms":1401140,"op":"edit"}
 {"version":3,"changes":[{"offset":177,"length":1,"text":""}],"doc":1,"seq":23,"ms":1409900,"op":"edit"}
 {"version":4,"changes":[{"offset":141,"length":4,"text":""}],"doc":1,"seq":24,"ms":1411718,"op":"edit"}
+{"version":5,"changes":[{"offset":141,"length":31,"text":""}],"doc":1,"seq":25,"ms":1416399,"op":"edit"}
+{"version":6,"changes":[{"offset":138,"length":0,"text":"\n    "}],"doc":1,"seq":26,"ms":1419251,"op":"edit"}
+{"version":7,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":143,"length":0,"text":"\"files.autoSave\": \"afterDelay\","}],"doc":1,"seq":27,"ms":1420763,"op":"edit"}
+{"version":8,"changes":[{"offset":5,"length":1,"text":""}],"doc":1,"seq":28,"ms":1425456,"op":"edit"}
+{"version":9,"changes":[{"offset":137,"length":0,"text":","}],"doc":1,"seq":29,"ms":1431823,"op":"edit"}
+{"version":10,"changes":[{"offset":173,"length":1,"text":""}],"doc":1,"seq":30,"ms":1433573,"op":"edit"}
