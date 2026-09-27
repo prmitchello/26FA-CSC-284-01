@@ -2,3 +2,4 @@
 {"branch":"main","commit":"aa6e2058735a1f46bee6a5ca24c391004f8f08dd","seq":1,"ms":-837,"op":"source.context"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-837,"op":"snap"}
 {"doc":1,"seq":3,"ms":178945,"op":"close"}
+{"seq":4,"ms":816691,"op":"end"}
