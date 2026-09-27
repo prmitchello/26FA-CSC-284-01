@@ -6,3 +6,6 @@
 {"text":"{\n    \"version\": 1,\n    \"trackedFolders\": [\n        \"exercises/module_01\",\n        \"exercises/module_02\",\n        \"exercises/module_03\",\n        \"assignments/assignment_01\"\n    ]\n}","version":1,"path":"vcr-recording.json","snapshot":true,"doc":3,"seq":5,"ms":1203698,"op":"snap"}
 {"doc":3,"seq":6,"ms":1211336,"op":"close"}
 {"text":"# Auto detect text files and perform LF normalization\n* text=auto\n","version":1,"path":".gitattributes","snapshot":true,"doc":4,"seq":7,"ms":1211347,"op":"snap"}
+{"doc":4,"seq":8,"ms":1252595,"op":"close"}
+{"text":"\n#include <iostream>\nusing namespace std;\nclass Animal{\n\npublic:\n\n\nvoid speak(){\n    cout<<\"sound\";\n}\n\n\n\n\n\n\n};\nclass Dog : Animal {\n\n\npublic:\n\nvoid speak(){\n\n    cout<<\"woof\";\n}\n\n\n};\n\nint main(){\n\n\n    Dog p;\n\n    Animal A;\n\n    A.speak();\n    p.speak();\n\n    Animal a = new Dog();\n\na.speak();\n\n\n    return 0;\n}\n","version":1,"path":"exercises/Week3_module3/vritualClass.cpp","snapshot":true,"doc":5,"seq":9,"ms":1271704,"op":"snap"}
+{"doc":5,"seq":10,"ms":1281005,"op":"close"}
