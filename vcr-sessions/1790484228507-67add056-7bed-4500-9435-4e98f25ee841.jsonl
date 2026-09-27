@@ -32,3 +32,4 @@
 {"doc":4,"seq":31,"ms":534550,"op":"close"}
 {"text":"{\n\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n\n}\n\n\n","version":1,"snapshot":true,"doc":2,"seq":32,"ms":534561,"op":"snap"}
 {"doc":2,"seq":33,"ms":539715,"op":"close"}
+{"text":"{\n\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n\n}\n\n\n","version":1,"snapshot":true,"doc":2,"seq":34,"ms":617291,"op":"snap"}
