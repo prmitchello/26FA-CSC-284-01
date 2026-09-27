@@ -12,3 +12,22 @@
 {"text":"{\n\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n\n}\n\n\n","version":1,"snapshot":true,"doc":2,"seq":11,"ms":476842,"op":"snap"}
 {"doc":2,"seq":12,"ms":478532,"op":"close"}
 {"text":"{\n    // Use IntelliSense to learn about possible attributes.\n    // Hover to view descriptions of existing attributes.\n    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387\n    \"version\": \"0.2.0\",\n    \"configurations\": []\n}","version":1,"path":".vscode/launch.json","snapshot":true,"doc":4,"seq":13,"ms":478544,"op":"snap"}
+{"doc":4,"seq":14,"ms":480245,"op":"close"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":1,"seq":15,"ms":480256,"op":"snap"}
+{"doc":1,"seq":16,"ms":480267,"op":"close"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":1,"seq":17,"ms":480268,"op":"snap"}
+{"version":2,"changes":[{"offset":286,"length":1,"text":""}],"doc":1,"seq":18,"ms":485100,"op":"edit"}
+{"version":3,"changes":[{"offset":285,"length":1,"text":""}],"doc":1,"seq":19,"ms":486439,"op":"edit"}
+{"version":4,"changes":[{"offset":285,"length":0,"text":"2"}],"doc":1,"seq":20,"ms":486701,"op":"edit"}
+{"version":5,"changes":[{"offset":286,"length":0,"text":"6"}],"doc":1,"seq":21,"ms":487440,"op":"edit"}
+{"version":6,"changes":[{"offset":250,"length":1,"text":""}],"doc":1,"seq":22,"ms":491094,"op":"edit"}
+{"version":7,"changes":[{"offset":249,"length":1,"text":""}],"doc":1,"seq":23,"ms":491318,"op":"edit"}
+{"version":8,"changes":[{"offset":249,"length":0,"text":"2"}],"doc":1,"seq":24,"ms":491465,"op":"edit"}
+{"version":9,"changes":[{"offset":250,"length":0,"text":"6"}],"doc":1,"seq":25,"ms":491898,"op":"edit"}
+{"version":10,"changes":[{"offset":250,"length":1,"text":""}],"doc":1,"seq":26,"ms":495622,"op":"edit"}
+{"version":11,"changes":[{"offset":250,"length":0,"text":"3"}],"doc":1,"seq":27,"ms":495873,"op":"edit"}
+{"text":"build/*\n!build/.gitkeep\n","version":1,"path":".vscode/.gitignore","snapshot":true,"doc":5,"seq":28,"ms":520078,"op":"snap"}
+{"doc":5,"seq":29,"ms":533262,"op":"close"}
+{"text":"{\n    // Use IntelliSense to learn about possible attributes.\n    // Hover to view descriptions of existing attributes.\n    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387\n    \"version\": \"0.2.0\",\n    \"configurations\": []\n}","version":1,"snapshot":true,"doc":4,"seq":30,"ms":533274,"op":"snap"}
+{"doc":4,"seq":31,"ms":534550,"op":"close"}
+{"text":"{\n\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n\n}\n\n\n","version":1,"snapshot":true,"doc":2,"seq":32,"ms":534561,"op":"snap"}
