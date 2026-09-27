@@ -20,3 +20,6 @@
 {"doc":7,"seq":19,"ms":1338285,"op":"close"}
 {"doc":2,"seq":20,"ms":1338314,"op":"close"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":2,"seq":21,"ms":1338314,"op":"snap"}
+{"version":2,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":5,"length":130,"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    }\n}"}],"doc":1,"seq":22,"ms":1401140,"op":"edit"}
+{"version":3,"changes":[{"offset":177,"length":1,"text":""}],"doc":1,"seq":23,"ms":1409900,"op":"edit"}
+{"version":4,"changes":[{"offset":141,"length":4,"text":""}],"doc":1,"seq":24,"ms":1411718,"op":"edit"}
