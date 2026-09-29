@@ -2,3 +2,9 @@
 {"branch":"main","commit":"aa6e2058735a1f46bee6a5ca24c391004f8f08dd","seq":1,"ms":-730,"op":"source.context"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-730,"op":"snap"}
 {"doc":1,"seq":3,"ms":179075,"op":"close"}
+{"executionId":"3450b95b-bc73-4cc3-9ac1-22faaa104613","name":"C/C++: clang build active file","type":"cppbuild","path":".","doc":2,"seq":4,"ms":347632,"op":"task.start"}
+{"executionId":"3450b95b-bc73-4cc3-9ac1-22faaa104613","processId":-1,"doc":2,"seq":5,"ms":347652,"op":"task.processStart"}
+{"executionId":"3450b95b-bc73-4cc3-9ac1-22faaa104613","exitCode":0,"doc":2,"seq":6,"ms":347985,"op":"task.processEnd"}
+{"executionId":"3450b95b-bc73-4cc3-9ac1-22faaa104613","doc":2,"seq":7,"ms":347986,"op":"task.end"}
+{"executionId":"1a3500b2-f274-4648-bce4-c2c7edd154ea","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":8,"ms":348007,"op":"debug.start"}
+{"executionId":"1a3500b2-f274-4648-bce4-c2c7edd154ea","doc":2,"seq":9,"ms":356753,"op":"debug.end"}
