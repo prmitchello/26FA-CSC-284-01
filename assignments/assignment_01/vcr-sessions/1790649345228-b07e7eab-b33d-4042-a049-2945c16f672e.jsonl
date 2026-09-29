@@ -1407,3 +1407,6 @@
 {"version":882,"changes":[{"offset":534,"length":0,"text":"0"}],"doc":1,"seq":1406,"ms":7033582,"op":"edit"}
 {"version":883,"changes":[{"offset":506,"length":0,"text":"[]"}],"doc":1,"seq":1407,"ms":7036866,"op":"edit"}
 {"version":884,"changes":[{"offset":507,"length":0,"text":"0"}],"doc":1,"seq":1408,"ms":7037349,"op":"edit"}
+{"version":885,"changes":[{"offset":536,"length":0,"text":"."}],"doc":1,"seq":1409,"ms":7160046,"op":"edit"}
+{"version":886,"changes":[{"offset":537,"length":0,"text":"a"}],"doc":1,"seq":1410,"ms":7160229,"op":"edit"}
+{"version":887,"changes":[{"offset":538,"length":0,"text":"t"}],"doc":1,"seq":1411,"ms":7160594,"op":"edit"}
