@@ -786,3 +786,38 @@
 {"version":262,"changes":[{"offset":1822,"length":0,"text":"i"}],"doc":1,"seq":785,"ms":4256381,"op":"edit"}
 {"version":263,"changes":[{"offset":1824,"length":0,"text":"="}],"doc":1,"seq":786,"ms":4257859,"op":"edit"}
 {"version":264,"changes":[{"offset":1825,"length":0,"text":"="}],"doc":1,"seq":787,"ms":4258540,"op":"edit"}
+{"version":265,"changes":[{"offset":1826,"length":0,"text":"f"}],"doc":1,"seq":788,"ms":4260813,"op":"edit"}
+{"version":266,"changes":[{"offset":1827,"length":0,"text":"u"}],"doc":1,"seq":789,"ms":4260921,"op":"edit"}
+{"version":267,"changes":[{"offset":1828,"length":0,"text":"l"}],"doc":1,"seq":790,"ms":4261264,"op":"edit"}
+{"version":268,"changes":[{"offset":1829,"length":0,"text":"l"}],"doc":1,"seq":791,"ms":4261434,"op":"edit"}
+{"version":269,"changes":[{"offset":1830,"length":0,"text":"N"}],"doc":1,"seq":792,"ms":4261773,"op":"edit"}
+{"version":270,"changes":[{"offset":1831,"length":0,"text":"a"}],"doc":1,"seq":793,"ms":4261921,"op":"edit"}
+{"version":271,"changes":[{"offset":1832,"length":0,"text":"m"}],"doc":1,"seq":794,"ms":4262137,"op":"edit"}
+{"version":272,"changes":[{"offset":1833,"length":0,"text":"e"}],"doc":1,"seq":795,"ms":4262220,"op":"edit"}
+{"version":273,"changes":[{"offset":1834,"length":0,"text":";"}],"doc":1,"seq":796,"ms":4263077,"op":"edit"}
+{"version":274,"changes":[{"offset":1842,"length":4,"text":""}],"doc":1,"seq":797,"ms":4266938,"op":"edit"}
+{"version":275,"changes":[{"offset":1844,"length":12,"text":""}],"doc":1,"seq":798,"ms":4269654,"op":"edit"}
+{"version":276,"changes":[{"offset":1843,"length":1,"text":""}],"doc":1,"seq":799,"ms":4270007,"op":"edit"}
+{"version":277,"reason":1,"changes":[{"offset":1843,"length":0,"text":"return found;"}],"doc":1,"seq":800,"ms":4290775,"op":"edit"}
+{"version":278,"reason":1,"changes":[{"offset":1842,"length":0,"text":"\n   "}],"doc":1,"seq":801,"ms":4291093,"op":"edit"}
+{"version":279,"reason":1,"changes":[{"offset":1824,"length":11,"text":""}],"doc":1,"seq":802,"ms":4291404,"op":"edit"}
+{"version":280,"reason":1,"changes":[{"offset":1821,"length":3,"text":""}],"doc":1,"seq":803,"ms":4291706,"op":"edit"}
+{"version":281,"reason":1,"changes":[{"offset":1810,"length":11,"text":"stu"}],"doc":1,"seq":804,"ms":4292045,"op":"edit"}
+{"version":282,"reason":1,"changes":[{"offset":1809,"length":4,"text":""}],"doc":1,"seq":805,"ms":4292338,"op":"edit"}
+{"version":283,"reason":1,"changes":[{"offset":1794,"length":15,"text":"        "}],"doc":1,"seq":806,"ms":4292681,"op":"edit"}
+{"version":284,"reason":1,"changes":[{"offset":1793,"length":9,"text":""}],"doc":1,"seq":807,"ms":4293065,"op":"edit"}
+{"version":285,"reason":1,"changes":[{"offset":1746,"length":2,"text":""}],"doc":1,"seq":808,"ms":4293443,"op":"edit"}
+{"version":286,"reason":1,"changes":[{"offset":1764,"length":1,"text":""}],"doc":1,"seq":809,"ms":4293800,"op":"edit"}
+{"version":287,"reason":1,"changes":[{"offset":1760,"length":2,"text":""}],"doc":1,"seq":810,"ms":4294117,"op":"edit"}
+{"version":288,"reason":1,"changes":[{"offset":1807,"length":5,"text":"studentList[i]"}],"doc":1,"seq":811,"ms":4294380,"op":"edit"}
+{"version":289,"reason":1,"changes":[{"offset":1769,"length":1,"text":""}],"doc":1,"seq":812,"ms":4294713,"op":"edit"}
+{"version":290,"reason":1,"changes":[{"offset":1776,"length":1,"text":""}],"doc":1,"seq":813,"ms":4295048,"op":"edit"}
+{"version":291,"reason":1,"changes":[{"offset":1773,"length":3,"text":""}],"doc":1,"seq":814,"ms":4295361,"op":"edit"}
+{"version":292,"reason":1,"changes":[{"offset":1762,"length":11,"text":""}],"doc":1,"seq":815,"ms":4295656,"op":"edit"}
+{"version":293,"reason":1,"changes":[{"offset":1760,"length":2,"text":""}],"doc":1,"seq":816,"ms":4295985,"op":"edit"}
+{"version":294,"reason":1,"changes":[{"offset":1754,"length":6,"text":""}],"doc":1,"seq":817,"ms":4296316,"op":"edit"}
+{"version":295,"reason":1,"changes":[{"offset":1747,"length":7,"text":"cout << endl\n                 << \"Student not found in the registery \\n\"\n                 << endl;"}],"doc":1,"seq":818,"ms":4296589,"op":"edit"}
+{"version":296,"reason":1,"changes":[{"offset":1885,"length":3,"text":""}],"doc":1,"seq":819,"ms":4296864,"op":"edit"}
+{"version":297,"reason":1,"changes":[{"offset":1874,"length":11,"text":""}],"doc":1,"seq":820,"ms":4297241,"op":"edit"}
+{"version":298,"reason":1,"changes":[{"offset":1874,"length":0,"text":"noStudentFlag"}],"doc":1,"seq":821,"ms":4297585,"op":"edit"}
+{"version":299,"reason":1,"changes":[{"offset":1603,"length":98,"text":"return studentList[i];"}],"doc":1,"seq":822,"ms":4297890,"op":"edit"}
