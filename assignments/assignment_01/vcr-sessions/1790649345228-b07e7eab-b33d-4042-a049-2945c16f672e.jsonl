@@ -197,3 +197,4 @@
 {"version":103,"changes":[{"offset":915,"length":0,"text":"n"}],"doc":3,"seq":196,"ms":1385291,"op":"edit"}
 {"version":104,"changes":[{"offset":916,"length":0,"text":"c"}],"doc":3,"seq":197,"ms":1385451,"op":"edit"}
 {"version":105,"changes":[{"offset":917,"length":0,"text":"e"}],"doc":3,"seq":198,"ms":1385495,"op":"edit"}
+{"version":106,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1219,"length":7,"text":"studentInstance"},{"offset":1154,"length":7,"text":"studentInstance"},{"offset":1088,"length":7,"text":"studentInstance"},{"offset":1024,"length":7,"text":"studentInstance"},{"offset":960,"length":7,"text":"studentInstance"}],"doc":3,"seq":199,"ms":1458096,"op":"edit"}
