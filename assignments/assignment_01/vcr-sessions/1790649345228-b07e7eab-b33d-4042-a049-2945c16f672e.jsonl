@@ -633,3 +633,57 @@
 {"version":160,"changes":[{"offset":252,"length":131,"text":""}],"doc":1,"seq":632,"ms":3537492,"op":"edit"}
 {"version":161,"changes":[{"offset":248,"length":4,"text":""}],"doc":1,"seq":633,"ms":3538350,"op":"edit"}
 {"version":162,"changes":[{"offset":247,"length":1,"text":""}],"doc":1,"seq":634,"ms":3538856,"op":"edit"}
+{"version":163,"changes":[{"offset":544,"length":0,"text":"\n    "}],"doc":1,"seq":635,"ms":3541681,"op":"edit"}
+{"version":164,"changes":[{"offset":549,"length":0,"text":"\n    "},{"offset":545,"length":4,"text":""}],"doc":1,"seq":636,"ms":3542204,"op":"edit"}
+{"version":165,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":550,"length":0,"text":"int User_idInput;\n    cout << \"Please enter student ID \";\n    cin >> User_idInput;\n    cin.ignore();\n    Bobby.setID(User_idInput);"}],"doc":1,"seq":637,"ms":3542829,"op":"edit"}
+{"executionId":"b1a8ed60-40df-48d9-be57-4183c17aef8f","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"^C\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                    \r \r","doc":2,"seq":638,"ms":3546803,"op":"terminal.output"}
+{"executionId":"b1a8ed60-40df-48d9-be57-4183c17aef8f","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":130,"doc":2,"seq":639,"ms":3546804,"op":"terminal.end"}
+{"version":166,"changes":[{"offset":248,"length":1,"text":""}],"doc":1,"seq":640,"ms":3556513,"op":"edit"}
+{"doc":1,"seq":641,"ms":3556523,"op":"save"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"doc":2,"seq":642,"ms":3557000,"op":"terminal.start"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\u001b]633;C\u0007","doc":2,"seq":643,"ms":3557052,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"please enter Student full name ","doc":2,"seq":644,"ms":3557215,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"D","doc":2,"seq":645,"ms":3558970,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"a","doc":2,"seq":646,"ms":3559084,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"n","doc":2,"seq":647,"ms":3559203,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"i","doc":2,"seq":648,"ms":3559299,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"e","doc":2,"seq":649,"ms":3559414,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"l","doc":2,"seq":650,"ms":3559555,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\r\nplease enter student age ","doc":2,"seq":651,"ms":3560289,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"2","doc":2,"seq":652,"ms":3561557,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"3","doc":2,"seq":653,"ms":3561669,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\r\nPlease enter student ID ","doc":2,"seq":654,"ms":3561815,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"5","doc":2,"seq":655,"ms":3564649,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"6","doc":2,"seq":656,"ms":3564781,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"7","doc":2,"seq":657,"ms":3564847,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"1","doc":2,"seq":658,"ms":3566495,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"2","doc":2,"seq":659,"ms":3566631,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\r\nPlease enter student's major ","doc":2,"seq":660,"ms":3567051,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"H","doc":2,"seq":661,"ms":3569957,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"u","doc":2,"seq":662,"ms":3570114,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"m","doc":2,"seq":663,"ms":3570248,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"a","doc":2,"seq":664,"ms":3570410,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"n","doc":2,"seq":665,"ms":3570507,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"i","doc":2,"seq":666,"ms":3570628,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"t","doc":2,"seq":667,"ms":3570798,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"i","doc":2,"seq":668,"ms":3570924,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"e","doc":2,"seq":669,"ms":3571167,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"s","doc":2,"seq":670,"ms":3571332,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\r\nPlease enter the student's email ","doc":2,"seq":671,"ms":3571512,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"D","doc":2,"seq":672,"ms":3576632,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"a","doc":2,"seq":673,"ms":3576848,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"n","doc":2,"seq":674,"ms":3576981,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"i","doc":2,"seq":675,"ms":3577078,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"e","doc":2,"seq":676,"ms":3577138,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"l","doc":2,"seq":677,"ms":3577365,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"@","doc":2,"seq":678,"ms":3579569,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"b","doc":2,"seq":679,"ms":3580209,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"h","doc":2,"seq":680,"ms":3580331,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"c","doc":2,"seq":681,"ms":3580506,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"c","doc":2,"seq":682,"ms":3580684,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":".","doc":2,"seq":683,"ms":3580859,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"e","doc":2,"seq":684,"ms":3580948,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"d","doc":2,"seq":685,"ms":3581072,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"u","doc":2,"seq":686,"ms":3581558,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\r\n\r\nStudent not found in the registery \r\n\r\nstuednt name is N/A\r\nstuednt age is -1\r\nstuednt ID is -1\r\nstuednt major is N/A\r\nstuednt email is N/A\r\n\r\nstuednt name is Daniel\r\nstuednt age is 23\r\nstuednt ID is 56712\r\nstuednt major is Humanities\r\nstuednt email is Daniel@bhcc.edu\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                    \r \r","doc":2,"seq":687,"ms":3582219,"op":"terminal.output"}
+{"executionId":"d6840cf8-633a-4033-9f34-6e31c6e61700","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":0,"doc":2,"seq":688,"ms":3582220,"op":"terminal.end"}
