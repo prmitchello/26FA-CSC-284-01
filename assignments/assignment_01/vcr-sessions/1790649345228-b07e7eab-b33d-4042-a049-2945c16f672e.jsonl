@@ -180,3 +180,20 @@
 {"version":86,"changes":[{"offset":905,"length":1,"text":""}],"doc":3,"seq":179,"ms":1375985,"op":"edit"}
 {"version":87,"changes":[{"offset":904,"length":1,"text":""}],"doc":3,"seq":180,"ms":1376138,"op":"edit"}
 {"version":88,"changes":[{"offset":903,"length":1,"text":""}],"doc":3,"seq":181,"ms":1376532,"op":"edit"}
+{"version":89,"changes":[{"offset":903,"length":0,"text":"s"}],"doc":3,"seq":182,"ms":1380424,"op":"edit"}
+{"version":90,"changes":[{"offset":904,"length":0,"text":"t"}],"doc":3,"seq":183,"ms":1380740,"op":"edit"}
+{"version":91,"changes":[{"offset":905,"length":0,"text":"u"}],"doc":3,"seq":184,"ms":1380963,"op":"edit"}
+{"version":92,"changes":[{"offset":906,"length":0,"text":"d"}],"doc":3,"seq":185,"ms":1381108,"op":"edit"}
+{"version":93,"changes":[{"offset":907,"length":0,"text":"e"}],"doc":3,"seq":186,"ms":1381259,"op":"edit"}
+{"version":94,"changes":[{"offset":908,"length":0,"text":"n"}],"doc":3,"seq":187,"ms":1381401,"op":"edit"}
+{"version":95,"changes":[{"offset":909,"length":0,"text":"t"}],"doc":3,"seq":188,"ms":1381596,"op":"edit"}
+{"version":96,"changes":[{"offset":910,"length":0,"text":"I"}],"doc":3,"seq":189,"ms":1382497,"op":"edit"}
+{"version":97,"changes":[{"offset":911,"length":0,"text":"s"}],"doc":3,"seq":190,"ms":1382777,"op":"edit"}
+{"version":98,"changes":[{"offset":911,"length":1,"text":""}],"doc":3,"seq":191,"ms":1384257,"op":"edit"}
+{"version":99,"changes":[{"offset":911,"length":0,"text":"n"}],"doc":3,"seq":192,"ms":1384642,"op":"edit"}
+{"version":100,"changes":[{"offset":912,"length":0,"text":"s"}],"doc":3,"seq":193,"ms":1384777,"op":"edit"}
+{"text":"#include <string>\nusing namespace std;\n\nclass Student{\n\n\n    private:\n\n    int id;\n    string name;\n    int age;\n    string major;\n    string email;\n\n\n\n\n    public:\n\n    Student(){\n\n    }\n    Student(int id, string name, int age, string major, string email){\n\n        id=id;\n        name=name;\n        age=age;\n        major=major;\n        email=email;\n\n    }\n\n    void setID(int ID){\n        id=ID;\n    }\n    int getID(){\n        return id;\n    }\n\n    void setName(string name){\n        name=name;\n    }\n    string getName(){\n        return name;\n    }\n\n    void setAge(int age){\n        age=age;\n    }\n    int getAge(){\n        return age;\n    }\n\n    void setMajor(string major){\n        major=major;\n    }\n    string getMajor(){\n        return major;\n    }\n\n    void setEmail(string email){\n        email=email;\n    }\n    string getEmail(){\n        return email;\n    }\n\n    void printStudent(Student studentInst){\n\n        cout << \"stuednt name is \" << example.getName()<< endl;\n        cout << \"stuednt name is \" << example.getID() << endl;\n        cout << \"stuednt email is \" << example.getEmail()<< endl;\n        cout << \"stuednt major is \" << example.getMajor() << endl;\n        cout << \"stuednt age is \" << example.getAge()<< endl;\n\n    }\n\n\n\n};\n","version":101,"snapshot":true,"doc":3,"seq":194,"ms":1384988,"op":"edit"}
+{"version":102,"changes":[{"offset":914,"length":0,"text":"a"}],"doc":3,"seq":195,"ms":1385164,"op":"edit"}
+{"version":103,"changes":[{"offset":915,"length":0,"text":"n"}],"doc":3,"seq":196,"ms":1385291,"op":"edit"}
+{"version":104,"changes":[{"offset":916,"length":0,"text":"c"}],"doc":3,"seq":197,"ms":1385451,"op":"edit"}
+{"version":105,"changes":[{"offset":917,"length":0,"text":"e"}],"doc":3,"seq":198,"ms":1385495,"op":"edit"}
