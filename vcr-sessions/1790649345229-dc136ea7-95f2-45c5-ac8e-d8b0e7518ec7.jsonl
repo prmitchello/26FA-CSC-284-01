@@ -40,3 +40,4 @@
 {"executionId":"3f738d63-287d-4111-bed5-ce2db2356a5b","exitCode":0,"doc":2,"seq":39,"ms":2638706,"op":"task.processEnd"}
 {"executionId":"3f738d63-287d-4111-bed5-ce2db2356a5b","doc":2,"seq":40,"ms":2638707,"op":"task.end"}
 {"executionId":"5c102b4c-0000-4dbc-8b06-ca6ce77d28ba","name":"C/C++: clang++ build and debug active file 2","type":"cppdbg","noDebug":true,"doc":2,"seq":41,"ms":2638711,"op":"debug.start"}
+{"executionId":"5c102b4c-0000-4dbc-8b06-ca6ce77d28ba","doc":2,"seq":42,"ms":2650016,"op":"debug.end"}
