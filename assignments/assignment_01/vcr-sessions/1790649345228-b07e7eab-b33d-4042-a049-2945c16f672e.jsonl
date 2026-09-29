@@ -336,3 +336,21 @@
 {"version":83,"reason":1,"changes":[{"offset":1604,"length":0,"text":"return eturnVoidFlag;"}],"doc":1,"seq":335,"ms":2482074,"op":"edit"}
 {"version":132,"changes":[{"offset":1097,"length":4,"text":"I"}],"doc":3,"seq":336,"ms":2534563,"op":"edit"}
 {"version":133,"changes":[{"offset":1098,"length":0,"text":"D"}],"doc":3,"seq":337,"ms":2534674,"op":"edit"}
+{"version":84,"changes":[{"offset":901,"length":13,"text":""}],"doc":1,"seq":338,"ms":2593117,"op":"edit"}
+{"version":85,"changes":[{"offset":861,"length":0,"text":"\n    "}],"doc":1,"seq":339,"ms":2594352,"op":"edit"}
+{"version":86,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":866,"length":0,"text":"cin.ignore();"}],"doc":1,"seq":340,"ms":2595066,"op":"edit"}
+{"version":87,"changes":[{"offset":720,"length":0,"text":"\n    "}],"doc":1,"seq":341,"ms":2598087,"op":"edit"}
+{"version":88,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":725,"length":0,"text":"cin.ignore();"}],"doc":1,"seq":342,"ms":2598421,"op":"edit"}
+{"version":89,"changes":[{"offset":587,"length":0,"text":"\n    "}],"doc":1,"seq":343,"ms":2600871,"op":"edit"}
+{"version":90,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":592,"length":0,"text":"cin.ignore();"}],"doc":1,"seq":344,"ms":2601229,"op":"edit"}
+{"version":91,"changes":[{"offset":463,"length":0,"text":"\n    "}],"doc":1,"seq":345,"ms":2603201,"op":"edit"}
+{"version":92,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":468,"length":0,"text":"cin.ignore();"}],"doc":1,"seq":346,"ms":2603923,"op":"edit"}
+{"version":93,"changes":[{"offset":332,"length":0,"text":"\n    "}],"doc":1,"seq":347,"ms":2605471,"op":"edit"}
+{"version":94,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":337,"length":0,"text":"cin.ignore();"}],"doc":1,"seq":348,"ms":2605784,"op":"edit"}
+{"version":95,"changes":[{"offset":987,"length":4,"text":""}],"doc":1,"seq":349,"ms":2618926,"op":"edit"}
+{"version":96,"changes":[{"offset":1607,"length":0,"text":"\n                 "},{"offset":1603,"length":0,"text":" "},{"offset":988,"length":1,"text":""}],"doc":1,"seq":350,"ms":2618937,"op":"edit"}
+{"doc":1,"seq":351,"ms":2618944,"op":"save"}
+{"doc":3,"seq":352,"ms":2618949,"op":"save"}
+{"executionId":"7feaa2f1-4c1f-45e1-9499-b62bf1356dbe","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"doc":2,"seq":353,"ms":2638747,"op":"terminal.start"}
+{"executionId":"7feaa2f1-4c1f-45e1-9499-b62bf1356dbe","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\u001b]633;C\u0007","doc":2,"seq":354,"ms":2638798,"op":"terminal.output"}
+{"executionId":"7feaa2f1-4c1f-45e1-9499-b62bf1356dbe","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"Please enter student ID ","doc":2,"seq":355,"ms":2638957,"op":"terminal.output"}
