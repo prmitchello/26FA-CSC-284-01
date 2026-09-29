@@ -289,3 +289,9 @@
 {"executionId":"59d575bc-2d0e-4945-9ada-8ab02f10d5fb","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"l","doc":2,"seq":288,"ms":2271877,"op":"terminal.output"}
 {"executionId":"59d575bc-2d0e-4945-9ada-8ab02f10d5fb","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","data":"\r\nStudent not found in the registery\r\nstuednt name is \r\nstuednt name is 123\r\nstuednt email is \r\nstuednt major is \r\nstuednt age is -2021502592\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                    \r \r","doc":2,"seq":289,"ms":2272116,"op":"terminal.output"}
 {"executionId":"59d575bc-2d0e-4945-9ada-8ab02f10d5fb","terminalId":"80605672-f55a-43b3-999e-aa610e4cb644","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":0,"doc":2,"seq":290,"ms":2272117,"op":"terminal.end"}
+{"version":66,"changes":[{"offset":1530,"length":0,"text":"e"}],"doc":1,"seq":291,"ms":2333075,"op":"edit"}
+{"version":67,"changes":[{"offset":1531,"length":0,"text":"n"}],"doc":1,"seq":292,"ms":2333231,"op":"edit"}
+{"version":68,"changes":[{"offset":1532,"length":0,"text":"d"}],"doc":1,"seq":293,"ms":2333347,"op":"edit"}
+{"version":69,"changes":[{"offset":1533,"length":0,"text":"l"}],"doc":1,"seq":294,"ms":2333472,"op":"edit"}
+{"version":70,"changes":[{"offset":1534,"length":0,"text":"<"}],"doc":1,"seq":295,"ms":2335798,"op":"edit"}
+{"version":71,"changes":[{"offset":1535,"length":0,"text":"<"}],"doc":1,"seq":296,"ms":2335953,"op":"edit"}
