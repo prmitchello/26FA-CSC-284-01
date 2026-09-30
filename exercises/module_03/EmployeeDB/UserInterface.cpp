@@ -9,18 +9,20 @@ using namespace std;
 using namespace Records;
 
 int displayMenu();
-void doHire(Database& db);
-void doFire(Database& db);
-void doPromote(Database& db);
+void doHire(Database &db);
+void doFire(Database &db);
+void doPromote(Database &db);
 
 int main()
 {
 	Database employeeDB;
 
-	bool done{ false };
-	while (!done) {
-		int selection{ displayMenu() };
-		switch (selection) {
+	bool done{false};
+	while (!done)
+	{
+		int selection{displayMenu()};
+		switch (selection)
+		{
 		case 0:
 			done = true;
 			break;
@@ -60,24 +62,24 @@ int displayMenu()
 	int selection;
 
 	cout << "\n"
-	<< "Employee Database\n"
-	<< "-----------------\n"
-	<< "1) Hire a new employee\n"
-	<< "2) Fire an employee\n"
-	<< "3) Promote an employee\n"
-	<< "4) List all employees\n"
-	<< "5) List all current employees\n"
-	<< "6) List all former employees\n"
-	<< "0) Quit\n"
-	<< "\n"
-	<<"---> ";
-	
+		 << "Employee Database\n"
+		 << "-----------------\n"
+		 << "1) Hire a new employee\n"
+		 << "2) Fire an employee\n"
+		 << "3) Promote an employee\n"
+		 << "4) List all employees\n"
+		 << "5) List all current employees\n"
+		 << "6) List all former employees\n"
+		 << "0) Quit\n"
+		 << "\n"
+		 << "---> ";
+
 	cin >> selection;
-	
+
 	return selection;
 }
 
-void doHire(Database& db)
+void doHire(Database &db)
 {
 	string firstName;
 	string lastName;
@@ -88,27 +90,30 @@ void doHire(Database& db)
 	cout << "Last name? ";
 	cin >> lastName;
 
-	auto& employee{ db.addEmployee(firstName, lastName) };
+	auto &employee{db.addEmployee(firstName, lastName)};
 	cout << std::format("Hired employee {} {} with employee number {}.",
-		firstName, lastName, employee.getEmployeeNumber());
+						firstName, lastName, employee.getEmployeeNumber());
 }
 
-void doFire(Database& db)
+void doFire(Database &db)
 {
 	int employeeNumber;
 	cout << "Employee number? ";
 	cin >> employeeNumber;
 
-	try {
-		auto& emp{ db.getEmployee(employeeNumber) };
+	try
+	{
+		auto &emp{db.getEmployee(employeeNumber)};
 		emp.fire();
 		cout << format("Employee {} terminated.", employeeNumber);
-	} catch (const std::logic_error& exception) {
+	}
+	catch (const std::logic_error &exception)
+	{
 		cerr << format("Unable to terminate employee: {}", exception.what());
 	}
 }
 
-void doPromote(Database& db)
+void doPromote(Database &db)
 {
 	int employeeNumber;
 	cout << "Employee number? ";
@@ -117,11 +122,15 @@ void doPromote(Database& db)
 	int raiseAmount;
 	cout << "How much of a raise? ";
 	cin >> raiseAmount;
+	,
 
-	try {
-		auto& emp{ db.getEmployee(employeeNumber) };
+	try
+	{
+		auto &emp{db.getEmployee(employeeNumber)};
 		emp.promote(raiseAmount);
-	} catch (const std::logic_error& exception) {
+	}
+	catch (const std::logic_error &exception)
+	{
 		cerr << format("Unable to promote employee: {}", exception.what());
 	}
-}
+};

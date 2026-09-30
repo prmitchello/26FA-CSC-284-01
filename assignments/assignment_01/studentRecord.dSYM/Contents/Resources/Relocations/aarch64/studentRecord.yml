@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord'
+relocations:     []
+...
