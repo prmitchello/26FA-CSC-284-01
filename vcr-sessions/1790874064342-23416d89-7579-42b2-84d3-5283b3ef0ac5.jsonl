@@ -2,3 +2,8 @@
 {"branch":"main","commit":"73258f685332b027df74e0b159d017a98915b186","seq":1,"ms":-979,"op":"source.context"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-979,"op":"snap"}
 {"doc":1,"seq":3,"ms":178808,"op":"close"}
+{"branch":"main","commit":"fc90b908c1dc36b73023f04f35ff716d965a2e4b","seq":4,"ms":8194352,"op":"source.context"}
+{"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","name":"C/C++: clang build active file","type":"cppbuild","path":".","doc":2,"seq":5,"ms":8194352,"op":"task.start"}
+{"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","processId":-1,"doc":2,"seq":6,"ms":8194373,"op":"task.processStart"}
+{"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","exitCode":-1,"doc":2,"seq":7,"ms":8194868,"op":"task.processEnd"}
+{"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","doc":2,"seq":8,"ms":8194869,"op":"task.end"}
