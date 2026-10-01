@@ -7,3 +7,8 @@
 {"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","processId":-1,"doc":2,"seq":6,"ms":8194373,"op":"task.processStart"}
 {"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","exitCode":-1,"doc":2,"seq":7,"ms":8194868,"op":"task.processEnd"}
 {"executionId":"9fd04380-5b60-489d-8855-e8c7dc6406cc","doc":2,"seq":8,"ms":8194869,"op":"task.end"}
+{"text":"struct Employee\n{\n    char firstInitial;\n    char lastInitial;\n    int employeeNumber;\n    int salary;\n};\n","version":1,"path":"exercises/Week1_Module_1/employee.h","snapshot":true,"doc":3,"seq":9,"ms":8347467,"op":"snap"}
+{"executionId":"7e15c4e5-2695-4e2e-81fe-50953bd1bc14","name":"C/C++: clang build active file","type":"cppbuild","doc":2,"seq":10,"ms":8362234,"op":"task.start"}
+{"executionId":"7e15c4e5-2695-4e2e-81fe-50953bd1bc14","processId":-1,"doc":2,"seq":11,"ms":8362246,"op":"task.processStart"}
+{"executionId":"7e15c4e5-2695-4e2e-81fe-50953bd1bc14","exitCode":-1,"doc":2,"seq":12,"ms":8362495,"op":"task.processEnd"}
+{"executionId":"7e15c4e5-2695-4e2e-81fe-50953bd1bc14","doc":2,"seq":13,"ms":8362496,"op":"task.end"}
