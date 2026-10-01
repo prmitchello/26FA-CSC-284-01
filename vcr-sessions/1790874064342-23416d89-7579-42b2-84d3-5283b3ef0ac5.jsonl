@@ -13,3 +13,7 @@
 {"executionId":"7e15c4e5-2695-4e2e-81fe-50953bd1bc14","exitCode":-1,"doc":2,"seq":12,"ms":8362495,"op":"task.processEnd"}
 {"executionId":"7e15c4e5-2695-4e2e-81fe-50953bd1bc14","doc":2,"seq":13,"ms":8362496,"op":"task.end"}
 {"doc":3,"seq":14,"ms":8368037,"op":"close"}
+{"executionId":"cfe46344-bc8e-4c83-9ce8-0bfcdc698002","name":"C/C++: clang build active file","type":"cppbuild","doc":2,"seq":15,"ms":8481230,"op":"task.start"}
+{"executionId":"cfe46344-bc8e-4c83-9ce8-0bfcdc698002","processId":-1,"doc":2,"seq":16,"ms":8481238,"op":"task.processStart"}
+{"executionId":"cfe46344-bc8e-4c83-9ce8-0bfcdc698002","exitCode":-1,"doc":2,"seq":17,"ms":8481520,"op":"task.processEnd"}
+{"executionId":"cfe46344-bc8e-4c83-9ce8-0bfcdc698002","doc":2,"seq":18,"ms":8481521,"op":"task.end"}
