@@ -1675,3 +1675,77 @@
 {"version":538,"reason":1,"changes":[{"offset":1804,"length":0,"text":","}],"doc":1,"seq":1674,"ms":5148082,"op":"edit"}
 {"version":539,"reason":1,"changes":[{"offset":1803,"length":1,"text":""}],"doc":1,"seq":1675,"ms":5149276,"op":"edit"}
 {"version":540,"reason":1,"changes":[{"offset":1987,"length":0,"text":" "}],"doc":1,"seq":1676,"ms":5151530,"op":"edit"}
+{"version":232,"changes":[{"offset":668,"length":1,"text":""}],"doc":2,"seq":1677,"ms":5158984,"op":"edit"}
+{"version":541,"changes":[{"offset":1987,"length":1,"text":""}],"doc":1,"seq":1678,"ms":5158994,"op":"edit"}
+{"doc":2,"seq":1679,"ms":5159021,"op":"save"}
+{"doc":1,"seq":1680,"ms":5159027,"op":"save"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"doc":3,"seq":1681,"ms":5161103,"op":"terminal.start"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\u001b]633;C\u0007","doc":3,"seq":1682,"ms":5161154,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1683,"ms":5161522,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":1684,"ms":5166046,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nplease enter Student full name ","doc":3,"seq":1685,"ms":5166187,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":1686,"ms":5167164,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\b \b","doc":3,"seq":1687,"ms":5167824,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"d","doc":3,"seq":1688,"ms":5168092,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"s","doc":3,"seq":1689,"ms":5168188,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nplease enter student age(18+) ","doc":3,"seq":1690,"ms":5168688,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":1691,"ms":5169484,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"3","doc":3,"seq":1692,"ms":5169556,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nPlease enter student ID(6 digits) ","doc":3,"seq":1693,"ms":5169713,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":1694,"ms":5170441,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":1695,"ms":5170618,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"3","doc":3,"seq":1696,"ms":5170854,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"4","doc":3,"seq":1697,"ms":5171144,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"5","doc":3,"seq":1698,"ms":5171415,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"6","doc":3,"seq":1699,"ms":5171735,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nPlease select the student's major a : Business, b: Eng, C: criminal Justice, d: medice, e: Math, f: Hum, g: others \r\nworks here","doc":3,"seq":1700,"ms":5171904,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"a","doc":3,"seq":1701,"ms":5173089,"op":"terminal.output"}
+{"executionId":"8c45957a-71ff-4c81-9850-006c4c8aab9f","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\ncheck callcheckcheck 5printnot found\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1702,"ms":5173655,"op":"terminal.output"}
+{"version":542,"reason":1,"changes":[{"offset":1987,"length":0,"text":" "}],"doc":1,"seq":1703,"ms":5179527,"op":"edit"}
+{"version":543,"reason":1,"changes":[{"offset":1987,"length":0,"text":"//"}],"doc":1,"seq":1704,"ms":5180433,"op":"edit"}
+{"version":544,"reason":1,"changes":[{"offset":2041,"length":1,"text":""},{"offset":2038,"length":1,"text":""},{"offset":2013,"length":1,"text":""}],"doc":1,"seq":1705,"ms":5180945,"op":"edit"}
+{"version":545,"reason":1,"changes":[{"offset":2046,"length":1,"text":""}],"doc":1,"seq":1706,"ms":5181385,"op":"edit"}
+{"version":546,"reason":1,"changes":[{"offset":2040,"length":5,"text":""}],"doc":1,"seq":1707,"ms":5181838,"op":"edit"}
+{"version":547,"reason":1,"changes":[{"offset":2040,"length":0,"text":"e"}],"doc":1,"seq":1708,"ms":5182418,"op":"edit"}
+{"version":548,"reason":1,"changes":[{"offset":2039,"length":3,"text":""}],"doc":1,"seq":1709,"ms":5182805,"op":"edit"}
+{"version":549,"reason":1,"changes":[{"offset":2024,"length":15,"text":""}],"doc":1,"seq":1710,"ms":5183158,"op":"edit"}
+{"version":550,"reason":1,"changes":[{"offset":2011,"length":2,"text":""}],"doc":1,"seq":1711,"ms":5183782,"op":"edit"}
+{"version":551,"reason":1,"changes":[{"offset":1989,"length":1,"text":""}],"doc":1,"seq":1712,"ms":5184349,"op":"edit"}
+{"version":552,"reason":1,"changes":[{"offset":1987,"length":2,"text":""}],"doc":1,"seq":1713,"ms":5184902,"op":"edit"}
+{"version":233,"reason":1,"changes":[{"offset":668,"length":0,"text":"\n"}],"doc":2,"seq":1714,"ms":5192680,"op":"edit"}
+{"version":234,"reason":1,"changes":[{"offset":667,"length":0,"text":"\n"}],"doc":2,"seq":1715,"ms":5193152,"op":"edit"}
+{"version":235,"reason":1,"changes":[{"offset":668,"length":0,"text":"    string string"}],"doc":2,"seq":1716,"ms":5193769,"op":"edit"}
+{"version":236,"reason":1,"changes":[{"offset":678,"length":7,"text":""}],"doc":2,"seq":1717,"ms":5194422,"op":"edit"}
+{"version":237,"reason":1,"changes":[{"offset":667,"length":11,"text":"    "}],"doc":2,"seq":1718,"ms":5195065,"op":"edit"}
+{"version":238,"reason":1,"changes":[{"offset":666,"length":5,"text":""}],"doc":2,"seq":1719,"ms":5195553,"op":"edit"}
+{"version":239,"reason":1,"changes":[{"offset":462,"length":0,"text":" "}],"doc":2,"seq":1720,"ms":5195976,"op":"edit"}
+{"version":240,"reason":1,"changes":[{"offset":462,"length":0,"text":"//"}],"doc":2,"seq":1721,"ms":5196416,"op":"edit"}
+{"version":241,"reason":1,"changes":[{"offset":3497,"length":0,"text":"std::"}],"doc":2,"seq":1722,"ms":5196822,"op":"edit"}
+{"version":242,"reason":1,"changes":[{"offset":3111,"length":0,"text":"std::"}],"doc":2,"seq":1723,"ms":5198040,"op":"edit"}
+{"version":243,"reason":1,"changes":[{"offset":384,"length":0,"text":"std::"}],"doc":2,"seq":1724,"ms":5198767,"op":"edit"}
+{"version":244,"reason":1,"changes":[{"offset":3932,"length":5,"text":""},{"offset":3512,"length":5,"text":""},{"offset":3121,"length":5,"text":""},{"offset":1812,"length":5,"text":""},{"offset":1458,"length":5,"text":""},{"offset":510,"length":5,"text":""},{"offset":384,"length":5,"text":""}],"doc":2,"seq":1725,"ms":5200436,"op":"edit"}
+{"version":245,"reason":1,"changes":[{"offset":3482,"length":5,"text":""}],"doc":2,"seq":1726,"ms":5201460,"op":"edit"}
+{"version":246,"reason":1,"changes":[{"offset":3096,"length":5,"text":""}],"doc":2,"seq":1727,"ms":5203976,"op":"edit"}
+{"version":247,"reason":1,"changes":[{"offset":3096,"length":0,"text":"z"}],"doc":2,"seq":1728,"ms":5206739,"op":"edit"}
+{"version":248,"reason":1,"changes":[{"offset":3096,"length":1,"text":""}],"doc":2,"seq":1729,"ms":5207750,"op":"edit"}
+{"version":249,"reason":1,"changes":[{"offset":3077,"length":4,"text":""}],"doc":2,"seq":1730,"ms":5208243,"op":"edit"}
+{"version":250,"reason":1,"changes":[{"offset":3077,"length":0,"text":"5"}],"doc":2,"seq":1731,"ms":5209139,"op":"edit"}
+{"version":251,"reason":1,"changes":[{"offset":3062,"length":18,"text":""}],"doc":2,"seq":1732,"ms":5209501,"op":"edit"}
+{"version":252,"reason":1,"changes":[{"offset":3049,"length":13,"text":""}],"doc":2,"seq":1733,"ms":5211222,"op":"edit"}
+{"version":253,"reason":1,"changes":[{"offset":2998,"length":1,"text":""},{"offset":2995,"length":1,"text":""}],"doc":2,"seq":1734,"ms":5211764,"op":"edit"}
+{"version":254,"reason":1,"changes":[{"offset":3009,"length":1,"text":""}],"doc":2,"seq":1735,"ms":5212528,"op":"edit"}
+{"version":255,"reason":1,"changes":[{"offset":3009,"length":0,"text":"'"}],"doc":2,"seq":1736,"ms":5212928,"op":"edit"}
+{"version":256,"reason":1,"changes":[{"offset":3009,"length":1,"text":""}],"doc":2,"seq":1737,"ms":5213204,"op":"edit"}
+{"version":257,"reason":1,"changes":[{"offset":3009,"length":0,"text":"'"}],"doc":2,"seq":1738,"ms":5213468,"op":"edit"}
+{"version":258,"reason":1,"changes":[{"offset":3009,"length":1,"text":""}],"doc":2,"seq":1739,"ms":5213768,"op":"edit"}
+{"version":259,"reason":1,"changes":[{"offset":3009,"length":0,"text":"'"}],"doc":2,"seq":1740,"ms":5214142,"op":"edit"}
+{"version":260,"reason":1,"changes":[{"offset":3009,"length":1,"text":""}],"doc":2,"seq":1741,"ms":5214440,"op":"edit"}
+{"version":261,"reason":1,"changes":[{"offset":3009,"length":0,"text":"l"}],"doc":2,"seq":1742,"ms":5214729,"op":"edit"}
+{"version":262,"reason":1,"changes":[{"offset":3009,"length":1,"text":""}],"doc":2,"seq":1743,"ms":5215068,"op":"edit"}
+{"version":263,"reason":1,"changes":[{"offset":3003,"length":5,"text":""}],"doc":2,"seq":1744,"ms":5215422,"op":"edit"}
+{"version":264,"reason":1,"changes":[{"offset":3002,"length":1,"text":""}],"doc":2,"seq":1745,"ms":5216277,"op":"edit"}
+{"version":265,"reason":1,"changes":[{"offset":3002,"length":0,"text":"es\\"}],"doc":2,"seq":1746,"ms":5216560,"op":"edit"}
+{"version":266,"reason":1,"changes":[{"offset":2997,"length":9,"text":""}],"doc":2,"seq":1747,"ms":5216848,"op":"edit"}
+{"version":267,"reason":1,"changes":[{"offset":2991,"length":6,"text":""}],"doc":2,"seq":1748,"ms":5217045,"op":"edit"}
+{"version":268,"reason":1,"changes":[{"offset":2979,"length":12,"text":""}],"doc":2,"seq":1749,"ms":5217938,"op":"edit"}
+{"version":269,"reason":1,"changes":[{"offset":3142,"length":1,"text":""},{"offset":3139,"length":1,"text":""},{"offset":3131,"length":1,"text":""},{"offset":3128,"length":1,"text":""},{"offset":3110,"length":0,"text":" "}],"doc":2,"seq":1750,"ms":5218385,"op":"edit"}
