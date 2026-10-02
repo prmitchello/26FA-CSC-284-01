@@ -2154,3 +2154,15 @@
 {"executionId":"bfb7fcb6-2b8f-49c9-9318-275b6a82ba27","terminalId":"1bf78de7-4107-44cd-a032-14aa495c9cff","data":"\r\nPlease enter student's major a : Business, b: Eng, C: criminal Justice, d: medice, e: Math, f: Hum, g: others \r\n","doc":2,"seq":2153,"ms":30590259,"op":"terminal.output"}
 {"executionId":"bfb7fcb6-2b8f-49c9-9318-275b6a82ba27","terminalId":"1bf78de7-4107-44cd-a032-14aa495c9cff","data":"j","doc":2,"seq":2154,"ms":30592718,"op":"terminal.output"}
 {"executionId":"bfb7fcb6-2b8f-49c9-9318-275b6a82ba27","terminalId":"1bf78de7-4107-44cd-a032-14aa495c9cff","data":"\r\ninvalid character entered\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":2,"seq":2155,"ms":30593224,"op":"terminal.output"}
+{"version":1281,"changes":[{"offset":2583,"length":0,"text":"<"}],"doc":3,"seq":2156,"ms":30637835,"op":"edit"}
+{"version":1282,"changes":[{"offset":2584,"length":0,"text":"<"}],"doc":3,"seq":2157,"ms":30637958,"op":"edit"}
+{"version":1283,"changes":[{"offset":2585,"length":0,"text":"e"}],"doc":3,"seq":2158,"ms":30638422,"op":"edit"}
+{"version":1284,"changes":[{"offset":2586,"length":0,"text":"d"}],"doc":3,"seq":2159,"ms":30638547,"op":"edit"}
+{"version":1285,"changes":[{"offset":2587,"length":0,"text":"n"}],"doc":3,"seq":2160,"ms":30638634,"op":"edit"}
+{"version":1286,"changes":[{"offset":2588,"length":0,"text":"l"}],"doc":3,"seq":2161,"ms":30638842,"op":"edit"}
+{"version":1287,"changes":[{"offset":2588,"length":1,"text":""}],"doc":3,"seq":2162,"ms":30639750,"op":"edit"}
+{"version":1288,"changes":[{"offset":2587,"length":1,"text":""}],"doc":3,"seq":2163,"ms":30639895,"op":"edit"}
+{"version":1289,"changes":[{"offset":2586,"length":1,"text":""}],"doc":3,"seq":2164,"ms":30640044,"op":"edit"}
+{"version":1290,"changes":[{"offset":2586,"length":0,"text":"n"}],"doc":3,"seq":2165,"ms":30640824,"op":"edit"}
+{"version":1291,"changes":[{"offset":2587,"length":0,"text":"d"}],"doc":3,"seq":2166,"ms":30640964,"op":"edit"}
+{"version":1292,"changes":[{"offset":2588,"length":0,"text":"l"}],"doc":3,"seq":2167,"ms":30641038,"op":"edit"}
