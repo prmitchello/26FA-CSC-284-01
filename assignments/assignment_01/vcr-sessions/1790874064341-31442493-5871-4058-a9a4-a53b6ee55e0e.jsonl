@@ -708,3 +708,46 @@
 {"version":387,"changes":[{"offset":1691,"length":1,"text":""}],"doc":3,"seq":707,"ms":27429297,"op":"edit"}
 {"version":388,"changes":[{"offset":1691,"length":0,"text":" "}],"doc":3,"seq":708,"ms":27430402,"op":"edit"}
 {"version":389,"changes":[{"offset":1692,"length":0,"text":"\""}],"doc":3,"seq":709,"ms":27431225,"op":"edit"}
+{"version":390,"changes":[{"offset":1697,"length":0,"text":"\""}],"doc":3,"seq":710,"ms":27432867,"op":"edit"}
+{"version":391,"changes":[{"offset":1700,"length":10,"text":"H"}],"doc":3,"seq":711,"ms":27451508,"op":"edit"}
+{"version":392,"changes":[{"offset":1701,"length":0,"text":"U"}],"doc":3,"seq":712,"ms":27451601,"op":"edit"}
+{"version":393,"changes":[{"offset":1702,"length":0,"text":"m"}],"doc":3,"seq":713,"ms":27451815,"op":"edit"}
+{"version":394,"changes":[{"offset":1702,"length":1,"text":""}],"doc":3,"seq":714,"ms":27452752,"op":"edit"}
+{"version":395,"changes":[{"offset":1701,"length":1,"text":""}],"doc":3,"seq":715,"ms":27452976,"op":"edit"}
+{"version":396,"changes":[{"offset":1701,"length":0,"text":"u"}],"doc":3,"seq":716,"ms":27453479,"op":"edit"}
+{"version":397,"changes":[{"offset":1702,"length":0,"text":"m"}],"doc":3,"seq":717,"ms":27453613,"op":"edit"}
+{"version":398,"changes":[{"offset":1703,"length":0,"text":" "}],"doc":3,"seq":718,"ms":27454205,"op":"edit"}
+{"version":399,"changes":[{"offset":1704,"length":0,"text":"="}],"doc":3,"seq":719,"ms":27455102,"op":"edit"}
+{"version":400,"changes":[{"offset":1706,"length":1,"text":""}],"doc":3,"seq":720,"ms":27456826,"op":"edit"}
+{"text":"#include <iostream>\n#include <string>\n#include \"Student.cpp\"\n#include <vector>\n\nusing namespace std;\n\nvector<Student> studentList{};\n\nvoid displayAllStudents(vector<Student> &studentList)\n{\n    if (studentList.size() == 0)\n    {\n        cout << \"There are currently no students to print\" << endl;\n    }\n    else\n    {\n\n        for (int i = 0; i < studentList.size(); i++)\n            Student::printStudent(studentList[i]);\n    }\n}\nStudent searchByFullName(vector<Student> &studentList, string fullName)\n{\n\n    Student noStudentFlag{-1, \"N/A\", -1, \"N/A\", \"N/A\"};\n    for (int i = 0; i < studentList.size(); i++)\n    {\n\n\n        if (studentList[i].getName() == fullName)\n        {\n            return studentList[i];\n        }\n    }\n    std::cout << endl\n              << \"Student not found in the registery \\n\"\n              << endl;\n\n    return noStudentFlag;\n}\nStudent searchByID(vector<Student> &studentList, int IDSearch)\n{\n\n    Student noStudentFlag{-1, \"N/A\", -1, \"N/A\", \"N/A\"};\n    for (int i = 0; i < studentList.size(); i++)\n    {\n\n        if (studentList[i].getID() == IDSearch)\n        {\n            return studentList[i];\n        }\n    }\n\n    std::cout << endl\n              << \"Student not found in the registery \\n\"\n              << endl;\n\n    return noStudentFlag;\n}\nvoid headerTemplate()\n{\n    std::cout << \"ID \" << std::setw(10) << \"Name\" << std::setw(20) << \"Age\" << std::setw(10) << \"Major\" << std::setw(20) << \"Email\" << std::endl;\n    std::cout << \" ---------------------------------------------------------------------\" << std::endl;\n}\nstring chooseMajor(const char& charInput){\n\n    string Bus =\"Business\" , Eng = \"Eng\", Crim = \"criminal Justice\", Med = \"Medice\", Math = \"Math\", Hum =Hum, F:others\"\n\n\n\n    switch (charInput){\n\n\n        case 'a' : {\n\n            break;\n\n        }\n\n    }\n\n}\n","version":401,"snapshot":true,"doc":3,"seq":721,"ms":27457014,"op":"edit"}
+{"version":402,"changes":[{"offset":1705,"length":0,"text":" "}],"doc":3,"seq":722,"ms":27457575,"op":"edit"}
+{"version":403,"changes":[{"offset":1706,"length":0,"text":"\""}],"doc":3,"seq":723,"ms":27458006,"op":"edit"}
+{"version":404,"changes":[{"offset":1710,"length":0,"text":"a"}],"doc":3,"seq":724,"ms":27459632,"op":"edit"}
+{"version":405,"changes":[{"offset":1711,"length":0,"text":"n"}],"doc":3,"seq":725,"ms":27459759,"op":"edit"}
+{"version":406,"changes":[{"offset":1712,"length":0,"text":"i"}],"doc":3,"seq":726,"ms":27459875,"op":"edit"}
+{"version":407,"changes":[{"offset":1713,"length":0,"text":"t"}],"doc":3,"seq":727,"ms":27460052,"op":"edit"}
+{"version":408,"changes":[{"offset":1714,"length":0,"text":"i"}],"doc":3,"seq":728,"ms":27460180,"op":"edit"}
+{"version":409,"changes":[{"offset":1715,"length":0,"text":"t"}],"doc":3,"seq":729,"ms":27460279,"op":"edit"}
+{"version":410,"changes":[{"offset":1716,"length":0,"text":"e"}],"doc":3,"seq":730,"ms":27460472,"op":"edit"}
+{"version":411,"changes":[{"offset":1717,"length":0,"text":"s"}],"doc":3,"seq":731,"ms":27460683,"op":"edit"}
+{"version":412,"changes":[{"offset":1718,"length":0,"text":"\""}],"doc":3,"seq":732,"ms":27461742,"op":"edit"}
+{"version":413,"changes":[{"offset":1720,"length":1,"text":""}],"doc":3,"seq":733,"ms":27464195,"op":"edit"}
+{"version":414,"changes":[{"offset":1720,"length":0,"text":" "}],"doc":3,"seq":734,"ms":27464867,"op":"edit"}
+{"version":415,"changes":[{"offset":1721,"length":1,"text":""}],"doc":3,"seq":735,"ms":27466166,"op":"edit"}
+{"version":416,"changes":[{"offset":1721,"length":0,"text":"o"}],"doc":3,"seq":736,"ms":27466599,"op":"edit"}
+{"version":417,"changes":[{"offset":1722,"length":0,"text":"t"}],"doc":3,"seq":737,"ms":27466714,"op":"edit"}
+{"version":418,"changes":[{"offset":1723,"length":0,"text":"h"}],"doc":3,"seq":738,"ms":27466827,"op":"edit"}
+{"version":419,"changes":[{"offset":1724,"length":0,"text":"e"}],"doc":3,"seq":739,"ms":27466955,"op":"edit"}
+{"version":420,"changes":[{"offset":1725,"length":0,"text":"r"}],"doc":3,"seq":740,"ms":27467055,"op":"edit"}
+{"version":421,"changes":[{"offset":1726,"length":0,"text":"s"}],"doc":3,"seq":741,"ms":27467263,"op":"edit"}
+{"version":422,"changes":[{"offset":1727,"length":0,"text":" "}],"doc":3,"seq":742,"ms":27468871,"op":"edit"}
+{"version":423,"changes":[{"offset":1728,"length":0,"text":"="}],"doc":3,"seq":743,"ms":27469168,"op":"edit"}
+{"version":424,"changes":[{"offset":1729,"length":1,"text":""}],"doc":3,"seq":744,"ms":27470289,"op":"edit"}
+{"version":425,"changes":[{"offset":1729,"length":0,"text":" "}],"doc":3,"seq":745,"ms":27471112,"op":"edit"}
+{"version":426,"changes":[{"offset":1730,"length":0,"text":"\""}],"doc":3,"seq":746,"ms":27471540,"op":"edit"}
+{"version":427,"changes":[{"offset":1731,"length":1,"text":""}],"doc":3,"seq":747,"ms":27472379,"op":"edit"}
+{"version":428,"changes":[{"offset":1731,"length":0,"text":"O"}],"doc":3,"seq":748,"ms":27473116,"op":"edit"}
+{"version":429,"changes":[{"offset":1669,"length":0,"text":"\n    "}],"doc":3,"seq":749,"ms":27476782,"op":"edit"}
+{"version":430,"changes":[{"offset":1674,"length":0,"text":"    "}],"doc":3,"seq":750,"ms":27480072,"op":"edit"}
+{"version":431,"changes":[{"offset":1678,"length":0,"text":"    "}],"doc":3,"seq":751,"ms":27480795,"op":"edit"}
+{"version":432,"changes":[{"offset":1751,"length":0,"text":";"}],"doc":3,"seq":752,"ms":27484058,"op":"edit"}
