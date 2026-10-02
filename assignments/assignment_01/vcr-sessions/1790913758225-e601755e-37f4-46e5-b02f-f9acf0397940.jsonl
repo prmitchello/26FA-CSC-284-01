@@ -173,3 +173,11 @@
 {"executionId":"7ee50ddc-926c-4841-a8ef-acaa9725acb2","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"a","doc":3,"seq":172,"ms":444661,"op":"terminal.output"}
 {"executionId":"7ee50ddc-926c-4841-a8ef-acaa9725acb2","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nzsh: segmentation fault  \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                         \r \r","doc":3,"seq":173,"ms":444944,"op":"terminal.output"}
 {"executionId":"7ee50ddc-926c-4841-a8ef-acaa9725acb2","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":139,"doc":3,"seq":174,"ms":444944,"op":"terminal.end"}
+{"version":24,"changes":[{"offset":2624,"length":0,"text":"\n        "}],"doc":1,"seq":175,"ms":555546,"op":"edit"}
+{"version":25,"changes":[{"offset":2633,"length":0,"text":"b"}],"doc":1,"seq":176,"ms":556249,"op":"edit"}
+{"version":26,"changes":[{"offset":2634,"length":0,"text":"r"}],"doc":1,"seq":177,"ms":556436,"op":"edit"}
+{"version":27,"changes":[{"offset":2635,"length":0,"text":"e"}],"doc":1,"seq":178,"ms":556486,"op":"edit"}
+{"version":28,"changes":[{"offset":2636,"length":0,"text":"a"}],"doc":1,"seq":179,"ms":557865,"op":"edit"}
+{"version":29,"changes":[{"offset":2637,"length":0,"text":"k"}],"doc":1,"seq":180,"ms":558065,"op":"edit"}
+{"version":30,"changes":[{"offset":2638,"length":0,"text":";"}],"doc":1,"seq":181,"ms":559201,"op":"edit"}
+{"version":31,"changes":[{"offset":2639,"length":0,"text":"\n        "}],"doc":1,"seq":182,"ms":571416,"op":"edit"}
