@@ -1933,3 +1933,35 @@
 {"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\n\r\nthe number of students in each major. Math: 0  Engineering: 0  Medicine:  0  Humanities: 0 Criminal Justice: 0   Others: 0 \r\n\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1932,"ms":6927314,"op":"terminal.output"}
 {"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"4","doc":3,"seq":1933,"ms":6940146,"op":"terminal.output"}
 {"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nID       Name                 Age     Major               Email\r\n ---------------------------------------------------------------------\r\n123456             bh                  23  Business          bh@uni.edu\r\n\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1934,"ms":6940281,"op":"terminal.output"}
+{"version":553,"changes":[{"offset":2810,"length":0,"text":"B"}],"doc":1,"seq":1935,"ms":6977691,"op":"edit"}
+{"version":554,"changes":[{"offset":2811,"length":0,"text":"u"}],"doc":1,"seq":1936,"ms":6977813,"op":"edit"}
+{"version":555,"changes":[{"offset":2812,"length":0,"text":"s"}],"doc":1,"seq":1937,"ms":6977974,"op":"edit"}
+{"version":556,"changes":[{"offset":2813,"length":0,"text":"i"}],"doc":1,"seq":1938,"ms":6978157,"op":"edit"}
+{"version":557,"changes":[{"offset":2814,"length":0,"text":"n"}],"doc":1,"seq":1939,"ms":6979150,"op":"edit"}
+{"version":558,"changes":[{"offset":2815,"length":0,"text":"e"}],"doc":1,"seq":1940,"ms":6979285,"op":"edit"}
+{"version":559,"changes":[{"offset":2816,"length":0,"text":"s"}],"doc":1,"seq":1941,"ms":6979486,"op":"edit"}
+{"version":560,"changes":[{"offset":2817,"length":0,"text":"s"}],"doc":1,"seq":1942,"ms":6979688,"op":"edit"}
+{"version":561,"changes":[{"offset":2818,"length":0,"text":":"}],"doc":1,"seq":1943,"ms":6982849,"op":"edit"}
+{"version":562,"changes":[{"offset":2819,"length":0,"text":" "}],"doc":1,"seq":1944,"ms":6983095,"op":"edit"}
+{"version":563,"changes":[{"offset":2820,"length":0,"text":"{"}],"doc":1,"seq":1945,"ms":6983764,"op":"edit"}
+{"version":564,"changes":[{"offset":2821,"length":0,"text":"}"}],"doc":1,"seq":1946,"ms":6985089,"op":"edit"}
+{"version":565,"changes":[{"offset":2822,"length":0,"text":" "}],"doc":1,"seq":1947,"ms":6985820,"op":"edit"}
+{"version":566,"changes":[{"offset":2936,"length":0,"text":"b"}],"doc":1,"seq":1948,"ms":6988626,"op":"edit"}
+{"version":567,"changes":[{"offset":2937,"length":0,"text":"u"}],"doc":1,"seq":1949,"ms":6988766,"op":"edit"}
+{"version":568,"changes":[{"offset":2938,"length":0,"text":"s"}],"doc":1,"seq":1950,"ms":6988885,"op":"edit"}
+{"version":569,"changes":[{"offset":2936,"length":12,"text":"busCount"}],"doc":1,"seq":1951,"ms":6990714,"op":"edit"}
+{"version":570,"changes":[{"offset":2944,"length":0,"text":";"}],"doc":1,"seq":1952,"ms":6991744,"op":"edit"}
+{"version":571,"changes":[{"offset":2944,"length":1,"text":""}],"doc":1,"seq":1953,"ms":6992590,"op":"edit"}
+{"version":572,"changes":[{"offset":2945,"length":0,"text":" "}],"doc":1,"seq":1954,"ms":7003232,"op":"edit"}
+{"version":573,"changes":[{"offset":2946,"length":0,"text":"m"}],"doc":1,"seq":1955,"ms":7003450,"op":"edit"}
+{"version":574,"changes":[{"offset":2947,"length":0,"text":"a"}],"doc":1,"seq":1956,"ms":7004083,"op":"edit"}
+{"version":575,"changes":[{"offset":2948,"length":0,"text":"t"}],"doc":1,"seq":1957,"ms":7004747,"op":"edit"}
+{"version":576,"changes":[{"offset":2949,"length":0,"text":"h"}],"doc":1,"seq":1958,"ms":7004904,"op":"edit"}
+{"version":577,"changes":[{"offset":2950,"length":0,"text":"C"}],"doc":1,"seq":1959,"ms":7005956,"op":"edit"}
+{"version":578,"changes":[{"offset":2951,"length":0,"text":"o"}],"doc":1,"seq":1960,"ms":7006119,"op":"edit"}
+{"version":579,"changes":[{"offset":2952,"length":0,"text":"u"}],"doc":1,"seq":1961,"ms":7006351,"op":"edit"}
+{"version":580,"changes":[{"offset":2953,"length":0,"text":"n"}],"doc":1,"seq":1962,"ms":7006444,"op":"edit"}
+{"version":581,"changes":[{"offset":2954,"length":0,"text":"t"}],"doc":1,"seq":1963,"ms":7006528,"op":"edit"}
+{"version":582,"changes":[{"offset":2955,"length":0,"text":","}],"doc":1,"seq":1964,"ms":7008178,"op":"edit"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":1965,"ms":7015831,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nplease enter Student full name ","doc":3,"seq":1966,"ms":7016324,"op":"terminal.output"}
