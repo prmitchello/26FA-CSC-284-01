@@ -237,3 +237,9 @@
 {"executionId":"8a320e56-963d-46b2-86d6-a4b64c78fb42","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"b","doc":3,"seq":236,"ms":919246,"op":"terminal.output"}
 {"executionId":"8a320e56-963d-46b2-86d6-a4b64c78fb42","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nzsh: segmentation fault  \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                         \r \r","doc":3,"seq":237,"ms":919730,"op":"terminal.output"}
 {"executionId":"8a320e56-963d-46b2-86d6-a4b64c78fb42","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":139,"doc":3,"seq":238,"ms":919730,"op":"terminal.end"}
+{"version":44,"changes":[{"offset":1968,"length":1,"text":""}],"doc":1,"seq":239,"ms":1069830,"op":"edit"}
+{"version":45,"changes":[{"offset":1968,"length":0,"text":"A"}],"doc":1,"seq":240,"ms":1070121,"op":"edit"}
+{"doc":1,"seq":241,"ms":1077038,"op":"save"}
+{"executionId":"fff2a2a0-6d85-436d-ba8e-78fd5f2e2fb8","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"doc":3,"seq":242,"ms":1077985,"op":"terminal.start"}
+{"executionId":"fff2a2a0-6d85-436d-ba8e-78fd5f2e2fb8","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\u001b]633;C\u0007","doc":3,"seq":243,"ms":1078035,"op":"terminal.output"}
+{"executionId":"fff2a2a0-6d85-436d-ba8e-78fd5f2e2fb8","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":244,"ms":1078246,"op":"terminal.output"}
