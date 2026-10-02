@@ -1723,3 +1723,76 @@
 {"version":439,"changes":[{"offset":979,"length":0,"text":"d"}],"doc":1,"seq":1722,"ms":29351921,"op":"edit"}
 {"version":440,"changes":[{"offset":980,"length":0,"text":"l"}],"doc":1,"seq":1723,"ms":29352429,"op":"edit"}
 {"version":441,"changes":[{"offset":1334,"length":12,"text":"        "},{"offset":1308,"length":16,"text":"            "},{"offset":1249,"length":16,"text":"            "},{"offset":1220,"length":16,"text":"            "},{"offset":1206,"length":12,"text":"        "},{"offset":1172,"length":12,"text":"        "}],"doc":1,"seq":1724,"ms":29467081,"op":"edit"}
+{"version":442,"changes":[{"offset":1324,"length":0,"text":"\n        "}],"doc":1,"seq":1725,"ms":29473892,"op":"edit"}
+{"version":443,"changes":[{"offset":1547,"length":0,"text":"\n        "},{"offset":1325,"length":8,"text":""}],"doc":1,"seq":1726,"ms":29475619,"op":"edit"}
+{"version":444,"changes":[{"offset":1540,"length":8,"text":""},{"offset":1334,"length":4,"text":""}],"doc":1,"seq":1727,"ms":29479463,"op":"edit"}
+{"version":445,"changes":[{"offset":1330,"length":4,"text":""}],"doc":1,"seq":1728,"ms":29479826,"op":"edit"}
+{"version":446,"changes":[{"offset":1326,"length":4,"text":"        "}],"doc":1,"seq":1729,"ms":29481294,"op":"edit"}
+{"version":447,"changes":[{"offset":1334,"length":0,"text":"/"}],"doc":1,"seq":1730,"ms":29487414,"op":"edit"}
+{"version":448,"changes":[{"offset":1335,"length":0,"text":"/"}],"doc":1,"seq":1731,"ms":29487589,"op":"edit"}
+{"version":449,"changes":[{"offset":1336,"length":0,"text":"t"}],"doc":1,"seq":1732,"ms":29488493,"op":"edit"}
+{"version":450,"changes":[{"offset":1337,"length":0,"text":"h"}],"doc":1,"seq":1733,"ms":29488657,"op":"edit"}
+{"version":451,"changes":[{"offset":1338,"length":0,"text":"i"}],"doc":1,"seq":1734,"ms":29488756,"op":"edit"}
+{"version":452,"changes":[{"offset":1339,"length":0,"text":"s"}],"doc":1,"seq":1735,"ms":29488856,"op":"edit"}
+{"version":453,"changes":[{"offset":1340,"length":0,"text":" "}],"doc":1,"seq":1736,"ms":29488973,"op":"edit"}
+{"version":454,"changes":[{"offset":1341,"length":0,"text":"w"}],"doc":1,"seq":1737,"ms":29489217,"op":"edit"}
+{"version":455,"changes":[{"offset":1342,"length":0,"text":"i"}],"doc":1,"seq":1738,"ms":29489386,"op":"edit"}
+{"version":456,"changes":[{"offset":1343,"length":0,"text":"l"}],"doc":1,"seq":1739,"ms":29489592,"op":"edit"}
+{"version":457,"changes":[{"offset":1344,"length":0,"text":"l"}],"doc":1,"seq":1740,"ms":29489737,"op":"edit"}
+{"version":458,"changes":[{"offset":1345,"length":0,"text":" "}],"doc":1,"seq":1741,"ms":29489882,"op":"edit"}
+{"version":459,"changes":[{"offset":1346,"length":0,"text":"c"}],"doc":1,"seq":1742,"ms":29490006,"op":"edit"}
+{"version":460,"changes":[{"offset":1347,"length":0,"text":"a"}],"doc":1,"seq":1743,"ms":29490101,"op":"edit"}
+{"version":461,"changes":[{"offset":1348,"length":0,"text":"t"}],"doc":1,"seq":1744,"ms":29490285,"op":"edit"}
+{"version":462,"changes":[{"offset":1349,"length":0,"text":"h"}],"doc":1,"seq":1745,"ms":29490589,"op":"edit"}
+{"version":463,"changes":[{"offset":1350,"length":0,"text":"c"}],"doc":1,"seq":1746,"ms":29490732,"op":"edit"}
+{"version":464,"changes":[{"offset":1350,"length":1,"text":""}],"doc":1,"seq":1747,"ms":29491072,"op":"edit"}
+{"version":465,"changes":[{"offset":1349,"length":1,"text":""}],"doc":1,"seq":1748,"ms":29491228,"op":"edit"}
+{"version":466,"changes":[{"offset":1349,"length":0,"text":"c"}],"doc":1,"seq":1749,"ms":29491450,"op":"edit"}
+{"version":467,"changes":[{"offset":1350,"length":0,"text":"h"}],"doc":1,"seq":1750,"ms":29492229,"op":"edit"}
+{"version":468,"changes":[{"offset":1351,"length":0,"text":" "}],"doc":1,"seq":1751,"ms":29492375,"op":"edit"}
+{"version":469,"changes":[{"offset":1352,"length":0,"text":"c"}],"doc":1,"seq":1752,"ms":29492543,"op":"edit"}
+{"version":470,"changes":[{"offset":1353,"length":0,"text":"a"}],"doc":1,"seq":1753,"ms":29492658,"op":"edit"}
+{"version":471,"changes":[{"offset":1354,"length":0,"text":"s"}],"doc":1,"seq":1754,"ms":29492741,"op":"edit"}
+{"version":472,"changes":[{"offset":1355,"length":0,"text":"e"}],"doc":1,"seq":1755,"ms":29492945,"op":"edit"}
+{"version":473,"changes":[{"offset":1356,"length":0,"text":" "}],"doc":1,"seq":1756,"ms":29493091,"op":"edit"}
+{"version":474,"changes":[{"offset":1357,"length":0,"text":"w"}],"doc":1,"seq":1757,"ms":29493856,"op":"edit"}
+{"version":475,"changes":[{"offset":1358,"length":0,"text":"h"}],"doc":1,"seq":1758,"ms":29493998,"op":"edit"}
+{"version":476,"changes":[{"offset":1359,"length":0,"text":"e"}],"doc":1,"seq":1759,"ms":29494058,"op":"edit"}
+{"version":477,"changes":[{"offset":1360,"length":0,"text":"r"}],"doc":1,"seq":1760,"ms":29494270,"op":"edit"}
+{"version":478,"changes":[{"offset":1361,"length":0,"text":"e"}],"doc":1,"seq":1761,"ms":29494319,"op":"edit"}
+{"version":479,"changes":[{"offset":1362,"length":0,"text":" "}],"doc":1,"seq":1762,"ms":29494465,"op":"edit"}
+{"version":480,"changes":[{"offset":1363,"length":0,"text":"l"}],"doc":1,"seq":1763,"ms":29496284,"op":"edit"}
+{"version":481,"changes":[{"offset":1364,"length":0,"text":"e"}],"doc":1,"seq":1764,"ms":29496372,"op":"edit"}
+{"version":482,"changes":[{"offset":1365,"length":0,"text":"t"}],"doc":1,"seq":1765,"ms":29496685,"op":"edit"}
+{"version":483,"changes":[{"offset":1366,"length":0,"text":"t"}],"doc":1,"seq":1766,"ms":29496851,"op":"edit"}
+{"version":484,"changes":[{"offset":1367,"length":0,"text":"e"}],"doc":1,"seq":1767,"ms":29497019,"op":"edit"}
+{"version":485,"changes":[{"offset":1368,"length":0,"text":"r"}],"doc":1,"seq":1768,"ms":29497139,"op":"edit"}
+{"version":486,"changes":[{"offset":1369,"length":0,"text":"s"}],"doc":1,"seq":1769,"ms":29497324,"op":"edit"}
+{"version":487,"changes":[{"offset":1370,"length":0,"text":" "}],"doc":1,"seq":1770,"ms":29497462,"op":"edit"}
+{"version":488,"changes":[{"offset":1371,"length":0,"text":"a"}],"doc":1,"seq":1771,"ms":29497644,"op":"edit"}
+{"version":489,"changes":[{"offset":1372,"length":0,"text":"r"}],"doc":1,"seq":1772,"ms":29497789,"op":"edit"}
+{"version":490,"changes":[{"offset":1373,"length":0,"text":"e"}],"doc":1,"seq":1773,"ms":29497915,"op":"edit"}
+{"version":491,"changes":[{"offset":1374,"length":0,"text":" "}],"doc":1,"seq":1774,"ms":29497999,"op":"edit"}
+{"version":492,"changes":[{"offset":1375,"length":0,"text":"e"}],"doc":1,"seq":1775,"ms":29498606,"op":"edit"}
+{"version":493,"changes":[{"offset":1376,"length":0,"text":"n"}],"doc":1,"seq":1776,"ms":29498758,"op":"edit"}
+{"version":494,"changes":[{"offset":1377,"length":0,"text":"t"}],"doc":1,"seq":1777,"ms":29499052,"op":"edit"}
+{"version":495,"changes":[{"offset":1378,"length":0,"text":"e"}],"doc":1,"seq":1778,"ms":29499269,"op":"edit"}
+{"version":496,"changes":[{"offset":1379,"length":0,"text":"r"}],"doc":1,"seq":1779,"ms":29499424,"op":"edit"}
+{"version":497,"changes":[{"offset":1380,"length":0,"text":"d"}],"doc":1,"seq":1780,"ms":29500029,"op":"edit"}
+{"version":498,"changes":[{"offset":1380,"length":1,"text":""}],"doc":1,"seq":1781,"ms":29500720,"op":"edit"}
+{"version":499,"changes":[{"offset":1380,"length":0,"text":"e"}],"doc":1,"seq":1782,"ms":29500883,"op":"edit"}
+{"version":500,"changes":[{"offset":1381,"length":0,"text":"d"}],"doc":1,"seq":1783,"ms":29500939,"op":"edit"}
+{"version":501,"changes":[{"offset":1382,"length":0,"text":" "}],"doc":1,"seq":1784,"ms":29501106,"op":"edit"}
+{"version":502,"changes":[{"offset":1383,"length":0,"text":"i"}],"doc":1,"seq":1785,"ms":29508232,"op":"edit"}
+{"text":"/*\n\nassignment 1,\nMitchello Pierre Rene\n\nthis program keeps a record of students. User are responsible for inputing thngs like name, int and major.\nFor is store in a vectorList. The user interacts with a menu based do while loop to choose different options.\nLike adding students, printing students, and search operations like by name and id number.\n\n*/\n\n#include <iostream>\n#include <string>\n#include \"studentMethods.cpp\"\n\nusing namespace std;\n\nint main()\n{\n\n    string menuInput;\n    int choice;\n    int idUpperLimit = 999999, idLowerLimit = 100000;\n    int ageUpperLimit = 65, ageLowerLimit = 18;\n\n    bool Quit = false;\n\n    do\n    {\n        std::cout << endl\n                  << \"to add student enter 1: \" << endl\n                  << \"to search by full name enter 2: \" << endl\n                  << \"to search by id enter 3: \" << endl\n                  << \"to print all students enter 4: \" << endl\n                  <<\"to print number of students in each major enter 5: <<endl\"\n                  << \"to quit enter Q: \" << endl\n                  << endl\n                  << \"input: \";\n\n        std::cin >> menuInput;\n        std::cin.ignore();\n        cout << endl;\n\n        if (menuInput == \"Q\")\n        {\n            Quit = true;\n            cout << \"exiting the program, thank you!\";\n            continue;\n        };\n\n        //this will catch case where letters are entered in\n        try\n        {\n            \n            choice = stoi(menuInput);\n        }\n        catch (const std::invalid_argument &e)\n        {   \n            cout<<\"that's not a valid number\";\n        };\n\n\n        switch (choice)\n        {\n\n        case 1:\n        {\n            Student user{};\n\n            string User_nameInput;\n            std::cout << \"please enter Student full name \";\n\n            std::getline(std::cin, User_nameInput);\n            user.setName(User_nameInput);\n\n            int User_ageInput;\n            std::cout << \"please enter student age(18+) \";\n            std::cin >> User_ageInput;\n\n            if (User_ageInput > ageUpperLimit || User_ageInput < ageLowerLimit)\n            {\n\n                cout << endl\n                     << \"invalid age!\" << endl;\n                continue;\n            }\n            user.setAge(User_ageInput);\n\n            int User_idInput;\n            std::cout << \"Please enter student ID \";\n            std::cin >> User_idInput;\n\n            if (User_idInput > idUpperLimit || User_idInput < idLowerLimit)\n            {\n\n                cout << endl\n                     << \"invalid ID!\" << endl;\n                continue;\n            }\n\n            user.setID(User_idInput);\n\n            // dont ask for major, give a choice\n            char User_majorInput;\n            std::cout << \"Please enter student's major \"<<\n            \"a : Business, b: Eng, C: criminal Justice, d: medice, e: Math, f: HUm, g: others\";\n            std::cin >> User_majorInput;\n\n            string majorResult = chooseMajor(User_majorInput);\n\n\n\n            user.setMajor( majorResult );\n\n            // use student name with email extension\n            string emailExtension = \"@uni.edu\";\n            user.setEmail(user.getName() + emailExtension);\n\n            studentList.push_back(user);\n\n            break;\n        }\n\n        case 2:\n        {\n            string nameSearch;\n            cout << \"please enter the name to search: \";\n            cin >> nameSearch;\n            cin.ignore();\n            cout << endl;\n\n            Student searchResult = searchByFullName(studentList, nameSearch);\n\n            headerTemplate();\n            Student::printStudent(searchResult);\n            std::cout << endl;\n\n            break;\n        }\n        case 3:\n        {\n\n            int idSearch;\n            cout << \"please enter the ID to search: \";\n            cin >> idSearch;\n            cout << endl;\n\n            Student searchResult = searchByID(studentList, idSearch);\n\n            headerTemplate();\n            Student::printStudent(searchResult);\n            std::cout << endl;\n\n            break;\n        }\n        case 4:\n        {\n            headerTemplate();\n            displayAllStudents(studentList);\n            break;\n        }\n\n        case 5:{\n            displayNumStudentsbyMajor();\n        }\n\n        default:\n\n            cout << \"a valid menu choice was not entered\" << endl;\n\n            break;\n        }\n\n    } while (!Quit);\n\n    return 0;\n}\n","version":503,"snapshot":true,"doc":1,"seq":1786,"ms":29508355,"op":"edit"}
+{"version":504,"changes":[{"offset":1385,"length":0,"text":" "}],"doc":1,"seq":1787,"ms":29508519,"op":"edit"}
+{"version":505,"changes":[{"offset":1386,"length":0,"text":"t"}],"doc":1,"seq":1788,"ms":29508628,"op":"edit"}
+{"version":506,"changes":[{"offset":1387,"length":0,"text":"h"}],"doc":1,"seq":1789,"ms":29508689,"op":"edit"}
+{"version":507,"changes":[{"offset":1388,"length":0,"text":"e"}],"doc":1,"seq":1790,"ms":29508836,"op":"edit"}
+{"version":508,"changes":[{"offset":1389,"length":0,"text":" "}],"doc":1,"seq":1791,"ms":29508884,"op":"edit"}
+{"version":509,"changes":[{"offset":1390,"length":0,"text":"s"}],"doc":1,"seq":1792,"ms":29509127,"op":"edit"}
+{"version":510,"changes":[{"offset":1391,"length":0,"text":"t"}],"doc":1,"seq":1793,"ms":29509335,"op":"edit"}
+{"version":511,"changes":[{"offset":1392,"length":0,"text":"r"}],"doc":1,"seq":1794,"ms":29509445,"op":"edit"}
+{"version":512,"changes":[{"offset":1393,"length":0,"text":"i"}],"doc":1,"seq":1795,"ms":29509522,"op":"edit"}
+{"version":513,"changes":[{"offset":1394,"length":0,"text":"n"}],"doc":1,"seq":1796,"ms":29509588,"op":"edit"}
+{"version":514,"changes":[{"offset":1395,"length":0,"text":"g"}],"doc":1,"seq":1797,"ms":29509759,"op":"edit"}
