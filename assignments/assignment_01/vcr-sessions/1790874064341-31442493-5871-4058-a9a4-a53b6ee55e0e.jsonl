@@ -1941,3 +1941,19 @@
 {"version":585,"changes":[{"offset":2337,"length":0,"text":"i"}],"doc":1,"seq":1940,"ms":29888715,"op":"edit"}
 {"version":586,"changes":[{"offset":2338,"length":0,"text":"t"}],"doc":1,"seq":1941,"ms":29889697,"op":"edit"}
 {"version":587,"changes":[{"offset":2339,"length":0,"text":"s"}],"doc":1,"seq":1942,"ms":29889784,"op":"edit"}
+{"executionId":"7c6dffd4-2065-4e00-b7a6-656a79c727c6","terminalId":"1bf78de7-4107-44cd-a032-14aa495c9cff","data":"6","doc":2,"seq":1943,"ms":29900084,"op":"terminal.output"}
+{"executionId":"7c6dffd4-2065-4e00-b7a6-656a79c727c6","terminalId":"1bf78de7-4107-44cd-a032-14aa495c9cff","data":"\r\nPlease enter student's major a : Business, b: Eng, C: criminal Justice, d: medice, e: Math, f: HUm, g: others","doc":2,"seq":1944,"ms":29901413,"op":"terminal.output"}
+{"version":588,"changes":[{"offset":2842,"length":1,"text":""}],"doc":1,"seq":1945,"ms":29918821,"op":"edit"}
+{"version":589,"changes":[{"offset":2842,"length":0,"text":"u"}],"doc":1,"seq":1946,"ms":29919325,"op":"edit"}
+{"version":590,"changes":[{"offset":2856,"length":0,"text":"<"}],"doc":1,"seq":1947,"ms":29926572,"op":"edit"}
+{"version":591,"changes":[{"offset":2857,"length":0,"text":"<"}],"doc":1,"seq":1948,"ms":29926671,"op":"edit"}
+{"version":592,"changes":[{"offset":2858,"length":0,"text":"e"}],"doc":1,"seq":1949,"ms":29927441,"op":"edit"}
+{"version":593,"changes":[{"offset":2859,"length":0,"text":"n"}],"doc":1,"seq":1950,"ms":29928459,"op":"edit"}
+{"version":594,"changes":[{"offset":2860,"length":0,"text":"d"}],"doc":1,"seq":1951,"ms":29928667,"op":"edit"}
+{"version":595,"changes":[{"offset":2861,"length":0,"text":"l"}],"doc":1,"seq":1952,"ms":29929368,"op":"edit"}
+{"version":596,"changes":[{"offset":2818,"length":0,"text":"\n            "}],"doc":1,"seq":1953,"ms":29934548,"op":"edit"}
+{"version":597,"changes":[{"offset":2876,"length":0,"text":"\n            "}],"doc":1,"seq":1954,"ms":29936183,"op":"edit"}
+{"version":598,"changes":[{"offset":2877,"length":12,"text":""},{"offset":2827,"length":4,"text":""}],"doc":1,"seq":1955,"ms":29949331,"op":"edit"}
+{"version":599,"changes":[{"offset":2823,"length":4,"text":""}],"doc":1,"seq":1956,"ms":29949962,"op":"edit"}
+{"version":600,"changes":[{"offset":2819,"length":4,"text":""}],"doc":1,"seq":1957,"ms":29950462,"op":"edit"}
+{"version":601,"changes":[{"offset":2818,"length":1,"text":""}],"doc":1,"seq":1958,"ms":29950882,"op":"edit"}
