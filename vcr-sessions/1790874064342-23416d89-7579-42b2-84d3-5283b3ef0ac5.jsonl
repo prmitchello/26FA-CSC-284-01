@@ -59,3 +59,4 @@
 {"source":"watcher","doc":4,"seq":58,"ms":32734651,"op":"fs.delete"}
 {"source":"watcher","doc":4,"seq":59,"ms":32734665,"op":"fs.delete"}
 {"source":"watcher","doc":4,"seq":60,"ms":32734751,"op":"fs.delete"}
+{"seq":61,"ms":39046670,"op":"end"}
