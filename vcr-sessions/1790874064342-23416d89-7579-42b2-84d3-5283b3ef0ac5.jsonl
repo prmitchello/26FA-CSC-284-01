@@ -53,3 +53,4 @@
 {"executionId":"59548626-bf0a-4489-8345-db4ea5559bf6","doc":2,"seq":52,"ms":30397019,"op":"task.end"}
 {"executionId":"30d48e4c-0882-47b6-a405-7c28ffe55b0e","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":53,"ms":30397022,"op":"debug.start"}
 {"executionId":"30d48e4c-0882-47b6-a405-7c28ffe55b0e","doc":2,"seq":54,"ms":30600765,"op":"debug.end"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":4,"seq":55,"ms":32724273,"op":"snap"}
