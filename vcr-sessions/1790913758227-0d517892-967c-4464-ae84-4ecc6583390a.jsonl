@@ -233,3 +233,16 @@
 {"executionId":"b50dc254-113a-442a-9f73-9a4c4507d89e","exitCode":0,"doc":2,"seq":232,"ms":4501933,"op":"task.processEnd"}
 {"executionId":"b50dc254-113a-442a-9f73-9a4c4507d89e","doc":2,"seq":233,"ms":4501935,"op":"task.end"}
 {"executionId":"8d313798-c1f2-4806-9824-979b394ba34d","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":234,"ms":4501953,"op":"debug.start"}
+{"executionId":"8d313798-c1f2-4806-9824-979b394ba34d","doc":2,"seq":235,"ms":4563120,"op":"debug.end"}
+{"executionId":"eace2c04-9967-4476-a252-b820630207a2","name":"C/C++: clang build active file","type":"cppbuild","doc":2,"seq":236,"ms":4565755,"op":"task.start"}
+{"executionId":"eace2c04-9967-4476-a252-b820630207a2","processId":-1,"doc":2,"seq":237,"ms":4565761,"op":"task.processStart"}
+{"executionId":"eace2c04-9967-4476-a252-b820630207a2","exitCode":0,"doc":2,"seq":238,"ms":4566809,"op":"task.processEnd"}
+{"executionId":"eace2c04-9967-4476-a252-b820630207a2","doc":2,"seq":239,"ms":4566811,"op":"task.end"}
+{"executionId":"98b85701-236c-43c1-8a49-0deb7a9a0826","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":240,"ms":4566826,"op":"debug.start"}
+{"executionId":"98b85701-236c-43c1-8a49-0deb7a9a0826","doc":2,"seq":241,"ms":4574624,"op":"debug.end"}
+{"executionId":"a758c285-a67a-4a7a-b710-32f6f3955730","name":"C/C++: clang build active file","type":"cppbuild","doc":2,"seq":242,"ms":4588303,"op":"task.start"}
+{"executionId":"a758c285-a67a-4a7a-b710-32f6f3955730","processId":-1,"doc":2,"seq":243,"ms":4588314,"op":"task.processStart"}
+{"executionId":"a758c285-a67a-4a7a-b710-32f6f3955730","exitCode":0,"doc":2,"seq":244,"ms":4589318,"op":"task.processEnd"}
+{"executionId":"a758c285-a67a-4a7a-b710-32f6f3955730","doc":2,"seq":245,"ms":4589320,"op":"task.end"}
+{"executionId":"d3cb1018-613f-4d8e-b13f-d790696c9bf9","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":246,"ms":4589326,"op":"debug.start"}
+{"executionId":"d3cb1018-613f-4d8e-b13f-d790696c9bf9","doc":2,"seq":247,"ms":4598530,"op":"debug.end"}
