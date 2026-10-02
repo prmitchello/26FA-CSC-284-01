@@ -32,3 +32,17 @@
 {"executionId":"d24112c6-b786-48d7-ad14-614152ec5a36","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"d","doc":3,"seq":31,"ms":31273,"op":"terminal.output"}
 {"executionId":"d24112c6-b786-48d7-ad14-614152ec5a36","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nzsh: segmentation fault  \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                         \r \r","doc":3,"seq":32,"ms":31493,"op":"terminal.output"}
 {"executionId":"d24112c6-b786-48d7-ad14-614152ec5a36","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":139,"doc":3,"seq":33,"ms":31493,"op":"terminal.end"}
+{"version":2,"changes":[{"offset":3178,"length":0,"text":"e"}],"doc":2,"seq":34,"ms":104347,"op":"edit"}
+{"version":3,"changes":[{"offset":3179,"length":0,"text":"l"}],"doc":2,"seq":35,"ms":104485,"op":"edit"}
+{"version":4,"changes":[{"offset":3180,"length":0,"text":"s"}],"doc":2,"seq":36,"ms":104625,"op":"edit"}
+{"version":5,"changes":[{"offset":3181,"length":0,"text":"e"}],"doc":2,"seq":37,"ms":104686,"op":"edit"}
+{"version":6,"changes":[{"offset":3182,"length":0,"text":"{}"}],"doc":2,"seq":38,"ms":105366,"op":"edit"}
+{"version":7,"changes":[{"offset":3183,"length":0,"text":"\n                \n            "}],"doc":2,"seq":39,"ms":105558,"op":"edit"}
+{"version":8,"changes":[{"offset":3229,"length":26,"text":""},{"offset":3184,"length":16,"text":""}],"doc":2,"seq":40,"ms":109812,"op":"edit"}
+{"version":9,"changes":[{"offset":3213,"length":0,"text":"\\"}],"doc":2,"seq":41,"ms":110273,"op":"edit"}
+{"version":10,"changes":[{"offset":3213,"length":1,"text":""}],"doc":2,"seq":42,"ms":110953,"op":"edit"}
+{"version":11,"changes":[{"offset":3212,"length":1,"text":""}],"doc":2,"seq":43,"ms":111101,"op":"edit"}
+{"version":12,"changes":[{"offset":3184,"length":0,"text":"                "}],"doc":2,"seq":44,"ms":114712,"op":"edit"}
+{"version":13,"changes":[{"offset":3200,"length":0,"text":"u"}],"doc":2,"seq":45,"ms":115062,"op":"edit"}
+{"version":14,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":3201,"length":0,"text":"ser.setMajor(majorResult);"}],"doc":2,"seq":46,"ms":115429,"op":"edit"}
+{"version":15,"changes":[{"offset":3255,"length":1,"text":""}],"doc":2,"seq":47,"ms":117241,"op":"edit"}
