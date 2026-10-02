@@ -1,0 +1,15 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-02T03:52:10.244Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"f56a9079-7b2c-46c7-98f6-d7390b0fbff5","sourceWindowId":"b5d682d7-3f91-4620-92e2-af54ed22ac73","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"fc90b908c1dc36b73023f04f35ff716d965a2e4b","seq":1,"ms":-836,"op":"source.context"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-836,"op":"snap"}
+{"executionId":"09db06a9-03ee-42bc-849b-56ed4f108666","name":"C/C++: clang build active file","type":"cppbuild","path":".","doc":2,"seq":3,"ms":12196,"op":"task.start"}
+{"executionId":"09db06a9-03ee-42bc-849b-56ed4f108666","processId":-1,"doc":2,"seq":4,"ms":12214,"op":"task.processStart"}
+{"executionId":"09db06a9-03ee-42bc-849b-56ed4f108666","exitCode":0,"doc":2,"seq":5,"ms":12920,"op":"task.processEnd"}
+{"executionId":"09db06a9-03ee-42bc-849b-56ed4f108666","doc":2,"seq":6,"ms":12921,"op":"task.end"}
+{"executionId":"618d70df-1da6-4529-8091-38046cd46df5","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":7,"ms":12939,"op":"debug.start"}
+{"executionId":"618d70df-1da6-4529-8091-38046cd46df5","doc":2,"seq":8,"ms":28695,"op":"debug.end"}
+{"executionId":"5357b139-e655-4506-8b37-4a9d15b484ad","name":"C/C++: clang build active file","type":"cppbuild","doc":2,"seq":9,"ms":37712,"op":"task.start"}
+{"executionId":"5357b139-e655-4506-8b37-4a9d15b484ad","processId":-1,"doc":2,"seq":10,"ms":37714,"op":"task.processStart"}
+{"executionId":"5357b139-e655-4506-8b37-4a9d15b484ad","exitCode":0,"doc":2,"seq":11,"ms":38200,"op":"task.processEnd"}
+{"executionId":"5357b139-e655-4506-8b37-4a9d15b484ad","doc":2,"seq":12,"ms":38201,"op":"task.end"}
+{"executionId":"4f0dc714-5fa2-4e17-bf77-86a2f93d860a","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":13,"ms":38206,"op":"debug.start"}
+{"executionId":"4f0dc714-5fa2-4e17-bf77-86a2f93d860a","doc":2,"seq":14,"ms":49017,"op":"debug.end"}
