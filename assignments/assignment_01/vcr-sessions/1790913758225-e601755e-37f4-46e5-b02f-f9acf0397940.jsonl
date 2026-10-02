@@ -1889,3 +1889,47 @@
 {"version":335,"reason":1,"changes":[{"offset":3287,"length":1,"text":""}],"doc":2,"seq":1888,"ms":6897120,"op":"edit"}
 {"version":336,"reason":1,"changes":[{"offset":3287,"length":0,"text":"'"}],"doc":2,"seq":1889,"ms":6897636,"op":"edit"}
 {"version":337,"reason":1,"changes":[{"offset":3285,"length":1,"text":""}],"doc":2,"seq":1890,"ms":6898013,"op":"edit"}
+{"version":338,"reason":1,"changes":[{"offset":3285,"length":0,"text":"'"}],"doc":2,"seq":1891,"ms":6898813,"op":"edit"}
+{"version":339,"reason":1,"changes":[{"offset":3271,"length":19,"text":""}],"doc":2,"seq":1892,"ms":6899268,"op":"edit"}
+{"version":340,"reason":1,"changes":[{"offset":3259,"length":12,"text":""}],"doc":2,"seq":1893,"ms":6899933,"op":"edit"}
+{"version":341,"reason":1,"changes":[{"offset":3243,"length":0,"text":"user.setMajor('a');"}],"doc":2,"seq":1894,"ms":6900446,"op":"edit"}
+{"version":342,"reason":1,"changes":[{"offset":3276,"length":1,"text":""}],"doc":2,"seq":1895,"ms":6900880,"op":"edit"}
+{"version":343,"reason":1,"changes":[{"offset":3276,"length":1,"text":""}],"doc":2,"seq":1896,"ms":6901296,"op":"edit"}
+{"version":344,"reason":1,"changes":[{"offset":3108,"length":2,"text":""}],"doc":2,"seq":1897,"ms":6901765,"op":"edit"}
+{"version":345,"reason":1,"changes":[{"offset":3255,"length":3,"text":""}],"doc":2,"seq":1898,"ms":6903652,"op":"edit"}
+{"version":346,"reason":1,"changes":[{"offset":3255,"length":0,"text":"\"\""}],"doc":2,"seq":1899,"ms":6904197,"op":"edit"}
+{"version":347,"reason":1,"changes":[{"offset":3256,"length":0,"text":"a"}],"doc":2,"seq":1900,"ms":6904641,"op":"edit"}
+{"version":348,"reason":1,"changes":[{"offset":3256,"length":1,"text":"majorResult"}],"doc":2,"seq":1901,"ms":6905047,"op":"edit"}
+{"version":349,"reason":1,"changes":[{"offset":3267,"length":1,"text":""},{"offset":3255,"length":1,"text":""}],"doc":2,"seq":1902,"ms":6905510,"op":"edit"}
+{"version":350,"reason":1,"changes":[{"offset":3029,"length":2,"text":""}],"doc":2,"seq":1903,"ms":6905918,"op":"edit"}
+{"version":351,"changes":[{"offset":3478,"length":0,"text":"/"}],"doc":2,"seq":1904,"ms":6911381,"op":"edit"}
+{"version":352,"changes":[{"offset":3479,"length":0,"text":"/"}],"doc":2,"seq":1905,"ms":6911539,"op":"edit"}
+{"version":353,"changes":[{"offset":3080,"length":12,"text":""}],"doc":2,"seq":1906,"ms":6915243,"op":"edit"}
+{"version":354,"changes":[{"offset":3468,"length":0,"text":" "},{"offset":3081,"length":1,"text":""}],"doc":2,"seq":1907,"ms":6915262,"op":"edit"}
+{"doc":2,"seq":1908,"ms":6915278,"op":"save"}
+{"executionId":"45527e58-8bc6-4c0e-8de9-36b11f4b6f6c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"^C\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                         \r \r","doc":3,"seq":1909,"ms":6916994,"op":"terminal.output"}
+{"executionId":"45527e58-8bc6-4c0e-8de9-36b11f4b6f6c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":130,"doc":3,"seq":1910,"ms":6916994,"op":"terminal.end"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"doc":3,"seq":1911,"ms":6917158,"op":"terminal.start"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\u001b]633;C\u0007","doc":3,"seq":1912,"ms":6917209,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1913,"ms":6917495,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":1914,"ms":6918642,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nplease enter Student full name ","doc":3,"seq":1915,"ms":6918795,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"b","doc":3,"seq":1916,"ms":6920535,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"h","doc":3,"seq":1917,"ms":6920657,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nplease enter student age(18+) ","doc":3,"seq":1918,"ms":6920946,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":1919,"ms":6921965,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"3","doc":3,"seq":1920,"ms":6922082,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nPlease enter student ID(6 digits) ","doc":3,"seq":1921,"ms":6922173,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":1922,"ms":6922556,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":1923,"ms":6922752,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"3","doc":3,"seq":1924,"ms":6922953,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"4","doc":3,"seq":1925,"ms":6923191,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"5","doc":3,"seq":1926,"ms":6923466,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"6","doc":3,"seq":1927,"ms":6923761,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nPlease select the student's major a : Business, b: Eng, C: criminal Justice, d: medice, e: Math, f: Hum, g: others \r\n","doc":3,"seq":1928,"ms":6923969,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"a","doc":3,"seq":1929,"ms":6924937,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1930,"ms":6925156,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"5","doc":3,"seq":1931,"ms":6927105,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\n\r\nthe number of students in each major. Math: 0  Engineering: 0  Medicine:  0  Humanities: 0 Criminal Justice: 0   Others: 0 \r\n\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1932,"ms":6927314,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"4","doc":3,"seq":1933,"ms":6940146,"op":"terminal.output"}
+{"executionId":"eeee9da9-9560-45ec-91f4-cdcd4037921c","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nID       Name                 Age     Major               Email\r\n ---------------------------------------------------------------------\r\n123456             bh                  23  Business          bh@uni.edu\r\n\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":1934,"ms":6940281,"op":"terminal.output"}
