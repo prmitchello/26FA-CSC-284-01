@@ -1312,3 +1312,65 @@
 {"version":884,"changes":[{"offset":2639,"length":0,"text":"c"}],"doc":3,"seq":1311,"ms":28450624,"op":"edit"}
 {"version":885,"changes":[{"offset":2640,"length":0,"text":"h"}],"doc":3,"seq":1312,"ms":28450702,"op":"edit"}
 {"version":886,"changes":[{"offset":2641,"length":0,"text":" "}],"doc":3,"seq":1313,"ms":28450785,"op":"edit"}
+{"version":887,"changes":[{"offset":2642,"length":0,"text":"m"}],"doc":3,"seq":1314,"ms":28452665,"op":"edit"}
+{"version":888,"changes":[{"offset":2643,"length":0,"text":"a"}],"doc":3,"seq":1315,"ms":28452785,"op":"edit"}
+{"version":889,"changes":[{"offset":2644,"length":0,"text":"j"}],"doc":3,"seq":1316,"ms":28452936,"op":"edit"}
+{"version":890,"changes":[{"offset":2645,"length":0,"text":"o"}],"doc":3,"seq":1317,"ms":28453035,"op":"edit"}
+{"version":891,"changes":[{"offset":2646,"length":0,"text":"r"}],"doc":3,"seq":1318,"ms":28453152,"op":"edit"}
+{"version":892,"changes":[{"offset":2647,"length":0,"text":"."}],"doc":3,"seq":1319,"ms":28459491,"op":"edit"}
+{"version":893,"changes":[{"offset":2648,"length":0,"text":" "}],"doc":3,"seq":1320,"ms":28460545,"op":"edit"}
+{"version":894,"changes":[{"offset":2649,"length":0,"text":"M"}],"doc":3,"seq":1321,"ms":28462879,"op":"edit"}
+{"version":895,"changes":[{"offset":2650,"length":0,"text":"A"}],"doc":3,"seq":1322,"ms":28462911,"op":"edit"}
+{"version":896,"changes":[{"offset":2651,"length":0,"text":"r"}],"doc":3,"seq":1323,"ms":28463159,"op":"edit"}
+{"version":897,"changes":[{"offset":2652,"length":0,"text":"t"}],"doc":3,"seq":1324,"ms":28463198,"op":"edit"}
+{"version":898,"changes":[{"offset":2653,"length":0,"text":"h"}],"doc":3,"seq":1325,"ms":28463222,"op":"edit"}
+{"version":899,"changes":[{"offset":2653,"length":1,"text":""}],"doc":3,"seq":1326,"ms":28463893,"op":"edit"}
+{"version":900,"changes":[{"offset":2652,"length":1,"text":""}],"doc":3,"seq":1327,"ms":28464140,"op":"edit"}
+{"text":"#include <iostream>\n#include <string>\n#include \"Student.cpp\"\n#include <vector>\n\nusing namespace std;\n\nstatic int busCount = 0 , engCount = 0, crimCount = 0, \n            medCount = 0, mathCount = 0, humCount = 0 , othersCount = 0 ;\n\n\n\nvector<Student> studentList{};\n\nvoid displayAllStudents(vector<Student> &studentList)\n{\n    if (studentList.size() == 0)\n    {\n        cout << \"There are currently no students to print\" << endl;\n    }\n    else\n    {\n\n        for (int i = 0; i < studentList.size(); i++)\n            Student::printStudent(studentList[i]);\n    }\n}\nStudent searchByFullName(vector<Student> &studentList, string fullName)\n{\n\n    Student noStudentFlag{-1, \"N/A\", -1, \"N/A\", \"N/A\"};\n    for (int i = 0; i < studentList.size(); i++)\n    {\n\n\n        if (studentList[i].getName() == fullName)\n        {\n            return studentList[i];\n        }\n    }\n    std::cout << endl\n              << \"Student not found in the registery \\n\"\n              << endl;\n\n    return noStudentFlag;\n}\nStudent searchByID(vector<Student> &studentList, int IDSearch)\n{\n\n    Student noStudentFlag{-1, \"N/A\", -1, \"N/A\", \"N/A\"};\n    for (int i = 0; i < studentList.size(); i++)\n    {\n\n        if (studentList[i].getID() == IDSearch)\n        {\n            return studentList[i];\n        }\n    }\n\n    std::cout << endl\n              << \"Student not found in the registery \\n\"\n              << endl;\n\n    return noStudentFlag;\n}\nvoid headerTemplate()\n{\n    std::cout << \"ID \" << std::setw(10) << \"Name\" << std::setw(20) << \"Age\" << std::setw(10) << \"Major\" << std::setw(20) << \"Email\" << std::endl;\n    std::cout << \" ---------------------------------------------------------------------\" << std::endl;\n}\nstring chooseMajor(const char& charInput){\n\n    string Bus =\"Business\" , Eng = \"Eng\", Crim = \"criminal Justice\", \n            Med = \"Medice\", Math = \"Math\", Hum = \"Humanitites\", others = \"Others\";\n\n\n\n    switch (charInput){\n\n\n        case 'a' : {\n\n            busCount++;\n\n            return Bus;\n            \n            break;\n\n        }\n        case 'b' : {\n\n            engCount++;\n\n            return Eng;\n\n            break;\n\n        }\n        case 'c' : {\n\n            crimCount++;\n            return Crim;\n\n            break;\n\n        }\n        case 'd' : {\n\n            medCount++;\n            return Med;\n\n            break;\n\n        }\n        case 'e' : {\n\n            mathCount++;\n            return Math;\n\n            break;\n\n        }\n\n        case 'f' : {\n\n            humCount++;\n            return Hum;\n\n            break;\n\n        }\n\n    }\n\n}\n\nvoid displayNumStudentsbyMajor(){\n\n\n    cout<<std::format (\"the number of students in each major. MA\"); \n\n\n\n\n\n\n\n\n}\n","version":901,"snapshot":true,"doc":3,"seq":1328,"ms":28464314,"op":"edit"}
+{"version":902,"changes":[{"offset":2650,"length":1,"text":""}],"doc":3,"seq":1329,"ms":28464484,"op":"edit"}
+{"version":903,"changes":[{"offset":2650,"length":0,"text":"a"}],"doc":3,"seq":1330,"ms":28465165,"op":"edit"}
+{"version":904,"changes":[{"offset":2651,"length":0,"text":"t"}],"doc":3,"seq":1331,"ms":28465386,"op":"edit"}
+{"version":905,"changes":[{"offset":2652,"length":0,"text":"h"}],"doc":3,"seq":1332,"ms":28465457,"op":"edit"}
+{"version":906,"changes":[{"offset":2653,"length":0,"text":":"}],"doc":3,"seq":1333,"ms":28467079,"op":"edit"}
+{"version":907,"changes":[{"offset":2654,"length":0,"text":" "}],"doc":3,"seq":1334,"ms":28467342,"op":"edit"}
+{"version":908,"changes":[{"offset":2655,"length":0,"text":"{}"}],"doc":3,"seq":1335,"ms":28468370,"op":"edit"}
+{"version":909,"changes":[{"offset":2657,"length":0,"text":" "}],"doc":3,"seq":1336,"ms":28477063,"op":"edit"}
+{"version":910,"changes":[{"offset":2657,"length":1,"text":". "}],"doc":3,"seq":1337,"ms":28477135,"op":"edit"}
+{"version":911,"changes":[{"offset":2658,"length":1,"text":""}],"doc":3,"seq":1338,"ms":28478532,"op":"edit"}
+{"version":912,"changes":[{"offset":2657,"length":1,"text":""}],"doc":3,"seq":1339,"ms":28478709,"op":"edit"}
+{"version":913,"changes":[{"offset":2657,"length":0,"text":" "}],"doc":3,"seq":1340,"ms":28479150,"op":"edit"}
+{"version":914,"changes":[{"offset":2658,"length":0,"text":" "}],"doc":3,"seq":1341,"ms":28480168,"op":"edit"}
+{"version":915,"changes":[{"offset":2659,"length":0,"text":"E"}],"doc":3,"seq":1342,"ms":28486307,"op":"edit"}
+{"version":916,"changes":[{"offset":2660,"length":0,"text":"n"}],"doc":3,"seq":1343,"ms":28486418,"op":"edit"}
+{"version":917,"changes":[{"offset":2661,"length":0,"text":"g"}],"doc":3,"seq":1344,"ms":28486568,"op":"edit"}
+{"version":918,"changes":[{"offset":2662,"length":0,"text":"i"}],"doc":3,"seq":1345,"ms":28489452,"op":"edit"}
+{"version":919,"changes":[{"offset":2663,"length":0,"text":"n"}],"doc":3,"seq":1346,"ms":28489585,"op":"edit"}
+{"version":920,"changes":[{"offset":2664,"length":0,"text":"e"}],"doc":3,"seq":1347,"ms":28490434,"op":"edit"}
+{"version":921,"changes":[{"offset":2665,"length":0,"text":"e"}],"doc":3,"seq":1348,"ms":28490589,"op":"edit"}
+{"version":922,"changes":[{"offset":2666,"length":0,"text":"r"}],"doc":3,"seq":1349,"ms":28490849,"op":"edit"}
+{"version":923,"changes":[{"offset":2667,"length":0,"text":"i"}],"doc":3,"seq":1350,"ms":28491724,"op":"edit"}
+{"version":924,"changes":[{"offset":2668,"length":0,"text":"n"}],"doc":3,"seq":1351,"ms":28491835,"op":"edit"}
+{"version":925,"changes":[{"offset":2669,"length":0,"text":"g"}],"doc":3,"seq":1352,"ms":28491912,"op":"edit"}
+{"version":926,"changes":[{"offset":2670,"length":0,"text":":"}],"doc":3,"seq":1353,"ms":28495247,"op":"edit"}
+{"version":927,"changes":[{"offset":2671,"length":0,"text":" "}],"doc":3,"seq":1354,"ms":28495472,"op":"edit"}
+{"version":928,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2672,"length":0,"text":"{}"}],"doc":3,"seq":1355,"ms":28498215,"op":"edit"}
+{"version":929,"changes":[{"offset":2674,"length":0,"text":" "}],"doc":3,"seq":1356,"ms":28499830,"op":"edit"}
+{"version":930,"changes":[{"offset":2674,"length":1,"text":". "}],"doc":3,"seq":1357,"ms":28499989,"op":"edit"}
+{"version":931,"changes":[{"offset":2675,"length":1,"text":""}],"doc":3,"seq":1358,"ms":28500722,"op":"edit"}
+{"version":932,"changes":[{"offset":2674,"length":1,"text":""}],"doc":3,"seq":1359,"ms":28500891,"op":"edit"}
+{"version":933,"changes":[{"offset":2674,"length":0,"text":" "}],"doc":3,"seq":1360,"ms":28501753,"op":"edit"}
+{"version":934,"changes":[{"offset":2675,"length":0,"text":"M"}],"doc":3,"seq":1361,"ms":28504138,"op":"edit"}
+{"version":935,"changes":[{"offset":2676,"length":0,"text":"e"}],"doc":3,"seq":1362,"ms":28504279,"op":"edit"}
+{"version":936,"changes":[{"offset":2677,"length":0,"text":"d"}],"doc":3,"seq":1363,"ms":28504450,"op":"edit"}
+{"version":937,"changes":[{"offset":2678,"length":0,"text":"i"}],"doc":3,"seq":1364,"ms":28504494,"op":"edit"}
+{"version":938,"changes":[{"offset":2679,"length":0,"text":"n"}],"doc":3,"seq":1365,"ms":28504618,"op":"edit"}
+{"version":939,"changes":[{"offset":2679,"length":1,"text":""}],"doc":3,"seq":1366,"ms":28505577,"op":"edit"}
+{"version":940,"changes":[{"offset":2679,"length":0,"text":"c"}],"doc":3,"seq":1367,"ms":28505711,"op":"edit"}
+{"version":941,"changes":[{"offset":2680,"length":0,"text":"i"}],"doc":3,"seq":1368,"ms":28505796,"op":"edit"}
+{"version":942,"changes":[{"offset":2681,"length":0,"text":"n"}],"doc":3,"seq":1369,"ms":28505935,"op":"edit"}
+{"version":943,"changes":[{"offset":2682,"length":0,"text":"e"}],"doc":3,"seq":1370,"ms":28506006,"op":"edit"}
+{"version":944,"changes":[{"offset":2683,"length":0,"text":":"}],"doc":3,"seq":1371,"ms":28508781,"op":"edit"}
+{"version":945,"changes":[{"offset":2684,"length":0,"text":" "}],"doc":3,"seq":1372,"ms":28509015,"op":"edit"}
+{"version":946,"changes":[{"offset":2685,"length":0,"text":" "}],"doc":3,"seq":1373,"ms":28509212,"op":"edit"}
+{"version":947,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2686,"length":0,"text":"{}"}],"doc":3,"seq":1374,"ms":28509801,"op":"edit"}
+{"version":948,"changes":[{"offset":2688,"length":0,"text":" "}],"doc":3,"seq":1375,"ms":28510573,"op":"edit"}
