@@ -46,3 +46,27 @@
 {"version":13,"changes":[{"offset":3200,"length":0,"text":"u"}],"doc":2,"seq":45,"ms":115062,"op":"edit"}
 {"version":14,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":3201,"length":0,"text":"ser.setMajor(majorResult);"}],"doc":2,"seq":46,"ms":115429,"op":"edit"}
 {"version":15,"changes":[{"offset":3255,"length":1,"text":""}],"doc":2,"seq":47,"ms":117241,"op":"edit"}
+{"version":16,"changes":[{"offset":3243,"length":12,"text":""}],"doc":2,"seq":48,"ms":125859,"op":"edit"}
+{"version":17,"changes":[{"offset":3241,"length":1,"text":""},{"offset":3182,"length":0,"text":"\n            "},{"offset":3178,"length":0,"text":"\n            "}],"doc":2,"seq":49,"ms":125892,"op":"edit"}
+{"doc":2,"seq":50,"ms":125916,"op":"save"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"doc":3,"seq":51,"ms":126864,"op":"terminal.start"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\u001b]633;C\u0007","doc":3,"seq":52,"ms":126916,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nto add student enter 1: \r\nto search by full name enter 2: \r\nto search by id enter 3: \r\nto print all students enter 4: \r\nto print number of students in each major enter 5: \r\nto quit enter Q: \r\n\r\ninput: ","doc":3,"seq":53,"ms":127177,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":54,"ms":127632,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\n\r\nplease enter Student full name ","doc":3,"seq":55,"ms":127814,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"b","doc":3,"seq":56,"ms":128868,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"b","doc":3,"seq":57,"ms":129024,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nplease enter student age(18+) ","doc":3,"seq":58,"ms":129306,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":59,"ms":130574,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"3","doc":3,"seq":60,"ms":130670,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nPlease enter student ID(6 digits) ","doc":3,"seq":61,"ms":130768,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"1","doc":3,"seq":62,"ms":131510,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"2","doc":3,"seq":63,"ms":131599,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"3","doc":3,"seq":64,"ms":131863,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"4","doc":3,"seq":65,"ms":132103,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"5","doc":3,"seq":66,"ms":132351,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"6","doc":3,"seq":67,"ms":132572,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nPlease select the student's major a : Business, b: Eng, C: criminal Justice, d: medice, e: Math, f: Hum, g: others \r\n","doc":3,"seq":68,"ms":132768,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"a","doc":3,"seq":69,"ms":133705,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","data":"\r\nzsh: segmentation fault  \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                         \r \r","doc":3,"seq":70,"ms":133814,"op":"terminal.output"}
+{"executionId":"16258d40-beac-40ea-8d99-fd33009d2755","terminalId":"81e40d27-4fd4-42d4-84be-16bb6fbf64b5","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_01/studentRecord","confidence":2,"exitCode":139,"doc":3,"seq":71,"ms":133814,"op":"terminal.end"}
