@@ -11,3 +11,4 @@
 {"executionId":"55a666d1-dcb1-4334-a27b-c784995cea89","terminalId":"aebc70af-c792-4b18-82f0-425304345c6c","commandLine":"cd","confidence":2,"exitCode":0,"doc":2,"seq":10,"ms":43063,"op":"terminal.end"}
 {"version":2,"changes":[{"offset":3859,"length":0,"text":"l"}],"doc":1,"seq":11,"ms":63925,"op":"edit"}
 {"version":3,"changes":[{"offset":3860,"length":0,"text":"s"}],"doc":1,"seq":12,"ms":64058,"op":"edit"}
+{"seq":13,"ms":718298,"op":"end"}
