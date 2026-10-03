@@ -9,3 +9,5 @@
 {"executionId":"55a666d1-dcb1-4334-a27b-c784995cea89","terminalId":"aebc70af-c792-4b18-82f0-425304345c6c","commandLine":"cd","confidence":2,"doc":2,"seq":8,"ms":43061,"op":"terminal.start"}
 {"executionId":"55a666d1-dcb1-4334-a27b-c784995cea89","terminalId":"aebc70af-c792-4b18-82f0-425304345c6c","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                             \r \r","doc":2,"seq":9,"ms":43063,"op":"terminal.output"}
 {"executionId":"55a666d1-dcb1-4334-a27b-c784995cea89","terminalId":"aebc70af-c792-4b18-82f0-425304345c6c","commandLine":"cd","confidence":2,"exitCode":0,"doc":2,"seq":10,"ms":43063,"op":"terminal.end"}
+{"version":2,"changes":[{"offset":3859,"length":0,"text":"l"}],"doc":1,"seq":11,"ms":63925,"op":"edit"}
+{"version":3,"changes":[{"offset":3860,"length":0,"text":"s"}],"doc":1,"seq":12,"ms":64058,"op":"edit"}
