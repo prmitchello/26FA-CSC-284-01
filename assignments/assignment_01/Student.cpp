@@ -36,9 +36,9 @@ public:
         if (ID > upperLimit || ID < lowerLimit)
         {
 
-            std::cout << "invalid ID!"<<std::endl;
+            std::cout << "invalid ID!" << std::endl;
 
-            id=-1;
+            id = -1;
         }
         else
         {
@@ -66,8 +66,8 @@ public:
         if (Age > upperLimit || Age < lowerLimit)
         {
 
-            std::cout << "invalid age!"<<std::endl;
-            age=-1;
+            std::cout << "invalid age!" << std::endl;
+            age = -1;
         }
         else
         {

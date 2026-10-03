@@ -7,7 +7,7 @@ private:
     std::string name;
 
 public:
-    Student(const std::string& n) : name(n)
+    Student(const std::string &n) : name(n)
     {
         std::cout << "Student created: " << name << '\n';
     }
@@ -25,11 +25,12 @@ public:
 
 void introduceStudent()
 {
-    Student* student = new Student("Alice");
+    // auto student(new Student("Alice"));
+
+    // auto student = std::make_unique<Student>("Ali");
+    std::unique_ptr<Student> student = std::make_unique<Student>("Alyson");
 
     student->introduce();
-
-    delete student;
 }
 
 int main()
