@@ -1,0 +1,18 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-06T19:29:27.628Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"cac024e3-edcd-4026-9143-2e301cbfc7a1","sourceWindowId":"c9ac1ffc-2104-40c3-8edd-eade25783734","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"aab9d0dc6438111117a20c540ce1ac67551ecf76","seq":1,"ms":-1094,"op":"source.context"}
+{"text":"#include <iostream>\n#include \"SpreadSheetCell.cpp\"\n\nusing namespace std;\n\n\nint main(){\n    int d = 8;\n\n\n    SpreadSheetCell<double> c1(123);\n\n    cout<<c1.getValue();\n\n\n    return 0;\n}","version":1,"path":"exercises/module_04/example.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1094,"op":"snap"}
+{"text":"#ifndef SPREADSHEET_H\n#define SPREADSHEET_H\n\n    class SpreadSheet{\n\n        private:\n\n        int location;\n        \n\n\n\n        public:\n\n        SpreadSheet(){\n            \n        }\n\n        \n\n\n    };\n\n#endif;","version":1,"path":"exercises/module_04/spreadSheet.h","snapshot":true,"doc":2,"seq":3,"ms":-1094,"op":"snap"}
+{"text":"template <typename T >\nclass SpreadSheetCell{\n\n    private:\n\n    T value;\n\n\n    public:\n\n    SpreadSheetCell(T val){\n        value = val;\n    }\n\n    void setValue(T val){\n        value = val;\n\n    }\n    T getValue(){\n        return value;\n    }\n\n\n};","version":1,"path":"exercises/module_04/SpreadSheetCell.cpp","snapshot":true,"doc":3,"seq":4,"ms":-1094,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":4,"seq":5,"ms":-1094,"op":"snap"}
+{"version":2,"changes":[{"offset":184,"length":0,"text":"\n"}],"doc":1,"seq":6,"ms":24012,"op":"edit"}
+{"version":2,"changes":[{"offset":185,"length":8,"text":""},{"offset":161,"length":12,"text":""},{"offset":109,"length":8,"text":""}],"doc":2,"seq":7,"ms":24014,"op":"edit"}
+{"version":3,"changes":[{"offset":183,"length":0,"text":"\n"}],"doc":2,"seq":8,"ms":24014,"op":"edit"}
+{"version":2,"changes":[{"offset":249,"length":0,"text":"\n"}],"doc":3,"seq":9,"ms":24015,"op":"edit"}
+{"doc":1,"seq":10,"ms":24025,"op":"save"}
+{"doc":2,"seq":11,"ms":24028,"op":"save"}
+{"doc":3,"seq":12,"ms":24033,"op":"save"}
+{"executionId":"e7fed357-ffaf-430d-a474-54e0a24a92f1","name":"C/C++: clang build active file","type":"cppbuild","path":".","doc":5,"seq":13,"ms":24222,"op":"task.start"}
+{"executionId":"e7fed357-ffaf-430d-a474-54e0a24a92f1","processId":-1,"doc":5,"seq":14,"ms":24240,"op":"task.processStart"}
+{"executionId":"e7fed357-ffaf-430d-a474-54e0a24a92f1","exitCode":0,"doc":5,"seq":15,"ms":24759,"op":"task.processEnd"}
+{"executionId":"e7fed357-ffaf-430d-a474-54e0a24a92f1","doc":5,"seq":16,"ms":24760,"op":"task.end"}
+{"executionId":"5b38c49e-5bb0-47b9-b177-0a8c2dfd2964","name":"C/C++: clang++ build and debug active file","type":"cppdbg","noDebug":true,"doc":5,"seq":17,"ms":24782,"op":"debug.start"}
