@@ -3,3 +3,4 @@
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-1167,"op":"snap"}
 {"source":"workspace","path":"exercises/class_excersize.cpp","doc":2,"seq":3,"ms":70044,"op":"fs.create"}
 {"source":"watcher","doc":2,"seq":4,"ms":70130,"op":"fs.create"}
+{"seq":5,"ms":1788166,"op":"end"}
