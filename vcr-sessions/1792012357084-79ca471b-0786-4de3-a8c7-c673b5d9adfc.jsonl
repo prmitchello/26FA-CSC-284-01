@@ -43,3 +43,9 @@
 {"doc":1,"seq":42,"ms":628058,"op":"close"}
 {"text":"#ifndef SPREADSHEET_H\n#define SPREADSHEET_H\n\n    class SpreadSheet{\n\n        private:\n\n        int location;\n\n\n\n\n        public:\n\n        SpreadSheet(){\n\n        }\n\n\n\n\n    };\n\n#endif;\n","version":1,"path":"exercises/module_04/SpreadSheet.h","snapshot":true,"doc":5,"seq":43,"ms":659975,"op":"snap"}
 {"doc":5,"seq":44,"ms":1123171,"op":"close"}
+{"executionId":"6af747a2-32b5-437d-9432-ee8db5f1e43e","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":45,"ms":1795443,"op":"task.start"}
+{"executionId":"6af747a2-32b5-437d-9432-ee8db5f1e43e","processId":-1,"doc":4,"seq":46,"ms":1795463,"op":"task.processStart"}
+{"executionId":"6af747a2-32b5-437d-9432-ee8db5f1e43e","exitCode":0,"doc":4,"seq":47,"ms":1796077,"op":"task.processEnd"}
+{"executionId":"6af747a2-32b5-437d-9432-ee8db5f1e43e","doc":4,"seq":48,"ms":1796078,"op":"task.end"}
+{"executionId":"f50c1849-53e5-44b2-8638-c26ee08d6ef9","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":49,"ms":1796101,"op":"debug.start"}
+{"executionId":"f50c1849-53e5-44b2-8638-c26ee08d6ef9","doc":4,"seq":50,"ms":1796415,"op":"debug.end"}
