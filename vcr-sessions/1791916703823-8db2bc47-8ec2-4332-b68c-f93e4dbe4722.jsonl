@@ -3,3 +3,4 @@
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-1429,"op":"snap"}
 {"source":"workspace","path":"exercises/inheritenceFolder","doc":2,"seq":3,"ms":104098,"op":"fs.create"}
 {"source":"watcher","doc":2,"seq":4,"ms":104445,"op":"fs.create"}
+{"seq":5,"ms":76885431,"op":"end"}
