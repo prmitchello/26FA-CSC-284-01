@@ -41,3 +41,4 @@
 {"executionId":"6ae2391f-4465-440e-bb78-a16d2f1e7801","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","commandLine":"git diff upstream/main origin/main -- .vscode/settings.json","confidence":2,"exitCode":0,"doc":4,"seq":40,"ms":547117,"op":"terminal.end"}
 {"doc":3,"seq":41,"ms":627256,"op":"close"}
 {"doc":1,"seq":42,"ms":628058,"op":"close"}
+{"text":"#ifndef SPREADSHEET_H\n#define SPREADSHEET_H\n\n    class SpreadSheet{\n\n        private:\n\n        int location;\n\n\n\n\n        public:\n\n        SpreadSheet(){\n\n        }\n\n\n\n\n    };\n\n#endif;\n","version":1,"path":"exercises/module_04/SpreadSheet.h","snapshot":true,"doc":5,"seq":43,"ms":659975,"op":"snap"}
