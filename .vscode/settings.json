@@ -3,5 +3,5 @@
         "**/vcr-course.json": true,
         "**/.gitkeep": true,
         "**/vcr-recording.json": true
-    },
+    }
 }
