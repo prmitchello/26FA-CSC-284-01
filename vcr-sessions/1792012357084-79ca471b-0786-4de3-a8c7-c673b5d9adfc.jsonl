@@ -49,3 +49,14 @@
 {"executionId":"6af747a2-32b5-437d-9432-ee8db5f1e43e","doc":4,"seq":48,"ms":1796078,"op":"task.end"}
 {"executionId":"f50c1849-53e5-44b2-8638-c26ee08d6ef9","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":49,"ms":1796101,"op":"debug.start"}
 {"executionId":"f50c1849-53e5-44b2-8638-c26ee08d6ef9","doc":4,"seq":50,"ms":1796415,"op":"debug.end"}
+{"executionId":"d04e22ef-a859-48d3-857b-6fce5779df10","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":51,"ms":1823713,"op":"task.start"}
+{"executionId":"d04e22ef-a859-48d3-857b-6fce5779df10","processId":-1,"doc":4,"seq":52,"ms":1823715,"op":"task.processStart"}
+{"executionId":"d04e22ef-a859-48d3-857b-6fce5779df10","exitCode":0,"doc":4,"seq":53,"ms":1823974,"op":"task.processEnd"}
+{"executionId":"d04e22ef-a859-48d3-857b-6fce5779df10","doc":4,"seq":54,"ms":1823974,"op":"task.end"}
+{"executionId":"07189ab5-25c2-44e7-86f8-d1109def74f3","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":55,"ms":1823979,"op":"debug.start"}
+{"executionId":"07189ab5-25c2-44e7-86f8-d1109def74f3","doc":4,"seq":56,"ms":1824276,"op":"debug.end"}
+{"text":"#include <string_view>\n\n\ntemplate <typename T >\nclass SpreadSheetCell{\n\n    private:\n\n    T value;\n\n\n    public:\n\n    SpreadSheetCell(T val){\n        value = val;\n    }\n\n    void setValue(T val){\n        value = val;\n\n    }\n    T getValue(){\n        return value;\n    }\n\n\n\n};\n","version":1,"path":"exercises/module_04/SpreadSheetCell.cpp","snapshot":true,"doc":6,"seq":57,"ms":1833076,"op":"snap"}
+{"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":58,"ms":1834572,"op":"task.start"}
+{"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","processId":-1,"doc":4,"seq":59,"ms":1834575,"op":"task.processStart"}
+{"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","exitCode":-1,"doc":4,"seq":60,"ms":1834699,"op":"task.processEnd"}
+{"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","doc":4,"seq":61,"ms":1834700,"op":"task.end"}
