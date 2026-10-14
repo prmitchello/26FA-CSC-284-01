@@ -74,3 +74,48 @@
 {"text":"#include <iostream>\n#include \"SpreadSheetCell.cpp\"\n\nusing namespace std;\n\n\nint main(){\n    int d = 8;\n\n\n    SpreadSheetCell c1(\"this is now a string\");\n    SpreadSheetCell c2(123.2);\n    SpreadSheetCell c3(-123.2);\n    SpreadSheetCell c4(123);\n\n\n    cout<<c1.getValue()<<endl;\n    cout<<c2.getValue()<<endl;\n    cout<<c3.getValue()<<endl;\n    cout<<c4.getValue()<<endl;\n\n    return 0;\n}\n","version":1,"snapshot":true,"doc":7,"seq":73,"ms":2035481,"op":"snap"}
 {"version":2,"changes":[{"offset":123,"length":0,"text":"<"}],"doc":7,"seq":74,"ms":2038353,"op":"edit"}
 {"version":3,"changes":[{"offset":124,"length":0,"text":">"}],"doc":7,"seq":75,"ms":2038409,"op":"edit"}
+{"version":4,"changes":[{"offset":124,"length":0,"text":"s"}],"doc":7,"seq":76,"ms":2042093,"op":"edit"}
+{"version":5,"changes":[{"offset":125,"length":0,"text":"t"}],"doc":7,"seq":77,"ms":2042325,"op":"edit"}
+{"version":6,"changes":[{"offset":126,"length":0,"text":"r"}],"doc":7,"seq":78,"ms":2042443,"op":"edit"}
+{"version":7,"changes":[{"offset":127,"length":0,"text":"i"}],"doc":7,"seq":79,"ms":2042469,"op":"edit"}
+{"version":8,"changes":[{"offset":128,"length":0,"text":"n"}],"doc":7,"seq":80,"ms":2042612,"op":"edit"}
+{"version":9,"changes":[{"offset":129,"length":0,"text":"g"}],"doc":7,"seq":81,"ms":2042677,"op":"edit"}
+{"version":10,"changes":[{"offset":179,"length":0,"text":"<"}],"doc":7,"seq":82,"ms":2061012,"op":"edit"}
+{"version":11,"changes":[{"offset":180,"length":0,"text":">"}],"doc":7,"seq":83,"ms":2061081,"op":"edit"}
+{"version":12,"changes":[{"offset":180,"length":0,"text":"d"}],"doc":7,"seq":84,"ms":2062231,"op":"edit"}
+{"version":13,"changes":[{"offset":181,"length":0,"text":"o"}],"doc":7,"seq":85,"ms":2062368,"op":"edit"}
+{"version":14,"changes":[{"offset":182,"length":0,"text":"u"}],"doc":7,"seq":86,"ms":2062532,"op":"edit"}
+{"version":15,"changes":[{"offset":183,"length":0,"text":"b"}],"doc":7,"seq":87,"ms":2062618,"op":"edit"}
+{"version":16,"changes":[{"offset":184,"length":0,"text":"l"}],"doc":7,"seq":88,"ms":2062790,"op":"edit"}
+{"version":17,"changes":[{"offset":185,"length":0,"text":"e"}],"doc":7,"seq":89,"ms":2062874,"op":"edit"}
+{"version":18,"changes":[{"offset":180,"length":1,"text":""}],"doc":7,"seq":90,"ms":2064961,"op":"edit"}
+{"version":19,"changes":[{"offset":180,"length":0,"text":"D"}],"doc":7,"seq":91,"ms":2065243,"op":"edit"}
+{"version":20,"reason":1,"changes":[{"offset":180,"length":1,"text":""}],"doc":7,"seq":92,"ms":2068209,"op":"edit"}
+{"version":21,"reason":1,"changes":[{"offset":180,"length":0,"text":"d"}],"doc":7,"seq":93,"ms":2069933,"op":"edit"}
+{"version":22,"changes":[{"offset":218,"length":0,"text":"<"}],"doc":7,"seq":94,"ms":2074833,"op":"edit"}
+{"version":23,"changes":[{"offset":219,"length":0,"text":">"}],"doc":7,"seq":95,"ms":2074901,"op":"edit"}
+{"version":24,"changes":[{"offset":219,"length":0,"text":"d"}],"doc":7,"seq":96,"ms":2076030,"op":"edit"}
+{"version":25,"changes":[{"offset":220,"length":0,"text":"o"}],"doc":7,"seq":97,"ms":2076159,"op":"edit"}
+{"version":26,"changes":[{"offset":221,"length":0,"text":"u"}],"doc":7,"seq":98,"ms":2076351,"op":"edit"}
+{"version":27,"changes":[{"offset":222,"length":0,"text":"b"}],"doc":7,"seq":99,"ms":2076423,"op":"edit"}
+{"version":28,"changes":[{"offset":223,"length":0,"text":"l"}],"doc":7,"seq":100,"ms":2076593,"op":"edit"}
+{"version":29,"changes":[{"offset":224,"length":0,"text":"e"}],"doc":7,"seq":101,"ms":2076678,"op":"edit"}
+{"version":30,"changes":[{"offset":258,"length":0,"text":"<"}],"doc":7,"seq":102,"ms":2079328,"op":"edit"}
+{"version":31,"changes":[{"offset":259,"length":0,"text":">"}],"doc":7,"seq":103,"ms":2079365,"op":"edit"}
+{"version":32,"changes":[{"offset":259,"length":0,"text":"d"}],"doc":7,"seq":104,"ms":2079975,"op":"edit"}
+{"version":33,"changes":[{"offset":260,"length":0,"text":"o"}],"doc":7,"seq":105,"ms":2080165,"op":"edit"}
+{"version":34,"changes":[{"offset":261,"length":0,"text":"u"}],"doc":7,"seq":106,"ms":2080560,"op":"edit"}
+{"version":35,"changes":[{"offset":262,"length":0,"text":"b"}],"doc":7,"seq":107,"ms":2080668,"op":"edit"}
+{"version":36,"changes":[{"offset":263,"length":0,"text":"l"}],"doc":7,"seq":108,"ms":2080861,"op":"edit"}
+{"version":37,"changes":[{"offset":264,"length":0,"text":"e"}],"doc":7,"seq":109,"ms":2080971,"op":"edit"}
+{"doc":7,"seq":110,"ms":2082947,"op":"save"}
+{"executionId":"a2c6eec6-bd5d-414e-91bb-682b1ce9ac80","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":111,"ms":2083104,"op":"task.start"}
+{"executionId":"a2c6eec6-bd5d-414e-91bb-682b1ce9ac80","processId":-1,"doc":4,"seq":112,"ms":2083114,"op":"task.processStart"}
+{"executionId":"a2c6eec6-bd5d-414e-91bb-682b1ce9ac80","exitCode":0,"doc":4,"seq":113,"ms":2083432,"op":"task.processEnd"}
+{"executionId":"a2c6eec6-bd5d-414e-91bb-682b1ce9ac80","doc":4,"seq":114,"ms":2083433,"op":"task.end"}
+{"executionId":"24f1a7f3-0163-4e07-83b0-6db59edf7185","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":115,"ms":2083439,"op":"debug.start"}
+{"executionId":"9f1abffd-bc2c-4de4-897b-48f7aea9b46e","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/example","confidence":2,"doc":4,"seq":116,"ms":2083470,"op":"terminal.start"}
+{"executionId":"9f1abffd-bc2c-4de4-897b-48f7aea9b46e","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","data":"\u001b]633;C\u0007","doc":4,"seq":117,"ms":2083522,"op":"terminal.output"}
+{"executionId":"9f1abffd-bc2c-4de4-897b-48f7aea9b46e","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","data":"this is now a string\r\n123.2\r\n-123.2\r\n123\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":4,"seq":118,"ms":2083684,"op":"terminal.output"}
+{"executionId":"9f1abffd-bc2c-4de4-897b-48f7aea9b46e","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/example","confidence":2,"exitCode":0,"doc":4,"seq":119,"ms":2083685,"op":"terminal.end"}
+{"executionId":"24f1a7f3-0163-4e07-83b0-6db59edf7185","doc":4,"seq":120,"ms":2083686,"op":"debug.end"}
