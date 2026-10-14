@@ -119,3 +119,10 @@
 {"executionId":"9f1abffd-bc2c-4de4-897b-48f7aea9b46e","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","data":"this is now a string\r\n123.2\r\n-123.2\r\n123\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":4,"seq":118,"ms":2083684,"op":"terminal.output"}
 {"executionId":"9f1abffd-bc2c-4de4-897b-48f7aea9b46e","terminalId":"255e483f-69b6-408c-b218-fbb2f30d0570","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/example","confidence":2,"exitCode":0,"doc":4,"seq":119,"ms":2083685,"op":"terminal.end"}
 {"executionId":"24f1a7f3-0163-4e07-83b0-6db59edf7185","doc":4,"seq":120,"ms":2083686,"op":"debug.end"}
+{"text":"#ifndef SPREADSHEET_H\n#define SPREADSHEET_H\n\n    class SpreadSheet{\n\n        private:\n\n        int location;\n\n\n\n\n        public:\n\n        SpreadSheet(){\n\n        }\n\n\n\n\n    };\n\n#endif;\n","version":1,"snapshot":true,"doc":5,"seq":121,"ms":2328181,"op":"snap"}
+{"version":2,"changes":[{"offset":111,"length":1,"text":""}],"doc":5,"seq":122,"ms":2330911,"op":"edit"}
+{"version":3,"changes":[{"offset":110,"length":1,"text":""}],"doc":5,"seq":123,"ms":2331075,"op":"edit"}
+{"version":4,"changes":[{"offset":109,"length":1,"text":""}],"doc":5,"seq":124,"ms":2332563,"op":"edit"}
+{"version":5,"changes":[{"offset":163,"length":1,"text":""}],"doc":5,"seq":125,"ms":2334293,"op":"edit"}
+{"version":6,"changes":[{"offset":162,"length":1,"text":""}],"doc":5,"seq":126,"ms":2334458,"op":"edit"}
+{"version":7,"changes":[{"offset":161,"length":1,"text":""}],"doc":5,"seq":127,"ms":2335031,"op":"edit"}
