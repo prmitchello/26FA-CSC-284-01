@@ -1,0 +1,3 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/module_01","startedAt":"2026-10-14T21:31:20.882Z","attemptId":"a8bf5ed8-f156-4f79-a773-2fecb8740253","segmentId":"fab6c401-e67e-417d-a847-05526a79b223","sourceWindowId":"6570116a-151e-40c9-aa9d-c7c11de0c99f","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"ca8dc4f8e12f9a99ae8bbbd03da740da9253141e","seq":1,"ms":-12,"op":"source.context"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\nint main() {\n    cout << \"Hello, welcome to CSC-284-01!\" << endl;\n    return 0;\n}","version":1,"path":"welcome.cpp","snapshot":true,"doc":1,"seq":2,"ms":-12,"op":"snap"}

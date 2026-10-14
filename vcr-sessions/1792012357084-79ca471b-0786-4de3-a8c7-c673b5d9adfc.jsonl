@@ -42,3 +42,4 @@
 {"doc":3,"seq":41,"ms":627256,"op":"close"}
 {"doc":1,"seq":42,"ms":628058,"op":"close"}
 {"text":"#ifndef SPREADSHEET_H\n#define SPREADSHEET_H\n\n    class SpreadSheet{\n\n        private:\n\n        int location;\n\n\n\n\n        public:\n\n        SpreadSheet(){\n\n        }\n\n\n\n\n    };\n\n#endif;\n","version":1,"path":"exercises/module_04/SpreadSheet.h","snapshot":true,"doc":5,"seq":43,"ms":659975,"op":"snap"}
+{"doc":5,"seq":44,"ms":1123171,"op":"close"}
