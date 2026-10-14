@@ -7,3 +7,7 @@
 {"version":3,"changes":[{"offset":135,"length":0,"text":"\n"}],"doc":3,"seq":6,"ms":126863,"op":"edit"}
 {"doc":3,"seq":7,"ms":126886,"op":"save"}
 {"doc":2,"seq":8,"ms":178545,"op":"close"}
+{"version":4,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":136,"text":"settings"}],"doc":3,"seq":9,"ms":300257,"op":"edit"}
+{"version":5,"reason":1,"changes":[{"offset":0,"length":8,"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    }\n}\n"}],"doc":3,"seq":10,"ms":302156,"op":"edit"}
+{"version":6,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":136,"text":"settings"}],"doc":3,"seq":11,"ms":303209,"op":"edit"}
+{"version":7,"reason":1,"changes":[{"offset":0,"length":8,"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    }\n}\n"}],"doc":3,"seq":12,"ms":304160,"op":"edit"}
