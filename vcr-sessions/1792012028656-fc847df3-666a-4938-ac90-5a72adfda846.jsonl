@@ -6,3 +6,15 @@
 {"executionId":"8873ac82-e3b3-4307-b8ee-0109ce34b7cf","terminalId":"35adbb83-6c8e-445a-b06c-f2c00a265c49","commandLine":"git status","confidence":2,"path":".","doc":3,"seq":5,"ms":38614,"op":"terminal.start"}
 {"executionId":"8873ac82-e3b3-4307-b8ee-0109ce34b7cf","terminalId":"35adbb83-6c8e-445a-b06c-f2c00a265c49","data":"\u001b]633;C\u0007On branch main\r\nYour branch is up to date with 'origin/main'.\r\n\r\nnothing to commit, working tree clean\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":3,"seq":6,"ms":38644,"op":"terminal.output"}
 {"executionId":"8873ac82-e3b3-4307-b8ee-0109ce34b7cf","terminalId":"35adbb83-6c8e-445a-b06c-f2c00a265c49","commandLine":"git status","confidence":2,"exitCode":0,"doc":3,"seq":7,"ms":38644,"op":"terminal.end"}
+{"executionId":"1714d019-33d5-4476-af2d-ea7d515374cc","terminalId":"35adbb83-6c8e-445a-b06c-f2c00a265c49","commandLine":"git diff upstream/main origin/main -- .vscode/settings.json","confidence":2,"doc":3,"seq":8,"ms":68427,"op":"terminal.start"}
+{"executionId":"1714d019-33d5-4476-af2d-ea7d515374cc","terminalId":"35adbb83-6c8e-445a-b06c-f2c00a265c49","data":"\u001b]633;C\u0007\u001b[?1h\u001b=\r\u001b[1mdiff --git a/.vscode/settings.json b/.vscode/settings.json\u001b[m\u001b[m\r\n\u001b[1mindex 19ff4b9..bdd2277 100644\u001b[m\u001b[m\r\n\u001b[1m--- a/.vscode/settings.json\u001b[m\u001b[m\r\n\u001b[1m+++ b/.vscode/settings.json\u001b[m\u001b[m\r\n\u001b[36m@@ -4,4 +4,4 @@\u001b[m\u001b[m\r\n         \"**/.gitkeep\": true,\u001b[m\u001b[m\r\n         \"**/vcr-recording.json\": true\u001b[m\u001b[m\r\n     }\u001b[m\u001b[m\r\n\u001b[31m-}\u001b[m\u001b[m\r\n\\ No newline at end of file\u001b[m\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m}\u001b[m\u001b[m\r\n\r\u001b[K\u001b[?1l\u001b>\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":3,"seq":9,"ms":68444,"op":"terminal.output"}
+{"executionId":"1714d019-33d5-4476-af2d-ea7d515374cc","terminalId":"35adbb83-6c8e-445a-b06c-f2c00a265c49","commandLine":"git diff upstream/main origin/main -- .vscode/settings.json","confidence":2,"exitCode":0,"doc":3,"seq":10,"ms":68444,"op":"terminal.end"}
+{"version":3,"changes":[{"offset":135,"length":0,"text":"\n"}],"doc":1,"seq":11,"ms":72198,"op":"edit"}
+{"doc":1,"seq":12,"ms":72215,"op":"save"}
+{"version":4,"changes":[{"offset":135,"length":1,"text":""}],"doc":1,"seq":13,"ms":74392,"op":"edit"}
+{"version":5,"changes":[{"offset":135,"length":0,"text":"\n"}],"doc":1,"seq":14,"ms":78874,"op":"edit"}
+{"doc":1,"seq":15,"ms":78899,"op":"save"}
+{"version":6,"changes":[{"offset":135,"length":1,"text":""}],"doc":1,"seq":16,"ms":80390,"op":"edit"}
+{"version":7,"changes":[{"offset":135,"length":0,"text":"\n"}],"doc":1,"seq":17,"ms":100289,"op":"edit"}
+{"doc":1,"seq":18,"ms":100312,"op":"save"}
+{"version":8,"changes":[{"offset":135,"length":1,"text":""}],"doc":1,"seq":19,"ms":102279,"op":"edit"}
