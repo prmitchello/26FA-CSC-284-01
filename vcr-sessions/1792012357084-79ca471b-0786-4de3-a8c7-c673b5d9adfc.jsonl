@@ -126,3 +126,12 @@
 {"version":5,"changes":[{"offset":163,"length":1,"text":""}],"doc":5,"seq":125,"ms":2334293,"op":"edit"}
 {"version":6,"changes":[{"offset":162,"length":1,"text":""}],"doc":5,"seq":126,"ms":2334458,"op":"edit"}
 {"version":7,"changes":[{"offset":161,"length":1,"text":""}],"doc":5,"seq":127,"ms":2335031,"op":"edit"}
+{"text":"#include <string_view>\n\n\ntemplate <typename T >\nclass SpreadSheetCell{\n\n    private:\n\n    T value;\n\n\n    public:\n\n    SpreadSheetCell(T val){\n        value = val;\n    }\n\n    void setValue(T val){\n        value = val;\n\n    }\n    T getValue(){\n        return value;\n    }\n\n\n\n};\n","version":1,"snapshot":true,"doc":6,"seq":128,"ms":2369910,"op":"snap"}
+{"version":2,"changes":[{"offset":269,"length":0,"text":"\n    "}],"doc":6,"seq":129,"ms":2394761,"op":"edit"}
+{"version":3,"changes":[{"offset":274,"length":0,"text":"\n    "},{"offset":270,"length":4,"text":""}],"doc":6,"seq":130,"ms":2396262,"op":"edit"}
+{"version":4,"changes":[{"offset":275,"length":0,"text":"o"}],"doc":6,"seq":131,"ms":2396770,"op":"edit"}
+{"version":5,"changes":[{"offset":275,"length":1,"text":""}],"doc":6,"seq":132,"ms":2397892,"op":"edit"}
+{"version":6,"changes":[{"offset":275,"length":0,"text":"v"}],"doc":6,"seq":133,"ms":2398091,"op":"edit"}
+{"version":7,"changes":[{"offset":276,"length":0,"text":"o"}],"doc":6,"seq":134,"ms":2398215,"op":"edit"}
+{"version":8,"changes":[{"offset":277,"length":0,"text":"i"}],"doc":6,"seq":135,"ms":2398386,"op":"edit"}
+{"version":9,"changes":[{"offset":278,"length":0,"text":"d"}],"doc":6,"seq":136,"ms":2398553,"op":"edit"}
