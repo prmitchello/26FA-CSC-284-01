@@ -1,0 +1,9 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-14T20:19:41.162Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"4ebde92a-98e7-4b07-b2d5-c7d87a552e54","sourceWindowId":"716908e5-5a4d-4bd4-a7ae-b4ff2c8c53b1","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"aab9d0dc6438111117a20c540ce1ac67551ecf76","seq":1,"ms":-1291,"op":"source.context"}
+{"text":"#include <iostream>\n#include \"base.h\"\n#include \"derived.h\"\n\n\n\nusing namespace std;\n\nint main()\n{\n    Base base;\n    cout << base.someMethod() << endl;\n}\n","version":1,"path":"exercises/inheritenceFolder/inheritance.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1291,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1291,"op":"snap"}
+{"doc":1,"seq":4,"ms":17419,"op":"close"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":3,"seq":5,"ms":17428,"op":"snap"}
+{"doc":3,"seq":6,"ms":32003,"op":"save"}
+{"text":"#include \"string\"\n#include \"derived.h\"\n\nstd::string Derived::someOtherMethod() {\n    return \"Derived::someOtherMethod() Called!\";\n}\n","version":1,"path":"exercises/inheritenceFolder/derived.cpp","snapshot":true,"doc":4,"seq":7,"ms":46677,"op":"snap"}
+{"doc":4,"seq":8,"ms":47206,"op":"close"}
