@@ -1,0 +1,7 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-14T20:46:48.755Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"5abaebe7-bc90-41b0-874a-66550523b287","sourceWindowId":"2af453b4-3aab-4b37-bd5f-a7ec98efc063","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"07114dc6eb36e56c413003b30655198cf3f88388","seq":1,"ms":-1269,"op":"source.context"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    }\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":1,"seq":2,"ms":-1269,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1268,"op":"snap"}
+{"version":2,"changes":[{"offset":7,"length":1,"text":"f"}],"doc":1,"seq":4,"ms":12771,"op":"edit"}
+{"version":3,"changes":[{"offset":136,"length":0,"text":"ƒ"}],"doc":1,"seq":5,"ms":24263,"op":"edit"}
+{"version":4,"changes":[{"offset":136,"length":1,"text":""}],"doc":1,"seq":6,"ms":26110,"op":"edit"}
