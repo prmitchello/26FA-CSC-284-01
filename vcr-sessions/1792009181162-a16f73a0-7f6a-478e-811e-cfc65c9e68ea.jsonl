@@ -7,3 +7,4 @@
 {"doc":3,"seq":6,"ms":32003,"op":"save"}
 {"text":"#include \"string\"\n#include \"derived.h\"\n\nstd::string Derived::someOtherMethod() {\n    return \"Derived::someOtherMethod() Called!\";\n}\n","version":1,"path":"exercises/inheritenceFolder/derived.cpp","snapshot":true,"doc":4,"seq":7,"ms":46677,"op":"snap"}
 {"doc":4,"seq":8,"ms":47206,"op":"close"}
+{"doc":2,"seq":9,"ms":178516,"op":"close"}
