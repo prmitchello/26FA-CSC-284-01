@@ -60,3 +60,17 @@
 {"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","processId":-1,"doc":4,"seq":59,"ms":1834575,"op":"task.processStart"}
 {"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","exitCode":-1,"doc":4,"seq":60,"ms":1834699,"op":"task.processEnd"}
 {"executionId":"19d3706f-25b5-4efb-a5a1-9d5ec94b7f08","doc":4,"seq":61,"ms":1834700,"op":"task.end"}
+{"doc":6,"seq":62,"ms":2010983,"op":"close"}
+{"text":"#include <iostream>\n#include \"SpreadSheetCell.cpp\"\n\nusing namespace std;\n\n\nint main(){\n    int d = 8;\n\n\n    SpreadSheetCell c1(\"this is now a string\");\n    SpreadSheetCell c2(123.2);\n    SpreadSheetCell c3(-123.2);\n    SpreadSheetCell c4(123);\n\n\n    cout<<c1.getValue()<<endl;\n    cout<<c2.getValue()<<endl;\n    cout<<c3.getValue()<<endl;\n    cout<<c4.getValue()<<endl;\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/example.cpp","snapshot":true,"doc":7,"seq":63,"ms":2010991,"op":"snap"}
+{"executionId":"9b37918c-799e-43c7-8662-6ba6f494b7bd","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":64,"ms":2013007,"op":"task.start"}
+{"executionId":"9b37918c-799e-43c7-8662-6ba6f494b7bd","processId":-1,"doc":4,"seq":65,"ms":2013008,"op":"task.processStart"}
+{"executionId":"9b37918c-799e-43c7-8662-6ba6f494b7bd","exitCode":-1,"doc":4,"seq":66,"ms":2013273,"op":"task.processEnd"}
+{"executionId":"9b37918c-799e-43c7-8662-6ba6f494b7bd","doc":4,"seq":67,"ms":2013274,"op":"task.end"}
+{"doc":7,"seq":68,"ms":2029611,"op":"close"}
+{"text":"#include <string_view>\n\n\ntemplate <typename T >\nclass SpreadSheetCell{\n\n    private:\n\n    T value;\n\n\n    public:\n\n    SpreadSheetCell(T val){\n        value = val;\n    }\n\n    void setValue(T val){\n        value = val;\n\n    }\n    T getValue(){\n        return value;\n    }\n\n\n\n};\n","version":1,"snapshot":true,"doc":6,"seq":69,"ms":2029626,"op":"snap"}
+{"doc":6,"seq":70,"ms":2033011,"op":"close"}
+{"text":"#ifndef SPREADSHEET_H\n#define SPREADSHEET_H\n\n    class SpreadSheet{\n\n        private:\n\n        int location;\n\n\n\n\n        public:\n\n        SpreadSheet(){\n\n        }\n\n\n\n\n    };\n\n#endif;\n","version":1,"snapshot":true,"doc":5,"seq":71,"ms":2033025,"op":"snap"}
+{"doc":5,"seq":72,"ms":2035471,"op":"close"}
+{"text":"#include <iostream>\n#include \"SpreadSheetCell.cpp\"\n\nusing namespace std;\n\n\nint main(){\n    int d = 8;\n\n\n    SpreadSheetCell c1(\"this is now a string\");\n    SpreadSheetCell c2(123.2);\n    SpreadSheetCell c3(-123.2);\n    SpreadSheetCell c4(123);\n\n\n    cout<<c1.getValue()<<endl;\n    cout<<c2.getValue()<<endl;\n    cout<<c3.getValue()<<endl;\n    cout<<c4.getValue()<<endl;\n\n    return 0;\n}\n","version":1,"snapshot":true,"doc":7,"seq":73,"ms":2035481,"op":"snap"}
+{"version":2,"changes":[{"offset":123,"length":0,"text":"<"}],"doc":7,"seq":74,"ms":2038353,"op":"edit"}
+{"version":3,"changes":[{"offset":124,"length":0,"text":">"}],"doc":7,"seq":75,"ms":2038409,"op":"edit"}
