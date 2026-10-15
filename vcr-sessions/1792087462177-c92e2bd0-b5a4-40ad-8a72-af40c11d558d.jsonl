@@ -1,0 +1,22 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-15T18:04:22.177Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"eb84867b-5a52-4000-86f9-1870c452e5fd","sourceWindowId":"ff24bbff-d14a-436f-ace0-8895c88e3983","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"ca8dc4f8e12f9a99ae8bbbd03da740da9253141e","seq":1,"ms":-1517,"op":"source.context"}
+{"text":"#include <iostream>\n#include \"SpreadSheetCell.cpp\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n    int d = 8;\n\n\n    // SpreadSheetCell<string> c1(\"this is now a string\");\n    // SpreadSheetCell<double> c2(123.2);\n    // SpreadSheetCell<double> c3(-123.2);\n    // SpreadSheetCell<double> c4(123);\n\n    // cout<<c1.getValue()<<endl;\n    // cout<<c2.getValue()<<endl;\n    // cout<<c3.getValue()<<endl;\n    // cout<<c4.getValue()<<endl;\n\n    DoubleSpreadsheet d1;\n    d1::virtualMethod();\n\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemostration.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1517,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1517,"op":"snap"}
+{"version":2,"changes":[{"offset":546,"length":0,"text":"f"}],"doc":1,"seq":4,"ms":-353,"op":"edit"}
+{"version":3,"changes":[{"offset":547,"length":0,"text":"f"}],"doc":1,"seq":5,"ms":570,"op":"edit"}
+{"version":4,"changes":[{"offset":548,"length":0,"text":"ƒ"}],"doc":1,"seq":6,"ms":2454,"op":"edit"}
+{"doc":1,"seq":7,"ms":15126,"op":"save"}
+{"version":5,"changes":[{"offset":548,"length":1,"text":""}],"doc":1,"seq":8,"ms":19766,"op":"edit"}
+{"version":6,"changes":[{"offset":547,"length":1,"text":""}],"doc":1,"seq":9,"ms":19923,"op":"edit"}
+{"version":7,"changes":[{"offset":546,"length":1,"text":""}],"doc":1,"seq":10,"ms":20053,"op":"edit"}
+{"version":8,"changes":[{"offset":545,"length":1,"text":""}],"doc":1,"seq":11,"ms":20819,"op":"edit"}
+{"version":9,"changes":[{"offset":528,"length":1,"text":""}],"doc":1,"seq":12,"ms":33011,"op":"edit"}
+{"version":10,"changes":[{"offset":527,"length":1,"text":""}],"doc":1,"seq":13,"ms":33160,"op":"edit"}
+{"version":11,"changes":[{"offset":526,"length":1,"text":""}],"doc":1,"seq":14,"ms":33528,"op":"edit"}
+{"version":12,"changes":[{"offset":526,"length":0,"text":"1"}],"doc":1,"seq":15,"ms":34880,"op":"edit"}
+{"version":13,"changes":[{"offset":527,"length":0,"text":"."}],"doc":1,"seq":16,"ms":35061,"op":"edit"}
+{"doc":1,"seq":17,"ms":43236,"op":"save"}
+{"executionId":"18315260-2e66-426c-b10f-7ba9ed392705","name":"C/C++: g++ build active file","type":"cppbuild","path":".","doc":3,"seq":18,"ms":43400,"op":"task.start"}
+{"executionId":"18315260-2e66-426c-b10f-7ba9ed392705","processId":-1,"doc":3,"seq":19,"ms":43431,"op":"task.processStart"}
+{"executionId":"18315260-2e66-426c-b10f-7ba9ed392705","exitCode":-1,"doc":3,"seq":20,"ms":43672,"op":"task.processEnd"}
+{"executionId":"18315260-2e66-426c-b10f-7ba9ed392705","doc":3,"seq":21,"ms":43673,"op":"task.end"}
