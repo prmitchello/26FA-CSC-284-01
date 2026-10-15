@@ -3,3 +3,4 @@
 {"text":"#include <iostream>\n\nusing namespace std;\n\nint main() {\n    cout << \"Hello, welcome to CSC-284-01!\" << endl;\n    return 0;\n}","version":1,"path":"welcome.cpp","snapshot":true,"doc":1,"seq":2,"ms":-12,"op":"snap"}
 {"source":"watcher","path":"welcome.dSYM","doc":2,"seq":3,"ms":672416,"op":"fs.create"}
 {"source":"watcher","path":"welcome.dSYM/Contents","doc":3,"seq":4,"ms":672416,"op":"fs.create"}
+{"seq":5,"ms":73972455,"op":"end"}

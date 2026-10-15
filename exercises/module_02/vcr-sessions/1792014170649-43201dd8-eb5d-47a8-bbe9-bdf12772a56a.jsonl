@@ -4,3 +4,4 @@
 {"doc":1,"seq":3,"ms":6997,"op":"close"}
 {"text":"#include <iostream>\n#include \"hourlyEmployee.cpp\"\n#include \"salaryEmployee.cpp\"\n\nusing namespace std;\n\nint main()\n{\n\n    salaryEmployee employee{\"Erick\"};\n    hourlyEmployee employee2(\"Paul\");\n\n    employee2.setRate(25);\n    employee2.setHoursWorked(40);\n    employee2.calculatePay(employee2);\n\n    employee.setSalary(95000);\n    employee.calculatePay(employee);\n\n    return 0;\n}\n","version":1,"path":"employee/run.cpp","snapshot":true,"doc":2,"seq":4,"ms":7011,"op":"snap"}
 {"doc":2,"seq":5,"ms":19498,"op":"close"}
+{"seq":6,"ms":73282688,"op":"end"}
