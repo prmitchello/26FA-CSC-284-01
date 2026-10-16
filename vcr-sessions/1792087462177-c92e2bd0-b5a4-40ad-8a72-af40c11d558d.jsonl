@@ -99,3 +99,4 @@
 {"executionId":"231882c9-ad37-4a51-9571-e39f4d1ad951","terminalId":"927d675f-9277-450c-be91-45819e54bcd7","commandLine":"g++ mainDemostration.cpp","confidence":2,"exitCode":1,"doc":4,"seq":98,"ms":334459,"op":"terminal.end"}
 {"source":"workspace","path":"exercises/module5","doc":7,"seq":99,"ms":3905554,"op":"fs.create"}
 {"source":"watcher","doc":7,"seq":100,"ms":3905642,"op":"fs.create"}
+{"seq":101,"ms":27475029,"op":"end"}
