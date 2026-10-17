@@ -79,3 +79,10 @@
 {"version":59,"changes":[{"offset":85,"length":0,"text":"\n"}],"doc":3,"seq":78,"ms":4285078,"op":"edit"}
 {"version":60,"changes":[{"offset":86,"length":0,"text":"\n"}],"doc":3,"seq":79,"ms":4285758,"op":"edit"}
 {"version":61,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":87,"length":0,"text":"template <typename t>"}],"doc":3,"seq":80,"ms":4286137,"op":"edit"}
+{"version":17,"changes":[{"offset":120,"length":263,"text":""}],"doc":1,"seq":81,"ms":5523889,"op":"edit"}
+{"version":18,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":44,"length":77,"text":"class SpreadsheetCell {\npublic:\n\tvirtual ~SpreadsheetCell() = default;\n\tvirtual void set(std::string_view value);\n\tvirtual std::string getString() const;\n};\n"}],"doc":1,"seq":82,"ms":5527764,"op":"edit"}
+{"version":19,"changes":[{"offset":158,"length":1,"text":"        "},{"offset":115,"length":1,"text":"        "},{"offset":76,"length":1,"text":"        "}],"doc":1,"seq":83,"ms":5535478,"op":"edit"}
+{"version":20,"reason":1,"changes":[{"offset":172,"length":8,"text":"\t"},{"offset":122,"length":8,"text":"\t"},{"offset":76,"length":8,"text":"\t"}],"doc":1,"seq":84,"ms":5537995,"op":"edit"}
+{"version":21,"changes":[{"offset":158,"length":1,"text":"        "},{"offset":115,"length":1,"text":"        "},{"offset":76,"length":1,"text":"        "},{"offset":68,"length":0,"text":"    "}],"doc":1,"seq":85,"ms":5542580,"op":"edit"}
+{"version":22,"changes":[{"offset":67,"length":0,"text":"\n    "}],"doc":1,"seq":86,"ms":5544464,"op":"edit"}
+{"version":23,"changes":[{"offset":227,"length":0,"text":"\n        "},{"offset":68,"length":4,"text":""}],"doc":1,"seq":87,"ms":5546173,"op":"edit"}
