@@ -123,3 +123,34 @@
 {"version":96,"changes":[{"offset":553,"length":0,"text":"r"}],"doc":5,"seq":122,"ms":663749,"op":"edit"}
 {"version":97,"changes":[{"offset":554,"length":0,"text":"n"}],"doc":5,"seq":123,"ms":664264,"op":"edit"}
 {"version":98,"changes":[{"offset":555,"length":0,"text":" "}],"doc":5,"seq":124,"ms":664286,"op":"edit"}
+{"version":99,"changes":[{"offset":555,"length":1,"text":""}],"doc":5,"seq":125,"ms":729275,"op":"edit"}
+{"version":100,"changes":[{"offset":554,"length":1,"text":""}],"doc":5,"seq":126,"ms":729513,"op":"edit"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\ntemplate <typename t>\nvoid swap(t a, t b);\n\ntemplate <typename t>\nvoid max(t , t );\n\n\nint main(){\n\n\n    swap(3 , 6);\n\n\n    //std::cout << swap(3 , 5)<<std::endl;\n\n\n    return 0;\n}\n\ntemplate <typename t>\nvoid swap (t a , t b){\n\n    cout<<\" the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n    t1 temp = a;\n\n    a = b;\n\n    b = temp;\n\n     cout<<\" now the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n}\ntemplate <typename t>\nvoid max(t a , t b){\n\n    cout<<\"the greater \"<<(a>b)? a:b;\n}\n","version":101,"snapshot":true,"doc":5,"seq":127,"ms":734239,"op":"edit"}
+{"version":102,"changes":[{"offset":555,"length":0,"text":"v"}],"doc":5,"seq":128,"ms":734352,"op":"edit"}
+{"version":103,"changes":[{"offset":556,"length":0,"text":"a"}],"doc":5,"seq":129,"ms":734444,"op":"edit"}
+{"version":104,"changes":[{"offset":557,"length":0,"text":"l"}],"doc":5,"seq":130,"ms":734528,"op":"edit"}
+{"version":105,"changes":[{"offset":558,"length":0,"text":"u"}],"doc":5,"seq":131,"ms":734713,"op":"edit"}
+{"version":106,"changes":[{"offset":559,"length":0,"text":"e"}],"doc":5,"seq":132,"ms":734825,"op":"edit"}
+{"version":107,"changes":[{"offset":560,"length":0,"text":" "}],"doc":5,"seq":133,"ms":735369,"op":"edit"}
+{"version":108,"changes":[{"offset":561,"length":0,"text":"i"}],"doc":5,"seq":134,"ms":735515,"op":"edit"}
+{"version":109,"changes":[{"offset":562,"length":0,"text":"s"}],"doc":5,"seq":135,"ms":735667,"op":"edit"}
+{"version":110,"changes":[{"offset":563,"length":0,"text":" "}],"doc":5,"seq":136,"ms":735797,"op":"edit"}
+{"version":111,"changes":[{"offset":167,"length":1,"text":""}],"doc":5,"seq":137,"ms":745933,"op":"edit"}
+{"version":112,"changes":[{"offset":166,"length":1,"text":""}],"doc":5,"seq":138,"ms":746103,"op":"edit"}
+{"version":113,"changes":[{"offset":166,"length":36,"text":""}],"doc":5,"seq":139,"ms":760769,"op":"edit"}
+{"version":114,"changes":[{"offset":162,"length":4,"text":""}],"doc":5,"seq":140,"ms":761222,"op":"edit"}
+{"version":115,"changes":[{"offset":161,"length":1,"text":""}],"doc":5,"seq":141,"ms":761433,"op":"edit"}
+{"version":116,"changes":[{"offset":161,"length":0,"text":"    "}],"doc":5,"seq":142,"ms":762049,"op":"edit"}
+{"version":117,"changes":[{"offset":165,"length":0,"text":"m"}],"doc":5,"seq":143,"ms":763423,"op":"edit"}
+{"version":118,"changes":[{"offset":166,"length":0,"text":"a"}],"doc":5,"seq":144,"ms":763502,"op":"edit"}
+{"version":119,"changes":[{"offset":167,"length":0,"text":"x"}],"doc":5,"seq":145,"ms":763687,"op":"edit"}
+{"version":120,"changes":[{"offset":168,"length":0,"text":"()"}],"doc":5,"seq":146,"ms":764398,"op":"edit"}
+{"version":121,"changes":[{"offset":169,"length":1,"text":")"}],"doc":5,"seq":147,"ms":764474,"op":"edit"}
+{"version":122,"changes":[{"offset":169,"length":0,"text":"2"}],"doc":5,"seq":148,"ms":766733,"op":"edit"}
+{"version":123,"changes":[{"offset":170,"length":0,"text":"3"}],"doc":5,"seq":149,"ms":766785,"op":"edit"}
+{"version":124,"changes":[{"offset":171,"length":0,"text":","}],"doc":5,"seq":150,"ms":767127,"op":"edit"}
+{"version":125,"changes":[{"offset":172,"length":0,"text":" "}],"doc":5,"seq":151,"ms":767637,"op":"edit"}
+{"version":126,"changes":[{"offset":173,"length":0,"text":"\"\""}],"doc":5,"seq":152,"ms":768604,"op":"edit"}
+{"version":127,"changes":[{"offset":174,"length":0,"text":"t"}],"doc":5,"seq":153,"ms":769342,"op":"edit"}
+{"version":128,"changes":[{"offset":175,"length":0,"text":"h"}],"doc":5,"seq":154,"ms":769507,"op":"edit"}
+{"version":129,"changes":[{"offset":176,"length":0,"text":"e"}],"doc":5,"seq":155,"ms":769711,"op":"edit"}
