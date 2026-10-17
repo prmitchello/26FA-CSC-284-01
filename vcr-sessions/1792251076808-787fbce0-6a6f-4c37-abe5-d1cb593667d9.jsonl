@@ -43,3 +43,39 @@
 {"version":23,"changes":[{"offset":70,"length":0,"text":"m"}],"doc":3,"seq":42,"ms":4252671,"op":"edit"}
 {"version":24,"changes":[{"offset":71,"length":0,"text":"a"}],"doc":3,"seq":43,"ms":4252796,"op":"edit"}
 {"version":25,"changes":[{"offset":72,"length":0,"text":"x"}],"doc":3,"seq":44,"ms":4252973,"op":"edit"}
+{"version":26,"changes":[{"offset":43,"length":0,"text":"t"}],"doc":3,"seq":45,"ms":4258647,"op":"edit"}
+{"version":27,"changes":[{"offset":44,"length":0,"text":"e"}],"doc":3,"seq":46,"ms":4259778,"op":"edit"}
+{"version":28,"changes":[{"offset":45,"length":0,"text":"m"}],"doc":3,"seq":47,"ms":4259886,"op":"edit"}
+{"version":29,"changes":[{"offset":46,"length":0,"text":"p"}],"doc":3,"seq":48,"ms":4260044,"op":"edit"}
+{"version":30,"changes":[{"offset":47,"length":0,"text":","}],"doc":3,"seq":49,"ms":4260289,"op":"edit"}
+{"version":31,"changes":[{"offset":48,"length":0,"text":"a"}],"doc":3,"seq":50,"ms":4260319,"op":"edit"}
+{"version":32,"changes":[{"offset":48,"length":1,"text":""}],"doc":3,"seq":51,"ms":4260961,"op":"edit"}
+{"version":33,"changes":[{"offset":47,"length":1,"text":""}],"doc":3,"seq":52,"ms":4261168,"op":"edit"}
+{"version":34,"changes":[{"offset":47,"length":0,"text":"l"}],"doc":3,"seq":53,"ms":4261656,"op":"edit"}
+{"version":35,"changes":[{"offset":48,"length":0,"text":"a"}],"doc":3,"seq":54,"ms":4261733,"op":"edit"}
+{"version":36,"changes":[{"offset":49,"length":0,"text":"t"}],"doc":3,"seq":55,"ms":4261916,"op":"edit"}
+{"version":37,"changes":[{"offset":50,"length":0,"text":"e"}],"doc":3,"seq":56,"ms":4262074,"op":"edit"}
+{"version":38,"changes":[{"offset":51,"length":0,"text":" "}],"doc":3,"seq":57,"ms":4262200,"op":"edit"}
+{"version":39,"changes":[{"offset":52,"length":0,"text":"<"}],"doc":3,"seq":58,"ms":4263281,"op":"edit"}
+{"version":40,"changes":[{"offset":53,"length":0,"text":">"}],"doc":3,"seq":59,"ms":4263362,"op":"edit"}
+{"version":41,"changes":[{"offset":53,"length":0,"text":"t"}],"doc":3,"seq":60,"ms":4264593,"op":"edit"}
+{"version":42,"changes":[{"offset":54,"length":0,"text":"y"}],"doc":3,"seq":61,"ms":4264847,"op":"edit"}
+{"version":43,"changes":[{"offset":55,"length":0,"text":"p"}],"doc":3,"seq":62,"ms":4264941,"op":"edit"}
+{"version":44,"changes":[{"offset":56,"length":0,"text":"e"}],"doc":3,"seq":63,"ms":4265103,"op":"edit"}
+{"version":45,"changes":[{"offset":57,"length":0,"text":"m"}],"doc":3,"seq":64,"ms":4265305,"op":"edit"}
+{"version":46,"changes":[{"offset":57,"length":1,"text":""}],"doc":3,"seq":65,"ms":4265793,"op":"edit"}
+{"version":47,"changes":[{"offset":57,"length":0,"text":"n"}],"doc":3,"seq":66,"ms":4265994,"op":"edit"}
+{"version":48,"changes":[{"offset":58,"length":0,"text":"a"}],"doc":3,"seq":67,"ms":4266003,"op":"edit"}
+{"version":49,"changes":[{"offset":59,"length":0,"text":"e"}],"doc":3,"seq":68,"ms":4266266,"op":"edit"}
+{"version":50,"changes":[{"offset":59,"length":1,"text":""}],"doc":3,"seq":69,"ms":4267430,"op":"edit"}
+{"version":51,"changes":[{"offset":59,"length":0,"text":"m"}],"doc":3,"seq":70,"ms":4267767,"op":"edit"}
+{"version":52,"changes":[{"offset":60,"length":0,"text":"e"}],"doc":3,"seq":71,"ms":4269384,"op":"edit"}
+{"version":53,"changes":[{"offset":61,"length":0,"text":" "}],"doc":3,"seq":72,"ms":4269573,"op":"edit"}
+{"version":54,"changes":[{"offset":62,"length":0,"text":"t"}],"doc":3,"seq":73,"ms":4269719,"op":"edit"}
+{"version":55,"changes":[{"offset":97,"length":0,"text":" "}],"doc":3,"seq":74,"ms":4280972,"op":"edit"}
+{"version":56,"changes":[{"offset":97,"length":1,"text":""}],"doc":3,"seq":75,"ms":4281652,"op":"edit"}
+{"version":57,"changes":[{"offset":97,"length":0,"text":"a"}],"doc":3,"seq":76,"ms":4282126,"op":"edit"}
+{"version":58,"changes":[{"offset":97,"length":1,"text":""}],"doc":3,"seq":77,"ms":4283856,"op":"edit"}
+{"version":59,"changes":[{"offset":85,"length":0,"text":"\n"}],"doc":3,"seq":78,"ms":4285078,"op":"edit"}
+{"version":60,"changes":[{"offset":86,"length":0,"text":"\n"}],"doc":3,"seq":79,"ms":4285758,"op":"edit"}
+{"version":61,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":87,"length":0,"text":"template <typename t>"}],"doc":3,"seq":80,"ms":4286137,"op":"edit"}
