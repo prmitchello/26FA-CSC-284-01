@@ -18,3 +18,17 @@
 {"version":15,"changes":[{"offset":133,"length":1,"text":""}],"doc":1,"seq":17,"ms":33679,"op":"edit"}
 {"version":16,"changes":[{"offset":132,"length":1,"text":""}],"doc":1,"seq":18,"ms":34604,"op":"edit"}
 {"doc":2,"seq":19,"ms":178702,"op":"close"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\ntemplate <typename t1, typename t2>\nvoid swap(t1 a, t2 b);\n\n\nint main(){\n\n\n    swap(3 , 6);\n\n\n    //std::cout << swap(3 , 5)<<std::endl;\n\n\n    return 0;\n}\n\ntemplate <typename t1, typename t2>\nvoid swap (t1 a , t2 b){\n\n    cout<<\" the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n    t1 temp = a;\n\n    a = b;\n\n    b = temp;\n\n     cout<<\" now the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n}\n","version":1,"path":"exercises/module5/templateSwap.cpp","snapshot":true,"doc":3,"seq":20,"ms":1626119,"op":"snap"}
+{"version":2,"changes":[{"offset":101,"length":0,"text":"\n"}],"doc":3,"seq":21,"ms":1635633,"op":"edit"}
+{"version":3,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":102,"length":0,"text":"void swap(t1 a, t2 b);"}],"doc":3,"seq":22,"ms":1635923,"op":"edit"}
+{"version":4,"changes":[{"offset":63,"length":1,"text":""}],"doc":3,"seq":23,"ms":1642043,"op":"edit"}
+{"version":5,"changes":[{"offset":89,"length":1,"text":""}],"doc":3,"seq":24,"ms":1645243,"op":"edit"}
+{"version":6,"changes":[{"offset":94,"length":1,"text":""}],"doc":3,"seq":25,"ms":1646941,"op":"edit"}
+{"version":7,"changes":[{"offset":267,"length":1,"text":""}],"doc":3,"seq":26,"ms":1655815,"op":"edit"}
+{"version":8,"changes":[{"offset":273,"length":1,"text":""}],"doc":3,"seq":27,"ms":1657670,"op":"edit"}
+{"version":9,"changes":[{"offset":239,"length":1,"text":""}],"doc":3,"seq":28,"ms":1659021,"op":"edit"}
+{"version":10,"changes":[{"offset":239,"length":13,"text":""}],"doc":3,"seq":29,"ms":1662479,"op":"edit"}
+{"version":11,"changes":[{"offset":110,"length":1,"text":""}],"doc":3,"seq":30,"ms":1667803,"op":"edit"}
+{"version":12,"changes":[{"offset":115,"length":1,"text":""}],"doc":3,"seq":31,"ms":1669809,"op":"edit"}
+{"version":13,"changes":[{"offset":63,"length":13,"text":""}],"doc":3,"seq":32,"ms":1674653,"op":"edit"}
+{"version":14,"changes":[{"offset":43,"length":21,"text":""}],"doc":3,"seq":33,"ms":1676911,"op":"edit"}
