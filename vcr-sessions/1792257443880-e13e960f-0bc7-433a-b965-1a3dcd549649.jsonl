@@ -8,3 +8,4 @@
 {"executionId":"79c99e58-2ff5-4226-ab12-f0f40e2d3fc7","processId":-1,"doc":3,"seq":7,"ms":4057,"op":"task.processStart"}
 {"executionId":"79c99e58-2ff5-4226-ab12-f0f40e2d3fc7","exitCode":-1,"doc":3,"seq":8,"ms":4293,"op":"task.processEnd"}
 {"executionId":"79c99e58-2ff5-4226-ab12-f0f40e2d3fc7","doc":3,"seq":9,"ms":4294,"op":"task.end"}
+{"doc":2,"seq":10,"ms":178651,"op":"close"}
