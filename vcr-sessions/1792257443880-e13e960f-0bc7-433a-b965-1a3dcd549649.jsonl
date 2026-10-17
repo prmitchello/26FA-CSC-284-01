@@ -20,3 +20,25 @@
 {"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","processId":-1,"doc":3,"seq":19,"ms":534793,"op":"task.processStart"}
 {"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","exitCode":-1,"doc":3,"seq":20,"ms":535036,"op":"task.processEnd"}
 {"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","doc":3,"seq":21,"ms":535037,"op":"task.end"}
+{"version":2,"changes":[{"offset":550,"length":23,"text":""}],"doc":1,"seq":22,"ms":548291,"op":"edit"}
+{"version":3,"changes":[{"offset":173,"length":185,"text":""}],"doc":1,"seq":23,"ms":555869,"op":"edit"}
+{"version":4,"changes":[{"offset":161,"length":150,"text":""}],"doc":1,"seq":24,"ms":558998,"op":"edit"}
+{"version":5,"changes":[{"offset":215,"length":1,"text":""}],"doc":1,"seq":25,"ms":561783,"op":"edit"}
+{"version":6,"changes":[{"offset":166,"length":46,"text":""}],"doc":1,"seq":26,"ms":564331,"op":"edit"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\ntemplate <typename t>\nvoid swap(t a, t b);\n\ntemplate <typename t>\nvoid max(t , t );\n\n\nint main(){\n\n\n    swap(3 , 6);\n\n\n    //std::cout << swap(3 , 5)<<std::endl;\n\n\n    return 0;\n}\n\ntemplate <typename t>\nvoid swap (t a , t b){\n\n    cout<<\" the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n    t1 temp = a;\n\n    a = b;\n\n    b = temp;\n\n     cout<<\" now the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n}\n","version":1,"path":"exercises/module5/templateSwap.cpp","snapshot":true,"doc":5,"seq":27,"ms":578677,"op":"snap"}
+{"version":2,"changes":[{"offset":487,"length":0,"text":"\n"}],"doc":5,"seq":28,"ms":591119,"op":"edit"}
+{"version":3,"changes":[{"offset":488,"length":0,"text":"v"}],"doc":5,"seq":29,"ms":591512,"op":"edit"}
+{"version":4,"changes":[{"offset":489,"length":0,"text":"o"}],"doc":5,"seq":30,"ms":591650,"op":"edit"}
+{"version":5,"changes":[{"offset":490,"length":0,"text":"i"}],"doc":5,"seq":31,"ms":591803,"op":"edit"}
+{"version":6,"changes":[{"offset":491,"length":0,"text":"d"}],"doc":5,"seq":32,"ms":591919,"op":"edit"}
+{"version":7,"changes":[{"offset":492,"length":0,"text":" "}],"doc":5,"seq":33,"ms":592055,"op":"edit"}
+{"version":8,"changes":[{"offset":493,"length":0,"text":"m"}],"doc":5,"seq":34,"ms":592622,"op":"edit"}
+{"version":9,"changes":[{"offset":494,"length":0,"text":"a"}],"doc":5,"seq":35,"ms":592738,"op":"edit"}
+{"version":10,"changes":[{"offset":495,"length":0,"text":"c"}],"doc":5,"seq":36,"ms":592931,"op":"edit"}
+{"version":11,"changes":[{"offset":495,"length":1,"text":""}],"doc":5,"seq":37,"ms":593597,"op":"edit"}
+{"version":12,"changes":[{"offset":495,"length":0,"text":"x"}],"doc":5,"seq":38,"ms":593786,"op":"edit"}
+{"version":13,"changes":[{"offset":496,"length":0,"text":"()"}],"doc":5,"seq":39,"ms":594620,"op":"edit"}
+{"version":14,"changes":[{"offset":497,"length":1,"text":")"}],"doc":5,"seq":40,"ms":594659,"op":"edit"}
+{"version":15,"changes":[{"offset":498,"length":0,"text":"{}"}],"doc":5,"seq":41,"ms":595223,"op":"edit"}
+{"version":16,"changes":[{"offset":499,"length":0,"text":"\n    \n"}],"doc":5,"seq":42,"ms":595416,"op":"edit"}
+{"version":17,"changes":[{"offset":504,"length":0,"text":"\n    "},{"offset":500,"length":4,"text":""}],"doc":5,"seq":43,"ms":595900,"op":"edit"}
