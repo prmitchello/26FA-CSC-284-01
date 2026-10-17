@@ -258,3 +258,4 @@
 {"version":208,"changes":[{"offset":573,"length":0,"text":" "}],"doc":5,"seq":257,"ms":1026432,"op":"edit"}
 {"doc":5,"seq":258,"ms":1138757,"op":"save"}
 {"doc":5,"seq":259,"ms":1140362,"op":"close"}
+{"text":"// //#include \"SpreadSheetCell.cpp\"\n\n// class DoubleSpreadsheet :  SpreadSheetCell\n// {\n\n//     public:\n\n//     DoubleSpreadsheet(){\n//         std::cout<<\"construct\";\n//     }\n\n//     void someMethod() override\n//     {\n//         std::cout<<\"double call the overridden method.\";\n//     }\n\n// };\n","version":1,"path":"exercises/module_04/doubleSpreadsheet.cpp","snapshot":true,"doc":7,"seq":260,"ms":1257116,"op":"snap"}
