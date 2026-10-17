@@ -228,3 +228,29 @@
 {"text":"#include <iostream>\n\nusing namespace std;\n\ntemplate <typename t>\nvoid swap(t a, t b);\n\ntemplate <typename t1>\nvoid Greater(t1 a , t1 b );\n\n\nint main(){\n\n\n    swap(3 , 6);\n\n    Greater(23, 89);\n\n\n    return 0;\n}\n\ntemplate <typename t>\nvoid swap (t a , t b){\n\n    cout<<\" the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n    t1 temp = a;\n\n    a = b;\n\n    b = temp;\n\n     cout<<\" now the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n}\ntemplate <typename t>\nvoid Greater(t1 a , t b){\n\n    cout<<\"the greater value is \"<<(a>b)? a:b;\n}\n","version":201,"snapshot":true,"doc":5,"seq":227,"ms":887836,"op":"edit"}
 {"version":202,"changes":[{"offset":496,"length":0,"text":"1"}],"doc":5,"seq":228,"ms":889189,"op":"edit"}
 {"version":203,"changes":[{"offset":520,"length":0,"text":"1"}],"doc":5,"seq":229,"ms":890253,"op":"edit"}
+{"version":7,"changes":[{"offset":167,"length":2,"text":""},{"offset":162,"length":4,"text":""},{"offset":158,"length":3,"text":""}],"doc":1,"seq":230,"ms":978482,"op":"edit"}
+{"doc":5,"seq":231,"ms":978489,"op":"save"}
+{"doc":1,"seq":232,"ms":978495,"op":"save"}
+{"executionId":"5d4eaa60-64a7-4c18-8ee1-97002abdac9e","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":233,"ms":978658,"op":"task.start"}
+{"executionId":"5d4eaa60-64a7-4c18-8ee1-97002abdac9e","processId":-1,"doc":3,"seq":234,"ms":978665,"op":"task.processStart"}
+{"executionId":"5d4eaa60-64a7-4c18-8ee1-97002abdac9e","exitCode":-1,"doc":3,"seq":235,"ms":978925,"op":"task.processEnd"}
+{"executionId":"5d4eaa60-64a7-4c18-8ee1-97002abdac9e","doc":3,"seq":236,"ms":978926,"op":"task.end"}
+{"version":204,"changes":[{"offset":562,"length":0,"text":"("}],"doc":5,"seq":237,"ms":988127,"op":"edit"}
+{"version":205,"changes":[{"offset":573,"length":0,"text":")"}],"doc":5,"seq":238,"ms":990349,"op":"edit"}
+{"doc":5,"seq":239,"ms":994073,"op":"save"}
+{"executionId":"f0ac7c2c-03a7-41ec-a136-5e892ad158e4","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":240,"ms":994251,"op":"task.start"}
+{"executionId":"f0ac7c2c-03a7-41ec-a136-5e892ad158e4","processId":-1,"doc":3,"seq":241,"ms":994259,"op":"task.processStart"}
+{"executionId":"f0ac7c2c-03a7-41ec-a136-5e892ad158e4","exitCode":-1,"doc":3,"seq":242,"ms":994519,"op":"task.processEnd"}
+{"executionId":"f0ac7c2c-03a7-41ec-a136-5e892ad158e4","doc":3,"seq":243,"ms":994520,"op":"task.end"}
+{"version":206,"changes":[{"offset":346,"length":1,"text":""}],"doc":5,"seq":244,"ms":1008967,"op":"edit"}
+{"doc":5,"seq":245,"ms":1012620,"op":"save"}
+{"executionId":"d401cda6-c150-42ed-8798-b7eb9a2093a2","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":246,"ms":1012794,"op":"task.start"}
+{"executionId":"d401cda6-c150-42ed-8798-b7eb9a2093a2","processId":-1,"doc":3,"seq":247,"ms":1012801,"op":"task.processStart"}
+{"executionId":"d401cda6-c150-42ed-8798-b7eb9a2093a2","exitCode":0,"doc":3,"seq":248,"ms":1013034,"op":"task.processEnd"}
+{"executionId":"d401cda6-c150-42ed-8798-b7eb9a2093a2","doc":3,"seq":249,"ms":1013035,"op":"task.end"}
+{"executionId":"674c8d06-2d33-4566-a0f8-3a0b7c22d888","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":250,"ms":1013073,"op":"debug.start"}
+{"executionId":"9a57821f-d027-4907-a7fd-10bf1d897378","terminalId":"42915038-a780-4f2e-bd37-3d4fa4d7f377","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module5/templateSwap","confidence":2,"path":"exercises/module5","doc":6,"seq":251,"ms":1013115,"op":"terminal.start"}
+{"executionId":"9a57821f-d027-4907-a7fd-10bf1d897378","terminalId":"42915038-a780-4f2e-bd37-3d4fa4d7f377","data":"\u001b]633;C\u0007","doc":6,"seq":252,"ms":1013167,"op":"terminal.output"}
+{"executionId":"9a57821f-d027-4907-a7fd-10bf1d897378","terminalId":"42915038-a780-4f2e-bd37-3d4fa4d7f377","data":" the first number is  3 and the second number is  6\r\n now the first number is  6 and the second number is  3\r\nthe greater value is 89\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                              \r \r","doc":6,"seq":253,"ms":1013463,"op":"terminal.output"}
+{"executionId":"9a57821f-d027-4907-a7fd-10bf1d897378","terminalId":"42915038-a780-4f2e-bd37-3d4fa4d7f377","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module5/templateSwap","confidence":2,"exitCode":0,"doc":6,"seq":254,"ms":1013463,"op":"terminal.end"}
+{"executionId":"674c8d06-2d33-4566-a0f8-3a0b7c22d888","doc":3,"seq":255,"ms":1013465,"op":"debug.end"}
