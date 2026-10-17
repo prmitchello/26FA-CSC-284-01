@@ -1,0 +1,19 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-17T15:31:16.808Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"e39f55ef-89ae-46ba-b2eb-1efb1acf6e76","sourceWindowId":"1785e263-b539-4e91-ab16-872a7ff7759a","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"ca8dc4f8e12f9a99ae8bbbd03da740da9253141e","seq":1,"ms":-1722,"op":"source.context"}
+{"text":"#include <iostream>\n#include <string_view>\n\n\n\ntemplate <typename T >\nclass SpreadSheetCell{\n\n    private:\n\n    T value;\n\n\n    public:\n\n    SpreadSheetCell(T val){\n        value = val;\n    }\n\n    void setValue(T val){\n        value = val;\n\n    }\n    T getValue(){\n        return value;\n    }\n\n    virtual void someMethod(){\n        std::cout<<\"needs to be override override\";\n    }\n\n};\n","version":1,"path":"exercises/module_04/SpreadSheetCell.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1722,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1722,"op":"snap"}
+{"version":2,"changes":[{"offset":133,"length":0,"text":"f"}],"doc":1,"seq":4,"ms":-1094,"op":"edit"}
+{"version":3,"changes":[{"offset":134,"length":0,"text":"f"}],"doc":1,"seq":5,"ms":1005,"op":"edit"}
+{"version":4,"changes":[{"offset":135,"length":0,"text":"f"}],"doc":1,"seq":6,"ms":2908,"op":"edit"}
+{"version":5,"changes":[{"offset":136,"length":0,"text":"ƒ"}],"doc":1,"seq":7,"ms":5352,"op":"edit"}
+{"version":6,"changes":[{"offset":137,"length":0,"text":"f"}],"doc":1,"seq":8,"ms":6935,"op":"edit"}
+{"version":7,"changes":[{"offset":138,"length":0,"text":"ƒ"}],"doc":1,"seq":9,"ms":7890,"op":"edit"}
+{"version":8,"changes":[{"offset":139,"length":0,"text":"f"}],"doc":1,"seq":10,"ms":9173,"op":"edit"}
+{"version":9,"changes":[{"offset":139,"length":1,"text":""}],"doc":1,"seq":11,"ms":32380,"op":"edit"}
+{"version":10,"changes":[{"offset":138,"length":1,"text":""}],"doc":1,"seq":12,"ms":32555,"op":"edit"}
+{"version":11,"changes":[{"offset":137,"length":1,"text":""}],"doc":1,"seq":13,"ms":32912,"op":"edit"}
+{"version":12,"changes":[{"offset":136,"length":1,"text":""}],"doc":1,"seq":14,"ms":33089,"op":"edit"}
+{"version":13,"changes":[{"offset":135,"length":1,"text":""}],"doc":1,"seq":15,"ms":33268,"op":"edit"}
+{"version":14,"changes":[{"offset":134,"length":1,"text":""}],"doc":1,"seq":16,"ms":33421,"op":"edit"}
+{"version":15,"changes":[{"offset":133,"length":1,"text":""}],"doc":1,"seq":17,"ms":33679,"op":"edit"}
+{"version":16,"changes":[{"offset":132,"length":1,"text":""}],"doc":1,"seq":18,"ms":34604,"op":"edit"}
