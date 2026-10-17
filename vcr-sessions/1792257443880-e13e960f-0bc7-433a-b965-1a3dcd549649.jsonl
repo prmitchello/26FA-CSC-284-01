@@ -360,3 +360,19 @@
 {"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","processId":-1,"doc":3,"seq":359,"ms":1615122,"op":"task.processStart"}
 {"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","exitCode":-1,"doc":3,"seq":360,"ms":1615401,"op":"task.processEnd"}
 {"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","doc":3,"seq":361,"ms":1615402,"op":"task.end"}
+{"version":64,"changes":[{"offset":181,"length":1,"text":""}],"doc":1,"seq":362,"ms":1624393,"op":"edit"}
+{"version":65,"changes":[{"offset":181,"length":1,"text":""}],"doc":1,"seq":363,"ms":1625129,"op":"edit"}
+{"version":66,"changes":[{"offset":181,"length":0,"text":"{}"}],"doc":1,"seq":364,"ms":1626087,"op":"edit"}
+{"version":4,"changes":[{"offset":177,"length":8,"text":""}],"doc":7,"seq":365,"ms":1637901,"op":"edit"}
+{"version":43,"changes":[{"offset":78,"length":1,"text":""}],"doc":4,"seq":366,"ms":1663728,"op":"edit"}
+{"version":44,"changes":[{"offset":78,"length":0,"text":"S"}],"doc":4,"seq":367,"ms":1664454,"op":"edit"}
+{"version":45,"changes":[{"offset":126,"length":1,"text":""}],"doc":4,"seq":368,"ms":1668467,"op":"edit"}
+{"version":46,"changes":[{"offset":126,"length":0,"text":"S"}],"doc":4,"seq":369,"ms":1668914,"op":"edit"}
+{"version":5,"changes":[{"offset":176,"length":1,"text":""}],"doc":7,"seq":370,"ms":1675794,"op":"edit"}
+{"doc":1,"seq":371,"ms":1675807,"op":"save"}
+{"doc":7,"seq":372,"ms":1675812,"op":"save"}
+{"doc":4,"seq":373,"ms":1675817,"op":"save"}
+{"executionId":"c0b1918d-ffc1-4a45-8286-3d4c05b34b13","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":374,"ms":1675962,"op":"task.start"}
+{"executionId":"c0b1918d-ffc1-4a45-8286-3d4c05b34b13","processId":-1,"doc":3,"seq":375,"ms":1675974,"op":"task.processStart"}
+{"executionId":"c0b1918d-ffc1-4a45-8286-3d4c05b34b13","exitCode":-1,"doc":3,"seq":376,"ms":1676179,"op":"task.processEnd"}
+{"executionId":"c0b1918d-ffc1-4a45-8286-3d4c05b34b13","doc":3,"seq":377,"ms":1676180,"op":"task.end"}
