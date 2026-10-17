@@ -87,3 +87,27 @@
 {"version":22,"changes":[{"offset":67,"length":0,"text":"\n    "}],"doc":1,"seq":86,"ms":5544464,"op":"edit"}
 {"version":23,"changes":[{"offset":227,"length":0,"text":"\n        "},{"offset":68,"length":4,"text":""}],"doc":1,"seq":87,"ms":5546173,"op":"edit"}
 {"text":"#include <iostream>\n#include \"SpreadSheetCell.cpp\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n    int d = 8;\n\n\n    // SpreadSheetCell<string> c1(\"this is now a string\");\n    // SpreadSheetCell<double> c2(123.2);\n    // SpreadSheetCell<double> c3(-123.2);\n    // SpreadSheetCell<double> c4(123);\n\n    // cout<<c1.getValue()<<endl;\n    // cout<<c2.getValue()<<endl;\n    // cout<<c3.getValue()<<endl;\n    // cout<<c4.getValue()<<endl;\n\n    DoubleSpreadsheet d1;\n    d1.someMethod();\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemostration.cpp","snapshot":true,"doc":4,"seq":88,"ms":5797769,"op":"snap"}
+{"version":2,"changes":[{"offset":541,"length":0,"text":"\n    "}],"doc":4,"seq":89,"ms":5885719,"op":"edit"}
+{"version":3,"changes":[{"offset":546,"length":0,"text":"S"}],"doc":4,"seq":90,"ms":5895449,"op":"edit"}
+{"version":4,"changes":[{"offset":547,"length":0,"text":"p"}],"doc":4,"seq":91,"ms":5895594,"op":"edit"}
+{"version":5,"changes":[{"offset":548,"length":0,"text":"r"}],"doc":4,"seq":92,"ms":5895746,"op":"edit"}
+{"version":6,"changes":[{"offset":549,"length":0,"text":"e"}],"doc":4,"seq":93,"ms":5895849,"op":"edit"}
+{"version":7,"changes":[{"offset":550,"length":0,"text":"a"}],"doc":4,"seq":94,"ms":5896197,"op":"edit"}
+{"version":8,"changes":[{"offset":551,"length":0,"text":"d"}],"doc":4,"seq":95,"ms":5896372,"op":"edit"}
+{"version":9,"changes":[{"offset":546,"length":6,"text":"SpreadsheetCell"}],"doc":4,"seq":96,"ms":5899918,"op":"edit"}
+{"version":10,"changes":[{"offset":561,"length":0,"text":" "}],"doc":4,"seq":97,"ms":5900876,"op":"edit"}
+{"version":11,"changes":[{"offset":562,"length":0,"text":"d"}],"doc":4,"seq":98,"ms":5901721,"op":"edit"}
+{"version":12,"changes":[{"offset":563,"length":0,"text":"1"}],"doc":4,"seq":99,"ms":5902219,"op":"edit"}
+{"version":13,"changes":[{"offset":564,"length":0,"text":"()"}],"doc":4,"seq":100,"ms":5902706,"op":"edit"}
+{"version":14,"changes":[{"offset":565,"length":1,"text":")"}],"doc":4,"seq":101,"ms":5902762,"op":"edit"}
+{"version":15,"changes":[{"offset":566,"length":0,"text":";"}],"doc":4,"seq":102,"ms":5903234,"op":"edit"}
+{"version":24,"changes":[{"offset":224,"length":8,"text":""}],"doc":1,"seq":103,"ms":5914948,"op":"edit"}
+{"doc":4,"seq":104,"ms":5914959,"op":"save"}
+{"doc":1,"seq":105,"ms":5914964,"op":"save"}
+{"doc":3,"seq":106,"ms":5914966,"op":"save"}
+{"executionId":"223ca6ee-0353-4047-8ede-fe87254e5062","name":"C/C++: g++ build active file","type":"cppbuild","path":".","doc":5,"seq":107,"ms":5915123,"op":"task.start"}
+{"executionId":"223ca6ee-0353-4047-8ede-fe87254e5062","processId":-1,"doc":5,"seq":108,"ms":5915144,"op":"task.processStart"}
+{"executionId":"223ca6ee-0353-4047-8ede-fe87254e5062","exitCode":-1,"doc":5,"seq":109,"ms":5915515,"op":"task.processEnd"}
+{"executionId":"223ca6ee-0353-4047-8ede-fe87254e5062","doc":5,"seq":110,"ms":5915516,"op":"task.end"}
+{"text":"//#include \"SpreadSheetCell.cpp\"\n\nclass DoubleSpreadsheet :  SpreadSheetCell\n{\n\n    public:\n\n    DoubleSpreadsheet(){\n        std::cout<<\"construct\";\n    }\n\n    void someMethod() override\n    {\n        std::cout<<\"double call the overridden method.\";\n    }\n\n};\n","version":1,"path":"exercises/module_04/doubleSpreadsheet.cpp","snapshot":true,"doc":6,"seq":111,"ms":5924830,"op":"snap"}
+{"version":2,"changes":[{"offset":258,"length":0,"text":"// "},{"offset":251,"length":0,"text":"// "},{"offset":194,"length":0,"text":"// "},{"offset":188,"length":0,"text":"// "},{"offset":157,"length":0,"text":"// "},{"offset":150,"length":0,"text":"// "},{"offset":118,"length":0,"text":"// "},{"offset":93,"length":0,"text":"// "},{"offset":80,"length":0,"text":"// "},{"offset":77,"length":0,"text":"// "},{"offset":34,"length":0,"text":"// "},{"offset":0,"length":0,"text":"// "}],"doc":6,"seq":112,"ms":5933584,"op":"edit"}
