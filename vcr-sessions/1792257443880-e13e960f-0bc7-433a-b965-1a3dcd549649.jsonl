@@ -399,3 +399,28 @@
 {"version":66,"changes":[{"offset":17,"length":0,"text":"n"}],"doc":4,"seq":398,"ms":1734450,"op":"edit"}
 {"version":67,"changes":[{"offset":18,"length":0,"text":"c"}],"doc":4,"seq":399,"ms":1734671,"op":"edit"}
 {"version":68,"changes":[{"offset":18,"length":1,"text":""}],"doc":4,"seq":400,"ms":1736227,"op":"edit"}
+{"version":69,"changes":[{"offset":18,"length":0,"text":"c"}],"doc":4,"seq":401,"ms":1738965,"op":"edit"}
+{"version":70,"changes":[{"offset":19,"length":0,"text":"e"}],"doc":4,"seq":402,"ms":1739120,"op":"edit"}
+{"version":71,"changes":[{"offset":20,"length":0,"text":";"}],"doc":4,"seq":403,"ms":1740499,"op":"edit"}
+{"version":72,"changes":[{"offset":20,"length":1,"text":""}],"doc":4,"seq":404,"ms":1752819,"op":"edit"}
+{"version":73,"changes":[{"offset":9,"length":0,"text":"#"}],"doc":4,"seq":405,"ms":1756787,"op":"edit"}
+{"version":74,"changes":[{"offset":78,"length":0,"text":"/"}],"doc":4,"seq":406,"ms":1766635,"op":"edit"}
+{"version":75,"changes":[{"offset":79,"length":0,"text":"/"}],"doc":4,"seq":407,"ms":1766775,"op":"edit"}
+{"version":76,"changes":[{"offset":0,"length":4,"text":""}],"doc":4,"seq":408,"ms":1769990,"op":"edit"}
+{"version":7,"changes":[{"offset":55,"length":1,"text":""}],"doc":7,"seq":409,"ms":1769993,"op":"edit"}
+{"doc":4,"seq":410,"ms":1770004,"op":"save"}
+{"doc":7,"seq":411,"ms":1770010,"op":"save"}
+{"executionId":"44792e6e-deab-471f-8b54-c8c41ee4ad94","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":412,"ms":1770158,"op":"task.start"}
+{"executionId":"44792e6e-deab-471f-8b54-c8c41ee4ad94","processId":-1,"doc":3,"seq":413,"ms":1770164,"op":"task.processStart"}
+{"executionId":"44792e6e-deab-471f-8b54-c8c41ee4ad94","exitCode":-1,"doc":3,"seq":414,"ms":1770421,"op":"task.processEnd"}
+{"executionId":"44792e6e-deab-471f-8b54-c8c41ee4ad94","doc":3,"seq":415,"ms":1770422,"op":"task.end"}
+{"version":77,"changes":[{"offset":75,"length":1,"text":""}],"doc":4,"seq":416,"ms":1776968,"op":"edit"}
+{"version":78,"changes":[{"offset":74,"length":1,"text":""}],"doc":4,"seq":417,"ms":1777131,"op":"edit"}
+{"doc":4,"seq":418,"ms":1779800,"op":"save"}
+{"executionId":"e14d4c26-4a8d-444d-9ab7-3a1540be85ef","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":419,"ms":1779951,"op":"task.start"}
+{"executionId":"e14d4c26-4a8d-444d-9ab7-3a1540be85ef","processId":-1,"doc":3,"seq":420,"ms":1779957,"op":"task.processStart"}
+{"executionId":"e14d4c26-4a8d-444d-9ab7-3a1540be85ef","exitCode":0,"doc":3,"seq":421,"ms":1780176,"op":"task.processEnd"}
+{"executionId":"e14d4c26-4a8d-444d-9ab7-3a1540be85ef","doc":3,"seq":422,"ms":1780177,"op":"task.end"}
+{"executionId":"13d9c999-9d23-4288-9094-671e20a22f38","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":423,"ms":1780197,"op":"debug.start"}
+{"executionId":"baad24d6-1ad3-4513-b6ad-788e4814aeda","terminalId":"e5e6627a-4c98-49bd-8fa6-9f578903b817","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemostration","confidence":2,"path":"exercises/module_04","doc":8,"seq":424,"ms":1780253,"op":"terminal.start"}
+{"executionId":"baad24d6-1ad3-4513-b6ad-788e4814aeda","terminalId":"e5e6627a-4c98-49bd-8fa6-9f578903b817","data":"\u001b]633;C\u0007","doc":8,"seq":425,"ms":1780303,"op":"terminal.output"}
