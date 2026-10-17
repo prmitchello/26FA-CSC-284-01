@@ -254,3 +254,5 @@
 {"executionId":"9a57821f-d027-4907-a7fd-10bf1d897378","terminalId":"42915038-a780-4f2e-bd37-3d4fa4d7f377","data":" the first number is  3 and the second number is  6\r\n now the first number is  6 and the second number is  3\r\nthe greater value is 89\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                              \r \r","doc":6,"seq":253,"ms":1013463,"op":"terminal.output"}
 {"executionId":"9a57821f-d027-4907-a7fd-10bf1d897378","terminalId":"42915038-a780-4f2e-bd37-3d4fa4d7f377","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module5/templateSwap","confidence":2,"exitCode":0,"doc":6,"seq":254,"ms":1013463,"op":"terminal.end"}
 {"executionId":"674c8d06-2d33-4566-a0f8-3a0b7c22d888","doc":3,"seq":255,"ms":1013465,"op":"debug.end"}
+{"version":207,"changes":[{"offset":562,"length":0,"text":" "}],"doc":5,"seq":256,"ms":1025251,"op":"edit"}
+{"version":208,"changes":[{"offset":573,"length":0,"text":" "}],"doc":5,"seq":257,"ms":1026432,"op":"edit"}
