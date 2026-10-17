@@ -137,3 +137,4 @@
 {"executionId":"b614329d-c78b-4031-8918-a52b0ed88ab4","doc":5,"seq":136,"ms":6111354,"op":"task.end"}
 {"executionId":"fea61bcd-f3a5-45ce-98dd-21cf8a4a7156","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":5,"seq":137,"ms":6111359,"op":"debug.start"}
 {"executionId":"ccc0cc78-7a2f-406e-9c3e-219c0a3c3060","terminalId":"b83bc907-3b00-4aa6-9dd6-d743ff393305","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemostration","confidence":2,"path":"exercises/module_04","doc":7,"seq":138,"ms":6111392,"op":"terminal.start"}
+{"seq":139,"ms":6363870,"op":"end"}
