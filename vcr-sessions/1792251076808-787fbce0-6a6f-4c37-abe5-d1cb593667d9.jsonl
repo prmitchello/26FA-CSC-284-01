@@ -17,3 +17,4 @@
 {"version":14,"changes":[{"offset":134,"length":1,"text":""}],"doc":1,"seq":16,"ms":33421,"op":"edit"}
 {"version":15,"changes":[{"offset":133,"length":1,"text":""}],"doc":1,"seq":17,"ms":33679,"op":"edit"}
 {"version":16,"changes":[{"offset":132,"length":1,"text":""}],"doc":1,"seq":18,"ms":34604,"op":"edit"}
+{"doc":2,"seq":19,"ms":178702,"op":"close"}
