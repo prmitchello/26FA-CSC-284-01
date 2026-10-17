@@ -350,3 +350,13 @@
 {"version":58,"changes":[{"offset":178,"length":1,"text":""}],"doc":1,"seq":349,"ms":1462951,"op":"edit"}
 {"version":59,"changes":[{"offset":173,"length":1,"text":""}],"doc":1,"seq":350,"ms":1470221,"op":"edit"}
 {"version":60,"changes":[{"offset":173,"length":0,"text":"s"}],"doc":1,"seq":351,"ms":1471057,"op":"edit"}
+{"version":61,"changes":[{"offset":181,"length":1,"text":""}],"doc":1,"seq":352,"ms":1588536,"op":"edit"}
+{"version":62,"changes":[{"offset":181,"length":1,"text":""}],"doc":1,"seq":353,"ms":1589230,"op":"edit"}
+{"version":63,"changes":[{"offset":181,"length":0,"text":"()"}],"doc":1,"seq":354,"ms":1590174,"op":"edit"}
+{"doc":1,"seq":355,"ms":1614939,"op":"save"}
+{"doc":7,"seq":356,"ms":1614943,"op":"save"}
+{"doc":4,"seq":357,"ms":1614949,"op":"save"}
+{"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":358,"ms":1615116,"op":"task.start"}
+{"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","processId":-1,"doc":3,"seq":359,"ms":1615122,"op":"task.processStart"}
+{"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","exitCode":-1,"doc":3,"seq":360,"ms":1615401,"op":"task.processEnd"}
+{"executionId":"e727aa3a-394b-449e-bafa-456ccd895722","doc":3,"seq":361,"ms":1615402,"op":"task.end"}
