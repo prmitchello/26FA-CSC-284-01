@@ -9,3 +9,14 @@
 {"executionId":"79c99e58-2ff5-4226-ab12-f0f40e2d3fc7","exitCode":-1,"doc":3,"seq":8,"ms":4293,"op":"task.processEnd"}
 {"executionId":"79c99e58-2ff5-4226-ab12-f0f40e2d3fc7","doc":3,"seq":9,"ms":4294,"op":"task.end"}
 {"doc":2,"seq":10,"ms":178651,"op":"close"}
+{"text":"#include <iostream>\n#include <string_view>\n\nclass SpreadsheetCell {\n\n    public:\n        virtual ~SpreadsheetCell() = default;\n        virtual void set(std::string_view value);\n        virtual std::string getString() const;\n\n};\n","version":1,"path":"exercises/module_04/SpreadSheetCell.cpp","snapshot":true,"doc":4,"seq":11,"ms":520717,"op":"snap"}
+{"version":2,"changes":[{"offset":222,"length":0,"text":" "}],"doc":4,"seq":12,"ms":523534,"op":"edit"}
+{"version":3,"changes":[{"offset":223,"length":0,"text":"="}],"doc":4,"seq":13,"ms":524457,"op":"edit"}
+{"version":4,"changes":[{"offset":224,"length":0,"text":"0"}],"doc":4,"seq":14,"ms":524701,"op":"edit"}
+{"version":5,"changes":[{"offset":175,"length":0,"text":"="}],"doc":4,"seq":15,"ms":528506,"op":"edit"}
+{"version":6,"changes":[{"offset":176,"length":0,"text":"0"}],"doc":4,"seq":16,"ms":528937,"op":"edit"}
+{"doc":4,"seq":17,"ms":534639,"op":"save"}
+{"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":18,"ms":534792,"op":"task.start"}
+{"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","processId":-1,"doc":3,"seq":19,"ms":534793,"op":"task.processStart"}
+{"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","exitCode":-1,"doc":3,"seq":20,"ms":535036,"op":"task.processEnd"}
+{"executionId":"efa56702-888d-4e4d-b599-4644775a15c0","doc":3,"seq":21,"ms":535037,"op":"task.end"}
