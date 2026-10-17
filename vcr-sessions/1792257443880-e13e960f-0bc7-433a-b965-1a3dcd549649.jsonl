@@ -176,3 +176,55 @@
 {"version":149,"changes":[{"offset":93,"length":1,"text":""}],"doc":5,"seq":175,"ms":836813,"op":"edit"}
 {"version":150,"changes":[{"offset":93,"length":0,"text":"G"}],"doc":5,"seq":176,"ms":837366,"op":"edit"}
 {"version":151,"changes":[{"offset":94,"length":0,"text":"r"}],"doc":5,"seq":177,"ms":837660,"op":"edit"}
+{"version":152,"changes":[{"offset":95,"length":0,"text":"e"}],"doc":5,"seq":178,"ms":837875,"op":"edit"}
+{"version":153,"changes":[{"offset":96,"length":0,"text":"a"}],"doc":5,"seq":179,"ms":837982,"op":"edit"}
+{"version":154,"changes":[{"offset":97,"length":0,"text":"t"}],"doc":5,"seq":180,"ms":838278,"op":"edit"}
+{"version":155,"changes":[{"offset":98,"length":0,"text":"e"}],"doc":5,"seq":181,"ms":838546,"op":"edit"}
+{"version":156,"changes":[{"offset":99,"length":0,"text":"r"}],"doc":5,"seq":182,"ms":838586,"op":"edit"}
+{"version":157,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":148,"length":3,"text":"Greater"}],"doc":5,"seq":183,"ms":843586,"op":"edit"}
+{"version":158,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":475,"length":3,"text":"Greater"}],"doc":5,"seq":184,"ms":846877,"op":"edit"}
+{"version":159,"changes":[{"offset":87,"length":0,"text":"t"}],"doc":5,"seq":185,"ms":859774,"op":"edit"}
+{"version":160,"changes":[{"offset":88,"length":0,"text":"m"}],"doc":5,"seq":186,"ms":859951,"op":"edit"}
+{"version":161,"changes":[{"offset":89,"length":0,"text":"e"}],"doc":5,"seq":187,"ms":859998,"op":"edit"}
+{"version":162,"changes":[{"offset":90,"length":0,"text":"p"}],"doc":5,"seq":188,"ms":860189,"op":"edit"}
+{"version":163,"changes":[{"offset":91,"length":0,"text":"l"}],"doc":5,"seq":189,"ms":860315,"op":"edit"}
+{"version":164,"changes":[{"offset":91,"length":1,"text":""}],"doc":5,"seq":190,"ms":861008,"op":"edit"}
+{"version":165,"changes":[{"offset":90,"length":1,"text":""}],"doc":5,"seq":191,"ms":861173,"op":"edit"}
+{"version":166,"changes":[{"offset":89,"length":1,"text":""}],"doc":5,"seq":192,"ms":861329,"op":"edit"}
+{"version":167,"changes":[{"offset":89,"length":0,"text":"e"}],"doc":5,"seq":193,"ms":861477,"op":"edit"}
+{"version":168,"changes":[{"offset":90,"length":0,"text":"m"}],"doc":5,"seq":194,"ms":861601,"op":"edit"}
+{"version":169,"changes":[{"offset":90,"length":1,"text":""}],"doc":5,"seq":195,"ms":862140,"op":"edit"}
+{"version":170,"changes":[{"offset":89,"length":1,"text":""}],"doc":5,"seq":196,"ms":862294,"op":"edit"}
+{"version":171,"changes":[{"offset":88,"length":1,"text":""}],"doc":5,"seq":197,"ms":862828,"op":"edit"}
+{"version":172,"changes":[{"offset":88,"length":0,"text":"e"}],"doc":5,"seq":198,"ms":863082,"op":"edit"}
+{"version":173,"changes":[{"offset":89,"length":0,"text":"m"}],"doc":5,"seq":199,"ms":863175,"op":"edit"}
+{"version":174,"changes":[{"offset":90,"length":0,"text":"p"}],"doc":5,"seq":200,"ms":863749,"op":"edit"}
+{"version":175,"changes":[{"offset":91,"length":0,"text":"l"}],"doc":5,"seq":201,"ms":863828,"op":"edit"}
+{"version":176,"changes":[{"offset":92,"length":0,"text":"a"}],"doc":5,"seq":202,"ms":863958,"op":"edit"}
+{"version":177,"changes":[{"offset":93,"length":0,"text":"t"}],"doc":5,"seq":203,"ms":864580,"op":"edit"}
+{"version":178,"changes":[{"offset":94,"length":0,"text":"e"}],"doc":5,"seq":204,"ms":864801,"op":"edit"}
+{"version":179,"changes":[{"offset":95,"length":0,"text":" "}],"doc":5,"seq":205,"ms":865193,"op":"edit"}
+{"version":180,"changes":[{"offset":96,"length":0,"text":"<"}],"doc":5,"seq":206,"ms":865873,"op":"edit"}
+{"version":181,"changes":[{"offset":97,"length":0,"text":">"}],"doc":5,"seq":207,"ms":865926,"op":"edit"}
+{"version":182,"changes":[{"offset":97,"length":0,"text":"t"}],"doc":5,"seq":208,"ms":867174,"op":"edit"}
+{"version":183,"changes":[{"offset":98,"length":0,"text":"y"}],"doc":5,"seq":209,"ms":867400,"op":"edit"}
+{"version":184,"changes":[{"offset":99,"length":0,"text":"p"}],"doc":5,"seq":210,"ms":867738,"op":"edit"}
+{"version":185,"changes":[{"offset":100,"length":0,"text":"e"}],"doc":5,"seq":211,"ms":867939,"op":"edit"}
+{"version":186,"changes":[{"offset":101,"length":0,"text":"n"}],"doc":5,"seq":212,"ms":868232,"op":"edit"}
+{"version":187,"changes":[{"offset":102,"length":0,"text":"a"}],"doc":5,"seq":213,"ms":868367,"op":"edit"}
+{"version":188,"changes":[{"offset":103,"length":0,"text":"m"}],"doc":5,"seq":214,"ms":868432,"op":"edit"}
+{"version":189,"changes":[{"offset":104,"length":0,"text":"e"}],"doc":5,"seq":215,"ms":868597,"op":"edit"}
+{"version":190,"changes":[{"offset":105,"length":0,"text":" "}],"doc":5,"seq":216,"ms":868717,"op":"edit"}
+{"version":191,"changes":[{"offset":106,"length":0,"text":"t"}],"doc":5,"seq":217,"ms":869460,"op":"edit"}
+{"version":192,"changes":[{"offset":107,"length":0,"text":"1"}],"doc":5,"seq":218,"ms":870824,"op":"edit"}
+{"version":193,"changes":[{"offset":124,"length":0,"text":"1"}],"doc":5,"seq":219,"ms":872678,"op":"edit"}
+{"version":194,"changes":[{"offset":125,"length":0,"text":" "}],"doc":5,"seq":220,"ms":872904,"op":"edit"}
+{"version":195,"changes":[{"offset":126,"length":0,"text":"a"}],"doc":5,"seq":221,"ms":873335,"op":"edit"}
+{"version":196,"changes":[{"offset":131,"length":0,"text":"1"}],"doc":5,"seq":222,"ms":874386,"op":"edit"}
+{"version":197,"changes":[{"offset":132,"length":0,"text":" "}],"doc":5,"seq":223,"ms":875023,"op":"edit"}
+{"version":198,"changes":[{"offset":133,"length":0,"text":"a"}],"doc":5,"seq":224,"ms":875288,"op":"edit"}
+{"version":199,"changes":[{"offset":133,"length":1,"text":""}],"doc":5,"seq":225,"ms":879792,"op":"edit"}
+{"version":200,"changes":[{"offset":133,"length":0,"text":"b"}],"doc":5,"seq":226,"ms":880418,"op":"edit"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\ntemplate <typename t>\nvoid swap(t a, t b);\n\ntemplate <typename t1>\nvoid Greater(t1 a , t1 b );\n\n\nint main(){\n\n\n    swap(3 , 6);\n\n    Greater(23, 89);\n\n\n    return 0;\n}\n\ntemplate <typename t>\nvoid swap (t a , t b){\n\n    cout<<\" the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n    t1 temp = a;\n\n    a = b;\n\n    b = temp;\n\n     cout<<\" now the first number is  \"<< a <<\" and the second number is  \"<<b<<endl;\n\n\n}\ntemplate <typename t>\nvoid Greater(t1 a , t b){\n\n    cout<<\"the greater value is \"<<(a>b)? a:b;\n}\n","version":201,"snapshot":true,"doc":5,"seq":227,"ms":887836,"op":"edit"}
+{"version":202,"changes":[{"offset":496,"length":0,"text":"1"}],"doc":5,"seq":228,"ms":889189,"op":"edit"}
+{"version":203,"changes":[{"offset":520,"length":0,"text":"1"}],"doc":5,"seq":229,"ms":890253,"op":"edit"}
