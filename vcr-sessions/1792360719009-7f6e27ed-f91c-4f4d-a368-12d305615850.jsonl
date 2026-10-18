@@ -284,3 +284,31 @@
 {"version":40,"changes":[{"offset":331,"length":0,"text":"\""}],"doc":3,"seq":283,"ms":3175696,"op":"edit"}
 {"version":41,"changes":[{"offset":332,"length":0,"text":"\""}],"doc":3,"seq":284,"ms":3175862,"op":"edit"}
 {"version":42,"changes":[{"offset":332,"length":1,"text":""}],"doc":3,"seq":285,"ms":3176742,"op":"edit"}
+{"version":43,"changes":[{"offset":336,"length":0,"text":"\""}],"doc":3,"seq":286,"ms":3178817,"op":"edit"}
+{"version":44,"changes":[{"offset":367,"length":0,"text":" "}],"doc":3,"seq":287,"ms":3185275,"op":"edit"}
+{"version":45,"changes":[{"offset":368,"length":0,"text":"/"}],"doc":3,"seq":288,"ms":3185489,"op":"edit"}
+{"version":46,"changes":[{"offset":369,"length":0,"text":"/"}],"doc":3,"seq":289,"ms":3185632,"op":"edit"}
+{"version":47,"changes":[{"offset":370,"length":0,"text":"m"}],"doc":3,"seq":290,"ms":3186360,"op":"edit"}
+{"version":48,"changes":[{"offset":371,"length":0,"text":"o"}],"doc":3,"seq":291,"ms":3186604,"op":"edit"}
+{"version":49,"changes":[{"offset":372,"length":0,"text":"v"}],"doc":3,"seq":292,"ms":3186687,"op":"edit"}
+{"version":50,"changes":[{"offset":373,"length":0,"text":"e"}],"doc":3,"seq":293,"ms":3186817,"op":"edit"}
+{"version":51,"changes":[{"offset":374,"length":0,"text":"()"}],"doc":3,"seq":294,"ms":3189125,"op":"edit"}
+{"version":52,"changes":[{"offset":375,"length":1,"text":")"}],"doc":3,"seq":295,"ms":3189197,"op":"edit"}
+{"version":53,"changes":[{"offset":375,"length":0,"text":"e"}],"doc":3,"seq":296,"ms":3190599,"op":"edit"}
+{"version":54,"changes":[{"offset":376,"length":0,"text":"l"}],"doc":3,"seq":297,"ms":3191055,"op":"edit"}
+{"version":55,"changes":[{"offset":377,"length":0,"text":"l"}],"doc":3,"seq":298,"ms":3191195,"op":"edit"}
+{"version":56,"changes":[{"offset":375,"length":0,"text":"c"}],"doc":3,"seq":299,"ms":3192746,"op":"edit"}
+{"doc":3,"seq":300,"ms":3194359,"op":"save"}
+{"executionId":"5c52c377-e5bf-42c1-82b1-9b6b78909313","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":301,"ms":3194517,"op":"task.start"}
+{"executionId":"5c52c377-e5bf-42c1-82b1-9b6b78909313","processId":-1,"doc":4,"seq":302,"ms":3194523,"op":"task.processStart"}
+{"executionId":"5c52c377-e5bf-42c1-82b1-9b6b78909313","exitCode":-1,"doc":4,"seq":303,"ms":3194836,"op":"task.processEnd"}
+{"executionId":"5c52c377-e5bf-42c1-82b1-9b6b78909313","doc":4,"seq":304,"ms":3194837,"op":"task.end"}
+{"version":105,"changes":[{"offset":95,"length":27,"text":""}],"doc":5,"seq":305,"ms":3211833,"op":"edit"}
+{"version":106,"changes":[{"offset":161,"length":0,"text":"    "}],"doc":5,"seq":306,"ms":3212805,"op":"edit"}
+{"version":107,"changes":[{"offset":165,"length":0,"text":"\n    "},{"offset":161,"length":4,"text":""}],"doc":5,"seq":307,"ms":3213460,"op":"edit"}
+{"version":108,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":166,"length":0,"text":"std::optional<double> data;"}],"doc":5,"seq":308,"ms":3214010,"op":"edit"}
+{"doc":5,"seq":309,"ms":3217921,"op":"save"}
+{"executionId":"ec156f74-9833-4a6a-b427-7766ab5162fd","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":310,"ms":3218071,"op":"task.start"}
+{"executionId":"ec156f74-9833-4a6a-b427-7766ab5162fd","processId":-1,"doc":4,"seq":311,"ms":3218080,"op":"task.processStart"}
+{"executionId":"ec156f74-9833-4a6a-b427-7766ab5162fd","exitCode":-1,"doc":4,"seq":312,"ms":3218285,"op":"task.processEnd"}
+{"executionId":"ec156f74-9833-4a6a-b427-7766ab5162fd","doc":4,"seq":313,"ms":3218286,"op":"task.end"}
