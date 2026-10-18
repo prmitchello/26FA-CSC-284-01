@@ -15,3 +15,22 @@
 {"text":"#include \"SpreadSheetCell.cpp\"\n#include <optional>\n#include <string>\n\nclass DoubleSpreadsheet : private SpreadSheetCell\n{\n    private:\n    optional<double> data;\n\n\n    public:\n\n    DoubleSpreadsheet(double val){\n        value = val\n    }\n\n    void set(double value){\n        data = value;\n    }\n    void set(std::string_view value) override{\n        data = value;\n\n    }\n    std::string getString() const override{\n        return data;\n    }\n    doubleToString(double value){\n        String convertDouble = to_string(value);\n    }\n    stringToDouble(std::string_view value){\n        stod(value);\n    }\n\n    string toString(){\n        return \"the value is \" + data;\n    }\n\n};\n","version":1,"path":"exercises/module_04/doubleSpreadsheet.cpp","snapshot":true,"doc":7,"seq":14,"ms":106909,"op":"snap"}
 {"version":2,"changes":[{"offset":175,"length":0,"text":"\n    "}],"doc":7,"seq":15,"ms":115731,"op":"edit"}
 {"version":3,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":180,"length":0,"text":" DoubleSpreadsheet(double val){\n        value = val\n    }"}],"doc":7,"seq":16,"ms":116263,"op":"edit"}
+{"version":4,"changes":[{"offset":199,"length":6,"text":""}],"doc":7,"seq":17,"ms":125003,"op":"edit"}
+{"version":5,"changes":[{"offset":201,"length":1,"text":""}],"doc":7,"seq":18,"ms":126117,"op":"edit"}
+{"version":6,"changes":[{"offset":200,"length":1,"text":""}],"doc":7,"seq":19,"ms":126319,"op":"edit"}
+{"version":7,"changes":[{"offset":200,"length":1,"text":""}],"doc":7,"seq":20,"ms":127478,"op":"edit"}
+{"version":8,"changes":[{"offset":221,"length":1,"text":""}],"doc":7,"seq":21,"ms":128992,"op":"edit"}
+{"version":9,"changes":[{"offset":220,"length":1,"text":""}],"doc":7,"seq":22,"ms":129120,"op":"edit"}
+{"version":10,"changes":[{"offset":219,"length":1,"text":""}],"doc":7,"seq":23,"ms":129537,"op":"edit"}
+{"version":11,"changes":[{"offset":219,"length":0,"text":"0"}],"doc":7,"seq":24,"ms":130227,"op":"edit"}
+{"version":12,"changes":[{"offset":220,"length":0,"text":";"}],"doc":7,"seq":25,"ms":130534,"op":"edit"}
+{"version":13,"changes":[{"offset":211,"length":5,"text":"d"}],"doc":7,"seq":26,"ms":145753,"op":"edit"}
+{"version":14,"changes":[{"offset":212,"length":0,"text":"a"}],"doc":7,"seq":27,"ms":146010,"op":"edit"}
+{"version":15,"changes":[{"offset":213,"length":0,"text":"t"}],"doc":7,"seq":28,"ms":146392,"op":"edit"}
+{"version":16,"changes":[{"offset":214,"length":0,"text":"a"}],"doc":7,"seq":29,"ms":146694,"op":"edit"}
+{"version":17,"changes":[{"offset":271,"length":5,"text":"d"}],"doc":7,"seq":30,"ms":151915,"op":"edit"}
+{"version":18,"changes":[{"offset":272,"length":0,"text":"a"}],"doc":7,"seq":31,"ms":152231,"op":"edit"}
+{"version":19,"changes":[{"offset":273,"length":0,"text":"t"}],"doc":7,"seq":32,"ms":152669,"op":"edit"}
+{"version":20,"changes":[{"offset":274,"length":0,"text":"a"}],"doc":7,"seq":33,"ms":152964,"op":"edit"}
+{"doc":7,"seq":34,"ms":168640,"op":"save"}
+{"doc":2,"seq":35,"ms":177990,"op":"close"}
