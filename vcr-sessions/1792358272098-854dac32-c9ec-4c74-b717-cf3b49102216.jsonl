@@ -34,3 +34,7 @@
 {"version":20,"changes":[{"offset":274,"length":0,"text":"a"}],"doc":7,"seq":33,"ms":152964,"op":"edit"}
 {"doc":7,"seq":34,"ms":168640,"op":"save"}
 {"doc":2,"seq":35,"ms":177990,"op":"close"}
+{"executionId":"6df45991-a356-419d-a119-845f0145d524","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":36,"ms":181250,"op":"task.start"}
+{"executionId":"6df45991-a356-419d-a119-845f0145d524","processId":-1,"doc":6,"seq":37,"ms":181260,"op":"task.processStart"}
+{"executionId":"6df45991-a356-419d-a119-845f0145d524","exitCode":-1,"doc":6,"seq":38,"ms":181491,"op":"task.processEnd"}
+{"executionId":"6df45991-a356-419d-a119-845f0145d524","doc":6,"seq":39,"ms":181492,"op":"task.end"}
