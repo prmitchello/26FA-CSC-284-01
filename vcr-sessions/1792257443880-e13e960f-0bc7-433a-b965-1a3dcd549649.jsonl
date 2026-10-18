@@ -424,3 +424,4 @@
 {"executionId":"13d9c999-9d23-4288-9094-671e20a22f38","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":423,"ms":1780197,"op":"debug.start"}
 {"executionId":"baad24d6-1ad3-4513-b6ad-788e4814aeda","terminalId":"e5e6627a-4c98-49bd-8fa6-9f578903b817","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemostration","confidence":2,"path":"exercises/module_04","doc":8,"seq":424,"ms":1780253,"op":"terminal.start"}
 {"executionId":"baad24d6-1ad3-4513-b6ad-788e4814aeda","terminalId":"e5e6627a-4c98-49bd-8fa6-9f578903b817","data":"\u001b]633;C\u0007","doc":8,"seq":425,"ms":1780303,"op":"terminal.output"}
+{"seq":426,"ms":100460056,"op":"end"}
