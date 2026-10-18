@@ -180,3 +180,16 @@
 {"version":79,"changes":[{"offset":92,"length":0,"text":"\n"}],"doc":5,"seq":179,"ms":1481338,"op":"edit"}
 {"version":80,"changes":[{"offset":93,"length":0,"text":"\n"}],"doc":5,"seq":180,"ms":1481568,"op":"edit"}
 {"version":81,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":94,"length":0,"text":"optional<double> data;"}],"doc":5,"seq":181,"ms":1482196,"op":"edit"}
+{"version":82,"changes":[{"offset":182,"length":4,"text":""}],"doc":5,"seq":182,"ms":1522993,"op":"edit"}
+{"doc":5,"seq":183,"ms":1523007,"op":"save"}
+{"executionId":"edddbb71-524b-4a14-9727-ba9c59d7cbff","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":184,"ms":1523172,"op":"task.start"}
+{"executionId":"edddbb71-524b-4a14-9727-ba9c59d7cbff","processId":-1,"doc":4,"seq":185,"ms":1523181,"op":"task.processStart"}
+{"executionId":"edddbb71-524b-4a14-9727-ba9c59d7cbff","exitCode":-1,"doc":4,"seq":186,"ms":1523550,"op":"task.processEnd"}
+{"executionId":"edddbb71-524b-4a14-9727-ba9c59d7cbff","doc":4,"seq":187,"ms":1523551,"op":"task.end"}
+{"executionId":"ae4bdf7b-0501-424b-93dd-2fa2e43aabf2","name":"C/C++: g++ build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":188,"ms":1534367,"op":"debug.start"}
+{"executionId":"becee528-1923-42e3-8529-33a737f85524","terminalId":"dea97ad7-0507-4f55-bf83-f2699d8000ad","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration","confidence":2,"path":"exercises/module_04","doc":11,"seq":189,"ms":1534434,"op":"terminal.start"}
+{"executionId":"becee528-1923-42e3-8529-33a737f85524","terminalId":"dea97ad7-0507-4f55-bf83-f2699d8000ad","data":"\u001b]633;C\u0007zsh: no such file or directory: /Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":11,"seq":190,"ms":1534435,"op":"terminal.output"}
+{"executionId":"becee528-1923-42e3-8529-33a737f85524","terminalId":"dea97ad7-0507-4f55-bf83-f2699d8000ad","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration","confidence":2,"exitCode":127,"doc":11,"seq":191,"ms":1534435,"op":"terminal.end"}
+{"executionId":"ae4bdf7b-0501-424b-93dd-2fa2e43aabf2","doc":4,"seq":192,"ms":1534436,"op":"debug.end"}
+{"executionId":"3fbe9b9d-ce13-470a-a6c0-9a607b62f5a5","terminalId":"0e30f81b-2b9d-40d9-ae78-e7e072bca9c6","commandLine":" *  Executing task: g++-15 -std=c++23 -g /Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration.cpp -o /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.exe ","confidence":0,"doc":4,"seq":193,"ms":1550176,"op":"terminal.start"}
+{"executionId":"2f3eba35-8c77-4703-9b22-b4cfe93862e9","name":"Compile active C++23 file","type":"process","doc":4,"seq":194,"ms":1550180,"op":"task.start"}
