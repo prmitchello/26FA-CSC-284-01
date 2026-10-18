@@ -138,3 +138,8 @@
 {"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","processId":-1,"doc":4,"seq":137,"ms":999543,"op":"task.processStart"}
 {"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","exitCode":-1,"doc":4,"seq":138,"ms":999784,"op":"task.processEnd"}
 {"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","doc":4,"seq":139,"ms":999785,"op":"task.end"}
+{"version":38,"changes":[{"offset":494,"length":12,"text":""}],"doc":3,"seq":140,"ms":1099134,"op":"edit"}
+{"version":51,"changes":[{"offset":688,"length":68,"text":""}],"doc":5,"seq":141,"ms":1108252,"op":"edit"}
+{"doc":3,"seq":142,"ms":1116302,"op":"save"}
+{"doc":5,"seq":143,"ms":1118643,"op":"save"}
+{"text":"\n    #pragma once\n    #include <iostream>\n    #include <string_view>\n\n    using namespace std;\n\n    class SpreadSheetCell {\n\n        public:\n        virtual ~SpreadSheetCell() = default;\n        virtual void set( string_view value )=0;\n        virtual string getString() const =0;\n\n    };\n","version":1,"path":"exercises/module_04/SpreadSheetCell.cpp","snapshot":true,"doc":10,"seq":144,"ms":1131753,"op":"snap"}
