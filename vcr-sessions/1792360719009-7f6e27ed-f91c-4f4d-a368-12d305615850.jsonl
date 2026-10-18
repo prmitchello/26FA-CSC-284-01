@@ -119,3 +119,22 @@
 {"version":42,"changes":[{"offset":523,"length":0,"text":"n"}],"doc":5,"seq":118,"ms":957123,"op":"edit"}
 {"version":43,"changes":[{"offset":524,"length":0,"text":"g"}],"doc":5,"seq":119,"ms":957232,"op":"edit"}
 {"version":44,"changes":[{"offset":525,"length":0,"text":" "}],"doc":5,"seq":120,"ms":957377,"op":"edit"}
+{"version":45,"changes":[{"offset":119,"length":7,"text":"p"}],"doc":5,"seq":121,"ms":989216,"op":"edit"}
+{"version":46,"changes":[{"offset":120,"length":0,"text":"u"}],"doc":5,"seq":122,"ms":989469,"op":"edit"}
+{"version":47,"changes":[{"offset":121,"length":0,"text":"b"}],"doc":5,"seq":123,"ms":989607,"op":"edit"}
+{"version":48,"changes":[{"offset":122,"length":0,"text":"l"}],"doc":5,"seq":124,"ms":989863,"op":"edit"}
+{"version":49,"changes":[{"offset":123,"length":0,"text":"i"}],"doc":5,"seq":125,"ms":990060,"op":"edit"}
+{"version":50,"changes":[{"offset":124,"length":0,"text":"c"}],"doc":5,"seq":126,"ms":990215,"op":"edit"}
+{"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.cpp\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : private SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value();\n    }\n\n};\n","version":1,"path":"exercises/module_04/StringSpreadsheet..cpp","snapshot":true,"doc":9,"seq":127,"ms":991972,"op":"snap"}
+{"version":2,"changes":[{"offset":121,"length":7,"text":"p"}],"doc":9,"seq":128,"ms":995186,"op":"edit"}
+{"version":3,"changes":[{"offset":122,"length":0,"text":"u"}],"doc":9,"seq":129,"ms":995489,"op":"edit"}
+{"version":4,"changes":[{"offset":123,"length":0,"text":"b"}],"doc":9,"seq":130,"ms":995631,"op":"edit"}
+{"version":5,"changes":[{"offset":124,"length":0,"text":"l"}],"doc":9,"seq":131,"ms":995917,"op":"edit"}
+{"version":6,"changes":[{"offset":125,"length":0,"text":"i"}],"doc":9,"seq":132,"ms":996100,"op":"edit"}
+{"version":7,"changes":[{"offset":126,"length":0,"text":"c"}],"doc":9,"seq":133,"ms":996242,"op":"edit"}
+{"doc":5,"seq":134,"ms":999382,"op":"save"}
+{"doc":9,"seq":135,"ms":999384,"op":"save"}
+{"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":136,"ms":999542,"op":"task.start"}
+{"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","processId":-1,"doc":4,"seq":137,"ms":999543,"op":"task.processStart"}
+{"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","exitCode":-1,"doc":4,"seq":138,"ms":999784,"op":"task.processEnd"}
+{"executionId":"f1b830e6-1817-42f8-896b-cd92abfcb662","doc":4,"seq":139,"ms":999785,"op":"task.end"}
