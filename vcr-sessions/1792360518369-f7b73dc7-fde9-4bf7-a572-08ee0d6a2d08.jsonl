@@ -16,3 +16,8 @@
 {"version":3,"changes":[{"offset":647,"length":0,"text":"/"}],"doc":3,"seq":15,"ms":86004,"op":"edit"}
 {"version":4,"changes":[{"offset":648,"length":0,"text":"\n"}],"doc":3,"seq":16,"ms":86729,"op":"edit"}
 {"version":5,"changes":[{"offset":648,"length":1,"text":""}],"doc":3,"seq":17,"ms":87711,"op":"edit"}
+{"version":6,"changes":[{"offset":658,"length":0,"text":"\n"}],"doc":3,"seq":18,"ms":166997,"op":"edit"}
+{"version":7,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":659,"length":0,"text":"# macOS metadata\n.DS_Store\n\n# macOS debug symbol bundles\n*.dSYM/\n\n# Compiled C++ files\n*.o"}],"doc":3,"seq":19,"ms":167835,"op":"edit"}
+{"version":8,"changes":[{"offset":749,"length":0,"text":"\n"}],"doc":3,"seq":20,"ms":171611,"op":"edit"}
+{"doc":3,"seq":21,"ms":171628,"op":"save"}
+{"doc":2,"seq":22,"ms":178231,"op":"close"}
