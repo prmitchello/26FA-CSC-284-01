@@ -95,3 +95,27 @@
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":2,"seq":94,"ms":888841,"op":"snap"}
 {"doc":2,"seq":95,"ms":888861,"op":"close"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":2,"seq":96,"ms":888862,"op":"snap"}
+{"doc":2,"seq":97,"ms":900195,"op":"close"}
+{"text":"build/*\n!build/.gitkeep\n","version":1,"path":".vscode/.gitignore","snapshot":true,"doc":8,"seq":98,"ms":900209,"op":"snap"}
+{"doc":8,"seq":99,"ms":904306,"op":"close"}
+{"text":"# Prerequisites\n*.d\n\n# Compiled Object files\n*.slo\n*.lo\n*.o\n*.obj\n\n# Precompiled Headers\n*.gch\n*.pch\n\n# Linker files\n*.ilk\n\n# Debugger Files\n*.pdb\n\n# Compiled Dynamic libraries\n*.so\n*.dylib\n*.dll\n*.so.*\n\n# Fortran module files\n*.mod\n*.smod\n\n# Compiled Static libraries\n*.lai\n*.la\n*.a\n*.lib\n\n# Executables\n*.exe\n*.out\n*.app\n\n# Build directories\nbuild/\nBuild/\nbuild-*/\n\n# CMake generated files\nCMakeFiles/\nCMakeCache.txt\ncmake_install.cmake\nMakefile\ninstall_manifest.txt\ncompile_commands.json\n\n# Temporary files\n*.tmp\n*.log\n*.bak\n*.swp\n\n# vcpkg\nvcpkg_installed/\n\n# debug information files\n*.dwo\n\n# test output & cache\nTesting/\n.cache/\n\n.DS_Store/\n**/.DS_Store\n\n# macOS metadata\n.DS_Store\n\n# macOS debug symbol bundles\n*.dSYM/\n\n# Compiled C++ files\n*.o\n","version":1,"snapshot":true,"doc":1,"seq":100,"ms":904318,"op":"snap"}
+{"doc":1,"seq":101,"ms":915275,"op":"close"}
+{"text":"build/*\n!build/.gitkeep\n","version":1,"snapshot":true,"doc":8,"seq":102,"ms":915289,"op":"snap"}
+{"version":2,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":24,"length":0,"text":"\n.DS_Store/\n**/.DS_Store\n\n# macOS metadata\n.DS_Store\n\n# macOS debug symbol bundles\n*.dSYM/\n\n# Compiled C++ files\n*.o"}],"doc":8,"seq":103,"ms":918162,"op":"edit"}
+{"version":3,"changes":[{"offset":140,"length":0,"text":"\n"}],"doc":8,"seq":104,"ms":920261,"op":"edit"}
+{"doc":8,"seq":105,"ms":920279,"op":"save"}
+{"doc":8,"seq":106,"ms":928849,"op":"close"}
+{"version":31,"changes":[{"offset":608,"length":0,"text":"d"}],"doc":5,"seq":107,"ms":953249,"op":"edit"}
+{"version":32,"changes":[{"offset":609,"length":0,"text":"o"}],"doc":5,"seq":108,"ms":953341,"op":"edit"}
+{"version":33,"changes":[{"offset":610,"length":0,"text":"u"}],"doc":5,"seq":109,"ms":953556,"op":"edit"}
+{"version":34,"changes":[{"offset":611,"length":0,"text":"b"}],"doc":5,"seq":110,"ms":953690,"op":"edit"}
+{"version":35,"changes":[{"offset":612,"length":0,"text":"l"}],"doc":5,"seq":111,"ms":953887,"op":"edit"}
+{"version":36,"changes":[{"offset":613,"length":0,"text":"e"}],"doc":5,"seq":112,"ms":953990,"op":"edit"}
+{"version":37,"changes":[{"offset":614,"length":0,"text":" "}],"doc":5,"seq":113,"ms":954164,"op":"edit"}
+{"version":38,"changes":[{"offset":519,"length":0,"text":"s"}],"doc":5,"seq":114,"ms":956498,"op":"edit"}
+{"version":39,"changes":[{"offset":520,"length":0,"text":"t"}],"doc":5,"seq":115,"ms":956792,"op":"edit"}
+{"version":40,"changes":[{"offset":521,"length":0,"text":"r"}],"doc":5,"seq":116,"ms":956892,"op":"edit"}
+{"version":41,"changes":[{"offset":522,"length":0,"text":"i"}],"doc":5,"seq":117,"ms":956968,"op":"edit"}
+{"version":42,"changes":[{"offset":523,"length":0,"text":"n"}],"doc":5,"seq":118,"ms":957123,"op":"edit"}
+{"version":43,"changes":[{"offset":524,"length":0,"text":"g"}],"doc":5,"seq":119,"ms":957232,"op":"edit"}
+{"version":44,"changes":[{"offset":525,"length":0,"text":" "}],"doc":5,"seq":120,"ms":957377,"op":"edit"}
