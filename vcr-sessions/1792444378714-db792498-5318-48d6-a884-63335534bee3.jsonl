@@ -57,3 +57,7 @@
 {"version":5,"changes":[{"offset":532,"length":0,"text":"i"}],"doc":3,"seq":56,"ms":537515,"op":"edit"}
 {"version":6,"changes":[{"offset":533,"length":0,"text":"n"}],"doc":3,"seq":57,"ms":537567,"op":"edit"}
 {"version":7,"changes":[{"offset":534,"length":0,"text":"g"}],"doc":3,"seq":58,"ms":537719,"op":"edit"}
+{"version":8,"changes":[{"offset":535,"length":0,"text":"("}],"doc":3,"seq":59,"ms":538761,"op":"edit"}
+{"version":9,"changes":[{"offset":553,"length":0,"text":")"}],"doc":3,"seq":60,"ms":541887,"op":"edit"}
+{"version":10,"reason":1,"changes":[{"offset":553,"length":1,"text":""}],"doc":3,"seq":61,"ms":561109,"op":"edit"}
+{"version":11,"reason":1,"changes":[{"offset":529,"length":7,"text":""}],"doc":3,"seq":62,"ms":564331,"op":"edit"}
