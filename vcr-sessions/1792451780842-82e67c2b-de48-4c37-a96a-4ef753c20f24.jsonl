@@ -7,3 +7,21 @@
 {"executionId":"be06c346-103c-4ee6-9860-829837426381","exitCode":-1,"doc":3,"seq":6,"ms":15676,"op":"task.processEnd"}
 {"executionId":"be06c346-103c-4ee6-9860-829837426381","doc":3,"seq":7,"ms":15677,"op":"task.end"}
 {"text":"#include \"SpreadSheetCell.h\"\n#include <optional>\n#include <string>\n#include <string_view>\n\nusing namespace std;\n\n\n\nclass DoubleSpreadsheet : public SpreadSheetCell\n{\n    private:\n\n    optional<double> data;\n\n    public:\n     DoubleSpreadsheet( ){\n        data = 0;\n    }\n\n    DoubleSpreadsheet(string_view value){\n\n        data = stringToDouble(value);\n    }\n\n    void set(std::string_view value) override{\n        data = stringToDouble(value);\n    }\n\n    std::string getString() const override{\n\n        return doubleToString(data.value_or(0.0));\n    }\n    string doubleToString(double value)const\n    {\n\n       return to_string(value);\n    }\n    double stringToDouble(std::string_view value) const\n    {\n        return stod(string(value));\n    }\n\n};\n","version":1,"path":"exercises/module_04/doubleSpreadsheet.cpp","snapshot":true,"doc":4,"seq":8,"ms":28197,"op":"snap"}
+{"version":2,"changes":[{"offset":337,"length":5,"text":"g"}],"doc":2,"seq":9,"ms":80210,"op":"edit"}
+{"version":3,"changes":[{"offset":338,"length":0,"text":"c"}],"doc":2,"seq":10,"ms":80402,"op":"edit"}
+{"version":4,"changes":[{"offset":339,"length":0,"text":"c"}],"doc":2,"seq":11,"ms":80552,"op":"edit"}
+{"doc":2,"seq":12,"ms":82119,"op":"save"}
+{"executionId":"06728ec6-5a49-4425-ba99-2e4958ac97a5","name":"C/C++: g++ build active file","type":"cppbuild","doc":3,"seq":13,"ms":87851,"op":"task.start"}
+{"executionId":"06728ec6-5a49-4425-ba99-2e4958ac97a5","processId":-1,"doc":3,"seq":14,"ms":87858,"op":"task.processStart"}
+{"executionId":"06728ec6-5a49-4425-ba99-2e4958ac97a5","exitCode":-1,"doc":3,"seq":15,"ms":88135,"op":"task.processEnd"}
+{"executionId":"06728ec6-5a49-4425-ba99-2e4958ac97a5","doc":3,"seq":16,"ms":88136,"op":"task.end"}
+{"version":5,"changes":[{"offset":294,"length":1,"text":""}],"doc":2,"seq":17,"ms":107496,"op":"edit"}
+{"version":6,"changes":[{"offset":293,"length":1,"text":""}],"doc":2,"seq":18,"ms":107679,"op":"edit"}
+{"version":7,"changes":[{"offset":293,"length":0,"text":"1"}],"doc":2,"seq":19,"ms":108322,"op":"edit"}
+{"version":8,"changes":[{"offset":294,"length":0,"text":"7"}],"doc":2,"seq":20,"ms":108584,"op":"edit"}
+{"version":9,"changes":[{"offset":258,"length":1,"text":""}],"doc":2,"seq":21,"ms":110309,"op":"edit"}
+{"version":10,"changes":[{"offset":257,"length":1,"text":""}],"doc":2,"seq":22,"ms":110602,"op":"edit"}
+{"version":11,"changes":[{"offset":257,"length":0,"text":"1"}],"doc":2,"seq":23,"ms":110887,"op":"edit"}
+{"version":12,"changes":[{"offset":258,"length":0,"text":"7"}],"doc":2,"seq":24,"ms":111263,"op":"edit"}
+{"doc":2,"seq":25,"ms":112828,"op":"save"}
+{"doc":2,"seq":26,"ms":114332,"op":"save"}
