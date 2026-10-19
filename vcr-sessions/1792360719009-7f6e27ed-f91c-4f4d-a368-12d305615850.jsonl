@@ -424,3 +424,21 @@
 {"executionId":"50b5f548-1628-4ff8-90cc-0b5b6a2231b7","processId":-1,"doc":4,"seq":423,"ms":63530009,"op":"task.processStart"}
 {"executionId":"50b5f548-1628-4ff8-90cc-0b5b6a2231b7","exitCode":-1,"doc":4,"seq":424,"ms":63530196,"op":"task.processEnd"}
 {"executionId":"50b5f548-1628-4ff8-90cc-0b5b6a2231b7","doc":4,"seq":425,"ms":63530197,"op":"task.end"}
+{"executionId":"a1c2f8ea-1fcb-457a-868b-9a014a66240c","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":426,"ms":63562676,"op":"task.start"}
+{"executionId":"a1c2f8ea-1fcb-457a-868b-9a014a66240c","processId":-1,"doc":4,"seq":427,"ms":63562713,"op":"task.processStart"}
+{"executionId":"a1c2f8ea-1fcb-457a-868b-9a014a66240c","exitCode":-1,"doc":4,"seq":428,"ms":63562931,"op":"task.processEnd"}
+{"executionId":"a1c2f8ea-1fcb-457a-868b-9a014a66240c","doc":4,"seq":429,"ms":63562932,"op":"task.end"}
+{"version":160,"changes":[{"offset":125,"length":1,"text":""}],"doc":5,"seq":430,"ms":63580493,"op":"edit"}
+{"version":161,"changes":[{"offset":125,"length":0,"text":"S"}],"doc":5,"seq":431,"ms":63581099,"op":"edit"}
+{"version":162,"changes":[{"offset":125,"length":1,"text":""}],"doc":5,"seq":432,"ms":63582027,"op":"edit"}
+{"version":163,"changes":[{"offset":125,"length":0,"text":"s"}],"doc":5,"seq":433,"ms":63582205,"op":"edit"}
+{"version":164,"changes":[{"offset":126,"length":0,"text":"t"}],"doc":5,"seq":434,"ms":63582443,"op":"edit"}
+{"version":165,"changes":[{"offset":127,"length":0,"text":"r"}],"doc":5,"seq":435,"ms":63582561,"op":"edit"}
+{"version":166,"changes":[{"offset":128,"length":0,"text":"i"}],"doc":5,"seq":436,"ms":63582697,"op":"edit"}
+{"version":167,"changes":[{"offset":129,"length":0,"text":"n"}],"doc":5,"seq":437,"ms":63582813,"op":"edit"}
+{"version":168,"changes":[{"offset":130,"length":0,"text":"g"}],"doc":5,"seq":438,"ms":63583278,"op":"edit"}
+{"doc":5,"seq":439,"ms":63587454,"op":"save"}
+{"executionId":"ae456c90-7dca-4a88-bf2f-b29bbf97b408","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":440,"ms":63587609,"op":"task.start"}
+{"executionId":"ae456c90-7dca-4a88-bf2f-b29bbf97b408","processId":-1,"doc":4,"seq":441,"ms":63587617,"op":"task.processStart"}
+{"executionId":"ae456c90-7dca-4a88-bf2f-b29bbf97b408","exitCode":-1,"doc":4,"seq":442,"ms":63587831,"op":"task.processEnd"}
+{"executionId":"ae456c90-7dca-4a88-bf2f-b29bbf97b408","doc":4,"seq":443,"ms":63587831,"op":"task.end"}
