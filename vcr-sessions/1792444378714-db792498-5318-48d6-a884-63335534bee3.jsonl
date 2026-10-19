@@ -61,3 +61,22 @@
 {"version":9,"changes":[{"offset":553,"length":0,"text":")"}],"doc":3,"seq":60,"ms":541887,"op":"edit"}
 {"version":10,"reason":1,"changes":[{"offset":553,"length":1,"text":""}],"doc":3,"seq":61,"ms":561109,"op":"edit"}
 {"version":11,"reason":1,"changes":[{"offset":529,"length":7,"text":""}],"doc":3,"seq":62,"ms":564331,"op":"edit"}
+{"version":12,"changes":[{"offset":685,"length":0,"text":"\n    "}],"doc":3,"seq":63,"ms":614655,"op":"edit"}
+{"version":13,"changes":[{"offset":685,"length":0,"text":" "}],"doc":3,"seq":64,"ms":617213,"op":"edit"}
+{"version":14,"changes":[{"offset":686,"length":0,"text":"c"}],"doc":3,"seq":65,"ms":617359,"op":"edit"}
+{"version":15,"changes":[{"offset":687,"length":0,"text":"o"}],"doc":3,"seq":66,"ms":617449,"op":"edit"}
+{"version":16,"changes":[{"offset":688,"length":0,"text":"n"}],"doc":3,"seq":67,"ms":617595,"op":"edit"}
+{"version":17,"changes":[{"offset":689,"length":0,"text":"s"}],"doc":3,"seq":68,"ms":617686,"op":"edit"}
+{"version":18,"changes":[{"offset":690,"length":0,"text":"t"}],"doc":3,"seq":69,"ms":617939,"op":"edit"}
+{"executionId":"d7a2441e-21ca-4629-a03a-f868586ac37e","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","commandLine":"cd ~/Downloads/26FA-CSC-284-01/exercises/module_04","confidence":2,"doc":5,"seq":70,"ms":628515,"op":"terminal.start"}
+{"executionId":"d7a2441e-21ca-4629-a03a-f868586ac37e","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":5,"seq":71,"ms":628516,"op":"terminal.output"}
+{"executionId":"d7a2441e-21ca-4629-a03a-f868586ac37e","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","commandLine":"cd ~/Downloads/26FA-CSC-284-01/exercises/module_04","confidence":2,"exitCode":0,"doc":5,"seq":72,"ms":628516,"op":"terminal.end"}
+{"executionId":"b87c3223-1e53-4f28-a5d5-cc2125134217","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","commandLine":"g++ -std=c++17 -g doubleSpreadsheet.cpp -o doubleSpreadsheet","confidence":2,"doc":5,"seq":73,"ms":628563,"op":"terminal.start"}
+{"executionId":"b87c3223-1e53-4f28-a5d5-cc2125134217","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","data":"\u001b]633;C\u0007","doc":5,"seq":74,"ms":628614,"op":"terminal.output"}
+{"executionId":"b87c3223-1e53-4f28-a5d5-cc2125134217","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","data":"\u001b[1mdoubleSpreadsheet.cpp:32:16: \u001b[0m\u001b[0;1;31merror: \u001b[0m\u001b[1m'this' argument to member function 'doubleToString' has type 'const DoubleSpreadsheet', but\r\n      function is not marked const\u001b[0m\r\n   32 |         \u001b[0;34mreturn\u001b[0m doubleToString(data.value_or(\u001b[0;32m0.0\u001b[0m));\u001b[0m\r\n      | \u001b[0;1;32m               ^~~~~~~~~~~~~~\r\n\u001b[0m\u001b[1mdoubleSpreadsheet.cpp:34:12: \u001b[0m\u001b[0;1;36mnote: \u001b[0m'doubleToString' declared here\u001b[0m\r\n   34 |     string doubleToString(\u001b[0;34mdouble\u001b[0m value){\u001b[0m\r\n      | \u001b[0;1;32m           ^\r\n\u001b[0m1 error generated.\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":5,"seq":75,"ms":628794,"op":"terminal.output"}
+{"executionId":"b87c3223-1e53-4f28-a5d5-cc2125134217","terminalId":"1b52abf8-1cec-4527-a566-73d170c54391","commandLine":"g++ -std=c++17 -g doubleSpreadsheet.cpp -o doubleSpreadsheet","confidence":2,"exitCode":1,"doc":5,"seq":76,"ms":628795,"op":"terminal.end"}
+{"doc":3,"seq":77,"ms":648393,"op":"save"}
+{"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":78,"ms":648567,"op":"task.start"}
+{"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","processId":-1,"doc":6,"seq":79,"ms":648589,"op":"task.processStart"}
+{"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","exitCode":-1,"doc":6,"seq":80,"ms":648827,"op":"task.processEnd"}
+{"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","doc":6,"seq":81,"ms":648828,"op":"task.end"}
