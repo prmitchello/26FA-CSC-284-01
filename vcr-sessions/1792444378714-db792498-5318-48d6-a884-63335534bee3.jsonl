@@ -116,3 +116,21 @@
 {"version":2,"changes":[{"offset":1723,"length":0,"text":"\n"}],"doc":8,"seq":115,"ms":1718742,"op":"edit"}
 {"doc":8,"seq":116,"ms":1718761,"op":"save"}
 {"doc":8,"seq":117,"ms":1719808,"op":"close"}
+{"executionId":"64c84519-1fdc-4bec-b590-0bf6a9ce5d25","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":118,"ms":1757294,"op":"task.start"}
+{"executionId":"64c84519-1fdc-4bec-b590-0bf6a9ce5d25","processId":-1,"doc":6,"seq":119,"ms":1757301,"op":"task.processStart"}
+{"executionId":"64c84519-1fdc-4bec-b590-0bf6a9ce5d25","exitCode":-1,"doc":6,"seq":120,"ms":1757599,"op":"task.processEnd"}
+{"executionId":"64c84519-1fdc-4bec-b590-0bf6a9ce5d25","doc":6,"seq":121,"ms":1757600,"op":"task.end"}
+{"executionId":"434d595f-44e0-4191-acea-d13421cb677e","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":122,"ms":1767626,"op":"task.start"}
+{"executionId":"434d595f-44e0-4191-acea-d13421cb677e","processId":-1,"doc":6,"seq":123,"ms":1767633,"op":"task.processStart"}
+{"executionId":"434d595f-44e0-4191-acea-d13421cb677e","exitCode":-1,"doc":6,"seq":124,"ms":1767820,"op":"task.processEnd"}
+{"executionId":"434d595f-44e0-4191-acea-d13421cb677e","doc":6,"seq":125,"ms":1767821,"op":"task.end"}
+{"executionId":"461606a2-7d81-4648-9e25-427ff14618e6","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":126,"ms":1772485,"op":"task.start"}
+{"executionId":"461606a2-7d81-4648-9e25-427ff14618e6","processId":-1,"doc":6,"seq":127,"ms":1772502,"op":"task.processStart"}
+{"executionId":"461606a2-7d81-4648-9e25-427ff14618e6","exitCode":-1,"doc":6,"seq":128,"ms":1772683,"op":"task.processEnd"}
+{"executionId":"461606a2-7d81-4648-9e25-427ff14618e6","doc":6,"seq":129,"ms":1772684,"op":"task.end"}
+{"version":35,"changes":[{"offset":384,"length":1,"text":""}],"doc":1,"seq":130,"ms":1784168,"op":"edit"}
+{"version":36,"changes":[{"offset":383,"length":1,"text":""}],"doc":1,"seq":131,"ms":1784343,"op":"edit"}
+{"version":37,"changes":[{"offset":382,"length":1,"text":""}],"doc":1,"seq":132,"ms":1784464,"op":"edit"}
+{"version":38,"changes":[{"offset":381,"length":1,"text":""}],"doc":1,"seq":133,"ms":1784621,"op":"edit"}
+{"version":39,"changes":[{"offset":380,"length":1,"text":""}],"doc":1,"seq":134,"ms":1784783,"op":"edit"}
+{"version":40,"changes":[{"offset":384,"length":1,"text":""}],"doc":1,"seq":135,"ms":1786529,"op":"edit"}
