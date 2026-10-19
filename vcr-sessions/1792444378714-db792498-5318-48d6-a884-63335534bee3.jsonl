@@ -90,3 +90,7 @@
 {"doc":2,"seq":89,"ms":705983,"op":"close"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":2,"seq":90,"ms":705983,"op":"snap"}
 {"version":2,"changes":[{"offset":173,"length":205,"text":"\n            \"compilerPath\": \"/usr/bin/g++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}"}],"doc":2,"seq":91,"ms":750214,"op":"edit"}
+{"executionId":"3ca3d33a-16e2-40f1-8bbf-2b748e398f89","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":92,"ms":833019,"op":"task.start"}
+{"executionId":"3ca3d33a-16e2-40f1-8bbf-2b748e398f89","processId":-1,"doc":6,"seq":93,"ms":833025,"op":"task.processStart"}
+{"executionId":"3ca3d33a-16e2-40f1-8bbf-2b748e398f89","exitCode":-1,"doc":6,"seq":94,"ms":833280,"op":"task.processEnd"}
+{"executionId":"3ca3d33a-16e2-40f1-8bbf-2b748e398f89","doc":6,"seq":95,"ms":833281,"op":"task.end"}
