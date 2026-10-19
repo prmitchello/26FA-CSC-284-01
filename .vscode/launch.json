@@ -1,43 +1,56 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Run active C++23 file",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/.vscode/build/${fileBasenameNoExtension}.exe",
-      "cwd": "${fileDirname}",
-      "stopAtEntry": false,
-      "MIMode": "gdb",
-      "preLaunchTask": "Compile active C++23 file",
-      "windows": {
-        "miDebuggerPath": "gdb.exe"
-      },
-      "linux": {
-        "miDebuggerPath": "gdb"
-      },
-      "osx": {
-        "MIMode": "lldb"
-      }
-    },
-    {
-      "name": "Run active C++23 folder",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/.vscode/build/program.exe",
-      "cwd": "${fileDirname}",
-      "stopAtEntry": false,
-      "MIMode": "gdb",
-      "preLaunchTask": "Compile active C++23 folder",
-      "windows": {
-        "miDebuggerPath": "gdb.exe"
-      },
-      "linux": {
-        "miDebuggerPath": "gdb"
-      },
-      "osx": {
-        "MIMode": "lldb"
-      }
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run active C++23 file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/.vscode/build/${fileBasenameNoExtension}.exe",
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "Compile active C++23 file",
+            "windows": {
+                "miDebuggerPath": "gdb.exe"
+            },
+            "linux": {
+                "miDebuggerPath": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "Run active C++23 folder",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/.vscode/build/program.exe",
+            "cwd": "${fileDirname}",
+            "stopAtEntry": false,
+            "MIMode": "gdb",
+            "preLaunchTask": "Compile active C++23 folder",
+            "windows": {
+                "miDebuggerPath": "gdb.exe"
+            },
+            "linux": {
+                "miDebuggerPath": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            }
+        },
+        {
+            "name": "C/C++: g++ build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++ build active file"
+        }
+    ]
 }

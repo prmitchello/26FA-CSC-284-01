@@ -68,3 +68,13 @@ Testing/
 .cache/
 
 .DS_Store/
+**/.DS_Store
+
+# macOS metadata
+.DS_Store
+
+# macOS debug symbol bundles
+*.dSYM/
+
+# Compiled C++ files
+*.o
