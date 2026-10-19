@@ -80,3 +80,6 @@
 {"doc":2,"seq":79,"ms":700072,"op":"close"}
 {"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.cpp\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : public SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value();\n    }\n\n};\n","version":1,"path":"exercises/module_04/StringSpreadsheet..cpp","snapshot":true,"doc":8,"seq":80,"ms":711112,"op":"snap"}
 {"version":2,"changes":[{"offset":66,"length":3,"text":"h"}],"doc":8,"seq":81,"ms":715034,"op":"edit"}
+{"doc":7,"seq":82,"ms":721822,"op":"close"}
+{"text":"\n    #pragma once\n\n    #include <iostream>\n    #include <string>\n    #include <string_view>\n\n    using namespace std;\n\n    class SpreadSheetCell {\n\n        public:\n        virtual ~SpreadSheetCell() = default;\n        virtual void set( string_view value )=0;\n        virtual string getString() const =0;\n\n    };\n","version":1,"path":"exercises/module_04/SpreadSheetCell.h","snapshot":true,"doc":9,"seq":83,"ms":732870,"op":"snap"}
+{"version":2,"changes":[{"offset":263,"length":0,"text":"  "}],"doc":1,"seq":84,"ms":746533,"op":"edit"}
