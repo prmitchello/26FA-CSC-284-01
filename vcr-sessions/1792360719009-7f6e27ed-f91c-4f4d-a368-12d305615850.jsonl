@@ -315,3 +315,10 @@
 {"version":109,"changes":[{"offset":94,"length":1,"text":""}],"doc":5,"seq":314,"ms":61913723,"op":"edit"}
 {"version":110,"changes":[{"offset":93,"length":1,"text":""}],"doc":5,"seq":315,"ms":61913903,"op":"edit"}
 {"version":111,"changes":[{"offset":92,"length":1,"text":""}],"doc":5,"seq":316,"ms":61914061,"op":"edit"}
+{"version":57,"changes":[{"offset":245,"length":27,"text":"a"}],"doc":3,"seq":317,"ms":62232502,"op":"edit"}
+{"version":58,"changes":[{"offset":246,"length":0,"text":"u"}],"doc":3,"seq":318,"ms":62232660,"op":"edit"}
+{"version":59,"changes":[{"offset":247,"length":0,"text":"t"}],"doc":3,"seq":319,"ms":62232788,"op":"edit"}
+{"version":60,"changes":[{"offset":248,"length":0,"text":"o"}],"doc":3,"seq":320,"ms":62232915,"op":"edit"}
+{"version":61,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":269,"length":17,"text":"SpreadSheetCell"}],"doc":3,"seq":321,"ms":62246841,"op":"edit"}
+{"version":62,"reason":1,"changes":[{"offset":269,"length":15,"text":"DoubleSpreadsheet"}],"doc":3,"seq":322,"ms":62255803,"op":"edit"}
+{"version":63,"reason":1,"changes":[{"offset":245,"length":4,"text":"unique_ptr<SpreadSheetCell>"}],"doc":3,"seq":323,"ms":62268105,"op":"edit"}
