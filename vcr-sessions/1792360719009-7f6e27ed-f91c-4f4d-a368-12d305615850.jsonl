@@ -341,3 +341,9 @@
 {"version":80,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":362,"length":33,"text":"derived"}],"doc":3,"seq":340,"ms":62515428,"op":"edit"}
 {"version":81,"changes":[{"offset":369,"length":0,"text":";"}],"doc":3,"seq":341,"ms":62516630,"op":"edit"}
 {"version":82,"changes":[{"offset":327,"length":0,"text":"  "}],"doc":3,"seq":342,"ms":62521682,"op":"edit"}
+{"version":83,"reason":1,"changes":[{"offset":327,"length":2,"text":""}],"doc":3,"seq":343,"ms":62559341,"op":"edit"}
+{"version":84,"reason":1,"changes":[{"offset":369,"length":1,"text":""}],"doc":3,"seq":344,"ms":62559588,"op":"edit"}
+{"version":85,"reason":1,"changes":[{"offset":362,"length":7,"text":"make_unique<DoubleSpreadsheet>();"}],"doc":3,"seq":345,"ms":62559860,"op":"edit"}
+{"version":86,"reason":1,"changes":[{"offset":281,"length":7,"text":"cell"}],"doc":3,"seq":346,"ms":62560096,"op":"edit"}
+{"version":87,"reason":1,"changes":[{"offset":262,"length":17,"text":"SpreadSheetCell"}],"doc":3,"seq":347,"ms":62560336,"op":"edit"}
+{"version":88,"reason":1,"changes":[{"offset":251,"length":68,"text":""}],"doc":3,"seq":348,"ms":62560842,"op":"edit"}
