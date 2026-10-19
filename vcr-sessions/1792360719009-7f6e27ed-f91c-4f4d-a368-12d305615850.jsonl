@@ -348,3 +348,14 @@
 {"version":87,"reason":1,"changes":[{"offset":262,"length":17,"text":"SpreadSheetCell"}],"doc":3,"seq":347,"ms":62560336,"op":"edit"}
 {"version":88,"reason":1,"changes":[{"offset":251,"length":68,"text":""}],"doc":3,"seq":348,"ms":62560842,"op":"edit"}
 {"version":2,"changes":[{"offset":17,"length":0,"text":"\n    "}],"doc":10,"seq":349,"ms":62673481,"op":"edit"}
+{"version":89,"changes":[{"offset":247,"length":4,"text":""}],"doc":3,"seq":350,"ms":62882275,"op":"edit"}
+{"version":3,"changes":[{"offset":18,"length":4,"text":""}],"doc":10,"seq":351,"ms":62882275,"op":"edit"}
+{"doc":3,"seq":352,"ms":62882286,"op":"save"}
+{"doc":5,"seq":353,"ms":62882287,"op":"save"}
+{"doc":10,"seq":354,"ms":62882296,"op":"save"}
+{"executionId":"84bbc5e6-df58-44a4-9882-6ac4e3d99cd8","name":"C/C++: g++ build active file","type":"cppbuild","doc":4,"seq":355,"ms":62882461,"op":"task.start"}
+{"executionId":"84bbc5e6-df58-44a4-9882-6ac4e3d99cd8","processId":-1,"doc":4,"seq":356,"ms":62882471,"op":"task.processStart"}
+{"executionId":"84bbc5e6-df58-44a4-9882-6ac4e3d99cd8","exitCode":-1,"doc":4,"seq":357,"ms":62882906,"op":"task.processEnd"}
+{"executionId":"84bbc5e6-df58-44a4-9882-6ac4e3d99cd8","doc":4,"seq":358,"ms":62882907,"op":"task.end"}
+{"version":90,"changes":[{"offset":244,"length":1,"text":""}],"doc":3,"seq":359,"ms":62891266,"op":"edit"}
+{"version":91,"changes":[{"offset":243,"length":1,"text":""}],"doc":3,"seq":360,"ms":62891461,"op":"edit"}
