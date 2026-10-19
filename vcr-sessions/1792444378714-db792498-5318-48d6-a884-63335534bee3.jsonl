@@ -134,3 +134,19 @@
 {"version":38,"changes":[{"offset":381,"length":1,"text":""}],"doc":1,"seq":133,"ms":1784621,"op":"edit"}
 {"version":39,"changes":[{"offset":380,"length":1,"text":""}],"doc":1,"seq":134,"ms":1784783,"op":"edit"}
 {"version":40,"changes":[{"offset":384,"length":1,"text":""}],"doc":1,"seq":135,"ms":1786529,"op":"edit"}
+{"doc":1,"seq":136,"ms":1788957,"op":"save"}
+{"executionId":"fcbdf7a8-4d1b-4d9e-bb60-d728d204d17e","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":137,"ms":1789107,"op":"task.start"}
+{"executionId":"fcbdf7a8-4d1b-4d9e-bb60-d728d204d17e","processId":-1,"doc":6,"seq":138,"ms":1789107,"op":"task.processStart"}
+{"executionId":"fcbdf7a8-4d1b-4d9e-bb60-d728d204d17e","exitCode":-1,"doc":6,"seq":139,"ms":1789429,"op":"task.processEnd"}
+{"executionId":"fcbdf7a8-4d1b-4d9e-bb60-d728d204d17e","doc":6,"seq":140,"ms":1789430,"op":"task.end"}
+{"version":41,"reason":1,"changes":[{"offset":384,"length":0,"text":")"}],"doc":1,"seq":141,"ms":1808134,"op":"edit"}
+{"version":42,"reason":1,"changes":[{"offset":380,"length":0,"text":"move("}],"doc":1,"seq":142,"ms":1808714,"op":"edit"}
+{"doc":1,"seq":143,"ms":1813445,"op":"save"}
+{"executionId":"7ac265df-f9a7-4e6c-a34a-8be39ef01a91","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":144,"ms":1813601,"op":"task.start"}
+{"executionId":"7ac265df-f9a7-4e6c-a34a-8be39ef01a91","processId":-1,"doc":6,"seq":145,"ms":1813608,"op":"task.processStart"}
+{"executionId":"7ac265df-f9a7-4e6c-a34a-8be39ef01a91","exitCode":-1,"doc":6,"seq":146,"ms":1813888,"op":"task.processEnd"}
+{"executionId":"7ac265df-f9a7-4e6c-a34a-8be39ef01a91","doc":6,"seq":147,"ms":1813888,"op":"task.end"}
+{"executionId":"0e45f289-2274-4db1-b057-c8d606e01b26","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":148,"ms":1818019,"op":"task.start"}
+{"executionId":"0e45f289-2274-4db1-b057-c8d606e01b26","processId":-1,"doc":6,"seq":149,"ms":1818025,"op":"task.processStart"}
+{"executionId":"0e45f289-2274-4db1-b057-c8d606e01b26","exitCode":-1,"doc":6,"seq":150,"ms":1818214,"op":"task.processEnd"}
+{"executionId":"0e45f289-2274-4db1-b057-c8d606e01b26","doc":6,"seq":151,"ms":1818215,"op":"task.end"}
