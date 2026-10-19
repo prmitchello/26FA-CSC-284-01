@@ -80,3 +80,12 @@
 {"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","processId":-1,"doc":6,"seq":79,"ms":648589,"op":"task.processStart"}
 {"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","exitCode":-1,"doc":6,"seq":80,"ms":648827,"op":"task.processEnd"}
 {"executionId":"662e8df6-84b7-4cdd-9e03-300d07be6dd7","doc":6,"seq":81,"ms":648828,"op":"task.end"}
+{"executionId":"24b0e149-8b7c-46ac-9398-bc18149d856f","name":"C/C++: g++ build active file","type":"cppbuild","doc":6,"seq":82,"ms":672007,"op":"task.start"}
+{"executionId":"24b0e149-8b7c-46ac-9398-bc18149d856f","processId":-1,"doc":6,"seq":83,"ms":672016,"op":"task.processStart"}
+{"executionId":"24b0e149-8b7c-46ac-9398-bc18149d856f","exitCode":-1,"doc":6,"seq":84,"ms":672258,"op":"task.processEnd"}
+{"executionId":"24b0e149-8b7c-46ac-9398-bc18149d856f","doc":6,"seq":85,"ms":672259,"op":"task.end"}
+{"text":"build/*\n!build/.gitkeep\n\n.DS_Store/\n**/.DS_Store\n\n# macOS metadata\n.DS_Store\n\n# macOS debug symbol bundles\n*.dSYM/\n\n# Compiled C++ files\n*.o\n","version":1,"path":".vscode/.gitignore","snapshot":true,"doc":7,"seq":86,"ms":702627,"op":"snap"}
+{"doc":7,"seq":87,"ms":705946,"op":"close"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":2,"seq":88,"ms":705961,"op":"snap"}
+{"doc":2,"seq":89,"ms":705983,"op":"close"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/usr/bin/clang++\",\n            \"cStandard\": \"c23\",\n            \"cppStandard\": \"c++26\",\n            \"intelliSenseMode\": \"macos-clang-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"snapshot":true,"doc":2,"seq":90,"ms":705983,"op":"snap"}
