@@ -22,3 +22,5 @@
 {"doc":1,"seq":21,"ms":91675,"op":"save"}
 {"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n    \"files.autoSave\": \"afterDelay\"\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":3,"seq":22,"ms":108252,"op":"snap"}
 {"doc":2,"seq":23,"ms":178133,"op":"close"}
+{"version":2,"changes":[{"offset":23,"length":110,"text":"{\n        \"**/.gitkeep\": true,\n        \"**/*.exe\": true,\n        \"**/vcr-course.json\": true,\n        \"**/vcr-recording.json\": true\n    }"}],"doc":3,"seq":24,"ms":290333,"op":"edit"}
+{"doc":3,"seq":25,"ms":290364,"op":"save"}
