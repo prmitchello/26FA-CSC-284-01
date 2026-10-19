@@ -24,3 +24,13 @@
 {"doc":2,"seq":23,"ms":178133,"op":"close"}
 {"version":2,"changes":[{"offset":23,"length":110,"text":"{\n        \"**/.gitkeep\": true,\n        \"**/*.exe\": true,\n        \"**/vcr-course.json\": true,\n        \"**/vcr-recording.json\": true\n    }"}],"doc":3,"seq":24,"ms":290333,"op":"edit"}
 {"doc":3,"seq":25,"ms":290364,"op":"save"}
+{"version":3,"changes":[{"offset":23,"length":136,"text":"{\n        \"**/.gitkeep\": true,\n        \"**/*.class\": true,\n        \"**/*.exe\": true,\n        \"**/vcr-course.json\": true,\n        \"**/vcr-recording.json\": true\n    }"}],"doc":3,"seq":26,"ms":298488,"op":"edit"}
+{"doc":3,"seq":27,"ms":298517,"op":"save"}
+{"version":4,"changes":[{"offset":23,"length":164,"text":"{\n        \"**/.gitkeep\": true,\n        \"**/*.class\": true,\n        \"**/*.dSYM\": true,\n        \"**/*.exe\": true,\n        \"**/vcr-course.json\": true,\n        \"**/vcr-recording.json\": true\n    }"}],"doc":3,"seq":28,"ms":308625,"op":"edit"}
+{"doc":3,"seq":29,"ms":308652,"op":"save"}
+{"doc":3,"seq":30,"ms":332088,"op":"save"}
+{"doc":3,"seq":31,"ms":346633,"op":"save"}
+{"executionId":"79d743e9-c0b5-43af-ae1e-fd3de63cf7ee","name":"C/C++: g++ build active file","type":"cppbuild","path":".","doc":4,"seq":32,"ms":351630,"op":"task.start"}
+{"executionId":"79d743e9-c0b5-43af-ae1e-fd3de63cf7ee","processId":-1,"doc":4,"seq":33,"ms":351652,"op":"task.processStart"}
+{"executionId":"79d743e9-c0b5-43af-ae1e-fd3de63cf7ee","exitCode":-1,"doc":4,"seq":34,"ms":352002,"op":"task.processEnd"}
+{"executionId":"79d743e9-c0b5-43af-ae1e-fd3de63cf7ee","doc":4,"seq":35,"ms":352003,"op":"task.end"}
