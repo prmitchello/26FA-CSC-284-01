@@ -11,3 +11,4 @@
 {"version":3,"changes":[{"offset":322,"length":50,"text":"    \"terminal.integrated.cursorStyle\": \"underline\",\n    \"terminal.integrated.enablePersistentSessions\": false"}],"doc":3,"seq":10,"ms":469982,"op":"edit"}
 {"doc":3,"seq":11,"ms":469995,"op":"save"}
 {"doc":3,"seq":12,"ms":469996,"op":"close"}
+{"seq":13,"ms":488975,"op":"end"}
