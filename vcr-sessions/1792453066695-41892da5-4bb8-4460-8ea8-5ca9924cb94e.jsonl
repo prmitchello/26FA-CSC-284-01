@@ -2,3 +2,22 @@
 {"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-1688,"op":"source.context"}
 {"text":"#include <iostream>\n#include <vector>\n#include <memory>\n#include <utility>\n\n#include \"SpreadSheetCell.h\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n\n    vector<unique_ptr<SpreadSheetCell>> Excel ;\n\n\n    unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();\n\n\n    cell->set(\"34.5\");\n\n    Excel.push_back(std::move(cell)); //move(cell)\n\n\n    for(const unique_ptr<SpreadSheetCell> & cell : Excel){\n        cout<<cell->getString();\n    }\n\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemonstration.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1688,"op":"snap"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1688,"op":"snap"}
+{"version":2,"changes":[{"offset":358,"length":0,"text":"\n    "}],"doc":1,"seq":4,"ms":84370,"op":"edit"}
+{"version":3,"changes":[{"offset":363,"length":0,"text":"\n    "},{"offset":359,"length":4,"text":""}],"doc":1,"seq":5,"ms":84575,"op":"edit"}
+{"doc":1,"seq":6,"ms":85596,"op":"save"}
+{"version":4,"changes":[{"offset":364,"length":0,"text":"/"}],"doc":1,"seq":7,"ms":85842,"op":"edit"}
+{"version":5,"changes":[{"offset":365,"length":0,"text":"/"}],"doc":1,"seq":8,"ms":85982,"op":"edit"}
+{"version":6,"changes":[{"offset":366,"length":0,"text":"s"}],"doc":1,"seq":9,"ms":86874,"op":"edit"}
+{"version":7,"changes":[{"offset":367,"length":0,"text":"f"}],"doc":1,"seq":10,"ms":87110,"op":"edit"}
+{"version":8,"changes":[{"offset":367,"length":1,"text":""}],"doc":1,"seq":11,"ms":88025,"op":"edit"}
+{"version":9,"changes":[{"offset":366,"length":1,"text":""}],"doc":1,"seq":12,"ms":88466,"op":"edit"}
+{"doc":1,"seq":13,"ms":89482,"op":"save"}
+{"version":10,"changes":[{"offset":366,"length":0,"text":"e"}],"doc":1,"seq":14,"ms":89582,"op":"edit"}
+{"version":11,"changes":[{"offset":367,"length":0,"text":"r"}],"doc":1,"seq":15,"ms":89740,"op":"edit"}
+{"version":12,"changes":[{"offset":368,"length":0,"text":"e"}],"doc":1,"seq":16,"ms":90143,"op":"edit"}
+{"version":13,"changes":[{"offset":369,"length":0,"text":"r"}],"doc":1,"seq":17,"ms":90162,"op":"edit"}
+{"version":14,"changes":[{"offset":370,"length":0,"text":"a"}],"doc":1,"seq":18,"ms":90400,"op":"edit"}
+{"version":15,"changes":[{"offset":371,"length":0,"text":"d"}],"doc":1,"seq":19,"ms":90509,"op":"edit"}
+{"version":16,"changes":[{"offset":372,"length":0,"text":"f"}],"doc":1,"seq":20,"ms":90664,"op":"edit"}
+{"doc":1,"seq":21,"ms":91675,"op":"save"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    },\n    \"files.autoSave\": \"afterDelay\"\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":3,"seq":22,"ms":108252,"op":"snap"}
