@@ -204,3 +204,4 @@
 {"doc":4,"seq":203,"ms":5642159,"op":"close"}
 {"text":"\n    #pragma once\n\n    #include <iostream>\n    #include <string>\n    #include <string_view>\n\n    using namespace std;\n\n    class SpreadSheetCell {\n\n        public:\n        virtual ~SpreadSheetCell() = default;\n        virtual void set( string_view value )=0;\n        virtual string getString() const =0;\n\n    };\n","version":1,"path":"exercises/module_04/SpreadSheetCell.h","snapshot":true,"doc":11,"seq":204,"ms":5642177,"op":"snap"}
 {"source":"workspace","operationId":"102a86b6-089b-4c11-8300-8944c8f6b4cb","doc":4,"seq":205,"ms":5642178,"op":"fs.moveFrom"}
+{"seq":206,"ms":7392889,"op":"end"}
