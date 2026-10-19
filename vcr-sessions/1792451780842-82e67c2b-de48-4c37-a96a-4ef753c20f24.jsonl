@@ -111,3 +111,7 @@
 {"doc":1,"seq":110,"ms":1035019,"op":"save"}
 {"doc":8,"seq":111,"ms":1045865,"op":"save"}
 {"text":"{\n    \"files.exclude\": {\n        \"**/vcr-course.json\": true,\n        \"**/.gitkeep\": true,\n        \"**/vcr-recording.json\": true\n    }\n}","version":1,"snapshot":true,"doc":6,"seq":112,"ms":1056906,"op":"snap"}
+{"version":2,"changes":[{"offset":128,"length":5,"text":"    },\n    \"files.autoSave\": \"afterDelay\""}],"doc":6,"seq":113,"ms":1259883,"op":"edit"}
+{"version":3,"changes":[{"offset":171,"length":0,"text":"\n"}],"doc":6,"seq":114,"ms":1259895,"op":"edit"}
+{"doc":6,"seq":115,"ms":1259909,"op":"save"}
+{"seq":116,"ms":1276336,"op":"end"}
