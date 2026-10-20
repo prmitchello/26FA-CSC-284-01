@@ -15,3 +15,4 @@
 {"doc":1,"seq":14,"ms":5681,"op":"save"}
 {"source":"workspace","path":"exercises/classExcersize","doc":3,"seq":15,"ms":29591,"op":"fs.create"}
 {"source":"watcher","doc":3,"seq":16,"ms":29750,"op":"fs.create"}
+{"seq":17,"ms":13750994,"op":"end"}
