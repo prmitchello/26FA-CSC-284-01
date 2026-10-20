@@ -1,0 +1,17 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-20T18:46:14.706Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"e4520375-ab7c-4aaf-b3c0-9040ca0a666e","sourceWindowId":"ec96b87d-7671-4726-9744-08c4ce6c64ed","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-1567,"op":"source.context"}
+{"text":"#include <iostream>\n#include <vector>\n#include <memory>\n#include <utility>\n\n#include \"SpreadSheetCell.h\"\n#include \"DoubleSpreadsheet.cpp\"\n#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n\n    vector<unique_ptr<SpreadSheetCell>> Excel ;\n\n\n    unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();\n    unique_ptr<SpreadSheetCell> cell1 = make_unique<StringSpreadsheet>();\n    unique_ptr<SpreadSheetCell> cell2 = make_unique<DoubleSpreadsheet>();\n\n\n    cell->set(\"34.5\");\n    cell1->set(\"hello\");\n    cell2->set(\"30\");\n    \n    Excel.push_back(std::move(cell));//move(cell)\n     Excel.push_back(std::move(cell1));\n    Excel.push_back(std::move(cell2));\n\n\n    for(const unique_ptr<SpreadSheetCell> & cell : Excel){\n        cout<<cell->getString()<<endl;\n    }\n\n\n    return 0;\n}\n","version":1,"path":"assignments/assignment_02/mainDemonstration.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1567,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1567,"op":"snap"}
+{"version":2,"changes":[{"offset":550,"length":0,"text":"f"}],"doc":1,"seq":4,"ms":-1330,"op":"edit"}
+{"version":3,"changes":[{"offset":552,"length":4,"text":""}],"doc":1,"seq":5,"ms":-328,"op":"edit"}
+{"doc":1,"seq":6,"ms":-320,"op":"save"}
+{"version":4,"changes":[{"offset":551,"length":0,"text":"f"}],"doc":1,"seq":7,"ms":-163,"op":"edit"}
+{"doc":1,"seq":8,"ms":847,"op":"save"}
+{"version":5,"changes":[{"offset":552,"length":0,"text":"f"}],"doc":1,"seq":9,"ms":1415,"op":"edit"}
+{"doc":1,"seq":10,"ms":2426,"op":"save"}
+{"version":6,"changes":[{"offset":552,"length":1,"text":""}],"doc":1,"seq":11,"ms":4367,"op":"edit"}
+{"version":7,"changes":[{"offset":551,"length":1,"text":""}],"doc":1,"seq":12,"ms":4520,"op":"edit"}
+{"version":8,"changes":[{"offset":550,"length":1,"text":""}],"doc":1,"seq":13,"ms":4668,"op":"edit"}
+{"doc":1,"seq":14,"ms":5681,"op":"save"}
+{"source":"workspace","path":"exercises/classExcersize","doc":3,"seq":15,"ms":29591,"op":"fs.create"}
+{"source":"watcher","doc":3,"seq":16,"ms":29750,"op":"fs.create"}
