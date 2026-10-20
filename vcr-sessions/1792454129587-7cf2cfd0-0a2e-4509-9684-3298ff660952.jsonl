@@ -63,3 +63,8 @@
 {"version":2,"changes":[{"offset":374,"length":57,"text":"    \"terminal.integrated.enablePersistentSessions\": false,\n    \"debug.onTaskErrors\": \"showErrors\""}],"doc":4,"seq":62,"ms":1976116,"op":"edit"}
 {"doc":4,"seq":63,"ms":1976122,"op":"save"}
 {"doc":4,"seq":64,"ms":1976123,"op":"close"}
+{"executionId":"1a908667-fe45-433b-8388-a6ef31252c92","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":65,"ms":1983717,"op":"task.start"}
+{"executionId":"1a908667-fe45-433b-8388-a6ef31252c92","processId":-1,"doc":3,"seq":66,"ms":1983717,"op":"task.processStart"}
+{"executionId":"1a908667-fe45-433b-8388-a6ef31252c92","exitCode":-1,"doc":3,"seq":67,"ms":1983945,"op":"task.processEnd"}
+{"executionId":"1a908667-fe45-433b-8388-a6ef31252c92","doc":3,"seq":68,"ms":1983945,"op":"task.end"}
+{"seq":69,"ms":1990523,"op":"end"}
