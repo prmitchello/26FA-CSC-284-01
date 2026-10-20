@@ -1,0 +1,41 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-20T00:36:58.007Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"1dd26a6f-52bc-4994-96bd-82d0ea8a53c2","sourceWindowId":"bfbbcfa9-0780-4501-aa64-a3b34a6d2ba9","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-1739,"op":"source.context"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/.gitkeep\": true,\n        \"**/*.class\": true,\n        \"**/*.dSYM\": true,\n        \"**/*.exe\": true,\n        \"**/vcr-course.json\": true,\n        \"**/vcr-recording.json\": true,\n        \"**/*.out\": true,\n        \"**/.vscode/build\": true\n    },\n    \"files.autoSave\": \"afterDelay\",\n    \"workbench.colorTheme\": \"Light Modern\",\n    \"terminal.integrated.cursorStyle\": \"underline\",\n    \"terminal.integrated.enablePersistentSessions\": false,\n    \"debug.onTaskErrors\": \"showErrors\"\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":1,"seq":2,"ms":-1739,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1739,"op":"snap"}
+{"text":"#include <iostream>\n#include <vector>\n#include <memory>\n#include <utility>\n\n#include \"SpreadSheetCell.h\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n\n    vector<unique_ptr<SpreadSheetCell>> Excel ;\n\n\n    unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();\n\n\n    cell->set(\"34.5\");\n\n    //ereradf\n\n    Excel.push_back(std::move(cell)); //move(cell)\n\n\n    for(const unique_ptr<SpreadSheetCell> & cell : Excel){\n        cout<<cell->getString();\n    }\n\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemonstration.cpp","snapshot":true,"doc":3,"seq":4,"ms":2445,"op":"snap"}
+{"executionId":"77db7b7b-df80-467a-a279-279de9f7ab35","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":4,"seq":5,"ms":5013,"op":"task.start"}
+{"executionId":"77db7b7b-df80-467a-a279-279de9f7ab35","processId":-1,"doc":4,"seq":6,"ms":5033,"op":"task.processStart"}
+{"executionId":"77db7b7b-df80-467a-a279-279de9f7ab35","exitCode":0,"doc":4,"seq":7,"ms":5459,"op":"task.processEnd"}
+{"executionId":"77db7b7b-df80-467a-a279-279de9f7ab35","doc":4,"seq":8,"ms":5460,"op":"task.end"}
+{"executionId":"71781160-0af9-4796-9e0e-0475237c99ae","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":9,"ms":5477,"op":"debug.start"}
+{"executionId":"71781160-0af9-4796-9e0e-0475237c99ae","doc":4,"seq":10,"ms":5958,"op":"debug.end"}
+{"source":"workspace","path":"exercises/module_04/mainDemonstration","doc":5,"seq":11,"ms":12349,"op":"fs.delete"}
+{"source":"watcher","doc":5,"seq":12,"ms":12428,"op":"fs.delete"}
+{"source":"workspace","path":"exercises/module_04/mainDemostration","doc":6,"seq":13,"ms":17452,"op":"fs.delete"}
+{"source":"watcher","doc":6,"seq":14,"ms":17524,"op":"fs.delete"}
+{"executionId":"95d040f6-5385-4f71-96e6-1113d1069bf2","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":15,"ms":31968,"op":"task.start"}
+{"executionId":"95d040f6-5385-4f71-96e6-1113d1069bf2","processId":-1,"doc":4,"seq":16,"ms":31973,"op":"task.processStart"}
+{"executionId":"95d040f6-5385-4f71-96e6-1113d1069bf2","exitCode":0,"doc":4,"seq":17,"ms":32504,"op":"task.processEnd"}
+{"executionId":"95d040f6-5385-4f71-96e6-1113d1069bf2","doc":4,"seq":18,"ms":32504,"op":"task.end"}
+{"executionId":"be93ce9f-3f24-4349-9233-1587efcdfdba","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":19,"ms":32508,"op":"debug.start"}
+{"executionId":"6279f76b-c2b2-40ee-ab54-0baf16a677a1","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration","confidence":2,"path":"exercises/module_04","doc":7,"seq":20,"ms":32539,"op":"terminal.start"}
+{"executionId":"6279f76b-c2b2-40ee-ab54-0baf16a677a1","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","data":"\u001b]633;C\u0007","doc":7,"seq":21,"ms":32591,"op":"terminal.output"}
+{"executionId":"6279f76b-c2b2-40ee-ab54-0baf16a677a1","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","data":"34.500000\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":7,"seq":22,"ms":32759,"op":"terminal.output"}
+{"executionId":"6279f76b-c2b2-40ee-ab54-0baf16a677a1","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration","confidence":2,"exitCode":0,"doc":7,"seq":23,"ms":32760,"op":"terminal.end"}
+{"executionId":"be93ce9f-3f24-4349-9233-1587efcdfdba","doc":4,"seq":24,"ms":32764,"op":"debug.end"}
+{"executionId":"32a95b15-fe0c-4805-9248-ec2014efb9a7","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":25,"ms":41066,"op":"task.start"}
+{"executionId":"32a95b15-fe0c-4805-9248-ec2014efb9a7","processId":-1,"doc":4,"seq":26,"ms":41068,"op":"task.processStart"}
+{"executionId":"32a95b15-fe0c-4805-9248-ec2014efb9a7","exitCode":0,"doc":4,"seq":27,"ms":41431,"op":"task.processEnd"}
+{"executionId":"32a95b15-fe0c-4805-9248-ec2014efb9a7","doc":4,"seq":28,"ms":41432,"op":"task.end"}
+{"executionId":"d9cdf2f5-ba64-47fd-8531-c1f2ac2274ad","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":29,"ms":41435,"op":"debug.start"}
+{"executionId":"018c427a-d311-4cf6-a629-b7850fb0905e","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration","confidence":2,"doc":7,"seq":30,"ms":41467,"op":"terminal.start"}
+{"executionId":"018c427a-d311-4cf6-a629-b7850fb0905e","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","data":"\u001b]633;C\u0007","doc":7,"seq":31,"ms":41519,"op":"terminal.output"}
+{"executionId":"018c427a-d311-4cf6-a629-b7850fb0905e","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","data":"34.500000\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":7,"seq":32,"ms":41683,"op":"terminal.output"}
+{"executionId":"018c427a-d311-4cf6-a629-b7850fb0905e","terminalId":"576eaad3-2d57-4c30-b556-a507da2ac804","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration","confidence":2,"exitCode":0,"doc":7,"seq":33,"ms":41683,"op":"terminal.end"}
+{"executionId":"d9cdf2f5-ba64-47fd-8531-c1f2ac2274ad","doc":4,"seq":34,"ms":41684,"op":"debug.end"}
+{"executionId":"9ea96d80-3fda-477a-aa66-5343976283fe","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":35,"ms":47712,"op":"task.start"}
+{"executionId":"9ea96d80-3fda-477a-aa66-5343976283fe","processId":-1,"doc":4,"seq":36,"ms":47714,"op":"task.processStart"}
+{"executionId":"9ea96d80-3fda-477a-aa66-5343976283fe","exitCode":0,"doc":4,"seq":37,"ms":48076,"op":"task.processEnd"}
+{"executionId":"9ea96d80-3fda-477a-aa66-5343976283fe","doc":4,"seq":38,"ms":48077,"op":"task.end"}
+{"executionId":"b5695349-3493-4251-8622-8699073cad47","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":false,"doc":4,"seq":39,"ms":48485,"op":"debug.start"}
+{"executionId":"b5695349-3493-4251-8622-8699073cad47","doc":4,"seq":40,"ms":50508,"op":"debug.end"}
