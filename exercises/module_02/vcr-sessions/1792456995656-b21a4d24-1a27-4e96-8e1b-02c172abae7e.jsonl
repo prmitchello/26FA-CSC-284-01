@@ -4,3 +4,4 @@
 {"source":"watcher","doc":1,"seq":3,"ms":73,"op":"fs.delete"}
 {"source":"workspace","path":"employee/run","doc":2,"seq":4,"ms":29407,"op":"fs.delete"}
 {"source":"watcher","doc":2,"seq":5,"ms":29558,"op":"fs.delete"}
+{"seq":6,"ms":183944,"op":"end"}

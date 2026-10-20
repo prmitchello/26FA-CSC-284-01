@@ -2,3 +2,4 @@
 {"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-1,"op":"source.context"}
 {"source":"workspace","path":"Student/student","doc":1,"seq":2,"ms":-1,"op":"fs.delete"}
 {"source":"watcher","doc":1,"seq":3,"ms":72,"op":"fs.delete"}
+{"seq":4,"ms":194576,"op":"end"}

@@ -3,3 +3,4 @@
 {"source":"workspace","path":"welcome","doc":1,"seq":2,"ms":-1,"op":"fs.delete"}
 {"source":"watcher","doc":1,"seq":3,"ms":80,"op":"fs.delete"}
 {"text":"#include <iostream>\n\nusing namespace std;\n\nint main() {\n    cout << \"Hello, welcome to CSC-284-01!\" << endl;\n    return 0;\n}","version":1,"path":"welcome.cpp","snapshot":true,"doc":2,"seq":4,"ms":1194,"op":"snap"}
+{"seq":5,"ms":148561,"op":"end"}
