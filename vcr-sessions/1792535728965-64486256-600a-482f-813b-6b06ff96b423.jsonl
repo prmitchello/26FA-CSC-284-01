@@ -16,3 +16,4 @@
 {"executionId":"0983f3bd-8a31-4189-ab3c-823893c9dfa8","terminalId":"541ef664-4637-4c3e-87f8-41e81300689c","commandLine":"git add .","confidence":2,"doc":3,"seq":15,"ms":175052,"op":"terminal.start"}
 {"executionId":"0983f3bd-8a31-4189-ab3c-823893c9dfa8","terminalId":"541ef664-4637-4c3e-87f8-41e81300689c","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                          \r \r","doc":3,"seq":16,"ms":175083,"op":"terminal.output"}
 {"executionId":"0983f3bd-8a31-4189-ab3c-823893c9dfa8","terminalId":"541ef664-4637-4c3e-87f8-41e81300689c","commandLine":"git add .","confidence":2,"exitCode":0,"doc":3,"seq":17,"ms":175083,"op":"terminal.end"}
+{"doc":2,"seq":18,"ms":178056,"op":"close"}
