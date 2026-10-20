@@ -1,0 +1,18 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-20T00:40:23.902Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"76038d8e-8184-4aff-9ec5-ba5c30e4bbd0","sourceWindowId":"2b8dcfd4-4557-4fc6-a92c-44a7449cf36d","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-2154,"op":"source.context"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\nint main()\n{\n\n    int fizz = 3, buzz = 5;\n\n    for (int i = 1; i < 47; i++)\n    {\n\n        if (i % fizz == 0 && i % buzz == 0)\n        {\n            cout << \"fizz_Buzz\" << endl;\n        }\n\n        else if (i % fizz == 0)\n        {\n            cout << \"Fizz\" << endl;\n        }\n        else if (i % buzz == 0)\n        {\n            cout << \"Buzz\" << endl;\n        }\n        else\n        {\n            cout << i << endl;\n        }\n    }\n\n    return 0;\n}\n","version":1,"path":"exercises/week2_module2/fizz-buzz.cpp","snapshot":true,"doc":1,"seq":2,"ms":-2154,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-2154,"op":"snap"}
+{"executionId":"79a39a41-5b69-4e32-bb03-5101fa8c120f","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":3,"seq":4,"ms":6696,"op":"task.start"}
+{"executionId":"79a39a41-5b69-4e32-bb03-5101fa8c120f","processId":-1,"doc":3,"seq":5,"ms":6715,"op":"task.processStart"}
+{"executionId":"79a39a41-5b69-4e32-bb03-5101fa8c120f","exitCode":0,"doc":3,"seq":6,"ms":7025,"op":"task.processEnd"}
+{"executionId":"79a39a41-5b69-4e32-bb03-5101fa8c120f","doc":3,"seq":7,"ms":7025,"op":"task.end"}
+{"executionId":"6dbcfb95-8437-4e32-8fe5-92e6d7c3fd11","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":8,"ms":7040,"op":"debug.start"}
+{"executionId":"6dbcfb95-8437-4e32-8fe5-92e6d7c3fd11","doc":3,"seq":9,"ms":7388,"op":"debug.end"}
+{"source":"workspace","path":"exercises/Week1_Module_1/practice","doc":4,"seq":10,"ms":43352,"op":"fs.delete"}
+{"source":"watcher","doc":4,"seq":11,"ms":43492,"op":"fs.delete"}
+{"text":"#include <iostream>\n#include <string>\n\nnamespace MyCode\n{\n    void sayHello(std::string name)\n    {\n        std::cout << \"Hello \" << name << std::endl;\n    }\n}\n\nint main()\n{\n    MyCode::sayHello(\"Universe\");\n}\n","version":1,"path":"exercises/Week1_Module_1/practice.cpp","snapshot":true,"doc":5,"seq":12,"ms":46700,"op":"snap"}
+{"executionId":"6e42e599-97a0-4a16-96a0-3bf75e053288","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":13,"ms":51455,"op":"task.start"}
+{"executionId":"6e42e599-97a0-4a16-96a0-3bf75e053288","processId":-1,"doc":3,"seq":14,"ms":51457,"op":"task.processStart"}
+{"executionId":"6e42e599-97a0-4a16-96a0-3bf75e053288","exitCode":0,"doc":3,"seq":15,"ms":51752,"op":"task.processEnd"}
+{"executionId":"6e42e599-97a0-4a16-96a0-3bf75e053288","doc":3,"seq":16,"ms":51753,"op":"task.end"}
+{"executionId":"f654ab44-f520-4b47-9e24-27e7b0b6e46c","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":17,"ms":51778,"op":"debug.start"}
