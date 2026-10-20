@@ -1,7 +1,18 @@
 {
     "files.exclude": {
-        "**/vcr-course.json": true,
         "**/.gitkeep": true,
-        "**/vcr-recording.json": true
-    }
+        "**/*.class": true,
+        "**/*.dSYM": true,
+        "**/*.exe": true,
+        "**/vcr-course.json": true,
+        "**/vcr-recording.json": true,
+        "**/*.out": true,
+        "**/.vscode/build": true
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Light Modern",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.enablePersistentSessions": false,
+    "debug.onTaskErrors": "showErrors",
+    "debug.terminal.clearBeforeReusing": true
 }

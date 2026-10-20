@@ -1,6 +1,6 @@
 #include <iostream>
 #include <optional>
-#include "SpreadSheetCell.cpp"
+#include "SpreadSheetCell.h"
 
 
 using namespace std;
@@ -15,7 +15,7 @@ class StringSpreadsheet : public SpreadSheetCell
         data = value;
     }
     string getString() const override{
-        return data.value();
+        return data.value_or("");
     }
 
 };

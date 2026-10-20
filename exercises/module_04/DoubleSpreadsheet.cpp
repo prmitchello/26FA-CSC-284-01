@@ -14,14 +14,14 @@ class DoubleSpreadsheet : public SpreadSheetCell
     optional<double> data;
 
     public:
-     DoubleSpreadsheet( ){
-        data = 0;
-    }
+    //  DoubleSpreadsheet( ){
+    //     data = 0;
+    // }
 
-    DoubleSpreadsheet(string_view value){
+    // DoubleSpreadsheet(string_view value){
 
-        data = stringToDouble(value);
-    }
+    //     data = stringToDouble(value);
+    // }
 
     void set(std::string_view value) override{
         data = stringToDouble(value);
