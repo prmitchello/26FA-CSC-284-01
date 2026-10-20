@@ -22,3 +22,17 @@
 {"executionId":"5f80e8ae-7c60-41b7-bb02-da4251dd9495","doc":3,"seq":21,"ms":55385,"op":"task.end"}
 {"executionId":"2b62945b-6fb0-4fd0-b206-b33ad76edbd7","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":22,"ms":55408,"op":"debug.start"}
 {"executionId":"2b62945b-6fb0-4fd0-b206-b33ad76edbd7","doc":3,"seq":23,"ms":55839,"op":"debug.end"}
+{"version":3,"changes":[{"offset":406,"length":1,"text":""}],"doc":1,"seq":24,"ms":58919,"op":"edit"}
+{"doc":1,"seq":25,"ms":59930,"op":"save"}
+{"version":4,"changes":[{"offset":406,"length":0,"text":"e"}],"doc":1,"seq":26,"ms":62287,"op":"edit"}
+{"doc":1,"seq":27,"ms":63302,"op":"save"}
+{"executionId":"359c3182-2c00-4ffc-a850-24f09a957409","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":28,"ms":75744,"op":"task.start"}
+{"executionId":"359c3182-2c00-4ffc-a850-24f09a957409","processId":-1,"doc":3,"seq":29,"ms":75758,"op":"task.processStart"}
+{"executionId":"359c3182-2c00-4ffc-a850-24f09a957409","exitCode":0,"doc":3,"seq":30,"ms":76121,"op":"task.processEnd"}
+{"executionId":"359c3182-2c00-4ffc-a850-24f09a957409","doc":3,"seq":31,"ms":76122,"op":"task.end"}
+{"executionId":"c81d7902-2161-43d1-a466-0991ea8e30f0","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":32,"ms":76124,"op":"debug.start"}
+{"executionId":"b30fdef0-db65-45d0-9619-6aeb1df3502b","terminalId":"a8c27821-ff83-44ee-b240-0438c4fe5f28","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration","confidence":2,"path":"exercises/module_04","doc":4,"seq":33,"ms":76160,"op":"terminal.start"}
+{"executionId":"b30fdef0-db65-45d0-9619-6aeb1df3502b","terminalId":"a8c27821-ff83-44ee-b240-0438c4fe5f28","data":"\u001b]633;C\u0007","doc":4,"seq":34,"ms":76211,"op":"terminal.output"}
+{"executionId":"b30fdef0-db65-45d0-9619-6aeb1df3502b","terminalId":"a8c27821-ff83-44ee-b240-0438c4fe5f28","data":"34.500000\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":4,"seq":35,"ms":76413,"op":"terminal.output"}
+{"executionId":"b30fdef0-db65-45d0-9619-6aeb1df3502b","terminalId":"a8c27821-ff83-44ee-b240-0438c4fe5f28","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration","confidence":2,"exitCode":0,"doc":4,"seq":36,"ms":76413,"op":"terminal.end"}
+{"executionId":"c81d7902-2161-43d1-a466-0991ea8e30f0","doc":3,"seq":37,"ms":76414,"op":"debug.end"}
