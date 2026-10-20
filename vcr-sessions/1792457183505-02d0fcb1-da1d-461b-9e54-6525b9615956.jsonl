@@ -79,3 +79,6 @@
 {"executionId":"31906ef1-3a10-4ad7-b7cc-b406f7fe0e09","processId":-1,"doc":3,"seq":78,"ms":344546,"op":"task.processStart"}
 {"executionId":"31906ef1-3a10-4ad7-b7cc-b406f7fe0e09","exitCode":-1,"doc":3,"seq":79,"ms":344640,"op":"task.processEnd"}
 {"executionId":"31906ef1-3a10-4ad7-b7cc-b406f7fe0e09","doc":3,"seq":80,"ms":344641,"op":"task.end"}
+{"doc":4,"seq":81,"ms":518183,"op":"close"}
+{"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.h\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : public SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value_or(\"\");\n    }\n\n};\n","version":1,"path":"exercises/module_04/StringSpreadsheet.cpp","snapshot":true,"doc":7,"seq":82,"ms":518197,"op":"snap"}
+{"source":"workspace","operationId":"6fe439ba-763a-41c9-8a33-1b12c314af76","doc":4,"seq":83,"ms":518198,"op":"fs.moveFrom"}
