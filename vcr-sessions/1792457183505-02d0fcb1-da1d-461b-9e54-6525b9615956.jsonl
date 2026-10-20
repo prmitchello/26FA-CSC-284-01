@@ -1,0 +1,26 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-20T00:46:23.505Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"3df1bdeb-4336-47aa-bea0-1f06348f2879","sourceWindowId":"2dde7e74-6c09-4584-bfbe-1634061b511c","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-2317,"op":"source.context"}
+{"text":"#include <iostream>\n#include <vector>\n#include <memory>\n#include <utility>\n\n#include \"SpreadSheetCell.h\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n\n    vector<unique_ptr<SpreadSheetCell>> Excel ;\n\n\n    unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();\n\n\n    cell->set(\"34.5\");\n\n    //ereradf\n\n    Excel.push_back(std::move(cell)); //move(cell)\n\n\n    for(const unique_ptr<SpreadSheetCell> & cell : Excel){\n        cout<<cell->getString();\n    }\n\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemonstration.cpp","snapshot":true,"doc":1,"seq":2,"ms":-2317,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-2317,"op":"snap"}
+{"executionId":"8700db15-2e9c-49b8-8993-9aadc7a6fff9","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":3,"seq":4,"ms":5501,"op":"task.start"}
+{"executionId":"8700db15-2e9c-49b8-8993-9aadc7a6fff9","processId":-1,"doc":3,"seq":5,"ms":5521,"op":"task.processStart"}
+{"executionId":"8700db15-2e9c-49b8-8993-9aadc7a6fff9","exitCode":0,"doc":3,"seq":6,"ms":5945,"op":"task.processEnd"}
+{"executionId":"8700db15-2e9c-49b8-8993-9aadc7a6fff9","doc":3,"seq":7,"ms":5946,"op":"task.end"}
+{"executionId":"2e2bbe81-78c5-4ff7-b2aa-b28c69f8d83d","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":8,"ms":5962,"op":"debug.start"}
+{"executionId":"2e2bbe81-78c5-4ff7-b2aa-b28c69f8d83d","doc":3,"seq":9,"ms":6349,"op":"debug.end"}
+{"version":2,"changes":[{"offset":333,"length":0,"text":"\n    "}],"doc":1,"seq":10,"ms":37840,"op":"edit"}
+{"version":3,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":338,"length":0,"text":"unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();"}],"doc":1,"seq":11,"ms":38556,"op":"edit"}
+{"doc":1,"seq":12,"ms":39576,"op":"save"}
+{"version":4,"changes":[{"offset":370,"length":0,"text":"1"}],"doc":1,"seq":13,"ms":40453,"op":"edit"}
+{"doc":1,"seq":14,"ms":41466,"op":"save"}
+{"version":5,"changes":[{"offset":407,"length":0,"text":"\n    "}],"doc":1,"seq":15,"ms":42249,"op":"edit"}
+{"version":6,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":412,"length":0,"text":"unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();"}],"doc":1,"seq":16,"ms":42599,"op":"edit"}
+{"doc":1,"seq":17,"ms":43617,"op":"save"}
+{"version":7,"changes":[{"offset":444,"length":0,"text":"2"}],"doc":1,"seq":18,"ms":44170,"op":"edit"}
+{"doc":1,"seq":19,"ms":45194,"op":"save"}
+{"version":8,"changes":[{"offset":506,"length":0,"text":"\n    "}],"doc":1,"seq":20,"ms":51354,"op":"edit"}
+{"version":9,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":511,"length":0,"text":"cell->set(\"34.5\");"}],"doc":1,"seq":21,"ms":51679,"op":"edit"}
+{"version":10,"changes":[{"offset":529,"length":0,"text":"\n    "}],"doc":1,"seq":22,"ms":52158,"op":"edit"}
+{"version":11,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":534,"length":0,"text":"cell->set(\"34.5\");"}],"doc":1,"seq":23,"ms":52540,"op":"edit"}
+{"doc":1,"seq":24,"ms":53554,"op":"save"}
+{"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.h\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : public SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value();\n    }\n\n};\n","version":1,"path":"exercises/module_04/StringSpreadsheet..cpp","snapshot":true,"doc":4,"seq":25,"ms":56854,"op":"snap"}
