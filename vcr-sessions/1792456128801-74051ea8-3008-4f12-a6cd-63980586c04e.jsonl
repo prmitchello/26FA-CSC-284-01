@@ -1,0 +1,24 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-10-20T00:28:48.801Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"71218c3e-b4d2-4bc3-ad85-f0d2258944e4","sourceWindowId":"70be6729-c935-447a-a521-fbd3699dd6c1","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-1729,"op":"source.context"}
+{"text":"#include <iostream>\n#include <vector>\n#include <memory>\n#include <utility>\n\n#include \"SpreadSheetCell.h\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n\n    vector<unique_ptr<SpreadSheetCell>> Excel ;\n\n\n    unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();\n\n\n    cell->set(\"34.5\");\n\n    //ereradf\n\n    Excel.push_back(std::move(cll)); //move(cell)\n\n\n    for(const unique_ptr<SpreadSheetCell> & cell : Excel){\n        cout<<cell->getString();\n    }\n\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemonstration.cpp","snapshot":true,"doc":1,"seq":2,"ms":-1729,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-1729,"op":"snap"}
+{"executionId":"378d2786-b588-4eb7-a2f0-6ca18678c9f7","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":3,"seq":4,"ms":9053,"op":"task.start"}
+{"executionId":"378d2786-b588-4eb7-a2f0-6ca18678c9f7","processId":-1,"doc":3,"seq":5,"ms":9072,"op":"task.processStart"}
+{"executionId":"378d2786-b588-4eb7-a2f0-6ca18678c9f7","exitCode":-1,"doc":3,"seq":6,"ms":9354,"op":"task.processEnd"}
+{"executionId":"378d2786-b588-4eb7-a2f0-6ca18678c9f7","doc":3,"seq":7,"ms":9355,"op":"task.end"}
+{"executionId":"151fb3a9-5479-48d1-b280-ba6b9bbb203b","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":8,"ms":12252,"op":"task.start"}
+{"executionId":"151fb3a9-5479-48d1-b280-ba6b9bbb203b","processId":-1,"doc":3,"seq":9,"ms":12257,"op":"task.processStart"}
+{"executionId":"151fb3a9-5479-48d1-b280-ba6b9bbb203b","exitCode":-1,"doc":3,"seq":10,"ms":12472,"op":"task.processEnd"}
+{"executionId":"151fb3a9-5479-48d1-b280-ba6b9bbb203b","doc":3,"seq":11,"ms":12472,"op":"task.end"}
+{"executionId":"c9510adc-74f6-475c-a158-f6552efa398f","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":12,"ms":32451,"op":"task.start"}
+{"executionId":"c9510adc-74f6-475c-a158-f6552efa398f","processId":-1,"doc":3,"seq":13,"ms":32469,"op":"task.processStart"}
+{"executionId":"c9510adc-74f6-475c-a158-f6552efa398f","exitCode":-1,"doc":3,"seq":14,"ms":32692,"op":"task.processEnd"}
+{"executionId":"c9510adc-74f6-475c-a158-f6552efa398f","doc":3,"seq":15,"ms":32692,"op":"task.end"}
+{"version":2,"changes":[{"offset":406,"length":0,"text":"e"}],"doc":1,"seq":16,"ms":49226,"op":"edit"}
+{"doc":1,"seq":17,"ms":50244,"op":"save"}
+{"executionId":"5f80e8ae-7c60-41b7-bb02-da4251dd9495","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":18,"ms":54978,"op":"task.start"}
+{"executionId":"5f80e8ae-7c60-41b7-bb02-da4251dd9495","processId":-1,"doc":3,"seq":19,"ms":54979,"op":"task.processStart"}
+{"executionId":"5f80e8ae-7c60-41b7-bb02-da4251dd9495","exitCode":0,"doc":3,"seq":20,"ms":55384,"op":"task.processEnd"}
+{"executionId":"5f80e8ae-7c60-41b7-bb02-da4251dd9495","doc":3,"seq":21,"ms":55385,"op":"task.end"}
+{"executionId":"2b62945b-6fb0-4fd0-b206-b33ad76edbd7","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":22,"ms":55408,"op":"debug.start"}
+{"executionId":"2b62945b-6fb0-4fd0-b206-b33ad76edbd7","doc":3,"seq":23,"ms":55839,"op":"debug.end"}
