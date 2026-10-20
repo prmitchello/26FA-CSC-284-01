@@ -29,3 +29,5 @@
 {"doc":5,"seq":28,"ms":85951,"op":"save"}
 {"version":3,"changes":[{"offset":366,"length":0,"text":"// "},{"offset":328,"length":0,"text":"// "},{"offset":285,"length":0,"text":"// "}],"doc":5,"seq":29,"ms":109127,"op":"edit"}
 {"doc":5,"seq":30,"ms":110142,"op":"save"}
+{"text":"\n    #pragma once\n\n    #include <iostream>\n    #include <string>\n    #include <string_view>\n\n    using namespace std;\n\n    class SpreadSheetCell {\n\n        public:\n        virtual ~SpreadSheetCell() = default;\n        virtual void set( string_view value )=0;\n        virtual string getString() const =0;\n\n    };\n","version":1,"path":"exercises/module_04/SpreadSheetCell.h","snapshot":true,"doc":6,"seq":31,"ms":137431,"op":"snap"}
+{"doc":2,"seq":32,"ms":177433,"op":"close"}
