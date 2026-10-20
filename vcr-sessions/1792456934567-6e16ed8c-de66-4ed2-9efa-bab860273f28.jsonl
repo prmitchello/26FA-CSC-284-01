@@ -32,3 +32,10 @@
 {"executionId":"c673b6d0-ed46-4715-be64-34e60924a491","doc":4,"seq":31,"ms":24405,"op":"debug.end"}
 {"source":"workspace","path":"exercises/Week3_module3/vritualClass","doc":6,"seq":32,"ms":41272,"op":"fs.delete"}
 {"source":"watcher","doc":6,"seq":33,"ms":41418,"op":"fs.delete"}
+{"doc":3,"seq":34,"ms":76128,"op":"close"}
+{"text":"#include <iostream>\n#include <vector>\n#include <memory>\n#include <utility>\n\n#include \"SpreadSheetCell.h\"\n#include \"DoubleSpreadsheet.cpp\"\n\n//#include \"StringSpreadsheet.cpp\"\n\nusing namespace std;\n\n\nint main(){\n\n    vector<unique_ptr<SpreadSheetCell>> Excel ;\n\n\n    unique_ptr<SpreadSheetCell> cell = make_unique<DoubleSpreadsheet>();\n\n\n    cell->set(\"34.5\");\n\n    //ereradf\n\n    Excel.push_back(std::move(cell)); //move(cell)\n\n\n    for(const unique_ptr<SpreadSheetCell> & cell : Excel){\n        cout<<cell->getString();\n    }\n\n\n    return 0;\n}\n","version":1,"path":"exercises/module_04/mainDemonstration.cpp","snapshot":true,"doc":7,"seq":35,"ms":76142,"op":"snap"}
+{"executionId":"95e16019-d20e-43da-9718-1b3758d1acdb","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":36,"ms":100521,"op":"task.start"}
+{"executionId":"95e16019-d20e-43da-9718-1b3758d1acdb","processId":-1,"doc":4,"seq":37,"ms":100523,"op":"task.processStart"}
+{"executionId":"95e16019-d20e-43da-9718-1b3758d1acdb","exitCode":0,"doc":4,"seq":38,"ms":100773,"op":"task.processEnd"}
+{"executionId":"95e16019-d20e-43da-9718-1b3758d1acdb","doc":4,"seq":39,"ms":100774,"op":"task.end"}
+{"executionId":"456873ae-5910-4a40-8058-4a959b3d6405","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":40,"ms":100780,"op":"debug.start"}

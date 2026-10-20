@@ -1,0 +1,5 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/module_01","startedAt":"2026-10-20T00:43:51.039Z","attemptId":"a8bf5ed8-f156-4f79-a773-2fecb8740253","segmentId":"7a0f546b-c1d3-490e-ab70-554ed3b6bbe8","sourceWindowId":"e09a988e-6f60-457b-90c3-3d3e46062ea6","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-1,"op":"source.context"}
+{"source":"workspace","path":"welcome","doc":1,"seq":2,"ms":-1,"op":"fs.delete"}
+{"source":"watcher","doc":1,"seq":3,"ms":80,"op":"fs.delete"}
+{"text":"#include <iostream>\n\nusing namespace std;\n\nint main() {\n    cout << \"Hello, welcome to CSC-284-01!\" << endl;\n    return 0;\n}","version":1,"path":"welcome.cpp","snapshot":true,"doc":2,"seq":4,"ms":1194,"op":"snap"}

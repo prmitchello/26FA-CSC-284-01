@@ -1,0 +1,6 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/module_02","startedAt":"2026-10-20T00:43:15.656Z","attemptId":"e06f00a3-e7bb-447c-a212-c03017adfe4e","segmentId":"f0942285-5aad-49b8-a25d-c4dfb7e681f5","sourceWindowId":"e09a988e-6f60-457b-90c3-3d3e46062ea6","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"4073c03772331819d09f42138038aa8e7c119c7e","seq":1,"ms":-2,"op":"source.context"}
+{"source":"workspace","path":"employee/Employee","doc":1,"seq":2,"ms":-2,"op":"fs.delete"}
+{"source":"watcher","doc":1,"seq":3,"ms":73,"op":"fs.delete"}
+{"source":"workspace","path":"employee/run","doc":2,"seq":4,"ms":29407,"op":"fs.delete"}
+{"source":"watcher","doc":2,"seq":5,"ms":29558,"op":"fs.delete"}
