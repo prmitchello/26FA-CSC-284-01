@@ -82,3 +82,4 @@
 {"doc":4,"seq":81,"ms":518183,"op":"close"}
 {"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.h\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : public SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value_or(\"\");\n    }\n\n};\n","version":1,"path":"exercises/module_04/StringSpreadsheet.cpp","snapshot":true,"doc":7,"seq":82,"ms":518197,"op":"snap"}
 {"source":"workspace","operationId":"6fe439ba-763a-41c9-8a33-1b12c314af76","doc":4,"seq":83,"ms":518198,"op":"fs.moveFrom"}
+{"seq":84,"ms":1388155,"op":"end"}
