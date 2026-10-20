@@ -16,3 +16,4 @@
 {"executionId":"6e42e599-97a0-4a16-96a0-3bf75e053288","exitCode":0,"doc":3,"seq":15,"ms":51752,"op":"task.processEnd"}
 {"executionId":"6e42e599-97a0-4a16-96a0-3bf75e053288","doc":3,"seq":16,"ms":51753,"op":"task.end"}
 {"executionId":"f654ab44-f520-4b47-9e24-27e7b0b6e46c","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":3,"seq":17,"ms":51778,"op":"debug.start"}
+{"seq":18,"ms":97001,"op":"end"}
