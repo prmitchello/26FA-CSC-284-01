@@ -36,3 +36,4 @@
 {"executionId":"b30fdef0-db65-45d0-9619-6aeb1df3502b","terminalId":"a8c27821-ff83-44ee-b240-0438c4fe5f28","data":"34.500000\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":4,"seq":35,"ms":76413,"op":"terminal.output"}
 {"executionId":"b30fdef0-db65-45d0-9619-6aeb1df3502b","terminalId":"a8c27821-ff83-44ee-b240-0438c4fe5f28","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_04/mainDemonstration","confidence":2,"exitCode":0,"doc":4,"seq":36,"ms":76413,"op":"terminal.end"}
 {"executionId":"c81d7902-2161-43d1-a466-0991ea8e30f0","doc":3,"seq":37,"ms":76414,"op":"debug.end"}
+{"doc":2,"seq":38,"ms":178065,"op":"close"}
