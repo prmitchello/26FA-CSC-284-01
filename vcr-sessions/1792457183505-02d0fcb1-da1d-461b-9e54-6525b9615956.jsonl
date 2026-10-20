@@ -31,3 +31,21 @@
 {"doc":5,"seq":30,"ms":110142,"op":"save"}
 {"text":"\n    #pragma once\n\n    #include <iostream>\n    #include <string>\n    #include <string_view>\n\n    using namespace std;\n\n    class SpreadSheetCell {\n\n        public:\n        virtual ~SpreadSheetCell() = default;\n        virtual void set( string_view value )=0;\n        virtual string getString() const =0;\n\n    };\n","version":1,"path":"exercises/module_04/SpreadSheetCell.h","snapshot":true,"doc":6,"seq":31,"ms":137431,"op":"snap"}
 {"doc":2,"seq":32,"ms":177433,"op":"close"}
+{"version":2,"changes":[{"offset":332,"length":0,"text":"_"}],"doc":4,"seq":33,"ms":186265,"op":"edit"}
+{"doc":4,"seq":34,"ms":187287,"op":"save"}
+{"version":3,"changes":[{"offset":333,"length":0,"text":"o"}],"doc":4,"seq":35,"ms":189516,"op":"edit"}
+{"version":4,"changes":[{"offset":334,"length":0,"text":"r"}],"doc":4,"seq":36,"ms":189640,"op":"edit"}
+{"doc":4,"seq":37,"ms":190652,"op":"save"}
+{"version":5,"changes":[{"offset":336,"length":0,"text":"\"\""}],"doc":4,"seq":38,"ms":190763,"op":"edit"}
+{"doc":4,"seq":39,"ms":191785,"op":"save"}
+{"version":12,"changes":[{"offset":538,"length":0,"text":"2"}],"doc":1,"seq":40,"ms":227098,"op":"edit"}
+{"doc":1,"seq":41,"ms":228107,"op":"save"}
+{"version":13,"changes":[{"offset":515,"length":0,"text":"1"}],"doc":1,"seq":42,"ms":228750,"op":"edit"}
+{"doc":1,"seq":43,"ms":229759,"op":"save"}
+{"version":14,"changes":[{"offset":386,"length":7,"text":"S"}],"doc":1,"seq":44,"ms":235601,"op":"edit"}
+{"version":15,"changes":[{"offset":387,"length":0,"text":"t"}],"doc":1,"seq":45,"ms":235976,"op":"edit"}
+{"version":16,"changes":[{"offset":388,"length":0,"text":"r"}],"doc":1,"seq":46,"ms":236061,"op":"edit"}
+{"version":17,"changes":[{"offset":389,"length":0,"text":"i"}],"doc":1,"seq":47,"ms":236178,"op":"edit"}
+{"version":18,"changes":[{"offset":390,"length":0,"text":"n"}],"doc":1,"seq":48,"ms":236311,"op":"edit"}
+{"version":19,"changes":[{"offset":391,"length":0,"text":"g"}],"doc":1,"seq":49,"ms":236364,"op":"edit"}
+{"doc":1,"seq":50,"ms":237382,"op":"save"}
