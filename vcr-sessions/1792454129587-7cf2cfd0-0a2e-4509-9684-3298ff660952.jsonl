@@ -59,3 +59,7 @@
 {"executionId":"dd949bfd-3462-4397-97da-7f21e0de11a2","processId":-1,"doc":3,"seq":58,"ms":1792615,"op":"task.processStart"}
 {"executionId":"dd949bfd-3462-4397-97da-7f21e0de11a2","exitCode":-1,"doc":3,"seq":59,"ms":1792836,"op":"task.processEnd"}
 {"executionId":"dd949bfd-3462-4397-97da-7f21e0de11a2","doc":3,"seq":60,"ms":1792837,"op":"task.end"}
+{"text":"{\n    \"files.exclude\": {\n        \"**/.gitkeep\": true,\n        \"**/*.class\": true,\n        \"**/*.dSYM\": true,\n        \"**/*.exe\": true,\n        \"**/vcr-course.json\": true,\n        \"**/vcr-recording.json\": true,\n        \"**/*.out\": true\n    },\n    \"files.autoSave\": \"afterDelay\",\n    \"workbench.colorTheme\": \"Light Modern\",\n    \"terminal.integrated.cursorStyle\": \"underline\",\n    \"terminal.integrated.enablePersistentSessions\": false\n}\n","version":1,"snapshot":true,"doc":4,"seq":61,"ms":1976115,"op":"snap"}
+{"version":2,"changes":[{"offset":374,"length":57,"text":"    \"terminal.integrated.enablePersistentSessions\": false,\n    \"debug.onTaskErrors\": \"showErrors\""}],"doc":4,"seq":62,"ms":1976116,"op":"edit"}
+{"doc":4,"seq":63,"ms":1976122,"op":"save"}
+{"doc":4,"seq":64,"ms":1976123,"op":"close"}
