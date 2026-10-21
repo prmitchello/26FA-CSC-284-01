@@ -95,3 +95,32 @@
 {"doc":3,"seq":94,"ms":594230,"op":"save"}
 {"version":21,"changes":[{"offset":490,"length":0,"text":")"}],"doc":3,"seq":95,"ms":596429,"op":"edit"}
 {"doc":3,"seq":96,"ms":597449,"op":"save"}
+{"version":22,"changes":[{"offset":450,"length":1,"text":""}],"doc":3,"seq":97,"ms":600487,"op":"edit"}
+{"version":23,"changes":[{"offset":451,"length":0,"text":"r"}],"doc":3,"seq":98,"ms":601310,"op":"edit"}
+{"doc":3,"seq":99,"ms":602324,"op":"save"}
+{"version":24,"changes":[{"offset":449,"length":0,"text":"s"}],"doc":3,"seq":100,"ms":618027,"op":"edit"}
+{"version":25,"changes":[{"offset":450,"length":0,"text":"t"}],"doc":3,"seq":101,"ms":618263,"op":"edit"}
+{"version":26,"changes":[{"offset":451,"length":0,"text":"d"}],"doc":3,"seq":102,"ms":618510,"op":"edit"}
+{"version":27,"changes":[{"offset":452,"length":0,"text":":"}],"doc":3,"seq":103,"ms":618911,"op":"edit"}
+{"version":28,"changes":[{"offset":453,"length":0,"text":":"}],"doc":3,"seq":104,"ms":619080,"op":"edit"}
+{"doc":3,"seq":105,"ms":620095,"op":"save"}
+{"version":29,"changes":[{"offset":461,"length":0,"text":"\""}],"doc":3,"seq":106,"ms":626654,"op":"edit"}
+{"version":30,"changes":[{"offset":462,"length":0,"text":"\""}],"doc":3,"seq":107,"ms":627657,"op":"edit"}
+{"doc":3,"seq":108,"ms":628673,"op":"save"}
+{"version":31,"changes":[{"offset":463,"length":0,"text":","}],"doc":3,"seq":109,"ms":628691,"op":"edit"}
+{"doc":3,"seq":110,"ms":629696,"op":"save"}
+{"version":32,"changes":[{"offset":462,"length":0,"text":"{}"}],"doc":3,"seq":111,"ms":630232,"op":"edit"}
+{"doc":3,"seq":112,"ms":631247,"op":"save"}
+{"version":33,"changes":[{"offset":463,"length":0,"text":"%"}],"doc":3,"seq":113,"ms":633689,"op":"edit"}
+{"version":34,"changes":[{"offset":464,"length":0,"text":"2"}],"doc":3,"seq":114,"ms":633959,"op":"edit"}
+{"doc":3,"seq":115,"ms":634971,"op":"save"}
+{"version":35,"changes":[{"offset":465,"length":0,"text":"."}],"doc":3,"seq":116,"ms":635788,"op":"edit"}
+{"version":36,"changes":[{"offset":466,"length":0,"text":"f"}],"doc":3,"seq":117,"ms":635870,"op":"edit"}
+{"doc":3,"seq":118,"ms":636888,"op":"save"}
+{"version":37,"changes":[{"offset":463,"length":0,"text":":"}],"doc":3,"seq":119,"ms":642619,"op":"edit"}
+{"doc":3,"seq":120,"ms":643632,"op":"save"}
+{"executionId":"18c47d75-d244-49f9-ace5-33ebba5314ce","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":121,"ms":648533,"op":"task.start"}
+{"executionId":"18c47d75-d244-49f9-ace5-33ebba5314ce","processId":-1,"doc":4,"seq":122,"ms":648536,"op":"task.processStart"}
+{"executionId":"18c47d75-d244-49f9-ace5-33ebba5314ce","exitCode":-1,"doc":4,"seq":123,"ms":648992,"op":"task.processEnd"}
+{"executionId":"18c47d75-d244-49f9-ace5-33ebba5314ce","doc":4,"seq":124,"ms":648993,"op":"task.end"}
+{"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.h\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : public SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value_or(\"\");\n    }\n\n};\n","version":1,"path":"assignments/assignment_02/StringSpreadsheet.h","snapshot":true,"doc":6,"seq":125,"ms":652233,"op":"snap"}
