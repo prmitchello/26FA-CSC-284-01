@@ -148,3 +148,32 @@
 {"executionId":"086893e7-b79f-4feb-a028-71ac48444deb","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","data":"In file included from \u001b[01m\u001b[KmainDemonstration.cpp:7\u001b[m\u001b[K:\r\n\u001b[01m\u001b[KDoubleSpreadsheet.h:\u001b[m\u001b[K In member function '\u001b[01m\u001b[Kvirtual std::string DoubleSpreadsheet::\u001b[01;32m\u001b[KgetString\u001b[m\u001b[K() const\u001b[m\u001b[K':\r\n\u001b[01m\u001b[KDoubleSpreadsheet.h:30:37:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[Kcannot convert '\u001b[01m\u001b[K\u001b[01;32m\u001b[Kstd::string\u001b[m\u001b[K' {aka '\u001b[01m\u001b[K\u001b[01;32m\u001b[Kstd::__cxx11::basic_string<char>\u001b[m\u001b[K'} to '\u001b[01m\u001b[K\u001b[01;34m\u001b[Kdouble\u001b[m\u001b[K\u001b[m\u001b[K'\r\n   30 |         return doubleToString(\u001b[01;32m\u001b[Kformat(\"{:%2.f}\",data.value_or(0.0))\u001b[m\u001b[K);\r\n      |                               \u001b[01;32m\u001b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\u001b[m\u001b[K\r\n      |                                     \u001b[01;32m\u001b[K|\u001b[m\u001b[K\r\n      |                                     \u001b[01;32m\u001b[Kstd::string {aka std::__cxx11::basic_string<char>}\u001b[m\u001b[K\r\n\u001b[01m\u001b[KDoubleSpreadsheet.h:32:34:\u001b[m\u001b[K \u001b[01;36m\u001b[Knote: \u001b[m\u001b[Kinitializing argument 1 of '\u001b[01m\u001b[Kstd::string DoubleSpreadsheet::\u001b[01;32m\u001b[KdoubleToString\u001b[m\u001b[K(double) const\u001b[m\u001b[K'\r\n   32 |     string doubleToString(\u001b[01;34m\u001b[Kdouble value\u001b[m\u001b[K)const\r\n      |                           \u001b[01;34m\u001b[K~~~~~~~^~~~~\u001b[m\u001b[K\r\n","doc":5,"seq":147,"ms":913276,"op":"terminal.output"}
 {"executionId":"086893e7-b79f-4feb-a028-71ac48444deb","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                          \r \r","doc":5,"seq":148,"ms":913308,"op":"terminal.output"}
 {"executionId":"086893e7-b79f-4feb-a028-71ac48444deb","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","commandLine":"g++-16 -std=c++20 mainDemonstration.cpp -o a.out","confidence":2,"exitCode":1,"doc":5,"seq":149,"ms":913308,"op":"terminal.end"}
+{"version":51,"changes":[{"offset":464,"length":17,"text":""}],"doc":3,"seq":150,"ms":4833696,"op":"edit"}
+{"doc":3,"seq":151,"ms":4834711,"op":"save"}
+{"version":52,"changes":[{"offset":49,"length":17,"text":""}],"doc":3,"seq":152,"ms":4837482,"op":"edit"}
+{"doc":3,"seq":153,"ms":4838499,"op":"save"}
+{"version":53,"changes":[{"offset":48,"length":1,"text":""}],"doc":3,"seq":154,"ms":4838591,"op":"edit"}
+{"doc":3,"seq":155,"ms":4839600,"op":"save"}
+{"version":54,"changes":[{"offset":671,"length":44,"text":""}],"doc":3,"seq":156,"ms":4845449,"op":"edit"}
+{"version":55,"changes":[{"offset":665,"length":6,"text":""}],"doc":3,"seq":157,"ms":4846454,"op":"edit"}
+{"doc":3,"seq":158,"ms":4846468,"op":"save"}
+{"version":56,"changes":[{"offset":665,"length":1,"text":""}],"doc":3,"seq":159,"ms":4846691,"op":"edit"}
+{"version":57,"changes":[{"offset":664,"length":1,"text":""}],"doc":3,"seq":160,"ms":4847205,"op":"edit"}
+{"doc":3,"seq":161,"ms":4848218,"op":"save"}
+{"version":58,"changes":[{"offset":626,"length":37,"text":""}],"doc":3,"seq":162,"ms":4852086,"op":"edit"}
+{"doc":3,"seq":163,"ms":4853100,"op":"save"}
+{"version":59,"changes":[{"offset":660,"length":1,"text":""}],"doc":3,"seq":164,"ms":4854482,"op":"edit"}
+{"version":60,"changes":[{"offset":659,"length":1,"text":""}],"doc":3,"seq":165,"ms":4854642,"op":"edit"}
+{"version":61,"changes":[{"offset":658,"length":1,"text":""}],"doc":3,"seq":166,"ms":4854785,"op":"edit"}
+{"version":62,"changes":[{"offset":657,"length":1,"text":""}],"doc":3,"seq":167,"ms":4854954,"op":"edit"}
+{"version":63,"changes":[{"offset":621,"length":5,"text":""}],"doc":3,"seq":168,"ms":4855956,"op":"edit"}
+{"doc":3,"seq":169,"ms":4855966,"op":"save"}
+{"version":64,"changes":[{"offset":660,"length":1,"text":""}],"doc":3,"seq":170,"ms":4856969,"op":"edit"}
+{"doc":3,"seq":171,"ms":4857984,"op":"save"}
+{"version":65,"changes":[{"offset":621,"length":2,"text":""}],"doc":3,"seq":172,"ms":4859505,"op":"edit"}
+{"doc":3,"seq":173,"ms":4860527,"op":"save"}
+{"version":66,"changes":[{"offset":656,"length":1,"text":""}],"doc":3,"seq":174,"ms":4862991,"op":"edit"}
+{"version":67,"changes":[{"offset":655,"length":1,"text":""}],"doc":3,"seq":175,"ms":4863160,"op":"edit"}
+{"doc":3,"seq":176,"ms":4864175,"op":"save"}
+{"version":68,"changes":[{"offset":655,"length":0,"text":")"}],"doc":3,"seq":177,"ms":4871752,"op":"edit"}
+{"doc":3,"seq":178,"ms":4872761,"op":"save"}
