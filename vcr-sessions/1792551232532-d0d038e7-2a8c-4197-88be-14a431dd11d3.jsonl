@@ -227,3 +227,49 @@
 {"executionId":"e3ccaa86-d4b5-47af-be74-3767c0b8372b","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","data":"Vector: [hello, 18.100000, 12.100000, ]\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":5,"seq":226,"ms":4919948,"op":"terminal.output"}
 {"executionId":"e3ccaa86-d4b5-47af-be74-3767c0b8372b","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.out","confidence":2,"exitCode":0,"doc":5,"seq":227,"ms":4919948,"op":"terminal.end"}
 {"executionId":"be9fbf90-278c-4a29-a585-423786812646","doc":4,"seq":228,"ms":4919949,"op":"debug.end"}
+{"version":70,"changes":[{"offset":539,"length":9,"text":"f"}],"doc":3,"seq":229,"ms":5200810,"op":"edit"}
+{"version":71,"changes":[{"offset":540,"length":0,"text":"o"}],"doc":3,"seq":230,"ms":5201256,"op":"edit"}
+{"version":72,"changes":[{"offset":541,"length":0,"text":"r"}],"doc":3,"seq":231,"ms":5201597,"op":"edit"}
+{"version":73,"changes":[{"offset":542,"length":0,"text":"m"}],"doc":3,"seq":232,"ms":5201940,"op":"edit"}
+{"version":74,"changes":[{"offset":543,"length":0,"text":"a"}],"doc":3,"seq":233,"ms":5202316,"op":"edit"}
+{"version":75,"changes":[{"offset":544,"length":0,"text":"t"}],"doc":3,"seq":234,"ms":5202734,"op":"edit"}
+{"doc":3,"seq":235,"ms":5203746,"op":"save"}
+{"version":76,"changes":[{"offset":546,"length":0,"text":"\""}],"doc":3,"seq":236,"ms":5209150,"op":"edit"}
+{"version":77,"changes":[{"offset":547,"length":0,"text":"\""}],"doc":3,"seq":237,"ms":5209737,"op":"edit"}
+{"version":78,"changes":[{"offset":548,"length":0,"text":","}],"doc":3,"seq":238,"ms":5210592,"op":"edit"}
+{"doc":3,"seq":239,"ms":5211611,"op":"save"}
+{"version":79,"changes":[{"offset":547,"length":0,"text":":"}],"doc":3,"seq":240,"ms":5212266,"op":"edit"}
+{"version":80,"changes":[{"offset":548,"length":0,"text":"{}"}],"doc":3,"seq":241,"ms":5212715,"op":"edit"}
+{"doc":3,"seq":242,"ms":5213732,"op":"save"}
+{"version":81,"changes":[{"offset":549,"length":0,"text":"2"}],"doc":3,"seq":243,"ms":5213926,"op":"edit"}
+{"doc":3,"seq":244,"ms":5214943,"op":"save"}
+{"version":82,"changes":[{"offset":550,"length":0,"text":"."}],"doc":3,"seq":245,"ms":5215734,"op":"edit"}
+{"doc":3,"seq":246,"ms":5216746,"op":"save"}
+{"version":83,"changes":[{"offset":549,"length":1,"text":""}],"doc":3,"seq":247,"ms":5221104,"op":"edit"}
+{"doc":3,"seq":248,"ms":5222131,"op":"save"}
+{"version":84,"changes":[{"offset":550,"length":0,"text":"2"}],"doc":3,"seq":249,"ms":5222168,"op":"edit"}
+{"version":85,"changes":[{"offset":551,"length":0,"text":"f"}],"doc":3,"seq":250,"ms":5222588,"op":"edit"}
+{"doc":3,"seq":251,"ms":5223608,"op":"save"}
+{"version":86,"changes":[{"offset":66,"length":0,"text":"\n"}],"doc":3,"seq":252,"ms":5226871,"op":"edit"}
+{"version":87,"changes":[{"offset":67,"length":0,"text":"i"}],"doc":3,"seq":253,"ms":5227717,"op":"edit"}
+{"version":88,"changes":[{"offset":68,"length":0,"text":"n"}],"doc":3,"seq":254,"ms":5227792,"op":"edit"}
+{"version":89,"changes":[{"offset":69,"length":0,"text":"l"}],"doc":3,"seq":255,"ms":5228024,"op":"edit"}
+{"doc":3,"seq":256,"ms":5229045,"op":"save"}
+{"version":90,"changes":[{"offset":70,"length":0,"text":" "}],"doc":3,"seq":257,"ms":5229055,"op":"edit"}
+{"version":91,"changes":[{"offset":70,"length":1,"text":""}],"doc":3,"seq":258,"ms":5229596,"op":"edit"}
+{"version":92,"changes":[{"offset":69,"length":1,"text":""}],"doc":3,"seq":259,"ms":5229766,"op":"edit"}
+{"version":93,"changes":[{"offset":69,"length":0,"text":"c"}],"doc":3,"seq":260,"ms":5230230,"op":"edit"}
+{"version":94,"changes":[{"offset":70,"length":0,"text":"l"}],"doc":3,"seq":261,"ms":5230433,"op":"edit"}
+{"version":95,"changes":[{"offset":71,"length":0,"text":"u"}],"doc":3,"seq":262,"ms":5230694,"op":"edit"}
+{"version":96,"changes":[{"offset":72,"length":0,"text":"d"}],"doc":3,"seq":263,"ms":5230818,"op":"edit"}
+{"version":97,"changes":[{"offset":73,"length":0,"text":"e"}],"doc":3,"seq":264,"ms":5230902,"op":"edit"}
+{"version":98,"changes":[{"offset":74,"length":0,"text":" "}],"doc":3,"seq":265,"ms":5231597,"op":"edit"}
+{"version":99,"changes":[{"offset":75,"length":0,"text":"<"}],"doc":3,"seq":266,"ms":5231937,"op":"edit"}
+{"version":100,"changes":[{"offset":76,"length":0,"text":">"}],"doc":3,"seq":267,"ms":5232109,"op":"edit"}
+{"text":"#include \"SpreadSheetCell.h\"\n#include <optional>\n#include <string>\ninclude <f>\n#include <string_view>\n\nusing namespace std;\n\n\nclass DoubleSpreadsheet : public SpreadSheetCell\n{\n    private:\n\n    optional<double> data;\n\n    public:\n\n\n    void set(double value){\n\n        data = value;\n    }\n\n    void set(std::string_view value) override{\n        data = stringToDouble(value);\n    }\n\n    std::string getString() const override{\n\n        return doubleToString(data.value_or(0.0));\n    }\n    string doubleToString(double value)const\n    {\n\n       return format(\":{.2f}\",value);\n    }\n    double stringToDouble(string_view value) const\n    {\n\n        return stod(string( value) );\n    }\n\n};\n","version":101,"snapshot":true,"doc":3,"seq":268,"ms":5232981,"op":"edit"}
+{"version":102,"changes":[{"offset":77,"length":0,"text":"o"}],"doc":3,"seq":269,"ms":5233117,"op":"edit"}
+{"version":103,"changes":[{"offset":78,"length":0,"text":"r"}],"doc":3,"seq":270,"ms":5233226,"op":"edit"}
+{"version":104,"changes":[{"offset":79,"length":0,"text":"m"}],"doc":3,"seq":271,"ms":5233386,"op":"edit"}
+{"version":105,"changes":[{"offset":80,"length":0,"text":"a"}],"doc":3,"seq":272,"ms":5233488,"op":"edit"}
+{"version":106,"changes":[{"offset":81,"length":0,"text":"t"}],"doc":3,"seq":273,"ms":5233767,"op":"edit"}
+{"doc":3,"seq":274,"ms":5234779,"op":"save"}
