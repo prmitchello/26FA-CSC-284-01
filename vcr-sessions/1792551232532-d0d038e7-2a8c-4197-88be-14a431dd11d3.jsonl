@@ -55,3 +55,21 @@
 {"doc":2,"seq":54,"ms":177955,"op":"close"}
 {"doc":1,"seq":55,"ms":311389,"op":"save"}
 {"doc":3,"seq":56,"ms":313514,"op":"save"}
+{"version":22,"changes":[{"offset":536,"length":4,"text":" "}],"doc":1,"seq":57,"ms":378575,"op":"edit"}
+{"version":23,"changes":[{"offset":537,"length":0,"text":" "}],"doc":1,"seq":58,"ms":379505,"op":"edit"}
+{"version":24,"changes":[{"offset":538,"length":0,"text":" "}],"doc":1,"seq":59,"ms":379634,"op":"edit"}
+{"version":25,"changes":[{"offset":539,"length":0,"text":" "}],"doc":1,"seq":60,"ms":379817,"op":"edit"}
+{"version":26,"changes":[{"offset":540,"length":0,"text":" "}],"doc":1,"seq":61,"ms":380084,"op":"edit"}
+{"version":27,"changes":[{"offset":541,"length":0,"text":" "}],"doc":1,"seq":62,"ms":380184,"op":"edit"}
+{"version":28,"changes":[{"offset":542,"length":0,"text":" "}],"doc":1,"seq":63,"ms":380422,"op":"edit"}
+{"doc":1,"seq":64,"ms":381438,"op":"save"}
+{"executionId":"97db0b2f-1848-485e-a7c3-f9366872f869","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":65,"ms":388289,"op":"task.start"}
+{"executionId":"97db0b2f-1848-485e-a7c3-f9366872f869","processId":-1,"doc":4,"seq":66,"ms":388292,"op":"task.processStart"}
+{"executionId":"97db0b2f-1848-485e-a7c3-f9366872f869","exitCode":0,"doc":4,"seq":67,"ms":388958,"op":"task.processEnd"}
+{"executionId":"97db0b2f-1848-485e-a7c3-f9366872f869","doc":4,"seq":68,"ms":388959,"op":"task.end"}
+{"executionId":"8b82b7d6-65ac-497f-9dfd-f2ed6783368d","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":4,"seq":69,"ms":388966,"op":"debug.start"}
+{"executionId":"abd6454d-eb9a-425c-999f-dc72f2aea95a","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.out","confidence":2,"path":"assignments/assignment_02","doc":5,"seq":70,"ms":389006,"op":"terminal.start"}
+{"executionId":"abd6454d-eb9a-425c-999f-dc72f2aea95a","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","data":"\u001b]633;C\u0007","doc":5,"seq":71,"ms":389058,"op":"terminal.output"}
+{"executionId":"abd6454d-eb9a-425c-999f-dc72f2aea95a","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","data":"terminate called after throwing an instance of 'std::invalid_argument'\r\n  what():  stod\r\nzsh: abort      /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.ou\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":5,"seq":72,"ms":389213,"op":"terminal.output"}
+{"executionId":"abd6454d-eb9a-425c-999f-dc72f2aea95a","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.out","confidence":2,"exitCode":134,"doc":5,"seq":73,"ms":389214,"op":"terminal.end"}
+{"executionId":"8b82b7d6-65ac-497f-9dfd-f2ed6783368d","doc":4,"seq":74,"ms":389219,"op":"debug.end"}
