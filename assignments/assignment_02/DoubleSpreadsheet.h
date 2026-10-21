@@ -1,10 +1,10 @@
 #include "SpreadSheetCell.h"
 #include <optional>
 #include <string>
+#include <format>
 #include <string_view>
 
 using namespace std;
-
 
 
 class DoubleSpreadsheet : public SpreadSheetCell
@@ -14,14 +14,12 @@ class DoubleSpreadsheet : public SpreadSheetCell
     optional<double> data;
 
     public:
-    //  DoubleSpreadsheet( ){
-    //     data = 0;
-    // }
 
-    // DoubleSpreadsheet(string_view value){
 
-    //     data = stringToDouble(value);
-    // }
+    void set(double value){
+
+        data = value;
+    }
 
     void set(std::string_view value) override{
         data = stringToDouble(value);
@@ -34,11 +32,12 @@ class DoubleSpreadsheet : public SpreadSheetCell
     string doubleToString(double value)const
     {
 
-       return to_string(value);
+       return format("{:.2f}",value);
     }
-    double stringToDouble(std::string_view value) const
+    double stringToDouble(string_view value) const
     {
-        return stod(string(value));
+
+        return stod(string( value) );
     }
 
 };
