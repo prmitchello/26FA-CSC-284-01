@@ -73,3 +73,25 @@
 {"executionId":"abd6454d-eb9a-425c-999f-dc72f2aea95a","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","data":"terminate called after throwing an instance of 'std::invalid_argument'\r\n  what():  stod\r\nzsh: abort      /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.ou\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":5,"seq":72,"ms":389213,"op":"terminal.output"}
 {"executionId":"abd6454d-eb9a-425c-999f-dc72f2aea95a","terminalId":"131a1f24-df23-4c8b-85e8-dbe2f8163a22","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/mainDemonstration.out","confidence":2,"exitCode":134,"doc":5,"seq":73,"ms":389214,"op":"terminal.end"}
 {"executionId":"8b82b7d6-65ac-497f-9dfd-f2ed6783368d","doc":4,"seq":74,"ms":389219,"op":"debug.end"}
+{"version":5,"changes":[{"offset":502,"length":0,"text":"f"}],"doc":3,"seq":75,"ms":578241,"op":"edit"}
+{"version":6,"changes":[{"offset":503,"length":0,"text":"o"}],"doc":3,"seq":76,"ms":578366,"op":"edit"}
+{"version":7,"changes":[{"offset":504,"length":0,"text":"r"}],"doc":3,"seq":77,"ms":578369,"op":"edit"}
+{"version":8,"changes":[{"offset":505,"length":0,"text":"m"}],"doc":3,"seq":78,"ms":578537,"op":"edit"}
+{"version":9,"changes":[{"offset":506,"length":0,"text":"a"}],"doc":3,"seq":79,"ms":578632,"op":"edit"}
+{"version":10,"changes":[{"offset":507,"length":0,"text":"t"}],"doc":3,"seq":80,"ms":578803,"op":"edit"}
+{"doc":3,"seq":81,"ms":579823,"op":"save"}
+{"version":11,"changes":[{"offset":508,"length":0,"text":"("}],"doc":3,"seq":82,"ms":580224,"op":"edit"}
+{"doc":3,"seq":83,"ms":581236,"op":"save"}
+{"version":12,"reason":1,"changes":[{"offset":508,"length":1,"text":""}],"doc":3,"seq":84,"ms":585074,"op":"edit"}
+{"version":13,"reason":1,"changes":[{"offset":502,"length":6,"text":""}],"doc":3,"seq":85,"ms":585669,"op":"edit"}
+{"doc":3,"seq":86,"ms":586679,"op":"save"}
+{"version":14,"changes":[{"offset":449,"length":0,"text":"f"}],"doc":3,"seq":87,"ms":591793,"op":"edit"}
+{"version":15,"changes":[{"offset":450,"length":0,"text":"r"}],"doc":3,"seq":88,"ms":591904,"op":"edit"}
+{"version":16,"changes":[{"offset":451,"length":0,"text":"o"}],"doc":3,"seq":89,"ms":592002,"op":"edit"}
+{"version":17,"changes":[{"offset":452,"length":0,"text":"m"}],"doc":3,"seq":90,"ms":592133,"op":"edit"}
+{"version":18,"changes":[{"offset":453,"length":0,"text":"a"}],"doc":3,"seq":91,"ms":592192,"op":"edit"}
+{"version":19,"changes":[{"offset":454,"length":0,"text":"t"}],"doc":3,"seq":92,"ms":592373,"op":"edit"}
+{"version":20,"changes":[{"offset":455,"length":0,"text":"("}],"doc":3,"seq":93,"ms":593219,"op":"edit"}
+{"doc":3,"seq":94,"ms":594230,"op":"save"}
+{"version":21,"changes":[{"offset":490,"length":0,"text":")"}],"doc":3,"seq":95,"ms":596429,"op":"edit"}
+{"doc":3,"seq":96,"ms":597449,"op":"save"}
