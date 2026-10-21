@@ -124,3 +124,20 @@
 {"executionId":"18c47d75-d244-49f9-ace5-33ebba5314ce","exitCode":-1,"doc":4,"seq":123,"ms":648992,"op":"task.processEnd"}
 {"executionId":"18c47d75-d244-49f9-ace5-33ebba5314ce","doc":4,"seq":124,"ms":648993,"op":"task.end"}
 {"text":"#include <iostream>\n#include <optional>\n#include \"SpreadSheetCell.h\"\n\n\nusing namespace std;\n\nclass StringSpreadsheet : public SpreadSheetCell\n{\n    private:\n    optional<string> data;\n\n    public:\n    void set( string_view value) override{\n        data = value;\n    }\n    string getString() const override{\n        return data.value_or(\"\");\n    }\n\n};\n","version":1,"path":"assignments/assignment_02/StringSpreadsheet.h","snapshot":true,"doc":6,"seq":125,"ms":652233,"op":"snap"}
+{"version":38,"changes":[{"offset":486,"length":18,"text":""}],"doc":3,"seq":126,"ms":837240,"op":"edit"}
+{"doc":3,"seq":127,"ms":838251,"op":"save"}
+{"version":39,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":471,"length":0,"text":"data.value_or(0.0)"}],"doc":3,"seq":128,"ms":839394,"op":"edit"}
+{"doc":3,"seq":129,"ms":840412,"op":"save"}
+{"version":40,"changes":[{"offset":489,"length":0,"text":")"}],"doc":3,"seq":130,"ms":841335,"op":"edit"}
+{"doc":3,"seq":131,"ms":842355,"op":"save"}
+{"version":41,"changes":[{"offset":454,"length":36,"text":""}],"doc":3,"seq":132,"ms":845834,"op":"edit"}
+{"version":42,"changes":[{"offset":453,"length":1,"text":""}],"doc":3,"seq":133,"ms":846512,"op":"edit"}
+{"version":43,"changes":[{"offset":452,"length":1,"text":""}],"doc":3,"seq":134,"ms":846682,"op":"edit"}
+{"version":44,"changes":[{"offset":451,"length":1,"text":""}],"doc":3,"seq":135,"ms":846836,"op":"edit"}
+{"version":45,"changes":[{"offset":450,"length":1,"text":""}],"doc":3,"seq":136,"ms":846968,"op":"edit"}
+{"version":46,"changes":[{"offset":449,"length":1,"text":""}],"doc":3,"seq":137,"ms":847125,"op":"edit"}
+{"doc":3,"seq":138,"ms":848135,"op":"save"}
+{"version":47,"changes":[{"offset":464,"length":1,"text":""}],"doc":3,"seq":139,"ms":849016,"op":"edit"}
+{"version":48,"changes":[{"offset":463,"length":1,"text":""}],"doc":3,"seq":140,"ms":849067,"op":"edit"}
+{"version":49,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":463,"length":0,"text":"format(\"{:%2.f}\",data.value_or(0.0))"}],"doc":3,"seq":141,"ms":849752,"op":"edit"}
+{"doc":3,"seq":142,"ms":850766,"op":"save"}
