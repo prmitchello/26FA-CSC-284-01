@@ -10,3 +10,23 @@
 {"version":5,"changes":[{"offset":511,"length":1,"text":""}],"doc":1,"seq":9,"ms":3946,"op":"edit"}
 {"doc":1,"seq":10,"ms":4956,"op":"save"}
 {"text":"#include \"SpreadSheetCell.h\"\n#include <optional>\n#include <format>\n#include <string>\n#include <string_view>\n\nusing namespace std;\n\n\nclass DoubleSpreadsheet : public SpreadSheetCell\n{\n    private:\n\n    optional<double> data;\n\n    public:\n\n\n    void set(double value){\n\n        data = value;\n    }\n\n    void set(std::string_view value) override{\n        data = stringToDouble(value);\n    }\n\n    std::string getString() const override{\n\n        return doubleToString(data.value_or(nullopt));\n    }\n    string doubleToString(double value)const\n    {\n\n       return to_string(value);\n    }\n    double stringToDouble(string_view value) const\n    {\n        optional<string_view> val =value ;\n\n        if(!val.has_value())\n            return 0;\n\n\n        return stod(string( val.value() ));\n    }\n\n};\n","version":1,"path":"assignments/assignment_02/DoubleSpreadsheet.h","snapshot":true,"doc":3,"seq":11,"ms":18042,"op":"snap"}
+{"version":6,"changes":[{"offset":509,"length":1,"text":""}],"doc":1,"seq":12,"ms":58523,"op":"edit"}
+{"version":7,"changes":[{"offset":508,"length":1,"text":""}],"doc":1,"seq":13,"ms":58739,"op":"edit"}
+{"version":8,"changes":[{"offset":507,"length":1,"text":""}],"doc":1,"seq":14,"ms":58932,"op":"edit"}
+{"version":9,"changes":[{"offset":506,"length":1,"text":""}],"doc":1,"seq":15,"ms":59066,"op":"edit"}
+{"version":10,"changes":[{"offset":505,"length":1,"text":""}],"doc":1,"seq":16,"ms":59426,"op":"edit"}
+{"doc":1,"seq":17,"ms":60445,"op":"save"}
+{"version":11,"changes":[{"offset":505,"length":0,"text":"."}],"doc":1,"seq":18,"ms":62552,"op":"edit"}
+{"doc":1,"seq":19,"ms":63569,"op":"save"}
+{"version":12,"changes":[{"offset":506,"length":0,"text":"s"}],"doc":1,"seq":20,"ms":66426,"op":"edit"}
+{"version":13,"changes":[{"offset":507,"length":0,"text":"e"}],"doc":1,"seq":21,"ms":66634,"op":"edit"}
+{"version":14,"changes":[{"offset":508,"length":0,"text":"t"}],"doc":1,"seq":22,"ms":66959,"op":"edit"}
+{"doc":1,"seq":23,"ms":67972,"op":"save"}
+{"executionId":"62e9e541-8f77-4705-a907-dc99d755632c","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":4,"seq":24,"ms":98604,"op":"task.start"}
+{"executionId":"62e9e541-8f77-4705-a907-dc99d755632c","processId":-1,"doc":4,"seq":25,"ms":98656,"op":"task.processStart"}
+{"executionId":"62e9e541-8f77-4705-a907-dc99d755632c","exitCode":-1,"doc":4,"seq":26,"ms":98974,"op":"task.processEnd"}
+{"executionId":"62e9e541-8f77-4705-a907-dc99d755632c","doc":4,"seq":27,"ms":98975,"op":"task.end"}
+{"version":15,"reason":1,"changes":[{"offset":506,"length":3,"text":""}],"doc":1,"seq":28,"ms":116136,"op":"edit"}
+{"version":16,"reason":1,"changes":[{"offset":505,"length":1,"text":""}],"doc":1,"seq":29,"ms":116930,"op":"edit"}
+{"version":17,"reason":1,"changes":[{"offset":505,"length":0,"text":"->set"}],"doc":1,"seq":30,"ms":117346,"op":"edit"}
+{"doc":1,"seq":31,"ms":118357,"op":"save"}
