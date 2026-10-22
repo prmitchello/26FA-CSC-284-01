@@ -5,3 +5,4 @@
 {"source":"workspace","path":"exercises/functionPointer/functor","doc":3,"seq":4,"ms":20888,"op":"fs.create"}
 {"source":"watcher","path":"exercises/functionPointer","doc":4,"seq":5,"ms":21206,"op":"fs.create"}
 {"source":"watcher","doc":3,"seq":6,"ms":21206,"op":"fs.create"}
+{"seq":7,"ms":6202919,"op":"end"}
