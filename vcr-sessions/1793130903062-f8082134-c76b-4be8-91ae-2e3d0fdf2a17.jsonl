@@ -9,3 +9,4 @@
 {"doc":2,"seq":8,"ms":20198,"op":"close"}
 {"text":"","version":1,"snapshot":true,"doc":3,"seq":9,"ms":20208,"op":"snap"}
 {"doc":1,"seq":10,"ms":914660,"op":"close"}
+{"seq":11,"ms":1411016,"op":"end"}
