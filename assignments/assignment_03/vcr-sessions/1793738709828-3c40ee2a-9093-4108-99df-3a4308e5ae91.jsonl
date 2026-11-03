@@ -224,3 +224,11 @@
 {"version":707,"changes":[{"offset":781,"length":0,"text":"/"}],"doc":2,"seq":223,"ms":344986,"op":"edit"}
 {"version":708,"changes":[{"offset":782,"length":0,"text":"/"}],"doc":2,"seq":224,"ms":345117,"op":"edit"}
 {"doc":2,"seq":225,"ms":346130,"op":"save"}
+{"version":709,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":781,"length":73,"text":"Use a std::vector<Book>::iterator to traverse the books in the library.\nUse an iterator to display all books in the library.\nImplement an iterator-based search function that finds books by author."}],"doc":2,"seq":226,"ms":357392,"op":"edit"}
+{"doc":2,"seq":227,"ms":358400,"op":"save"}
+{"version":710,"changes":[{"offset":853,"length":0,"text":"    "}],"doc":2,"seq":228,"ms":361351,"op":"edit"}
+{"doc":2,"seq":229,"ms":362367,"op":"save"}
+{"version":711,"changes":[{"offset":910,"length":0,"text":"    "}],"doc":2,"seq":230,"ms":362731,"op":"edit"}
+{"doc":2,"seq":231,"ms":363743,"op":"save"}
+{"version":712,"changes":[{"offset":914,"length":0,"text":"// "},{"offset":857,"length":0,"text":"// "},{"offset":781,"length":0,"text":"// "}],"doc":2,"seq":232,"ms":366009,"op":"edit"}
+{"doc":2,"seq":233,"ms":367026,"op":"save"}
