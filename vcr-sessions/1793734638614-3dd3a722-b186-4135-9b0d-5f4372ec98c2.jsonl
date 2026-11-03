@@ -3,3 +3,4 @@
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++17\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-3155,"op":"snap"}
 {"branch":"main","commit":"96d8a2e3eb19fd0779790f23a26931b3cce2d2c0","seq":3,"ms":98058,"op":"source.context"}
 {"source":"watcher","path":"assignments/assignment_03","doc":2,"seq":4,"ms":98058,"op":"fs.create"}
+{"seq":5,"ms":4064491,"op":"end"}
