@@ -192,3 +192,35 @@
 {"version":686,"changes":[{"offset":362,"length":0,"text":"{}"}],"doc":2,"seq":191,"ms":288610,"op":"edit"}
 {"version":687,"changes":[{"offset":363,"length":0,"text":"\n        \n    "}],"doc":2,"seq":192,"ms":289203,"op":"edit"}
 {"doc":2,"seq":193,"ms":290210,"op":"save"}
+{"version":688,"changes":[{"offset":420,"length":86,"text":""},{"offset":364,"length":8,"text":""}],"doc":2,"seq":194,"ms":299577,"op":"edit"}
+{"doc":2,"seq":195,"ms":300589,"op":"save"}
+{"version":689,"changes":[{"offset":370,"length":0,"text":"\n    "}],"doc":2,"seq":196,"ms":301105,"op":"edit"}
+{"version":690,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":375,"length":0,"text":"//: Searches for a book by title and returns it (if found) or prints an error message."}],"doc":2,"seq":197,"ms":301844,"op":"edit"}
+{"doc":2,"seq":198,"ms":302856,"op":"save"}
+{"version":691,"changes":[{"offset":503,"length":0,"text":"{}"}],"doc":2,"seq":199,"ms":303675,"op":"edit"}
+{"version":692,"changes":[{"offset":504,"length":0,"text":"\n        \n    "}],"doc":2,"seq":200,"ms":303884,"op":"edit"}
+{"doc":2,"seq":201,"ms":304893,"op":"save"}
+{"version":693,"changes":[{"offset":572,"length":66,"text":""},{"offset":505,"length":8,"text":""}],"doc":2,"seq":202,"ms":309198,"op":"edit"}
+{"doc":2,"seq":203,"ms":310205,"op":"save"}
+{"version":694,"changes":[{"offset":511,"length":0,"text":"\n    "}],"doc":2,"seq":204,"ms":310607,"op":"edit"}
+{"version":695,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":516,"length":0,"text":"//: Returns a collection of books written by the specified author."}],"doc":2,"seq":205,"ms":311120,"op":"edit"}
+{"doc":2,"seq":206,"ms":312133,"op":"save"}
+{"version":696,"changes":[{"offset":635,"length":0,"text":"{}"}],"doc":2,"seq":207,"ms":313122,"op":"edit"}
+{"version":697,"changes":[{"offset":636,"length":0,"text":"\n        \n    "}],"doc":2,"seq":208,"ms":313311,"op":"edit"}
+{"doc":2,"seq":209,"ms":314319,"op":"save"}
+{"version":698,"changes":[{"offset":702,"length":67,"text":""},{"offset":637,"length":8,"text":""}],"doc":2,"seq":210,"ms":317633,"op":"edit"}
+{"doc":2,"seq":211,"ms":318647,"op":"save"}
+{"version":699,"changes":[{"offset":643,"length":0,"text":"\n    "}],"doc":2,"seq":212,"ms":318889,"op":"edit"}
+{"version":700,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":648,"length":0,"text":"//: Returns a collection of books belonging to the specified genre."}],"doc":2,"seq":213,"ms":319208,"op":"edit"}
+{"doc":2,"seq":214,"ms":320216,"op":"save"}
+{"version":701,"changes":[{"offset":766,"length":0,"text":"{}"}],"doc":2,"seq":215,"ms":321005,"op":"edit"}
+{"version":702,"changes":[{"offset":767,"length":0,"text":"\n        \n    "}],"doc":2,"seq":216,"ms":321180,"op":"edit"}
+{"doc":2,"seq":217,"ms":322195,"op":"save"}
+{"version":703,"changes":[{"offset":782,"length":0,"text":"\n    "},{"offset":768,"length":8,"text":""}],"doc":2,"seq":218,"ms":340222,"op":"edit"}
+{"version":704,"changes":[{"offset":779,"length":0,"text":"\n    "},{"offset":775,"length":4,"text":""}],"doc":2,"seq":219,"ms":340401,"op":"edit"}
+{"version":705,"changes":[{"offset":780,"length":0,"text":"\n    "},{"offset":776,"length":4,"text":""}],"doc":2,"seq":220,"ms":340767,"op":"edit"}
+{"version":706,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":781,"length":0,"text":"Use a std::vector<Book>::iterator to traverse the books in the library."}],"doc":2,"seq":221,"ms":341278,"op":"edit"}
+{"doc":2,"seq":222,"ms":342295,"op":"save"}
+{"version":707,"changes":[{"offset":781,"length":0,"text":"/"}],"doc":2,"seq":223,"ms":344986,"op":"edit"}
+{"version":708,"changes":[{"offset":782,"length":0,"text":"/"}],"doc":2,"seq":224,"ms":345117,"op":"edit"}
+{"doc":2,"seq":225,"ms":346130,"op":"save"}
