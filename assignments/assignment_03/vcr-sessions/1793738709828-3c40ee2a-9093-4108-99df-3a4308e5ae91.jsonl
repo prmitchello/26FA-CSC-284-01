@@ -33,3 +33,40 @@
 {"version":567,"changes":[{"offset":153,"length":0,"text":"d"}],"doc":2,"seq":32,"ms":55609,"op":"edit"}
 {"version":568,"changes":[{"offset":154,"length":0,"text":" "}],"doc":2,"seq":33,"ms":55702,"op":"edit"}
 {"version":569,"changes":[{"offset":155,"length":0,"text":"a"}],"doc":2,"seq":34,"ms":56439,"op":"edit"}
+{"version":570,"changes":[{"offset":156,"length":0,"text":"d"}],"doc":2,"seq":35,"ms":56727,"op":"edit"}
+{"version":571,"changes":[{"offset":157,"length":0,"text":"d"}],"doc":2,"seq":36,"ms":56883,"op":"edit"}
+{"doc":2,"seq":37,"ms":57892,"op":"save"}
+{"version":572,"reason":1,"changes":[{"offset":154,"length":4,"text":""}],"doc":2,"seq":38,"ms":66077,"op":"edit"}
+{"version":573,"reason":1,"changes":[{"offset":150,"length":4,"text":""}],"doc":2,"seq":39,"ms":66398,"op":"edit"}
+{"doc":2,"seq":40,"ms":67407,"op":"save"}
+{"version":574,"reason":1,"changes":[{"offset":145,"length":5,"text":""},{"offset":145,"length":0,"text":"    "}],"doc":2,"seq":41,"ms":67769,"op":"edit"}
+{"version":575,"reason":1,"changes":[{"offset":144,"length":5,"text":""}],"doc":2,"seq":42,"ms":68567,"op":"edit"}
+{"version":576,"reason":1,"changes":[{"offset":642,"length":1,"text":""}],"doc":2,"seq":43,"ms":69133,"op":"edit"}
+{"version":577,"reason":1,"changes":[{"offset":151,"length":491,"text":""}],"doc":2,"seq":44,"ms":69706,"op":"edit"}
+{"doc":2,"seq":45,"ms":70719,"op":"save"}
+{"version":578,"changes":[{"offset":144,"length":0,"text":"\\"}],"doc":2,"seq":46,"ms":71376,"op":"edit"}
+{"version":579,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":145,"length":0,"text":"add_book(const Book& book): Adds a new book to the library.\nremove_book(const std::string& title): Removes a book from the library based on its title.\nfind_book(const std::string& title): Searches for a book by title and returns it (if found) or prints an error message.\nget_books_by_author(const std::string& author): Returns a collection of books written by the specified author.\nget_books_by_genre(const std::string& genre): Returns a collection of books belonging to the specified genre."}],"doc":2,"seq":47,"ms":71787,"op":"edit"}
+{"doc":2,"seq":48,"ms":72801,"op":"save"}
+{"version":580,"reason":1,"changes":[{"offset":145,"length":491,"text":""}],"doc":2,"seq":49,"ms":73138,"op":"edit"}
+{"version":581,"changes":[{"offset":144,"length":1,"text":""}],"doc":2,"seq":50,"ms":74014,"op":"edit"}
+{"version":582,"changes":[{"offset":144,"length":0,"text":"\n    "}],"doc":2,"seq":51,"ms":74224,"op":"edit"}
+{"version":583,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":149,"length":0,"text":"add_book(const Book& book): Adds a new book to the library.\nremove_book(const std::string& title): Removes a book from the library based on its title.\nfind_book(const std::string& title): Searches for a book by title and returns it (if found) or prints an error message.\nget_books_by_author(const std::string& author): Returns a collection of books written by the specified author.\nget_books_by_genre(const std::string& genre): Returns a collection of books belonging to the specified genre."}],"doc":2,"seq":52,"ms":74960,"op":"edit"}
+{"doc":2,"seq":53,"ms":75969,"op":"save"}
+{"version":584,"changes":[{"offset":531,"length":0,"text":"    "},{"offset":420,"length":0,"text":"    "},{"offset":300,"length":0,"text":"    "},{"offset":209,"length":0,"text":"    "}],"doc":2,"seq":54,"ms":80963,"op":"edit"}
+{"doc":2,"seq":55,"ms":81974,"op":"save"}
+{"version":585,"changes":[{"offset":144,"length":0,"text":"\n    "}],"doc":2,"seq":56,"ms":82776,"op":"edit"}
+{"doc":2,"seq":57,"ms":83786,"op":"save"}
+{"version":586,"changes":[{"offset":154,"length":0,"text":"v"},{"offset":145,"length":4,"text":""}],"doc":2,"seq":58,"ms":86716,"op":"edit"}
+{"version":587,"changes":[{"offset":151,"length":0,"text":"o"}],"doc":2,"seq":59,"ms":86841,"op":"edit"}
+{"version":588,"changes":[{"offset":152,"length":0,"text":"i"}],"doc":2,"seq":60,"ms":87005,"op":"edit"}
+{"version":589,"changes":[{"offset":153,"length":0,"text":"d"}],"doc":2,"seq":61,"ms":87197,"op":"edit"}
+{"version":590,"changes":[{"offset":154,"length":0,"text":" "}],"doc":2,"seq":62,"ms":87313,"op":"edit"}
+{"doc":2,"seq":63,"ms":88324,"op":"save"}
+{"version":591,"changes":[{"offset":219,"length":0,"text":"T"}],"doc":2,"seq":64,"ms":100001,"op":"edit"}
+{"version":592,"changes":[{"offset":220,"length":0,"text":" "}],"doc":2,"seq":65,"ms":100496,"op":"edit"}
+{"doc":2,"seq":66,"ms":101510,"op":"save"}
+{"version":593,"changes":[{"offset":316,"length":0,"text":"T"}],"doc":2,"seq":67,"ms":109726,"op":"edit"}
+{"version":594,"changes":[{"offset":317,"length":0,"text":" "}],"doc":2,"seq":68,"ms":109931,"op":"edit"}
+{"doc":2,"seq":69,"ms":110948,"op":"save"}
+{"version":595,"changes":[{"offset":442,"length":0,"text":"T"}],"doc":2,"seq":70,"ms":115551,"op":"edit"}
+{"version":596,"changes":[{"offset":443,"length":0,"text":" "}],"doc":2,"seq":71,"ms":115712,"op":"edit"}
