@@ -125,3 +125,26 @@
 {"version":639,"changes":[{"offset":45,"length":0,"text":"o"}],"doc":2,"seq":124,"ms":168111,"op":"edit"}
 {"version":640,"changes":[{"offset":46,"length":0,"text":"r"}],"doc":2,"seq":125,"ms":168280,"op":"edit"}
 {"doc":2,"seq":126,"ms":169293,"op":"save"}
+{"version":641,"changes":[{"offset":93,"length":0,"text":" "}],"doc":2,"seq":127,"ms":186022,"op":"edit"}
+{"version":642,"changes":[{"offset":94,"length":0,"text":"e"}],"doc":2,"seq":128,"ms":186247,"op":"edit"}
+{"version":643,"changes":[{"offset":95,"length":0,"text":"x"}],"doc":2,"seq":129,"ms":186344,"op":"edit"}
+{"version":644,"changes":[{"offset":96,"length":0,"text":"n"}],"doc":2,"seq":130,"ms":186510,"op":"edit"}
+{"version":645,"changes":[{"offset":97,"length":0,"text":"t"}],"doc":2,"seq":131,"ms":186888,"op":"edit"}
+{"version":646,"changes":[{"offset":98,"length":0,"text":"e"}],"doc":2,"seq":132,"ms":187123,"op":"edit"}
+{"version":647,"changes":[{"offset":99,"length":0,"text":"d"}],"doc":2,"seq":133,"ms":187203,"op":"edit"}
+{"version":648,"changes":[{"offset":100,"length":0,"text":"s"}],"doc":2,"seq":134,"ms":187462,"op":"edit"}
+{"doc":2,"seq":135,"ms":188479,"op":"save"}
+{"version":649,"changes":[{"offset":101,"length":0,"text":" "}],"doc":2,"seq":136,"ms":190303,"op":"edit"}
+{"doc":2,"seq":137,"ms":191342,"op":"save"}
+{"version":650,"changes":[{"offset":102,"length":0,"text":"B"}],"doc":2,"seq":138,"ms":191473,"op":"edit"}
+{"version":651,"changes":[{"offset":103,"length":0,"text":"o"}],"doc":2,"seq":139,"ms":191700,"op":"edit"}
+{"text":"#pragma once\n#include <string>\n#include <vector>\n\n//ifnotdef\n//define\n//endif;\n\nclass Library exnteds Boo{\n\n    private:\n    std::vector<Book> bookCollections;\n\n\n\n    public:\n\n    void add_book(const Book& book)//: Adds a new book to the library.\n    T remove_book(const std::string& title)//: Removes a book from the library based on its title.\n    T find_book(const std::string& title)//: Searches for a book by title and returns it (if found) or prints an error message.\n    T get_books_by_author(const std::string& author)//: Returns a collection of books written by the specified author.\n    T get_books_by_genre(const std::string& genre)//: Returns a collection of books belonging to the specified genre.\n\n\n};\n\n","version":652,"snapshot":true,"doc":2,"seq":140,"ms":191822,"op":"edit"}
+{"version":653,"changes":[{"offset":105,"length":0,"text":"k"}],"doc":2,"seq":141,"ms":191906,"op":"edit"}
+{"doc":2,"seq":142,"ms":192924,"op":"save"}
+{"version":654,"changes":[{"offset":48,"length":0,"text":"\\"}],"doc":2,"seq":143,"ms":201416,"op":"edit"}
+{"version":655,"changes":[{"offset":48,"length":1,"text":""}],"doc":2,"seq":144,"ms":202001,"op":"edit"}
+{"doc":2,"seq":145,"ms":203015,"op":"save"}
+{"version":656,"changes":[{"offset":100,"length":1,"text":""}],"doc":2,"seq":146,"ms":209001,"op":"edit"}
+{"doc":2,"seq":147,"ms":210016,"op":"save"}
+{"version":657,"reason":1,"changes":[{"offset":100,"length":0,"text":"s"}],"doc":2,"seq":148,"ms":212746,"op":"edit"}
+{"doc":2,"seq":149,"ms":213758,"op":"save"}
