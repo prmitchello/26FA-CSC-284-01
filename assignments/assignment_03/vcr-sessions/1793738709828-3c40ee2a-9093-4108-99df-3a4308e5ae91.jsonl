@@ -1238,3 +1238,10 @@
 {"doc":4,"seq":1237,"ms":70723727,"op":"save"}
 {"version":255,"changes":[{"offset":182,"length":0,"text":"r"}],"doc":4,"seq":1238,"ms":70728048,"op":"edit"}
 {"doc":4,"seq":1239,"ms":70729067,"op":"save"}
+{"version":256,"changes":[{"offset":195,"length":0,"text":"\n    "}],"doc":4,"seq":1240,"ms":70859322,"op":"edit"}
+{"version":257,"changes":[{"offset":200,"length":0,"text":"\n    "},{"offset":196,"length":4,"text":""}],"doc":4,"seq":1241,"ms":70859478,"op":"edit"}
+{"version":258,"changes":[{"offset":201,"length":0,"text":"\n    "},{"offset":197,"length":4,"text":""}],"doc":4,"seq":1242,"ms":70859761,"op":"edit"}
+{"version":259,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":202,"length":0,"text":"Demonstrate the use of common Standard Library container algorithms and operations.\n\nYour program should:\n\nAdd books to the library.\nRemove books using erase() and remove_if().\nSort books by publication year in:\nAscending order\nDescending order\nUse std::find_if() to locate a book by title."}],"doc":4,"seq":1243,"ms":70860323,"op":"edit"}
+{"doc":4,"seq":1244,"ms":70861330,"op":"save"}
+{"version":260,"changes":[{"offset":447,"length":0,"text":"// "},{"offset":430,"length":0,"text":"// "},{"offset":414,"length":0,"text":"// "},{"offset":379,"length":0,"text":"// "},{"offset":335,"length":0,"text":"// "},{"offset":309,"length":0,"text":"// "},{"offset":287,"length":0,"text":"// "},{"offset":198,"length":0,"text":"// "}],"doc":4,"seq":1245,"ms":70865196,"op":"edit"}
+{"doc":4,"seq":1246,"ms":70866210,"op":"save"}
