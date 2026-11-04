@@ -2008,3 +2008,8 @@
 {"doc":2,"seq":2007,"ms":73844554,"op":"save"}
 {"version":1546,"reason":1,"changes":[{"offset":182,"length":0,"text":":public Book"}],"doc":2,"seq":2008,"ms":73856745,"op":"edit"}
 {"doc":2,"seq":2009,"ms":73857755,"op":"save"}
+{"version":1547,"changes":[{"offset":182,"length":1,"text":""}],"doc":2,"seq":2010,"ms":73859834,"op":"edit"}
+{"doc":2,"seq":2011,"ms":73860838,"op":"save"}
+{"version":261,"changes":[{"offset":68,"length":0,"text":"    "}],"doc":4,"seq":2012,"ms":73917436,"op":"edit"}
+{"doc":4,"seq":2013,"ms":73918445,"op":"save"}
+{"version":262,"reason":1,"changes":[{"offset":68,"length":4,"text":""}],"doc":4,"seq":2014,"ms":73918712,"op":"edit"}
