@@ -472,3 +472,26 @@
 {"version":284,"changes":[{"offset":668,"length":0,"text":"r"}],"doc":1,"seq":471,"ms":12387957,"op":"edit"}
 {"version":285,"changes":[{"offset":669,"length":0,"text":"e"}],"doc":1,"seq":472,"ms":12388037,"op":"edit"}
 {"doc":1,"seq":473,"ms":12389049,"op":"save"}
+{"version":286,"changes":[{"offset":657,"length":0,"text":"t"}],"doc":1,"seq":474,"ms":12390710,"op":"edit"}
+{"version":287,"changes":[{"offset":658,"length":0,"text":"h"}],"doc":1,"seq":475,"ms":12390861,"op":"edit"}
+{"version":288,"changes":[{"offset":659,"length":0,"text":"i"}],"doc":1,"seq":476,"ms":12390969,"op":"edit"}
+{"version":289,"changes":[{"offset":660,"length":0,"text":"s"}],"doc":1,"seq":477,"ms":12391079,"op":"edit"}
+{"version":290,"changes":[{"offset":661,"length":0,"text":"."}],"doc":1,"seq":478,"ms":12391323,"op":"edit"}
+{"doc":1,"seq":479,"ms":12392334,"op":"save"}
+{"version":291,"changes":[{"offset":646,"length":0,"text":"S"}],"doc":1,"seq":480,"ms":12394297,"op":"edit"}
+{"version":292,"changes":[{"offset":646,"length":1,"text":""}],"doc":1,"seq":481,"ms":12394819,"op":"edit"}
+{"version":293,"changes":[{"offset":646,"length":0,"text":"s"}],"doc":1,"seq":482,"ms":12395016,"op":"edit"}
+{"version":294,"changes":[{"offset":647,"length":0,"text":"t"}],"doc":1,"seq":483,"ms":12395261,"op":"edit"}
+{"version":295,"changes":[{"offset":648,"length":0,"text":"r"}],"doc":1,"seq":484,"ms":12395412,"op":"edit"}
+{"version":296,"changes":[{"offset":649,"length":0,"text":"i"}],"doc":1,"seq":485,"ms":12395483,"op":"edit"}
+{"version":297,"changes":[{"offset":650,"length":0,"text":"n"}],"doc":1,"seq":486,"ms":12395650,"op":"edit"}
+{"text":"#pragma once\n#include <string>\n#include <vector>\n\nusing namespace std;\n\nclass Book{\n\n    private:\n    std::string title;\n    std::string author;\n    int year;\n    std::string genre;\n\n\n\n    public:\n\n    Book(std::string t, std::string a , int y, std::string g){\n        title = t;\n        author = a;\n        year = y;\n        genre = g;\n    }\n    string getTitle(){\n        return title;\n    }\n    string getAuthor(){\n        return author;\n    }\n    string getGenre(){\n        return genre;\n    }\n    int getYear(){\n        return year;\n    }\n    void setTitle(){\n\n    }\n    void setAuthor(){\n\n    }\n    void setYear(){\n\n    }\n    void setGenre(string){\n        this.genre = genre\n    }\n\n    std::string toString override(){\n\n        return \"book\" + title;\n    }\n\n\n\n};\n","version":298,"snapshot":true,"doc":1,"seq":487,"ms":12396146,"op":"edit"}
+{"version":299,"changes":[{"offset":652,"length":0,"text":" "}],"doc":1,"seq":488,"ms":12396330,"op":"edit"}
+{"version":300,"changes":[{"offset":653,"length":0,"text":"g"}],"doc":1,"seq":489,"ms":12396962,"op":"edit"}
+{"version":301,"changes":[{"offset":654,"length":0,"text":"e"}],"doc":1,"seq":490,"ms":12397171,"op":"edit"}
+{"version":302,"changes":[{"offset":655,"length":0,"text":"n"}],"doc":1,"seq":491,"ms":12397288,"op":"edit"}
+{"version":303,"changes":[{"offset":656,"length":0,"text":"r"}],"doc":1,"seq":492,"ms":12397484,"op":"edit"}
+{"version":304,"changes":[{"offset":657,"length":0,"text":"e"}],"doc":1,"seq":493,"ms":12397628,"op":"edit"}
+{"doc":1,"seq":494,"ms":12398641,"op":"save"}
+{"version":305,"changes":[{"offset":687,"length":0,"text":";"}],"doc":1,"seq":495,"ms":12401903,"op":"edit"}
+{"doc":1,"seq":496,"ms":12402922,"op":"save"}
