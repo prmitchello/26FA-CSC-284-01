@@ -1482,3 +1482,42 @@
 {"version":1139,"changes":[{"offset":919,"length":8,"text":""},{"offset":115,"length":0,"text":"\n"}],"doc":2,"seq":1481,"ms":72597618,"op":"edit"}
 {"doc":2,"seq":1482,"ms":72598638,"op":"save"}
 {"version":1140,"changes":[{"offset":116,"length":0,"text":"t"}],"doc":2,"seq":1483,"ms":72599306,"op":"edit"}
+{"doc":2,"seq":1484,"ms":72600312,"op":"save"}
+{"version":1141,"changes":[{"offset":117,"length":0,"text":"e"}],"doc":2,"seq":1485,"ms":72600883,"op":"edit"}
+{"version":1142,"changes":[{"offset":118,"length":0,"text":"m"}],"doc":2,"seq":1486,"ms":72600918,"op":"edit"}
+{"version":1143,"changes":[{"offset":119,"length":0,"text":"p"}],"doc":2,"seq":1487,"ms":72601132,"op":"edit"}
+{"version":1144,"changes":[{"offset":120,"length":0,"text":"l"}],"doc":2,"seq":1488,"ms":72601221,"op":"edit"}
+{"version":1145,"changes":[{"offset":121,"length":0,"text":"a"}],"doc":2,"seq":1489,"ms":72601321,"op":"edit"}
+{"version":1146,"changes":[{"offset":122,"length":0,"text":"t"}],"doc":2,"seq":1490,"ms":72601454,"op":"edit"}
+{"version":1147,"changes":[{"offset":123,"length":0,"text":"e"}],"doc":2,"seq":1491,"ms":72601604,"op":"edit"}
+{"version":1148,"changes":[{"offset":124,"length":0,"text":" "}],"doc":2,"seq":1492,"ms":72601804,"op":"edit"}
+{"doc":2,"seq":1493,"ms":72602822,"op":"save"}
+{"version":1149,"changes":[{"offset":125,"length":0,"text":"<"}],"doc":2,"seq":1494,"ms":72602884,"op":"edit"}
+{"version":1150,"changes":[{"offset":126,"length":0,"text":">"}],"doc":2,"seq":1495,"ms":72602908,"op":"edit"}
+{"doc":2,"seq":1496,"ms":72603929,"op":"save"}
+{"version":1151,"changes":[{"offset":126,"length":0,"text":"t"}],"doc":2,"seq":1497,"ms":72605498,"op":"edit"}
+{"text":"#pragma once\n#include <string>\n#include <vector>\n#include <ranges>\n#include \"Book.h\"\n\n//ifnotdef\n//define\n//endif;\n\ntemplate <ty>\nclass Library exnteds Book{\n\n    private:\n    std::vector<Book> bookCollections;\n\n    public:\n\n    //: Adds a new book to the library.\n    void add_book(const Book& book){\n\n        bookCollections.add(book);\n    }\n    //: Removes a book from the library based on its title.\n    T remove_book(const std::string& title){\n\n        bookColections.remove(title);\n    }\n    //: Searches for a book by title and returns it (if found) or prints an error message.\n    T find_book(const std::string& title){\n        std::range::;\n    }\n    //: Returns a collection of books written by the specified author.\n    T get_books_by_author(const std::string& author){\n        std::range::\n    }\n    //: Returns a collection of books belonging to the specified genre.\n    T get_books_by_genre(const std::string& genre){\n\n\n\n\n\n        std::range::;\n        find()\n    }\n\n    void printBooks(){\n        for(vector&::iterator = it; it<bookCollections.end(); ++it){\n            cout<<\"The books currently in the library: \"<<it;\n        }\n    }\n\n    // Use a std::vector<Book>::iterator to traverse the books in the library.\n    // Use an iterator to display all books in the library.\n    // Implement an iterator-based search function that finds books by author.\n\n\n};\n\n","version":1152,"snapshot":true,"doc":2,"seq":1498,"ms":72605972,"op":"edit"}
+{"version":1153,"changes":[{"offset":128,"length":0,"text":"o"}],"doc":2,"seq":1499,"ms":72606294,"op":"edit"}
+{"version":1154,"changes":[{"offset":129,"length":0,"text":"e"}],"doc":2,"seq":1500,"ms":72606505,"op":"edit"}
+{"version":1155,"changes":[{"offset":130,"length":0,"text":"n"}],"doc":2,"seq":1501,"ms":72606686,"op":"edit"}
+{"version":1156,"changes":[{"offset":131,"length":0,"text":"a"}],"doc":2,"seq":1502,"ms":72606846,"op":"edit"}
+{"version":1157,"changes":[{"offset":131,"length":1,"text":""}],"doc":2,"seq":1503,"ms":72607061,"op":"edit"}
+{"version":1158,"changes":[{"offset":130,"length":1,"text":""}],"doc":2,"seq":1504,"ms":72607217,"op":"edit"}
+{"version":1159,"changes":[{"offset":129,"length":1,"text":""}],"doc":2,"seq":1505,"ms":72607370,"op":"edit"}
+{"version":1160,"changes":[{"offset":128,"length":1,"text":""}],"doc":2,"seq":1506,"ms":72607501,"op":"edit"}
+{"version":1161,"changes":[{"offset":128,"length":0,"text":"p"}],"doc":2,"seq":1507,"ms":72607779,"op":"edit"}
+{"version":1162,"changes":[{"offset":129,"length":0,"text":"o"}],"doc":2,"seq":1508,"ms":72607805,"op":"edit"}
+{"version":1163,"changes":[{"offset":130,"length":0,"text":"e"}],"doc":2,"seq":1509,"ms":72607928,"op":"edit"}
+{"version":1164,"changes":[{"offset":130,"length":1,"text":""}],"doc":2,"seq":1510,"ms":72608230,"op":"edit"}
+{"version":1165,"changes":[{"offset":129,"length":1,"text":""}],"doc":2,"seq":1511,"ms":72608629,"op":"edit"}
+{"version":1166,"changes":[{"offset":129,"length":0,"text":"e"}],"doc":2,"seq":1512,"ms":72608800,"op":"edit"}
+{"version":1167,"changes":[{"offset":130,"length":0,"text":"n"}],"doc":2,"seq":1513,"ms":72609465,"op":"edit"}
+{"version":1168,"changes":[{"offset":131,"length":0,"text":"a"}],"doc":2,"seq":1514,"ms":72609585,"op":"edit"}
+{"version":1169,"changes":[{"offset":132,"length":0,"text":"m"}],"doc":2,"seq":1515,"ms":72609648,"op":"edit"}
+{"version":1170,"changes":[{"offset":133,"length":0,"text":"e"}],"doc":2,"seq":1516,"ms":72609863,"op":"edit"}
+{"version":1171,"changes":[{"offset":134,"length":0,"text":" "}],"doc":2,"seq":1517,"ms":72610029,"op":"edit"}
+{"version":1172,"changes":[{"offset":135,"length":0,"text":"T"}],"doc":2,"seq":1518,"ms":72610874,"op":"edit"}
+{"doc":2,"seq":1519,"ms":72611883,"op":"save"}
+{"version":1173,"changes":[{"offset":217,"length":0,"text":"()"}],"doc":2,"seq":1520,"ms":72644217,"op":"edit"}
+{"version":1174,"changes":[{"offset":218,"length":1,"text":")"}],"doc":2,"seq":1521,"ms":72644263,"op":"edit"}
+{"doc":2,"seq":1522,"ms":72645276,"op":"save"}
