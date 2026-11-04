@@ -2091,3 +2091,11 @@
 {"executionId":"76c6d2fb-d614-429d-974a-b1d65c448f30","terminalId":"d77fd99a-f1d2-43a6-95ed-18c385279392","commandLine":"g++ main.cpp","confidence":2,"exitCode":1,"doc":5,"seq":2090,"ms":74183175,"op":"terminal.end"}
 {"version":1567,"changes":[{"offset":484,"length":0,"text":"l"}],"doc":2,"seq":2091,"ms":74569784,"op":"edit"}
 {"doc":2,"seq":2092,"ms":74570797,"op":"save"}
+{"version":1568,"changes":[{"offset":717,"length":0,"text":"("}],"doc":2,"seq":2093,"ms":74669575,"op":"edit"}
+{"doc":2,"seq":2094,"ms":74670603,"op":"save"}
+{"version":1569,"changes":[{"offset":732,"length":1,"text":""}],"doc":2,"seq":2095,"ms":74692330,"op":"edit"}
+{"version":1570,"changes":[{"offset":732,"length":0,"text":"{}"}],"doc":2,"seq":2096,"ms":74692739,"op":"edit"}
+{"version":1571,"changes":[{"offset":733,"length":1,"text":""}],"doc":2,"seq":2097,"ms":74693736,"op":"edit"}
+{"doc":2,"seq":2098,"ms":74694762,"op":"save"}
+{"version":1572,"changes":[{"offset":751,"length":0,"text":"}"}],"doc":2,"seq":2099,"ms":74697554,"op":"edit"}
+{"doc":2,"seq":2100,"ms":74698569,"op":"save"}
