@@ -1994,3 +1994,17 @@
 {"doc":2,"seq":1993,"ms":73788726,"op":"save"}
 {"version":1536,"changes":[{"offset":181,"length":1,"text":""}],"doc":2,"seq":1994,"ms":73788749,"op":"edit"}
 {"doc":2,"seq":1995,"ms":73789757,"op":"save"}
+{"version":1537,"changes":[{"offset":181,"length":0,"text":" "}],"doc":2,"seq":1996,"ms":73821149,"op":"edit"}
+{"version":1538,"changes":[{"offset":182,"length":0,"text":"p"}],"doc":2,"seq":1997,"ms":73821353,"op":"edit"}
+{"version":1539,"changes":[{"offset":183,"length":0,"text":"u"}],"doc":2,"seq":1998,"ms":73821557,"op":"edit"}
+{"version":1540,"changes":[{"offset":184,"length":0,"text":"b"}],"doc":2,"seq":1999,"ms":73821664,"op":"edit"}
+{"version":1541,"changes":[{"offset":185,"length":0,"text":"l"}],"doc":2,"seq":2000,"ms":73821825,"op":"edit"}
+{"version":1542,"changes":[{"offset":186,"length":0,"text":"i"}],"doc":2,"seq":2001,"ms":73821993,"op":"edit"}
+{"version":1543,"changes":[{"offset":187,"length":0,"text":"c"}],"doc":2,"seq":2002,"ms":73822136,"op":"edit"}
+{"doc":2,"seq":2003,"ms":73823151,"op":"save"}
+{"version":1544,"changes":[{"offset":182,"length":0,"text":":"}],"doc":2,"seq":2004,"ms":73832033,"op":"edit"}
+{"doc":2,"seq":2005,"ms":73833051,"op":"save"}
+{"version":1545,"changes":[{"offset":182,"length":12,"text":""}],"doc":2,"seq":2006,"ms":73843530,"op":"edit"}
+{"doc":2,"seq":2007,"ms":73844554,"op":"save"}
+{"version":1546,"reason":1,"changes":[{"offset":182,"length":0,"text":":public Book"}],"doc":2,"seq":2008,"ms":73856745,"op":"edit"}
+{"doc":2,"seq":2009,"ms":73857755,"op":"save"}
