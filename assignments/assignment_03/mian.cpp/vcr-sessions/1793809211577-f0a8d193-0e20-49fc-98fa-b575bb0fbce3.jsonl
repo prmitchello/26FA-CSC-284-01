@@ -1,0 +1,6 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_03/mian.cpp","startedAt":"2026-11-04T16:20:11.577Z","attemptId":"0d690135-9369-4a87-ac2d-c14bef283393","segmentId":"79ec1bb3-ad6a-4114-9ebf-f771d5ae7c16","sourceWindowId":"bd619e3e-9e41-47ff-85ba-d20ae54e6aae","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"96d8a2e3eb19fd0779790f23a26931b3cce2d2c0","seq":1,"ms":-1354,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-1354,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":-1280,"op":"fs.create"}
+{"source":"workspace","operationId":"216f9343-92ed-4988-afc3-fda3c29e60d2","doc":1,"seq":4,"ms":5718,"op":"fs.moveFrom"}
+{"source":"watcher","doc":1,"seq":5,"ms":5778,"op":"fs.delete"}
