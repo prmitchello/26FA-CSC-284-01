@@ -802,3 +802,20 @@
 {"version":845,"changes":[{"offset":493,"length":0,"text":"o"}],"doc":2,"seq":801,"ms":14735778,"op":"edit"}
 {"version":846,"changes":[{"offset":494,"length":0,"text":"o"}],"doc":2,"seq":802,"ms":14735922,"op":"edit"}
 {"version":847,"changes":[{"offset":495,"length":0,"text":"k"}],"doc":2,"seq":803,"ms":14736131,"op":"edit"}
+{"doc":2,"seq":804,"ms":14737138,"op":"save"}
+{"version":848,"changes":[{"offset":391,"length":107,"text":""}],"doc":2,"seq":805,"ms":14762661,"op":"edit"}
+{"doc":2,"seq":806,"ms":14763670,"op":"save"}
+{"version":849,"changes":[{"offset":270,"length":0,"text":"        "}],"doc":2,"seq":807,"ms":14763965,"op":"edit"}
+{"version":850,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":278,"length":0,"text":"Book book(\"The things you carry\", \"Robert E. Lee\", 1990, \"Fictional\");\n\n\n        bookCollections.add(book);"}],"doc":2,"seq":808,"ms":14764621,"op":"edit"}
+{"version":851,"changes":[{"offset":498,"length":8,"text":""}],"doc":2,"seq":809,"ms":14765622,"op":"edit"}
+{"doc":2,"seq":810,"ms":14765629,"op":"save"}
+{"text":"#pragma once\n#include <string>\n#include <vector>\n#include \"Book.h\"\n\n//ifnotdef\n//define\n//endif;\n\nclass Library exnteds Book{\n\n    private:\n    std::vector<Book> bookCollections;\n\n    public:\n\n    //: Adds a new book to the library.\n    void add_book(const Book& book){\n        \n        Book book(\"The things you carry\", \"Robert E. Lee\", 1990, \"Fictional\");\n\n\n        bookCollections.add(book);\n    }\n    //: Removes a book from the library based on its title.\n    T remove_book(const std::string& title){\n\n\n    }\n    //: Searches for a book by title and returns it (if found) or prints an error message.\n    T find_book(const std::string& title){\n\n    }\n    //: Returns a collection of books written by the specified author.\n    T get_books_by_author(const std::string& author){\n\n    }\n    //: Returns a collection of books belonging to the specified genre.\n    T get_books_by_genre(const std::string& genre){\n\n    }\n\n\n    // Use a std::vector<Book>::iterator to traverse the books in the library.\n    // Use an iterator to display all books in the library.\n    // Implement an iterator-based search function that finds books by author.\n\n\n};\n\n","version":852,"snapshot":true,"doc":2,"seq":811,"ms":14767430,"op":"edit"}
+{"version":853,"changes":[{"offset":270,"length":8,"text":""}],"doc":2,"seq":812,"ms":14768435,"op":"edit"}
+{"doc":2,"seq":813,"ms":14768453,"op":"save"}
+{"version":854,"changes":[{"offset":275,"length":4,"text":""}],"doc":2,"seq":814,"ms":14768530,"op":"edit"}
+{"doc":2,"seq":815,"ms":14769543,"op":"save"}
+{"version":855,"reason":1,"changes":[{"offset":275,"length":0,"text":"    "}],"doc":2,"seq":816,"ms":14769686,"op":"edit"}
+{"version":856,"changes":[{"offset":349,"length":1,"text":""}],"doc":2,"seq":817,"ms":14770375,"op":"edit"}
+{"doc":2,"seq":818,"ms":14771389,"op":"save"}
+{"version":857,"changes":[{"offset":349,"length":1,"text":""}],"doc":2,"seq":819,"ms":14771402,"op":"edit"}
+{"doc":2,"seq":820,"ms":14772415,"op":"save"}
