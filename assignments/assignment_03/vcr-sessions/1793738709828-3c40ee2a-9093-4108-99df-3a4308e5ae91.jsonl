@@ -1154,3 +1154,33 @@
 {"doc":4,"seq":1153,"ms":70612289,"op":"save"}
 {"version":184,"changes":[{"offset":139,"length":0,"text":","}],"doc":4,"seq":1154,"ms":70612749,"op":"edit"}
 {"doc":4,"seq":1155,"ms":70613762,"op":"save"}
+{"version":185,"changes":[{"offset":140,"length":0,"text":"\"\""}],"doc":4,"seq":1156,"ms":70620479,"op":"edit"}
+{"version":186,"changes":[{"offset":141,"length":0,"text":"G"}],"doc":4,"seq":1157,"ms":70621357,"op":"edit"}
+{"version":187,"changes":[{"offset":142,"length":0,"text":"R"}],"doc":4,"seq":1158,"ms":70621715,"op":"edit"}
+{"version":188,"changes":[{"offset":143,"length":0,"text":"R"}],"doc":4,"seq":1159,"ms":70621894,"op":"edit"}
+{"version":189,"changes":[{"offset":144,"length":0,"text":" "}],"doc":4,"seq":1160,"ms":70622604,"op":"edit"}
+{"version":190,"changes":[{"offset":145,"length":0,"text":"M"}],"doc":4,"seq":1161,"ms":70622895,"op":"edit"}
+{"version":191,"changes":[{"offset":146,"length":0,"text":"A"}],"doc":4,"seq":1162,"ms":70622967,"op":"edit"}
+{"version":192,"changes":[{"offset":147,"length":0,"text":"r"}],"doc":4,"seq":1163,"ms":70623186,"op":"edit"}
+{"version":193,"changes":[{"offset":148,"length":0,"text":"t"}],"doc":4,"seq":1164,"ms":70623353,"op":"edit"}
+{"version":194,"changes":[{"offset":149,"length":0,"text":"i"}],"doc":4,"seq":1165,"ms":70623463,"op":"edit"}
+{"version":195,"changes":[{"offset":150,"length":0,"text":"n"}],"doc":4,"seq":1166,"ms":70623561,"op":"edit"}
+{"version":196,"changes":[{"offset":150,"length":1,"text":""}],"doc":4,"seq":1167,"ms":70624334,"op":"edit"}
+{"version":197,"changes":[{"offset":149,"length":1,"text":""}],"doc":4,"seq":1168,"ms":70624490,"op":"edit"}
+{"version":198,"changes":[{"offset":148,"length":1,"text":""}],"doc":4,"seq":1169,"ms":70624646,"op":"edit"}
+{"version":199,"changes":[{"offset":147,"length":1,"text":""}],"doc":4,"seq":1170,"ms":70624803,"op":"edit"}
+{"version":200,"changes":[{"offset":146,"length":1,"text":""}],"doc":4,"seq":1171,"ms":70624953,"op":"edit"}
+{"text":"#include <iostream>\n#include \"Library.h\"\n\n\n\n\nusing namespace std;\n\n\nint main(){\n\n\n    Library bhccLibrary();\n\n    Book b1(\"game of thrones\",\"GRR Ma\");\n\n\n\n\n\n\n\n\n    return 0;\n}\n","version":201,"snapshot":true,"doc":4,"seq":1172,"ms":70625163,"op":"edit"}
+{"version":202,"changes":[{"offset":147,"length":0,"text":"r"}],"doc":4,"seq":1173,"ms":70625335,"op":"edit"}
+{"version":203,"changes":[{"offset":148,"length":0,"text":"i"}],"doc":4,"seq":1174,"ms":70626026,"op":"edit"}
+{"version":204,"changes":[{"offset":148,"length":1,"text":""}],"doc":4,"seq":1175,"ms":70626382,"op":"edit"}
+{"version":205,"changes":[{"offset":148,"length":0,"text":"t"}],"doc":4,"seq":1176,"ms":70626524,"op":"edit"}
+{"version":206,"changes":[{"offset":149,"length":0,"text":"i"}],"doc":4,"seq":1177,"ms":70626617,"op":"edit"}
+{"version":207,"changes":[{"offset":150,"length":0,"text":"n"}],"doc":4,"seq":1178,"ms":70626736,"op":"edit"}
+{"doc":4,"seq":1179,"ms":70627759,"op":"save"}
+{"version":208,"changes":[{"offset":152,"length":0,"text":","}],"doc":4,"seq":1180,"ms":70628506,"op":"edit"}
+{"doc":4,"seq":1181,"ms":70629521,"op":"save"}
+{"version":209,"changes":[{"offset":153,"length":0,"text":"\"\""}],"doc":4,"seq":1182,"ms":70629556,"op":"edit"}
+{"doc":4,"seq":1183,"ms":70630566,"op":"save"}
+{"version":210,"changes":[{"offset":153,"length":0,"text":"1"}],"doc":4,"seq":1184,"ms":70678395,"op":"edit"}
+{"version":211,"changes":[{"offset":154,"length":0,"text":"9"}],"doc":4,"seq":1185,"ms":70678640,"op":"edit"}
