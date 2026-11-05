@@ -1073,3 +1073,50 @@
 {"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b]633;C\u0007","doc":2,"seq":1072,"ms":10861459,"op":"terminal.output"}
 {"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":1073,"ms":10861888,"op":"terminal.output"}
 {"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":0,"doc":2,"seq":1074,"ms":10861888,"op":"terminal.end"}
+{"executionId":"db402636-4afc-4c9e-85b9-6f6510a83369","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"./a.out","confidence":2,"doc":2,"seq":1075,"ms":10869517,"op":"terminal.start"}
+{"executionId":"db402636-4afc-4c9e-85b9-6f6510a83369","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b]633;C\u0007","doc":2,"seq":1076,"ms":10869569,"op":"terminal.output"}
+{"executionId":"db402636-4afc-4c9e-85b9-6f6510a83369","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"The books currently in the library: \r\n\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: Elden RingsAuthor: GRR Martin\r\nTitle: House of the dragonAuthor: GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":1077,"ms":10869593,"op":"terminal.output"}
+{"executionId":"db402636-4afc-4c9e-85b9-6f6510a83369","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"./a.out","confidence":2,"exitCode":0,"doc":2,"seq":1078,"ms":10869593,"op":"terminal.end"}
+{"version":488,"changes":[{"offset":2063,"length":0,"text":" "}],"doc":3,"seq":1079,"ms":10886248,"op":"edit"}
+{"doc":3,"seq":1080,"ms":10887262,"op":"save"}
+{"version":163,"changes":[{"offset":183,"length":15,"text":"T"}],"doc":1,"seq":1081,"ms":10897770,"op":"edit"}
+{"version":164,"changes":[{"offset":184,"length":0,"text":"h"}],"doc":1,"seq":1082,"ms":10898157,"op":"edit"}
+{"version":165,"changes":[{"offset":185,"length":0,"text":"e"}],"doc":1,"seq":1083,"ms":10898317,"op":"edit"}
+{"version":166,"changes":[{"offset":186,"length":0,"text":" "}],"doc":1,"seq":1084,"ms":10898467,"op":"edit"}
+{"version":167,"changes":[{"offset":187,"length":0,"text":"t"}],"doc":1,"seq":1085,"ms":10898671,"op":"edit"}
+{"version":168,"changes":[{"offset":188,"length":0,"text":"h"}],"doc":1,"seq":1086,"ms":10898714,"op":"edit"}
+{"version":169,"changes":[{"offset":189,"length":0,"text":"i"}],"doc":1,"seq":1087,"ms":10898920,"op":"edit"}
+{"version":170,"changes":[{"offset":190,"length":0,"text":"n"}],"doc":1,"seq":1088,"ms":10899047,"op":"edit"}
+{"version":171,"changes":[{"offset":191,"length":0,"text":"g"}],"doc":1,"seq":1089,"ms":10899138,"op":"edit"}
+{"version":172,"changes":[{"offset":192,"length":0,"text":"s"}],"doc":1,"seq":1090,"ms":10899344,"op":"edit"}
+{"version":173,"changes":[{"offset":193,"length":0,"text":" "}],"doc":1,"seq":1091,"ms":10899457,"op":"edit"}
+{"version":174,"changes":[{"offset":194,"length":0,"text":"y"}],"doc":1,"seq":1092,"ms":10899708,"op":"edit"}
+{"version":175,"changes":[{"offset":195,"length":0,"text":"o"}],"doc":1,"seq":1093,"ms":10899917,"op":"edit"}
+{"version":176,"changes":[{"offset":196,"length":0,"text":"u"}],"doc":1,"seq":1094,"ms":10900085,"op":"edit"}
+{"version":177,"changes":[{"offset":197,"length":0,"text":" "}],"doc":1,"seq":1095,"ms":10900250,"op":"edit"}
+{"version":178,"changes":[{"offset":198,"length":0,"text":"c"}],"doc":1,"seq":1096,"ms":10900370,"op":"edit"}
+{"version":179,"changes":[{"offset":199,"length":0,"text":"a"}],"doc":1,"seq":1097,"ms":10900541,"op":"edit"}
+{"version":180,"changes":[{"offset":200,"length":0,"text":"r"}],"doc":1,"seq":1098,"ms":10900814,"op":"edit"}
+{"version":181,"changes":[{"offset":201,"length":0,"text":"r"}],"doc":1,"seq":1099,"ms":10900943,"op":"edit"}
+{"version":182,"changes":[{"offset":202,"length":0,"text":"y"}],"doc":1,"seq":1100,"ms":10901151,"op":"edit"}
+{"doc":1,"seq":1101,"ms":10902161,"op":"save"}
+{"version":183,"changes":[{"offset":248,"length":15,"text":"T"}],"doc":1,"seq":1102,"ms":10910219,"op":"edit"}
+{"version":184,"changes":[{"offset":249,"length":0,"text":"h"}],"doc":1,"seq":1103,"ms":10910426,"op":"edit"}
+{"version":185,"changes":[{"offset":250,"length":0,"text":"e"}],"doc":1,"seq":1104,"ms":10910568,"op":"edit"}
+{"version":186,"changes":[{"offset":251,"length":0,"text":" "}],"doc":1,"seq":1105,"ms":10910745,"op":"edit"}
+{"version":187,"changes":[{"offset":252,"length":0,"text":"g"}],"doc":1,"seq":1106,"ms":10911112,"op":"edit"}
+{"version":188,"changes":[{"offset":253,"length":0,"text":"i"}],"doc":1,"seq":1107,"ms":10911326,"op":"edit"}
+{"version":189,"changes":[{"offset":254,"length":0,"text":"v"}],"doc":1,"seq":1108,"ms":10911469,"op":"edit"}
+{"version":190,"changes":[{"offset":255,"length":0,"text":"e"}],"doc":1,"seq":1109,"ms":10911575,"op":"edit"}
+{"version":191,"changes":[{"offset":256,"length":0,"text":"r"}],"doc":1,"seq":1110,"ms":10911733,"op":"edit"}
+{"doc":1,"seq":1111,"ms":10912749,"op":"save"}
+{"version":192,"changes":[{"offset":302,"length":15,"text":"O"}],"doc":1,"seq":1112,"ms":10920956,"op":"edit"}
+{"version":193,"changes":[{"offset":303,"length":0,"text":"u"}],"doc":1,"seq":1113,"ms":10921143,"op":"edit"}
+{"version":194,"changes":[{"offset":304,"length":0,"text":"t"}],"doc":1,"seq":1114,"ms":10921306,"op":"edit"}
+{"version":195,"changes":[{"offset":305,"length":0,"text":"s"}],"doc":1,"seq":1115,"ms":10921654,"op":"edit"}
+{"version":196,"changes":[{"offset":306,"length":0,"text":"i"}],"doc":1,"seq":1116,"ms":10921836,"op":"edit"}
+{"version":197,"changes":[{"offset":307,"length":0,"text":"d"}],"doc":1,"seq":1117,"ms":10921980,"op":"edit"}
+{"version":198,"changes":[{"offset":308,"length":0,"text":"e"}],"doc":1,"seq":1118,"ms":10922119,"op":"edit"}
+{"version":199,"changes":[{"offset":309,"length":0,"text":"r"}],"doc":1,"seq":1119,"ms":10922402,"op":"edit"}
+{"version":200,"changes":[{"offset":310,"length":0,"text":"s"}],"doc":1,"seq":1120,"ms":10922605,"op":"edit"}
+{"doc":1,"seq":1121,"ms":10923621,"op":"save"}
