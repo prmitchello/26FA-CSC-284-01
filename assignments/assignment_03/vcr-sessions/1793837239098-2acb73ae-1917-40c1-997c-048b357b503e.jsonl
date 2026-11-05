@@ -255,3 +255,26 @@
 {"version":152,"changes":[{"offset":846,"length":0,"text":" "}],"doc":3,"seq":254,"ms":1658224,"op":"edit"}
 {"version":153,"changes":[{"offset":847,"length":0,"text":"n"}],"doc":3,"seq":255,"ms":1658440,"op":"edit"}
 {"doc":3,"seq":256,"ms":1659454,"op":"save"}
+{"version":154,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1173,"length":18,"text":"if(n == title)return n"}],"doc":3,"seq":257,"ms":1679191,"op":"edit"}
+{"doc":3,"seq":258,"ms":1680205,"op":"save"}
+{"version":155,"changes":[{"offset":1181,"length":5,"text":"a"}],"doc":3,"seq":259,"ms":1681894,"op":"edit"}
+{"version":156,"changes":[{"offset":1182,"length":0,"text":"u"}],"doc":3,"seq":260,"ms":1682094,"op":"edit"}
+{"version":157,"changes":[{"offset":1183,"length":0,"text":"t"}],"doc":3,"seq":261,"ms":1682222,"op":"edit"}
+{"version":158,"changes":[{"offset":1184,"length":0,"text":"h"}],"doc":3,"seq":262,"ms":1682306,"op":"edit"}
+{"version":159,"changes":[{"offset":1185,"length":0,"text":"o"}],"doc":3,"seq":263,"ms":1682510,"op":"edit"}
+{"version":160,"changes":[{"offset":1186,"length":0,"text":"r"}],"doc":3,"seq":264,"ms":1682594,"op":"edit"}
+{"doc":3,"seq":265,"ms":1683606,"op":"save"}
+{"version":161,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1517,"length":17,"text":"if(n == title)return n"}],"doc":3,"seq":266,"ms":1692052,"op":"edit"}
+{"doc":3,"seq":267,"ms":1693064,"op":"save"}
+{"version":162,"changes":[{"offset":1525,"length":5,"text":"g"}],"doc":3,"seq":268,"ms":1695042,"op":"edit"}
+{"version":163,"changes":[{"offset":1526,"length":0,"text":"e"}],"doc":3,"seq":269,"ms":1695165,"op":"edit"}
+{"version":164,"changes":[{"offset":1527,"length":0,"text":"n"}],"doc":3,"seq":270,"ms":1695364,"op":"edit"}
+{"version":165,"changes":[{"offset":1528,"length":0,"text":"r"}],"doc":3,"seq":271,"ms":1695498,"op":"edit"}
+{"version":166,"changes":[{"offset":1529,"length":0,"text":"e"}],"doc":3,"seq":272,"ms":1695623,"op":"edit"}
+{"doc":3,"seq":273,"ms":1696634,"op":"save"}
+{"executionId":"338d8cc9-92e6-40a5-9f22-a8a07a7e90f2","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":"if(n == title)return n","confidence":2,"doc":2,"seq":274,"ms":1702814,"op":"terminal.start"}
+{"executionId":"338d8cc9-92e6-40a5-9f22-a8a07a7e90f2","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","data":"\u001b]633;C\u0007zsh: no matches found: if(n == title)return\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":275,"ms":1702815,"op":"terminal.output"}
+{"executionId":"338d8cc9-92e6-40a5-9f22-a8a07a7e90f2","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":"if(n == title)return n","confidence":2,"exitCode":1,"doc":2,"seq":276,"ms":1702815,"op":"terminal.end"}
+{"executionId":"55c72ae8-08f1-4e06-b657-bd2f0598ef1d","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":"g++-16 -std=c++27 main.cpp","confidence":2,"doc":2,"seq":277,"ms":1724906,"op":"terminal.start"}
+{"executionId":"55c72ae8-08f1-4e06-b657-bd2f0598ef1d","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","data":"\u001b]633;C\u0007\u001b[01m\u001b[Kg++-16:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[Kunrecognized command-line option '\u001b[01m\u001b[K-std=c++27\u001b[m\u001b[K'; did you mean '\u001b[01m\u001b[K-std=c++17\u001b[m\u001b[K'?\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":278,"ms":1724927,"op":"terminal.output"}
+{"executionId":"55c72ae8-08f1-4e06-b657-bd2f0598ef1d","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":"g++-16 -std=c++27 main.cpp","confidence":2,"exitCode":1,"doc":2,"seq":279,"ms":1724927,"op":"terminal.end"}
