@@ -981,3 +981,25 @@
 {"doc":3,"seq":980,"ms":10644905,"op":"save"}
 {"version":430,"changes":[{"offset":2033,"length":0,"text":":"}],"doc":3,"seq":981,"ms":10645157,"op":"edit"}
 {"doc":3,"seq":982,"ms":10646164,"op":"save"}
+{"executionId":"78d8be98-3a93-467e-9e3c-53757791e021","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"doc":2,"seq":983,"ms":10698685,"op":"terminal.start"}
+{"executionId":"78d8be98-3a93-467e-9e3c-53757791e021","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","data":"\u001b]633;C\u0007","doc":2,"seq":984,"ms":10698737,"op":"terminal.output"}
+{"executionId":"78d8be98-3a93-467e-9e3c-53757791e021","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":985,"ms":10699329,"op":"terminal.output"}
+{"executionId":"78d8be98-3a93-467e-9e3c-53757791e021","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":0,"doc":2,"seq":986,"ms":10699329,"op":"terminal.end"}
+{"executionId":"9ae8f098-682f-4774-8374-ab2c1410d38a","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","commandLine":"./a.out","confidence":2,"doc":2,"seq":987,"ms":10711806,"op":"terminal.start"}
+{"executionId":"9ae8f098-682f-4774-8374-ab2c1410d38a","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","data":"\u001b]633;C\u0007","doc":2,"seq":988,"ms":10711857,"op":"terminal.output"}
+{"executionId":"9ae8f098-682f-4774-8374-ab2c1410d38a","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","data":"The books currently in the library: Title: game of thronesTitle: game of thronesTitle: game of thronesTitle: game of thronesTitle: Elden RingsTitle: House of the dragon\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":989,"ms":10711939,"op":"terminal.output"}
+{"executionId":"9ae8f098-682f-4774-8374-ab2c1410d38a","terminalId":"f4221dab-d29b-478e-ae31-2c1aae93e197","commandLine":"./a.out","confidence":2,"exitCode":0,"doc":2,"seq":990,"ms":10711939,"op":"terminal.end"}
+{"version":431,"changes":[{"offset":2052,"length":0,"text":"<"}],"doc":3,"seq":991,"ms":10728471,"op":"edit"}
+{"version":432,"changes":[{"offset":2053,"length":0,"text":"<"}],"doc":3,"seq":992,"ms":10728600,"op":"edit"}
+{"doc":3,"seq":993,"ms":10729617,"op":"save"}
+{"version":433,"changes":[{"offset":2054,"length":0,"text":"e"}],"doc":3,"seq":994,"ms":10730081,"op":"edit"}
+{"version":434,"changes":[{"offset":2055,"length":0,"text":"d"}],"doc":3,"seq":995,"ms":10730209,"op":"edit"}
+{"version":435,"changes":[{"offset":2056,"length":0,"text":"n"}],"doc":3,"seq":996,"ms":10730331,"op":"edit"}
+{"version":436,"changes":[{"offset":2057,"length":0,"text":";"}],"doc":3,"seq":997,"ms":10730627,"op":"edit"}
+{"version":437,"changes":[{"offset":2057,"length":1,"text":""}],"doc":3,"seq":998,"ms":10731375,"op":"edit"}
+{"version":438,"changes":[{"offset":2056,"length":1,"text":""}],"doc":3,"seq":999,"ms":10731551,"op":"edit"}
+{"version":439,"changes":[{"offset":2055,"length":1,"text":""}],"doc":3,"seq":1000,"ms":10732513,"op":"edit"}
+{"version":440,"changes":[{"offset":2055,"length":0,"text":"n"}],"doc":3,"seq":1001,"ms":10733030,"op":"edit"}
+{"version":441,"changes":[{"offset":2056,"length":0,"text":"d"}],"doc":3,"seq":1002,"ms":10733471,"op":"edit"}
+{"version":442,"changes":[{"offset":2057,"length":0,"text":"l"}],"doc":3,"seq":1003,"ms":10733705,"op":"edit"}
+{"doc":3,"seq":1004,"ms":10734732,"op":"save"}
