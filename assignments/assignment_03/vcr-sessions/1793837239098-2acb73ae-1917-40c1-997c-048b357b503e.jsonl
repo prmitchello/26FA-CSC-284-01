@@ -718,3 +718,53 @@
 {"version":306,"changes":[{"offset":1964,"length":1,"text":""}],"doc":3,"seq":717,"ms":3791940,"op":"edit"}
 {"version":307,"changes":[{"offset":1974,"length":12,"text":""}],"doc":3,"seq":718,"ms":3792946,"op":"edit"}
 {"doc":3,"seq":719,"ms":3792964,"op":"save"}
+{"executionId":"5d390a2e-b727-4365-a043-0e91bb060045","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"doc":2,"seq":720,"ms":3847130,"op":"terminal.start"}
+{"executionId":"5d390a2e-b727-4365-a043-0e91bb060045","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","data":"\u001b]633;C\u0007","doc":2,"seq":721,"ms":3847182,"op":"terminal.output"}
+{"executionId":"5d390a2e-b727-4365-a043-0e91bb060045","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","data":"In file included from \u001b[01m\u001b[Kmain.cpp:2\u001b[m\u001b[K:\r\n\u001b[01m\u001b[KLibrary.h:\u001b[m\u001b[K In member function '\u001b[01m\u001b[Kvoid Library<T>::\u001b[01;32m\u001b[KprintBooks\u001b[m\u001b[K()\u001b[m\u001b[K':\r\n\u001b[01m\u001b[KLibrary.h:68:16:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[K'\u001b[01m\u001b[Kstd::vector<Book>::iterator\u001b[m\u001b[K' has no member named '\u001b[01m\u001b[Ktitle\u001b[m\u001b[K' [\u001b[01;31m\u001b[K\u001b]8;;https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-template-body\u0007-Wtemplate-body\u001b]8;;\u0007\u001b[m\u001b[K]\r\n   68 |             it.\u001b[01;31m\u001b[Ktitle\u001b[m\u001b[K;\r\n      |                \u001b[01;31m\u001b[K^~~~~\u001b[m\u001b[K\r\n","doc":2,"seq":722,"ms":3847555,"op":"terminal.output"}
+{"executionId":"5d390a2e-b727-4365-a043-0e91bb060045","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":723,"ms":3847647,"op":"terminal.output"}
+{"executionId":"5d390a2e-b727-4365-a043-0e91bb060045","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":1,"doc":2,"seq":724,"ms":3847647,"op":"terminal.end"}
+{"version":308,"changes":[{"offset":1964,"length":0,"text":"/"}],"doc":3,"seq":725,"ms":3859202,"op":"edit"}
+{"version":309,"changes":[{"offset":1965,"length":0,"text":"/"}],"doc":3,"seq":726,"ms":3859354,"op":"edit"}
+{"doc":3,"seq":727,"ms":3860364,"op":"save"}
+{"version":310,"changes":[{"offset":1975,"length":0,"text":"\n            "}],"doc":3,"seq":728,"ms":3860554,"op":"edit"}
+{"version":311,"changes":[{"offset":1988,"length":0,"text":"/"}],"doc":3,"seq":729,"ms":3861192,"op":"edit"}
+{"version":312,"changes":[{"offset":1989,"length":0,"text":"/"}],"doc":3,"seq":730,"ms":3861349,"op":"edit"}
+{"doc":3,"seq":731,"ms":3862366,"op":"save"}
+{"version":313,"changes":[{"offset":1989,"length":1,"text":""}],"doc":3,"seq":732,"ms":3862452,"op":"edit"}
+{"version":314,"changes":[{"offset":1988,"length":1,"text":""}],"doc":3,"seq":733,"ms":3862610,"op":"edit"}
+{"doc":3,"seq":734,"ms":3863627,"op":"save"}
+{"version":315,"changes":[{"offset":1988,"length":0,"text":"b"}],"doc":3,"seq":735,"ms":3865367,"op":"edit"}
+{"version":316,"changes":[{"offset":1989,"length":0,"text":"o"}],"doc":3,"seq":736,"ms":3865592,"op":"edit"}
+{"version":317,"changes":[{"offset":1990,"length":0,"text":"o"}],"doc":3,"seq":737,"ms":3865742,"op":"edit"}
+{"version":318,"changes":[{"offset":1991,"length":0,"text":"k"}],"doc":3,"seq":738,"ms":3865818,"op":"edit"}
+{"doc":3,"seq":739,"ms":3866832,"op":"save"}
+{"version":319,"changes":[{"offset":1988,"length":4,"text":"bookCollections"}],"doc":3,"seq":740,"ms":3866915,"op":"edit"}
+{"doc":3,"seq":741,"ms":3867935,"op":"save"}
+{"version":320,"changes":[{"offset":2003,"length":0,"text":"."}],"doc":3,"seq":742,"ms":3868785,"op":"edit"}
+{"doc":3,"seq":743,"ms":3869810,"op":"save"}
+{"version":321,"changes":[{"offset":2004,"length":0,"text":"t"}],"doc":3,"seq":744,"ms":3870886,"op":"edit"}
+{"version":322,"changes":[{"offset":2005,"length":0,"text":"i"}],"doc":3,"seq":745,"ms":3871096,"op":"edit"}
+{"version":323,"changes":[{"offset":2006,"length":0,"text":"e"}],"doc":3,"seq":746,"ms":3871414,"op":"edit"}
+{"version":324,"changes":[{"offset":2006,"length":1,"text":""}],"doc":3,"seq":747,"ms":3871959,"op":"edit"}
+{"version":325,"changes":[{"offset":2006,"length":0,"text":"l"}],"doc":3,"seq":748,"ms":3872682,"op":"edit"}
+{"version":326,"changes":[{"offset":2006,"length":1,"text":""}],"doc":3,"seq":749,"ms":3873630,"op":"edit"}
+{"version":327,"changes":[{"offset":2006,"length":0,"text":"t"}],"doc":3,"seq":750,"ms":3873763,"op":"edit"}
+{"version":328,"changes":[{"offset":2007,"length":0,"text":"l"}],"doc":3,"seq":751,"ms":3873971,"op":"edit"}
+{"version":329,"changes":[{"offset":2008,"length":0,"text":"e"}],"doc":3,"seq":752,"ms":3874134,"op":"edit"}
+{"version":330,"changes":[{"offset":2009,"length":0,"text":";"}],"doc":3,"seq":753,"ms":3874908,"op":"edit"}
+{"doc":3,"seq":754,"ms":3875924,"op":"save"}
+{"executionId":"8f9781f4-5627-4e08-a7fe-20f2eebd15e1","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"doc":2,"seq":755,"ms":3884080,"op":"terminal.start"}
+{"executionId":"8f9781f4-5627-4e08-a7fe-20f2eebd15e1","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","data":"\u001b]633;C\u0007","doc":2,"seq":756,"ms":3884131,"op":"terminal.output"}
+{"executionId":"8f9781f4-5627-4e08-a7fe-20f2eebd15e1","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","data":"In file included from \u001b[01m\u001b[Kmain.cpp:2\u001b[m\u001b[K:\r\n\u001b[01m\u001b[KLibrary.h:\u001b[m\u001b[K In member function '\u001b[01m\u001b[Kvoid Library<T>::\u001b[01;32m\u001b[KprintBooks\u001b[m\u001b[K()\u001b[m\u001b[K':\r\n\u001b[01m\u001b[KLibrary.h:69:29:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[K'\u001b[01m\u001b[Kclass std::vector<Book>\u001b[m\u001b[K' has no member named '\u001b[01m\u001b[Ktitle\u001b[m\u001b[K' [\u001b[01;31m\u001b[K\u001b]8;;https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-template-body\u0007-Wtemplate-body\u001b]8;;\u0007\u001b[m\u001b[K]\r\n   69 |             bookCollections.\u001b[01;31m\u001b[Ktitle\u001b[m\u001b[K;\r\n      |                             \u001b[01;31m\u001b[K^~~~~\u001b[m\u001b[K\r\n","doc":2,"seq":757,"ms":3884393,"op":"terminal.output"}
+{"executionId":"8f9781f4-5627-4e08-a7fe-20f2eebd15e1","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":758,"ms":3884474,"op":"terminal.output"}
+{"executionId":"8f9781f4-5627-4e08-a7fe-20f2eebd15e1","terminalId":"0770fc37-44d9-4b16-8605-92ab9ba9a96c","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":1,"doc":2,"seq":759,"ms":3884474,"op":"terminal.end"}
+{"version":331,"changes":[{"offset":2004,"length":0,"text":"g"}],"doc":3,"seq":760,"ms":3888940,"op":"edit"}
+{"version":332,"changes":[{"offset":2005,"length":0,"text":"e"}],"doc":3,"seq":761,"ms":3889032,"op":"edit"}
+{"version":333,"changes":[{"offset":2006,"length":0,"text":"t"}],"doc":3,"seq":762,"ms":3889205,"op":"edit"}
+{"doc":3,"seq":763,"ms":3890218,"op":"save"}
+{"version":334,"changes":[{"offset":2007,"length":1,"text":""}],"doc":3,"seq":764,"ms":3890702,"op":"edit"}
+{"version":335,"changes":[{"offset":2007,"length":0,"text":"T"}],"doc":3,"seq":765,"ms":3891289,"op":"edit"}
+{"doc":3,"seq":766,"ms":3892298,"op":"save"}
+{"version":336,"changes":[{"offset":2012,"length":0,"text":"()"}],"doc":3,"seq":767,"ms":3893186,"op":"edit"}
+{"version":337,"changes":[{"offset":2013,"length":1,"text":")"}],"doc":3,"seq":768,"ms":3893257,"op":"edit"}
+{"doc":3,"seq":769,"ms":3894267,"op":"save"}
