@@ -507,3 +507,59 @@
 {"executionId":"58c9685d-6fd4-4dea-b64a-a0751ed059c9","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","data":"\u001b]633;C\u0007","doc":2,"seq":506,"ms":2628773,"op":"terminal.output"}
 {"executionId":"58c9685d-6fd4-4dea-b64a-a0751ed059c9","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":507,"ms":2629989,"op":"terminal.output"}
 {"executionId":"58c9685d-6fd4-4dea-b64a-a0751ed059c9","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":"g++ -std=c++23 main.cpp","confidence":2,"exitCode":0,"doc":2,"seq":508,"ms":2629989,"op":"terminal.end"}
+{"version":12,"changes":[{"offset":169,"length":0,"text":"\n    "}],"doc":1,"seq":509,"ms":2639130,"op":"edit"}
+{"version":13,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":174,"length":0,"text":" Book b1(\"game of thrones\",\"GRR Martin\",1988,\"Fiction\");"}],"doc":1,"seq":510,"ms":2639414,"op":"edit"}
+{"version":14,"changes":[{"offset":230,"length":0,"text":"\n     "}],"doc":1,"seq":511,"ms":2639973,"op":"edit"}
+{"version":15,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":236,"length":0,"text":" Book b1(\"game of thrones\",\"GRR Martin\",1988,\"Fiction\");"}],"doc":1,"seq":512,"ms":2640413,"op":"edit"}
+{"doc":1,"seq":513,"ms":2641427,"op":"save"}
+{"version":16,"changes":[{"offset":292,"length":0,"text":"\n      "}],"doc":1,"seq":514,"ms":2641457,"op":"edit"}
+{"version":17,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":299,"length":0,"text":" Book b1(\"game of thrones\",\"GRR Martin\",1988,\"Fiction\");"}],"doc":1,"seq":515,"ms":2641847,"op":"edit"}
+{"version":18,"changes":[{"offset":355,"length":0,"text":"\n       "}],"doc":1,"seq":516,"ms":2642359,"op":"edit"}
+{"version":19,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":363,"length":0,"text":" Book b1(\"game of thrones\",\"GRR Martin\",1988,\"Fiction\");"}],"doc":1,"seq":517,"ms":2642810,"op":"edit"}
+{"doc":1,"seq":518,"ms":2643828,"op":"save"}
+{"version":20,"changes":[{"offset":419,"length":0,"text":"\n        "}],"doc":1,"seq":519,"ms":2645243,"op":"edit"}
+{"doc":1,"seq":520,"ms":2646260,"op":"save"}
+{"version":21,"changes":[{"offset":424,"length":4,"text":""}],"doc":1,"seq":521,"ms":2646872,"op":"edit"}
+{"version":22,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":424,"length":0,"text":" Book b1(\"game of thrones\",\"GRR Martin\",1988,\"Fiction\");"}],"doc":1,"seq":522,"ms":2647269,"op":"edit"}
+{"doc":1,"seq":523,"ms":2648283,"op":"save"}
+{"version":23,"changes":[{"offset":356,"length":8,"text":"    "},{"offset":293,"length":7,"text":"    "},{"offset":231,"length":6,"text":"    "},{"offset":170,"length":5,"text":"    "},{"offset":110,"length":4,"text":""}],"doc":1,"seq":524,"ms":2651951,"op":"edit"}
+{"doc":1,"seq":525,"ms":2652961,"op":"save"}
+{"version":24,"reason":1,"changes":[{"offset":346,"length":4,"text":"        "},{"offset":286,"length":4,"text":"       "},{"offset":226,"length":4,"text":"      "},{"offset":166,"length":4,"text":"     "},{"offset":110,"length":0,"text":"    "}],"doc":1,"seq":526,"ms":2654635,"op":"edit"}
+{"doc":1,"seq":527,"ms":2655645,"op":"save"}
+{"version":25,"changes":[{"offset":235,"length":2,"text":""}],"doc":1,"seq":528,"ms":2656842,"op":"edit"}
+{"doc":1,"seq":529,"ms":2657859,"op":"save"}
+{"version":26,"changes":[{"offset":174,"length":1,"text":""}],"doc":1,"seq":530,"ms":2658746,"op":"edit"}
+{"doc":1,"seq":531,"ms":2659761,"op":"save"}
+{"version":27,"changes":[{"offset":290,"length":4,"text":""}],"doc":1,"seq":532,"ms":2660283,"op":"edit"}
+{"doc":1,"seq":533,"ms":2661296,"op":"save"}
+{"version":28,"changes":[{"offset":290,"length":0,"text":"    "}],"doc":1,"seq":534,"ms":2662105,"op":"edit"}
+{"doc":1,"seq":535,"ms":2663116,"op":"save"}
+{"version":29,"changes":[{"offset":294,"length":3,"text":""}],"doc":1,"seq":536,"ms":2663650,"op":"edit"}
+{"doc":1,"seq":537,"ms":2664658,"op":"save"}
+{"version":30,"changes":[{"offset":350,"length":4,"text":""}],"doc":1,"seq":538,"ms":2665786,"op":"edit"}
+{"doc":1,"seq":539,"ms":2666808,"op":"save"}
+{"version":31,"changes":[{"offset":409,"length":1,"text":""}],"doc":1,"seq":540,"ms":2668267,"op":"edit"}
+{"version":32,"changes":[{"offset":409,"length":0,"text":"\n    "}],"doc":1,"seq":541,"ms":2669249,"op":"edit"}
+{"doc":1,"seq":542,"ms":2670262,"op":"save"}
+{"version":33,"changes":[{"offset":418,"length":1,"text":""}],"doc":1,"seq":543,"ms":2671417,"op":"edit"}
+{"version":34,"changes":[{"offset":414,"length":4,"text":""}],"doc":1,"seq":544,"ms":2671814,"op":"edit"}
+{"doc":1,"seq":545,"ms":2672827,"op":"save"}
+{"version":35,"changes":[{"offset":180,"length":1,"text":""}],"doc":1,"seq":546,"ms":2674971,"op":"edit"}
+{"version":36,"changes":[{"offset":180,"length":0,"text":"2"}],"doc":1,"seq":547,"ms":2675151,"op":"edit"}
+{"doc":1,"seq":548,"ms":2676162,"op":"save"}
+{"version":37,"changes":[{"offset":179,"length":2,"text":"back_insert_iterator"}],"doc":1,"seq":549,"ms":2680742,"op":"edit"}
+{"doc":1,"seq":550,"ms":2681751,"op":"save"}
+{"version":38,"reason":1,"changes":[{"offset":179,"length":20,"text":"b2"}],"doc":1,"seq":551,"ms":2683617,"op":"edit"}
+{"doc":1,"seq":552,"ms":2684625,"op":"save"}
+{"version":39,"changes":[{"offset":240,"length":1,"text":""}],"doc":1,"seq":553,"ms":2685231,"op":"edit"}
+{"version":40,"changes":[{"offset":240,"length":0,"text":"3"}],"doc":1,"seq":554,"ms":2685388,"op":"edit"}
+{"doc":1,"seq":555,"ms":2686398,"op":"save"}
+{"version":41,"changes":[{"offset":300,"length":1,"text":""}],"doc":1,"seq":556,"ms":2687745,"op":"edit"}
+{"version":42,"changes":[{"offset":300,"length":0,"text":"4"}],"doc":1,"seq":557,"ms":2688127,"op":"edit"}
+{"doc":1,"seq":558,"ms":2689138,"op":"save"}
+{"version":43,"changes":[{"offset":360,"length":1,"text":""}],"doc":1,"seq":559,"ms":2690437,"op":"edit"}
+{"version":44,"changes":[{"offset":360,"length":0,"text":"5"}],"doc":1,"seq":560,"ms":2691231,"op":"edit"}
+{"doc":1,"seq":561,"ms":2692240,"op":"save"}
+{"version":45,"changes":[{"offset":420,"length":1,"text":""}],"doc":1,"seq":562,"ms":2693300,"op":"edit"}
+{"version":46,"changes":[{"offset":420,"length":0,"text":"6"}],"doc":1,"seq":563,"ms":2693912,"op":"edit"}
+{"doc":1,"seq":564,"ms":2694923,"op":"save"}
