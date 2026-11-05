@@ -1037,3 +1037,39 @@
 {"version":470,"changes":[{"offset":2059,"length":0,"text":"o"}],"doc":3,"seq":1036,"ms":10767424,"op":"edit"}
 {"version":471,"changes":[{"offset":2060,"length":0,"text":"r"}],"doc":3,"seq":1037,"ms":10767554,"op":"edit"}
 {"doc":3,"seq":1038,"ms":10768580,"op":"save"}
+{"executionId":"f0cdea21-2592-4b76-bac4-21f4165d6fa9","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"doc":2,"seq":1039,"ms":10808067,"op":"terminal.start"}
+{"executionId":"f0cdea21-2592-4b76-bac4-21f4165d6fa9","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b]633;C\u0007","doc":2,"seq":1040,"ms":10808119,"op":"terminal.output"}
+{"executionId":"f0cdea21-2592-4b76-bac4-21f4165d6fa9","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"In file included from \u001b[01m\u001b[Kmain.cpp:2\u001b[m\u001b[K:\r\n\u001b[01m\u001b[KLibrary.h:\u001b[m\u001b[K In member function '\u001b[01m\u001b[Kvoid Library<T>::\u001b[01;32m\u001b[KprintBooks\u001b[m\u001b[K()\u001b[m\u001b[K':\r\n\u001b[01m\u001b[KLibrary.h:71:78:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[Kexpected '\u001b[01m\u001b[K;\u001b[m\u001b[K' before '\u001b[01m\u001b[Kendl\u001b[m\u001b[K' [\u001b[01;31m\u001b[K\u001b]8;;https://gcc.gnu.org/onlinedocs/gcc-16.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-template-body\u0007-Wtemplate-body\u001b]8;;\u0007\u001b[m\u001b[K]\r\n   71 |             std::cout<<\"Title: \"<<it->getTitle()<<\"Author: \"<<it->getAuthor()\u001b[01;31m\u001b[Kendl\u001b[m\u001b[K;\r\n      |                                                                              \u001b[01;31m\u001b[K^~~~\u001b[m\u001b[K\r\n","doc":2,"seq":1041,"ms":10808503,"op":"terminal.output"}
+{"executionId":"f0cdea21-2592-4b76-bac4-21f4165d6fa9","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":1042,"ms":10808615,"op":"terminal.output"}
+{"executionId":"f0cdea21-2592-4b76-bac4-21f4165d6fa9","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":1,"doc":2,"seq":1043,"ms":10808616,"op":"terminal.end"}
+{"version":472,"changes":[{"offset":2081,"length":0,"text":"<"}],"doc":3,"seq":1044,"ms":10821219,"op":"edit"}
+{"version":473,"changes":[{"offset":2082,"length":0,"text":"<"}],"doc":3,"seq":1045,"ms":10821357,"op":"edit"}
+{"doc":3,"seq":1046,"ms":10822367,"op":"save"}
+{"executionId":"468a6202-dec7-4d8d-ae9c-1f7b3b4c7097","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"doc":2,"seq":1047,"ms":10826263,"op":"terminal.start"}
+{"executionId":"468a6202-dec7-4d8d-ae9c-1f7b3b4c7097","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b]633;C\u0007","doc":2,"seq":1048,"ms":10826315,"op":"terminal.output"}
+{"executionId":"468a6202-dec7-4d8d-ae9c-1f7b3b4c7097","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":1049,"ms":10826788,"op":"terminal.output"}
+{"executionId":"468a6202-dec7-4d8d-ae9c-1f7b3b4c7097","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":0,"doc":2,"seq":1050,"ms":10826788,"op":"terminal.end"}
+{"executionId":"1976282a-af8e-45d0-a116-dadd73eaff47","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"./a.out","confidence":2,"doc":2,"seq":1051,"ms":10832352,"op":"terminal.start"}
+{"executionId":"1976282a-af8e-45d0-a116-dadd73eaff47","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b]633;C\u0007","doc":2,"seq":1052,"ms":10832403,"op":"terminal.output"}
+{"executionId":"1976282a-af8e-45d0-a116-dadd73eaff47","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"The books currently in the library: Title: game of thronesAuthor: GRR Martin\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: game of thronesAuthor: GRR Martin\r\nTitle: Elden RingsAuthor: GRR Martin\r\nTitle: House of the dragonAuthor: GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":1053,"ms":10832482,"op":"terminal.output"}
+{"executionId":"1976282a-af8e-45d0-a116-dadd73eaff47","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"./a.out","confidence":2,"exitCode":0,"doc":2,"seq":1054,"ms":10832483,"op":"terminal.end"}
+{"version":474,"changes":[{"offset":1823,"length":0,"text":"<"}],"doc":3,"seq":1055,"ms":10845681,"op":"edit"}
+{"version":475,"changes":[{"offset":1824,"length":0,"text":"<"}],"doc":3,"seq":1056,"ms":10845803,"op":"edit"}
+{"version":476,"changes":[{"offset":1825,"length":0,"text":"e"}],"doc":3,"seq":1057,"ms":10846718,"op":"edit"}
+{"version":477,"changes":[{"offset":1826,"length":0,"text":"d"}],"doc":3,"seq":1058,"ms":10846864,"op":"edit"}
+{"version":478,"changes":[{"offset":1827,"length":0,"text":"n"}],"doc":3,"seq":1059,"ms":10847035,"op":"edit"}
+{"version":479,"changes":[{"offset":1828,"length":0,"text":"l"}],"doc":3,"seq":1060,"ms":10847543,"op":"edit"}
+{"version":480,"changes":[{"offset":1828,"length":1,"text":""}],"doc":3,"seq":1061,"ms":10848270,"op":"edit"}
+{"version":481,"changes":[{"offset":1827,"length":1,"text":""}],"doc":3,"seq":1062,"ms":10848448,"op":"edit"}
+{"version":482,"changes":[{"offset":1826,"length":1,"text":""}],"doc":3,"seq":1063,"ms":10848620,"op":"edit"}
+{"version":483,"changes":[{"offset":1826,"length":0,"text":"n"}],"doc":3,"seq":1064,"ms":10849205,"op":"edit"}
+{"version":484,"changes":[{"offset":1827,"length":0,"text":"d"}],"doc":3,"seq":1065,"ms":10849366,"op":"edit"}
+{"version":485,"changes":[{"offset":1828,"length":0,"text":"l"}],"doc":3,"seq":1066,"ms":10849495,"op":"edit"}
+{"doc":3,"seq":1067,"ms":10850510,"op":"save"}
+{"version":486,"changes":[{"offset":1822,"length":0,"text":"\\"}],"doc":3,"seq":1068,"ms":10855519,"op":"edit"}
+{"version":487,"changes":[{"offset":1823,"length":0,"text":"n"}],"doc":3,"seq":1069,"ms":10856047,"op":"edit"}
+{"doc":3,"seq":1070,"ms":10857059,"op":"save"}
+{"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"doc":2,"seq":1071,"ms":10861408,"op":"terminal.start"}
+{"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b]633;C\u0007","doc":2,"seq":1072,"ms":10861459,"op":"terminal.output"}
+{"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":1073,"ms":10861888,"op":"terminal.output"}
+{"executionId":"4e9124d3-abed-4033-8d4b-a657aece4c72","terminalId":"39616204-9fbd-46ea-aded-131000819648","commandLine":"g++-16 -std=c++23 main.cpp","confidence":2,"exitCode":0,"doc":2,"seq":1074,"ms":10861888,"op":"terminal.end"}
