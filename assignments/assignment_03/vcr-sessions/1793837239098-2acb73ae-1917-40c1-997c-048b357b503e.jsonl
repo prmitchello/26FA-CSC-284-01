@@ -472,3 +472,20 @@
 {"version":267,"changes":[{"offset":219,"length":0,"text":"n"}],"doc":3,"seq":471,"ms":2517200,"op":"edit"}
 {"version":268,"changes":[{"offset":220,"length":0,"text":"g"}],"doc":3,"seq":472,"ms":2517339,"op":"edit"}
 {"doc":3,"seq":473,"ms":2518353,"op":"save"}
+{"version":269,"changes":[{"offset":199,"length":0,"text":"="}],"doc":3,"seq":474,"ms":2550421,"op":"edit"}
+{"version":270,"changes":[{"offset":200,"length":0,"text":"s"}],"doc":3,"seq":475,"ms":2550611,"op":"edit"}
+{"version":271,"changes":[{"offset":201,"length":0,"text":"t"}],"doc":3,"seq":476,"ms":2550905,"op":"edit"}
+{"version":272,"changes":[{"offset":202,"length":0,"text":"r"}],"doc":3,"seq":477,"ms":2550984,"op":"edit"}
+{"version":273,"changes":[{"offset":203,"length":0,"text":"i"}],"doc":3,"seq":478,"ms":2551155,"op":"edit"}
+{"version":274,"changes":[{"offset":204,"length":0,"text":"n"}],"doc":3,"seq":479,"ms":2551272,"op":"edit"}
+{"version":275,"changes":[{"offset":205,"length":0,"text":"g"}],"doc":3,"seq":480,"ms":2551388,"op":"edit"}
+{"doc":3,"seq":481,"ms":2552401,"op":"save"}
+{"version":276,"changes":[{"offset":222,"length":6,"text":"T"}],"doc":3,"seq":482,"ms":2553409,"op":"edit"}
+{"doc":3,"seq":483,"ms":2554429,"op":"save"}
+{"version":277,"changes":[{"offset":222,"length":1,"text":""}],"doc":3,"seq":484,"ms":2554978,"op":"edit"}
+{"version":278,"changes":[{"offset":221,"length":1,"text":""}],"doc":3,"seq":485,"ms":2555431,"op":"edit"}
+{"version":279,"changes":[{"offset":221,"length":1,"text":""}],"doc":3,"seq":486,"ms":2555819,"op":"edit"}
+{"doc":3,"seq":487,"ms":2556828,"op":"save"}
+{"executionId":"5637ff13-2d95-4188-844a-918bae7a7cc7","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":" implicit deduction guide declared as 'template <typename T> Library() -> Library<T>'\n./Library.h:16:7: note: candidate function template not viable: requires 1 argument, but 0 were provided\n   16 | class Library {","confidence":2,"doc":2,"seq":488,"ms":2565148,"op":"terminal.start"}
+{"executionId":"5637ff13-2d95-4188-844a-918bae7a7cc7","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","data":"\u001b]633;C\u0007zsh: command not found: implicit\r\nzsh: no such file or directory: ./Library.h:16:7:\r\nzsh: command not found: 16\r\nzsh: command not found: class\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":489,"ms":2565154,"op":"terminal.output"}
+{"executionId":"5637ff13-2d95-4188-844a-918bae7a7cc7","terminalId":"1b66678a-0d96-4548-87b3-a59b6c3ddec5","commandLine":" implicit deduction guide declared as 'template <typename T> Library() -> Library<T>'\n./Library.h:16:7: note: candidate function template not viable: requires 1 argument, but 0 were provided\n   16 | class Library {","confidence":2,"exitCode":127,"doc":2,"seq":490,"ms":2565154,"op":"terminal.end"}
