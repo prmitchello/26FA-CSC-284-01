@@ -969,3 +969,15 @@
 {"doc":3,"seq":968,"ms":10620174,"op":"save"}
 {"version":421,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1779,"length":0,"text":"cout<<\"The books currently in the library: \";"}],"doc":3,"seq":969,"ms":10620660,"op":"edit"}
 {"doc":3,"seq":970,"ms":10621668,"op":"save"}
+{"version":422,"changes":[{"offset":1935,"length":45,"text":"x"}],"doc":3,"seq":971,"ms":10626888,"op":"edit"}
+{"version":423,"changes":[{"offset":1935,"length":1,"text":""}],"doc":3,"seq":972,"ms":10627607,"op":"edit"}
+{"version":424,"changes":[{"offset":1923,"length":12,"text":""}],"doc":3,"seq":973,"ms":10628613,"op":"edit"}
+{"doc":3,"seq":974,"ms":10628633,"op":"save"}
+{"version":425,"changes":[{"offset":2028,"length":15,"text":"T"}],"doc":3,"seq":975,"ms":10642890,"op":"edit"}
+{"version":426,"changes":[{"offset":2029,"length":0,"text":"i"}],"doc":3,"seq":976,"ms":10643096,"op":"edit"}
+{"version":427,"changes":[{"offset":2030,"length":0,"text":"t"}],"doc":3,"seq":977,"ms":10643471,"op":"edit"}
+{"version":428,"changes":[{"offset":2031,"length":0,"text":"l"}],"doc":3,"seq":978,"ms":10643725,"op":"edit"}
+{"version":429,"changes":[{"offset":2032,"length":0,"text":"e"}],"doc":3,"seq":979,"ms":10643892,"op":"edit"}
+{"doc":3,"seq":980,"ms":10644905,"op":"save"}
+{"version":430,"changes":[{"offset":2033,"length":0,"text":":"}],"doc":3,"seq":981,"ms":10645157,"op":"edit"}
+{"doc":3,"seq":982,"ms":10646164,"op":"save"}
