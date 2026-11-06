@@ -21,3 +21,9 @@
 {"source":"watcher","path":".vscode/build/main.out.dSYM/Contents/Resources/Relocations/aarch64/main.out.yml","doc":12,"seq":20,"ms":161647,"op":"fs.create"}
 {"executionId":"bd4695fe-9b64-4296-944a-1063c9235f38","doc":2,"seq":21,"ms":161752,"op":"debug.end"}
 {"doc":1,"seq":22,"ms":174586,"op":"close"}
+{"executionId":"ba1be056-e547-47f5-9d9f-af6286c15cfb","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":23,"ms":179471,"op":"task.start"}
+{"executionId":"ba1be056-e547-47f5-9d9f-af6286c15cfb","processId":-1,"doc":2,"seq":24,"ms":179475,"op":"task.processStart"}
+{"executionId":"ba1be056-e547-47f5-9d9f-af6286c15cfb","exitCode":0,"doc":2,"seq":25,"ms":180067,"op":"task.processEnd"}
+{"executionId":"ba1be056-e547-47f5-9d9f-af6286c15cfb","doc":2,"seq":26,"ms":180068,"op":"task.end"}
+{"executionId":"16f96a5c-9784-4497-8078-d2ec0a41ba42","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":27,"ms":180073,"op":"debug.start"}
+{"executionId":"16f96a5c-9784-4497-8078-d2ec0a41ba42","doc":2,"seq":28,"ms":180202,"op":"debug.end"}
