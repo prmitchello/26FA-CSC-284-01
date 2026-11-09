@@ -4,3 +4,4 @@
 {"text":"","version":1,"path":"lambda.cpp","snapshot":true,"doc":2,"seq":3,"ms":40111,"op":"snap"}
 {"doc":1,"seq":4,"ms":95256,"op":"close"}
 {"doc":2,"seq":5,"ms":95750,"op":"close"}
+{"seq":6,"ms":267596343,"op":"end"}
