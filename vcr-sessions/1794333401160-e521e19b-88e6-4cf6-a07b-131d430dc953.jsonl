@@ -26,3 +26,4 @@
 {"executionId":"e5d09314-de56-4be4-b45a-2f82e420eb14","processId":-1,"doc":5,"seq":25,"ms":2876306,"op":"task.processStart"}
 {"executionId":"e5d09314-de56-4be4-b45a-2f82e420eb14","exitCode":-1,"doc":5,"seq":26,"ms":2876725,"op":"task.processEnd"}
 {"executionId":"e5d09314-de56-4be4-b45a-2f82e420eb14","doc":5,"seq":27,"ms":2876726,"op":"task.end"}
+{"seq":28,"ms":3013217,"op":"end"}
