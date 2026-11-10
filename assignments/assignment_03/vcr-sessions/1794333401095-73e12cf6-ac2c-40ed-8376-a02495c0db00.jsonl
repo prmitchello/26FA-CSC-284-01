@@ -29,3 +29,7 @@
 {"doc":1,"seq":28,"ms":2872362,"op":"save"}
 {"version":104,"changes":[{"offset":1006,"length":4,"text":"bookCollections"}],"doc":1,"seq":29,"ms":2872399,"op":"edit"}
 {"doc":1,"seq":30,"ms":2873413,"op":"save"}
+{"version":105,"changes":[{"offset":1023,"length":1,"text":""}],"doc":1,"seq":31,"ms":2885559,"op":"edit"}
+{"doc":1,"seq":32,"ms":2886568,"op":"save"}
+{"version":106,"changes":[{"offset":1055,"length":1,"text":""}],"doc":1,"seq":33,"ms":2887197,"op":"edit"}
+{"doc":1,"seq":34,"ms":2888208,"op":"save"}
