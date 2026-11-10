@@ -1522,3 +1522,7 @@
 {"version":164,"changes":[{"offset":1151,"length":0,"text":"\n    "}],"doc":1,"seq":1521,"ms":3347074,"op":"edit"}
 {"version":165,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1156,"length":0,"text":"cout<<endl;"}],"doc":1,"seq":1522,"ms":3347623,"op":"edit"}
 {"doc":1,"seq":1523,"ms":3348636,"op":"save"}
+{"version":166,"changes":[{"offset":1216,"length":315,"text":""}],"doc":1,"seq":1524,"ms":3375216,"op":"edit"}
+{"version":167,"changes":[{"offset":1216,"length":1,"text":""}],"doc":1,"seq":1525,"ms":3376165,"op":"edit"}
+{"version":168,"changes":[{"offset":1215,"length":1,"text":""}],"doc":1,"seq":1526,"ms":3376387,"op":"edit"}
+{"doc":1,"seq":1527,"ms":3377406,"op":"save"}
