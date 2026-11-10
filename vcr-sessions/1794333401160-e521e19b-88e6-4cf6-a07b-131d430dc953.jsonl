@@ -1,0 +1,7 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-11-10T17:56:41.160Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"bda3ad7c-acdf-45f2-9d9d-2c3372f8c63d","sourceWindowId":"448b7d09-564f-4421-9d59-2aa873ebb64f","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"96d8a2e3eb19fd0779790f23a26931b3cce2d2c0","seq":1,"ms":-1898,"op":"source.context"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-1898,"op":"snap"}
+{"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":3,"ms":16707,"op":"source.context"}
+{"source":"watcher","path":"content/images","doc":2,"seq":4,"ms":16707,"op":"fs.create"}
+{"source":"watcher","path":"content/images/RevisionDojoConcurrencyVsParallelism.jpg","doc":3,"seq":5,"ms":16707,"op":"fs.create"}
+{"source":"watcher","path":"content/multi-threading.md","doc":4,"seq":6,"ms":16707,"op":"fs.create"}

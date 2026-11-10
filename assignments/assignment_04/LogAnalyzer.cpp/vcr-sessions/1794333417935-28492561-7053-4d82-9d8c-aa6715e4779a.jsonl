@@ -1,0 +1,3 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/LogAnalyzer.cpp","startedAt":"2026-11-10T17:56:57.936Z","attemptId":"7f669726-796d-4849-921a-44bb7fb322ce","segmentId":"149f2cbb-6641-4e58-a4a0-619561c72120","sourceWindowId":"448b7d09-564f-4421-9d59-2aa873ebb64f","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":1,"ms":-69,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-69,"op":"fs.create"}
