@@ -1594,3 +1594,25 @@
 {"executionId":"6a1fbd85-08f0-480b-91b1-8a44cb006c3c","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":1593,"ms":3648828,"op":"terminal.start"}
 {"executionId":"6a1fbd85-08f0-480b-91b1-8a44cb006c3c","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007The books currently in the library: \r\n\r\nTitle: game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\r\nwe are removing: game of thrones\r\n was removed\r\n\r\nwe are searching for book: The giver\r\nmatchOutsiders\r\n\r\nwe are searching for book by genre: Science-Fiction\r\nresult Science-Fiction\r\n\r\nwe are searching for book by author: result GRR Martin\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\n   Title:                            Author: \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1594,"ms":3648847,"op":"terminal.output"}
 {"executionId":"6a1fbd85-08f0-480b-91b1-8a44cb006c3c","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1595,"ms":3648847,"op":"terminal.end"}
+{"version":1070,"changes":[{"offset":1297,"length":0,"text":" "}],"doc":2,"seq":1596,"ms":3671862,"op":"edit"}
+{"doc":2,"seq":1597,"ms":3672875,"op":"save"}
+{"version":1071,"changes":[{"offset":1050,"length":1,"text":""}],"doc":2,"seq":1598,"ms":3676603,"op":"edit"}
+{"doc":2,"seq":1599,"ms":3677623,"op":"save"}
+{"version":205,"changes":[{"offset":910,"length":9,"text":""}],"doc":1,"seq":1600,"ms":3710393,"op":"edit"}
+{"version":206,"changes":[{"offset":909,"length":1,"text":""}],"doc":1,"seq":1601,"ms":3710984,"op":"edit"}
+{"version":207,"changes":[{"offset":909,"length":1,"text":""}],"doc":1,"seq":1602,"ms":3711560,"op":"edit"}
+{"version":208,"changes":[{"offset":909,"length":0,"text":"b"}],"doc":1,"seq":1603,"ms":3712150,"op":"edit"}
+{"version":209,"changes":[{"offset":910,"length":0,"text":"3"}],"doc":1,"seq":1604,"ms":3712459,"op":"edit"}
+{"version":210,"changes":[{"offset":911,"length":0,"text":"."}],"doc":1,"seq":1605,"ms":3712862,"op":"edit"}
+{"version":211,"changes":[{"offset":912,"length":0,"text":"g"}],"doc":1,"seq":1606,"ms":3713047,"op":"edit"}
+{"version":212,"changes":[{"offset":913,"length":0,"text":"e"}],"doc":1,"seq":1607,"ms":3713153,"op":"edit"}
+{"version":213,"changes":[{"offset":914,"length":0,"text":"t"}],"doc":1,"seq":1608,"ms":3713323,"op":"edit"}
+{"doc":1,"seq":1609,"ms":3714342,"op":"save"}
+{"version":214,"changes":[{"offset":915,"length":0,"text":"T"}],"doc":1,"seq":1610,"ms":3714553,"op":"edit"}
+{"version":215,"changes":[{"offset":916,"length":0,"text":"i"}],"doc":1,"seq":1611,"ms":3715174,"op":"edit"}
+{"version":216,"changes":[{"offset":917,"length":0,"text":"t"}],"doc":1,"seq":1612,"ms":3715313,"op":"edit"}
+{"version":217,"changes":[{"offset":918,"length":0,"text":"l"}],"doc":1,"seq":1613,"ms":3715427,"op":"edit"}
+{"version":218,"changes":[{"offset":919,"length":0,"text":"e"}],"doc":1,"seq":1614,"ms":3715567,"op":"edit"}
+{"version":219,"changes":[{"offset":920,"length":0,"text":"()"}],"doc":1,"seq":1615,"ms":3716087,"op":"edit"}
+{"version":220,"changes":[{"offset":921,"length":1,"text":")"}],"doc":1,"seq":1616,"ms":3716161,"op":"edit"}
+{"doc":1,"seq":1617,"ms":3717186,"op":"save"}
