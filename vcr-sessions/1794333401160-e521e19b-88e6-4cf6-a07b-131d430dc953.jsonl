@@ -6,3 +6,7 @@
 {"source":"watcher","path":"content/images/RevisionDojoConcurrencyVsParallelism.jpg","doc":3,"seq":5,"ms":16707,"op":"fs.create"}
 {"source":"watcher","path":"content/multi-threading.md","doc":4,"seq":6,"ms":16707,"op":"fs.create"}
 {"doc":1,"seq":7,"ms":178470,"op":"close"}
+{"executionId":"a9176e15-6035-462d-9bcf-bc6d41fc2fc2","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":5,"seq":8,"ms":393884,"op":"task.start"}
+{"executionId":"a9176e15-6035-462d-9bcf-bc6d41fc2fc2","processId":-1,"doc":5,"seq":9,"ms":393900,"op":"task.processStart"}
+{"executionId":"a9176e15-6035-462d-9bcf-bc6d41fc2fc2","exitCode":-1,"doc":5,"seq":10,"ms":394170,"op":"task.processEnd"}
+{"executionId":"a9176e15-6035-462d-9bcf-bc6d41fc2fc2","doc":5,"seq":11,"ms":394171,"op":"task.end"}
