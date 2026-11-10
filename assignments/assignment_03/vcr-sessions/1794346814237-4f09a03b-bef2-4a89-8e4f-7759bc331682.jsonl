@@ -1337,3 +1337,30 @@
 {"version":88,"changes":[{"offset":914,"length":0,"text":"r"}],"doc":1,"seq":1336,"ms":2623907,"op":"edit"}
 {"version":89,"changes":[{"offset":915,"length":0,"text":"e"}],"doc":1,"seq":1337,"ms":2624048,"op":"edit"}
 {"doc":1,"seq":1338,"ms":2625058,"op":"save"}
+{"version":90,"changes":[{"offset":922,"length":1,"text":""}],"doc":1,"seq":1339,"ms":2664041,"op":"edit"}
+{"version":91,"changes":[{"offset":922,"length":0,"text":"4"}],"doc":1,"seq":1340,"ms":2664523,"op":"edit"}
+{"doc":1,"seq":1341,"ms":2665532,"op":"save"}
+{"version":92,"changes":[{"offset":929,"length":1,"text":""}],"doc":1,"seq":1342,"ms":2666126,"op":"edit"}
+{"version":93,"changes":[{"offset":929,"length":1,"text":""}],"doc":1,"seq":1343,"ms":2666600,"op":"edit"}
+{"version":94,"changes":[{"offset":929,"length":1,"text":""}],"doc":1,"seq":1344,"ms":2666929,"op":"edit"}
+{"version":95,"changes":[{"offset":928,"length":1,"text":""}],"doc":1,"seq":1345,"ms":2667146,"op":"edit"}
+{"version":96,"changes":[{"offset":928,"length":1,"text":""}],"doc":1,"seq":1346,"ms":2667491,"op":"edit"}
+{"version":97,"changes":[{"offset":929,"length":1,"text":""}],"doc":1,"seq":1347,"ms":2668137,"op":"edit"}
+{"version":98,"changes":[{"offset":928,"length":1,"text":""}],"doc":1,"seq":1348,"ms":2668811,"op":"edit"}
+{"version":99,"changes":[{"offset":927,"length":1,"text":""}],"doc":1,"seq":1349,"ms":2669002,"op":"edit"}
+{"version":100,"changes":[{"offset":926,"length":1,"text":""}],"doc":1,"seq":1350,"ms":2669169,"op":"edit"}
+{"text":"#include <iostream>\n#include \"Library.h\"\n\n\n\n\nusing namespace std;\n\n\nint main(){\n\n\n    Library bhccLibrary{};\n\n    Book b1(\"game of thrones\",\"GRR Martin\",1988,\"Fiction\");\n    Book b2(\"The things you carry\",\"GRR Martin\",1988,\"Fiction\");\n    Book b3(\"The giver\",\"GRR Martin\",1988,\"Science-Fiction\");\n    Book b4(\"Outsiders\",\"SE Hilton\",1988,\"Science-Fiction\");\n    Book b5(\"Elden Rings\",\"GRR Martin\",1988,\"Fiction\");\n    Book b6(\"House of the dragon\",\"GRR Martin\",1988,\"Fiction\");\n\n    bhccLibrary.add_book(b1);\n    bhccLibrary.add_book(b2);\n    bhccLibrary.add_book(b3);\n    bhccLibrary.add_book(b4);\n    bhccLibrary.add_book(b5);\n    bhccLibrary.add_book(b6);\n\n\n    bhccLibrary.printBooks();\n\n    cout<<\"we are removing: \";\n    bhccLibrary.remove_book(b1.getTitle());\n\n    cout<<\"we are searching for book: \"<<b3.getTitle()<<endl;\n    bhccLibrary.find_book(\"Outsiders\");\n\n    cout<<\"we are searching for book by genre: \"<<b4.g<endl;\n    bhccLibrary.get_books_by_genre(\"Science-Fiction\");\n\n    bhccLibrary.get_books_by_author(\"SE Hilton\");\n\n    cout<<endl;\n    bhccLibrary.printBooks();\n\n\n\n//Demonstrate the use of common Standard Library container algorithms and operations.\n\n// Your program should:\n\n// Add books to the library.\n// Remove books using erase() and remove_if().\n// Sort books by publication year in:\n// Ascending order\n// Descending order\n// Use std::find_if() to locate a book by title.\n\n\n    return 0;\n}\n","version":101,"snapshot":true,"doc":1,"seq":1351,"ms":2669402,"op":"edit"}
+{"version":102,"changes":[{"offset":924,"length":1,"text":""}],"doc":1,"seq":1352,"ms":2669761,"op":"edit"}
+{"version":103,"changes":[{"offset":924,"length":0,"text":"<"}],"doc":1,"seq":1353,"ms":2670272,"op":"edit"}
+{"doc":1,"seq":1354,"ms":2671285,"op":"save"}
+{"version":104,"changes":[{"offset":924,"length":0,"text":"g"}],"doc":1,"seq":1355,"ms":2674856,"op":"edit"}
+{"version":105,"changes":[{"offset":925,"length":0,"text":"e"}],"doc":1,"seq":1356,"ms":2674915,"op":"edit"}
+{"version":106,"changes":[{"offset":926,"length":0,"text":"t"}],"doc":1,"seq":1357,"ms":2675045,"op":"edit"}
+{"doc":1,"seq":1358,"ms":2676052,"op":"save"}
+{"version":107,"changes":[{"offset":924,"length":3,"text":"getGenre"}],"doc":1,"seq":1359,"ms":2676364,"op":"edit"}
+{"doc":1,"seq":1360,"ms":2677376,"op":"save"}
+{"version":108,"changes":[{"offset":932,"length":0,"text":"("}],"doc":1,"seq":1361,"ms":2678922,"op":"edit"}
+{"version":109,"changes":[{"offset":933,"length":0,"text":")"}],"doc":1,"seq":1362,"ms":2679003,"op":"edit"}
+{"doc":1,"seq":1363,"ms":2680015,"op":"save"}
+{"version":110,"changes":[{"offset":997,"length":0,"text":"\n    "}],"doc":1,"seq":1364,"ms":2694401,"op":"edit"}
+{"doc":1,"seq":1365,"ms":2695408,"op":"save"}
