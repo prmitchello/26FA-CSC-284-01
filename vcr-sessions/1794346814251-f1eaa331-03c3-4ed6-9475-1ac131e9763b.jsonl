@@ -1,0 +1,7 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-11-10T21:40:14.251Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"727e1901-f563-42c4-80f2-2f24be6f9007","sourceWindowId":"bb3d6399-e3c5-429a-a260-c6c531bb5000","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":1,"ms":-2054,"op":"source.context"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-2054,"op":"snap"}
+{"executionId":"22ce5570-e83d-4c44-8046-59192ae45ebb","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":2,"seq":3,"ms":56664,"op":"task.start"}
+{"executionId":"22ce5570-e83d-4c44-8046-59192ae45ebb","processId":-1,"doc":2,"seq":4,"ms":56686,"op":"task.processStart"}
+{"executionId":"22ce5570-e83d-4c44-8046-59192ae45ebb","exitCode":-1,"doc":2,"seq":5,"ms":56971,"op":"task.processEnd"}
+{"executionId":"22ce5570-e83d-4c44-8046-59192ae45ebb","doc":2,"seq":6,"ms":56972,"op":"task.end"}
