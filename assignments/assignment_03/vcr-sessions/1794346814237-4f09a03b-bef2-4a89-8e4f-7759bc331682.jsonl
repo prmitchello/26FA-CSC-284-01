@@ -1046,3 +1046,39 @@
 {"version":884,"changes":[{"offset":2934,"length":0,"text":"\"\""}],"doc":2,"seq":1045,"ms":1483151,"op":"edit"}
 {"version":885,"changes":[{"offset":2936,"length":1,"text":""}],"doc":2,"seq":1046,"ms":1484157,"op":"edit"}
 {"doc":2,"seq":1047,"ms":1484177,"op":"save"}
+{"version":886,"changes":[{"offset":2935,"length":0,"text":"r"}],"doc":2,"seq":1048,"ms":1522094,"op":"edit"}
+{"version":887,"changes":[{"offset":2936,"length":0,"text":"e"}],"doc":2,"seq":1049,"ms":1522128,"op":"edit"}
+{"version":888,"changes":[{"offset":2937,"length":0,"text":"s"}],"doc":2,"seq":1050,"ms":1522387,"op":"edit"}
+{"version":889,"changes":[{"offset":2938,"length":0,"text":"u"}],"doc":2,"seq":1051,"ms":1522523,"op":"edit"}
+{"version":890,"changes":[{"offset":2939,"length":0,"text":"l"}],"doc":2,"seq":1052,"ms":1522726,"op":"edit"}
+{"version":891,"changes":[{"offset":2940,"length":0,"text":"t"}],"doc":2,"seq":1053,"ms":1522841,"op":"edit"}
+{"version":892,"changes":[{"offset":2941,"length":0,"text":" "}],"doc":2,"seq":1054,"ms":1522994,"op":"edit"}
+{"doc":2,"seq":1055,"ms":1524008,"op":"save"}
+{"version":893,"changes":[{"offset":2943,"length":0,"text":"<"}],"doc":2,"seq":1056,"ms":1524296,"op":"edit"}
+{"version":894,"changes":[{"offset":2944,"length":0,"text":"<"}],"doc":2,"seq":1057,"ms":1524410,"op":"edit"}
+{"doc":2,"seq":1058,"ms":1525429,"op":"save"}
+{"version":895,"changes":[{"offset":2945,"length":0,"text":"r"}],"doc":2,"seq":1059,"ms":1526023,"op":"edit"}
+{"version":896,"changes":[{"offset":2946,"length":0,"text":"e"}],"doc":2,"seq":1060,"ms":1526076,"op":"edit"}
+{"version":897,"changes":[{"offset":2947,"length":0,"text":"s"}],"doc":2,"seq":1061,"ms":1526302,"op":"edit"}
+{"version":898,"changes":[{"offset":2948,"length":0,"text":"u"}],"doc":2,"seq":1062,"ms":1526366,"op":"edit"}
+{"version":899,"changes":[{"offset":2949,"length":0,"text":"l"}],"doc":2,"seq":1063,"ms":1526569,"op":"edit"}
+{"version":900,"changes":[{"offset":2950,"length":0,"text":"t"}],"doc":2,"seq":1064,"ms":1526671,"op":"edit"}
+{"doc":2,"seq":1065,"ms":1527691,"op":"save"}
+{"text":"#pragma once\n#include <iostream>\n#include <string>\n#include <vector>\n#include <iomanip>\n#include <ranges>\n#include <algorithm>\n#include \"Book.h\"\n\n//ifnotdef\n//define\n//endif;\n\nusing namespace std;\n\ntemplate <typename T=string>\nclass Library {\n\n    public:\n\n    std::vector<Book> bookCollections{};\n\n    Library(){\n        std::vector<Book> bookCollections{};\n    }\n\n    //: Adds a new book to the library.\n    void add_book(const Book& book){\n\n        bookCollections.push_back(book);\n    }\n    //: Removes a book from the library based on its title.\n    T remove_book(const std::string& title){\n        //needs to first find the matching book before removing\n         bookCollections.pop_back();\n\n        auto result = remove_if(bookCollections.begin(),bookCollections.end(),[&title](Book& bookVar)->{\n            return bookVar.getTitle()==title;\n        })\n\n        if(result !=){\n            cout<<result.getTitle()<<\" was removed\";\n        }else{\n            cout<<\"no match to remove\";\n        }\n\n        return 0;\n    }\n    //: Searches for a book by title and returns it (if found) or prints an error message.\n    T find_book(const std::string& title){\n\n        // auto byTitle = bookCollections;\n        //  std::views::filter([&](string n)->string{ if(n == title)return n ;});\n        // std::ranges::for_each(bookCollections, [](string &n)->string{return n;});\n\n\n        auto result = find_if(bookCollections.begin(),bookCollections.end(),[&title](Book& bookVar)->(\n            return bookVar.getTitle() == title;\n\n        ))\n\n        if(result != bookCollections.end()){\n            cout<<\"match\"<<result->getTitle();\n        }else{\n            cout<<\"no match\";\n        }\n\n        //std::range::;\n        return \"not found\";\n    }\n    //: Returns a collection of books written by the specified author.\n    T get_books_by_author(const std::string& author){\n\n        auto byAuthor = bookCollections;\n         std::views::filter([&](string n)->string{ if(n == author)return n;});\n        ranges::for_each(byAuthor, ([&](string n)->string{return n;}));\n        //std::range::\n\n        auto result = find_if(bookCollections.begin(),bookCollections.begin(),[&author](Book& bookVar)->{\n            return bookVar->getAuthor() == author;\n        })\n\n        if(result != bookCollections.end()){\n            cout<<\"result \"<<result->getAuthor();\n        }\n\n        return \"not found\";\n    }\n    //: Returns a collection of books belonging to the specified genre.\n    T get_books_by_genre(const std::string& genre){\n\n        auto byGenre = bookCollections;\n         std::views::filter([&](string n)->string{ if(n == genre)return n;});\n        ranges::for_each(byGenre, ([&](string n)->string{return n;}));\n\n        auto result = find_if(bookCollections.begin(),bookCollections.end(),[&genre](Book& bookVar){\n            return bookVar.getGenre() == genre;\n        })\n\n        if(result != bookCollections.end()){\n            cout<<\"result \"<<result-\n        }\n\n        // std::range::;\n        // find()\n        return \"not found\";\n    }\n\n    void printBooks(){\n        cout<<\"The books currently in the library: \\n\"<<endl;\n        for(vector<Book>::iterator it = bookCollections.begin(); it<bookCollections.end(); ++it){\n\n            //cout<<*it;\n            //it.title;\n            //bookCollections;\n            std::cout<<\"Title: \"<<it->getTitle()<<setw(35)<<\" Author: \"<<it->getAuthor()<<setw(10)<<endl;\n\n        }\n    }\n\n    // Use a std::vector<Book>::iterator to traverse the books in the library.\n    // Use an iterator to display all books in the library.\n    // Implement an iterator-based search function that finds books by author.\n\n\n};\n\n","version":901,"snapshot":true,"doc":2,"seq":1066,"ms":1528258,"op":"edit"}
+{"version":902,"changes":[{"offset":2952,"length":0,"text":">"}],"doc":2,"seq":1067,"ms":1528696,"op":"edit"}
+{"doc":2,"seq":1068,"ms":1529721,"op":"save"}
+{"version":903,"changes":[{"offset":2953,"length":0,"text":"g"}],"doc":2,"seq":1069,"ms":1530639,"op":"edit"}
+{"version":904,"changes":[{"offset":2954,"length":0,"text":"e"}],"doc":2,"seq":1070,"ms":1530726,"op":"edit"}
+{"version":905,"changes":[{"offset":2955,"length":0,"text":"t"}],"doc":2,"seq":1071,"ms":1530850,"op":"edit"}
+{"doc":2,"seq":1072,"ms":1531863,"op":"save"}
+{"version":906,"changes":[{"offset":2956,"length":0,"text":"G"}],"doc":2,"seq":1073,"ms":1533100,"op":"edit"}
+{"version":907,"changes":[{"offset":2957,"length":0,"text":"e"}],"doc":2,"seq":1074,"ms":1533232,"op":"edit"}
+{"version":908,"changes":[{"offset":2958,"length":0,"text":"n"}],"doc":2,"seq":1075,"ms":1533332,"op":"edit"}
+{"version":909,"changes":[{"offset":2959,"length":0,"text":"r"}],"doc":2,"seq":1076,"ms":1533500,"op":"edit"}
+{"version":910,"changes":[{"offset":2960,"length":0,"text":"e"}],"doc":2,"seq":1077,"ms":1533584,"op":"edit"}
+{"version":911,"changes":[{"offset":2961,"length":0,"text":"()"}],"doc":2,"seq":1078,"ms":1534533,"op":"edit"}
+{"version":912,"changes":[{"offset":2962,"length":1,"text":")"}],"doc":2,"seq":1079,"ms":1534604,"op":"edit"}
+{"version":913,"changes":[{"offset":2963,"length":0,"text":";"}],"doc":2,"seq":1080,"ms":1535035,"op":"edit"}
+{"doc":2,"seq":1081,"ms":1536049,"op":"save"}
+{"version":914,"changes":[{"offset":2646,"length":0,"text":"// "},{"offset":2568,"length":0,"text":"// "},{"offset":2528,"length":0,"text":"// "}],"doc":2,"seq":1082,"ms":1549301,"op":"edit"}
+{"doc":2,"seq":1083,"ms":1550311,"op":"save"}
