@@ -70,3 +70,16 @@
 {"executionId":"64cceaea-a773-4e40-971e-da3698429780","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":133,"doc":3,"seq":69,"ms":350765,"op":"terminal.end"}
 {"version":49,"changes":[{"offset":647,"length":30,"text":""}],"doc":2,"seq":70,"ms":389354,"op":"edit"}
 {"doc":2,"seq":71,"ms":390377,"op":"save"}
+{"version":2,"changes":[{"offset":1953,"length":1,"text":""}],"doc":1,"seq":72,"ms":824827,"op":"edit"}
+{"version":3,"changes":[{"offset":1952,"length":1,"text":""}],"doc":1,"seq":73,"ms":825194,"op":"edit"}
+{"version":4,"changes":[{"offset":1951,"length":1,"text":""}],"doc":1,"seq":74,"ms":825599,"op":"edit"}
+{"version":5,"changes":[{"offset":1951,"length":0,"text":"i"}],"doc":1,"seq":75,"ms":826402,"op":"edit"}
+{"version":6,"changes":[{"offset":836,"length":8,"text":""}],"doc":1,"seq":76,"ms":827412,"op":"edit"}
+{"doc":1,"seq":77,"ms":827436,"op":"save"}
+{"version":7,"changes":[{"offset":1945,"length":0,"text":"+"}],"doc":1,"seq":78,"ms":827663,"op":"edit"}
+{"version":8,"changes":[{"offset":1946,"length":0,"text":"+"}],"doc":1,"seq":79,"ms":827800,"op":"edit"}
+{"doc":1,"seq":80,"ms":828811,"op":"save"}
+{"executionId":"eda291a5-3468-4a9e-bb25-06050f885222","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":81,"ms":836399,"op":"terminal.start"}
+{"executionId":"eda291a5-3468-4a9e-bb25-06050f885222","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","data":"\u001b]633;C\u0007","doc":3,"seq":82,"ms":836450,"op":"terminal.output"}
+{"executionId":"eda291a5-3468-4a9e-bb25-06050f885222","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","data":"The books currently in the library: \r\n\r\nTitle: game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\nzsh: trace trap  /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":3,"seq":83,"ms":836509,"op":"terminal.output"}
+{"executionId":"eda291a5-3468-4a9e-bb25-06050f885222","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":133,"doc":3,"seq":84,"ms":836509,"op":"terminal.end"}
