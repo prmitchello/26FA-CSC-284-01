@@ -1389,3 +1389,19 @@
 {"version":128,"changes":[{"offset":1047,"length":1,"text":""}],"doc":1,"seq":1388,"ms":2749734,"op":"edit"}
 {"version":129,"changes":[{"offset":1047,"length":0,"text":";"}],"doc":1,"seq":1389,"ms":2750419,"op":"edit"}
 {"doc":1,"seq":1390,"ms":2751432,"op":"save"}
+{"executionId":"74e48bbf-1791-4167-a875-d7a192355399","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":1391,"ms":2774017,"op":"terminal.start"}
+{"executionId":"74e48bbf-1791-4167-a875-d7a192355399","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":1392,"ms":2774068,"op":"terminal.output"}
+{"executionId":"74e48bbf-1791-4167-a875-d7a192355399","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\nwe are removing:  was removed\r\nwe are searching for book: The giver\r\nmatchOutsiderswe are searching for book by genre: Science-Fiction\r\nresult Science-Fictionwe are searching for book by author: result GRR Martin\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\n   Title:                            Author: \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1393,"ms":2774130,"op":"terminal.output"}
+{"executionId":"74e48bbf-1791-4167-a875-d7a192355399","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1394,"ms":2774130,"op":"terminal.end"}
+{"version":130,"changes":[{"offset":721,"length":0,"text":"<"}],"doc":1,"seq":1395,"ms":2810543,"op":"edit"}
+{"version":131,"changes":[{"offset":722,"length":0,"text":"<"}],"doc":1,"seq":1396,"ms":2810658,"op":"edit"}
+{"doc":1,"seq":1397,"ms":2811673,"op":"save"}
+{"version":132,"changes":[{"offset":723,"length":0,"text":"b"}],"doc":1,"seq":1398,"ms":2814495,"op":"edit"}
+{"version":133,"changes":[{"offset":724,"length":0,"text":"1"}],"doc":1,"seq":1399,"ms":2814761,"op":"edit"}
+{"doc":1,"seq":1400,"ms":2815779,"op":"save"}
+{"version":134,"changes":[{"offset":725,"length":0,"text":"."}],"doc":1,"seq":1401,"ms":2815788,"op":"edit"}
+{"version":135,"changes":[{"offset":726,"length":0,"text":"g"}],"doc":1,"seq":1402,"ms":2815894,"op":"edit"}
+{"version":136,"changes":[{"offset":727,"length":0,"text":"e"}],"doc":1,"seq":1403,"ms":2815997,"op":"edit"}
+{"version":137,"changes":[{"offset":728,"length":0,"text":"t"}],"doc":1,"seq":1404,"ms":2816177,"op":"edit"}
+{"doc":1,"seq":1405,"ms":2817189,"op":"save"}
+{"version":138,"changes":[{"offset":726,"length":3,"text":"getTitle"}],"doc":1,"seq":1406,"ms":2817565,"op":"edit"}
