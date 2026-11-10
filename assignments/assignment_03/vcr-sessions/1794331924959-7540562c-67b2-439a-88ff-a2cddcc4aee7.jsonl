@@ -101,3 +101,37 @@
 {"version":20,"changes":[{"offset":673,"length":0,"text":"n"}],"doc":1,"seq":100,"ms":894527,"op":"edit"}
 {"version":21,"changes":[{"offset":674,"length":0,"text":" "}],"doc":1,"seq":101,"ms":894695,"op":"edit"}
 {"doc":1,"seq":102,"ms":895710,"op":"save"}
+{"version":22,"changes":[{"offset":1952,"length":1,"text":""}],"doc":1,"seq":103,"ms":917513,"op":"edit"}
+{"version":23,"changes":[{"offset":1952,"length":1,"text":""}],"doc":1,"seq":104,"ms":918482,"op":"edit"}
+{"doc":1,"seq":105,"ms":919502,"op":"save"}
+{"version":24,"changes":[{"offset":1950,"length":0,"text":"+"}],"doc":1,"seq":106,"ms":920588,"op":"edit"}
+{"version":25,"changes":[{"offset":1951,"length":0,"text":"+"}],"doc":1,"seq":107,"ms":920712,"op":"edit"}
+{"doc":1,"seq":108,"ms":921725,"op":"save"}
+{"version":26,"changes":[{"offset":668,"length":6,"text":""}],"doc":1,"seq":109,"ms":929575,"op":"edit"}
+{"doc":1,"seq":110,"ms":930592,"op":"save"}
+{"version":27,"changes":[{"offset":696,"length":0,"text":"\n         "}],"doc":1,"seq":111,"ms":931195,"op":"edit"}
+{"version":28,"changes":[{"offset":706,"length":0,"text":"r"}],"doc":1,"seq":112,"ms":931750,"op":"edit"}
+{"version":29,"changes":[{"offset":707,"length":0,"text":"e"}],"doc":1,"seq":113,"ms":931870,"op":"edit"}
+{"version":30,"changes":[{"offset":708,"length":0,"text":"t"}],"doc":1,"seq":114,"ms":932041,"op":"edit"}
+{"version":31,"changes":[{"offset":709,"length":0,"text":"u"}],"doc":1,"seq":115,"ms":932171,"op":"edit"}
+{"version":32,"changes":[{"offset":710,"length":0,"text":"n"}],"doc":1,"seq":116,"ms":932295,"op":"edit"}
+{"doc":1,"seq":117,"ms":933309,"op":"save"}
+{"version":33,"changes":[{"offset":710,"length":1,"text":""}],"doc":1,"seq":118,"ms":933796,"op":"edit"}
+{"version":34,"changes":[{"offset":710,"length":0,"text":"r"}],"doc":1,"seq":119,"ms":933970,"op":"edit"}
+{"version":35,"changes":[{"offset":711,"length":0,"text":"n"}],"doc":1,"seq":120,"ms":934107,"op":"edit"}
+{"version":36,"changes":[{"offset":712,"length":0,"text":" "}],"doc":1,"seq":121,"ms":934283,"op":"edit"}
+{"version":37,"changes":[{"offset":713,"length":0,"text":"n"}],"doc":1,"seq":122,"ms":934486,"op":"edit"}
+{"version":38,"changes":[{"offset":714,"length":0,"text":"u"}],"doc":1,"seq":123,"ms":934675,"op":"edit"}
+{"version":39,"changes":[{"offset":715,"length":0,"text":"l"}],"doc":1,"seq":124,"ms":934908,"op":"edit"}
+{"version":40,"changes":[{"offset":716,"length":0,"text":"l"}],"doc":1,"seq":125,"ms":935115,"op":"edit"}
+{"version":41,"changes":[{"offset":717,"length":0,"text":";"}],"doc":1,"seq":126,"ms":935780,"op":"edit"}
+{"doc":1,"seq":127,"ms":936791,"op":"save"}
+{"version":42,"changes":[{"offset":713,"length":4,"text":"o"}],"doc":1,"seq":128,"ms":947060,"op":"edit"}
+{"doc":1,"seq":129,"ms":948079,"op":"save"}
+{"version":43,"changes":[{"offset":713,"length":1,"text":""}],"doc":1,"seq":130,"ms":948114,"op":"edit"}
+{"version":44,"changes":[{"offset":713,"length":0,"text":"0"}],"doc":1,"seq":131,"ms":948454,"op":"edit"}
+{"doc":1,"seq":132,"ms":949472,"op":"save"}
+{"executionId":"86b9b0dc-e3af-4896-bae4-e5ee8a1ccc28","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":133,"ms":952439,"op":"terminal.start"}
+{"executionId":"86b9b0dc-e3af-4896-bae4-e5ee8a1ccc28","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","data":"\u001b]633;C\u0007","doc":3,"seq":134,"ms":952491,"op":"terminal.output"}
+{"executionId":"86b9b0dc-e3af-4896-bae4-e5ee8a1ccc28","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","data":"The books currently in the library: \r\n\r\nTitle: game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\nterminate called after throwing an instance of 'std::logic_error'\r\n  what():  basic_string: construction from null is not valid\r\nwe are removing bookzsh: abort      /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":3,"seq":135,"ms":952568,"op":"terminal.output"}
+{"executionId":"86b9b0dc-e3af-4896-bae4-e5ee8a1ccc28","terminalId":"d510bfe4-61fe-475e-9685-ac4f5f2b855e","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":134,"doc":3,"seq":136,"ms":952568,"op":"terminal.end"}
