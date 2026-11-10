@@ -1497,3 +1497,28 @@
 {"executionId":"22dd1d86-e484-42af-87fd-b852a0b4c798","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":1496,"ms":3185048,"op":"terminal.output"}
 {"executionId":"22dd1d86-e484-42af-87fd-b852a0b4c798","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\nwe are removing: game of thrones\r\n was removed\r\nwe are searching for book: The giver\r\nmatchOutsiders\r\nwe are searching for book by genre: Science-Fiction\r\nresult Science-Fiction\r\nwe are searching for book by author: result GRR Martin\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\n   Title:                            Author: \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1497,"ms":3185116,"op":"terminal.output"}
 {"executionId":"22dd1d86-e484-42af-87fd-b852a0b4c798","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1498,"ms":3185116,"op":"terminal.end"}
+{"version":147,"changes":[{"offset":890,"length":0,"text":"\n    "}],"doc":1,"seq":1499,"ms":3305616,"op":"edit"}
+{"version":148,"changes":[{"offset":895,"length":0,"text":"c"}],"doc":1,"seq":1500,"ms":3306214,"op":"edit"}
+{"version":149,"changes":[{"offset":896,"length":0,"text":"o"}],"doc":1,"seq":1501,"ms":3306353,"op":"edit"}
+{"version":150,"changes":[{"offset":897,"length":0,"text":"u"}],"doc":1,"seq":1502,"ms":3306555,"op":"edit"}
+{"version":151,"changes":[{"offset":898,"length":0,"text":"t"}],"doc":1,"seq":1503,"ms":3306640,"op":"edit"}
+{"doc":1,"seq":1504,"ms":3307657,"op":"save"}
+{"version":152,"changes":[{"offset":899,"length":0,"text":"<"}],"doc":1,"seq":1505,"ms":3319446,"op":"edit"}
+{"version":153,"changes":[{"offset":900,"length":0,"text":"<"}],"doc":1,"seq":1506,"ms":3319601,"op":"edit"}
+{"version":154,"changes":[{"offset":901,"length":0,"text":"\"\""}],"doc":1,"seq":1507,"ms":3320463,"op":"edit"}
+{"doc":1,"seq":1508,"ms":3321482,"op":"save"}
+{"version":155,"changes":[{"offset":902,"length":1,"text":""}],"doc":1,"seq":1509,"ms":3332400,"op":"edit"}
+{"version":156,"changes":[{"offset":901,"length":1,"text":""}],"doc":1,"seq":1510,"ms":3332599,"op":"edit"}
+{"doc":1,"seq":1511,"ms":3333612,"op":"save"}
+{"version":157,"changes":[{"offset":901,"length":0,"text":"e"}],"doc":1,"seq":1512,"ms":3334214,"op":"edit"}
+{"version":158,"changes":[{"offset":902,"length":0,"text":"n"}],"doc":1,"seq":1513,"ms":3334629,"op":"edit"}
+{"version":159,"changes":[{"offset":903,"length":0,"text":"d"}],"doc":1,"seq":1514,"ms":3334930,"op":"edit"}
+{"version":160,"changes":[{"offset":904,"length":0,"text":"l"}],"doc":1,"seq":1515,"ms":3335421,"op":"edit"}
+{"version":161,"changes":[{"offset":905,"length":0,"text":";"}],"doc":1,"seq":1516,"ms":3335778,"op":"edit"}
+{"doc":1,"seq":1517,"ms":3336795,"op":"save"}
+{"version":162,"changes":[{"offset":1033,"length":0,"text":"\n    "}],"doc":1,"seq":1518,"ms":3344132,"op":"edit"}
+{"version":163,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1038,"length":0,"text":"cout<<endl;"}],"doc":1,"seq":1519,"ms":3344719,"op":"edit"}
+{"doc":1,"seq":1520,"ms":3345728,"op":"save"}
+{"version":164,"changes":[{"offset":1151,"length":0,"text":"\n    "}],"doc":1,"seq":1521,"ms":3347074,"op":"edit"}
+{"version":165,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1156,"length":0,"text":"cout<<endl;"}],"doc":1,"seq":1522,"ms":3347623,"op":"edit"}
+{"doc":1,"seq":1523,"ms":3348636,"op":"save"}
