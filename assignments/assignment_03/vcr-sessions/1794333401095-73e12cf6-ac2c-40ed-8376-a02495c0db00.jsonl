@@ -20,3 +20,12 @@
 {"version":97,"changes":[{"offset":987,"length":0,"text":":"}],"doc":1,"seq":19,"ms":482202,"op":"edit"}
 {"version":98,"changes":[{"offset":988,"length":0,"text":":"}],"doc":1,"seq":20,"ms":482351,"op":"edit"}
 {"doc":1,"seq":21,"ms":483364,"op":"save"}
+{"version":99,"changes":[{"offset":1017,"length":1,"text":""}],"doc":1,"seq":22,"ms":2857206,"op":"edit"}
+{"doc":1,"seq":23,"ms":2858222,"op":"save"}
+{"version":100,"changes":[{"offset":1006,"length":7,"text":"b"}],"doc":1,"seq":24,"ms":2870869,"op":"edit"}
+{"version":101,"changes":[{"offset":1007,"length":0,"text":"o"}],"doc":1,"seq":25,"ms":2871099,"op":"edit"}
+{"version":102,"changes":[{"offset":1008,"length":0,"text":"o"}],"doc":1,"seq":26,"ms":2871227,"op":"edit"}
+{"version":103,"changes":[{"offset":1009,"length":0,"text":"k"}],"doc":1,"seq":27,"ms":2871347,"op":"edit"}
+{"doc":1,"seq":28,"ms":2872362,"op":"save"}
+{"version":104,"changes":[{"offset":1006,"length":4,"text":"bookCollections"}],"doc":1,"seq":29,"ms":2872399,"op":"edit"}
+{"doc":1,"seq":30,"ms":2873413,"op":"save"}
