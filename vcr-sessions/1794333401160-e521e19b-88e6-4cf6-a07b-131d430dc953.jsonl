@@ -5,3 +5,4 @@
 {"source":"watcher","path":"content/images","doc":2,"seq":4,"ms":16707,"op":"fs.create"}
 {"source":"watcher","path":"content/images/RevisionDojoConcurrencyVsParallelism.jpg","doc":3,"seq":5,"ms":16707,"op":"fs.create"}
 {"source":"watcher","path":"content/multi-threading.md","doc":4,"seq":6,"ms":16707,"op":"fs.create"}
+{"doc":1,"seq":7,"ms":178470,"op":"close"}
