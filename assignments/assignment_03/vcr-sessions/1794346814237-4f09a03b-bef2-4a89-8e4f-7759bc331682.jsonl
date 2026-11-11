@@ -1705,3 +1705,13 @@
 {"doc":1,"seq":1704,"ms":92115837,"op":"save"}
 {"version":292,"changes":[{"offset":424,"length":1,"text":""}],"doc":1,"seq":1705,"ms":92118418,"op":"edit"}
 {"doc":1,"seq":1706,"ms":92119429,"op":"save"}
+{"version":293,"changes":[{"offset":432,"length":7,"text":"F"}],"doc":1,"seq":1707,"ms":92145833,"op":"edit"}
+{"version":294,"changes":[{"offset":433,"length":0,"text":"a"}],"doc":1,"seq":1708,"ms":92146029,"op":"edit"}
+{"version":295,"changes":[{"offset":434,"length":0,"text":"n"}],"doc":1,"seq":1709,"ms":92146188,"op":"edit"}
+{"version":296,"changes":[{"offset":435,"length":0,"text":"t"}],"doc":1,"seq":1710,"ms":92146449,"op":"edit"}
+{"version":297,"changes":[{"offset":436,"length":0,"text":"a"}],"doc":1,"seq":1711,"ms":92146662,"op":"edit"}
+{"version":298,"changes":[{"offset":437,"length":0,"text":"s"}],"doc":1,"seq":1712,"ms":92146804,"op":"edit"}
+{"version":299,"changes":[{"offset":438,"length":0,"text":"y"}],"doc":1,"seq":1713,"ms":92147059,"op":"edit"}
+{"doc":1,"seq":1714,"ms":92148070,"op":"save"}
+{"version":300,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":263,"length":10,"text":"Lois Lowry"}],"doc":1,"seq":1715,"ms":92194090,"op":"edit"}
+{"doc":1,"seq":1716,"ms":92195102,"op":"save"}
