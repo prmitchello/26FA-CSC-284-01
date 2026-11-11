@@ -1676,3 +1676,32 @@
 {"version":266,"changes":[{"offset":333,"length":0,"text":"r"}],"doc":1,"seq":1675,"ms":92032692,"op":"edit"}
 {"version":267,"changes":[{"offset":334,"length":0,"text":"y"}],"doc":1,"seq":1676,"ms":92033010,"op":"edit"}
 {"doc":1,"seq":1677,"ms":92034021,"op":"save"}
+{"version":268,"changes":[{"offset":375,"length":11,"text":"T"}],"doc":1,"seq":1678,"ms":92091912,"op":"edit"}
+{"version":269,"changes":[{"offset":376,"length":0,"text":"h"}],"doc":1,"seq":1679,"ms":92092110,"op":"edit"}
+{"version":270,"changes":[{"offset":377,"length":0,"text":"e"}],"doc":1,"seq":1680,"ms":92092246,"op":"edit"}
+{"version":271,"changes":[{"offset":378,"length":0,"text":" "}],"doc":1,"seq":1681,"ms":92092317,"op":"edit"}
+{"version":272,"changes":[{"offset":379,"length":0,"text":"l"}],"doc":1,"seq":1682,"ms":92092510,"op":"edit"}
+{"version":273,"changes":[{"offset":380,"length":0,"text":"o"}],"doc":1,"seq":1683,"ms":92093048,"op":"edit"}
+{"version":274,"changes":[{"offset":381,"length":0,"text":"r"}],"doc":1,"seq":1684,"ms":92093500,"op":"edit"}
+{"version":275,"changes":[{"offset":382,"length":0,"text":"d"}],"doc":1,"seq":1685,"ms":92093732,"op":"edit"}
+{"version":276,"changes":[{"offset":383,"length":0,"text":" "}],"doc":1,"seq":1686,"ms":92093885,"op":"edit"}
+{"version":277,"changes":[{"offset":384,"length":0,"text":"o"}],"doc":1,"seq":1687,"ms":92094086,"op":"edit"}
+{"version":278,"changes":[{"offset":385,"length":0,"text":"f"}],"doc":1,"seq":1688,"ms":92094195,"op":"edit"}
+{"version":279,"changes":[{"offset":386,"length":0,"text":" "}],"doc":1,"seq":1689,"ms":92094313,"op":"edit"}
+{"version":280,"changes":[{"offset":387,"length":0,"text":"t"}],"doc":1,"seq":1690,"ms":92094484,"op":"edit"}
+{"version":281,"changes":[{"offset":388,"length":0,"text":"h"}],"doc":1,"seq":1691,"ms":92094993,"op":"edit"}
+{"version":282,"changes":[{"offset":389,"length":0,"text":"e"}],"doc":1,"seq":1692,"ms":92095155,"op":"edit"}
+{"version":283,"changes":[{"offset":390,"length":0,"text":" "}],"doc":1,"seq":1693,"ms":92095279,"op":"edit"}
+{"doc":1,"seq":1694,"ms":92096299,"op":"save"}
+{"version":284,"changes":[{"offset":391,"length":0,"text":"r"}],"doc":1,"seq":1695,"ms":92096314,"op":"edit"}
+{"version":285,"changes":[{"offset":392,"length":0,"text":"i"}],"doc":1,"seq":1696,"ms":92096437,"op":"edit"}
+{"version":286,"changes":[{"offset":393,"length":0,"text":"n"}],"doc":1,"seq":1697,"ms":92096557,"op":"edit"}
+{"version":287,"changes":[{"offset":394,"length":0,"text":"g"}],"doc":1,"seq":1698,"ms":92096616,"op":"edit"}
+{"version":288,"changes":[{"offset":395,"length":0,"text":"s"}],"doc":1,"seq":1699,"ms":92096798,"op":"edit"}
+{"doc":1,"seq":1700,"ms":92097808,"op":"save"}
+{"version":289,"changes":[{"offset":399,"length":9,"text":""}],"doc":1,"seq":1701,"ms":92113424,"op":"edit"}
+{"version":290,"changes":[{"offset":399,"length":1,"text":""}],"doc":1,"seq":1702,"ms":92114316,"op":"edit"}
+{"version":291,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":399,"length":0,"text":"John Ronald Reuel Tolkien\n"}],"doc":1,"seq":1703,"ms":92114825,"op":"edit"}
+{"doc":1,"seq":1704,"ms":92115837,"op":"save"}
+{"version":292,"changes":[{"offset":424,"length":1,"text":""}],"doc":1,"seq":1705,"ms":92118418,"op":"edit"}
+{"doc":1,"seq":1706,"ms":92119429,"op":"save"}
