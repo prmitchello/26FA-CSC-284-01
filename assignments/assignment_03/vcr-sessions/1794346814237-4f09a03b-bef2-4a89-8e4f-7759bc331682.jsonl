@@ -1619,3 +1619,37 @@
 {"executionId":"7eaa1750-c948-483d-8047-fdced8be422d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":1618,"ms":3726843,"op":"terminal.start"}
 {"executionId":"7eaa1750-c948-483d-8047-fdced8be422d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007The books currently in the library: \r\n\r\nTitle: game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\r\nwe are removing: game of thrones\r\n was removed\r\n\r\nwe are searching for book: The giver\r\nmatch The giver\r\n\r\nwe are searching for book by genre: Science-Fiction\r\nresult Science-Fiction\r\n\r\nwe are searching for book by author: result GRR Martin\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: GRR Martin\r\n   Title: The giver                           Author: GRR Martin\r\n   Title: Outsiders                           Author: SE Hilton\r\n   Title: Elden Rings                           Author: GRR Martin\r\n   Title: House of the dragon                           Author: GRR Martin\r\n   Title:                            Author: \r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1619,"ms":3726862,"op":"terminal.output"}
 {"executionId":"7eaa1750-c948-483d-8047-fdced8be422d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1620,"ms":3726863,"op":"terminal.end"}
+{"version":221,"changes":[{"offset":210,"length":6,"text":""}],"doc":1,"seq":1621,"ms":91480211,"op":"edit"}
+{"version":222,"changes":[{"offset":209,"length":1,"text":""}],"doc":1,"seq":1622,"ms":91480413,"op":"edit"}
+{"version":223,"changes":[{"offset":208,"length":1,"text":""}],"doc":1,"seq":1623,"ms":91480726,"op":"edit"}
+{"version":224,"changes":[{"offset":207,"length":1,"text":""}],"doc":1,"seq":1624,"ms":91480897,"op":"edit"}
+{"version":225,"changes":[{"offset":206,"length":1,"text":""}],"doc":1,"seq":1625,"ms":91481320,"op":"edit"}
+{"version":226,"changes":[{"offset":206,"length":0,"text":"T"}],"doc":1,"seq":1626,"ms":91481959,"op":"edit"}
+{"version":227,"changes":[{"offset":207,"length":0,"text":"i"}],"doc":1,"seq":1627,"ms":91482239,"op":"edit"}
+{"version":228,"changes":[{"offset":208,"length":0,"text":"m"}],"doc":1,"seq":1628,"ms":91482362,"op":"edit"}
+{"version":229,"changes":[{"offset":209,"length":0,"text":" "}],"doc":1,"seq":1629,"ms":91482569,"op":"edit"}
+{"version":230,"changes":[{"offset":210,"length":0,"text":"O"}],"doc":1,"seq":1630,"ms":91483473,"op":"edit"}
+{"version":231,"changes":[{"offset":211,"length":0,"text":"'"}],"doc":1,"seq":1631,"ms":91484128,"op":"edit"}
+{"doc":1,"seq":1632,"ms":91485445,"op":"save"}
+{"version":232,"changes":[{"offset":212,"length":0,"text":"B"}],"doc":1,"seq":1633,"ms":91487900,"op":"edit"}
+{"version":233,"changes":[{"offset":213,"length":0,"text":"r"}],"doc":1,"seq":1634,"ms":91488074,"op":"edit"}
+{"version":234,"changes":[{"offset":214,"length":0,"text":"i"}],"doc":1,"seq":1635,"ms":91488241,"op":"edit"}
+{"version":235,"changes":[{"offset":215,"length":0,"text":"e"}],"doc":1,"seq":1636,"ms":91488392,"op":"edit"}
+{"version":236,"changes":[{"offset":216,"length":0,"text":"n"}],"doc":1,"seq":1637,"ms":91488545,"op":"edit"}
+{"doc":1,"seq":1638,"ms":91489558,"op":"save"}
+{"version":237,"changes":[{"offset":1135,"length":0,"text":"<"}],"doc":1,"seq":1639,"ms":91497411,"op":"edit"}
+{"version":238,"changes":[{"offset":1136,"length":0,"text":"<"}],"doc":1,"seq":1640,"ms":91497542,"op":"edit"}
+{"version":239,"changes":[{"offset":1137,"length":0,"text":"b"}],"doc":1,"seq":1641,"ms":91498031,"op":"edit"}
+{"version":240,"changes":[{"offset":1138,"length":0,"text":"2"}],"doc":1,"seq":1642,"ms":91498278,"op":"edit"}
+{"version":241,"changes":[{"offset":1139,"length":0,"text":"."}],"doc":1,"seq":1643,"ms":91498877,"op":"edit"}
+{"version":242,"changes":[{"offset":1140,"length":0,"text":"g"}],"doc":1,"seq":1644,"ms":91499020,"op":"edit"}
+{"version":243,"changes":[{"offset":1141,"length":0,"text":"e"}],"doc":1,"seq":1645,"ms":91499149,"op":"edit"}
+{"version":244,"changes":[{"offset":1142,"length":0,"text":"r"}],"doc":1,"seq":1646,"ms":91499262,"op":"edit"}
+{"doc":1,"seq":1647,"ms":91500279,"op":"save"}
+{"version":245,"changes":[{"offset":1140,"length":3,"text":"getAuthor"}],"doc":1,"seq":1648,"ms":91501395,"op":"edit"}
+{"doc":1,"seq":1649,"ms":91502410,"op":"save"}
+{"version":246,"changes":[{"offset":1149,"length":0,"text":"()"}],"doc":1,"seq":1650,"ms":91505422,"op":"edit"}
+{"version":247,"changes":[{"offset":1150,"length":1,"text":")"}],"doc":1,"seq":1651,"ms":91505532,"op":"edit"}
+{"doc":1,"seq":1652,"ms":91506543,"op":"save"}
+{"version":248,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1189,"length":11,"text":"b2.getAuthor()"}],"doc":1,"seq":1653,"ms":91517200,"op":"edit"}
+{"doc":1,"seq":1654,"ms":91518211,"op":"save"}
