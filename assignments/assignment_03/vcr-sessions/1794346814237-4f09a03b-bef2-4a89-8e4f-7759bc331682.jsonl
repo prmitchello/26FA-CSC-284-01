@@ -2840,3 +2840,35 @@
 {"executionId":"63e439e0-f268-433e-99f6-af6a7f3c8935","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2839,"ms":109903045,"op":"terminal.output"}
 {"executionId":"63e439e0-f268-433e-99f6-af6a7f3c8935","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author:       SE Hinton\r\nResulting book Title: 'Twillight', by author:       Stephenie Meyer\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author:       Tim O'Brien\r\nResulting book Title: 'If I Die in a Combat Zone: Box Me Up and Ship Me Home', by author:       Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2840,"ms":109903114,"op":"terminal.output"}
 {"executionId":"63e439e0-f268-433e-99f6-af6a7f3c8935","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2841,"ms":109903114,"op":"terminal.end"}
+{"version":503,"changes":[{"offset":665,"length":0,"text":"\n    "}],"doc":1,"seq":2842,"ms":109966577,"op":"edit"}
+{"doc":1,"seq":2843,"ms":109967596,"op":"save"}
+{"version":504,"changes":[{"offset":670,"length":0,"text":"B"}],"doc":1,"seq":2844,"ms":109967889,"op":"edit"}
+{"version":505,"changes":[{"offset":671,"length":0,"text":"o"}],"doc":1,"seq":2845,"ms":109968244,"op":"edit"}
+{"version":506,"changes":[{"offset":672,"length":0,"text":"o"}],"doc":1,"seq":2846,"ms":109968413,"op":"edit"}
+{"version":507,"changes":[{"offset":673,"length":0,"text":"k"}],"doc":1,"seq":2847,"ms":109968532,"op":"edit"}
+{"version":508,"changes":[{"offset":674,"length":0,"text":" "}],"doc":1,"seq":2848,"ms":109969198,"op":"edit"}
+{"version":509,"changes":[{"offset":675,"length":0,"text":"b"}],"doc":1,"seq":2849,"ms":109969588,"op":"edit"}
+{"version":510,"changes":[{"offset":676,"length":0,"text":"9"}],"doc":1,"seq":2850,"ms":109970187,"op":"edit"}
+{"doc":1,"seq":2851,"ms":109971201,"op":"save"}
+{"version":511,"changes":[{"offset":677,"length":0,"text":"()"}],"doc":1,"seq":2852,"ms":109971820,"op":"edit"}
+{"version":512,"changes":[{"offset":678,"length":1,"text":")"}],"doc":1,"seq":2853,"ms":109971897,"op":"edit"}
+{"doc":1,"seq":2854,"ms":109972910,"op":"save"}
+{"version":513,"changes":[{"offset":678,"length":0,"text":"\"\""}],"doc":1,"seq":2855,"ms":109974788,"op":"edit"}
+{"doc":1,"seq":2856,"ms":109975801,"op":"save"}
+{"version":514,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":679,"length":0,"text":"The Hunger Games by Suzanne Collins"}],"doc":1,"seq":2857,"ms":109975902,"op":"edit"}
+{"doc":1,"seq":2858,"ms":109976914,"op":"save"}
+{"version":515,"changes":[{"offset":695,"length":0,"text":"\""}],"doc":1,"seq":2859,"ms":109980441,"op":"edit"}
+{"doc":1,"seq":2860,"ms":109981456,"op":"save"}
+{"version":516,"changes":[{"offset":696,"length":0,"text":","}],"doc":1,"seq":2861,"ms":109983533,"op":"edit"}
+{"doc":1,"seq":2862,"ms":109984548,"op":"save"}
+{"version":517,"changes":[{"offset":697,"length":0,"text":"\"\""}],"doc":1,"seq":2863,"ms":109985265,"op":"edit"}
+{"version":518,"changes":[{"offset":698,"length":1,"text":"\""}],"doc":1,"seq":2864,"ms":109985365,"op":"edit"}
+{"version":519,"changes":[{"offset":699,"length":0,"text":"\\"}],"doc":1,"seq":2865,"ms":109986359,"op":"edit"}
+{"version":520,"changes":[{"offset":699,"length":1,"text":""}],"doc":1,"seq":2866,"ms":109986761,"op":"edit"}
+{"version":521,"changes":[{"offset":698,"length":1,"text":""}],"doc":1,"seq":2867,"ms":109986944,"op":"edit"}
+{"version":522,"changes":[{"offset":699,"length":1,"text":""}],"doc":1,"seq":2868,"ms":109987822,"op":"edit"}
+{"version":523,"changes":[{"offset":699,"length":1,"text":""}],"doc":1,"seq":2869,"ms":109988188,"op":"edit"}
+{"doc":1,"seq":2870,"ms":109989200,"op":"save"}
+{"version":524,"changes":[{"offset":699,"length":1,"text":""}],"doc":1,"seq":2871,"ms":109989687,"op":"edit"}
+{"version":525,"changes":[{"offset":698,"length":1,"text":""}],"doc":1,"seq":2872,"ms":109989882,"op":"edit"}
+{"doc":1,"seq":2873,"ms":109990895,"op":"save"}
