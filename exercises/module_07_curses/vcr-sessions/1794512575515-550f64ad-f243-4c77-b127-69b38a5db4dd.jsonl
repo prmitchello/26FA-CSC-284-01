@@ -124,3 +124,6 @@
 {"executionId":"a486e06e-3d05-4c98-89c8-f69033945228","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"g++ <curses.cpp> -lncurses -o <curses.out>","confidence":2,"doc":2,"seq":123,"ms":793543,"op":"terminal.start"}
 {"executionId":"a486e06e-3d05-4c98-89c8-f69033945228","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"\u001b]633;C\u0007","doc":2,"seq":124,"ms":793543,"op":"terminal.output"}
 {"executionId":"a486e06e-3d05-4c98-89c8-f69033945228","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"g++ <curses.cpp> -lncurses -o <curses.out>","confidence":2,"exitCode":null,"doc":2,"seq":125,"ms":793544,"op":"terminal.end"}
+{"executionId":"6d237b1b-dced-4bed-9023-ff84eabcc36e","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"","confidence":2,"doc":2,"seq":126,"ms":983342,"op":"terminal.start"}
+{"executionId":"6d237b1b-dced-4bed-9023-ff84eabcc36e","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"\u001b]633;C\u0007","doc":2,"seq":127,"ms":983343,"op":"terminal.output"}
+{"executionId":"6d237b1b-dced-4bed-9023-ff84eabcc36e","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"","confidence":2,"exitCode":null,"doc":2,"seq":128,"ms":983344,"op":"terminal.end"}
