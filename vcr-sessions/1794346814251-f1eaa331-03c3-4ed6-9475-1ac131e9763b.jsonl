@@ -772,3 +772,4 @@
 {"executionId":"2d27f7cb-67be-47c2-aaa7-91f30bee2c2d","doc":2,"seq":771,"ms":118971806,"op":"task.end"}
 {"executionId":"c354cc33-4ed5-43dc-9829-ed4ee216120e","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":772,"ms":118971809,"op":"debug.start"}
 {"executionId":"c354cc33-4ed5-43dc-9829-ed4ee216120e","doc":2,"seq":773,"ms":118971980,"op":"debug.end"}
+{"seq":774,"ms":146181627,"op":"end"}
