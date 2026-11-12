@@ -3012,3 +3012,26 @@
 {"executionId":"b588358b-d886-4d23-9c1b-6c726b75ed09","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\nTitle: The Hunger Games Author:                      Suzanne Collins\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author:       SE Hinton\r\nResulting book Title: 'Twillight', by author:       Stephenie Meyer\r\nResulting book Title: 'The Hunger Games', by author:       Suzanne Collins\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author:       Tim O'Brien\r\nResulting book Title: 'If I Die in a Combat Zone: Box Me Up and Ship Me Home', by author:       Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\nTitle: The Hunger Games Author:                      Suzanne Collins\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":3011,"ms":110543629,"op":"terminal.output"}
 {"executionId":"b588358b-d886-4d23-9c1b-6c726b75ed09","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":3012,"ms":110543629,"op":"terminal.end"}
 {"doc":2,"seq":3013,"ms":110614073,"op":"save"}
+{"version":1707,"changes":[{"offset":735,"length":36,"text":""}],"doc":2,"seq":3014,"ms":110821004,"op":"edit"}
+{"doc":2,"seq":3015,"ms":110822015,"op":"save"}
+{"version":1708,"changes":[{"offset":758,"length":1,"text":""}],"doc":2,"seq":3016,"ms":110822409,"op":"edit"}
+{"version":1709,"changes":[{"offset":757,"length":1,"text":""}],"doc":2,"seq":3017,"ms":110822800,"op":"edit"}
+{"version":1710,"changes":[{"offset":727,"length":8,"text":""}],"doc":2,"seq":3018,"ms":110823806,"op":"edit"}
+{"doc":2,"seq":3019,"ms":110823823,"op":"save"}
+{"version":1711,"changes":[{"offset":749,"length":0,"text":"-"}],"doc":2,"seq":3020,"ms":110823981,"op":"edit"}
+{"version":1712,"changes":[{"offset":750,"length":0,"text":">"}],"doc":2,"seq":3021,"ms":110824515,"op":"edit"}
+{"version":1713,"changes":[{"offset":751,"length":0,"text":"g"}],"doc":2,"seq":3022,"ms":110824983,"op":"edit"}
+{"version":1714,"changes":[{"offset":752,"length":0,"text":"e"}],"doc":2,"seq":3023,"ms":110825062,"op":"edit"}
+{"version":1715,"changes":[{"offset":753,"length":0,"text":"t"}],"doc":2,"seq":3024,"ms":110825227,"op":"edit"}
+{"version":1716,"changes":[{"offset":754,"length":0,"text":"T"}],"doc":2,"seq":3025,"ms":110825788,"op":"edit"}
+{"version":1717,"changes":[{"offset":755,"length":0,"text":"i"}],"doc":2,"seq":3026,"ms":110826012,"op":"edit"}
+{"version":1718,"changes":[{"offset":756,"length":0,"text":"t"}],"doc":2,"seq":3027,"ms":110826919,"op":"edit"}
+{"version":1719,"changes":[{"offset":757,"length":0,"text":"l"}],"doc":2,"seq":3028,"ms":110827134,"op":"edit"}
+{"version":1720,"changes":[{"offset":758,"length":0,"text":"e"}],"doc":2,"seq":3029,"ms":110827237,"op":"edit"}
+{"version":1721,"changes":[{"offset":759,"length":0,"text":"("}],"doc":2,"seq":3030,"ms":110827741,"op":"edit"}
+{"version":1722,"changes":[{"offset":760,"length":0,"text":")"}],"doc":2,"seq":3031,"ms":110827827,"op":"edit"}
+{"doc":2,"seq":3032,"ms":110828841,"op":"save"}
+{"version":1723,"changes":[{"offset":736,"length":48,"text":""}],"doc":2,"seq":3033,"ms":110832178,"op":"edit"}
+{"version":1724,"changes":[{"offset":728,"length":8,"text":""}],"doc":2,"seq":3034,"ms":110833183,"op":"edit"}
+{"doc":2,"seq":3035,"ms":110833191,"op":"save"}
+{"version":1725,"changes":[{"offset":776,"length":0,"text":"            "}],"doc":2,"seq":3036,"ms":110833446,"op":"edit"}
