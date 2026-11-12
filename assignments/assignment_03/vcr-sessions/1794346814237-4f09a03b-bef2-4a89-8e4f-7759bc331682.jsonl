@@ -3420,3 +3420,44 @@
 {"version":1977,"changes":[{"offset":3182,"length":0,"text":"g"}],"doc":2,"seq":3419,"ms":113082948,"op":"edit"}
 {"version":1978,"changes":[{"offset":3183,"length":0,"text":"e"}],"doc":2,"seq":3420,"ms":113083318,"op":"edit"}
 {"version":1979,"changes":[{"offset":3184,"length":0,"text":"t"}],"doc":2,"seq":3421,"ms":113083518,"op":"edit"}
+{"doc":2,"seq":3422,"ms":113084528,"op":"save"}
+{"version":1980,"changes":[{"offset":3182,"length":3,"text":"getYear"}],"doc":2,"seq":3423,"ms":113085012,"op":"edit"}
+{"version":1981,"changes":[{"offset":3189,"length":0,"text":"()"}],"doc":2,"seq":3424,"ms":113085926,"op":"edit"}
+{"version":1982,"changes":[{"offset":3190,"length":1,"text":")"}],"doc":2,"seq":3425,"ms":113086026,"op":"edit"}
+{"version":1983,"changes":[{"offset":3191,"length":0,"text":";"}],"doc":2,"seq":3426,"ms":113086938,"op":"edit"}
+{"doc":2,"seq":3427,"ms":113087951,"op":"save"}
+{"version":1984,"changes":[{"offset":3203,"length":0,"text":";"}],"doc":2,"seq":3428,"ms":113093243,"op":"edit"}
+{"version":1985,"changes":[{"offset":3204,"length":0,"text":"\n        "}],"doc":2,"seq":3429,"ms":113093449,"op":"edit"}
+{"version":1986,"changes":[{"offset":3213,"length":0,"text":"\n        "},{"offset":3205,"length":8,"text":""}],"doc":2,"seq":3430,"ms":113093753,"op":"edit"}
+{"doc":2,"seq":3431,"ms":113094769,"op":"save"}
+{"version":1987,"changes":[{"offset":3214,"length":0,"text":"p"}],"doc":2,"seq":3432,"ms":113095058,"op":"edit"}
+{"version":1988,"changes":[{"offset":3215,"length":0,"text":"i"}],"doc":2,"seq":3433,"ms":113095238,"op":"edit"}
+{"version":1989,"changes":[{"offset":3216,"length":0,"text":"r"}],"doc":2,"seq":3434,"ms":113095262,"op":"edit"}
+{"version":1990,"changes":[{"offset":3217,"length":0,"text":"n"}],"doc":2,"seq":3435,"ms":113095438,"op":"edit"}
+{"version":1991,"changes":[{"offset":3218,"length":0,"text":"t"}],"doc":2,"seq":3436,"ms":113095534,"op":"edit"}
+{"version":1992,"changes":[{"offset":3219,"length":0,"text":"()"}],"doc":2,"seq":3437,"ms":113096047,"op":"edit"}
+{"version":1993,"changes":[{"offset":3220,"length":1,"text":")"}],"doc":2,"seq":3438,"ms":113096173,"op":"edit"}
+{"doc":2,"seq":3439,"ms":113097185,"op":"save"}
+{"version":1994,"changes":[{"offset":3221,"length":0,"text":";"}],"doc":2,"seq":3440,"ms":113097192,"op":"edit"}
+{"doc":2,"seq":3441,"ms":113098203,"op":"save"}
+{"version":1995,"changes":[{"offset":3219,"length":0,"text":"B"}],"doc":2,"seq":3442,"ms":113102764,"op":"edit"}
+{"version":1996,"changes":[{"offset":3220,"length":0,"text":"o"}],"doc":2,"seq":3443,"ms":113103015,"op":"edit"}
+{"version":1997,"changes":[{"offset":3221,"length":0,"text":"o"}],"doc":2,"seq":3444,"ms":113103178,"op":"edit"}
+{"version":1998,"changes":[{"offset":3222,"length":0,"text":"k"}],"doc":2,"seq":3445,"ms":113103297,"op":"edit"}
+{"version":1999,"changes":[{"offset":3222,"length":1,"text":""}],"doc":2,"seq":3446,"ms":113104043,"op":"edit"}
+{"text":"#pragma once\n#include <iostream>\n#include <string>\n#include <vector>\n#include <iomanip>\n#include <ranges>\n#include <algorithm>\n#include \"Book.h\"\n\n\nusing namespace std;\n\ntemplate <typename T=string>\nclass Library {\n\n    public:\n\n    std::vector<Book> bookCollections{};\n\n    Library(){\n        std::vector<Book> bookCollections{};\n    }\n\n    //: Adds a new book to the library.\n    void add_book(const Book& book){\n\n        bookCollections.push_back(book);\n    }\n    //Removes a book from the library based on its title.\n    T remove_book(const std::string& title){\n\n        auto result = remove_if(bookCollections.begin(),bookCollections.end(),[&title](Book& bookVar){\n            return bookVar.getTitle()==title;\n        });\n\n\n\n        if(result != bookCollections.end()){\n\n            cout<<\"'\"<< title <<\"' was removed\"<<endl;\n\n            bookCollections.erase(result , bookCollections.end());\n        }\n\n        return \"no match to remove\";\n    }\n    //: Searches for a book by title and returns it (if found) or prints an error message.\n    void find_book(const std::string& title){\n\n        auto result = find_if(bookCollections.begin(),bookCollections.end(),[&title](Book& bookVar){\n\n            return bookVar.getTitle() == title;\n            }\n        );\n\n        if(result != bookCollections.end()){\n            cout<<\"Resulting book Title: '\"<<result->getTitle()<<\"', by author: \"<<result->getAuthor()<<endl;\n        }else{\n            cout<< \"not found\"<<endl;\n        }\n\n\n    }\n    //: Returns a collection of books written by the specified author.\n    T get_books_by_author(const std::string& author){\n\n        auto byAuthor = bookCollections\n        |std::views::filter([&author](Book& book){\n            return book.getAuthor() == author;\n        });\n\n        bool found = false;\n\n        std::ranges::for_each(byAuthor,[&found](Book& result){\n            found = true;\n            cout<<\"Resulting book Title: '\"<<result.getTitle()<<setw(20)<<\"', by author: \"<<result.getAuthor()<<endl;\n        });\n\n\n        return \"not found\";\n    }\n    //: Returns a collection of books belonging to the specified genre.\n    T get_books_by_genre(const std::string& genre){\n\n\n        auto byGenre = bookCollections\n        |std::views::filter([&genre](Book& book){\n            return book.getGenre() == genre;\n        });\n\n        bool found = false;\n\n        std::ranges::for_each(byGenre,[&found](Book& result){\n            found = true;\n            cout<<\"Resulting book Title: '\"<<result.getTitle()<<\"',\"<<setw(30)<<\" by author: \"<<result.getAuthor()<<endl;\n        });\n\n        return \"not found\";\n    }\n    //use iterator to print list of books\n    void printBooks(){\n\n        cout<<\"The books currently in the library: \\n\"<<endl;\n        for(vector<Book>::iterator it = bookCollections.begin(); it<bookCollections.end(); ++it){\n\n            std::cout<<\"Title: \"<<it->getTitle()<<std::setw(30)<<\" Author: \"<<it->getAuthor()\n            <<std::setw(10)<<it->getYear()<<std::setw(10)<<it->getGenre()<<endl;\n\n        }\n    }\n    void printByYear_Asc(){\n        std::sort(bookCollections.begin(),bookCollections.end(),[](Book& a , Book& b){\n            return a.getYear() < b.getYear();\n        });\n\n        pirntBo();\n    }\n    void printByYear_Dsc(){\n\n    }\n\n};\n\n","version":2000,"snapshot":true,"doc":2,"seq":3447,"ms":113104218,"op":"edit"}
+{"doc":2,"seq":3448,"ms":113105237,"op":"save"}
+{"version":2001,"changes":[{"offset":3221,"length":0,"text":"o"}],"doc":2,"seq":3449,"ms":113105424,"op":"edit"}
+{"version":2002,"changes":[{"offset":3222,"length":0,"text":"k"}],"doc":2,"seq":3450,"ms":113105877,"op":"edit"}
+{"version":2003,"changes":[{"offset":3223,"length":0,"text":"s"}],"doc":2,"seq":3451,"ms":113106152,"op":"edit"}
+{"doc":2,"seq":3452,"ms":113107169,"op":"save"}
+{"version":2004,"changes":[{"offset":3262,"length":0,"text":"        "}],"doc":2,"seq":3453,"ms":113114633,"op":"edit"}
+{"version":2005,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":3270,"length":0,"text":"std::sort(bookCollections.begin(),bookCollections.end(),[](Book& a , Book& b){\n            return a.getYear() < b.getYear();\n        });\n\n        pirntBooks();"}],"doc":2,"seq":3454,"ms":113115278,"op":"edit"}
+{"doc":2,"seq":3455,"ms":113116296,"op":"save"}
+{"version":2006,"changes":[{"offset":3233,"length":0,"text":"\n    "}],"doc":2,"seq":3456,"ms":113118657,"op":"edit"}
+{"doc":2,"seq":3457,"ms":113119664,"op":"save"}
+{"version":2007,"changes":[{"offset":3234,"length":4,"text":""},{"offset":3031,"length":0,"text":"\n    "}],"doc":2,"seq":3458,"ms":113120827,"op":"edit"}
+{"doc":2,"seq":3459,"ms":113121842,"op":"save"}
+{"version":2008,"changes":[{"offset":3386,"length":1,"text":""},{"offset":3032,"length":4,"text":""}],"doc":2,"seq":3460,"ms":113123963,"op":"edit"}
+{"version":2009,"changes":[{"offset":3382,"length":0,"text":">"}],"doc":2,"seq":3461,"ms":113124715,"op":"edit"}
+{"doc":2,"seq":3462,"ms":113125728,"op":"save"}
