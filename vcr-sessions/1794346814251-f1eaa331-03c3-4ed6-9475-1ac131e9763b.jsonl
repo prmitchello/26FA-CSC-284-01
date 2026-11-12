@@ -310,3 +310,19 @@
 {"executionId":"36bf130b-4cb3-4dc0-af8b-2d385ffa10c0","doc":2,"seq":309,"ms":107593256,"op":"task.end"}
 {"executionId":"7869d5c3-f70f-4e43-9d58-90e7529b7d73","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":310,"ms":107593260,"op":"debug.start"}
 {"executionId":"7869d5c3-f70f-4e43-9d58-90e7529b7d73","doc":2,"seq":311,"ms":107593374,"op":"debug.end"}
+{"executionId":"5efc4481-3c44-4c32-9620-45117b5acb7c","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":312,"ms":107777673,"op":"task.start"}
+{"executionId":"5efc4481-3c44-4c32-9620-45117b5acb7c","processId":-1,"doc":2,"seq":313,"ms":107777676,"op":"task.processStart"}
+{"executionId":"5efc4481-3c44-4c32-9620-45117b5acb7c","exitCode":0,"doc":2,"seq":314,"ms":107778139,"op":"task.processEnd"}
+{"executionId":"5efc4481-3c44-4c32-9620-45117b5acb7c","doc":2,"seq":315,"ms":107778139,"op":"task.end"}
+{"executionId":"19e59003-7090-487f-88ac-b219b31c4db7","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":316,"ms":107778144,"op":"debug.start"}
+{"executionId":"19e59003-7090-487f-88ac-b219b31c4db7","doc":2,"seq":317,"ms":107778342,"op":"debug.end"}
+{"executionId":"fb36ad4f-e3fc-47ce-8fe0-1e8856f39202","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":318,"ms":107808286,"op":"task.start"}
+{"executionId":"fb36ad4f-e3fc-47ce-8fe0-1e8856f39202","processId":-1,"doc":2,"seq":319,"ms":107808288,"op":"task.processStart"}
+{"executionId":"fb36ad4f-e3fc-47ce-8fe0-1e8856f39202","exitCode":-1,"doc":2,"seq":320,"ms":107808556,"op":"task.processEnd"}
+{"executionId":"fb36ad4f-e3fc-47ce-8fe0-1e8856f39202","doc":2,"seq":321,"ms":107808556,"op":"task.end"}
+{"executionId":"71f96921-a244-4036-a67c-22e8a381f83b","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":322,"ms":107816154,"op":"task.start"}
+{"executionId":"71f96921-a244-4036-a67c-22e8a381f83b","processId":-1,"doc":2,"seq":323,"ms":107816159,"op":"task.processStart"}
+{"executionId":"71f96921-a244-4036-a67c-22e8a381f83b","exitCode":0,"doc":2,"seq":324,"ms":107816573,"op":"task.processEnd"}
+{"executionId":"71f96921-a244-4036-a67c-22e8a381f83b","doc":2,"seq":325,"ms":107816574,"op":"task.end"}
+{"executionId":"dcda60f7-764f-4531-acd9-05f5385ad928","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":326,"ms":107816576,"op":"debug.start"}
+{"executionId":"dcda60f7-764f-4531-acd9-05f5385ad928","doc":2,"seq":327,"ms":107816690,"op":"debug.end"}
