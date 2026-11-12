@@ -1126,3 +1126,4 @@
 {"executionId":"98212930-151a-4e19-a5ad-89dd258fe332","terminalId":"7c657897-1bc5-4b8a-a1de-0f558d1a4d9f","commandLine":"cd ..","confidence":2,"doc":4,"seq":1125,"ms":31650039,"op":"terminal.start"}
 {"executionId":"98212930-151a-4e19-a5ad-89dd258fe332","terminalId":"7c657897-1bc5-4b8a-a1de-0f558d1a4d9f","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":4,"seq":1126,"ms":31650039,"op":"terminal.output"}
 {"executionId":"98212930-151a-4e19-a5ad-89dd258fe332","terminalId":"7c657897-1bc5-4b8a-a1de-0f558d1a4d9f","commandLine":"cd ..","confidence":2,"exitCode":0,"doc":4,"seq":1127,"ms":31650039,"op":"terminal.end"}
+{"seq":1128,"ms":31756489,"op":"end"}

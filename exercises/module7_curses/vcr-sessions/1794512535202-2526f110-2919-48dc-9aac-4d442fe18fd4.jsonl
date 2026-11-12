@@ -10,3 +10,4 @@
 {"doc":2,"seq":9,"ms":40231,"op":"close"}
 {"source":"workspace","operationId":"04800b65-238b-4259-8871-3022c4389cf9","doc":1,"seq":10,"ms":40252,"op":"fs.moveFrom"}
 {"source":"watcher","doc":1,"seq":11,"ms":40323,"op":"fs.delete"}
+{"seq":12,"ms":12566268,"op":"end"}

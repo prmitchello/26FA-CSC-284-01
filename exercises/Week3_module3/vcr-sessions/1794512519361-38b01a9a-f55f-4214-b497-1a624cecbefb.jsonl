@@ -2,3 +2,4 @@
 {"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":1,"ms":-111,"op":"source.context"}
 {"text":"#include <iostream>\n#include <chrono>\n#include <thread>\n\nusing namespace std;\n\nvoid memoryLeak()\n{\n    // Large memory allocation\n    int *leakyArray = new int[100000];\n    for (int i = 0; i < 100000; ++i)\n    {\n        leakyArray[i] = i; // Simulate usage\n    }\n    // comment out the delete to see the memory leak!\n    delete[] leakyArray;\n}\n","version":1,"path":"memory.cpp","snapshot":true,"doc":1,"seq":2,"ms":-111,"op":"snap"}
 {"doc":1,"seq":3,"ms":61673,"op":"close"}
+{"seq":4,"ms":12582109,"op":"end"}
