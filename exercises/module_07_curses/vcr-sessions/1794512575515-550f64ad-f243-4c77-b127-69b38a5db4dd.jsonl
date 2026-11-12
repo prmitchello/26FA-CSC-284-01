@@ -183,3 +183,10 @@
 {"doc":1,"seq":182,"ms":1686154,"op":"save"}
 {"version":100,"changes":[{"offset":261,"length":0,"text":"    "}],"doc":1,"seq":183,"ms":1688524,"op":"edit"}
 {"doc":1,"seq":184,"ms":1689534,"op":"save"}
+{"text":"#include <iostream>\n#include <ncurses.h>\n\nint main(int argc, char ** argv){\n\n    // init screen and sets up screen\n    initscr();\n\n    // print to screen\n    printw(\"Hello World\");\n\n    printw(\"Hello World\");\n    printw(\"Hello World\");\n\n    printw(\"Welcome!\");\n    mvprintw(5, 10, \"Located at row 5, col 10\");\n    \n\n\n    // refreshes the screen\n    refresh();\n\n    // pause the screen output\n    getch();\n\n    // deallocates memory and ends ncurses\n    endwin();\n\n\n\n\nreturn 0;\n}\n","version":101,"snapshot":true,"doc":1,"seq":185,"ms":1725981,"op":"edit"}
+{"version":102,"changes":[{"offset":314,"length":0,"text":"\n    "},{"offset":310,"length":4,"text":""}],"doc":1,"seq":186,"ms":1726172,"op":"edit"}
+{"version":103,"changes":[{"offset":315,"length":0,"text":"\n    "},{"offset":311,"length":4,"text":""}],"doc":1,"seq":187,"ms":1726582,"op":"edit"}
+{"version":104,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":316,"length":0,"text":"keypad(stdscr, TRUE);  // Enable special keys\nnoecho();           // Do not echo typed chars\nint ch = getch();\nswitch (ch) {\n    case KEY_UP: printw(\"Up key!\"); break;\n    case 'q': printw(\"Quit key!\"); break;\n}\n"}],"doc":1,"seq":188,"ms":1726898,"op":"edit"}
+{"doc":1,"seq":189,"ms":1727912,"op":"save"}
+{"version":105,"changes":[{"offset":526,"length":0,"text":"    "},{"offset":484,"length":4,"text":"        "},{"offset":441,"length":4,"text":"        "},{"offset":427,"length":0,"text":"    "},{"offset":409,"length":0,"text":"    "},{"offset":362,"length":0,"text":"    "}],"doc":1,"seq":190,"ms":1729359,"op":"edit"}
+{"doc":1,"seq":191,"ms":1730373,"op":"save"}
