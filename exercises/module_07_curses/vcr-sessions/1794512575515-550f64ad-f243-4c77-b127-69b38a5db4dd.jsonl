@@ -500,3 +500,6 @@
 {"version":118,"changes":[{"offset":1726,"length":1,"text":""}],"doc":4,"seq":499,"ms":4280989,"op":"edit"}
 {"version":119,"changes":[{"offset":1726,"length":0,"text":"d"}],"doc":4,"seq":500,"ms":4281229,"op":"edit"}
 {"doc":4,"seq":501,"ms":4282236,"op":"save"}
+{"doc":4,"seq":502,"ms":11588429,"op":"close"}
+{"doc":5,"seq":503,"ms":11589669,"op":"close"}
+{"doc":1,"seq":504,"ms":11591219,"op":"close"}
