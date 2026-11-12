@@ -2180,3 +2180,17 @@
 {"executionId":"ce5f1a20-1db3-4c4a-8505-dfef8743edc8","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2179,"ms":107357028,"op":"terminal.output"}
 {"executionId":"ce5f1a20-1db3-4c4a-8505-dfef8743edc8","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones                           Author: GRR Martin\r\nTitle: The Things You Carry                           Author: Tim O'Brien\r\nTitle: The Giver                           Author: Lois Lowry\r\nTitle: Outsiders                           Author: SE Hinton\r\nTitle: The Lord Of The Rings                           Author: John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon                           Author: GRR Martin\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver'\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author: SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry                           Author: Tim O'Brien\r\nTitle: The Giver                           Author: Lois Lowry\r\nTitle: Outsiders                           Author: SE Hinton\r\nTitle: The Lord Of The Rings                           Author: John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon                           Author: GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2180,"ms":107357043,"op":"terminal.output"}
 {"executionId":"ce5f1a20-1db3-4c4a-8505-dfef8743edc8","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2181,"ms":107357043,"op":"terminal.end"}
+{"version":1281,"changes":[{"offset":2699,"length":10,"text":""}],"doc":2,"seq":2182,"ms":107518133,"op":"edit"}
+{"doc":2,"seq":2183,"ms":107519151,"op":"save"}
+{"version":1282,"changes":[{"offset":2668,"length":4,"text":""}],"doc":2,"seq":2184,"ms":107522604,"op":"edit"}
+{"version":1283,"changes":[{"offset":2667,"length":1,"text":""}],"doc":2,"seq":2185,"ms":107522775,"op":"edit"}
+{"version":1284,"changes":[{"offset":2666,"length":1,"text":""}],"doc":2,"seq":2186,"ms":107522952,"op":"edit"}
+{"version":1285,"changes":[{"offset":2665,"length":1,"text":""}],"doc":2,"seq":2187,"ms":107523114,"op":"edit"}
+{"version":1286,"changes":[{"offset":2664,"length":1,"text":""}],"doc":2,"seq":2188,"ms":107523264,"op":"edit"}
+{"version":1287,"changes":[{"offset":2663,"length":1,"text":""}],"doc":2,"seq":2189,"ms":107523379,"op":"edit"}
+{"doc":2,"seq":2190,"ms":107524392,"op":"save"}
+{"version":1288,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2663,"length":0,"text":"<<setw(35)"}],"doc":2,"seq":2191,"ms":107524522,"op":"edit"}
+{"doc":2,"seq":2192,"ms":107525535,"op":"save"}
+{"version":1289,"changes":[{"offset":2663,"length":1,"text":""}],"doc":2,"seq":2193,"ms":107526640,"op":"edit"}
+{"version":1290,"changes":[{"offset":2662,"length":1,"text":""}],"doc":2,"seq":2194,"ms":107526856,"op":"edit"}
+{"doc":2,"seq":2195,"ms":107527873,"op":"save"}
