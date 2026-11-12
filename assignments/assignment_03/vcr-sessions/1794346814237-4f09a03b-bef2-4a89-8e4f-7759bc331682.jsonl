@@ -3266,3 +3266,35 @@
 {"executionId":"252ee825-688d-4158-9581-66c8bfffadca","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":3265,"ms":111720591,"op":"terminal.output"}
 {"executionId":"252ee825-688d-4158-9581-66c8bfffadca","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones                      Author: GRR Martin      1996   Fiction\r\nTitle: The Things You Carry                      Author: Tim O'Brien      1990 War Story\r\nTitle: The Giver                      Author: Lois Lowry      1993Science-Fiction\r\nTitle: Outsiders                      Author: SE Hinton      1967Young Adult\r\nTitle: The Lord Of The Rings                      Author: John Ronald Reuel Tolkien      1955   Fantasy\r\nTitle: House Of The Dragon                      Author: GRR Martin      2018   Fiction\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home                      Author: Tim O'Brien      1973 War Story\r\nTitle: Twillight                      Author: Stephenie Meyer      2005Young Adult\r\nTitle: The Hunger Games                      Author: Suzanne Collins      2008Young Adult\r\n\r\nwe are removing: Game Of Thrones\r\n'Game Of Thrones' was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders',                   by author: SE Hinton\r\nResulting book Title: 'Twillight',                   by author: Stephenie Meyer\r\nResulting book Title: 'The Hunger Games',                   by author: Suzanne Collins\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry      ', by author: Tim O'Brien\r\nResulting book Title: 'If I Die in a Combat Zone: Box Me Up and Ship Me Home      ', by author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry                      Author: Tim O'Brien      1990 War Story\r\nTitle: The Giver                      Author: Lois Lowry      1993Science-Fiction\r\nTitle: Outsiders                      Author: SE Hinton      1967Young Adult\r\nTitle: The Lord Of The Rings                      Author: John Ronald Reuel Tolkien      1955   Fantasy\r\nTitle: House Of The Dragon                      Author: GRR Martin      2018   Fiction\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home                      Author: Tim O'Brien      1973 War Story\r\nTitle: Twillight                      Author: Stephenie Meyer      2005Young Adult\r\nTitle: The Hunger Games                      Author: Suzanne Collins      2008Young Adult\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":3266,"ms":111720616,"op":"terminal.output"}
 {"executionId":"252ee825-688d-4158-9581-66c8bfffadca","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":3267,"ms":111720616,"op":"terminal.end"}
+{"version":1858,"changes":[{"offset":3031,"length":0,"text":"\n    "}],"doc":2,"seq":3268,"ms":111835283,"op":"edit"}
+{"version":1859,"changes":[{"offset":3036,"length":0,"text":"v"}],"doc":2,"seq":3269,"ms":111836062,"op":"edit"}
+{"version":1860,"changes":[{"offset":3037,"length":0,"text":"o"}],"doc":2,"seq":3270,"ms":111836376,"op":"edit"}
+{"version":1861,"changes":[{"offset":3038,"length":0,"text":"i"}],"doc":2,"seq":3271,"ms":111836512,"op":"edit"}
+{"version":1862,"changes":[{"offset":3039,"length":0,"text":"d"}],"doc":2,"seq":3272,"ms":111836702,"op":"edit"}
+{"version":1863,"changes":[{"offset":3040,"length":0,"text":" "}],"doc":2,"seq":3273,"ms":111836819,"op":"edit"}
+{"doc":2,"seq":3274,"ms":111837835,"op":"save"}
+{"version":1864,"changes":[{"offset":3041,"length":0,"text":"p"}],"doc":2,"seq":3275,"ms":111838125,"op":"edit"}
+{"version":1865,"changes":[{"offset":3042,"length":0,"text":"r"}],"doc":2,"seq":3276,"ms":111838261,"op":"edit"}
+{"version":1866,"changes":[{"offset":3043,"length":0,"text":"i"}],"doc":2,"seq":3277,"ms":111838322,"op":"edit"}
+{"version":1867,"changes":[{"offset":3044,"length":0,"text":"n"}],"doc":2,"seq":3278,"ms":111838450,"op":"edit"}
+{"version":1868,"changes":[{"offset":3045,"length":0,"text":"t"}],"doc":2,"seq":3279,"ms":111838533,"op":"edit"}
+{"doc":2,"seq":3280,"ms":111839549,"op":"save"}
+{"version":1869,"changes":[{"offset":3046,"length":0,"text":"B"}],"doc":2,"seq":3281,"ms":111839746,"op":"edit"}
+{"version":1870,"changes":[{"offset":3047,"length":0,"text":"Y"}],"doc":2,"seq":3282,"ms":111839867,"op":"edit"}
+{"doc":2,"seq":3283,"ms":111840882,"op":"save"}
+{"version":1871,"changes":[{"offset":3048,"length":0,"text":"Y"}],"doc":2,"seq":3284,"ms":111841594,"op":"edit"}
+{"version":1872,"changes":[{"offset":3049,"length":0,"text":"e"}],"doc":2,"seq":3285,"ms":111841909,"op":"edit"}
+{"version":1873,"changes":[{"offset":3050,"length":0,"text":"a"}],"doc":2,"seq":3286,"ms":111842149,"op":"edit"}
+{"version":1874,"changes":[{"offset":3051,"length":0,"text":"r"}],"doc":2,"seq":3287,"ms":111842391,"op":"edit"}
+{"doc":2,"seq":3288,"ms":111843405,"op":"save"}
+{"version":1875,"changes":[{"offset":3047,"length":1,"text":""}],"doc":2,"seq":3289,"ms":111846226,"op":"edit"}
+{"version":1876,"changes":[{"offset":3047,"length":0,"text":"y"}],"doc":2,"seq":3290,"ms":111846812,"op":"edit"}
+{"doc":2,"seq":3291,"ms":111847822,"op":"save"}
+{"version":1877,"changes":[{"offset":3052,"length":0,"text":"_"}],"doc":2,"seq":3292,"ms":111849682,"op":"edit"}
+{"version":1878,"changes":[{"offset":3053,"length":0,"text":"A"}],"doc":2,"seq":3293,"ms":111850608,"op":"edit"}
+{"version":1879,"changes":[{"offset":3054,"length":0,"text":"S"}],"doc":2,"seq":3294,"ms":111850765,"op":"edit"}
+{"version":1880,"changes":[{"offset":3055,"length":0,"text":"C"}],"doc":2,"seq":3295,"ms":111851062,"op":"edit"}
+{"version":1881,"changes":[{"offset":3055,"length":1,"text":""}],"doc":2,"seq":3296,"ms":111852057,"op":"edit"}
+{"version":1882,"changes":[{"offset":3054,"length":1,"text":""}],"doc":2,"seq":3297,"ms":111852272,"op":"edit"}
+{"version":1883,"changes":[{"offset":3054,"length":0,"text":"s"}],"doc":2,"seq":3298,"ms":111852919,"op":"edit"}
+{"version":1884,"changes":[{"offset":3055,"length":0,"text":"c"}],"doc":2,"seq":3299,"ms":111853154,"op":"edit"}
