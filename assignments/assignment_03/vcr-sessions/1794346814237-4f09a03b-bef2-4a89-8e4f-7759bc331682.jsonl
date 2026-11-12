@@ -2950,3 +2950,37 @@
 {"executionId":"6589eb19-faa1-4e3c-b289-66c912ed15c9","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2949,"ms":110233088,"op":"terminal.output"}
 {"executionId":"6589eb19-faa1-4e3c-b289-66c912ed15c9","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\nTitle: The Hunger Games Author:                      Suzanne Collins\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author:       SE Hinton\r\nResulting book Title: 'Twillight', by author:       Stephenie Meyer\r\nResulting book Title: 'The Hunger Games', by author:       Suzanne Collins\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author:       Tim O'Brien\r\nResulting book Title: 'If I Die in a Combat Zone: Box Me Up and Ship Me Home', by author:       Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\nTitle: The Hunger Games Author:                      Suzanne Collins\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2950,"ms":110233103,"op":"terminal.output"}
 {"executionId":"6589eb19-faa1-4e3c-b289-66c912ed15c9","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2951,"ms":110233103,"op":"terminal.end"}
+{"version":1664,"changes":[{"offset":727,"length":0,"text":"        "}],"doc":2,"seq":2952,"ms":110427363,"op":"edit"}
+{"doc":2,"seq":2953,"ms":110428379,"op":"save"}
+{"version":1665,"changes":[{"offset":735,"length":0,"text":"s"}],"doc":2,"seq":2954,"ms":110428711,"op":"edit"}
+{"version":1666,"changes":[{"offset":736,"length":0,"text":"t"}],"doc":2,"seq":2955,"ms":110428936,"op":"edit"}
+{"version":1667,"changes":[{"offset":737,"length":0,"text":"r"}],"doc":2,"seq":2956,"ms":110429019,"op":"edit"}
+{"version":1668,"changes":[{"offset":738,"length":0,"text":"i"}],"doc":2,"seq":2957,"ms":110429120,"op":"edit"}
+{"version":1669,"changes":[{"offset":739,"length":0,"text":"n"}],"doc":2,"seq":2958,"ms":110429224,"op":"edit"}
+{"version":1670,"changes":[{"offset":740,"length":0,"text":"g"}],"doc":2,"seq":2959,"ms":110429272,"op":"edit"}
+{"version":1671,"changes":[{"offset":741,"length":0,"text":" "}],"doc":2,"seq":2960,"ms":110429439,"op":"edit"}
+{"version":1672,"changes":[{"offset":742,"length":0,"text":"r"}],"doc":2,"seq":2961,"ms":110429648,"op":"edit"}
+{"version":1673,"changes":[{"offset":743,"length":0,"text":"e"}],"doc":2,"seq":2962,"ms":110429768,"op":"edit"}
+{"version":1674,"changes":[{"offset":744,"length":0,"text":"s"}],"doc":2,"seq":2963,"ms":110430198,"op":"edit"}
+{"version":1675,"changes":[{"offset":745,"length":0,"text":"u"}],"doc":2,"seq":2964,"ms":110430451,"op":"edit"}
+{"version":1676,"changes":[{"offset":746,"length":0,"text":";"}],"doc":2,"seq":2965,"ms":110430731,"op":"edit"}
+{"version":1677,"changes":[{"offset":747,"length":0,"text":"t"}],"doc":2,"seq":2966,"ms":110430832,"op":"edit"}
+{"version":1678,"changes":[{"offset":747,"length":1,"text":""}],"doc":2,"seq":2967,"ms":110431223,"op":"edit"}
+{"version":1679,"changes":[{"offset":746,"length":1,"text":""}],"doc":2,"seq":2968,"ms":110431388,"op":"edit"}
+{"version":1680,"changes":[{"offset":746,"length":0,"text":"l"}],"doc":2,"seq":2969,"ms":110431886,"op":"edit"}
+{"version":1681,"changes":[{"offset":747,"length":0,"text":"t"}],"doc":2,"seq":2970,"ms":110431989,"op":"edit"}
+{"version":1682,"changes":[{"offset":748,"length":0,"text":" "}],"doc":2,"seq":2971,"ms":110432123,"op":"edit"}
+{"version":1683,"changes":[{"offset":749,"length":0,"text":"="}],"doc":2,"seq":2972,"ms":110432703,"op":"edit"}
+{"doc":2,"seq":2973,"ms":110433724,"op":"save"}
+{"version":1684,"changes":[{"offset":771,"length":12,"text":""}],"doc":2,"seq":2974,"ms":110440354,"op":"edit"}
+{"version":1685,"changes":[{"offset":771,"length":0,"text":" "}],"doc":2,"seq":2975,"ms":110441127,"op":"edit"}
+{"doc":2,"seq":2976,"ms":110442136,"op":"save"}
+{"version":1686,"changes":[{"offset":765,"length":0,"text":" "}],"doc":2,"seq":2977,"ms":110442156,"op":"edit"}
+{"doc":2,"seq":2978,"ms":110443164,"op":"save"}
+{"version":1687,"changes":[{"offset":750,"length":0,"text":" "}],"doc":2,"seq":2979,"ms":110443452,"op":"edit"}
+{"version":1688,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":751,"length":0,"text":"esult->getTitle()"}],"doc":2,"seq":2980,"ms":110443729,"op":"edit"}
+{"doc":2,"seq":2981,"ms":110444742,"op":"save"}
+{"version":1689,"changes":[{"offset":768,"length":0,"text":";"}],"doc":2,"seq":2982,"ms":110444995,"op":"edit"}
+{"doc":2,"seq":2983,"ms":110446008,"op":"save"}
+{"version":1690,"changes":[{"offset":751,"length":0,"text":"r"}],"doc":2,"seq":2984,"ms":110457711,"op":"edit"}
+{"doc":2,"seq":2985,"ms":110458732,"op":"save"}
