@@ -109,3 +109,9 @@
 {"version":90,"changes":[{"offset":74,"length":1,"text":""}],"doc":1,"seq":108,"ms":561790,"op":"edit"}
 {"version":91,"changes":[{"offset":73,"length":1,"text":""}],"doc":1,"seq":109,"ms":562537,"op":"edit"}
 {"doc":1,"seq":110,"ms":563553,"op":"save"}
+{"executionId":"38e0564e-f397-4ee5-aacc-b217e0f0b116","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"$ g++ <program file> -lncurses -o <output file name>","confidence":2,"doc":2,"seq":111,"ms":582432,"op":"terminal.start"}
+{"executionId":"38e0564e-f397-4ee5-aacc-b217e0f0b116","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"\u001b]633;C\u0007","doc":2,"seq":112,"ms":582433,"op":"terminal.output"}
+{"executionId":"38e0564e-f397-4ee5-aacc-b217e0f0b116","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"$ g++ <program file> -lncurses -o <output file name>","confidence":2,"exitCode":null,"doc":2,"seq":113,"ms":582433,"op":"terminal.end"}
+{"executionId":"4d6d994b-baf1-449d-aab3-c2aa15905356","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"g++ <curses.cpp> -lncurses -o <curses>","confidence":2,"doc":2,"seq":114,"ms":624874,"op":"terminal.start"}
+{"executionId":"4d6d994b-baf1-449d-aab3-c2aa15905356","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"\u001b]633;C\u0007","doc":2,"seq":115,"ms":624874,"op":"terminal.output"}
+{"executionId":"4d6d994b-baf1-449d-aab3-c2aa15905356","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"g++ <curses.cpp> -lncurses -o <curses>","confidence":2,"exitCode":null,"doc":2,"seq":116,"ms":624875,"op":"terminal.end"}
