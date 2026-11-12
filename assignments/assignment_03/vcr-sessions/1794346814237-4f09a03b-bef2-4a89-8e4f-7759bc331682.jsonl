@@ -1882,3 +1882,20 @@
 {"doc":2,"seq":1881,"ms":106253169,"op":"save"}
 {"version":1156,"changes":[{"offset":1854,"length":0,"text":"\""}],"doc":2,"seq":1882,"ms":106257393,"op":"edit"}
 {"doc":2,"seq":1883,"ms":106258419,"op":"save"}
+{"version":1157,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2289,"length":0,"text":"<<result->getTitle()<<cout\"by author: \""}],"doc":2,"seq":1884,"ms":106275542,"op":"edit"}
+{"doc":2,"seq":1885,"ms":106276553,"op":"save"}
+{"version":1158,"changes":[{"offset":2341,"length":5,"text":"A"}],"doc":2,"seq":1886,"ms":106300482,"op":"edit"}
+{"version":1159,"changes":[{"offset":2342,"length":0,"text":"u"}],"doc":2,"seq":1887,"ms":106300717,"op":"edit"}
+{"version":1160,"changes":[{"offset":2343,"length":0,"text":"t"}],"doc":2,"seq":1888,"ms":106300898,"op":"edit"}
+{"version":1161,"changes":[{"offset":2344,"length":0,"text":"h"}],"doc":2,"seq":1889,"ms":106300964,"op":"edit"}
+{"version":1162,"changes":[{"offset":2345,"length":0,"text":"o"}],"doc":2,"seq":1890,"ms":106301183,"op":"edit"}
+{"version":1163,"changes":[{"offset":2346,"length":0,"text":"r"}],"doc":2,"seq":1891,"ms":106301280,"op":"edit"}
+{"doc":2,"seq":1892,"ms":106302295,"op":"save"}
+{"version":1164,"changes":[{"offset":1838,"length":4,"text":""}],"doc":2,"seq":1893,"ms":106317792,"op":"edit"}
+{"doc":2,"seq":1894,"ms":106318810,"op":"save"}
+{"version":1165,"changes":[{"offset":2307,"length":4,"text":""}],"doc":2,"seq":1895,"ms":106320896,"op":"edit"}
+{"doc":2,"seq":1896,"ms":106321909,"op":"save"}
+{"executionId":"ecb3f142-d500-4124-a53b-04559f5b6309","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":1897,"ms":106323914,"op":"terminal.start"}
+{"executionId":"ecb3f142-d500-4124-a53b-04559f5b6309","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":1898,"ms":106323965,"op":"terminal.output"}
+{"executionId":"ecb3f142-d500-4124-a53b-04559f5b6309","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: Tim O'Brien\r\n   Title: The Giver                           Author: Lois Lowry\r\n   Title: Outsiders                           Author: SE Hinton\r\n   Title: The lord of the rings                           Author: John Ronald Reuel Tolkien\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\r\nwe are removing: Game of thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nmatch The Giver\r\n\r\nwe are searching for book by genre: Young adult\r\nresult Outsidersby author: SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brienresult Book title: The things you carryby author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: Tim O'Brien\r\n   Title: The Giver                           Author: Lois Lowry\r\n   Title: Outsiders                           Author: SE Hinton\r\n   Title: The lord of the rings                           Author: John Ronald Reuel Tolkien\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1899,"ms":106324204,"op":"terminal.output"}
+{"executionId":"ecb3f142-d500-4124-a53b-04559f5b6309","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1900,"ms":106324204,"op":"terminal.end"}
