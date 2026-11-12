@@ -2274,3 +2274,117 @@
 {"executionId":"9fb82047-e75a-46ed-93f3-c1315e0bab72","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver'\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author: SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2273,"ms":107863019,"op":"terminal.output"}
 {"executionId":"9fb82047-e75a-46ed-93f3-c1315e0bab72","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2274,"ms":107863019,"op":"terminal.end"}
 {"doc":2,"seq":2275,"ms":107883659,"op":"save"}
+{"version":1332,"changes":[{"offset":1556,"length":0,"text":"\n        "}],"doc":2,"seq":2276,"ms":108733562,"op":"edit"}
+{"version":1333,"changes":[{"offset":1565,"length":0,"text":"\n        "},{"offset":1557,"length":8,"text":""}],"doc":2,"seq":2277,"ms":108733716,"op":"edit"}
+{"version":1334,"changes":[{"offset":1566,"length":0,"text":"a"}],"doc":2,"seq":2278,"ms":108734566,"op":"edit"}
+{"version":1335,"changes":[{"offset":1567,"length":0,"text":"u"}],"doc":2,"seq":2279,"ms":108734670,"op":"edit"}
+{"version":1336,"changes":[{"offset":1568,"length":0,"text":"t"}],"doc":2,"seq":2280,"ms":108734813,"op":"edit"}
+{"version":1337,"changes":[{"offset":1569,"length":0,"text":" "}],"doc":2,"seq":2281,"ms":108734915,"op":"edit"}
+{"doc":2,"seq":2282,"ms":108735922,"op":"save"}
+{"version":1338,"changes":[{"offset":1569,"length":1,"text":""}],"doc":2,"seq":2283,"ms":108736006,"op":"edit"}
+{"version":1339,"changes":[{"offset":1569,"length":0,"text":"o"}],"doc":2,"seq":2284,"ms":108736503,"op":"edit"}
+{"version":1340,"changes":[{"offset":1569,"length":1,"text":""}],"doc":2,"seq":2285,"ms":108737464,"op":"edit"}
+{"version":1341,"changes":[{"offset":1569,"length":0,"text":"o"}],"doc":2,"seq":2286,"ms":108738190,"op":"edit"}
+{"version":1342,"changes":[{"offset":1570,"length":0,"text":" "}],"doc":2,"seq":2287,"ms":108738378,"op":"edit"}
+{"version":1343,"changes":[{"offset":1571,"length":0,"text":"b"}],"doc":2,"seq":2288,"ms":108738584,"op":"edit"}
+{"version":1344,"changes":[{"offset":1572,"length":0,"text":"y"}],"doc":2,"seq":2289,"ms":108738690,"op":"edit"}
+{"doc":2,"seq":2290,"ms":108739698,"op":"save"}
+{"version":1345,"changes":[{"offset":1573,"length":0,"text":"A"}],"doc":2,"seq":2291,"ms":108740635,"op":"edit"}
+{"version":1346,"changes":[{"offset":1574,"length":0,"text":"u"}],"doc":2,"seq":2292,"ms":108741391,"op":"edit"}
+{"version":1347,"changes":[{"offset":1575,"length":0,"text":"t"}],"doc":2,"seq":2293,"ms":108741563,"op":"edit"}
+{"version":1348,"changes":[{"offset":1576,"length":0,"text":"h"}],"doc":2,"seq":2294,"ms":108741601,"op":"edit"}
+{"version":1349,"changes":[{"offset":1577,"length":0,"text":"e"}],"doc":2,"seq":2295,"ms":108742027,"op":"edit"}
+{"version":1350,"changes":[{"offset":1578,"length":0,"text":"r"}],"doc":2,"seq":2296,"ms":108742145,"op":"edit"}
+{"version":1351,"changes":[{"offset":1579,"length":0,"text":" "}],"doc":2,"seq":2297,"ms":108742844,"op":"edit"}
+{"version":1352,"changes":[{"offset":1580,"length":0,"text":"="}],"doc":2,"seq":2298,"ms":108743251,"op":"edit"}
+{"version":1353,"changes":[{"offset":1581,"length":0,"text":" "}],"doc":2,"seq":2299,"ms":108743490,"op":"edit"}
+{"version":1354,"changes":[{"offset":1582,"length":0,"text":"b"}],"doc":2,"seq":2300,"ms":108743706,"op":"edit"}
+{"version":1355,"changes":[{"offset":1583,"length":0,"text":"o"}],"doc":2,"seq":2301,"ms":108743942,"op":"edit"}
+{"version":1356,"changes":[{"offset":1582,"length":2,"text":"bookCollections"}],"doc":2,"seq":2302,"ms":108744490,"op":"edit"}
+{"version":1357,"changes":[{"offset":1597,"length":0,"text":"\n        "}],"doc":2,"seq":2303,"ms":108745406,"op":"edit"}
+{"doc":2,"seq":2304,"ms":108746422,"op":"save"}
+{"version":1358,"changes":[{"offset":1606,"length":0,"text":"\\"}],"doc":2,"seq":2305,"ms":108747427,"op":"edit"}
+{"version":1359,"changes":[{"offset":1606,"length":1,"text":""}],"doc":2,"seq":2306,"ms":108748229,"op":"edit"}
+{"doc":2,"seq":2307,"ms":108749247,"op":"save"}
+{"version":1360,"changes":[{"offset":1606,"length":0,"text":"|"}],"doc":2,"seq":2308,"ms":108749359,"op":"edit"}
+{"version":1361,"changes":[{"offset":1607,"length":0,"text":"f"}],"doc":2,"seq":2309,"ms":108750222,"op":"edit"}
+{"version":1362,"changes":[{"offset":1608,"length":0,"text":"i"}],"doc":2,"seq":2310,"ms":108750336,"op":"edit"}
+{"version":1363,"changes":[{"offset":1609,"length":0,"text":"l"}],"doc":2,"seq":2311,"ms":108750561,"op":"edit"}
+{"version":1364,"changes":[{"offset":1610,"length":0,"text":"e"}],"doc":2,"seq":2312,"ms":108750686,"op":"edit"}
+{"version":1365,"changes":[{"offset":1611,"length":0,"text":"r"}],"doc":2,"seq":2313,"ms":108750814,"op":"edit"}
+{"doc":2,"seq":2314,"ms":108751828,"op":"save"}
+{"version":1366,"changes":[{"offset":1612,"length":0,"text":"()"}],"doc":2,"seq":2315,"ms":108754811,"op":"edit"}
+{"version":1367,"changes":[{"offset":1613,"length":1,"text":")"}],"doc":2,"seq":2316,"ms":108754878,"op":"edit"}
+{"doc":2,"seq":2317,"ms":108755898,"op":"save"}
+{"version":1368,"changes":[{"offset":1613,"length":0,"text":"[]"}],"doc":2,"seq":2318,"ms":108758890,"op":"edit"}
+{"doc":2,"seq":2319,"ms":108759897,"op":"save"}
+{"version":1369,"changes":[{"offset":1614,"length":0,"text":"&"}],"doc":2,"seq":2320,"ms":108760583,"op":"edit"}
+{"doc":2,"seq":2321,"ms":108761602,"op":"save"}
+{"version":1370,"changes":[{"offset":1615,"length":0,"text":"a"}],"doc":2,"seq":2322,"ms":108763302,"op":"edit"}
+{"version":1371,"changes":[{"offset":1616,"length":0,"text":"u"}],"doc":2,"seq":2323,"ms":108763674,"op":"edit"}
+{"version":1372,"changes":[{"offset":1617,"length":0,"text":"h"}],"doc":2,"seq":2324,"ms":108763886,"op":"edit"}
+{"version":1373,"changes":[{"offset":1618,"length":0,"text":"t"}],"doc":2,"seq":2325,"ms":108764590,"op":"edit"}
+{"version":1374,"changes":[{"offset":1619,"length":0,"text":"o"}],"doc":2,"seq":2326,"ms":108764809,"op":"edit"}
+{"version":1375,"changes":[{"offset":1620,"length":0,"text":"r"}],"doc":2,"seq":2327,"ms":108764948,"op":"edit"}
+{"doc":2,"seq":2328,"ms":108765971,"op":"save"}
+{"version":1376,"changes":[{"offset":1622,"length":0,"text":"()"}],"doc":2,"seq":2329,"ms":108767044,"op":"edit"}
+{"version":1377,"changes":[{"offset":1623,"length":1,"text":")"}],"doc":2,"seq":2330,"ms":108767160,"op":"edit"}
+{"doc":2,"seq":2331,"ms":108768174,"op":"save"}
+{"version":1378,"changes":[{"offset":1623,"length":0,"text":"B"}],"doc":2,"seq":2332,"ms":108770625,"op":"edit"}
+{"version":1379,"changes":[{"offset":1624,"length":0,"text":"o"}],"doc":2,"seq":2333,"ms":108770843,"op":"edit"}
+{"version":1380,"changes":[{"offset":1625,"length":0,"text":"o"}],"doc":2,"seq":2334,"ms":108771040,"op":"edit"}
+{"version":1381,"changes":[{"offset":1626,"length":0,"text":"k"}],"doc":2,"seq":2335,"ms":108771110,"op":"edit"}
+{"version":1382,"changes":[{"offset":1627,"length":0,"text":" "}],"doc":2,"seq":2336,"ms":108771915,"op":"edit"}
+{"version":1383,"changes":[{"offset":1627,"length":1,"text":""}],"doc":2,"seq":2337,"ms":108772325,"op":"edit"}
+{"version":1384,"changes":[{"offset":1627,"length":0,"text":"&"}],"doc":2,"seq":2338,"ms":108773068,"op":"edit"}
+{"version":1385,"changes":[{"offset":1628,"length":0,"text":" "}],"doc":2,"seq":2339,"ms":108773293,"op":"edit"}
+{"version":1386,"changes":[{"offset":1629,"length":0,"text":"n"}],"doc":2,"seq":2340,"ms":108773804,"op":"edit"}
+{"version":1387,"changes":[{"offset":1630,"length":0,"text":"p"}],"doc":2,"seq":2341,"ms":108774472,"op":"edit"}
+{"version":1388,"changes":[{"offset":1631,"length":0,"text":"p"}],"doc":2,"seq":2342,"ms":108774660,"op":"edit"}
+{"doc":2,"seq":2343,"ms":108775673,"op":"save"}
+{"version":1389,"changes":[{"offset":1631,"length":1,"text":""}],"doc":2,"seq":2344,"ms":108775895,"op":"edit"}
+{"version":1390,"changes":[{"offset":1630,"length":1,"text":""}],"doc":2,"seq":2345,"ms":108776078,"op":"edit"}
+{"version":1391,"changes":[{"offset":1629,"length":1,"text":""}],"doc":2,"seq":2346,"ms":108776258,"op":"edit"}
+{"version":1392,"changes":[{"offset":1629,"length":0,"text":"b"}],"doc":2,"seq":2347,"ms":108776803,"op":"edit"}
+{"version":1393,"changes":[{"offset":1630,"length":0,"text":"o"}],"doc":2,"seq":2348,"ms":108777089,"op":"edit"}
+{"version":1394,"changes":[{"offset":1631,"length":0,"text":"o"}],"doc":2,"seq":2349,"ms":108777248,"op":"edit"}
+{"version":1395,"changes":[{"offset":1632,"length":0,"text":"k"}],"doc":2,"seq":2350,"ms":108777426,"op":"edit"}
+{"doc":2,"seq":2351,"ms":108778446,"op":"save"}
+{"version":1396,"changes":[{"offset":1634,"length":0,"text":"{}"}],"doc":2,"seq":2352,"ms":108778965,"op":"edit"}
+{"version":1397,"changes":[{"offset":1635,"length":0,"text":"\n            \n        "}],"doc":2,"seq":2353,"ms":108779171,"op":"edit"}
+{"doc":2,"seq":2354,"ms":108780184,"op":"save"}
+{"version":1398,"changes":[{"offset":1648,"length":0,"text":"r"}],"doc":2,"seq":2355,"ms":108781190,"op":"edit"}
+{"version":1399,"changes":[{"offset":1649,"length":0,"text":"e"}],"doc":2,"seq":2356,"ms":108781243,"op":"edit"}
+{"version":1400,"changes":[{"offset":1650,"length":0,"text":"t"}],"doc":2,"seq":2357,"ms":108781477,"op":"edit"}
+{"text":"#pragma once\n#include <iostream>\n#include <string>\n#include <vector>\n#include <iomanip>\n#include <ranges>\n#include <algorithm>\n#include \"Book.h\"\n\n\nusing namespace std;\n\ntemplate <typename T=string>\nclass Library {\n\n    public:\n\n    std::vector<Book> bookCollections{};\n\n    Library(){\n        std::vector<Book> bookCollections{};\n    }\n\n    //: Adds a new book to the library.\n    void add_book(const Book& book){\n\n        bookCollections.push_back(book);\n    }\n    //Removes a book from the library based on its title.\n    T remove_book(const std::string& title){\n\n        auto result = remove_if(bookCollections.begin(),bookCollections.end(),[&title](Book& bookVar){\n            return bookVar.getTitle()==title;\n        });\n\n        if(result != bookCollections.end()){\n            cout<<result->getTitle()<<\" was removed\"<<endl;\n\n            bookCollections.erase(result , bookCollections.end());\n        }\n\n        return \"no match to remove\";\n    }\n    //: Searches for a book by title and returns it (if found) or prints an error message.\n    T find_book(const std::string& title){\n\n        auto result = find_if(bookCollections.begin(),bookCollections.end(),[&title](Book& bookVar){\n\n            return bookVar.getTitle() == title;\n            }\n        );\n\n        if(result != bookCollections.end()){\n            cout<<\"Resulting book Title: '\"<<result->getTitle()<<\"'\"<<endl;\n        }\n\n        return \"not found\";\n    }\n    //: Returns a collection of books written by the specified author.\n    T get_books_by_author(const std::string& author){\n\n        auto byAuther = bookCollections\n        |filer([&auhtor](Book& book){\n            retu\n        })\n\n        auto result = find_if(bookCollections.begin(),bookCollections.begin(),[&author](Book& bookVar){\n            return bookVar.getAuthor() == author;\n        });\n\n        if(result != bookCollections.end()){\n            cout<<\"Resulting book Title: '\"<<result->getTitle()<<\"', by author: \"<<result->getAuthor()<<endl;\n        }\n\n        return \"not found\";\n    }\n    //: Returns a collection of books belonging to the specified genre.\n    T get_books_by_genre(const std::string& genre){\n\n\n        auto result = find_if(bookCollections.begin(),bookCollections.end(),[&genre](Book& bookVar){\n            return bookVar.getGenre() == genre;\n        });\n\n        if(result != bookCollections.end()){\n            cout<<\"Resulting book Title: '\"<<result->getTitle()<<\"', by author: \"<<result->getAuthor()<<endl;\n        }\n\n        return \"not found\";\n    }\n    //use iterator to print list of books\n    void printBooks(){\n\n        cout<<\"The books currently in the library: \\n\"<<endl;\n        for(vector<Book>::iterator it = bookCollections.begin(); it<bookCollections.end(); ++it){\n\n            std::cout<<std::left<<\"Title: \"<<it->getTitle()<<std::setw(30)<<\" Author: \"<<it->getAuthor()<<endl;\n\n        }\n    }\n\n};\n\n","version":1401,"snapshot":true,"doc":2,"seq":2358,"ms":108781669,"op":"edit"}
+{"version":1402,"changes":[{"offset":1652,"length":0,"text":"r"}],"doc":2,"seq":2359,"ms":108781800,"op":"edit"}
+{"version":1403,"changes":[{"offset":1653,"length":0,"text":"n"}],"doc":2,"seq":2360,"ms":108781919,"op":"edit"}
+{"version":1404,"changes":[{"offset":1654,"length":0,"text":" "}],"doc":2,"seq":2361,"ms":108782411,"op":"edit"}
+{"doc":2,"seq":2362,"ms":108783430,"op":"save"}
+{"version":1405,"changes":[{"offset":1655,"length":0,"text":"b"}],"doc":2,"seq":2363,"ms":108784923,"op":"edit"}
+{"version":1406,"changes":[{"offset":1656,"length":0,"text":"o"}],"doc":2,"seq":2364,"ms":108785229,"op":"edit"}
+{"version":1407,"changes":[{"offset":1657,"length":0,"text":"o"}],"doc":2,"seq":2365,"ms":108785382,"op":"edit"}
+{"version":1408,"changes":[{"offset":1658,"length":0,"text":"k"}],"doc":2,"seq":2366,"ms":108785498,"op":"edit"}
+{"version":1409,"changes":[{"offset":1659,"length":0,"text":"."}],"doc":2,"seq":2367,"ms":108785810,"op":"edit"}
+{"version":1410,"changes":[{"offset":1660,"length":0,"text":"g"}],"doc":2,"seq":2368,"ms":108786357,"op":"edit"}
+{"version":1411,"changes":[{"offset":1661,"length":0,"text":"e"}],"doc":2,"seq":2369,"ms":108786517,"op":"edit"}
+{"version":1412,"changes":[{"offset":1662,"length":0,"text":"r"}],"doc":2,"seq":2370,"ms":108786617,"op":"edit"}
+{"version":1413,"changes":[{"offset":1662,"length":1,"text":""}],"doc":2,"seq":2371,"ms":108787472,"op":"edit"}
+{"version":1414,"changes":[{"offset":1662,"length":0,"text":"t"}],"doc":2,"seq":2372,"ms":108788025,"op":"edit"}
+{"doc":2,"seq":2373,"ms":108789038,"op":"save"}
+{"version":1415,"changes":[{"offset":1663,"length":0,"text":"A"}],"doc":2,"seq":2374,"ms":108789885,"op":"edit"}
+{"version":1416,"changes":[{"offset":1664,"length":0,"text":"u"}],"doc":2,"seq":2375,"ms":108790253,"op":"edit"}
+{"version":1417,"changes":[{"offset":1665,"length":0,"text":"t"}],"doc":2,"seq":2376,"ms":108790434,"op":"edit"}
+{"version":1418,"changes":[{"offset":1666,"length":0,"text":"h"}],"doc":2,"seq":2377,"ms":108790465,"op":"edit"}
+{"version":1419,"changes":[{"offset":1667,"length":0,"text":"o"}],"doc":2,"seq":2378,"ms":108790701,"op":"edit"}
+{"version":1420,"changes":[{"offset":1668,"length":0,"text":"r"}],"doc":2,"seq":2379,"ms":108790803,"op":"edit"}
+{"version":1421,"changes":[{"offset":1669,"length":0,"text":" "}],"doc":2,"seq":2380,"ms":108791533,"op":"edit"}
+{"version":1422,"changes":[{"offset":1670,"length":0,"text":"="}],"doc":2,"seq":2381,"ms":108792050,"op":"edit"}
+{"version":1423,"changes":[{"offset":1671,"length":0,"text":"="}],"doc":2,"seq":2382,"ms":108792171,"op":"edit"}
+{"version":1424,"changes":[{"offset":1672,"length":0,"text":" "}],"doc":2,"seq":2383,"ms":108792417,"op":"edit"}
+{"version":1425,"changes":[{"offset":1673,"length":0,"text":"a"}],"doc":2,"seq":2384,"ms":108792622,"op":"edit"}
+{"version":1426,"changes":[{"offset":1674,"length":0,"text":"u"}],"doc":2,"seq":2385,"ms":108792737,"op":"edit"}
+{"version":1427,"changes":[{"offset":1675,"length":0,"text":"t"}],"doc":2,"seq":2386,"ms":108792912,"op":"edit"}
+{"version":1428,"changes":[{"offset":1676,"length":0,"text":"h"}],"doc":2,"seq":2387,"ms":108792996,"op":"edit"}
+{"version":1429,"changes":[{"offset":1677,"length":0,"text":"o"}],"doc":2,"seq":2388,"ms":108793223,"op":"edit"}
+{"version":1430,"changes":[{"offset":1678,"length":0,"text":"r"}],"doc":2,"seq":2389,"ms":108793315,"op":"edit"}
