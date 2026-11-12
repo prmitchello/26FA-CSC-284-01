@@ -1109,3 +1109,14 @@
 {"version":562,"changes":[{"offset":449,"length":0,"text":"e"}],"doc":2,"seq":1108,"ms":31552805,"op":"edit"}
 {"version":563,"changes":[{"offset":450,"length":0,"text":"r"}],"doc":2,"seq":1109,"ms":31552869,"op":"edit"}
 {"version":564,"changes":[{"offset":451,"length":0,"text":"."}],"doc":2,"seq":1110,"ms":31553443,"op":"edit"}
+{"doc":2,"seq":1111,"ms":31554463,"op":"save"}
+{"version":565,"changes":[{"offset":453,"length":1,"text":""}],"doc":2,"seq":1112,"ms":31555028,"op":"edit"}
+{"doc":2,"seq":1113,"ms":31556036,"op":"save"}
+{"version":566,"changes":[{"offset":298,"length":0,"text":"    "},{"offset":151,"length":0,"text":"    "},{"offset":36,"length":0,"text":"    "},{"offset":26,"length":0,"text":"    "},{"offset":4,"length":0,"text":"    "}],"doc":2,"seq":1114,"ms":31558709,"op":"edit"}
+{"doc":2,"seq":1115,"ms":31559733,"op":"save"}
+{"version":567,"changes":[{"offset":2362,"length":1,"text":""}],"doc":2,"seq":1116,"ms":31563651,"op":"edit"}
+{"doc":2,"seq":1117,"ms":31564662,"op":"save"}
+{"version":568,"changes":[{"offset":2361,"length":1,"text":""}],"doc":2,"seq":1118,"ms":31568541,"op":"edit"}
+{"doc":2,"seq":1119,"ms":31569555,"op":"save"}
+{"doc":2,"seq":1120,"ms":31579358,"op":"save"}
+{"text":"#pragma once\n#include <string>\n\n\nusing namespace std;\n\nclass Book{\n\n    private:\n    std::string title;\n    std::string author;\n    int year;\n    std::string genre;\n\n\n    public:\n\n    Book(std::string t, std::string a , int y, std::string g){\n        title = t;\n        author = a;\n        year = y;\n        genre = g;\n    }\n    string getTitle(){\n        return title;\n    }\n    string getAuthor(){\n        return author;\n    }\n    string getGenre(){\n        return genre;\n    }\n    int getYear(){\n        return year;\n    }\n    void setTitle(string title){\n        this->title=title;\n    }\n    void setAuthor(string author){\n        this->author = author;\n    }\n    void setYear(int year){\n        this->year=year;\n    }\n    void setGenre(string genre){\n        this->genre = genre;\n    }\n\n    std::string toString ()\n    {\n\n        return \"book\" + title;\n    }\n\n\n\n};\n","version":1,"path":"Book.h","snapshot":true,"doc":3,"seq":1121,"ms":31584639,"op":"snap"}
