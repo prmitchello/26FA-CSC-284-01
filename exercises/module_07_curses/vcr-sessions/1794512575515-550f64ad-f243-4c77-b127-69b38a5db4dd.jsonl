@@ -458,3 +458,45 @@
 {"doc":4,"seq":457,"ms":3731073,"op":"save"}
 {"version":78,"changes":[{"offset":1703,"length":0,"text":";"}],"doc":4,"seq":458,"ms":3731416,"op":"edit"}
 {"doc":4,"seq":459,"ms":3732432,"op":"save"}
+{"version":79,"changes":[{"offset":1702,"length":0,"text":"P"}],"doc":4,"seq":460,"ms":4273128,"op":"edit"}
+{"version":80,"changes":[{"offset":1703,"length":0,"text":"i"}],"doc":4,"seq":461,"ms":4273371,"op":"edit"}
+{"version":81,"changes":[{"offset":1704,"length":0,"text":"r"}],"doc":4,"seq":462,"ms":4273410,"op":"edit"}
+{"version":82,"changes":[{"offset":1705,"length":0,"text":"n"}],"doc":4,"seq":463,"ms":4273566,"op":"edit"}
+{"version":83,"changes":[{"offset":1706,"length":0,"text":"t"}],"doc":4,"seq":464,"ms":4273668,"op":"edit"}
+{"version":84,"changes":[{"offset":1707,"length":0,"text":" "}],"doc":4,"seq":465,"ms":4273784,"op":"edit"}
+{"version":85,"changes":[{"offset":1707,"length":1,"text":""}],"doc":4,"seq":466,"ms":4274221,"op":"edit"}
+{"version":86,"changes":[{"offset":1706,"length":1,"text":""}],"doc":4,"seq":467,"ms":4274363,"op":"edit"}
+{"version":87,"changes":[{"offset":1705,"length":1,"text":""}],"doc":4,"seq":468,"ms":4274509,"op":"edit"}
+{"version":88,"changes":[{"offset":1704,"length":1,"text":""}],"doc":4,"seq":469,"ms":4274645,"op":"edit"}
+{"version":89,"changes":[{"offset":1703,"length":1,"text":""}],"doc":4,"seq":470,"ms":4274793,"op":"edit"}
+{"version":90,"changes":[{"offset":1702,"length":1,"text":""}],"doc":4,"seq":471,"ms":4274989,"op":"edit"}
+{"version":91,"changes":[{"offset":1702,"length":0,"text":"\"\""}],"doc":4,"seq":472,"ms":4275661,"op":"edit"}
+{"version":92,"changes":[{"offset":1703,"length":0,"text":"p"}],"doc":4,"seq":473,"ms":4276038,"op":"edit"}
+{"version":93,"changes":[{"offset":1704,"length":0,"text":"r"}],"doc":4,"seq":474,"ms":4276160,"op":"edit"}
+{"version":94,"changes":[{"offset":1705,"length":0,"text":"i"}],"doc":4,"seq":475,"ms":4276239,"op":"edit"}
+{"version":95,"changes":[{"offset":1706,"length":0,"text":"n"}],"doc":4,"seq":476,"ms":4276315,"op":"edit"}
+{"version":96,"changes":[{"offset":1707,"length":0,"text":"t"}],"doc":4,"seq":477,"ms":4276472,"op":"edit"}
+{"version":97,"changes":[{"offset":1708,"length":0,"text":" "}],"doc":4,"seq":478,"ms":4276499,"op":"edit"}
+{"version":98,"changes":[{"offset":1709,"length":0,"text":"t"}],"doc":4,"seq":479,"ms":4276657,"op":"edit"}
+{"version":99,"changes":[{"offset":1710,"length":0,"text":"h"}],"doc":4,"seq":480,"ms":4276710,"op":"edit"}
+{"version":100,"changes":[{"offset":1711,"length":0,"text":"e"}],"doc":4,"seq":481,"ms":4276837,"op":"edit"}
+{"text":"#include <curses.h>\n#include <vector>\n#include <string>\n\n// Function to print the menu\nvoid drawMenu(const std::vector<std::string>& items, int highlight) {\n    clear();\n    for (size_t i = 0; i < items.size(); ++i) {\n        if (i == highlight) {\n            attron(A_REVERSE); // Highlight selection\n            mvprintw(static_cast<int>(i), 0, items[i].c_str());\n            attroff(A_REVERSE);\n        }\n        else {\n            mvprintw(static_cast<int>(i), 0, items[i].c_str());\n        }\n    }\n    mvprintw(static_cast<int>(items.size() + 1), 0, \"Use up down arrows to navigate, Enter to select, 'q' to quit.\");\n    refresh();\n}\n\nint main() {\n    // Initialize PDCurses\n    initscr();\n    noecho();\n    cbreak();\n    keypad(stdscr, TRUE);\n\n    // Sample menu items\n    std::vector<std::string> menuItems = {\n        \"Option 1: Start\",\n        \"Option 2: Settings\",\n        \"Option 3: Help\",\n        \"Option 4: Exit\"\n    };\n\n    int highlight = 0;\n    int choice = -1;\n    int ch;\n\n    drawMenu(menuItems, highlight);\n\n    while ((ch = getch()) != 'q') {\n        switch (ch) {\n        case KEY_UP:{\n            highlight = (highlight == 0) ? static_cast<int>(menuItems.size()) - 1 : highlight - 1;\n            break;}\n        case KEY_DOWN:{\n            highlight = (highlight == static_cast<int>(menuItems.size()) - 1) ? 0 : highlight + 1;\n            break;}\n        case KEY_ENTER:{ // Enter key\n            choice = highlight;\n            mvprintw(static_cast<int>(menuItems.size() + 3), 0, \"You selected: %s\", menuItems[choice].c_str());\n            break;}\n        default:{\n            break;}\n        }\n        drawMenu(menuItems, highlight);\n        if(choice !=1){\n            printw(\"print the \");\n        }\n    }\n\n    endwin(); // Exit curses mode\n    return 0;\n}\n","version":101,"snapshot":true,"doc":4,"seq":482,"ms":4276865,"op":"edit"}
+{"version":102,"changes":[{"offset":1713,"length":0,"text":"o"}],"doc":4,"seq":483,"ms":4277689,"op":"edit"}
+{"version":103,"changes":[{"offset":1714,"length":0,"text":"p"}],"doc":4,"seq":484,"ms":4277779,"op":"edit"}
+{"version":104,"changes":[{"offset":1715,"length":0,"text":"t"}],"doc":4,"seq":485,"ms":4277899,"op":"edit"}
+{"version":105,"changes":[{"offset":1716,"length":0,"text":"i"}],"doc":4,"seq":486,"ms":4278022,"op":"edit"}
+{"version":106,"changes":[{"offset":1717,"length":0,"text":"o"}],"doc":4,"seq":487,"ms":4278126,"op":"edit"}
+{"version":107,"changes":[{"offset":1718,"length":0,"text":"n"}],"doc":4,"seq":488,"ms":4278190,"op":"edit"}
+{"version":108,"changes":[{"offset":1719,"length":0,"text":" "}],"doc":4,"seq":489,"ms":4278691,"op":"edit"}
+{"version":109,"changes":[{"offset":1720,"length":0,"text":"e"}],"doc":4,"seq":490,"ms":4278845,"op":"edit"}
+{"version":110,"changes":[{"offset":1721,"length":0,"text":"n"}],"doc":4,"seq":491,"ms":4278984,"op":"edit"}
+{"version":111,"changes":[{"offset":1722,"length":0,"text":"t"}],"doc":4,"seq":492,"ms":4279188,"op":"edit"}
+{"version":112,"changes":[{"offset":1723,"length":0,"text":"e"}],"doc":4,"seq":493,"ms":4279361,"op":"edit"}
+{"version":113,"changes":[{"offset":1724,"length":0,"text":"r"}],"doc":4,"seq":494,"ms":4279540,"op":"edit"}
+{"version":114,"changes":[{"offset":1725,"length":0,"text":"e"}],"doc":4,"seq":495,"ms":4279636,"op":"edit"}
+{"version":115,"changes":[{"offset":1726,"length":0,"text":"s"}],"doc":4,"seq":496,"ms":4280034,"op":"edit"}
+{"version":116,"changes":[{"offset":1727,"length":0,"text":"d"}],"doc":4,"seq":497,"ms":4280619,"op":"edit"}
+{"version":117,"changes":[{"offset":1727,"length":1,"text":""}],"doc":4,"seq":498,"ms":4280812,"op":"edit"}
+{"version":118,"changes":[{"offset":1726,"length":1,"text":""}],"doc":4,"seq":499,"ms":4280989,"op":"edit"}
+{"version":119,"changes":[{"offset":1726,"length":0,"text":"d"}],"doc":4,"seq":500,"ms":4281229,"op":"edit"}
+{"doc":4,"seq":501,"ms":4282236,"op":"save"}
