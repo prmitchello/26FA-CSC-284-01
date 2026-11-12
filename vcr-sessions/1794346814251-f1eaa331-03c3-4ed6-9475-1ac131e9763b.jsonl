@@ -326,3 +326,15 @@
 {"executionId":"71f96921-a244-4036-a67c-22e8a381f83b","doc":2,"seq":325,"ms":107816574,"op":"task.end"}
 {"executionId":"dcda60f7-764f-4531-acd9-05f5385ad928","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":326,"ms":107816576,"op":"debug.start"}
 {"executionId":"dcda60f7-764f-4531-acd9-05f5385ad928","doc":2,"seq":327,"ms":107816690,"op":"debug.end"}
+{"executionId":"92b0accc-c7d2-4f32-9780-f52e5cf63789","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":328,"ms":107852483,"op":"task.start"}
+{"executionId":"92b0accc-c7d2-4f32-9780-f52e5cf63789","processId":-1,"doc":2,"seq":329,"ms":107852485,"op":"task.processStart"}
+{"executionId":"92b0accc-c7d2-4f32-9780-f52e5cf63789","exitCode":0,"doc":2,"seq":330,"ms":107853053,"op":"task.processEnd"}
+{"executionId":"92b0accc-c7d2-4f32-9780-f52e5cf63789","doc":2,"seq":331,"ms":107853053,"op":"task.end"}
+{"executionId":"db992a0d-69c2-46e8-9ede-633a6786bbb2","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":332,"ms":107853055,"op":"debug.start"}
+{"executionId":"db992a0d-69c2-46e8-9ede-633a6786bbb2","doc":2,"seq":333,"ms":107853176,"op":"debug.end"}
+{"executionId":"4d058efc-1ba8-4a7d-be13-ef2ff5e5b008","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":334,"ms":107862472,"op":"task.start"}
+{"executionId":"4d058efc-1ba8-4a7d-be13-ef2ff5e5b008","processId":-1,"doc":2,"seq":335,"ms":107862475,"op":"task.processStart"}
+{"executionId":"4d058efc-1ba8-4a7d-be13-ef2ff5e5b008","exitCode":0,"doc":2,"seq":336,"ms":107862891,"op":"task.processEnd"}
+{"executionId":"4d058efc-1ba8-4a7d-be13-ef2ff5e5b008","doc":2,"seq":337,"ms":107862892,"op":"task.end"}
+{"executionId":"98ed3f36-4207-4911-942e-071702c9611e","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":338,"ms":107862896,"op":"debug.start"}
+{"executionId":"98ed3f36-4207-4911-942e-071702c9611e","doc":2,"seq":339,"ms":107863007,"op":"debug.end"}
