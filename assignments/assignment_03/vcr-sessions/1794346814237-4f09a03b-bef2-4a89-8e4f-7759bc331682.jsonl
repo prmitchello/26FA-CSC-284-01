@@ -2095,3 +2095,26 @@
 {"version":387,"changes":[{"offset":229,"length":1,"text":""}],"doc":1,"seq":2094,"ms":107017433,"op":"edit"}
 {"version":388,"changes":[{"offset":229,"length":0,"text":"S"}],"doc":1,"seq":2095,"ms":107018108,"op":"edit"}
 {"doc":1,"seq":2096,"ms":107019120,"op":"save"}
+{"version":1249,"changes":[{"offset":2663,"length":0,"text":"s"}],"doc":2,"seq":2097,"ms":107077621,"op":"edit"}
+{"version":1250,"changes":[{"offset":2664,"length":0,"text":"t"}],"doc":2,"seq":2098,"ms":107077802,"op":"edit"}
+{"version":1251,"changes":[{"offset":2665,"length":0,"text":"d"}],"doc":2,"seq":2099,"ms":107078051,"op":"edit"}
+{"version":1252,"changes":[{"offset":2666,"length":0,"text":":"}],"doc":2,"seq":2100,"ms":107078430,"op":"edit"}
+{"version":1253,"changes":[{"offset":2667,"length":0,"text":":"}],"doc":2,"seq":2101,"ms":107078579,"op":"edit"}
+{"version":1254,"changes":[{"offset":2668,"length":0,"text":"l"}],"doc":2,"seq":2102,"ms":107078936,"op":"edit"}
+{"version":1255,"changes":[{"offset":2669,"length":0,"text":"e"}],"doc":2,"seq":2103,"ms":107079218,"op":"edit"}
+{"version":1256,"changes":[{"offset":2670,"length":0,"text":"d"}],"doc":2,"seq":2104,"ms":107079347,"op":"edit"}
+{"version":1257,"changes":[{"offset":2671,"length":0,"text":"t"}],"doc":2,"seq":2105,"ms":107079566,"op":"edit"}
+{"version":1258,"changes":[{"offset":2671,"length":1,"text":""}],"doc":2,"seq":2106,"ms":107079954,"op":"edit"}
+{"version":1259,"changes":[{"offset":2670,"length":1,"text":""}],"doc":2,"seq":2107,"ms":107080093,"op":"edit"}
+{"version":1260,"changes":[{"offset":2670,"length":0,"text":"f"}],"doc":2,"seq":2108,"ms":107080446,"op":"edit"}
+{"version":1261,"changes":[{"offset":2671,"length":0,"text":"t"}],"doc":2,"seq":2109,"ms":107080645,"op":"edit"}
+{"doc":2,"seq":2110,"ms":107081664,"op":"save"}
+{"version":1262,"changes":[{"offset":2672,"length":0,"text":"<"}],"doc":2,"seq":2111,"ms":107082215,"op":"edit"}
+{"version":1263,"changes":[{"offset":2673,"length":0,"text":"<"}],"doc":2,"seq":2112,"ms":107082379,"op":"edit"}
+{"doc":2,"seq":2113,"ms":107083397,"op":"save"}
+{"version":1264,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2711,"length":0,"text":"std::left<<"}],"doc":2,"seq":2114,"ms":107095154,"op":"edit"}
+{"doc":2,"seq":2115,"ms":107096171,"op":"save"}
+{"executionId":"bc8aeb9e-9400-4050-b77b-4a027b8d47bb","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":2116,"ms":107101931,"op":"terminal.start"}
+{"executionId":"bc8aeb9e-9400-4050-b77b-4a027b8d47bb","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2117,"ms":107101984,"op":"terminal.output"}
+{"executionId":"bc8aeb9e-9400-4050-b77b-4a027b8d47bb","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                           GRR Martin\r\nTitle:    The Things You Carry Author:                           Tim O'Brien\r\nTitle:    The Giver Author:                           Lois Lowry\r\nTitle:    Outsiders Author:                           SE Hinton\r\nTitle:    The Lord Of The Rings Author:                           John Ronald Reuel Tolkien\r\nTitle:    House Of The Dragon Author:                           GRR Martin\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver'\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author: SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                           Tim O'Brien\r\nTitle:    The Giver Author:                           Lois Lowry\r\nTitle:    Outsiders Author:                           SE Hinton\r\nTitle:    The Lord Of The Rings Author:                           John Ronald Reuel Tolkien\r\nTitle:    House Of The Dragon Author:                           GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2118,"ms":107102051,"op":"terminal.output"}
+{"executionId":"bc8aeb9e-9400-4050-b77b-4a027b8d47bb","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2119,"ms":107102051,"op":"terminal.end"}
