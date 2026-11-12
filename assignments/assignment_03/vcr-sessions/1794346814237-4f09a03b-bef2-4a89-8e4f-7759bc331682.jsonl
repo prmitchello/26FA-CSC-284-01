@@ -2616,3 +2616,29 @@
 {"version":391,"reason":1,"changes":[{"offset":194,"length":0,"text":"T"}],"doc":1,"seq":2615,"ms":109316788,"op":"edit"}
 {"version":392,"reason":1,"changes":[{"offset":194,"length":1,"text":"You"}],"doc":1,"seq":2616,"ms":109318395,"op":"edit"}
 {"doc":1,"seq":2617,"ms":109319406,"op":"save"}
+{"version":393,"changes":[{"offset":501,"length":0,"text":"\n    "}],"doc":1,"seq":2618,"ms":109365491,"op":"edit"}
+{"doc":1,"seq":2619,"ms":109366510,"op":"save"}
+{"version":394,"changes":[{"offset":506,"length":0,"text":"B"}],"doc":1,"seq":2620,"ms":109366844,"op":"edit"}
+{"version":395,"changes":[{"offset":507,"length":0,"text":"o"}],"doc":1,"seq":2621,"ms":109367033,"op":"edit"}
+{"version":396,"changes":[{"offset":508,"length":0,"text":"o"}],"doc":1,"seq":2622,"ms":109367199,"op":"edit"}
+{"version":397,"changes":[{"offset":509,"length":0,"text":"k"}],"doc":1,"seq":2623,"ms":109367294,"op":"edit"}
+{"version":398,"changes":[{"offset":510,"length":0,"text":" "}],"doc":1,"seq":2624,"ms":109368037,"op":"edit"}
+{"version":399,"changes":[{"offset":511,"length":0,"text":"b"}],"doc":1,"seq":2625,"ms":109368380,"op":"edit"}
+{"version":400,"changes":[{"offset":512,"length":0,"text":"7"}],"doc":1,"seq":2626,"ms":109368817,"op":"edit"}
+{"doc":1,"seq":2627,"ms":109369832,"op":"save"}
+{"text":"#include <iostream>\n#include \"Library.h\"\n\n\n\n\nusing namespace std;\n\n\nint main(){\n\n\n    Library bhccLibrary{};\n\n    Book b1(\"Game Of Thrones\",\"GRR Martin\",1988,\"Fiction\");\n    Book b2(\"The Things You Carry\",\"Tim O'Brien\",1988,\"War Story\");\n    Book b3(\"The Giver\",\"Lois Lowry\",1988,\"Science-Fiction\");\n    Book b4(\"Outsiders\",\"SE Hinton\",1988,\"Young Adult\");\n    Book b5(\"The Lord Of The Rings\",\"John Ronald Reuel Tolkien\",1988,\"Fantasy\");\n    Book b6(\"House Of The Dragon\",\"GRR Martin\",1988,\"Fiction\");\n    Book b7()\n\n    bhccLibrary.add_book(b1);\n    bhccLibrary.add_book(b2);\n    bhccLibrary.add_book(b3);\n    bhccLibrary.add_book(b4);\n    bhccLibrary.add_book(b5);\n    bhccLibrary.add_book(b6);\n\n\n    bhccLibrary.printBooks();\n    cout<<endl;\n\n    cout<<\"we are removing: \"<<b1.getTitle()<<endl;\n    bhccLibrary.remove_book(b1.getTitle());\n    cout<<endl;\n\n    cout<<\"we are searching for book: \"<<b3.getTitle()<<endl;\n    bhccLibrary.find_book(b3.getTitle());\n    cout<<endl;\n\n    cout<<\"we are searching for book by genre: \"<<b4.getGenre()<<endl;\n    bhccLibrary.get_books_by_genre(b4.getGenre());\n    cout<<endl;\n\n    cout<<\"we are searching for book by author: \"<<b2.getAuthor()<<endl;\n    bhccLibrary.get_books_by_author(b2.getAuthor());\n    cout<<endl;\n\n    cout<<endl;\n    bhccLibrary.printBooks();\n\n\n    return 0;\n}\n","version":401,"snapshot":true,"doc":1,"seq":2628,"ms":109370180,"op":"edit"}
+{"version":402,"changes":[{"offset":514,"length":1,"text":")"}],"doc":1,"seq":2629,"ms":109370265,"op":"edit"}
+{"doc":1,"seq":2630,"ms":109371277,"op":"save"}
+{"version":403,"changes":[{"offset":514,"length":0,"text":"\"\""}],"doc":1,"seq":2631,"ms":109371764,"op":"edit"}
+{"doc":1,"seq":2632,"ms":109372782,"op":"save"}
+{"version":404,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":515,"length":0,"text":"If I Die in a Combat Zone: Box Me Up and Ship Me Home"}],"doc":1,"seq":2633,"ms":109373152,"op":"edit"}
+{"doc":1,"seq":2634,"ms":109374165,"op":"save"}
+{"version":405,"changes":[{"offset":569,"length":0,"text":","}],"doc":1,"seq":2635,"ms":109378150,"op":"edit"}
+{"doc":1,"seq":2636,"ms":109379164,"op":"save"}
+{"version":406,"changes":[{"offset":570,"length":0,"text":"1"}],"doc":1,"seq":2637,"ms":109384562,"op":"edit"}
+{"version":407,"changes":[{"offset":571,"length":0,"text":"9"}],"doc":1,"seq":2638,"ms":109384836,"op":"edit"}
+{"version":408,"changes":[{"offset":572,"length":0,"text":"7"}],"doc":1,"seq":2639,"ms":109385267,"op":"edit"}
+{"version":409,"changes":[{"offset":573,"length":0,"text":"3"}],"doc":1,"seq":2640,"ms":109385513,"op":"edit"}
+{"doc":1,"seq":2641,"ms":109386528,"op":"save"}
+{"version":410,"changes":[{"offset":574,"length":0,"text":","}],"doc":1,"seq":2642,"ms":109386826,"op":"edit"}
+{"doc":1,"seq":2643,"ms":109387840,"op":"save"}
