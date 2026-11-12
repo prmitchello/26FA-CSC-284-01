@@ -171,3 +171,15 @@
 {"executionId":"e4b85c6b-36c6-4287-8cb6-80044c5a73ab","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"\u001b[?1049h\u001b[1;24r\u001b(B\u001b[m\u001b[4l\u001b[?7h\u001b[H\u001b[2JHello World","doc":2,"seq":170,"ms":1193138,"op":"terminal.output"}
 {"executionId":"e4b85c6b-36c6-4287-8cb6-80044c5a73ab","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"^[\u001b[24;1H\u001b[?1049l\r\u001b[?1l\u001b>\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                          \r \r","doc":2,"seq":171,"ms":1194142,"op":"terminal.output"}
 {"executionId":"e4b85c6b-36c6-4287-8cb6-80044c5a73ab","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"g++ curses.cpp -lncurses -o app && ./app","confidence":2,"exitCode":0,"doc":2,"seq":172,"ms":1194142,"op":"terminal.end"}
+{"version":92,"changes":[{"offset":180,"length":0,"text":"\n    "}],"doc":1,"seq":173,"ms":1667524,"op":"edit"}
+{"version":93,"changes":[{"offset":185,"length":0,"text":"\n    "},{"offset":181,"length":4,"text":""}],"doc":1,"seq":174,"ms":1667704,"op":"edit"}
+{"version":94,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":186,"length":0,"text":"printw(\"Hello World\");"}],"doc":1,"seq":175,"ms":1668002,"op":"edit"}
+{"version":95,"changes":[{"offset":208,"length":0,"text":"\n    "}],"doc":1,"seq":176,"ms":1668337,"op":"edit"}
+{"version":96,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":213,"length":0,"text":"printw(\"Hello World\");"}],"doc":1,"seq":177,"ms":1668759,"op":"edit"}
+{"doc":1,"seq":178,"ms":1669767,"op":"save"}
+{"version":97,"changes":[{"offset":235,"length":0,"text":"\n    "}],"doc":1,"seq":179,"ms":1684652,"op":"edit"}
+{"version":98,"changes":[{"offset":240,"length":0,"text":"\n    "},{"offset":236,"length":4,"text":""}],"doc":1,"seq":180,"ms":1684846,"op":"edit"}
+{"version":99,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":241,"length":0,"text":"printw(\"Welcome!\");\nmvprintw(5, 10, \"Located at row 5, col 10\");\n"}],"doc":1,"seq":181,"ms":1685139,"op":"edit"}
+{"doc":1,"seq":182,"ms":1686154,"op":"save"}
+{"version":100,"changes":[{"offset":261,"length":0,"text":"    "}],"doc":1,"seq":183,"ms":1688524,"op":"edit"}
+{"doc":1,"seq":184,"ms":1689534,"op":"save"}
