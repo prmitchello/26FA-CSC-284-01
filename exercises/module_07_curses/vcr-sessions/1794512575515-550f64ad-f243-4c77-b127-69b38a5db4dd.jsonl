@@ -98,3 +98,14 @@
 {"version":82,"changes":[{"offset":53,"length":0,"text":"\n    "}],"doc":1,"seq":97,"ms":427894,"op":"edit"}
 {"version":83,"changes":[{"offset":58,"length":0,"text":"\n    "},{"offset":54,"length":4,"text":""}],"doc":1,"seq":98,"ms":428071,"op":"edit"}
 {"doc":1,"seq":99,"ms":429091,"op":"save"}
+{"version":84,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":59,"length":0,"text":"// init screen and sets up screen\n    initscr();\n\n    // print to screen\n    printw(\"Hello World\");\n\n    // refreshes the screen\n    refresh();\n\n    // pause the screen output\n    getch();\n\n    // deallocates memory and ends ncurses\n    endwin();"}],"doc":1,"seq":100,"ms":550244,"op":"edit"}
+{"doc":1,"seq":101,"ms":551273,"op":"save"}
+{"version":85,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":51,"length":0,"text":"int argc, char ** argv"}],"doc":1,"seq":102,"ms":558744,"op":"edit"}
+{"doc":1,"seq":103,"ms":559763,"op":"save"}
+{"version":86,"changes":[{"offset":73,"length":0,"text":"c"}],"doc":1,"seq":104,"ms":560642,"op":"edit"}
+{"version":87,"changes":[{"offset":74,"length":0,"text":"d"}],"doc":1,"seq":105,"ms":560746,"op":"edit"}
+{"version":88,"changes":[{"offset":75,"length":0,"text":" "}],"doc":1,"seq":106,"ms":560862,"op":"edit"}
+{"version":89,"changes":[{"offset":75,"length":1,"text":""}],"doc":1,"seq":107,"ms":561627,"op":"edit"}
+{"version":90,"changes":[{"offset":74,"length":1,"text":""}],"doc":1,"seq":108,"ms":561790,"op":"edit"}
+{"version":91,"changes":[{"offset":73,"length":1,"text":""}],"doc":1,"seq":109,"ms":562537,"op":"edit"}
+{"doc":1,"seq":110,"ms":563553,"op":"save"}

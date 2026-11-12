@@ -6,3 +6,6 @@
 {"doc":2,"seq":5,"ms":19174236,"op":"close"}
 {"text":"","version":1,"path":"exercises/module7_curses","snapshot":true,"doc":3,"seq":6,"ms":19190186,"op":"snap"}
 {"doc":3,"seq":7,"ms":19205320,"op":"close"}
+{"executionId":"3309f3cc-4ef7-4091-9402-75a726b0075e","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_07_curses'","confidence":2,"path":".","doc":4,"seq":8,"ms":19800253,"op":"terminal.start"}
+{"executionId":"3309f3cc-4ef7-4091-9402-75a726b0075e","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                          \r \r","doc":4,"seq":9,"ms":19800254,"op":"terminal.output"}
+{"executionId":"3309f3cc-4ef7-4091-9402-75a726b0075e","terminalId":"5fe5bee4-70ea-4670-9d90-b6fbc91f2f59","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/exercises/module_07_curses'","confidence":2,"exitCode":0,"doc":4,"seq":10,"ms":19800254,"op":"terminal.end"}
