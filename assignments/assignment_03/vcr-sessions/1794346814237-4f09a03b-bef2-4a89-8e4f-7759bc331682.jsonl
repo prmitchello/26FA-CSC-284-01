@@ -1826,3 +1826,59 @@
 {"executionId":"e57bc5e6-2742-4e37-87cd-b7f5a8996046","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":1825,"ms":92534859,"op":"terminal.output"}
 {"executionId":"e57bc5e6-2742-4e37-87cd-b7f5a8996046","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: Tim O'Brien\r\n   Title: The Giver                           Author: Lois Lowry\r\n   Title: Outsiders                           Author: SE Hinton\r\n   Title: The lord of the rings                           Author: John Ronald Reuel Tolkien\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\r\nwe are removing: Game of thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nmatch The Giver\r\n\r\nwe are searching for book by genre: Young adult\r\nresult Young adult\r\n\r\nwe are searching for book by author: Tim O'Brienresult Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: Tim O'Brien\r\n   Title: The Giver                           Author: Lois Lowry\r\n   Title: Outsiders                           Author: SE Hinton\r\n   Title: The lord of the rings                           Author: John Ronald Reuel Tolkien\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1826,"ms":92534982,"op":"terminal.output"}
 {"executionId":"e57bc5e6-2742-4e37-87cd-b7f5a8996046","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1827,"ms":92534983,"op":"terminal.end"}
+{"version":1110,"changes":[{"offset":1803,"length":0,"text":"B"}],"doc":2,"seq":1828,"ms":106227110,"op":"edit"}
+{"version":1111,"changes":[{"offset":1804,"length":0,"text":"o"}],"doc":2,"seq":1829,"ms":106227405,"op":"edit"}
+{"version":1112,"changes":[{"offset":1805,"length":0,"text":"o"}],"doc":2,"seq":1830,"ms":106227535,"op":"edit"}
+{"version":1113,"changes":[{"offset":1806,"length":0,"text":"k"}],"doc":2,"seq":1831,"ms":106227653,"op":"edit"}
+{"version":1114,"changes":[{"offset":1807,"length":0,"text":" "}],"doc":2,"seq":1832,"ms":106228053,"op":"edit"}
+{"version":1115,"changes":[{"offset":1808,"length":0,"text":"t"}],"doc":2,"seq":1833,"ms":106228243,"op":"edit"}
+{"version":1116,"changes":[{"offset":1809,"length":0,"text":"i"}],"doc":2,"seq":1834,"ms":106228598,"op":"edit"}
+{"version":1117,"changes":[{"offset":1810,"length":0,"text":"t"}],"doc":2,"seq":1835,"ms":106228865,"op":"edit"}
+{"version":1118,"changes":[{"offset":1811,"length":0,"text":"l"}],"doc":2,"seq":1836,"ms":106228992,"op":"edit"}
+{"version":1119,"changes":[{"offset":1812,"length":0,"text":"e"}],"doc":2,"seq":1837,"ms":106229127,"op":"edit"}
+{"version":1120,"changes":[{"offset":1813,"length":0,"text":":"}],"doc":2,"seq":1838,"ms":106230142,"op":"edit"}
+{"doc":2,"seq":1839,"ms":106230155,"op":"save"}
+{"version":1121,"changes":[{"offset":1814,"length":0,"text":" "}],"doc":2,"seq":1840,"ms":106230460,"op":"edit"}
+{"doc":2,"seq":1841,"ms":106231468,"op":"save"}
+{"version":1122,"changes":[{"offset":1816,"length":0,"text":"<"}],"doc":2,"seq":1842,"ms":106236675,"op":"edit"}
+{"version":1123,"changes":[{"offset":1817,"length":0,"text":"<"}],"doc":2,"seq":1843,"ms":106236819,"op":"edit"}
+{"doc":2,"seq":1844,"ms":106237839,"op":"save"}
+{"version":1124,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1818,"length":0,"text":"result->getAuthor()"}],"doc":2,"seq":1845,"ms":106237892,"op":"edit"}
+{"doc":2,"seq":1846,"ms":106238902,"op":"save"}
+{"version":1125,"changes":[{"offset":1834,"length":1,"text":""}],"doc":2,"seq":1847,"ms":106239884,"op":"edit"}
+{"version":1126,"changes":[{"offset":1833,"length":1,"text":""}],"doc":2,"seq":1848,"ms":106240050,"op":"edit"}
+{"version":1127,"changes":[{"offset":1832,"length":1,"text":""}],"doc":2,"seq":1849,"ms":106240209,"op":"edit"}
+{"version":1128,"changes":[{"offset":1831,"length":1,"text":""}],"doc":2,"seq":1850,"ms":106240366,"op":"edit"}
+{"version":1129,"changes":[{"offset":1830,"length":1,"text":""}],"doc":2,"seq":1851,"ms":106240534,"op":"edit"}
+{"version":1130,"changes":[{"offset":1829,"length":1,"text":""}],"doc":2,"seq":1852,"ms":106240895,"op":"edit"}
+{"doc":2,"seq":1853,"ms":106241920,"op":"save"}
+{"version":1131,"changes":[{"offset":1829,"length":0,"text":"T"}],"doc":2,"seq":1854,"ms":106242371,"op":"edit"}
+{"version":1132,"changes":[{"offset":1830,"length":0,"text":"i"}],"doc":2,"seq":1855,"ms":106242643,"op":"edit"}
+{"version":1133,"changes":[{"offset":1831,"length":0,"text":"t"}],"doc":2,"seq":1856,"ms":106242829,"op":"edit"}
+{"version":1134,"changes":[{"offset":1832,"length":0,"text":"l"}],"doc":2,"seq":1857,"ms":106242956,"op":"edit"}
+{"version":1135,"changes":[{"offset":1833,"length":0,"text":"e"}],"doc":2,"seq":1858,"ms":106243119,"op":"edit"}
+{"doc":2,"seq":1859,"ms":106244130,"op":"save"}
+{"version":1136,"changes":[{"offset":1838,"length":0,"text":"c"}],"doc":2,"seq":1860,"ms":106245425,"op":"edit"}
+{"version":1137,"changes":[{"offset":1839,"length":0,"text":"o"}],"doc":2,"seq":1861,"ms":106245594,"op":"edit"}
+{"version":1138,"changes":[{"offset":1840,"length":0,"text":"u"}],"doc":2,"seq":1862,"ms":106245815,"op":"edit"}
+{"version":1139,"changes":[{"offset":1841,"length":0,"text":"t"}],"doc":2,"seq":1863,"ms":106245848,"op":"edit"}
+{"doc":2,"seq":1864,"ms":106246885,"op":"save"}
+{"version":1140,"changes":[{"offset":1842,"length":0,"text":"\""}],"doc":2,"seq":1865,"ms":106247061,"op":"edit"}
+{"version":1141,"changes":[{"offset":1843,"length":0,"text":"b"}],"doc":2,"seq":1866,"ms":106247448,"op":"edit"}
+{"version":1142,"changes":[{"offset":1844,"length":0,"text":"u"}],"doc":2,"seq":1867,"ms":106247581,"op":"edit"}
+{"version":1143,"changes":[{"offset":1844,"length":1,"text":""}],"doc":2,"seq":1868,"ms":106248146,"op":"edit"}
+{"version":1144,"changes":[{"offset":1844,"length":0,"text":"y"}],"doc":2,"seq":1869,"ms":106248743,"op":"edit"}
+{"version":1145,"changes":[{"offset":1845,"length":0,"text":" "}],"doc":2,"seq":1870,"ms":106248935,"op":"edit"}
+{"version":1146,"changes":[{"offset":1846,"length":0,"text":"a"}],"doc":2,"seq":1871,"ms":106249309,"op":"edit"}
+{"version":1147,"changes":[{"offset":1847,"length":0,"text":"u"}],"doc":2,"seq":1872,"ms":106249476,"op":"edit"}
+{"version":1148,"changes":[{"offset":1848,"length":0,"text":"t"}],"doc":2,"seq":1873,"ms":106249617,"op":"edit"}
+{"version":1149,"changes":[{"offset":1849,"length":0,"text":"h"}],"doc":2,"seq":1874,"ms":106249689,"op":"edit"}
+{"version":1150,"changes":[{"offset":1850,"length":0,"text":"o"}],"doc":2,"seq":1875,"ms":106249891,"op":"edit"}
+{"version":1151,"changes":[{"offset":1851,"length":0,"text":"r"}],"doc":2,"seq":1876,"ms":106250004,"op":"edit"}
+{"version":1152,"changes":[{"offset":1852,"length":0,"text":":"}],"doc":2,"seq":1877,"ms":106250845,"op":"edit"}
+{"version":1153,"changes":[{"offset":1853,"length":0,"text":" "}],"doc":2,"seq":1878,"ms":106251092,"op":"edit"}
+{"version":1154,"changes":[{"offset":1854,"length":0,"text":"<"}],"doc":2,"seq":1879,"ms":106252021,"op":"edit"}
+{"version":1155,"changes":[{"offset":1855,"length":0,"text":"<"}],"doc":2,"seq":1880,"ms":106252159,"op":"edit"}
+{"doc":2,"seq":1881,"ms":106253169,"op":"save"}
+{"version":1156,"changes":[{"offset":1854,"length":0,"text":"\""}],"doc":2,"seq":1882,"ms":106257393,"op":"edit"}
+{"doc":2,"seq":1883,"ms":106258419,"op":"save"}
