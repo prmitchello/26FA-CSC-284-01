@@ -355,3 +355,7 @@
 {"doc":4,"seq":354,"ms":2567977,"op":"save"}
 {"version":7,"changes":[{"offset":1379,"length":0,"text":"e"}],"doc":4,"seq":355,"ms":2568651,"op":"edit"}
 {"doc":4,"seq":356,"ms":2569660,"op":"save"}
+{"version":8,"reason":1,"changes":[{"offset":1379,"length":1,"text":""}],"doc":4,"seq":357,"ms":2649933,"op":"edit"}
+{"version":9,"reason":1,"changes":[{"offset":1378,"length":2,"text":""}],"doc":4,"seq":358,"ms":2650593,"op":"edit"}
+{"version":10,"reason":1,"changes":[{"offset":1378,"length":0,"text":"10"}],"doc":4,"seq":359,"ms":2651264,"op":"edit"}
+{"doc":4,"seq":360,"ms":2652275,"op":"save"}
