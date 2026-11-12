@@ -2586,3 +2586,27 @@
 {"version":1583,"changes":[{"offset":1852,"length":0,"text":" "}],"doc":2,"seq":2585,"ms":109213123,"op":"edit"}
 {"version":1584,"changes":[{"offset":1853,"length":0,"text":"t"}],"doc":2,"seq":2586,"ms":109213351,"op":"edit"}
 {"version":1585,"changes":[{"offset":1854,"length":0,"text":"r"}],"doc":2,"seq":2587,"ms":109213461,"op":"edit"}
+{"version":1586,"changes":[{"offset":1855,"length":0,"text":"u"}],"doc":2,"seq":2588,"ms":109213631,"op":"edit"}
+{"version":1587,"changes":[{"offset":1856,"length":0,"text":"e"}],"doc":2,"seq":2589,"ms":109213779,"op":"edit"}
+{"version":1588,"changes":[{"offset":1857,"length":0,"text":";"}],"doc":2,"seq":2590,"ms":109214032,"op":"edit"}
+{"doc":2,"seq":2591,"ms":109215038,"op":"save"}
+{"version":1589,"changes":[{"offset":1762,"length":4,"text":"f"}],"doc":2,"seq":2592,"ms":109230020,"op":"edit"}
+{"version":1590,"changes":[{"offset":1763,"length":0,"text":"a"}],"doc":2,"seq":2593,"ms":109230178,"op":"edit"}
+{"version":1591,"changes":[{"offset":1764,"length":0,"text":"l"}],"doc":2,"seq":2594,"ms":109230311,"op":"edit"}
+{"version":1592,"changes":[{"offset":1765,"length":0,"text":"s"}],"doc":2,"seq":2595,"ms":109230426,"op":"edit"}
+{"version":1593,"changes":[{"offset":1766,"length":0,"text":"e"}],"doc":2,"seq":2596,"ms":109230568,"op":"edit"}
+{"doc":2,"seq":2597,"ms":109231582,"op":"save"}
+{"version":1594,"changes":[{"offset":1762,"length":0,"text":" "}],"doc":2,"seq":2598,"ms":109236865,"op":"edit"}
+{"doc":2,"seq":2599,"ms":109237881,"op":"save"}
+{"version":1595,"changes":[{"offset":1761,"length":0,"text":" "}],"doc":2,"seq":2600,"ms":109237896,"op":"edit"}
+{"doc":2,"seq":2601,"ms":109238908,"op":"save"}
+{"version":1596,"changes":[{"offset":1813,"length":6,"text":"f"}],"doc":2,"seq":2602,"ms":109257461,"op":"edit"}
+{"version":1597,"changes":[{"offset":1814,"length":0,"text":"o"}],"doc":2,"seq":2603,"ms":109257661,"op":"edit"}
+{"version":1598,"changes":[{"offset":1815,"length":0,"text":"u"}],"doc":2,"seq":2604,"ms":109257913,"op":"edit"}
+{"version":1599,"changes":[{"offset":1816,"length":0,"text":"n"}],"doc":2,"seq":2605,"ms":109258008,"op":"edit"}
+{"version":1600,"changes":[{"offset":1817,"length":0,"text":"d"}],"doc":2,"seq":2606,"ms":109258163,"op":"edit"}
+{"doc":2,"seq":2607,"ms":109259178,"op":"save"}
+{"executionId":"ba5e88f0-c3c8-4ec7-918f-b6e77e45e79d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":2608,"ms":109261748,"op":"terminal.start"}
+{"executionId":"ba5e88f0-c3c8-4ec7-918f-b6e77e45e79d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2609,"ms":109261800,"op":"terminal.output"}
+{"executionId":"ba5e88f0-c3c8-4ec7-918f-b6e77e45e79d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author: SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2610,"ms":109261881,"op":"terminal.output"}
+{"executionId":"ba5e88f0-c3c8-4ec7-918f-b6e77e45e79d","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2611,"ms":109261881,"op":"terminal.end"}
