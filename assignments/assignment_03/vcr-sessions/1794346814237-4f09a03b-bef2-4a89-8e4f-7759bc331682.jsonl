@@ -1947,3 +1947,20 @@
 {"executionId":"24cb41a5-e2b1-4918-b2d7-53108107c9f4","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":1946,"ms":106500792,"op":"terminal.output"}
 {"executionId":"24cb41a5-e2b1-4918-b2d7-53108107c9f4","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game of thrones                           Author: GRR Martin\r\n   Title: The things you carry                           Author: Tim O'Brien\r\n   Title: The Giver                           Author: Lois Lowry\r\n   Title: Outsiders                           Author: SE Hinton\r\n   Title: The lord of the rings                           Author: John Ronald Reuel Tolkien\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\r\nwe are removing: Game of thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nmatch The Giver\r\n\r\nwe are searching for book by genre: Young adult\r\nresult 'Outsiders', by author: SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResult Book title: 'The things you carry', by author: Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The things you carry                           Author: Tim O'Brien\r\n   Title: The Giver                           Author: Lois Lowry\r\n   Title: Outsiders                           Author: SE Hinton\r\n   Title: The lord of the rings                           Author: John Ronald Reuel Tolkien\r\n   Title: House of the dragon                           Author: GRR Martin\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":1947,"ms":106500807,"op":"terminal.output"}
 {"executionId":"24cb41a5-e2b1-4918-b2d7-53108107c9f4","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":1948,"ms":106500807,"op":"terminal.end"}
+{"version":1180,"changes":[{"offset":2281,"length":1,"text":""}],"doc":2,"seq":1949,"ms":106527482,"op":"edit"}
+{"version":1181,"changes":[{"offset":2281,"length":0,"text":"R"}],"doc":2,"seq":1950,"ms":106528129,"op":"edit"}
+{"doc":2,"seq":1951,"ms":106529142,"op":"save"}
+{"version":1182,"changes":[{"offset":1802,"length":0,"text":"i"}],"doc":2,"seq":1952,"ms":106533693,"op":"edit"}
+{"version":1183,"changes":[{"offset":1803,"length":0,"text":"n"}],"doc":2,"seq":1953,"ms":106533815,"op":"edit"}
+{"version":1184,"changes":[{"offset":1804,"length":0,"text":"g"}],"doc":2,"seq":1954,"ms":106533931,"op":"edit"}
+{"doc":2,"seq":1955,"ms":106534944,"op":"save"}
+{"version":1185,"changes":[{"offset":1806,"length":1,"text":""}],"doc":2,"seq":1956,"ms":106536748,"op":"edit"}
+{"version":1186,"changes":[{"offset":1806,"length":0,"text":"b"}],"doc":2,"seq":1957,"ms":106537407,"op":"edit"}
+{"doc":2,"seq":1958,"ms":106538428,"op":"save"}
+{"version":1187,"changes":[{"offset":1811,"length":1,"text":""}],"doc":2,"seq":1959,"ms":106539131,"op":"edit"}
+{"version":1188,"changes":[{"offset":1811,"length":0,"text":"T"}],"doc":2,"seq":1960,"ms":106539709,"op":"edit"}
+{"doc":2,"seq":1961,"ms":106540721,"op":"save"}
+{"version":1189,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1358,"length":8,"text":"\"Resulting book Title: '"}],"doc":2,"seq":1962,"ms":106558146,"op":"edit"}
+{"doc":2,"seq":1963,"ms":106559164,"op":"save"}
+{"version":1190,"changes":[{"offset":1382,"length":0,"text":"\""}],"doc":2,"seq":1964,"ms":106563884,"op":"edit"}
+{"doc":2,"seq":1965,"ms":106564899,"op":"save"}
