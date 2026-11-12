@@ -2872,3 +2872,27 @@
 {"version":524,"changes":[{"offset":699,"length":1,"text":""}],"doc":1,"seq":2871,"ms":109989687,"op":"edit"}
 {"version":525,"changes":[{"offset":698,"length":1,"text":""}],"doc":1,"seq":2872,"ms":109989882,"op":"edit"}
 {"doc":1,"seq":2873,"ms":109990895,"op":"save"}
+{"version":526,"changes":[{"offset":714,"length":0,"text":","}],"doc":1,"seq":2874,"ms":110006447,"op":"edit"}
+{"version":527,"changes":[{"offset":715,"length":0,"text":"2"}],"doc":1,"seq":2875,"ms":110006982,"op":"edit"}
+{"version":528,"changes":[{"offset":716,"length":0,"text":"0"}],"doc":1,"seq":2876,"ms":110007126,"op":"edit"}
+{"version":529,"changes":[{"offset":717,"length":0,"text":"0"}],"doc":1,"seq":2877,"ms":110007259,"op":"edit"}
+{"version":530,"changes":[{"offset":718,"length":0,"text":"8"}],"doc":1,"seq":2878,"ms":110007468,"op":"edit"}
+{"doc":1,"seq":2879,"ms":110008485,"op":"save"}
+{"version":531,"changes":[{"offset":719,"length":0,"text":","}],"doc":1,"seq":2880,"ms":110008851,"op":"edit"}
+{"doc":1,"seq":2881,"ms":110009862,"op":"save"}
+{"version":532,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":720,"length":0,"text":"\"Young Adult\""}],"doc":1,"seq":2882,"ms":110015000,"op":"edit"}
+{"doc":1,"seq":2883,"ms":110016013,"op":"save"}
+{"version":533,"changes":[{"offset":734,"length":0,"text":";"}],"doc":1,"seq":2884,"ms":110016875,"op":"edit"}
+{"doc":1,"seq":2885,"ms":110017891,"op":"save"}
+{"version":534,"changes":[{"offset":976,"length":0,"text":"\n    "}],"doc":1,"seq":2886,"ms":110019356,"op":"edit"}
+{"doc":1,"seq":2887,"ms":110020366,"op":"save"}
+{"version":535,"changes":[{"offset":977,"length":4,"text":""},{"offset":976,"length":0,"text":"\n    "}],"doc":1,"seq":2888,"ms":110023601,"op":"edit"}
+{"version":536,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":981,"length":0,"text":"bhccLibrary.add_book(b8);"}],"doc":1,"seq":2889,"ms":110023888,"op":"edit"}
+{"doc":1,"seq":2890,"ms":110024900,"op":"save"}
+{"version":537,"changes":[{"offset":1003,"length":1,"text":""}],"doc":1,"seq":2891,"ms":110025065,"op":"edit"}
+{"version":538,"changes":[{"offset":1003,"length":0,"text":"9"}],"doc":1,"seq":2892,"ms":110025526,"op":"edit"}
+{"doc":1,"seq":2893,"ms":110026538,"op":"save"}
+{"executionId":"fd3695bd-ac90-42f2-a0ed-b35c7814e7db","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"doc":3,"seq":2894,"ms":110032603,"op":"terminal.start"}
+{"executionId":"fd3695bd-ac90-42f2-a0ed-b35c7814e7db","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2895,"ms":110032654,"op":"terminal.output"}
+{"executionId":"fd3695bd-ac90-42f2-a0ed-b35c7814e7db","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\nTitle: The Hunger Games Author:                      Suzanne Collins\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author:       SE Hinton\r\nResulting book Title: 'Twillight', by author:       Stephenie Meyer\r\nResulting book Title: 'The Hunger Games', by author:       Suzanne Collins\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author:       Tim O'Brien\r\nResulting book Title: 'If I Die in a Combat Zone: Box Me Up and Ship Me Home', by author:       Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\nTitle: Twillight Author:                      Stephenie Meyer\r\nTitle: The Hunger Games Author:                      Suzanne Collins\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2896,"ms":110032726,"op":"terminal.output"}
+{"executionId":"fd3695bd-ac90-42f2-a0ed-b35c7814e7db","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2897,"ms":110032726,"op":"terminal.end"}
