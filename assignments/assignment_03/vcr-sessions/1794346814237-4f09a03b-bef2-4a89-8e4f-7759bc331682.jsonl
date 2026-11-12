@@ -2767,3 +2767,43 @@
 {"executionId":"c213bdfb-1677-42b0-8e0d-c23e1738e3bd","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"\u001b]633;C\u0007","doc":3,"seq":2766,"ms":109765838,"op":"terminal.output"}
 {"executionId":"c213bdfb-1677-42b0-8e0d-c23e1738e3bd","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","data":"The books currently in the library: \r\n\r\nTitle: Game Of Thrones Author:                      GRR Martin\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\n\r\nwe are removing: Game Of Thrones\r\n was removed\r\n\r\nwe are searching for book: The Giver\r\nResulting book Title: 'The Giver', by author: Lois Lowry\r\n\r\nwe are searching for book by genre: Young Adult\r\nResulting book Title: 'Outsiders', by author:       SE Hinton\r\n\r\nwe are searching for book by author: Tim O'Brien\r\nResulting book Title: 'The Things You Carry', by author:       Tim O'Brien\r\nResulting book Title: 'If I Die in a Combat Zone: Box Me Up and Ship Me Home', by author:       Tim O'Brien\r\n\r\n\r\nThe books currently in the library: \r\n\r\nTitle: The Things You Carry Author:                      Tim O'Brien\r\nTitle: The Giver Author:                      Lois Lowry\r\nTitle: Outsiders Author:                      SE Hinton\r\nTitle: The Lord Of The Rings Author:                      John Ronald Reuel Tolkien\r\nTitle: House Of The Dragon Author:                      GRR Martin\r\nTitle: If I Die in a Combat Zone: Box Me Up and Ship Me Home Author:                      Tim O'Brien\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":3,"seq":2767,"ms":109765934,"op":"terminal.output"}
 {"executionId":"c213bdfb-1677-42b0-8e0d-c23e1738e3bd","terminalId":"cb392927-6d24-4c1c-a955-d6e5655d8ea0","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/main.out","confidence":2,"exitCode":0,"doc":3,"seq":2768,"ms":109765934,"op":"terminal.end"}
+{"version":447,"changes":[{"offset":813,"length":0,"text":"\n    "}],"doc":1,"seq":2769,"ms":109837558,"op":"edit"}
+{"version":448,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":818,"length":0,"text":"bhccLibrary.add_book(b7);"}],"doc":1,"seq":2770,"ms":109837882,"op":"edit"}
+{"doc":1,"seq":2771,"ms":109838897,"op":"save"}
+{"version":449,"changes":[{"offset":840,"length":1,"text":""}],"doc":1,"seq":2772,"ms":109840771,"op":"edit"}
+{"version":450,"changes":[{"offset":840,"length":0,"text":"8"}],"doc":1,"seq":2773,"ms":109841706,"op":"edit"}
+{"doc":1,"seq":2774,"ms":109842713,"op":"save"}
+{"version":451,"changes":[{"offset":602,"length":0,"text":"\\"}],"doc":1,"seq":2775,"ms":109845120,"op":"edit"}
+{"doc":1,"seq":2776,"ms":109846132,"op":"save"}
+{"version":452,"changes":[{"offset":602,"length":1,"text":""}],"doc":1,"seq":2777,"ms":109846866,"op":"edit"}
+{"version":453,"changes":[{"offset":602,"length":0,"text":"\n    "}],"doc":1,"seq":2778,"ms":109847194,"op":"edit"}
+{"doc":1,"seq":2779,"ms":109848209,"op":"save"}
+{"version":454,"changes":[{"offset":607,"length":0,"text":"b"}],"doc":1,"seq":2780,"ms":109848585,"op":"edit"}
+{"version":455,"changes":[{"offset":607,"length":1,"text":""}],"doc":1,"seq":2781,"ms":109848953,"op":"edit"}
+{"version":456,"changes":[{"offset":607,"length":0,"text":"B"}],"doc":1,"seq":2782,"ms":109849226,"op":"edit"}
+{"version":457,"changes":[{"offset":608,"length":0,"text":"o"}],"doc":1,"seq":2783,"ms":109849448,"op":"edit"}
+{"version":458,"changes":[{"offset":609,"length":0,"text":"o"}],"doc":1,"seq":2784,"ms":109849610,"op":"edit"}
+{"version":459,"changes":[{"offset":610,"length":0,"text":"k"}],"doc":1,"seq":2785,"ms":109849659,"op":"edit"}
+{"version":460,"changes":[{"offset":611,"length":0,"text":" "}],"doc":1,"seq":2786,"ms":109849875,"op":"edit"}
+{"version":461,"changes":[{"offset":612,"length":0,"text":"b"}],"doc":1,"seq":2787,"ms":109850430,"op":"edit"}
+{"version":462,"changes":[{"offset":613,"length":0,"text":"8"}],"doc":1,"seq":2788,"ms":109851002,"op":"edit"}
+{"doc":1,"seq":2789,"ms":109852015,"op":"save"}
+{"version":463,"changes":[{"offset":614,"length":0,"text":"()"}],"doc":1,"seq":2790,"ms":109852449,"op":"edit"}
+{"version":464,"changes":[{"offset":615,"length":1,"text":")"}],"doc":1,"seq":2791,"ms":109852563,"op":"edit"}
+{"doc":1,"seq":2792,"ms":109853575,"op":"save"}
+{"version":465,"changes":[{"offset":615,"length":0,"text":":"}],"doc":1,"seq":2793,"ms":109854483,"op":"edit"}
+{"version":466,"changes":[{"offset":615,"length":1,"text":""}],"doc":1,"seq":2794,"ms":109854862,"op":"edit"}
+{"version":467,"changes":[{"offset":615,"length":0,"text":"\"\""}],"doc":1,"seq":2795,"ms":109855741,"op":"edit"}
+{"version":468,"changes":[{"offset":616,"length":0,"text":"T"}],"doc":1,"seq":2796,"ms":109856405,"op":"edit"}
+{"version":469,"changes":[{"offset":617,"length":0,"text":"w"}],"doc":1,"seq":2797,"ms":109856684,"op":"edit"}
+{"version":470,"changes":[{"offset":618,"length":0,"text":"i"}],"doc":1,"seq":2798,"ms":109856812,"op":"edit"}
+{"version":471,"changes":[{"offset":619,"length":0,"text":"l"}],"doc":1,"seq":2799,"ms":109857057,"op":"edit"}
+{"version":472,"changes":[{"offset":620,"length":0,"text":"l"}],"doc":1,"seq":2800,"ms":109857470,"op":"edit"}
+{"version":473,"changes":[{"offset":621,"length":0,"text":"i"}],"doc":1,"seq":2801,"ms":109857695,"op":"edit"}
+{"version":474,"changes":[{"offset":622,"length":0,"text":"g"}],"doc":1,"seq":2802,"ms":109857803,"op":"edit"}
+{"version":475,"changes":[{"offset":623,"length":0,"text":"h"}],"doc":1,"seq":2803,"ms":109858286,"op":"edit"}
+{"version":476,"changes":[{"offset":624,"length":0,"text":"t"}],"doc":1,"seq":2804,"ms":109858439,"op":"edit"}
+{"doc":1,"seq":2805,"ms":109859460,"op":"save"}
+{"version":477,"changes":[{"offset":626,"length":0,"text":","}],"doc":1,"seq":2806,"ms":109860834,"op":"edit"}
+{"version":478,"changes":[{"offset":627,"length":0,"text":"\"\""}],"doc":1,"seq":2807,"ms":109861558,"op":"edit"}
+{"doc":1,"seq":2808,"ms":109862566,"op":"save"}
