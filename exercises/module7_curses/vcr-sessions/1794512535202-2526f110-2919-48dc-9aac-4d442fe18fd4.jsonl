@@ -2,3 +2,11 @@
 {"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":1,"ms":-31,"op":"source.context"}
 {"source":"workspace","path":".","doc":1,"seq":2,"ms":-31,"op":"fs.create"}
 {"source":"watcher","doc":1,"seq":3,"ms":84,"op":"fs.create"}
+{"source":"workspace","doc":1,"seq":4,"ms":15127,"op":"fs.delete"}
+{"source":"watcher","doc":1,"seq":5,"ms":15192,"op":"fs.delete"}
+{"source":"workspace","doc":1,"seq":6,"ms":19185,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":7,"ms":19272,"op":"fs.create"}
+{"text":"","version":1,"path":"curses.cpp","snapshot":true,"doc":2,"seq":8,"ms":25478,"op":"snap"}
+{"doc":2,"seq":9,"ms":40231,"op":"close"}
+{"source":"workspace","operationId":"04800b65-238b-4259-8871-3022c4389cf9","doc":1,"seq":10,"ms":40252,"op":"fs.moveFrom"}
+{"source":"watcher","doc":1,"seq":11,"ms":40323,"op":"fs.delete"}

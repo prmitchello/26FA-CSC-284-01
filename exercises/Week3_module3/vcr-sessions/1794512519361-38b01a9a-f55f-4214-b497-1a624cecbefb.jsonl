@@ -1,3 +1,4 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/Week3_module3","startedAt":"2026-11-12T19:41:59.361Z","attemptId":"ec0efef0-387f-4ff1-b941-05f7ca09c305","segmentId":"38a9b75f-2d61-4cda-ae31-0fd1ac893d52","sourceWindowId":"e3612a90-10bc-48c3-927f-7fa2096fb068","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":1,"ms":-111,"op":"source.context"}
 {"text":"#include <iostream>\n#include <chrono>\n#include <thread>\n\nusing namespace std;\n\nvoid memoryLeak()\n{\n    // Large memory allocation\n    int *leakyArray = new int[100000];\n    for (int i = 0; i < 100000; ++i)\n    {\n        leakyArray[i] = i; // Simulate usage\n    }\n    // comment out the delete to see the memory leak!\n    delete[] leakyArray;\n}\n","version":1,"path":"memory.cpp","snapshot":true,"doc":1,"seq":2,"ms":-111,"op":"snap"}
+{"doc":1,"seq":3,"ms":61673,"op":"close"}

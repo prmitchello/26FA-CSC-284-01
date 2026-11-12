@@ -1,0 +1,5 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/module_07_curses","startedAt":"2026-11-12T19:42:55.515Z","attemptId":"29c9c33d-1e9e-4f05-bfa9-c51b5e870c9f","segmentId":"b4f0a1da-3240-4179-a492-aa9441a043f6","sourceWindowId":"e3612a90-10bc-48c3-927f-7fa2096fb068","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"2f4791f0ea9edea2f7f64641d8496c47035c6575","seq":1,"ms":-61,"op":"source.context"}
+{"text":"","version":1,"path":"curses.cpp","snapshot":true,"doc":1,"seq":2,"ms":-61,"op":"snap"}
+{"source":"workspace","operationId":"04800b65-238b-4259-8871-3022c4389cf9","path":".","doc":2,"seq":3,"ms":-61,"op":"fs.moveTo"}
+{"source":"watcher","doc":2,"seq":4,"ms":10,"op":"fs.create"}
