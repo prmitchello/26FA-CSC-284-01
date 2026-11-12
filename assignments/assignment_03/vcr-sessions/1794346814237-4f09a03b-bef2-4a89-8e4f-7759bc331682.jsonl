@@ -2642,3 +2642,30 @@
 {"doc":1,"seq":2641,"ms":109386528,"op":"save"}
 {"version":410,"changes":[{"offset":574,"length":0,"text":","}],"doc":1,"seq":2642,"ms":109386826,"op":"edit"}
 {"doc":1,"seq":2643,"ms":109387840,"op":"save"}
+{"version":411,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":575,"length":0,"text":"\"Tim O'Brien\",1988,\"War Story\""}],"doc":1,"seq":2644,"ms":109394654,"op":"edit"}
+{"doc":1,"seq":2645,"ms":109395660,"op":"save"}
+{"version":412,"changes":[{"offset":606,"length":0,"text":";"}],"doc":1,"seq":2646,"ms":109400015,"op":"edit"}
+{"doc":1,"seq":2647,"ms":109401023,"op":"save"}
+{"version":413,"changes":[{"offset":788,"length":0,"text":"\n    "}],"doc":1,"seq":2648,"ms":109405078,"op":"edit"}
+{"version":414,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":793,"length":0,"text":"bhccLibrary.add_book(b6);"}],"doc":1,"seq":2649,"ms":109405467,"op":"edit"}
+{"doc":1,"seq":2650,"ms":109406483,"op":"save"}
+{"version":415,"changes":[{"offset":815,"length":1,"text":""}],"doc":1,"seq":2651,"ms":109406791,"op":"edit"}
+{"version":416,"changes":[{"offset":815,"length":0,"text":"7"}],"doc":1,"seq":2652,"ms":109407613,"op":"edit"}
+{"doc":1,"seq":2653,"ms":109408622,"op":"save"}
+{"version":417,"changes":[{"offset":570,"length":4,"text":""}],"doc":1,"seq":2654,"ms":109416571,"op":"edit"}
+{"version":418,"changes":[{"offset":569,"length":1,"text":""}],"doc":1,"seq":2655,"ms":109417312,"op":"edit"}
+{"doc":1,"seq":2656,"ms":109418323,"op":"save"}
+{"version":419,"changes":[{"offset":587,"length":1,"text":""}],"doc":1,"seq":2657,"ms":109420294,"op":"edit"}
+{"version":420,"changes":[{"offset":586,"length":1,"text":""}],"doc":1,"seq":2658,"ms":109420483,"op":"edit"}
+{"doc":1,"seq":2659,"ms":109421503,"op":"save"}
+{"version":421,"changes":[{"offset":586,"length":0,"text":"7"}],"doc":1,"seq":2660,"ms":109421614,"op":"edit"}
+{"version":422,"changes":[{"offset":587,"length":0,"text":"3"}],"doc":1,"seq":2661,"ms":109421816,"op":"edit"}
+{"doc":1,"seq":2662,"ms":109422829,"op":"save"}
+{"version":423,"changes":[{"offset":221,"length":1,"text":""}],"doc":1,"seq":2663,"ms":109436866,"op":"edit"}
+{"version":424,"changes":[{"offset":221,"length":1,"text":""}],"doc":1,"seq":2664,"ms":109437867,"op":"edit"}
+{"version":425,"changes":[{"offset":221,"length":0,"text":"9"}],"doc":1,"seq":2665,"ms":109438880,"op":"edit"}
+{"doc":1,"seq":2666,"ms":109438903,"op":"save"}
+{"version":426,"changes":[{"offset":222,"length":0,"text":"0"}],"doc":1,"seq":2667,"ms":109438972,"op":"edit"}
+{"doc":1,"seq":2668,"ms":109439984,"op":"save"}
+{"version":427,"changes":[{"offset":278,"length":1,"text":""}],"doc":1,"seq":2669,"ms":109453171,"op":"edit"}
+{"version":428,"changes":[{"offset":277,"length":1,"text":""}],"doc":1,"seq":2670,"ms":109453371,"op":"edit"}
