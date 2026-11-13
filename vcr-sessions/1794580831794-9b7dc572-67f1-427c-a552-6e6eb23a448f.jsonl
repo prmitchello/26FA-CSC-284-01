@@ -1,0 +1,4 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-11-13T14:40:31.794Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"ab9077c9-f94b-4510-8905-a19acf7ada4d","sourceWindowId":"fd17b341-2ca2-4cec-9ec4-535cf666a97b","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"654d8f59217478d8ae7c3a019101f4e24b7ed3d5","seq":1,"ms":-3412,"op":"source.context"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-3412,"op":"snap"}
+{"seq":3,"ms":4357,"op":"end"}
