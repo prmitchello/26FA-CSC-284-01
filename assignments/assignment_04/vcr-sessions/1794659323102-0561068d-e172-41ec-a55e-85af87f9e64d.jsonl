@@ -15,3 +15,37 @@
 {"text":"#include \"LogAnalyzer.h\"\n#include <fstream>\n#include <iostream>\n#include <thread>\n#include <algorithm>\n\nvoid LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<std::string>& keywords) {\n    std::ifstream file(filename);\n    if (!file) {\n        std::cerr << \"Error: Could not open file \" << filename << \"\\n\";\n        return;\n    }\n\n    std::cout << \"Processing: \" << filename << std::endl;\n\n    std::string line;\n\n    // TODO: Read each line.\n    // For each keyword in 'keywords', check if it exists in the line.\n    // If found, increment keywordCounts[keyword] (inside a mutex lock).\n}\n\nvoid LogAnalyzer::printSummary() const {\n    std::cout << \"\\n--- Keyword Summary ---\\n\";\n\n    // TODO: Use std::for_each and a lambda to print keyword counts.\n\n    std::cout << \"-----------------------\\n\";\n}\n","version":1,"snapshot":true,"doc":3,"seq":14,"ms":7018810,"op":"snap"}
 {"doc":3,"seq":15,"ms":20611388,"op":"close"}
 {"text":"#include <map>\n#include <string>\n#include <vector>\n#include <mutex>\n\nclass LogAnalyzer {\nprivate:\n    std::map<std::string, int> keywordCounts;\n    std::mutex countMutex;\n\npublic:\n    void analyzeFile(const std::string& filename, const std::vector<std::string>& keywords);\n    void printSummary() const;\n};\n","version":1,"snapshot":true,"doc":2,"seq":16,"ms":41408947,"op":"snap"}
+{"doc":2,"seq":17,"ms":41426666,"op":"close"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <fstream>\n#include <iostream>\n#include <thread>\n#include <algorithm>\n\nvoid LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<std::string>& keywords) {\n    std::ifstream file(filename);\n    if (!file) {\n        std::cerr << \"Error: Could not open file \" << filename << \"\\n\";\n        return;\n    }\n\n    std::cout << \"Processing: \" << filename << std::endl;\n\n    std::string line;\n\n    // TODO: Read each line.\n    // For each keyword in 'keywords', check if it exists in the line.\n    // If found, increment keywordCounts[keyword] (inside a mutex lock).\n}\n\nvoid LogAnalyzer::printSummary() const {\n    std::cout << \"\\n--- Keyword Summary ---\\n\";\n\n    // TODO: Use std::for_each and a lambda to print keyword counts.\n\n    std::cout << \"-----------------------\\n\";\n}\n","version":1,"snapshot":true,"doc":3,"seq":18,"ms":41426675,"op":"snap"}
+{"version":2,"changes":[{"offset":433,"length":0,"text":"\n    "}],"doc":3,"seq":19,"ms":41436940,"op":"edit"}
+{"version":3,"changes":[{"offset":438,"length":0,"text":"\n    "},{"offset":434,"length":4,"text":""}],"doc":3,"seq":20,"ms":41437077,"op":"edit"}
+{"doc":3,"seq":21,"ms":41438098,"op":"save"}
+{"version":4,"changes":[{"offset":439,"length":0,"text":"w"}],"doc":3,"seq":22,"ms":41438714,"op":"edit"}
+{"version":5,"changes":[{"offset":440,"length":0,"text":"h"}],"doc":3,"seq":23,"ms":41438878,"op":"edit"}
+{"version":6,"changes":[{"offset":441,"length":0,"text":"i"}],"doc":3,"seq":24,"ms":41439070,"op":"edit"}
+{"version":7,"changes":[{"offset":442,"length":0,"text":"l"}],"doc":3,"seq":25,"ms":41439266,"op":"edit"}
+{"version":8,"changes":[{"offset":443,"length":0,"text":"e"}],"doc":3,"seq":26,"ms":41439378,"op":"edit"}
+{"version":9,"changes":[{"offset":444,"length":0,"text":"()"}],"doc":3,"seq":27,"ms":41440375,"op":"edit"}
+{"version":10,"changes":[{"offset":445,"length":1,"text":")"}],"doc":3,"seq":28,"ms":41440454,"op":"edit"}
+{"version":11,"changes":[{"offset":446,"length":0,"text":"{}"}],"doc":3,"seq":29,"ms":41440950,"op":"edit"}
+{"version":12,"changes":[{"offset":447,"length":0,"text":"\n        \n    "}],"doc":3,"seq":30,"ms":41441174,"op":"edit"}
+{"doc":3,"seq":31,"ms":41442191,"op":"save"}
+{"version":13,"changes":[{"offset":448,"length":8,"text":""},{"offset":445,"length":0,"text":"l"}],"doc":3,"seq":32,"ms":41446486,"op":"edit"}
+{"version":14,"changes":[{"offset":446,"length":0,"text":"i"}],"doc":3,"seq":33,"ms":41446690,"op":"edit"}
+{"version":15,"changes":[{"offset":447,"length":0,"text":"n"}],"doc":3,"seq":34,"ms":41446778,"op":"edit"}
+{"version":16,"changes":[{"offset":448,"length":0,"text":"e"}],"doc":3,"seq":35,"ms":41446928,"op":"edit"}
+{"version":17,"changes":[{"offset":449,"length":0,"text":" "}],"doc":3,"seq":36,"ms":41447053,"op":"edit"}
+{"doc":3,"seq":37,"ms":41448069,"op":"save"}
+{"version":18,"changes":[{"offset":450,"length":0,"text":"!"}],"doc":3,"seq":38,"ms":41448640,"op":"edit"}
+{"version":19,"changes":[{"offset":451,"length":0,"text":"-"}],"doc":3,"seq":39,"ms":41449502,"op":"edit"}
+{"version":20,"changes":[{"offset":452,"length":0,"text":" "}],"doc":3,"seq":40,"ms":41449877,"op":"edit"}
+{"version":21,"changes":[{"offset":453,"length":0,"text":"e"}],"doc":3,"seq":41,"ms":41450044,"op":"edit"}
+{"version":22,"changes":[{"offset":454,"length":0,"text":"n"}],"doc":3,"seq":42,"ms":41450148,"op":"edit"}
+{"version":23,"changes":[{"offset":455,"length":0,"text":"d"}],"doc":3,"seq":43,"ms":41450295,"op":"edit"}
+{"version":24,"changes":[{"offset":456,"length":0,"text":"()"}],"doc":3,"seq":44,"ms":41451314,"op":"edit"}
+{"doc":3,"seq":45,"ms":41451328,"op":"save"}
+{"version":25,"changes":[{"offset":457,"length":1,"text":")"}],"doc":3,"seq":46,"ms":41451372,"op":"edit"}
+{"doc":3,"seq":47,"ms":41452384,"op":"save"}
+{"version":26,"changes":[{"offset":451,"length":1,"text":""}],"doc":3,"seq":48,"ms":41458096,"op":"edit"}
+{"version":27,"changes":[{"offset":451,"length":0,"text":"="}],"doc":3,"seq":49,"ms":41458346,"op":"edit"}
+{"doc":3,"seq":50,"ms":41459359,"op":"save"}
