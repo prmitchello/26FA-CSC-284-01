@@ -892,3 +892,20 @@
 {"executionId":"e028f29c-c7a5-48de-8ca6-e681c1cde8a0","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./main","confidence":2,"exitCode":1,"doc":4,"seq":891,"ms":12233464,"op":"terminal.end"}
 {"version":159,"changes":[{"offset":1068,"length":0,"text":"\n    "}],"doc":3,"seq":892,"ms":12248548,"op":"edit"}
 {"version":160,"changes":[{"offset":1073,"length":0,"text":"c"}],"doc":3,"seq":893,"ms":12249268,"op":"edit"}
+{"version":161,"changes":[{"offset":1074,"length":0,"text":"o"}],"doc":3,"seq":894,"ms":12249381,"op":"edit"}
+{"version":162,"changes":[{"offset":1075,"length":0,"text":"u"}],"doc":3,"seq":895,"ms":12249570,"op":"edit"}
+{"version":163,"changes":[{"offset":1076,"length":0,"text":"t"}],"doc":3,"seq":896,"ms":12249630,"op":"edit"}
+{"version":164,"changes":[{"offset":1077,"length":0,"text":"<"}],"doc":3,"seq":897,"ms":12250269,"op":"edit"}
+{"version":165,"changes":[{"offset":1078,"length":0,"text":"<"}],"doc":3,"seq":898,"ms":12250404,"op":"edit"}
+{"version":166,"changes":[{"offset":1079,"length":0,"text":"\"\""}],"doc":3,"seq":899,"ms":12250898,"op":"edit"}
+{"version":167,"changes":[{"offset":1080,"length":0,"text":"h"}],"doc":3,"seq":900,"ms":12251454,"op":"edit"}
+{"version":168,"changes":[{"offset":1081,"length":0,"text":"e"}],"doc":3,"seq":901,"ms":12251627,"op":"edit"}
+{"version":169,"changes":[{"offset":1082,"length":0,"text":"r"}],"doc":3,"seq":902,"ms":12251818,"op":"edit"}
+{"version":170,"changes":[{"offset":1083,"length":0,"text":"e"}],"doc":3,"seq":903,"ms":12251917,"op":"edit"}
+{"doc":3,"seq":904,"ms":12252927,"op":"save"}
+{"version":171,"changes":[{"offset":1085,"length":0,"text":";"}],"doc":3,"seq":905,"ms":12254951,"op":"edit"}
+{"doc":3,"seq":906,"ms":12255959,"op":"save"}
+{"executionId":"bfaf47d8-e77c-4818-9449-9cda586a7916","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o main","confidence":2,"doc":4,"seq":907,"ms":12277025,"op":"terminal.start"}
+{"executionId":"bfaf47d8-e77c-4818-9449-9cda586a7916","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007","doc":4,"seq":908,"ms":12277076,"op":"terminal.output"}
+{"executionId":"bfaf47d8-e77c-4818-9449-9cda586a7916","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b[01m\u001b[Kmain.cpp:\u001b[m\u001b[K In function '\u001b[01m\u001b[Kint\u001b[01;32m\u001b[K main\u001b[m\u001b[K(int, char**)\u001b[m\u001b[K':\r\n\u001b[01m\u001b[Kmain.cpp:44:5:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[K'\u001b[01m\u001b[Kcout\u001b[m\u001b[K' was not declared in this scope; did you mean '\u001b[01m\u001b[Kstd::cout\u001b[m\u001b[K'?\r\n   44 |     \u001b[01;31m\u001b[Kcout\u001b[m\u001b[K<<\"here\";\r\n      |     \u001b[01;31m\u001b[K^~~~\u001b[m\u001b[K\r\n      |     \u001b[32m\u001b[Kstd::cout\u001b[m\u001b[K\r\nIn file included from \u001b[01m\u001b[Kmain.cpp:2\u001b[m\u001b[K:\r\n\u001b[01m\u001b[K/opt/homebrew/Cellar/gcc/16.2.0/include/c++/16/iostream:65:18:\u001b[m\u001b[K \u001b[01;36m\u001b[Knote: \u001b[m\u001b[K'\u001b[01m\u001b[Kstd::cout\u001b[m\u001b[K' declared here\r\n   65 |   extern ostream \u001b[01;36m\u001b[Kcout\u001b[m\u001b[K;          ///< Linked to standard output\r\n      |                  \u001b[01;36m\u001b[K^~~~\u001b[m\u001b[K\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":909,"ms":12277700,"op":"terminal.output"}
+{"executionId":"bfaf47d8-e77c-4818-9449-9cda586a7916","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o main","confidence":2,"exitCode":1,"doc":4,"seq":910,"ms":12277700,"op":"terminal.end"}
