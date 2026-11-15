@@ -663,3 +663,31 @@
 {"doc":1,"seq":662,"ms":11107697,"op":"save"}
 {"version":381,"changes":[{"offset":1088,"length":0,"text":"[]"}],"doc":1,"seq":663,"ms":11108204,"op":"edit"}
 {"doc":1,"seq":664,"ms":11109216,"op":"save"}
+{"version":382,"changes":[{"offset":1089,"length":0,"text":"s"}],"doc":1,"seq":665,"ms":11109424,"op":"edit"}
+{"version":383,"changes":[{"offset":1090,"length":0,"text":"t"}],"doc":1,"seq":666,"ms":11109700,"op":"edit"}
+{"version":384,"changes":[{"offset":1091,"length":0,"text":"r"}],"doc":1,"seq":667,"ms":11109876,"op":"edit"}
+{"version":385,"changes":[{"offset":1092,"length":0,"text":"i"}],"doc":1,"seq":668,"ms":11109894,"op":"edit"}
+{"version":386,"changes":[{"offset":1093,"length":0,"text":"n"}],"doc":1,"seq":669,"ms":11110081,"op":"edit"}
+{"version":387,"changes":[{"offset":1094,"length":0,"text":"g"}],"doc":1,"seq":670,"ms":11110107,"op":"edit"}
+{"doc":1,"seq":671,"ms":11111118,"op":"save"}
+{"version":388,"changes":[{"offset":1095,"length":0,"text":","}],"doc":1,"seq":672,"ms":11111703,"op":"edit"}
+{"version":389,"changes":[{"offset":1096,"length":0,"text":"i"}],"doc":1,"seq":673,"ms":11112129,"op":"edit"}
+{"version":390,"changes":[{"offset":1097,"length":0,"text":"n"}],"doc":1,"seq":674,"ms":11112274,"op":"edit"}
+{"version":391,"changes":[{"offset":1098,"length":0,"text":"t"}],"doc":1,"seq":675,"ms":11112364,"op":"edit"}
+{"doc":1,"seq":676,"ms":11113372,"op":"save"}
+{"version":392,"changes":[{"offset":1100,"length":0,"text":" "}],"doc":1,"seq":677,"ms":11113700,"op":"edit"}
+{"version":393,"changes":[{"offset":1101,"length":0,"text":":"}],"doc":1,"seq":678,"ms":11114486,"op":"edit"}
+{"version":394,"changes":[{"offset":1102,"length":0,"text":" "}],"doc":1,"seq":679,"ms":11114712,"op":"edit"}
+{"doc":1,"seq":680,"ms":11115721,"op":"save"}
+{"version":395,"changes":[{"offset":1103,"length":0,"text":"k"}],"doc":1,"seq":681,"ms":11116567,"op":"edit"}
+{"version":396,"changes":[{"offset":1104,"length":0,"text":"e"}],"doc":1,"seq":682,"ms":11116744,"op":"edit"}
+{"version":397,"changes":[{"offset":1105,"length":0,"text":"y"}],"doc":1,"seq":683,"ms":11117054,"op":"edit"}
+{"version":398,"changes":[{"offset":1103,"length":3,"text":"keywordCounts"}],"doc":1,"seq":684,"ms":11117826,"op":"edit"}
+{"doc":1,"seq":685,"ms":11118841,"op":"save"}
+{"version":399,"changes":[{"offset":1119,"length":0,"text":"        "}],"doc":1,"seq":686,"ms":11119912,"op":"edit"}
+{"doc":1,"seq":687,"ms":11120922,"op":"save"}
+{"version":400,"changes":[{"offset":1119,"length":8,"text":""},{"offset":1074,"length":12,"text":"a"}],"doc":1,"seq":688,"ms":11135213,"op":"edit"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <fstream>\n#include <iostream>\n#include <thread>\n#include <algorithm>\n#include <ranges>\n#include <vector>\n#include <string>\n\nusing namespace std;\n\nvoid LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<string>& keywords) {\n\n\n    std::ifstream file(filename);\n\n    if (!file) {\n        std::cerr << \"Error: Could not open file \" << filename << \"\\n\";\n        return;\n    }\n    std::cout << \"Processing: \" << filename << std::endl;\n\n    std::string line;\n\n    while(file.is_open()){\n\n\n        std::getline( file , line);\n\n        int keyCount=0;\n\n\n        for(string key : keywords){\n\n\n            if(key==line){\n                cout<<\"found\"<<line<<endl;\n\n                keywordCounts.insert( {\"line\",keyCount});\n\n            }\n        }\n\n    }\n\n    // TODO: Read each line.\n    // For each keyword in 'keywords', check if it exists in the line.\n    // If found, increment keywordCounts[keyword] (inside a mutex lock).\n}\n\nvoid LogAnalyzer::printSummary() const {\n    std::cout << \"\\n--- Keyword Summary ---\\n\";\n\n    for(au& [string,int] : keywordCounts){\n\n    }\n\n    // TODO: Use std::for_each and a lambda to print keyword counts.\n\n    std::ranges::for_each(key,[](){\n\n    });\n\n    std::cout << \"-----------------------\\n\";\n}\n","version":401,"snapshot":true,"doc":1,"seq":689,"ms":11135450,"op":"edit"}
+{"version":402,"changes":[{"offset":1076,"length":0,"text":"t"}],"doc":1,"seq":690,"ms":11135641,"op":"edit"}
+{"version":403,"changes":[{"offset":1077,"length":0,"text":"o"}],"doc":1,"seq":691,"ms":11135774,"op":"edit"}
+{"doc":1,"seq":692,"ms":11136787,"op":"save"}
