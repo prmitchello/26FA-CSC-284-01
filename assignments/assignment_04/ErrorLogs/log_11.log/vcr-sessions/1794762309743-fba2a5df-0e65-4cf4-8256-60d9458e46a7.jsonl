@@ -1,3 +1,4 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/ErrorLogs/log_11.log","startedAt":"2026-11-15T17:05:09.743Z","attemptId":"ca19f237-f175-4340-a589-5b9756006844","segmentId":"bae2508a-56a2-4e56-a0c9-3567ea27f512","sourceWindowId":"f09df8f3-9c77-49de-8b9c-9bd1183e1c60","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-92,"op":"source.context"}
 {"source":"watcher","path":".","doc":1,"seq":2,"ms":-92,"op":"fs.create"}
+{"seq":3,"ms":884649,"op":"end"}

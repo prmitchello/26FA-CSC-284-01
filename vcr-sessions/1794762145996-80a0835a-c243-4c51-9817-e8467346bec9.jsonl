@@ -11,3 +11,4 @@
 {"source":"watcher","path":"content/CursesDemo/lib/pdcurses.a","doc":8,"seq":10,"ms":163733,"op":"fs.create"}
 {"source":"watcher","path":"content/CursesDemo/lib/pdcurses.lib","doc":9,"seq":11,"ms":163733,"op":"fs.create"}
 {"doc":1,"seq":12,"ms":176223,"op":"close"}
+{"seq":13,"ms":1048396,"op":"end"}
