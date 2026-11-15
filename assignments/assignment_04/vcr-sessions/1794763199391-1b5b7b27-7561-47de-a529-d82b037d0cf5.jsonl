@@ -1155,3 +1155,41 @@
 {"executionId":"d6f9f462-ac31-4398-93db-40c5a566cf18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1154,"ms":13325240,"op":"terminal.start"}
 {"executionId":"d6f9f462-ac31-4398-93db-40c5a566cf18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n123456\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1155,"ms":13325266,"op":"terminal.output"}
 {"executionId":"d6f9f462-ac31-4398-93db-40c5a566cf18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1156,"ms":13325266,"op":"terminal.end"}
+{"version":597,"changes":[{"offset":579,"length":0,"text":"// "}],"doc":1,"seq":1157,"ms":13337243,"op":"edit"}
+{"doc":1,"seq":1158,"ms":13338262,"op":"save"}
+{"version":598,"changes":[{"offset":609,"length":0,"text":"\n        "}],"doc":1,"seq":1159,"ms":13339281,"op":"edit"}
+{"version":599,"changes":[{"offset":618,"length":0,"text":"\n        "},{"offset":610,"length":8,"text":""}],"doc":1,"seq":1160,"ms":13339680,"op":"edit"}
+{"doc":1,"seq":1161,"ms":13340692,"op":"save"}
+{"version":600,"changes":[{"offset":619,"length":0,"text":"l"}],"doc":1,"seq":1162,"ms":13340868,"op":"edit"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <fstream>\n#include <iostream>\n#include <thread>\n#include <algorithm>\n#include <ranges>\n#include <vector>\n#include <string>\n\nusing namespace std;\n\nvoid LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<string>& keywords) {\n\n\n    std::ifstream file(filename);\n\n    if (!file) {\n        std::cerr << \"Error: Could not open file \" << filename << \"\\n\";\n        return;\n    }\n    std::cout << \"Processing: \" << filename << std::endl;\n\n    std::string line;\n\n    int count=0;\n\n    while(file.is_open() && line!=\"eos\"){\n\n\n\n        // std::getline( file , line);\n\n        li\n\n        cout<<line;\n        int keyCount=0;\n\n\n        for(string key : keywords){\n\n            count++;\n\n            std::cout<<count;\n\n            if(key==line){\n                cout<<\"found\"<<line<<endl;\n\n                keywordCounts.insert( {\"line\",keyCount});\n\n            }\n        }\n        file.close();\n\n    }\n\n    // TODO: Read each line.\n    // For each keyword in 'keywords', check if it exists in the line.\n    // If found, increment keywordCounts[keyword] (inside a mutex lock).\n}\n\nvoid LogAnalyzer::printSummary() const {\n    std::cout << \"\\n--- Keyword Summary ---\\n\";\n\n    for(auto& [word,count] : keywordCounts){\n\n        cout<<word<<\":  \"<<count<<endl;\n\n    }\n\n    // TODO: Use std::for_each and a lambda to print keyword counts.\n\n    std::cout << \"-----------------------\\n\";\n}\n","version":601,"snapshot":true,"doc":1,"seq":1163,"ms":13341055,"op":"edit"}
+{"version":602,"changes":[{"offset":621,"length":0,"text":"n"}],"doc":1,"seq":1164,"ms":13341188,"op":"edit"}
+{"version":603,"changes":[{"offset":622,"length":0,"text":"e"}],"doc":1,"seq":1165,"ms":13341373,"op":"edit"}
+{"doc":1,"seq":1166,"ms":13342387,"op":"save"}
+{"version":604,"changes":[{"offset":623,"length":0,"text":"<"}],"doc":1,"seq":1167,"ms":13342620,"op":"edit"}
+{"version":605,"changes":[{"offset":624,"length":0,"text":"<"}],"doc":1,"seq":1168,"ms":13342756,"op":"edit"}
+{"doc":1,"seq":1169,"ms":13343771,"op":"save"}
+{"version":606,"changes":[{"offset":624,"length":1,"text":""}],"doc":1,"seq":1170,"ms":13344043,"op":"edit"}
+{"version":607,"changes":[{"offset":623,"length":1,"text":""}],"doc":1,"seq":1171,"ms":13344222,"op":"edit"}
+{"doc":1,"seq":1172,"ms":13345242,"op":"save"}
+{"version":608,"changes":[{"offset":623,"length":0,"text":">"}],"doc":1,"seq":1173,"ms":13345483,"op":"edit"}
+{"version":609,"changes":[{"offset":624,"length":0,"text":">"}],"doc":1,"seq":1174,"ms":13345586,"op":"edit"}
+{"version":610,"changes":[{"offset":625,"length":0,"text":"f"}],"doc":1,"seq":1175,"ms":13346278,"op":"edit"}
+{"version":611,"changes":[{"offset":626,"length":0,"text":"i"}],"doc":1,"seq":1176,"ms":13346398,"op":"edit"}
+{"version":612,"changes":[{"offset":627,"length":0,"text":"l"}],"doc":1,"seq":1177,"ms":13346605,"op":"edit"}
+{"version":613,"changes":[{"offset":628,"length":0,"text":"e"}],"doc":1,"seq":1178,"ms":13346741,"op":"edit"}
+{"version":614,"changes":[{"offset":629,"length":0,"text":";"}],"doc":1,"seq":1179,"ms":13347095,"op":"edit"}
+{"doc":1,"seq":1180,"ms":13348122,"op":"save"}
+{"version":615,"changes":[{"offset":619,"length":4,"text":"f"}],"doc":1,"seq":1181,"ms":13382195,"op":"edit"}
+{"version":616,"changes":[{"offset":620,"length":0,"text":"i"}],"doc":1,"seq":1182,"ms":13382354,"op":"edit"}
+{"version":617,"changes":[{"offset":621,"length":0,"text":"l"}],"doc":1,"seq":1183,"ms":13382553,"op":"edit"}
+{"version":618,"changes":[{"offset":622,"length":0,"text":"e"}],"doc":1,"seq":1184,"ms":13382647,"op":"edit"}
+{"doc":1,"seq":1185,"ms":13383657,"op":"save"}
+{"version":619,"changes":[{"offset":627,"length":1,"text":""}],"doc":1,"seq":1186,"ms":13384358,"op":"edit"}
+{"version":620,"changes":[{"offset":627,"length":1,"text":""}],"doc":1,"seq":1187,"ms":13385065,"op":"edit"}
+{"version":621,"changes":[{"offset":626,"length":1,"text":""}],"doc":1,"seq":1188,"ms":13385244,"op":"edit"}
+{"version":622,"changes":[{"offset":625,"length":1,"text":""}],"doc":1,"seq":1189,"ms":13385474,"op":"edit"}
+{"version":623,"changes":[{"offset":625,"length":0,"text":"l"}],"doc":1,"seq":1190,"ms":13385974,"op":"edit"}
+{"version":624,"changes":[{"offset":626,"length":0,"text":"i"}],"doc":1,"seq":1191,"ms":13386183,"op":"edit"}
+{"version":625,"changes":[{"offset":627,"length":0,"text":"n"}],"doc":1,"seq":1192,"ms":13386280,"op":"edit"}
+{"version":626,"changes":[{"offset":628,"length":0,"text":"e"}],"doc":1,"seq":1193,"ms":13386448,"op":"edit"}
+{"doc":1,"seq":1194,"ms":13387459,"op":"save"}
