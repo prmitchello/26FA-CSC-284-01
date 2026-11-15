@@ -126,3 +126,4 @@
 {"version":97,"changes":[{"offset":258,"length":1,"text":""}],"doc":1,"seq":125,"ms":7406661,"op":"edit"}
 {"version":98,"changes":[{"offset":257,"length":1,"text":""}],"doc":1,"seq":126,"ms":7406852,"op":"edit"}
 {"doc":1,"seq":127,"ms":7407858,"op":"save"}
+{"text":"#include <map>\n#include <string>\n#include <vector>\n#include <mutex>\n\nclass LogAnalyzer {\n\n    private:\n        std::map<std::string, int> keywordCounts;\n        std::mutex countMutex;\n\n    public:\n        void analyzeFile(const std::string& filename, const std::vector<std::string>& keywords);\n        void printSummary() const;\n};\n","version":1,"path":"LogAnalyzer.h","snapshot":true,"doc":2,"seq":128,"ms":7566155,"op":"snap"}
