@@ -1012,3 +1012,40 @@
 {"version":507,"changes":[{"offset":523,"length":1,"text":""}],"doc":1,"seq":1011,"ms":13134524,"op":"edit"}
 {"version":508,"changes":[{"offset":523,"length":0,"text":"="}],"doc":1,"seq":1012,"ms":13135507,"op":"edit"}
 {"doc":1,"seq":1013,"ms":13136525,"op":"save"}
+{"version":509,"changes":[{"offset":524,"length":1,"text":""}],"doc":1,"seq":1014,"ms":13149793,"op":"edit"}
+{"version":510,"changes":[{"offset":524,"length":0,"text":"\""}],"doc":1,"seq":1015,"ms":13150133,"op":"edit"}
+{"doc":1,"seq":1016,"ms":13151158,"op":"save"}
+{"version":511,"changes":[{"offset":528,"length":1,"text":""}],"doc":1,"seq":1017,"ms":13151595,"op":"edit"}
+{"version":512,"changes":[{"offset":528,"length":0,"text":"\""}],"doc":1,"seq":1018,"ms":13152211,"op":"edit"}
+{"doc":1,"seq":1019,"ms":13153219,"op":"save"}
+{"doc":1,"seq":1020,"ms":13157260,"op":"save"}
+{"executionId":"a353d329-2cd1-49e3-88c7-8e2e4b905331","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"doc":4,"seq":1021,"ms":13161092,"op":"terminal.start"}
+{"executionId":"a353d329-2cd1-49e3-88c7-8e2e4b905331","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007","doc":4,"seq":1022,"ms":13161144,"op":"terminal.output"}
+{"executionId":"a353d329-2cd1-49e3-88c7-8e2e4b905331","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1023,"ms":13162100,"op":"terminal.output"}
+{"executionId":"a353d329-2cd1-49e3-88c7-8e2e4b905331","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":1024,"ms":13162100,"op":"terminal.end"}
+{"executionId":"7187e3b7-6dc4-438b-a124-6b0837b8ab97","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1025,"ms":13163943,"op":"terminal.start"}
+{"executionId":"7187e3b7-6dc4-438b-a124-6b0837b8ab97","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n","doc":4,"seq":1026,"ms":13164028,"op":"terminal.output"}
+{"executionId":"7187e3b7-6dc4-438b-a124-6b0837b8ab97","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"^C\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1027,"ms":13175151,"op":"terminal.output"}
+{"executionId":"7187e3b7-6dc4-438b-a124-6b0837b8ab97","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":130,"doc":4,"seq":1028,"ms":13175151,"op":"terminal.end"}
+{"version":513,"reason":1,"changes":[{"offset":528,"length":1,"text":""}],"doc":1,"seq":1029,"ms":13186681,"op":"edit"}
+{"version":514,"reason":1,"changes":[{"offset":528,"length":0,"text":"'"}],"doc":1,"seq":1030,"ms":13187144,"op":"edit"}
+{"version":515,"reason":1,"changes":[{"offset":524,"length":1,"text":""}],"doc":1,"seq":1031,"ms":13187453,"op":"edit"}
+{"version":516,"reason":1,"changes":[{"offset":524,"length":0,"text":"'"}],"doc":1,"seq":1032,"ms":13187709,"op":"edit"}
+{"version":517,"reason":1,"changes":[{"offset":523,"length":1,"text":""}],"doc":1,"seq":1033,"ms":13187996,"op":"edit"}
+{"version":518,"reason":1,"changes":[{"offset":523,"length":0,"text":"-"}],"doc":1,"seq":1034,"ms":13188241,"op":"edit"}
+{"version":519,"reason":1,"changes":[{"offset":524,"length":5,"text":""}],"doc":1,"seq":1035,"ms":13188469,"op":"edit"}
+{"version":520,"reason":1,"changes":[{"offset":518,"length":6,"text":"file.is_open()"}],"doc":1,"seq":1036,"ms":13188742,"op":"edit"}
+{"doc":1,"seq":1037,"ms":13189759,"op":"save"}
+{"version":521,"changes":[{"offset":532,"length":0,"text":" "}],"doc":1,"seq":1038,"ms":13190896,"op":"edit"}
+{"version":522,"changes":[{"offset":533,"length":0,"text":"&"}],"doc":1,"seq":1039,"ms":13191452,"op":"edit"}
+{"version":523,"changes":[{"offset":534,"length":0,"text":"&"}],"doc":1,"seq":1040,"ms":13191580,"op":"edit"}
+{"version":524,"changes":[{"offset":535,"length":0,"text":" "}],"doc":1,"seq":1041,"ms":13191810,"op":"edit"}
+{"version":525,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":536,"length":0,"text":"line!=\"eos\""}],"doc":1,"seq":1042,"ms":13192451,"op":"edit"}
+{"doc":1,"seq":1043,"ms":13193464,"op":"save"}
+{"executionId":"48f80439-4af2-4f9d-8508-2cfed90d7fdb","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"doc":4,"seq":1044,"ms":13201781,"op":"terminal.start"}
+{"executionId":"48f80439-4af2-4f9d-8508-2cfed90d7fdb","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007","doc":4,"seq":1045,"ms":13201832,"op":"terminal.output"}
+{"executionId":"48f80439-4af2-4f9d-8508-2cfed90d7fdb","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1046,"ms":13202613,"op":"terminal.output"}
+{"executionId":"48f80439-4af2-4f9d-8508-2cfed90d7fdb","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":1047,"ms":13202613,"op":"terminal.end"}
+{"executionId":"bf325d22-07d9-4228-98c4-6002cb6d500b","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1048,"ms":13203760,"op":"terminal.start"}
+{"executionId":"bf325d22-07d9-4228-98c4-6002cb6d500b","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1049,"ms":13203782,"op":"terminal.output"}
+{"executionId":"bf325d22-07d9-4228-98c4-6002cb6d500b","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1050,"ms":13203782,"op":"terminal.end"}
