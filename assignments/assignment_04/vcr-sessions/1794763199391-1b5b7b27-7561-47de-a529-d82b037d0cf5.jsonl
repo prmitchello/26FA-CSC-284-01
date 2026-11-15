@@ -28,3 +28,12 @@
 {"doc":1,"seq":27,"ms":33447,"op":"save"}
 {"version":25,"changes":[{"offset":816,"length":0,"text":"s"}],"doc":1,"seq":28,"ms":36075,"op":"edit"}
 {"doc":1,"seq":29,"ms":37086,"op":"save"}
+{"version":26,"changes":[{"offset":299,"length":0,"text":" "}],"doc":1,"seq":30,"ms":6950401,"op":"edit"}
+{"version":27,"changes":[{"offset":300,"length":0,"text":"''"}],"doc":1,"seq":31,"ms":6951236,"op":"edit"}
+{"version":28,"changes":[{"offset":301,"length":0,"text":" "}],"doc":1,"seq":32,"ms":6951690,"op":"edit"}
+{"version":29,"changes":[{"offset":301,"length":1,"text":""}],"doc":1,"seq":33,"ms":6952284,"op":"edit"}
+{"version":30,"changes":[{"offset":300,"length":2,"text":""}],"doc":1,"seq":34,"ms":6952651,"op":"edit"}
+{"version":31,"changes":[{"offset":300,"length":0,"text":"="}],"doc":1,"seq":35,"ms":6953567,"op":"edit"}
+{"doc":1,"seq":36,"ms":6954580,"op":"save"}
+{"version":32,"changes":[{"offset":301,"length":0,"text":"\"\""}],"doc":1,"seq":37,"ms":6963275,"op":"edit"}
+{"doc":1,"seq":38,"ms":6964293,"op":"save"}
