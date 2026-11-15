@@ -450,3 +450,6 @@
 {"doc":3,"seq":449,"ms":100568391,"op":"save"}
 {"version":331,"changes":[{"offset":635,"length":8,"text":"            "}],"doc":3,"seq":450,"ms":100568651,"op":"edit"}
 {"doc":3,"seq":451,"ms":100569669,"op":"save"}
+{"text":"#include <map>\n#include <string>\n#include <vector>\n#include <mutex>\n\nclass LogAnalyzer {\nprivate:\n    std::map<std::string, int> keywordCounts;\n    std::mutex countMutex;\n\npublic:\n    void analyzeFile(const std::string& filename, const std::vector<std::string>& keywords);\n    void printSummary() const;\n};\n","version":1,"snapshot":true,"doc":2,"seq":452,"ms":100704406,"op":"snap"}
+{"version":2,"changes":[{"offset":273,"length":4,"text":"        "},{"offset":180,"length":4,"text":"        "},{"offset":172,"length":0,"text":"    "},{"offset":144,"length":4,"text":"        "},{"offset":98,"length":4,"text":"        "},{"offset":89,"length":0,"text":"    "}],"doc":2,"seq":453,"ms":100709923,"op":"edit"}
+{"doc":2,"seq":454,"ms":100710941,"op":"save"}
