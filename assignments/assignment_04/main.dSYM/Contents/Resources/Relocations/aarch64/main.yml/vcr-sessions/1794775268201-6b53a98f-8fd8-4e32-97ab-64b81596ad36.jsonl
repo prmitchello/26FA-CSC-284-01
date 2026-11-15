@@ -1,0 +1,3 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/main.dSYM/Contents/Resources/Relocations/aarch64/main.yml","startedAt":"2026-11-15T20:41:08.201Z","attemptId":"501a9d0e-72e2-4e8a-80c3-2b020a5257aa","segmentId":"258dabca-2f0c-4bb3-902c-62444fc01001","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-213,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-213,"op":"fs.create"}

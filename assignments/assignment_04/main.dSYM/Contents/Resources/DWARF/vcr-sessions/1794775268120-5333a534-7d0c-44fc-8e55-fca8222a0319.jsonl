@@ -1,0 +1,3 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/main.dSYM/Contents/Resources/DWARF","startedAt":"2026-11-15T20:41:08.120Z","attemptId":"7c6fcac9-d718-4bbe-87a8-1b5217a67eb0","segmentId":"0d4616b6-380a-41a2-a7cf-7b41b8b5afab","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-132,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-132,"op":"fs.create"}
