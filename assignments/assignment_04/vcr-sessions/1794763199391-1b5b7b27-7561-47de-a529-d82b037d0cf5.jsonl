@@ -1200,3 +1200,7 @@
 {"executionId":"3b8813d1-d396-4b18-a4f9-68cf9aaaab59","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1199,"ms":13468059,"op":"terminal.start"}
 {"executionId":"3b8813d1-d396-4b18-a4f9-68cf9aaaab59","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n123456\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1200,"ms":13468084,"op":"terminal.output"}
 {"executionId":"3b8813d1-d396-4b18-a4f9-68cf9aaaab59","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1201,"ms":13468084,"op":"terminal.end"}
+{"version":627,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":536,"length":29,"text":"file>>line;"}],"doc":1,"seq":1202,"ms":15138012,"op":"edit"}
+{"doc":1,"seq":1203,"ms":15139023,"op":"save"}
+{"version":628,"changes":[{"offset":546,"length":1,"text":""}],"doc":1,"seq":1204,"ms":15140348,"op":"edit"}
+{"doc":1,"seq":1205,"ms":15141365,"op":"save"}
