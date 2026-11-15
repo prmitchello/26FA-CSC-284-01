@@ -554,3 +554,22 @@
 {"version":393,"changes":[{"offset":675,"length":1,"text":""}],"doc":3,"seq":553,"ms":101826307,"op":"edit"}
 {"version":394,"changes":[{"offset":675,"length":0,"text":"            "}],"doc":3,"seq":554,"ms":101826631,"op":"edit"}
 {"doc":3,"seq":555,"ms":101827640,"op":"save"}
+{"version":395,"changes":[{"offset":683,"length":4,"text":""}],"doc":3,"seq":556,"ms":101942260,"op":"edit"}
+{"version":396,"changes":[{"offset":679,"length":4,"text":""}],"doc":3,"seq":557,"ms":101942465,"op":"edit"}
+{"doc":3,"seq":558,"ms":101943479,"op":"save"}
+{"version":397,"changes":[{"offset":675,"length":4,"text":"            "}],"doc":3,"seq":559,"ms":101943912,"op":"edit"}
+{"doc":3,"seq":560,"ms":101944926,"op":"save"}
+{"version":398,"changes":[{"offset":687,"length":0,"text":"t"}],"doc":3,"seq":561,"ms":101957299,"op":"edit"}
+{"version":399,"changes":[{"offset":687,"length":1,"text":""}],"doc":3,"seq":562,"ms":101958014,"op":"edit"}
+{"doc":3,"seq":563,"ms":101959022,"op":"save"}
+{"version":400,"changes":[{"offset":594,"length":1,"text":""}],"doc":3,"seq":564,"ms":101972547,"op":"edit"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <fstream>\n#include <iostream>\n#include <thread>\n#include <algorithm>\n\nusing namespace std;\n\nvoid LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<std::string>& keywords) {\n\n    std::ifstream file(filename);\n\n    if (!file) {\n        std::cerr << \"Error: Could not open file \" << filename << \"\\n\";\n        return;\n    }\n\n    std::cout << \"Processing: \" << filename << std::endl;\n\n    std::string line;\n\n    while(file.is_open()){\n\n        //line>>filename;\n\n        std::getline( file , line);\n\n        //cout<<line;\n\n        keywords.pu_back(line);\n\n        auto key = keywords\n        |std::views::filter([line](){\n            \n        });\n\n        std::ranges::for_each(key,);\n\n    }\n\n    // TODO: Read each line.\n    // For each keyword in 'keywords', check if it exists in the line.\n    // If found, increment keywordCounts[keyword] (inside a mutex lock).\n}\n\nvoid LogAnalyzer::printSummary() const {\n    std::cout << \"\\n--- Keyword Summary ---\\n\";\n\n    // TODO: Use std::for_each and a lambda to print keyword counts.\n\n    std::cout << \"-----------------------\\n\";\n}\n","version":401,"snapshot":true,"doc":3,"seq":565,"ms":101972693,"op":"edit"}
+{"version":402,"changes":[{"offset":592,"length":1,"text":""}],"doc":3,"seq":566,"ms":101972839,"op":"edit"}
+{"version":403,"changes":[{"offset":591,"length":1,"text":""}],"doc":3,"seq":567,"ms":101972995,"op":"edit"}
+{"version":404,"changes":[{"offset":591,"length":0,"text":"e"}],"doc":3,"seq":568,"ms":101973380,"op":"edit"}
+{"version":405,"changes":[{"offset":592,"length":0,"text":"m"}],"doc":3,"seq":569,"ms":101973547,"op":"edit"}
+{"version":406,"changes":[{"offset":593,"length":0,"text":"b"}],"doc":3,"seq":570,"ms":101973796,"op":"edit"}
+{"version":407,"changes":[{"offset":594,"length":0,"text":"r"}],"doc":3,"seq":571,"ms":101973952,"op":"edit"}
+{"version":408,"changes":[{"offset":595,"length":0,"text":"a"}],"doc":3,"seq":572,"ms":101974150,"op":"edit"}
+{"version":409,"changes":[{"offset":596,"length":0,"text":"c"}],"doc":3,"seq":573,"ms":101974356,"op":"edit"}
+{"version":410,"changes":[{"offset":597,"length":0,"text":"e"}],"doc":3,"seq":574,"ms":101974489,"op":"edit"}
