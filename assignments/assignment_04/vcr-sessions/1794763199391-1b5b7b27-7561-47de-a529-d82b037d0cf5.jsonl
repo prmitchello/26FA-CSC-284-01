@@ -1341,3 +1341,15 @@
 {"doc":3,"seq":1340,"ms":20046216,"op":"save"}
 {"version":299,"changes":[{"offset":931,"length":9,"text":"push_back"}],"doc":3,"seq":1341,"ms":20046754,"op":"edit"}
 {"doc":3,"seq":1342,"ms":20047767,"op":"save"}
+{"version":300,"changes":[{"offset":934,"length":1,"text":""}],"doc":3,"seq":1343,"ms":20076472,"op":"edit"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <iostream>\n#include <filesystem>\n#include <thread>\n#include <vector>\n\nnamespace fs = std::filesystem;\n\nint main(int argc, char* argv[]) {\n\n    if (argc < 2) {\n        std::cerr << \"Usage: \" << argv[0] << \" <log_directory>\\n\";\n        return 1;\n    }\n\n    std::string folderPath = argv[1];\n    LogAnalyzer analyzer;\n\n        std::vector<std::string> keywords = {\"[ERROR]\", \"[WARNING]\", \"[INFO]\", \"[FATAL]\", \"[DEBUG]\", \"TRACE]\"};   // /* TODO: Add the rest of the error levels */};\n        std::vector<std::thread> threads;\n\n    std::cout << \"Analyzing folder: \" << folderPath << \"\\n\\n\";\n\n    // TODO: Use std::filesystem to iterate through all files in the folder.\n    // For each file with \".log\" extension:\n    //   - Create a thread calling analyzer.analyzeFile(filename, keywords)\n    //   - Store the thread in 'threads' vector.\n\n\n    // std::filesystem(for_each(){\n\n\n    for(){\n\n     threads.pu_back(analyzer.analyzeFile,folderPath, keywords);\n\n        // threads.push_back(t1);\n\n    }\n    // TODO: Join all threads after launching.\n\n    std::cout<<\" we are here\"<<std::endl;\n    analyzer.analyzeFile(folderPath, keywords);\n    analyzer.printSummary();\n\n    return 0;\n}\n","version":301,"snapshot":true,"doc":3,"seq":1344,"ms":20076625,"op":"edit"}
+{"version":302,"changes":[{"offset":932,"length":1,"text":""}],"doc":3,"seq":1345,"ms":20076778,"op":"edit"}
+{"version":303,"changes":[{"offset":931,"length":1,"text":""}],"doc":3,"seq":1346,"ms":20077078,"op":"edit"}
+{"version":304,"changes":[{"offset":931,"length":0,"text":"e"}],"doc":3,"seq":1347,"ms":20077590,"op":"edit"}
+{"version":305,"changes":[{"offset":932,"length":0,"text":"m"}],"doc":3,"seq":1348,"ms":20077756,"op":"edit"}
+{"version":306,"changes":[{"offset":933,"length":0,"text":"b"}],"doc":3,"seq":1349,"ms":20077980,"op":"edit"}
+{"version":307,"changes":[{"offset":934,"length":0,"text":"r"}],"doc":3,"seq":1350,"ms":20078164,"op":"edit"}
+{"version":308,"changes":[{"offset":935,"length":0,"text":"a"}],"doc":3,"seq":1351,"ms":20078413,"op":"edit"}
+{"version":309,"changes":[{"offset":936,"length":0,"text":"c"}],"doc":3,"seq":1352,"ms":20078559,"op":"edit"}
+{"version":310,"changes":[{"offset":937,"length":0,"text":"e"}],"doc":3,"seq":1353,"ms":20078691,"op":"edit"}
+{"doc":3,"seq":1354,"ms":20079706,"op":"save"}
