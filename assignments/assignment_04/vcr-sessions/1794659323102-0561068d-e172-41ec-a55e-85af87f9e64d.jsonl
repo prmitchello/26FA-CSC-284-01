@@ -406,3 +406,10 @@
 {"doc":3,"seq":405,"ms":99201836,"op":"save"}
 {"version":300,"changes":[{"offset":478,"length":0,"text":"_"}],"doc":3,"seq":406,"ms":99201933,"op":"edit"}
 {"doc":3,"seq":407,"ms":99202941,"op":"save"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <fstream>\n#include <iostream>\n#include <thread>\n#include <algorithm>\n\nusing namespace std;\n\nvoid LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<std::string>& keywords) {\n    std::ifstream file(filename);\n    if (!file) {\n        std::cerr << \"Error: Could not open file \" << filename << \"\\n\";\n        return;\n    }\n\n    std::cout << \"Processing: \" << filename << std::endl;\n\n    std::string line;\n\n    while(filename.is_open() && (line != end())){\n\n        line>>filename;\n\n        sgetline(filename , line);\n\n        cout<<line;\n\n        auto key = keywords\n        |std::views::filter([](){\n\n        });\n\n        ranges::for_each(key,);\n\n    }\n\n    // TODO: Read each line.\n    // For each keyword in 'keywords', check if it exists in the line.\n    // If found, increment keywordCounts[keyword] (inside a mutex lock).\n}\n\nvoid LogAnalyzer::printSummary() const {\n    std::cout << \"\\n--- Keyword Summary ---\\n\";\n\n    // TODO: Use std::for_each and a lambda to print keyword counts.\n\n    std::cout << \"-----------------------\\n\";\n}\n","version":301,"snapshot":true,"doc":3,"seq":408,"ms":99311191,"op":"edit"}
+{"version":302,"changes":[{"offset":542,"length":0,"text":"t"}],"doc":3,"seq":409,"ms":99311665,"op":"edit"}
+{"version":303,"changes":[{"offset":543,"length":0,"text":"d"}],"doc":3,"seq":410,"ms":99311891,"op":"edit"}
+{"doc":3,"seq":411,"ms":99312912,"op":"save"}
+{"version":304,"changes":[{"offset":544,"length":0,"text":":"}],"doc":3,"seq":412,"ms":99313577,"op":"edit"}
+{"version":305,"changes":[{"offset":545,"length":0,"text":":"}],"doc":3,"seq":413,"ms":99313771,"op":"edit"}
+{"doc":3,"seq":414,"ms":99314782,"op":"save"}
