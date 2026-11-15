@@ -779,3 +779,23 @@
 {"doc":1,"seq":778,"ms":11269853,"op":"save"}
 {"version":474,"changes":[{"offset":1228,"length":1,"text":""}],"doc":1,"seq":779,"ms":11272252,"op":"edit"}
 {"doc":1,"seq":780,"ms":11273261,"op":"save"}
+{"version":126,"changes":[{"offset":1004,"length":0,"text":"// "},{"offset":969,"length":0,"text":"// "},{"offset":907,"length":0,"text":"// "},{"offset":872,"length":0,"text":"// "}],"doc":3,"seq":781,"ms":11293418,"op":"edit"}
+{"doc":3,"seq":782,"ms":11294425,"op":"save"}
+{"version":127,"changes":[{"offset":1068,"length":0,"text":"    "}],"doc":3,"seq":783,"ms":11319094,"op":"edit"}
+{"version":128,"changes":[{"offset":1072,"length":0,"text":"\n    "},{"offset":1068,"length":4,"text":""}],"doc":3,"seq":784,"ms":11319429,"op":"edit"}
+{"version":129,"changes":[{"offset":1073,"length":0,"text":"a"}],"doc":3,"seq":785,"ms":11320228,"op":"edit"}
+{"version":130,"changes":[{"offset":1074,"length":0,"text":"n"}],"doc":3,"seq":786,"ms":11320426,"op":"edit"}
+{"version":131,"changes":[{"offset":1075,"length":0,"text":"y"}],"doc":3,"seq":787,"ms":11320656,"op":"edit"}
+{"doc":3,"seq":788,"ms":11321673,"op":"save"}
+{"version":132,"changes":[{"offset":1073,"length":3,"text":"analyzer"}],"doc":3,"seq":789,"ms":11322198,"op":"edit"}
+{"version":133,"changes":[{"offset":1081,"length":0,"text":"."}],"doc":3,"seq":790,"ms":11323059,"op":"edit"}
+{"version":134,"changes":[{"offset":1082,"length":0,"text":"a"}],"doc":3,"seq":791,"ms":11323241,"op":"edit"}
+{"version":135,"changes":[{"offset":1082,"length":1,"text":"analyzeFile"}],"doc":3,"seq":792,"ms":11324227,"op":"edit"}
+{"doc":3,"seq":793,"ms":11325247,"op":"save"}
+{"version":136,"changes":[{"offset":1093,"length":0,"text":"()"}],"doc":3,"seq":794,"ms":11327746,"op":"edit"}
+{"version":137,"changes":[{"offset":1094,"length":1,"text":")"}],"doc":3,"seq":795,"ms":11327833,"op":"edit"}
+{"doc":3,"seq":796,"ms":11328845,"op":"save"}
+{"version":138,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1073,"length":22,"text":"analyzer.analyzeFile(filename, keywords)"}],"doc":3,"seq":797,"ms":11338134,"op":"edit"}
+{"doc":3,"seq":798,"ms":11339155,"op":"save"}
+{"version":139,"changes":[{"offset":1113,"length":0,"text":";"}],"doc":3,"seq":799,"ms":11339947,"op":"edit"}
+{"doc":3,"seq":800,"ms":11340957,"op":"save"}
