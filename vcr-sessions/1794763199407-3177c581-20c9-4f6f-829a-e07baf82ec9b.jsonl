@@ -2,3 +2,7 @@
 {"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-3503,"op":"source.context"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-3503,"op":"snap"}
 {"doc":1,"seq":3,"ms":176060,"op":"close"}
+{"executionId":"a09b8112-3d1e-4dfd-b515-8ce0eb7bf92f","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":2,"seq":4,"ms":7420780,"op":"task.start"}
+{"executionId":"a09b8112-3d1e-4dfd-b515-8ce0eb7bf92f","processId":-1,"doc":2,"seq":5,"ms":7420838,"op":"task.processStart"}
+{"executionId":"a09b8112-3d1e-4dfd-b515-8ce0eb7bf92f","exitCode":-1,"doc":2,"seq":6,"ms":7421283,"op":"task.processEnd"}
+{"executionId":"a09b8112-3d1e-4dfd-b515-8ce0eb7bf92f","doc":2,"seq":7,"ms":7421283,"op":"task.end"}
