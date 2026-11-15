@@ -213,3 +213,8 @@
 {"doc":3,"seq":212,"ms":7753065,"op":"save"}
 {"version":52,"changes":[{"offset":908,"length":8,"text":";"},{"offset":893,"length":8,"text":""}],"doc":3,"seq":213,"ms":7755613,"op":"edit"}
 {"doc":3,"seq":214,"ms":7756623,"op":"save"}
+{"version":108,"changes":[{"offset":284,"length":22,"text":""}],"doc":1,"seq":215,"ms":8104373,"op":"edit"}
+{"version":109,"changes":[{"offset":285,"length":3,"text":""},{"offset":280,"length":4,"text":""}],"doc":1,"seq":216,"ms":8105374,"op":"edit"}
+{"doc":1,"seq":217,"ms":8105378,"op":"save"}
+{"version":53,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":429,"length":0,"text":"string FATAL= \"FATAL\";"}],"doc":3,"seq":218,"ms":8107499,"op":"edit"}
+{"doc":3,"seq":219,"ms":8108512,"op":"save"}
