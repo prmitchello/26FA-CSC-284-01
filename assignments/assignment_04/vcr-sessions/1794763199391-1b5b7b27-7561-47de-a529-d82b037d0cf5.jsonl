@@ -1204,3 +1204,12 @@
 {"doc":1,"seq":1203,"ms":15139023,"op":"save"}
 {"version":628,"changes":[{"offset":546,"length":1,"text":""}],"doc":1,"seq":1204,"ms":15140348,"op":"edit"}
 {"doc":1,"seq":1205,"ms":15141365,"op":"save"}
+{"executionId":"0aa44141-12d1-4cfa-84c8-a1c4aa279f46","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"doc":4,"seq":1206,"ms":15145707,"op":"terminal.start"}
+{"executionId":"0aa44141-12d1-4cfa-84c8-a1c4aa279f46","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007","doc":4,"seq":1207,"ms":15145759,"op":"terminal.output"}
+{"executionId":"0aa44141-12d1-4cfa-84c8-a1c4aa279f46","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1208,"ms":15146764,"op":"terminal.output"}
+{"executionId":"0aa44141-12d1-4cfa-84c8-a1c4aa279f46","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-16 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":1209,"ms":15146764,"op":"terminal.end"}
+{"executionId":"c06362e9-940b-4af4-8aa4-f730e8d1becf","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1210,"ms":15149011,"op":"terminal.start"}
+{"executionId":"c06362e9-940b-4af4-8aa4-f730e8d1becf","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1211,"ms":15149032,"op":"terminal.output"}
+{"executionId":"c06362e9-940b-4af4-8aa4-f730e8d1becf","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1212,"ms":15149032,"op":"terminal.end"}
+{"version":200,"changes":[{"offset":1013,"length":3,"text":""},{"offset":975,"length":3,"text":""},{"offset":910,"length":3,"text":""},{"offset":872,"length":3,"text":""}],"doc":3,"seq":1213,"ms":15195138,"op":"edit"}
+{"doc":3,"seq":1214,"ms":15196150,"op":"save"}
