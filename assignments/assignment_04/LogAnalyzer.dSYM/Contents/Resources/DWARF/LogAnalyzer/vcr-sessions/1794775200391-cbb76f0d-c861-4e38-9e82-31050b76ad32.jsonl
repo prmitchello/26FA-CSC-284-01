@@ -1,0 +1,3 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/LogAnalyzer.dSYM/Contents/Resources/DWARF/LogAnalyzer","startedAt":"2026-11-15T20:40:00.391Z","attemptId":"8462d690-2b6f-43ec-9de8-1ce60baf70ee","segmentId":"2db74ee6-2826-482c-93f3-34dcd770f3c6","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-146,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-146,"op":"fs.create"}

@@ -825,3 +825,7 @@
 {"doc":3,"seq":824,"ms":11710915,"op":"save"}
 {"version":158,"changes":[{"offset":1094,"length":6,"text":"folderPath"}],"doc":3,"seq":825,"ms":11712100,"op":"edit"}
 {"doc":3,"seq":826,"ms":11713108,"op":"save"}
+{"executionId":"78f422a9-bdac-4d7e-a129-56a09a1fae18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"path":".","doc":4,"seq":827,"ms":11999314,"op":"terminal.start"}
+{"executionId":"78f422a9-bdac-4d7e-a129-56a09a1fae18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007","doc":4,"seq":828,"ms":11999366,"op":"terminal.output"}
+{"executionId":"78f422a9-bdac-4d7e-a129-56a09a1fae18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":829,"ms":12000809,"op":"terminal.output"}
+{"executionId":"78f422a9-bdac-4d7e-a129-56a09a1fae18","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":830,"ms":12000809,"op":"terminal.end"}
