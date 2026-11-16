@@ -174,3 +174,6 @@
 {"doc":1,"seq":173,"ms":847144,"op":"save"}
 {"version":136,"changes":[{"offset":1130,"length":0,"text":"&"}],"doc":1,"seq":174,"ms":860598,"op":"edit"}
 {"doc":1,"seq":175,"ms":861611,"op":"save"}
+{"executionId":"e2db0301-cabf-47e5-901b-db556ad598bc","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"path":".","doc":4,"seq":176,"ms":947892,"op":"terminal.start"}
+{"executionId":"e2db0301-cabf-47e5-901b-db556ad598bc","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":177,"ms":947920,"op":"terminal.output"}
+{"executionId":"e2db0301-cabf-47e5-901b-db556ad598bc","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":178,"ms":947920,"op":"terminal.end"}
