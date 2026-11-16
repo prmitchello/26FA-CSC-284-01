@@ -26,3 +26,19 @@
 {"executionId":"c074cffa-50a9-499f-9945-00d0743f489e","processId":-1,"doc":2,"seq":25,"ms":831035,"op":"task.processStart"}
 {"executionId":"c074cffa-50a9-499f-9945-00d0743f489e","exitCode":-1,"doc":2,"seq":26,"ms":831333,"op":"task.processEnd"}
 {"executionId":"c074cffa-50a9-499f-9945-00d0743f489e","doc":2,"seq":27,"ms":831334,"op":"task.end"}
+{"executionId":"169cf4b2-e5e3-44cf-8d66-3923ebcf9b28","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":28,"ms":839819,"op":"task.start"}
+{"executionId":"169cf4b2-e5e3-44cf-8d66-3923ebcf9b28","processId":-1,"doc":2,"seq":29,"ms":839823,"op":"task.processStart"}
+{"executionId":"169cf4b2-e5e3-44cf-8d66-3923ebcf9b28","exitCode":-1,"doc":2,"seq":30,"ms":840157,"op":"task.processEnd"}
+{"executionId":"169cf4b2-e5e3-44cf-8d66-3923ebcf9b28","doc":2,"seq":31,"ms":840157,"op":"task.end"}
+{"executionId":"e91065b6-1d71-4963-9482-7c960f8be6c7","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":32,"ms":848027,"op":"task.start"}
+{"executionId":"e91065b6-1d71-4963-9482-7c960f8be6c7","processId":-1,"doc":2,"seq":33,"ms":848033,"op":"task.processStart"}
+{"executionId":"e91065b6-1d71-4963-9482-7c960f8be6c7","exitCode":-1,"doc":2,"seq":34,"ms":848341,"op":"task.processEnd"}
+{"executionId":"e91065b6-1d71-4963-9482-7c960f8be6c7","doc":2,"seq":35,"ms":848341,"op":"task.end"}
+{"executionId":"dbc0c9ca-934c-4074-a2fe-e06e30b641e8","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":36,"ms":863338,"op":"task.start"}
+{"executionId":"dbc0c9ca-934c-4074-a2fe-e06e30b641e8","processId":-1,"doc":2,"seq":37,"ms":863352,"op":"task.processStart"}
+{"executionId":"dbc0c9ca-934c-4074-a2fe-e06e30b641e8","exitCode":-1,"doc":2,"seq":38,"ms":864039,"op":"task.processEnd"}
+{"executionId":"dbc0c9ca-934c-4074-a2fe-e06e30b641e8","doc":2,"seq":39,"ms":864040,"op":"task.end"}
+{"executionId":"2fcd6fc6-13ea-4e9d-ac5d-d689192812b5","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":40,"ms":881973,"op":"task.start"}
+{"executionId":"2fcd6fc6-13ea-4e9d-ac5d-d689192812b5","processId":-1,"doc":2,"seq":41,"ms":881980,"op":"task.processStart"}
+{"executionId":"2fcd6fc6-13ea-4e9d-ac5d-d689192812b5","exitCode":-1,"doc":2,"seq":42,"ms":882482,"op":"task.processEnd"}
+{"executionId":"2fcd6fc6-13ea-4e9d-ac5d-d689192812b5","doc":2,"seq":43,"ms":882482,"op":"task.end"}
