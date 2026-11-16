@@ -1,3 +1,4 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/main.dSYM/Contents/Resources/Relocations/aarch64","startedAt":"2026-11-15T20:41:08.180Z","attemptId":"a8b1952f-6c48-44ec-8b7e-576c02ec2666","segmentId":"5ed52622-8aaf-46e0-adc5-9f9e80396a73","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-192,"op":"source.context"}
 {"source":"watcher","path":".","doc":1,"seq":2,"ms":-192,"op":"fs.create"}
+{"seq":3,"ms":77205464,"op":"end"}

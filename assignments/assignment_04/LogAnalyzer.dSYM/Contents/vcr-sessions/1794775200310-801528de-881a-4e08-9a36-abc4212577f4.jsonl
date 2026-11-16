@@ -1,3 +1,4 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/LogAnalyzer.dSYM/Contents","startedAt":"2026-11-15T20:40:00.310Z","attemptId":"2b4081af-7c32-483a-981c-a69e72bd9e6d","segmentId":"8a6cf834-507a-45ad-bb81-513325bbb99f","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-65,"op":"source.context"}
 {"source":"watcher","path":".","doc":1,"seq":2,"ms":-65,"op":"fs.create"}
+{"seq":3,"ms":77273334,"op":"end"}

@@ -1,3 +1,4 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/main.dSYM/Contents/Resources/Relocations","startedAt":"2026-11-15T20:41:08.159Z","attemptId":"aa30b83d-b764-462c-a066-9e4ad748fd29","segmentId":"57f13e20-ae5f-4d1a-b171-ff5be992ec74","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-171,"op":"source.context"}
 {"source":"watcher","path":".","doc":1,"seq":2,"ms":-171,"op":"fs.create"}
+{"seq":3,"ms":77205485,"op":"end"}

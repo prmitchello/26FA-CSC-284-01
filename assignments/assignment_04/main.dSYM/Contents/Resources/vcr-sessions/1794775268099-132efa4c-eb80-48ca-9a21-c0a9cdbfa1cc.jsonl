@@ -1,3 +1,4 @@
 {"version":1,"courseId":"26FA-CSC-284-01","folder":"assignments/assignment_04/main.dSYM/Contents/Resources","startedAt":"2026-11-15T20:41:08.099Z","attemptId":"0e6e2afb-0faf-4d35-b47a-ff6c49763737","segmentId":"d34b4021-cc20-47ec-be6d-7e666d272701","sourceWindowId":"85ac2945-6064-4748-bf06-ec776f9cee6b","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"61a2d21e3c32b6694334a89119d8ce4203e3c18f","seq":1,"ms":-111,"op":"source.context"}
 {"source":"watcher","path":".","doc":1,"seq":2,"ms":-111,"op":"fs.create"}
+{"seq":3,"ms":77205545,"op":"end"}

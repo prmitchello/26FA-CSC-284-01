@@ -32,3 +32,4 @@
 {"executionId":"c77522de-2db3-4cae-bfa1-9393eff72f13","processId":-1,"doc":2,"seq":31,"ms":88601291,"op":"task.processStart"}
 {"executionId":"c77522de-2db3-4cae-bfa1-9393eff72f13","exitCode":-1,"doc":2,"seq":32,"ms":88601576,"op":"task.processEnd"}
 {"executionId":"c77522de-2db3-4cae-bfa1-9393eff72f13","doc":2,"seq":33,"ms":88601577,"op":"task.end"}
+{"seq":34,"ms":89274237,"op":"end"}
