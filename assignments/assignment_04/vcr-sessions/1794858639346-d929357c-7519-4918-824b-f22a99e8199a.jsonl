@@ -435,3 +435,11 @@
 {"version":332,"changes":[{"offset":1335,"length":0,"text":" "}],"doc":1,"seq":434,"ms":7244171,"op":"edit"}
 {"version":333,"changes":[{"offset":1336,"length":0,"text":"&"}],"doc":1,"seq":435,"ms":7245103,"op":"edit"}
 {"doc":1,"seq":436,"ms":7246116,"op":"save"}
+{"executionId":"74d06b76-5ade-4e35-8fdf-1b29070e374f","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"doc":4,"seq":437,"ms":7255683,"op":"terminal.start"}
+{"executionId":"74d06b76-5ade-4e35-8fdf-1b29070e374f","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":438,"ms":7255684,"op":"terminal.output"}
+{"executionId":"74d06b76-5ade-4e35-8fdf-1b29070e374f","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"exitCode":0,"doc":4,"seq":439,"ms":7255684,"op":"terminal.end"}
+{"executionId":"de61877b-0fdf-41bb-aabd-efa1030047f0","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":440,"ms":7257308,"op":"terminal.start"}
+{"executionId":"de61877b-0fdf-41bb-aabd-efa1030047f0","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":441,"ms":7257324,"op":"terminal.output"}
+{"executionId":"de61877b-0fdf-41bb-aabd-efa1030047f0","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":442,"ms":7257324,"op":"terminal.end"}
+{"version":334,"changes":[{"offset":1335,"length":1,"text":""}],"doc":1,"seq":443,"ms":7263802,"op":"edit"}
+{"doc":1,"seq":444,"ms":7264819,"op":"save"}
