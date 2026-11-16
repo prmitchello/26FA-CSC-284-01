@@ -24,3 +24,7 @@
 {"executionId":"9335d98e-d2d3-4d4b-852e-53a8c0f29e8c","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"doc":2,"seq":23,"ms":11998086,"op":"terminal.start"}
 {"executionId":"9335d98e-d2d3-4d4b-852e-53a8c0f29e8c","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":24,"ms":11998087,"op":"terminal.output"}
 {"executionId":"9335d98e-d2d3-4d4b-852e-53a8c0f29e8c","terminalId":"a9e86bf8-22e1-4f14-ae96-4d5de9dbe800","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"exitCode":0,"doc":2,"seq":25,"ms":11998087,"op":"terminal.end"}
+{"executionId":"17fff960-b8da-47cb-9c70-13180e3f17b1","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":26,"ms":88273276,"op":"task.start"}
+{"executionId":"17fff960-b8da-47cb-9c70-13180e3f17b1","processId":-1,"doc":2,"seq":27,"ms":88273318,"op":"task.processStart"}
+{"executionId":"17fff960-b8da-47cb-9c70-13180e3f17b1","exitCode":-1,"doc":2,"seq":28,"ms":88273883,"op":"task.processEnd"}
+{"executionId":"17fff960-b8da-47cb-9c70-13180e3f17b1","doc":2,"seq":29,"ms":88273883,"op":"task.end"}
