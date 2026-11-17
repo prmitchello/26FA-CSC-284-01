@@ -841,3 +841,7 @@
 {"version":621,"changes":[{"offset":22,"length":0,"text":"n"}],"doc":2,"seq":840,"ms":1318781,"op":"edit"}
 {"version":622,"changes":[{"offset":23,"length":0,"text":"t"}],"doc":2,"seq":841,"ms":1319080,"op":"edit"}
 {"doc":2,"seq":842,"ms":1320087,"op":"save"}
+{"executionId":"3bdd18d2-dd27-49ce-bc92-ea470b6b4a0e","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":843,"ms":1397033,"op":"terminal.start"}
+{"executionId":"3bdd18d2-dd27-49ce-bc92-ea470b6b4a0e","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":844,"ms":1397085,"op":"terminal.output"}
+{"executionId":"3bdd18d2-dd27-49ce-bc92-ea470b6b4a0e","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"21\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":845,"ms":1397148,"op":"terminal.output"}
+{"executionId":"3bdd18d2-dd27-49ce-bc92-ea470b6b4a0e","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":846,"ms":1397148,"op":"terminal.end"}
