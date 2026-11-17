@@ -1426,3 +1426,71 @@
 {"executionId":"48a493e7-e791-47b7-ba6f-ca979bb8fb03","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":1425,"ms":2917542,"op":"terminal.output"}
 {"executionId":"48a493e7-e791-47b7-ba6f-ca979bb8fb03","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"The factorial sum of: 4! is 24\r\nzsh: segmentation fault  /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1426,"ms":2917603,"op":"terminal.output"}
 {"executionId":"48a493e7-e791-47b7-ba6f-ca979bb8fb03","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":139,"doc":1,"seq":1427,"ms":2917603,"op":"terminal.end"}
+{"version":1030,"changes":[{"offset":763,"length":1,"text":""}],"doc":2,"seq":1428,"ms":2934963,"op":"edit"}
+{"version":1031,"changes":[{"offset":762,"length":1,"text":""}],"doc":2,"seq":1429,"ms":2935104,"op":"edit"}
+{"version":1032,"changes":[{"offset":762,"length":0,"text":" "}],"doc":2,"seq":1430,"ms":2935444,"op":"edit"}
+{"version":1033,"changes":[{"offset":763,"length":0,"text":"="}],"doc":2,"seq":1431,"ms":2935911,"op":"edit"}
+{"version":1034,"changes":[{"offset":764,"length":0,"text":"="}],"doc":2,"seq":1432,"ms":2936039,"op":"edit"}
+{"version":1035,"changes":[{"offset":764,"length":1,"text":""}],"doc":2,"seq":1433,"ms":2936471,"op":"edit"}
+{"version":1036,"changes":[{"offset":764,"length":0,"text":" "}],"doc":2,"seq":1434,"ms":2936840,"op":"edit"}
+{"doc":2,"seq":1435,"ms":2937851,"op":"save"}
+{"version":1037,"changes":[{"offset":765,"length":0,"text":"n"}],"doc":2,"seq":1436,"ms":2938219,"op":"edit"}
+{"version":1038,"changes":[{"offset":766,"length":0,"text":"2"}],"doc":2,"seq":1437,"ms":2938928,"op":"edit"}
+{"version":1039,"changes":[{"offset":767,"length":0,"text":" "}],"doc":2,"seq":1438,"ms":2939116,"op":"edit"}
+{"version":1040,"changes":[{"offset":768,"length":0,"text":"+"}],"doc":2,"seq":1439,"ms":2939734,"op":"edit"}
+{"version":1041,"changes":[{"offset":769,"length":0,"text":"+"}],"doc":2,"seq":1440,"ms":2939883,"op":"edit"}
+{"doc":2,"seq":1441,"ms":2940897,"op":"save"}
+{"version":1042,"changes":[{"offset":769,"length":1,"text":""}],"doc":2,"seq":1442,"ms":2941093,"op":"edit"}
+{"version":1043,"changes":[{"offset":769,"length":0,"text":" "}],"doc":2,"seq":1443,"ms":2941622,"op":"edit"}
+{"version":1044,"changes":[{"offset":770,"length":0,"text":"1"}],"doc":2,"seq":1444,"ms":2942080,"op":"edit"}
+{"doc":2,"seq":1445,"ms":2943091,"op":"save"}
+{"executionId":"c542a9f9-61e2-4482-9550-bec344ae1e19","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1446,"ms":2949616,"op":"terminal.start"}
+{"executionId":"c542a9f9-61e2-4482-9550-bec344ae1e19","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":1447,"ms":2949666,"op":"terminal.output"}
+{"executionId":"c542a9f9-61e2-4482-9550-bec344ae1e19","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"The factorial sum of: 4! is 24\r\nzsh: segmentation fault  /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1448,"ms":2952662,"op":"terminal.output"}
+{"executionId":"c542a9f9-61e2-4482-9550-bec344ae1e19","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":139,"doc":1,"seq":1449,"ms":2952662,"op":"terminal.end"}
+{"version":1045,"changes":[{"offset":754,"length":0,"text":"\n    "}],"doc":2,"seq":1450,"ms":2960791,"op":"edit"}
+{"version":1046,"changes":[{"offset":759,"length":0,"text":"\n    "},{"offset":755,"length":4,"text":""}],"doc":2,"seq":1451,"ms":2961403,"op":"edit"}
+{"version":1047,"changes":[{"offset":760,"length":0,"text":"i"}],"doc":2,"seq":1452,"ms":2961696,"op":"edit"}
+{"version":1048,"changes":[{"offset":761,"length":0,"text":"f"}],"doc":2,"seq":1453,"ms":2961775,"op":"edit"}
+{"version":1049,"changes":[{"offset":762,"length":0,"text":"()"}],"doc":2,"seq":1454,"ms":2962113,"op":"edit"}
+{"version":1050,"changes":[{"offset":763,"length":1,"text":")"}],"doc":2,"seq":1455,"ms":2962161,"op":"edit"}
+{"doc":2,"seq":1456,"ms":2963177,"op":"save"}
+{"version":1051,"changes":[{"offset":763,"length":0,"text":"r"}],"doc":2,"seq":1457,"ms":2965563,"op":"edit"}
+{"version":1052,"changes":[{"offset":764,"length":0,"text":"e"}],"doc":2,"seq":1458,"ms":2965676,"op":"edit"}
+{"version":1053,"changes":[{"offset":765,"length":0,"text":"t"}],"doc":2,"seq":1459,"ms":2965926,"op":"edit"}
+{"version":1054,"changes":[{"offset":766,"length":0,"text":"u"}],"doc":2,"seq":1460,"ms":2966115,"op":"edit"}
+{"version":1055,"changes":[{"offset":766,"length":1,"text":""}],"doc":2,"seq":1461,"ms":2966482,"op":"edit"}
+{"version":1056,"changes":[{"offset":765,"length":1,"text":""}],"doc":2,"seq":1462,"ms":2966632,"op":"edit"}
+{"version":1057,"changes":[{"offset":764,"length":1,"text":""}],"doc":2,"seq":1463,"ms":2966782,"op":"edit"}
+{"version":1058,"changes":[{"offset":763,"length":1,"text":""}],"doc":2,"seq":1464,"ms":2967095,"op":"edit"}
+{"version":1059,"changes":[{"offset":763,"length":0,"text":"n"}],"doc":2,"seq":1465,"ms":2967645,"op":"edit"}
+{"version":1060,"changes":[{"offset":764,"length":0,"text":"u"}],"doc":2,"seq":1466,"ms":2967743,"op":"edit"}
+{"version":1061,"changes":[{"offset":765,"length":0,"text":"m"}],"doc":2,"seq":1467,"ms":2967921,"op":"edit"}
+{"doc":2,"seq":1468,"ms":2968940,"op":"save"}
+{"version":1062,"changes":[{"offset":766,"length":0,"text":"T"}],"doc":2,"seq":1469,"ms":2969244,"op":"edit"}
+{"version":1063,"changes":[{"offset":767,"length":0,"text":"i"}],"doc":2,"seq":1470,"ms":2969421,"op":"edit"}
+{"version":1064,"changes":[{"offset":768,"length":0,"text":"m"}],"doc":2,"seq":1471,"ms":2969504,"op":"edit"}
+{"version":1065,"changes":[{"offset":769,"length":0,"text":"e"}],"doc":2,"seq":1472,"ms":2969587,"op":"edit"}
+{"version":1066,"changes":[{"offset":770,"length":0,"text":"s"}],"doc":2,"seq":1473,"ms":2969801,"op":"edit"}
+{"version":1067,"changes":[{"offset":771,"length":0,"text":" "}],"doc":2,"seq":1474,"ms":2970521,"op":"edit"}
+{"version":1068,"changes":[{"offset":772,"length":0,"text":"="}],"doc":2,"seq":1475,"ms":2970862,"op":"edit"}
+{"version":1069,"changes":[{"offset":773,"length":0,"text":"="}],"doc":2,"seq":1476,"ms":2971002,"op":"edit"}
+{"version":1070,"changes":[{"offset":774,"length":0,"text":"1"}],"doc":2,"seq":1477,"ms":2971130,"op":"edit"}
+{"version":1071,"changes":[{"offset":774,"length":1,"text":""}],"doc":2,"seq":1478,"ms":2971586,"op":"edit"}
+{"version":1072,"changes":[{"offset":774,"length":0,"text":" "}],"doc":2,"seq":1479,"ms":2972329,"op":"edit"}
+{"version":1073,"changes":[{"offset":775,"length":0,"text":"0"}],"doc":2,"seq":1480,"ms":2972509,"op":"edit"}
+{"version":1074,"changes":[{"offset":777,"length":0,"text":" "}],"doc":2,"seq":1481,"ms":2973530,"op":"edit"}
+{"doc":2,"seq":1482,"ms":2973540,"op":"save"}
+{"version":1075,"changes":[{"offset":778,"length":0,"text":"r"}],"doc":2,"seq":1483,"ms":2973676,"op":"edit"}
+{"version":1076,"changes":[{"offset":779,"length":0,"text":"e"}],"doc":2,"seq":1484,"ms":2973796,"op":"edit"}
+{"version":1077,"changes":[{"offset":780,"length":0,"text":"t"}],"doc":2,"seq":1485,"ms":2973937,"op":"edit"}
+{"version":1078,"changes":[{"offset":781,"length":0,"text":"u"}],"doc":2,"seq":1486,"ms":2974049,"op":"edit"}
+{"version":1079,"changes":[{"offset":782,"length":0,"text":"r"}],"doc":2,"seq":1487,"ms":2974189,"op":"edit"}
+{"version":1080,"changes":[{"offset":783,"length":0,"text":"n"}],"doc":2,"seq":1488,"ms":2974204,"op":"edit"}
+{"version":1081,"changes":[{"offset":784,"length":0,"text":" "}],"doc":2,"seq":1489,"ms":2974413,"op":"edit"}
+{"version":1082,"changes":[{"offset":785,"length":0,"text":"1"}],"doc":2,"seq":1490,"ms":2975067,"op":"edit"}
+{"version":1083,"changes":[{"offset":786,"length":0,"text":";"}],"doc":2,"seq":1491,"ms":2975523,"op":"edit"}
+{"doc":2,"seq":1492,"ms":2976544,"op":"save"}
+{"executionId":"cd2b2a6e-6cab-4310-9c06-2a27b1c192f4","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1493,"ms":2981163,"op":"terminal.start"}
+{"executionId":"cd2b2a6e-6cab-4310-9c06-2a27b1c192f4","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007The factorial sum of: 4! is 24\r\nThe fibinacci sum of: 4 is 1\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1494,"ms":2981181,"op":"terminal.output"}
+{"executionId":"cd2b2a6e-6cab-4310-9c06-2a27b1c192f4","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":1495,"ms":2981181,"op":"terminal.end"}
