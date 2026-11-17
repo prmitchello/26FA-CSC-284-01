@@ -1248,3 +1248,49 @@
 {"version":912,"changes":[{"offset":617,"length":0,"text":"m"}],"doc":2,"seq":1247,"ms":2451247,"op":"edit"}
 {"version":913,"changes":[{"offset":615,"length":3,"text":"numTimes"}],"doc":2,"seq":1248,"ms":2452260,"op":"edit"}
 {"doc":2,"seq":1249,"ms":2452282,"op":"save"}
+{"version":914,"changes":[{"offset":623,"length":0,"text":","}],"doc":2,"seq":1250,"ms":2453211,"op":"edit"}
+{"version":915,"changes":[{"offset":624,"length":0,"text":" "}],"doc":2,"seq":1251,"ms":2453398,"op":"edit"}
+{"version":916,"changes":[{"offset":625,"length":0,"text":"n"}],"doc":2,"seq":1252,"ms":2453847,"op":"edit"}
+{"version":917,"changes":[{"offset":626,"length":0,"text":"1"}],"doc":2,"seq":1253,"ms":2454027,"op":"edit"}
+{"version":918,"changes":[{"offset":627,"length":0,"text":","}],"doc":2,"seq":1254,"ms":2454468,"op":"edit"}
+{"version":919,"changes":[{"offset":628,"length":0,"text":" "}],"doc":2,"seq":1255,"ms":2454726,"op":"edit"}
+{"version":920,"changes":[{"offset":629,"length":0,"text":"n"}],"doc":2,"seq":1256,"ms":2455279,"op":"edit"}
+{"version":921,"changes":[{"offset":630,"length":0,"text":"2"}],"doc":2,"seq":1257,"ms":2455444,"op":"edit"}
+{"doc":2,"seq":1258,"ms":2456454,"op":"save"}
+{"version":922,"changes":[{"offset":329,"length":0,"text":"\n    "}],"doc":2,"seq":1259,"ms":2486084,"op":"edit"}
+{"version":923,"changes":[{"offset":334,"length":0,"text":"\n    "},{"offset":330,"length":4,"text":""}],"doc":2,"seq":1260,"ms":2486516,"op":"edit"}
+{"version":924,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":335,"length":0,"text":"nt result  = recursive(paramNumber);\n\n    std::cout<<\"The factorial sum of: \"<<paramNumber<<\"! is \"<<result<<std::endl;"}],"doc":2,"seq":1261,"ms":2487145,"op":"edit"}
+{"doc":2,"seq":1262,"ms":2488163,"op":"save"}
+{"version":925,"changes":[{"offset":335,"length":0,"text":"i"}],"doc":2,"seq":1263,"ms":2489838,"op":"edit"}
+{"doc":2,"seq":1264,"ms":2490859,"op":"save"}
+{"version":926,"changes":[{"offset":339,"length":0,"text":"F"}],"doc":2,"seq":1265,"ms":2495186,"op":"edit"}
+{"version":927,"changes":[{"offset":340,"length":0,"text":"i"}],"doc":2,"seq":1266,"ms":2495377,"op":"edit"}
+{"version":928,"changes":[{"offset":341,"length":0,"text":"b"}],"doc":2,"seq":1267,"ms":2495533,"op":"edit"}
+{"version":929,"changes":[{"offset":342,"length":0,"text":"_"}],"doc":2,"seq":1268,"ms":2495999,"op":"edit"}
+{"doc":2,"seq":1269,"ms":2497010,"op":"save"}
+{"version":930,"changes":[{"offset":213,"length":0,"text":"F"}],"doc":2,"seq":1270,"ms":2498365,"op":"edit"}
+{"version":931,"changes":[{"offset":214,"length":0,"text":"a"}],"doc":2,"seq":1271,"ms":2498527,"op":"edit"}
+{"version":932,"changes":[{"offset":215,"length":0,"text":"c"}],"doc":2,"seq":1272,"ms":2498727,"op":"edit"}
+{"version":933,"changes":[{"offset":216,"length":0,"text":"t"}],"doc":2,"seq":1273,"ms":2498904,"op":"edit"}
+{"version":934,"changes":[{"offset":217,"length":0,"text":"o"}],"doc":2,"seq":1274,"ms":2498976,"op":"edit"}
+{"version":935,"changes":[{"offset":218,"length":0,"text":"r"}],"doc":2,"seq":1275,"ms":2499118,"op":"edit"}
+{"version":936,"changes":[{"offset":219,"length":0,"text":"i"}],"doc":2,"seq":1276,"ms":2499224,"op":"edit"}
+{"version":937,"changes":[{"offset":220,"length":0,"text":"a"}],"doc":2,"seq":1277,"ms":2499404,"op":"edit"}
+{"version":938,"changes":[{"offset":221,"length":0,"text":"l"}],"doc":2,"seq":1278,"ms":2499521,"op":"edit"}
+{"version":939,"changes":[{"offset":222,"length":0,"text":"_"}],"doc":2,"seq":1279,"ms":2500438,"op":"edit"}
+{"version":940,"changes":[{"offset":223,"length":1,"text":""}],"doc":2,"seq":1280,"ms":2501270,"op":"edit"}
+{"version":941,"changes":[{"offset":223,"length":0,"text":"R"}],"doc":2,"seq":1281,"ms":2501466,"op":"edit"}
+{"doc":2,"seq":1282,"ms":2502476,"op":"save"}
+{"version":942,"changes":[{"offset":213,"length":1,"text":""}],"doc":2,"seq":1283,"ms":2502776,"op":"edit"}
+{"version":943,"changes":[{"offset":213,"length":0,"text":"f"}],"doc":2,"seq":1284,"ms":2502942,"op":"edit"}
+{"doc":2,"seq":1285,"ms":2503954,"op":"save"}
+{"version":944,"changes":[{"offset":353,"length":1,"text":""}],"doc":2,"seq":1286,"ms":2505626,"op":"edit"}
+{"version":945,"changes":[{"offset":353,"length":0,"text":"R"}],"doc":2,"seq":1287,"ms":2506182,"op":"edit"}
+{"doc":2,"seq":1288,"ms":2507192,"op":"save"}
+{"version":946,"changes":[{"offset":352,"length":0,"text":"i"}],"doc":2,"seq":1289,"ms":2507560,"op":"edit"}
+{"version":947,"changes":[{"offset":353,"length":0,"text":"n"}],"doc":2,"seq":1290,"ms":2507771,"op":"edit"}
+{"version":948,"changes":[{"offset":354,"length":0,"text":"a"}],"doc":2,"seq":1291,"ms":2507866,"op":"edit"}
+{"version":949,"changes":[{"offset":355,"length":0,"text":"c"}],"doc":2,"seq":1292,"ms":2508041,"op":"edit"}
+{"version":950,"changes":[{"offset":356,"length":0,"text":"c"}],"doc":2,"seq":1293,"ms":2508217,"op":"edit"}
+{"version":951,"changes":[{"offset":357,"length":0,"text":"i"}],"doc":2,"seq":1294,"ms":2508327,"op":"edit"}
+{"doc":2,"seq":1295,"ms":2509337,"op":"save"}
