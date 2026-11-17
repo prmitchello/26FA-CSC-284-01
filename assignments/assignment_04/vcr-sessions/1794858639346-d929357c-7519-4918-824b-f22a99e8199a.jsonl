@@ -1184,3 +1184,83 @@
 {"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":1183,"ms":18335305,"op":"terminal.output"}
 {"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"Analyzing folder: ErrorLogs\r\n\r\nProcessing: ErrorLogs/log_1.log\r\nProcessing: ErrorLogs/log_15.log\r\nProcessing: ErrorLogs/log_14.log\r\nProcessing: ErrorLogs/log_7.logProcessing: ErrorLogs/log_4.logProcessing: \r\nProcessing: Processing: Processing: Processing: ErrorLogs/log_17.log\r\nProcessing: ErrorLogs/log_12.log\r\nProcessing: ErrorLogs/log_38.log\r\n\r\nProcessing: ErrorLogs/log_39.log\r\nProcessing: ErrorLogs/log_34.log\r\nErrorLogs/log_5.log\r\nProcessing: ErrorLogs/log_20.log\r\nProcessing: Processing: ErrorLogs/log_3.log\r\nErrorLogs/log_29.log\r\nProcessing: ErrorLogs/log_23.log\r\nErrorLogs/log_10.log\r\nProcessing: ErrorLogs/log_22.log\r\nProcessing: ErrorLogs/log_16.log\r\nProcessing: ErrorLogs/log_36.log\r\nProcessing: ErrorLogs/log_27.log\r\nProcessing: ErrorLogs/log_32.log\r\nProcessing: ErrorLogs/log_33.log\r\nProcessing: ErrorLogs/log_11.log\r\nProcessing: ErrorLogs/log_21.log\r\nProcessing: Processing: ErrorLogs/log_30.log\r\nProcessing: ErrorLogs/log_6.log\r\nProcessing: ErrorLogs/log_9.log\r\nProcessing: Processing: ErrorLogs/log_28.logErrorLogs/log_40.log\r\nProcessing: ErrorLogs/log_26.log\r\nProcessing: ErrorLogs/log_25.log\r\nProcessing: ErrorLogs/log_31.log\r\nProcessing: ErrorLogs/log_35.log\r\nErrorLogs/log_24.log\r\nProcessing: ErrorLogs/log_8.log\r\nErrorLogs/log_2.log\r\nErrorLogs/log_19.log\r\n\r\nProcessing: ErrorLogs/log_13.log\r\nProcessing: ErrorLogs/log_18.log\r\nProcessing: ErrorLogs/log_37.log\r\n\r\n--- Keyword Summary ---\r\n[DEBUG]: 675\r\n[ERROR]: 667\r\n[FATAL]: 656\r\n[INFO]: 705\r\n[TRACE]: 661\r\n[WARN]: 636\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1184,"ms":18335399,"op":"terminal.output"}
 {"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1185,"ms":18335399,"op":"terminal.end"}
+{"executionId":"c060ddcc-1cdf-4e7d-b645-c7e6c2f432c8","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"doc":4,"seq":1186,"ms":18345558,"op":"terminal.start"}
+{"executionId":"c060ddcc-1cdf-4e7d-b645-c7e6c2f432c8","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":1187,"ms":18345610,"op":"terminal.output"}
+{"executionId":"c060ddcc-1cdf-4e7d-b645-c7e6c2f432c8","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1188,"ms":18346432,"op":"terminal.output"}
+{"executionId":"c060ddcc-1cdf-4e7d-b645-c7e6c2f432c8","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":1189,"ms":18346432,"op":"terminal.end"}
+{"executionId":"1e75fa7b-57ed-4296-904c-36c84b08ae66","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1190,"ms":18347462,"op":"terminal.start"}
+{"executionId":"1e75fa7b-57ed-4296-904c-36c84b08ae66","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":1191,"ms":18347513,"op":"terminal.output"}
+{"executionId":"1e75fa7b-57ed-4296-904c-36c84b08ae66","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"Analyzing folder: ErrorLogs\r\n\r\nProcessing: ErrorLogs/log_1.log\r\nProcessing: ErrorLogs/log_2.log\r\nProcessing: ErrorLogs/log_6.log\r\nProcessing: ErrorLogs/log_3.log\r\nProcessing: ErrorLogs/log_4.log\r\nProcessing: ErrorLogs/log_14.log\r\nProcessing: ErrorLogs/log_15.log\r\nProcessing: Processing: ErrorLogs/log_7.log\r\nProcessing: ErrorLogs/log_17.log\r\nProcessing: ErrorLogs/log_5.log\r\nProcessing: ErrorLogs/log_29.log\r\nProcessing: ErrorLogs/log_28.log\r\nProcessing: ErrorLogs/log_12.log\r\nProcessing: ErrorLogs/log_38.log\r\nProcessing: ErrorLogs/log_39.log\r\nErrorLogs/log_16.log\r\nProcessing: ErrorLogs/log_20.log\r\nProcessing: ErrorLogs/log_13.log\r\nProcessing: ErrorLogs/log_34.log\r\nProcessing: ErrorLogs/log_11.log\r\nProcessing: ErrorLogs/log_35.log\r\nProcessing: ErrorLogs/log_37.log\r\nProcessing: ErrorLogs/log_23.log\r\nProcessing: ErrorLogs/log_36.log\r\nProcessing: ErrorLogs/log_22.log\r\nProcessing: ErrorLogs/log_27.logProcessing: Processing: ErrorLogs/log_32.logErrorLogs/log_26.log\r\nProcessing: ErrorLogs/log_21.log\r\nProcessing: Processing: ErrorLogs/log_18.log\r\nProcessing: ErrorLogs/log_30.log\r\nProcessing: ErrorLogs/log_9.log\r\nProcessing: ErrorLogs/log_10.log\r\nProcessing: ErrorLogs/log_40.log\r\n\r\nProcessing: ErrorLogs/log_33.log\r\nErrorLogs/log_31.log\r\nProcessing: ErrorLogs/log_25.log\r\nProcessing: ErrorLogs/log_19.log\r\nProcessing: ErrorLogs/log_24.log\r\nProcessing: ErrorLogs/log_8.log\r\n\r\n\r\n--- Keyword Summary ---\r\n[DEBUG]: 675\r\n[ERROR]: 667\r\n[FATAL]: 656\r\n[INFO]: 705\r\n[TRACE]: 661\r\n[WARN]: 636\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1192,"ms":18347545,"op":"terminal.output"}
+{"executionId":"1e75fa7b-57ed-4296-904c-36c84b08ae66","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1193,"ms":18347545,"op":"terminal.end"}
+{"version":99,"changes":[{"offset":1262,"length":5,"text":""},{"offset":1205,"length":5,"text":""},{"offset":966,"length":5,"text":""},{"offset":473,"length":5,"text":""},{"offset":457,"length":5,"text":""},{"offset":414,"length":5,"text":""},{"offset":323,"length":5,"text":""},{"offset":267,"length":5,"text":""},{"offset":228,"length":5,"text":""},{"offset":199,"length":5,"text":""}],"doc":3,"seq":1194,"ms":18362853,"op":"edit"}
+{"doc":3,"seq":1195,"ms":18363865,"op":"save"}
+{"version":731,"changes":[{"offset":806,"length":0,"text":"    "}],"doc":1,"seq":1196,"ms":18378658,"op":"edit"}
+{"doc":1,"seq":1197,"ms":18379675,"op":"save"}
+{"version":732,"changes":[{"offset":810,"length":0,"text":"/"}],"doc":1,"seq":1198,"ms":18382964,"op":"edit"}
+{"version":733,"changes":[{"offset":811,"length":0,"text":"/"}],"doc":1,"seq":1199,"ms":18383082,"op":"edit"}
+{"version":734,"changes":[{"offset":812,"length":0,"text":"u"}],"doc":1,"seq":1200,"ms":18383594,"op":"edit"}
+{"version":735,"changes":[{"offset":813,"length":0,"text":"s"}],"doc":1,"seq":1201,"ms":18383741,"op":"edit"}
+{"version":736,"changes":[{"offset":814,"length":0,"text":"i"}],"doc":1,"seq":1202,"ms":18383845,"op":"edit"}
+{"version":737,"changes":[{"offset":815,"length":0,"text":"n"}],"doc":1,"seq":1203,"ms":18383966,"op":"edit"}
+{"version":738,"changes":[{"offset":816,"length":0,"text":"g"}],"doc":1,"seq":1204,"ms":18383986,"op":"edit"}
+{"version":739,"changes":[{"offset":817,"length":0,"text":" "}],"doc":1,"seq":1205,"ms":18384128,"op":"edit"}
+{"version":740,"changes":[{"offset":818,"length":0,"text":"a"}],"doc":1,"seq":1206,"ms":18384219,"op":"edit"}
+{"version":741,"changes":[{"offset":819,"length":0,"text":" "}],"doc":1,"seq":1207,"ms":18384342,"op":"edit"}
+{"version":742,"changes":[{"offset":820,"length":0,"text":"f"}],"doc":1,"seq":1208,"ms":18384788,"op":"edit"}
+{"version":743,"changes":[{"offset":821,"length":0,"text":"o"}],"doc":1,"seq":1209,"ms":18384903,"op":"edit"}
+{"version":744,"changes":[{"offset":822,"length":0,"text":"r"}],"doc":1,"seq":1210,"ms":18384980,"op":"edit"}
+{"version":745,"changes":[{"offset":823,"length":0,"text":" "}],"doc":1,"seq":1211,"ms":18385086,"op":"edit"}
+{"version":746,"changes":[{"offset":824,"length":0,"text":"l"}],"doc":1,"seq":1212,"ms":18385760,"op":"edit"}
+{"version":747,"changes":[{"offset":825,"length":0,"text":"o"}],"doc":1,"seq":1213,"ms":18385941,"op":"edit"}
+{"version":748,"changes":[{"offset":826,"length":0,"text":"o"}],"doc":1,"seq":1214,"ms":18386070,"op":"edit"}
+{"version":749,"changes":[{"offset":827,"length":0,"text":"p"}],"doc":1,"seq":1215,"ms":18386219,"op":"edit"}
+{"version":750,"changes":[{"offset":828,"length":0,"text":" "}],"doc":1,"seq":1216,"ms":18386420,"op":"edit"}
+{"version":751,"changes":[{"offset":829,"length":0,"text":"t"}],"doc":1,"seq":1217,"ms":18386596,"op":"edit"}
+{"version":752,"changes":[{"offset":830,"length":0,"text":"o"}],"doc":1,"seq":1218,"ms":18386968,"op":"edit"}
+{"version":753,"changes":[{"offset":831,"length":0,"text":" "}],"doc":1,"seq":1219,"ms":18387105,"op":"edit"}
+{"doc":1,"seq":1220,"ms":18388127,"op":"save"}
+{"version":754,"changes":[{"offset":832,"length":0,"text":"i"}],"doc":1,"seq":1221,"ms":18390371,"op":"edit"}
+{"version":755,"changes":[{"offset":833,"length":0,"text":"t"}],"doc":1,"seq":1222,"ms":18390480,"op":"edit"}
+{"version":756,"changes":[{"offset":834,"length":0,"text":"e"}],"doc":1,"seq":1223,"ms":18390677,"op":"edit"}
+{"version":757,"changes":[{"offset":835,"length":0,"text":"r"}],"doc":1,"seq":1224,"ms":18390744,"op":"edit"}
+{"version":758,"changes":[{"offset":836,"length":0,"text":"a"}],"doc":1,"seq":1225,"ms":18391145,"op":"edit"}
+{"version":759,"changes":[{"offset":837,"length":0,"text":"t"}],"doc":1,"seq":1226,"ms":18391369,"op":"edit"}
+{"version":760,"changes":[{"offset":837,"length":1,"text":""}],"doc":1,"seq":1227,"ms":18392085,"op":"edit"}
+{"version":761,"changes":[{"offset":837,"length":0,"text":"t"}],"doc":1,"seq":1228,"ms":18392452,"op":"edit"}
+{"version":762,"changes":[{"offset":838,"length":0,"text":"e"}],"doc":1,"seq":1229,"ms":18392637,"op":"edit"}
+{"version":763,"changes":[{"offset":839,"length":0,"text":" "}],"doc":1,"seq":1230,"ms":18392753,"op":"edit"}
+{"version":764,"changes":[{"offset":840,"length":0,"text":"t"}],"doc":1,"seq":1231,"ms":18392879,"op":"edit"}
+{"version":765,"changes":[{"offset":841,"length":0,"text":"h"}],"doc":1,"seq":1232,"ms":18392975,"op":"edit"}
+{"version":766,"changes":[{"offset":842,"length":0,"text":"o"}],"doc":1,"seq":1233,"ms":18393379,"op":"edit"}
+{"version":767,"changes":[{"offset":843,"length":0,"text":"r"}],"doc":1,"seq":1234,"ms":18393419,"op":"edit"}
+{"version":768,"changes":[{"offset":843,"length":1,"text":""}],"doc":1,"seq":1235,"ms":18393907,"op":"edit"}
+{"version":769,"changes":[{"offset":842,"length":1,"text":""}],"doc":1,"seq":1236,"ms":18394060,"op":"edit"}
+{"version":770,"changes":[{"offset":842,"length":0,"text":"r"}],"doc":1,"seq":1237,"ms":18394175,"op":"edit"}
+{"version":771,"changes":[{"offset":843,"length":0,"text":"o"}],"doc":1,"seq":1238,"ms":18394408,"op":"edit"}
+{"version":772,"changes":[{"offset":844,"length":0,"text":"u"}],"doc":1,"seq":1239,"ms":18394611,"op":"edit"}
+{"version":773,"changes":[{"offset":845,"length":0,"text":"g"}],"doc":1,"seq":1240,"ms":18394740,"op":"edit"}
+{"version":774,"changes":[{"offset":846,"length":0,"text":"h"}],"doc":1,"seq":1241,"ms":18394819,"op":"edit"}
+{"version":775,"changes":[{"offset":847,"length":0,"text":" "}],"doc":1,"seq":1242,"ms":18394903,"op":"edit"}
+{"version":776,"changes":[{"offset":848,"length":0,"text":"o"}],"doc":1,"seq":1243,"ms":18395218,"op":"edit"}
+{"version":777,"changes":[{"offset":849,"length":0,"text":"a"}],"doc":1,"seq":1244,"ms":18395555,"op":"edit"}
+{"version":778,"changes":[{"offset":849,"length":1,"text":""}],"doc":1,"seq":1245,"ms":18395894,"op":"edit"}
+{"version":779,"changes":[{"offset":848,"length":1,"text":""}],"doc":1,"seq":1246,"ms":18396317,"op":"edit"}
+{"version":780,"changes":[{"offset":848,"length":0,"text":"a"}],"doc":1,"seq":1247,"ms":18396464,"op":"edit"}
+{"version":781,"changes":[{"offset":849,"length":0,"text":"l"}],"doc":1,"seq":1248,"ms":18396641,"op":"edit"}
+{"version":782,"changes":[{"offset":850,"length":0,"text":"l"}],"doc":1,"seq":1249,"ms":18396757,"op":"edit"}
+{"version":783,"changes":[{"offset":851,"length":0,"text":" "}],"doc":1,"seq":1250,"ms":18396970,"op":"edit"}
+{"version":784,"changes":[{"offset":852,"length":0,"text":"p"}],"doc":1,"seq":1251,"ms":18397369,"op":"edit"}
+{"version":785,"changes":[{"offset":852,"length":1,"text":""}],"doc":1,"seq":1252,"ms":18397724,"op":"edit"}
+{"version":786,"changes":[{"offset":852,"length":0,"text":"f"}],"doc":1,"seq":1253,"ms":18397918,"op":"edit"}
+{"version":787,"changes":[{"offset":853,"length":0,"text":"i"}],"doc":1,"seq":1254,"ms":18398021,"op":"edit"}
+{"version":788,"changes":[{"offset":854,"length":0,"text":"l"}],"doc":1,"seq":1255,"ms":18398203,"op":"edit"}
+{"version":789,"changes":[{"offset":855,"length":0,"text":"e"}],"doc":1,"seq":1256,"ms":18398219,"op":"edit"}
+{"version":790,"changes":[{"offset":856,"length":0,"text":"s"}],"doc":1,"seq":1257,"ms":18398418,"op":"edit"}
+{"version":791,"changes":[{"offset":857,"length":0,"text":" "}],"doc":1,"seq":1258,"ms":18398448,"op":"edit"}
+{"version":792,"changes":[{"offset":858,"length":0,"text":"i"}],"doc":1,"seq":1259,"ms":18398636,"op":"edit"}
+{"doc":1,"seq":1260,"ms":18399654,"op":"save"}
+{"version":793,"changes":[{"offset":859,"length":0,"text":"n"}],"doc":1,"seq":1261,"ms":18400199,"op":"edit"}
+{"version":794,"changes":[{"offset":860,"length":0,"text":" "}],"doc":1,"seq":1262,"ms":18400377,"op":"edit"}
+{"version":795,"changes":[{"offset":861,"length":0,"text":"t"}],"doc":1,"seq":1263,"ms":18400423,"op":"edit"}
+{"version":796,"changes":[{"offset":862,"length":0,"text":"h"}],"doc":1,"seq":1264,"ms":18400507,"op":"edit"}
+{"version":797,"changes":[{"offset":863,"length":0,"text":"e"}],"doc":1,"seq":1265,"ms":18400624,"op":"edit"}
