@@ -163,3 +163,25 @@
 {"version":7,"changes":[{"offset":628,"length":1,"text":""}],"doc":4,"seq":162,"ms":86566140,"op":"edit"}
 {"doc":4,"seq":163,"ms":86566941,"op":"save"}
 {"doc":4,"seq":164,"ms":86569149,"op":"save"}
+{"executionId":"2cf07fa0-0427-4c45-bfda-81ebb4667681","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":165,"ms":87380072,"op":"task.start"}
+{"executionId":"2cf07fa0-0427-4c45-bfda-81ebb4667681","processId":-1,"doc":2,"seq":166,"ms":87380114,"op":"task.processStart"}
+{"executionId":"2cf07fa0-0427-4c45-bfda-81ebb4667681","exitCode":0,"doc":2,"seq":167,"ms":87380938,"op":"task.processEnd"}
+{"executionId":"2cf07fa0-0427-4c45-bfda-81ebb4667681","doc":2,"seq":168,"ms":87380938,"op":"task.end"}
+{"executionId":"72b92da4-1e6a-40d6-87cc-a376b309e203","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":169,"ms":87380959,"op":"debug.start"}
+{"source":"watcher","path":".vscode/build/recursion.out","doc":6,"seq":170,"ms":87380987,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM","doc":7,"seq":171,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents","doc":8,"seq":172,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Info.plist","doc":9,"seq":173,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Resources","doc":10,"seq":174,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Resources/DWARF","doc":11,"seq":175,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Resources/DWARF/recursion.out","doc":12,"seq":176,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Resources/Relocations","doc":13,"seq":177,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Resources/Relocations/aarch64","doc":14,"seq":178,"ms":87381076,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/recursion.out.dSYM/Contents/Resources/Relocations/aarch64/recursion.out.yml","doc":15,"seq":179,"ms":87381076,"op":"fs.create"}
+{"executionId":"72b92da4-1e6a-40d6-87cc-a376b309e203","doc":2,"seq":180,"ms":87381277,"op":"debug.end"}
+{"executionId":"5b4d3b0e-3bba-4af7-a081-2f9f045db89c","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":181,"ms":87404281,"op":"task.start"}
+{"executionId":"5b4d3b0e-3bba-4af7-a081-2f9f045db89c","processId":-1,"doc":2,"seq":182,"ms":87404283,"op":"task.processStart"}
+{"executionId":"5b4d3b0e-3bba-4af7-a081-2f9f045db89c","exitCode":0,"doc":2,"seq":183,"ms":87404530,"op":"task.processEnd"}
+{"executionId":"5b4d3b0e-3bba-4af7-a081-2f9f045db89c","doc":2,"seq":184,"ms":87404530,"op":"task.end"}
+{"executionId":"d7437011-fbc8-4347-a2af-a37ecbe27ab2","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":185,"ms":87404534,"op":"debug.start"}
+{"executionId":"d7437011-fbc8-4347-a2af-a37ecbe27ab2","doc":2,"seq":186,"ms":87404674,"op":"debug.end"}
