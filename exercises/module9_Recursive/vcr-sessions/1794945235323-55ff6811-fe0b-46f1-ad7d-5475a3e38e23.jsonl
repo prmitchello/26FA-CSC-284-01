@@ -733,3 +733,34 @@
 {"executionId":"cc993fd5-fe7a-480a-b51e-4425144d13ee","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"./recursion.out","confidence":2,"doc":1,"seq":732,"ms":1067073,"op":"terminal.start"}
 {"executionId":"cc993fd5-fe7a-480a-b51e-4425144d13ee","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007zsh: no such file or directory: ./recursion.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":733,"ms":1067074,"op":"terminal.output"}
 {"executionId":"cc993fd5-fe7a-480a-b51e-4425144d13ee","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"./recursion.out","confidence":2,"exitCode":127,"doc":1,"seq":734,"ms":1067074,"op":"terminal.end"}
+{"executionId":"fd6c3e01-5541-48d9-9d65-ce7013443359","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"g++-16 recursion.cpp","confidence":2,"doc":1,"seq":735,"ms":1073452,"op":"terminal.start"}
+{"executionId":"fd6c3e01-5541-48d9-9d65-ce7013443359","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":736,"ms":1073505,"op":"terminal.output"}
+{"executionId":"fd6c3e01-5541-48d9-9d65-ce7013443359","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":737,"ms":1073662,"op":"terminal.output"}
+{"executionId":"fd6c3e01-5541-48d9-9d65-ce7013443359","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"g++-16 recursion.cpp","confidence":2,"exitCode":0,"doc":1,"seq":738,"ms":1073662,"op":"terminal.end"}
+{"executionId":"af307fbe-1d5f-4351-8980-cadc9e82f385","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"recursion.out","confidence":2,"doc":1,"seq":739,"ms":1090775,"op":"terminal.start"}
+{"executionId":"af307fbe-1d5f-4351-8980-cadc9e82f385","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007zsh: command not found: recursion.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":740,"ms":1090775,"op":"terminal.output"}
+{"executionId":"af307fbe-1d5f-4351-8980-cadc9e82f385","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"recursion.out","confidence":2,"exitCode":127,"doc":1,"seq":741,"ms":1090776,"op":"terminal.end"}
+{"executionId":"450e751f-612c-42bc-bd04-a46e9a646da0","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":742,"ms":1093854,"op":"terminal.start"}
+{"executionId":"450e751f-612c-42bc-bd04-a46e9a646da0","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":743,"ms":1093905,"op":"terminal.output"}
+{"executionId":"450e751f-612c-42bc-bd04-a46e9a646da0","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"zsh: segmentation fault  /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":744,"ms":1096898,"op":"terminal.output"}
+{"executionId":"450e751f-612c-42bc-bd04-a46e9a646da0","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":139,"doc":1,"seq":745,"ms":1096898,"op":"terminal.end"}
+{"version":555,"changes":[{"offset":286,"length":0,"text":" "}],"doc":2,"seq":746,"ms":1110838,"op":"edit"}
+{"version":556,"changes":[{"offset":287,"length":0,"text":"="}],"doc":2,"seq":747,"ms":1111001,"op":"edit"}
+{"version":557,"changes":[{"offset":288,"length":0,"text":" "}],"doc":2,"seq":748,"ms":1111289,"op":"edit"}
+{"version":558,"changes":[{"offset":289,"length":0,"text":"n"}],"doc":2,"seq":749,"ms":1111498,"op":"edit"}
+{"version":559,"changes":[{"offset":290,"length":0,"text":"u"}],"doc":2,"seq":750,"ms":1111598,"op":"edit"}
+{"version":560,"changes":[{"offset":291,"length":0,"text":"m"}],"doc":2,"seq":751,"ms":1111783,"op":"edit"}
+{"doc":2,"seq":752,"ms":1112797,"op":"save"}
+{"version":561,"changes":[{"offset":292,"length":1,"text":""}],"doc":2,"seq":753,"ms":1113434,"op":"edit"}
+{"doc":2,"seq":754,"ms":1114448,"op":"save"}
+{"version":562,"changes":[{"offset":293,"length":0,"text":"1"}],"doc":2,"seq":755,"ms":1114736,"op":"edit"}
+{"doc":2,"seq":756,"ms":1115753,"op":"save"}
+{"executionId":"556c12e7-30b9-470a-bc5b-70b34a239bcd","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":757,"ms":1117420,"op":"terminal.start"}
+{"executionId":"556c12e7-30b9-470a-bc5b-70b34a239bcd","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007zsh: segmentation fault  /Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":758,"ms":1117442,"op":"terminal.output"}
+{"executionId":"556c12e7-30b9-470a-bc5b-70b34a239bcd","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":139,"doc":1,"seq":759,"ms":1117442,"op":"terminal.end"}
+{"version":563,"changes":[{"offset":371,"length":15,"text":""}],"doc":2,"seq":760,"ms":1127473,"op":"edit"}
+{"version":564,"changes":[{"offset":367,"length":4,"text":""}],"doc":2,"seq":761,"ms":1128479,"op":"edit"}
+{"doc":2,"seq":762,"ms":1128488,"op":"save"}
+{"version":565,"changes":[{"offset":344,"length":0,"text":"\n    "}],"doc":2,"seq":763,"ms":1129048,"op":"edit"}
+{"version":566,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":349,"length":0,"text":"std::cout<<num;"}],"doc":2,"seq":764,"ms":1129939,"op":"edit"}
+{"doc":2,"seq":765,"ms":1130954,"op":"save"}
