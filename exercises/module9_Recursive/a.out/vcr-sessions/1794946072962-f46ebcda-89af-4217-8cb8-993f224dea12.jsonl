@@ -1,0 +1,3 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/module9_Recursive/a.out","startedAt":"2026-11-17T20:07:52.962Z","attemptId":"5c08147d-dc62-42e2-9dc6-3a2932a7df69","segmentId":"065bc560-a260-4c36-acbc-2e8d89f7d678","sourceWindowId":"96b79ecd-d66a-460a-acb6-b8203d377549","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"6d129e24ca33f04c4ce4578ad8152d99c9b0e96b","seq":1,"ms":-685,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-685,"op":"fs.create"}
