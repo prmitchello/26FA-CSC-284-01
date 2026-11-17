@@ -765,3 +765,27 @@
 {"version":470,"changes":[{"offset":651,"length":0,"text":":"}],"doc":1,"seq":764,"ms":17138959,"op":"edit"}
 {"version":471,"changes":[{"offset":652,"length":0,"text":":"}],"doc":1,"seq":765,"ms":17139083,"op":"edit"}
 {"doc":1,"seq":766,"ms":17140094,"op":"save"}
+{"doc":1,"seq":767,"ms":17141158,"op":"save"}
+{"executionId":"a47c4c88-58a2-4d02-a392-e2935fa298ff","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"doc":4,"seq":768,"ms":17144057,"op":"terminal.start"}
+{"executionId":"a47c4c88-58a2-4d02-a392-e2935fa298ff","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":769,"ms":17144057,"op":"terminal.output"}
+{"executionId":"a47c4c88-58a2-4d02-a392-e2935fa298ff","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"exitCode":0,"doc":4,"seq":770,"ms":17144057,"op":"terminal.end"}
+{"executionId":"6496d75f-78d9-45f2-9f26-8a2c70f2034c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":771,"ms":17145129,"op":"terminal.start"}
+{"executionId":"6496d75f-78d9-45f2-9f26-8a2c70f2034c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":772,"ms":17145138,"op":"terminal.output"}
+{"executionId":"6496d75f-78d9-45f2-9f26-8a2c70f2034c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":773,"ms":17145138,"op":"terminal.end"}
+{"version":472,"changes":[{"offset":611,"length":1,"text":"w"}],"doc":1,"seq":774,"ms":17152383,"op":"edit"}
+{"version":473,"changes":[{"offset":612,"length":0,"text":"e"}],"doc":1,"seq":775,"ms":17152489,"op":"edit"}
+{"version":474,"changes":[{"offset":613,"length":0,"text":"w"}],"doc":1,"seq":776,"ms":17152912,"op":"edit"}
+{"version":475,"changes":[{"offset":614,"length":0,"text":"e"}],"doc":1,"seq":777,"ms":17153002,"op":"edit"}
+{"version":476,"changes":[{"offset":615,"length":0,"text":"r"}],"doc":1,"seq":778,"ms":17153003,"op":"edit"}
+{"version":477,"changes":[{"offset":616,"length":0,"text":"e"}],"doc":1,"seq":779,"ms":17153162,"op":"edit"}
+{"version":478,"changes":[{"offset":617,"length":0,"text":"r"}],"doc":1,"seq":780,"ms":17153334,"op":"edit"}
+{"version":479,"changes":[{"offset":618,"length":0,"text":"w"}],"doc":1,"seq":781,"ms":17153467,"op":"edit"}
+{"version":480,"changes":[{"offset":619,"length":0,"text":"r"}],"doc":1,"seq":782,"ms":17153616,"op":"edit"}
+{"doc":1,"seq":783,"ms":17154624,"op":"save"}
+{"doc":1,"seq":784,"ms":17154679,"op":"save"}
+{"executionId":"3daa7fa5-45d6-4956-a035-b872c30b53be","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"doc":4,"seq":785,"ms":17156904,"op":"terminal.start"}
+{"executionId":"3daa7fa5-45d6-4956-a035-b872c30b53be","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":786,"ms":17156905,"op":"terminal.output"}
+{"executionId":"3daa7fa5-45d6-4956-a035-b872c30b53be","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"exitCode":0,"doc":4,"seq":787,"ms":17156905,"op":"terminal.end"}
+{"executionId":"4859923e-6ff9-4bfe-8ca4-c95ee09ddff4","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":788,"ms":17157991,"op":"terminal.start"}
+{"executionId":"4859923e-6ff9-4bfe-8ca4-c95ee09ddff4","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":789,"ms":17158007,"op":"terminal.output"}
+{"executionId":"4859923e-6ff9-4bfe-8ca4-c95ee09ddff4","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":790,"ms":17158007,"op":"terminal.end"}
