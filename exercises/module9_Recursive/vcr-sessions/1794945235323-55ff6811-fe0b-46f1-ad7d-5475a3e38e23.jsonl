@@ -576,3 +576,17 @@
 {"version":491,"changes":[{"offset":322,"length":0,"text":"i"}],"doc":2,"seq":575,"ms":590416,"op":"edit"}
 {"version":492,"changes":[{"offset":303,"length":1,"text":""}],"doc":2,"seq":576,"ms":591423,"op":"edit"}
 {"doc":2,"seq":577,"ms":591444,"op":"save"}
+{"version":493,"changes":[{"offset":321,"length":1,"text":""}],"doc":2,"seq":578,"ms":593269,"op":"edit"}
+{"version":494,"changes":[{"offset":321,"length":0,"text":"0"}],"doc":2,"seq":579,"ms":594007,"op":"edit"}
+{"doc":2,"seq":580,"ms":595013,"op":"save"}
+{"version":495,"changes":[{"offset":313,"length":1,"text":""}],"doc":2,"seq":581,"ms":595612,"op":"edit"}
+{"doc":2,"seq":582,"ms":596620,"op":"save"}
+{"version":496,"changes":[{"offset":321,"length":0,"text":"0"}],"doc":2,"seq":583,"ms":598578,"op":"edit"}
+{"version":497,"changes":[{"offset":321,"length":1,"text":""}],"doc":2,"seq":584,"ms":599409,"op":"edit"}
+{"doc":2,"seq":585,"ms":600423,"op":"save"}
+{"version":498,"changes":[{"offset":321,"length":0,"text":";"}],"doc":2,"seq":586,"ms":600447,"op":"edit"}
+{"doc":2,"seq":587,"ms":601455,"op":"save"}
+{"version":499,"changes":[{"offset":322,"length":0,"text":")"}],"doc":2,"seq":588,"ms":615282,"op":"edit"}
+{"version":500,"changes":[{"offset":323,"length":0,"text":"{}"}],"doc":2,"seq":589,"ms":616093,"op":"edit"}
+{"text":"#include <iostream>\n\nvoid recursive(int );\nvoid print(int );\n\nint main(int argc, char* argv[]){\n\n    if(argc<2){\n        cout<<\"usage: factorial number\";\n    }\n\n    int paramNumber=99;\n\n    recursive(paramNumber);\n\n    return 0;\n}\n\nvoid recursive(int num){\n\n    if(num == 0) std::cout<<1;\n\n    int sum =\n\n    for(int i =0;){\n        \n    }\n\n    recursive(num);\n\n\n}\nvoid print(int num){\n    for(int i=0; i < num ; i++){\n        std::cout<<i<<std::endl;\n    }\n}","version":501,"snapshot":true,"doc":2,"seq":590,"ms":616262,"op":"edit"}
+{"doc":2,"seq":591,"ms":617274,"op":"save"}
