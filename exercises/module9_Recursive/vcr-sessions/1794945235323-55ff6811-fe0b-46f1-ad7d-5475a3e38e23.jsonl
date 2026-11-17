@@ -990,3 +990,14 @@
 {"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":989,"ms":1659616,"op":"terminal.output"}
 {"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"4321the factorial of: 4 is 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":990,"ms":1662609,"op":"terminal.output"}
 {"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":991,"ms":1662609,"op":"terminal.end"}
+{"version":724,"changes":[{"offset":264,"length":1,"text":""}],"doc":2,"seq":992,"ms":1681894,"op":"edit"}
+{"version":725,"changes":[{"offset":264,"length":0,"text":"T"}],"doc":2,"seq":993,"ms":1682486,"op":"edit"}
+{"doc":2,"seq":994,"ms":1683500,"op":"save"}
+{"executionId":"2d2ad582-0fe6-4656-afbe-4bfcc0e211c8","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":995,"ms":1691480,"op":"terminal.start"}
+{"executionId":"2d2ad582-0fe6-4656-afbe-4bfcc0e211c8","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u00074321The factorial of: 4 is 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":996,"ms":1691505,"op":"terminal.output"}
+{"executionId":"2d2ad582-0fe6-4656-afbe-4bfcc0e211c8","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":997,"ms":1691505,"op":"terminal.end"}
+{"version":726,"changes":[{"offset":299,"length":0,"text":"!"}],"doc":2,"seq":998,"ms":1705185,"op":"edit"}
+{"doc":2,"seq":999,"ms":1706194,"op":"save"}
+{"version":727,"changes":[{"offset":419,"length":0,"text":"/"}],"doc":2,"seq":1000,"ms":1726341,"op":"edit"}
+{"version":728,"changes":[{"offset":420,"length":0,"text":"/"}],"doc":2,"seq":1001,"ms":1726477,"op":"edit"}
+{"doc":2,"seq":1002,"ms":1727495,"op":"save"}
