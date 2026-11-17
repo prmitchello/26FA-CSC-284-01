@@ -559,3 +559,20 @@
 {"version":475,"changes":[{"offset":302,"length":0,"text":"="}],"doc":2,"seq":558,"ms":453029,"op":"edit"}
 {"version":476,"changes":[{"offset":303,"length":0,"text":" "}],"doc":2,"seq":559,"ms":453312,"op":"edit"}
 {"doc":2,"seq":560,"ms":454326,"op":"save"}
+{"version":477,"changes":[{"offset":304,"length":0,"text":"\n    "}],"doc":2,"seq":561,"ms":586626,"op":"edit"}
+{"version":478,"changes":[{"offset":309,"length":0,"text":"\n    "},{"offset":305,"length":4,"text":""}],"doc":2,"seq":562,"ms":586862,"op":"edit"}
+{"version":479,"changes":[{"offset":310,"length":0,"text":"f"}],"doc":2,"seq":563,"ms":587349,"op":"edit"}
+{"version":480,"changes":[{"offset":311,"length":0,"text":"o"}],"doc":2,"seq":564,"ms":587509,"op":"edit"}
+{"version":481,"changes":[{"offset":312,"length":0,"text":"r"}],"doc":2,"seq":565,"ms":587605,"op":"edit"}
+{"version":482,"changes":[{"offset":313,"length":0,"text":"()"}],"doc":2,"seq":566,"ms":588087,"op":"edit"}
+{"version":483,"changes":[{"offset":314,"length":1,"text":")"}],"doc":2,"seq":567,"ms":588159,"op":"edit"}
+{"version":484,"changes":[{"offset":315,"length":0,"text":"i"}],"doc":2,"seq":568,"ms":588462,"op":"edit"}
+{"version":485,"changes":[{"offset":316,"length":0,"text":"n"}],"doc":2,"seq":569,"ms":588574,"op":"edit"}
+{"version":486,"changes":[{"offset":317,"length":0,"text":"t"}],"doc":2,"seq":570,"ms":588635,"op":"edit"}
+{"version":487,"changes":[{"offset":318,"length":0,"text":" "}],"doc":2,"seq":571,"ms":588752,"op":"edit"}
+{"version":488,"changes":[{"offset":319,"length":0,"text":"i"}],"doc":2,"seq":572,"ms":588908,"op":"edit"}
+{"version":489,"changes":[{"offset":320,"length":0,"text":" "}],"doc":2,"seq":573,"ms":589002,"op":"edit"}
+{"version":490,"changes":[{"offset":321,"length":0,"text":"="}],"doc":2,"seq":574,"ms":589649,"op":"edit"}
+{"version":491,"changes":[{"offset":322,"length":0,"text":"i"}],"doc":2,"seq":575,"ms":590416,"op":"edit"}
+{"version":492,"changes":[{"offset":303,"length":1,"text":""}],"doc":2,"seq":576,"ms":591423,"op":"edit"}
+{"doc":2,"seq":577,"ms":591444,"op":"save"}
