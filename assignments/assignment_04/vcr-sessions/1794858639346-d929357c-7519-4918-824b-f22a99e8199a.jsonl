@@ -598,3 +598,138 @@
 {"version":345,"changes":[{"offset":1279,"length":0,"text":"<"}],"doc":1,"seq":597,"ms":17019477,"op":"edit"}
 {"version":346,"changes":[{"offset":1280,"length":0,"text":"<"}],"doc":1,"seq":598,"ms":17019610,"op":"edit"}
 {"version":347,"changes":[{"offset":1281,"length":0,"text":"\"\""}],"doc":1,"seq":599,"ms":17020401,"op":"edit"}
+{"doc":1,"seq":600,"ms":17021409,"op":"save"}
+{"version":348,"changes":[{"offset":1282,"length":0,"text":"w"}],"doc":1,"seq":601,"ms":17022011,"op":"edit"}
+{"version":349,"changes":[{"offset":1283,"length":0,"text":"e"}],"doc":1,"seq":602,"ms":17022094,"op":"edit"}
+{"version":350,"changes":[{"offset":1283,"length":1,"text":""}],"doc":1,"seq":603,"ms":17022485,"op":"edit"}
+{"version":351,"changes":[{"offset":1282,"length":1,"text":""}],"doc":1,"seq":604,"ms":17022613,"op":"edit"}
+{"version":352,"changes":[{"offset":1282,"length":0,"text":"s"}],"doc":1,"seq":605,"ms":17022713,"op":"edit"}
+{"version":353,"changes":[{"offset":1283,"length":0,"text":"e"}],"doc":1,"seq":606,"ms":17022796,"op":"edit"}
+{"version":354,"changes":[{"offset":1284,"length":0,"text":"n"}],"doc":1,"seq":607,"ms":17022946,"op":"edit"}
+{"version":355,"changes":[{"offset":1285,"length":0,"text":"d"}],"doc":1,"seq":608,"ms":17023038,"op":"edit"}
+{"version":356,"changes":[{"offset":1286,"length":0,"text":"i"}],"doc":1,"seq":609,"ms":17023419,"op":"edit"}
+{"version":357,"changes":[{"offset":1287,"length":0,"text":"n"}],"doc":1,"seq":610,"ms":17023546,"op":"edit"}
+{"version":358,"changes":[{"offset":1288,"length":0,"text":"g"}],"doc":1,"seq":611,"ms":17023616,"op":"edit"}
+{"version":359,"changes":[{"offset":1289,"length":0,"text":" "}],"doc":1,"seq":612,"ms":17023746,"op":"edit"}
+{"version":360,"changes":[{"offset":1290,"length":0,"text":"d"}],"doc":1,"seq":613,"ms":17023985,"op":"edit"}
+{"version":361,"changes":[{"offset":1291,"length":0,"text":"i"}],"doc":1,"seq":614,"ms":17024109,"op":"edit"}
+{"version":362,"changes":[{"offset":1292,"length":0,"text":"r"}],"doc":1,"seq":615,"ms":17024237,"op":"edit"}
+{"version":363,"changes":[{"offset":1293,"length":0,"text":"e"}],"doc":1,"seq":616,"ms":17024842,"op":"edit"}
+{"version":364,"changes":[{"offset":1294,"length":0,"text":"c"}],"doc":1,"seq":617,"ms":17025029,"op":"edit"}
+{"version":365,"changes":[{"offset":1295,"length":0,"text":"t"}],"doc":1,"seq":618,"ms":17025250,"op":"edit"}
+{"version":366,"changes":[{"offset":1296,"length":0,"text":"o"}],"doc":1,"seq":619,"ms":17025373,"op":"edit"}
+{"version":367,"changes":[{"offset":1297,"length":0,"text":"r"}],"doc":1,"seq":620,"ms":17025529,"op":"edit"}
+{"version":368,"changes":[{"offset":1298,"length":0,"text":"y"}],"doc":1,"seq":621,"ms":17025701,"op":"edit"}
+{"version":369,"changes":[{"offset":1299,"length":0,"text":" "}],"doc":1,"seq":622,"ms":17025900,"op":"edit"}
+{"version":370,"changes":[{"offset":1300,"length":0,"text":"n"}],"doc":1,"seq":623,"ms":17026374,"op":"edit"}
+{"version":371,"changes":[{"offset":1301,"length":0,"text":"o"}],"doc":1,"seq":624,"ms":17026547,"op":"edit"}
+{"version":372,"changes":[{"offset":1302,"length":0,"text":"t"}],"doc":1,"seq":625,"ms":17026646,"op":"edit"}
+{"version":373,"changes":[{"offset":1303,"length":0,"text":" "}],"doc":1,"seq":626,"ms":17026777,"op":"edit"}
+{"doc":1,"seq":627,"ms":17027798,"op":"save"}
+{"version":374,"changes":[{"offset":1304,"length":0,"text":"f"}],"doc":1,"seq":628,"ms":17028092,"op":"edit"}
+{"version":375,"changes":[{"offset":1305,"length":0,"text":"i"}],"doc":1,"seq":629,"ms":17028163,"op":"edit"}
+{"version":376,"changes":[{"offset":1306,"length":0,"text":"l"}],"doc":1,"seq":630,"ms":17028344,"op":"edit"}
+{"version":377,"changes":[{"offset":1307,"length":0,"text":"e"}],"doc":1,"seq":631,"ms":17028407,"op":"edit"}
+{"doc":1,"seq":632,"ms":17029416,"op":"save"}
+{"version":378,"changes":[{"offset":1309,"length":0,"text":";"}],"doc":1,"seq":633,"ms":17029614,"op":"edit"}
+{"doc":1,"seq":634,"ms":17030624,"op":"save"}
+{"executionId":"1a0bab92-103d-458b-b400-d3fff3dc1f69","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"doc":4,"seq":635,"ms":17032400,"op":"terminal.start"}
+{"executionId":"1a0bab92-103d-458b-b400-d3fff3dc1f69","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":636,"ms":17032400,"op":"terminal.output"}
+{"executionId":"1a0bab92-103d-458b-b400-d3fff3dc1f69","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"exitCode":0,"doc":4,"seq":637,"ms":17032400,"op":"terminal.end"}
+{"executionId":"d91d4954-613a-4d18-8847-55a55ff6e5e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":638,"ms":17033728,"op":"terminal.start"}
+{"executionId":"d91d4954-613a-4d18-8847-55a55ff6e5e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":639,"ms":17033748,"op":"terminal.output"}
+{"executionId":"d91d4954-613a-4d18-8847-55a55ff6e5e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":640,"ms":17033748,"op":"terminal.end"}
+{"version":379,"changes":[{"offset":984,"length":0,"text":"\n        "}],"doc":1,"seq":641,"ms":17041064,"op":"edit"}
+{"version":380,"changes":[{"offset":993,"length":0,"text":"\n        "},{"offset":985,"length":8,"text":""}],"doc":1,"seq":642,"ms":17041231,"op":"edit"}
+{"version":381,"changes":[{"offset":994,"length":0,"text":"c"}],"doc":1,"seq":643,"ms":17041669,"op":"edit"}
+{"version":382,"changes":[{"offset":995,"length":0,"text":"o"}],"doc":1,"seq":644,"ms":17041834,"op":"edit"}
+{"version":383,"changes":[{"offset":996,"length":0,"text":"u"}],"doc":1,"seq":645,"ms":17042070,"op":"edit"}
+{"version":384,"changes":[{"offset":997,"length":0,"text":"t"}],"doc":1,"seq":646,"ms":17042146,"op":"edit"}
+{"version":385,"changes":[{"offset":998,"length":0,"text":"<"}],"doc":1,"seq":647,"ms":17042691,"op":"edit"}
+{"version":386,"changes":[{"offset":999,"length":0,"text":"<"}],"doc":1,"seq":648,"ms":17042819,"op":"edit"}
+{"version":387,"changes":[{"offset":1000,"length":0,"text":"w"}],"doc":1,"seq":649,"ms":17043296,"op":"edit"}
+{"version":388,"changes":[{"offset":1001,"length":0,"text":"e"}],"doc":1,"seq":650,"ms":17043372,"op":"edit"}
+{"version":389,"changes":[{"offset":1002,"length":0,"text":" "}],"doc":1,"seq":651,"ms":17043602,"op":"edit"}
+{"version":390,"changes":[{"offset":1003,"length":0,"text":"a"}],"doc":1,"seq":652,"ms":17043877,"op":"edit"}
+{"version":391,"changes":[{"offset":1004,"length":0,"text":"r"}],"doc":1,"seq":653,"ms":17043996,"op":"edit"}
+{"version":392,"changes":[{"offset":1004,"length":1,"text":""}],"doc":1,"seq":654,"ms":17044370,"op":"edit"}
+{"version":393,"changes":[{"offset":1003,"length":1,"text":""}],"doc":1,"seq":655,"ms":17044503,"op":"edit"}
+{"version":394,"changes":[{"offset":1002,"length":1,"text":""}],"doc":1,"seq":656,"ms":17044649,"op":"edit"}
+{"version":395,"changes":[{"offset":1001,"length":1,"text":""}],"doc":1,"seq":657,"ms":17044784,"op":"edit"}
+{"version":396,"changes":[{"offset":1000,"length":1,"text":""}],"doc":1,"seq":658,"ms":17045115,"op":"edit"}
+{"version":397,"changes":[{"offset":1000,"length":0,"text":"\"\""}],"doc":1,"seq":659,"ms":17045600,"op":"edit"}
+{"version":398,"changes":[{"offset":1001,"length":0,"text":"w"}],"doc":1,"seq":660,"ms":17045826,"op":"edit"}
+{"version":399,"changes":[{"offset":1002,"length":0,"text":"e"}],"doc":1,"seq":661,"ms":17045946,"op":"edit"}
+{"version":400,"changes":[{"offset":1003,"length":0,"text":" "}],"doc":1,"seq":662,"ms":17046127,"op":"edit"}
+{"text":"#include \"LogAnalyzer.h\"\n#include <iostream>\n#include <filesystem>\n#include <thread>\n#include <vector>\n\nusing namespace std;\nnamespace fs = std::filesystem;\n\nint main(int argc, char* argv[]) {\n\n    if (argc < 2) {\n        std::cerr << \"Usage: \" << argv[0] << \" <log_directory>\\n\";\n        return 1;\n    }\n\n    std::string folderPath = argv[1];\n    LogAnalyzer analyzer;\n\n        std::vector<std::string> keywords = {\"[ERROR]\", \"[WARNING]\", \"[INFO]\", \"[FATAL]\", \"[DEBUG]\", \"TRACE]\"};   // /* TODO: Add the rest of the error levels */};\n        std::vector<std::thread> threads;\n\n    std::cout << \"Analyzing folder: \" << folderPath << \"\\n\\n\";\n\n    // TODO: Use std::filesystem to iterate through all files in the folder.\n    // For each file with \".log\" extension:\n    //   - Create a thread calling analyzer.analyzeFile(filename, keywords)\n    //   - Store the thread in 'threads' vector.\n\n\n    // std::filesystem(for_each(){\n\n\n    for(auto& data : fs::directory_iterator(folderPath)){\n\n        cout<<\"we a\"\n\n        if(data.is_regular_file() && data.path().extension()==\".log\"){\n\n\n            std::string filename = data.path().string();\n\n             threads.emplace_back(&LogAnalyzer::analyzeFile,&analyzer,filename, keywords);\n\n            // threads.push_back(t1);\n\n        }else{\n            cout<<\"sending directory not file\";\n        }\n\n    }\n    // TODO: Join all threads after launching.\n\n\n\n    for( std::thread& t : threads){\n\n        t.join();\n\n    }\n\n\n\n    std::cout<<\" we are here\"<<std::endl;\n    // analyzer.analyzeFile(folderPath, keywords);\n    analyzer.printSummary();\n\n    return 0;\n}\n","version":401,"snapshot":true,"doc":1,"seq":663,"ms":17046268,"op":"edit"}
+{"version":402,"changes":[{"offset":1005,"length":0,"text":"r"}],"doc":1,"seq":664,"ms":17046420,"op":"edit"}
+{"version":403,"changes":[{"offset":1006,"length":0,"text":"e"}],"doc":1,"seq":665,"ms":17046523,"op":"edit"}
+{"version":404,"changes":[{"offset":1007,"length":0,"text":" "}],"doc":1,"seq":666,"ms":17046606,"op":"edit"}
+{"version":405,"changes":[{"offset":1008,"length":0,"text":"i"}],"doc":1,"seq":667,"ms":17046822,"op":"edit"}
+{"version":406,"changes":[{"offset":1009,"length":0,"text":"n"}],"doc":1,"seq":668,"ms":17046934,"op":"edit"}
+{"version":407,"changes":[{"offset":1010,"length":0,"text":"s"}],"doc":1,"seq":669,"ms":17047067,"op":"edit"}
+{"version":408,"changes":[{"offset":1011,"length":0,"text":"i"}],"doc":1,"seq":670,"ms":17047233,"op":"edit"}
+{"version":409,"changes":[{"offset":1012,"length":0,"text":"d"}],"doc":1,"seq":671,"ms":17047346,"op":"edit"}
+{"version":410,"changes":[{"offset":1013,"length":0,"text":"e"}],"doc":1,"seq":672,"ms":17047460,"op":"edit"}
+{"version":411,"changes":[{"offset":1014,"length":0,"text":" "}],"doc":1,"seq":673,"ms":17047718,"op":"edit"}
+{"doc":1,"seq":674,"ms":17048746,"op":"save"}
+{"version":412,"changes":[{"offset":1015,"length":0,"text":"f"}],"doc":1,"seq":675,"ms":17051221,"op":"edit"}
+{"version":413,"changes":[{"offset":1016,"length":0,"text":"i"}],"doc":1,"seq":676,"ms":17051381,"op":"edit"}
+{"version":414,"changes":[{"offset":1017,"length":0,"text":"l"}],"doc":1,"seq":677,"ms":17051569,"op":"edit"}
+{"version":415,"changes":[{"offset":1018,"length":0,"text":"e"}],"doc":1,"seq":678,"ms":17051633,"op":"edit"}
+{"version":416,"changes":[{"offset":1019,"length":0,"text":" "}],"doc":1,"seq":679,"ms":17051823,"op":"edit"}
+{"doc":1,"seq":680,"ms":17052835,"op":"save"}
+{"version":417,"changes":[{"offset":1020,"length":0,"text":"s"}],"doc":1,"seq":681,"ms":17053173,"op":"edit"}
+{"version":418,"changes":[{"offset":1021,"length":0,"text":"y"}],"doc":1,"seq":682,"ms":17053396,"op":"edit"}
+{"version":419,"changes":[{"offset":1022,"length":0,"text":"s"}],"doc":1,"seq":683,"ms":17053689,"op":"edit"}
+{"version":420,"changes":[{"offset":1023,"length":0,"text":"t"}],"doc":1,"seq":684,"ms":17054375,"op":"edit"}
+{"version":421,"changes":[{"offset":1024,"length":0,"text":"e"}],"doc":1,"seq":685,"ms":17054526,"op":"edit"}
+{"version":422,"changes":[{"offset":1025,"length":0,"text":"m"}],"doc":1,"seq":686,"ms":17054646,"op":"edit"}
+{"doc":1,"seq":687,"ms":17055663,"op":"save"}
+{"version":423,"changes":[{"offset":1027,"length":0,"text":":"}],"doc":1,"seq":688,"ms":17057097,"op":"edit"}
+{"doc":1,"seq":689,"ms":17058110,"op":"save"}
+{"version":424,"changes":[{"offset":1027,"length":1,"text":""}],"doc":1,"seq":690,"ms":17058403,"op":"edit"}
+{"version":425,"changes":[{"offset":1027,"length":0,"text":";"}],"doc":1,"seq":691,"ms":17058930,"op":"edit"}
+{"version":426,"changes":[{"offset":1026,"length":0,"text":" "}],"doc":1,"seq":692,"ms":17059683,"op":"edit"}
+{"version":427,"changes":[{"offset":1027,"length":0,"text":"m"}],"doc":1,"seq":693,"ms":17059846,"op":"edit"}
+{"version":428,"changes":[{"offset":1028,"length":0,"text":"e"}],"doc":1,"seq":694,"ms":17059963,"op":"edit"}
+{"version":429,"changes":[{"offset":1029,"length":0,"text":"t"}],"doc":1,"seq":695,"ms":17060133,"op":"edit"}
+{"version":430,"changes":[{"offset":1030,"length":0,"text":"h"}],"doc":1,"seq":696,"ms":17060273,"op":"edit"}
+{"version":431,"changes":[{"offset":1031,"length":0,"text":"o"}],"doc":1,"seq":697,"ms":17060476,"op":"edit"}
+{"version":432,"changes":[{"offset":1032,"length":0,"text":"d"}],"doc":1,"seq":698,"ms":17060570,"op":"edit"}
+{"doc":1,"seq":699,"ms":17061584,"op":"save"}
+{"executionId":"502cdbef-326f-4d09-b164-21df853217ba","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"doc":4,"seq":700,"ms":17063389,"op":"terminal.start"}
+{"executionId":"502cdbef-326f-4d09-b164-21df853217ba","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":701,"ms":17063389,"op":"terminal.output"}
+{"executionId":"502cdbef-326f-4d09-b164-21df853217ba","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_04'","confidence":2,"exitCode":0,"doc":4,"seq":702,"ms":17063389,"op":"terminal.end"}
+{"executionId":"5c84db49-ae4b-4b7b-97e8-07a85a7f4f2f","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":703,"ms":17064419,"op":"terminal.start"}
+{"executionId":"5c84db49-ae4b-4b7b-97e8-07a85a7f4f2f","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":704,"ms":17064433,"op":"terminal.output"}
+{"executionId":"5c84db49-ae4b-4b7b-97e8-07a85a7f4f2f","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":705,"ms":17064433,"op":"terminal.end"}
+{"version":433,"changes":[{"offset":926,"length":0,"text":"    "}],"doc":1,"seq":706,"ms":17072764,"op":"edit"}
+{"version":434,"changes":[{"offset":930,"length":0,"text":"c"}],"doc":1,"seq":707,"ms":17073040,"op":"edit"}
+{"version":435,"changes":[{"offset":931,"length":0,"text":"o"}],"doc":1,"seq":708,"ms":17073253,"op":"edit"}
+{"version":436,"changes":[{"offset":932,"length":0,"text":"u"}],"doc":1,"seq":709,"ms":17073515,"op":"edit"}
+{"version":437,"changes":[{"offset":933,"length":0,"text":"t"}],"doc":1,"seq":710,"ms":17073533,"op":"edit"}
+{"version":438,"changes":[{"offset":934,"length":0,"text":"<"}],"doc":1,"seq":711,"ms":17074146,"op":"edit"}
+{"version":439,"changes":[{"offset":935,"length":0,"text":"<"}],"doc":1,"seq":712,"ms":17074271,"op":"edit"}
+{"version":440,"changes":[{"offset":936,"length":0,"text":"\"\""}],"doc":1,"seq":713,"ms":17074758,"op":"edit"}
+{"version":441,"changes":[{"offset":937,"length":0,"text":"b"}],"doc":1,"seq":714,"ms":17075622,"op":"edit"}
+{"version":442,"changes":[{"offset":938,"length":0,"text":"e"}],"doc":1,"seq":715,"ms":17075740,"op":"edit"}
+{"version":443,"changes":[{"offset":939,"length":0,"text":"d"}],"doc":1,"seq":716,"ms":17075885,"op":"edit"}
+{"version":444,"changes":[{"offset":940,"length":0,"text":"f"}],"doc":1,"seq":717,"ms":17076108,"op":"edit"}
+{"version":445,"changes":[{"offset":940,"length":1,"text":""}],"doc":1,"seq":718,"ms":17076386,"op":"edit"}
+{"version":446,"changes":[{"offset":939,"length":1,"text":""}],"doc":1,"seq":719,"ms":17076540,"op":"edit"}
+{"version":447,"changes":[{"offset":939,"length":0,"text":"f"}],"doc":1,"seq":720,"ms":17077129,"op":"edit"}
+{"version":448,"changes":[{"offset":940,"length":0,"text":"o"}],"doc":1,"seq":721,"ms":17077296,"op":"edit"}
+{"version":449,"changes":[{"offset":941,"length":0,"text":"r"}],"doc":1,"seq":722,"ms":17077346,"op":"edit"}
+{"version":450,"changes":[{"offset":942,"length":0,"text":"e"}],"doc":1,"seq":723,"ms":17077421,"op":"edit"}
+{"version":451,"changes":[{"offset":943,"length":0,"text":" "}],"doc":1,"seq":724,"ms":17077542,"op":"edit"}
+{"version":452,"changes":[{"offset":944,"length":0,"text":"f"}],"doc":1,"seq":725,"ms":17078562,"op":"edit"}
+{"doc":1,"seq":726,"ms":17078564,"op":"save"}
+{"version":453,"changes":[{"offset":945,"length":0,"text":"s"}],"doc":1,"seq":727,"ms":17078941,"op":"edit"}
+{"version":454,"changes":[{"offset":946,"length":0,"text":" "}],"doc":1,"seq":728,"ms":17079102,"op":"edit"}
+{"version":455,"changes":[{"offset":947,"length":0,"text":"m"}],"doc":1,"seq":729,"ms":17079284,"op":"edit"}
+{"version":456,"changes":[{"offset":948,"length":0,"text":"e"}],"doc":1,"seq":730,"ms":17079402,"op":"edit"}
+{"version":457,"changes":[{"offset":949,"length":0,"text":"h"}],"doc":1,"seq":731,"ms":17079601,"op":"edit"}
+{"version":458,"changes":[{"offset":950,"length":0,"text":"t"}],"doc":1,"seq":732,"ms":17079613,"op":"edit"}
+{"version":459,"changes":[{"offset":951,"length":0,"text":"o"}],"doc":1,"seq":733,"ms":17079783,"op":"edit"}
+{"version":460,"changes":[{"offset":952,"length":0,"text":"d"}],"doc":1,"seq":734,"ms":17079867,"op":"edit"}
