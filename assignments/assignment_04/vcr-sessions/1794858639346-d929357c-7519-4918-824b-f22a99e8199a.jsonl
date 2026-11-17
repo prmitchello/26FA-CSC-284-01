@@ -1006,3 +1006,4 @@
 {"version":571,"changes":[{"offset":54,"length":0,"text":"0"}],"doc":1,"seq":1005,"ms":18143863,"op":"edit"}
 {"version":572,"changes":[{"offset":55,"length":0,"text":"1"}],"doc":1,"seq":1006,"ms":18143988,"op":"edit"}
 {"doc":1,"seq":1007,"ms":18145002,"op":"save"}
+{"version":573,"changes":[{"offset":258,"length":0,"text":"\n    "}],"doc":1,"seq":1008,"ms":18220199,"op":"edit"}
