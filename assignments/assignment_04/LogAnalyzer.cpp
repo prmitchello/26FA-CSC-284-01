@@ -1,29 +1,64 @@
-#include "LogAnalyzer.h"
-#include <fstream>
 #include <iostream>
+#include "LogAnalyzer.h"
+
+#include <fstream>
 #include <thread>
 #include <algorithm>
+#include <vector>
+#include <string>
 
-void LogAnalyzer::analyzeFile(const std::string& filename, const std::vector<std::string>& keywords) {
-    std::ifstream file(filename);
+using namespace std;
+
+void LogAnalyzer::analyzeFile(const string& filename, const vector<string>& keywords) {
+
+    ifstream file(filename);
+
+    //pre-eliminary check if file exist and can open
     if (!file) {
-        std::cerr << "Error: Could not open file " << filename << "\n";
+        cerr << "Error: Could not open file " << filename << "\n";
         return;
     }
 
-    std::cout << "Processing: " << filename << std::endl;
+    //i encountered a error we the cout we malformed because of a race condition
+    //the mutex makes this statement more consistent
+    {
+        lock_guard<mutex> lock(countMutex);
+        cout << "Processing: " << filename << endl;
+    }
 
-    std::string line;
 
-    // TODO: Read each line.
-    // For each keyword in 'keywords', check if it exists in the line.
-    // If found, increment keywordCounts[keyword] (inside a mutex lock).
+    string wordbyword;
+    
+
+    while(file>>wordbyword){
+
+        //for loop the check the current word we're reading in file against the list of 6 key words
+        for(string key : keywords){
+
+            //if a match is found lock the acces using lock_guard
+            if(wordbyword == key){
+
+                //1 thread access at a time
+                lock_guard<mutex> lock(countMutex);
+
+                //increment the whichever key is found
+                keywordCounts[key]++;
+            }
+        }
+    }
+    file.close();
 }
 
 void LogAnalyzer::printSummary() const {
-    std::cout << "\n--- Keyword Summary ---\n";
+    cout << "\n--- Keyword Summary ---\n";
 
-    // TODO: Use std::for_each and a lambda to print keyword counts.
+    lock_guard<mutex> lock(countMutex);
 
-    std::cout << "-----------------------\n";
+    //for_each and a lambda to print keyword counts.
+
+    for_each(keywordCounts.begin(),keywordCounts.end(),[](auto &data){
+        cout<<data.first << ": "<<data.second<<endl;
+    } );
+
+    cout << "-----------------------\n";
 }
