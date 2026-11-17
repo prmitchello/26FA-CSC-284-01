@@ -233,3 +233,15 @@
 {"executionId":"fee1ddb3-6ef8-416c-bf53-a186cedd8467","doc":2,"seq":232,"ms":87992950,"op":"task.end"}
 {"executionId":"fd699502-520b-4ade-a838-2c69e50fbe39","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":233,"ms":87992952,"op":"debug.start"}
 {"executionId":"fd699502-520b-4ade-a838-2c69e50fbe39","doc":2,"seq":234,"ms":87993113,"op":"debug.end"}
+{"executionId":"0a170b74-6fbe-4415-b6a2-b6e371d1ddae","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":235,"ms":88049516,"op":"task.start"}
+{"executionId":"0a170b74-6fbe-4415-b6a2-b6e371d1ddae","processId":-1,"doc":2,"seq":236,"ms":88049518,"op":"task.processStart"}
+{"executionId":"0a170b74-6fbe-4415-b6a2-b6e371d1ddae","exitCode":0,"doc":2,"seq":237,"ms":88049906,"op":"task.processEnd"}
+{"executionId":"0a170b74-6fbe-4415-b6a2-b6e371d1ddae","doc":2,"seq":238,"ms":88049907,"op":"task.end"}
+{"executionId":"d168043a-a2ee-48d6-b752-8abc408897d7","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":239,"ms":88049911,"op":"debug.start"}
+{"executionId":"d168043a-a2ee-48d6-b752-8abc408897d7","doc":2,"seq":240,"ms":88053024,"op":"debug.end"}
+{"executionId":"41fa8891-2f03-4ee5-bc57-e32aa4dabe69","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":2,"seq":241,"ms":88056090,"op":"task.start"}
+{"executionId":"41fa8891-2f03-4ee5-bc57-e32aa4dabe69","processId":-1,"doc":2,"seq":242,"ms":88056093,"op":"task.processStart"}
+{"executionId":"41fa8891-2f03-4ee5-bc57-e32aa4dabe69","exitCode":0,"doc":2,"seq":243,"ms":88056336,"op":"task.processEnd"}
+{"executionId":"41fa8891-2f03-4ee5-bc57-e32aa4dabe69","doc":2,"seq":244,"ms":88056337,"op":"task.end"}
+{"executionId":"b2d39583-577d-46fa-ae0e-080cd86e4238","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":245,"ms":88056339,"op":"debug.start"}
+{"executionId":"b2d39583-577d-46fa-ae0e-080cd86e4238","doc":2,"seq":246,"ms":88056402,"op":"debug.end"}
