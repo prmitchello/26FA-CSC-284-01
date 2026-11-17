@@ -148,3 +148,7 @@
 {"version":6,"changes":[{"offset":628,"length":0,"text":"\n"}],"doc":4,"seq":147,"ms":22035111,"op":"edit"}
 {"doc":4,"seq":148,"ms":22035142,"op":"save"}
 {"doc":4,"seq":149,"ms":22035842,"op":"save"}
+{"text":"{\n  \"files.exclude\": {\n    \"**/.gitkeep\": true,\n    \"**/*.class\": true,\n    \"**/*.dSYM\": true,\n    \"**/*.exe\": true,\n    \"**/vcr-course.json\": true,\n    \"**/vcr-recording.json\": true,\n    \"**/*.out\": true,\n    \"**/.vscode/build\": true\n  },\n  \"files.autoSave\": \"afterDelay\",\n  \"workbench.colorTheme\": \"Light Modern\",\n  \"terminal.integrated.cursorStyle\": \"line\",\n  \"terminal.integrated.enablePersistentSessions\": false,\n  \"debug.onTaskErrors\": \"showErrors\",\n  \"debug.terminal.clearBeforeReusing\": true\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":5,"seq":150,"ms":86336548,"op":"snap"}
+{"version":2,"changes":[{"offset":456,"length":43,"text":"  \"debug.terminal.clearBeforeReusing\": true,\n  \"C_Cpp.vcFormat.newLine.beforeOpenBrace.block\": \"sameLine\""}],"doc":5,"seq":151,"ms":86336549,"op":"edit"}
+{"doc":5,"seq":152,"ms":86336564,"op":"save"}
+{"doc":5,"seq":153,"ms":86336564,"op":"close"}
