@@ -584,3 +584,17 @@
 {"executionId":"1fc6c150-00f8-4534-9a97-eaa506365558","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":583,"ms":16934171,"op":"terminal.start"}
 {"executionId":"1fc6c150-00f8-4534-9a97-eaa506365558","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r","doc":4,"seq":584,"ms":16934190,"op":"terminal.output"}
 {"executionId":"1fc6c150-00f8-4534-9a97-eaa506365558","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":585,"ms":16934190,"op":"terminal.end"}
+{"version":335,"changes":[{"offset":1257,"length":0,"text":"e"}],"doc":1,"seq":586,"ms":17015831,"op":"edit"}
+{"version":336,"changes":[{"offset":1258,"length":0,"text":"l"}],"doc":1,"seq":587,"ms":17015949,"op":"edit"}
+{"version":337,"changes":[{"offset":1259,"length":0,"text":"s"}],"doc":1,"seq":588,"ms":17016096,"op":"edit"}
+{"version":338,"changes":[{"offset":1260,"length":0,"text":"e"}],"doc":1,"seq":589,"ms":17016200,"op":"edit"}
+{"version":339,"changes":[{"offset":1261,"length":0,"text":"{}"}],"doc":1,"seq":590,"ms":17016974,"op":"edit"}
+{"version":340,"changes":[{"offset":1262,"length":0,"text":"\n            \n        "}],"doc":1,"seq":591,"ms":17017164,"op":"edit"}
+{"doc":1,"seq":592,"ms":17018182,"op":"save"}
+{"version":341,"changes":[{"offset":1275,"length":0,"text":"c"}],"doc":1,"seq":593,"ms":17018679,"op":"edit"}
+{"version":342,"changes":[{"offset":1276,"length":0,"text":"o"}],"doc":1,"seq":594,"ms":17018771,"op":"edit"}
+{"version":343,"changes":[{"offset":1277,"length":0,"text":"u"}],"doc":1,"seq":595,"ms":17018941,"op":"edit"}
+{"version":344,"changes":[{"offset":1278,"length":0,"text":"t"}],"doc":1,"seq":596,"ms":17019013,"op":"edit"}
+{"version":345,"changes":[{"offset":1279,"length":0,"text":"<"}],"doc":1,"seq":597,"ms":17019477,"op":"edit"}
+{"version":346,"changes":[{"offset":1280,"length":0,"text":"<"}],"doc":1,"seq":598,"ms":17019610,"op":"edit"}
+{"version":347,"changes":[{"offset":1281,"length":0,"text":"\"\""}],"doc":1,"seq":599,"ms":17020401,"op":"edit"}
