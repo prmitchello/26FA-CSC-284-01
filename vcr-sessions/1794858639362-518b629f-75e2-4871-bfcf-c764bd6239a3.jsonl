@@ -160,3 +160,6 @@
 {"version":4,"changes":[{"offset":563,"length":63,"text":"  \"C_Cpp.vcFormat.newLine.beforeOpenBrace.function\": \"sameLine\",\n  \"C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda\": \"sameLine\""}],"doc":5,"seq":159,"ms":86357214,"op":"edit"}
 {"doc":5,"seq":160,"ms":86357228,"op":"save"}
 {"doc":5,"seq":161,"ms":86357228,"op":"close"}
+{"version":7,"changes":[{"offset":628,"length":1,"text":""}],"doc":4,"seq":162,"ms":86566140,"op":"edit"}
+{"doc":4,"seq":163,"ms":86566941,"op":"save"}
+{"doc":4,"seq":164,"ms":86569149,"op":"save"}
