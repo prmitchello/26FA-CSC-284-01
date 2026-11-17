@@ -516,3 +516,37 @@
 {"executionId":"5195fc3b-c43a-43c6-a0a9-2c2635223e54","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":515,"ms":13584826,"op":"terminal.start"}
 {"executionId":"5195fc3b-c43a-43c6-a0a9-2c2635223e54","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007Analyzing folder: ErrorLogs\r\n\r\n we are here\r\nProcessing: ErrorLogs\r\n\r\n--- Keyword Summary ---\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":516,"ms":13584842,"op":"terminal.output"}
 {"executionId":"5195fc3b-c43a-43c6-a0a9-2c2635223e54","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":517,"ms":13584842,"op":"terminal.end"}
+{"version":31,"changes":[{"offset":502,"length":0,"text":"w"}],"doc":3,"seq":518,"ms":16788829,"op":"edit"}
+{"version":32,"changes":[{"offset":503,"length":0,"text":"o"}],"doc":3,"seq":519,"ms":16789302,"op":"edit"}
+{"version":33,"changes":[{"offset":504,"length":0,"text":"r"}],"doc":3,"seq":520,"ms":16789760,"op":"edit"}
+{"version":34,"changes":[{"offset":505,"length":0,"text":"d"}],"doc":3,"seq":521,"ms":16789951,"op":"edit"}
+{"version":35,"changes":[{"offset":506,"length":0,"text":"b"}],"doc":3,"seq":522,"ms":16790840,"op":"edit"}
+{"version":36,"changes":[{"offset":507,"length":0,"text":"y"}],"doc":3,"seq":523,"ms":16791008,"op":"edit"}
+{"version":37,"changes":[{"offset":508,"length":0,"text":"w"}],"doc":3,"seq":524,"ms":16791493,"op":"edit"}
+{"version":38,"changes":[{"offset":509,"length":0,"text":"o"}],"doc":3,"seq":525,"ms":16791918,"op":"edit"}
+{"version":39,"changes":[{"offset":510,"length":0,"text":"r"}],"doc":3,"seq":526,"ms":16792372,"op":"edit"}
+{"version":40,"changes":[{"offset":511,"length":0,"text":"d"}],"doc":3,"seq":527,"ms":16792576,"op":"edit"}
+{"doc":3,"seq":528,"ms":16793587,"op":"save"}
+{"version":41,"changes":[{"offset":514,"length":1,"text":""}],"doc":3,"seq":529,"ms":16795701,"op":"edit"}
+{"version":42,"changes":[{"offset":513,"length":1,"text":""}],"doc":3,"seq":530,"ms":16795865,"op":"edit"}
+{"version":43,"changes":[{"offset":512,"length":1,"text":""}],"doc":3,"seq":531,"ms":16796058,"op":"edit"}
+{"doc":3,"seq":532,"ms":16797071,"op":"save"}
+{"version":44,"changes":[{"offset":501,"length":1,"text":""}],"doc":3,"seq":533,"ms":16799226,"op":"edit"}
+{"doc":3,"seq":534,"ms":16800248,"op":"save"}
+{"version":45,"changes":[{"offset":575,"length":17,"text":""}],"doc":3,"seq":535,"ms":16820366,"op":"edit"}
+{"doc":3,"seq":536,"ms":16821541,"op":"save"}
+{"version":46,"changes":[{"offset":575,"length":0,"text":"f"}],"doc":3,"seq":537,"ms":16825028,"op":"edit"}
+{"version":47,"changes":[{"offset":576,"length":0,"text":"i"}],"doc":3,"seq":538,"ms":16825234,"op":"edit"}
+{"version":48,"changes":[{"offset":577,"length":0,"text":"l"}],"doc":3,"seq":539,"ms":16825445,"op":"edit"}
+{"version":49,"changes":[{"offset":578,"length":0,"text":"e"}],"doc":3,"seq":540,"ms":16825549,"op":"edit"}
+{"doc":3,"seq":541,"ms":16826571,"op":"save"}
+{"version":50,"changes":[{"offset":579,"length":1,"text":""}],"doc":3,"seq":542,"ms":16827373,"op":"edit"}
+{"version":51,"changes":[{"offset":579,"length":0,"text":">"}],"doc":3,"seq":543,"ms":16827748,"op":"edit"}
+{"version":52,"changes":[{"offset":580,"length":0,"text":">"}],"doc":3,"seq":544,"ms":16827887,"op":"edit"}
+{"doc":3,"seq":545,"ms":16828902,"op":"save"}
+{"version":53,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":581,"length":0,"text":"wordbyword"}],"doc":3,"seq":546,"ms":16828923,"op":"edit"}
+{"doc":3,"seq":547,"ms":16829932,"op":"save"}
+{"version":54,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":634,"length":4,"text":"wordbyword"}],"doc":3,"seq":548,"ms":16831475,"op":"edit"}
+{"doc":3,"seq":549,"ms":16832486,"op":"save"}
+{"version":55,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":777,"length":4,"text":"wordbyword"}],"doc":3,"seq":550,"ms":16837483,"op":"edit"}
+{"doc":3,"seq":551,"ms":16838493,"op":"save"}
