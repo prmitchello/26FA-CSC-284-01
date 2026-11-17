@@ -1605,3 +1605,63 @@
 {"doc":2,"seq":1604,"ms":3406172,"op":"save"}
 {"version":1159,"changes":[{"offset":895,"length":0,"text":"n"}],"doc":2,"seq":1605,"ms":3412274,"op":"edit"}
 {"version":1160,"changes":[{"offset":896,"length":0,"text":"1"}],"doc":2,"seq":1606,"ms":3412537,"op":"edit"}
+{"version":1161,"changes":[{"offset":897,"length":0,"text":";"}],"doc":2,"seq":1607,"ms":3413478,"op":"edit"}
+{"doc":2,"seq":1608,"ms":3414487,"op":"save"}
+{"version":1162,"changes":[{"offset":889,"length":0,"text":"s"}],"doc":2,"seq":1609,"ms":3417840,"op":"edit"}
+{"version":1163,"changes":[{"offset":890,"length":0,"text":"t"}],"doc":2,"seq":1610,"ms":3418070,"op":"edit"}
+{"version":1164,"changes":[{"offset":891,"length":0,"text":"d"}],"doc":2,"seq":1611,"ms":3418308,"op":"edit"}
+{"version":1165,"changes":[{"offset":892,"length":0,"text":":"}],"doc":2,"seq":1612,"ms":3418645,"op":"edit"}
+{"version":1166,"changes":[{"offset":893,"length":0,"text":":"}],"doc":2,"seq":1613,"ms":3418778,"op":"edit"}
+{"doc":2,"seq":1614,"ms":3419788,"op":"save"}
+{"executionId":"1115c5d7-3548-46f5-b45f-702af87b0b26","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1615,"ms":3422497,"op":"terminal.start"}
+{"executionId":"1115c5d7-3548-46f5-b45f-702af87b0b26","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":1616,"ms":3422549,"op":"terminal.output"}
+{"executionId":"1115c5d7-3548-46f5-b45f-702af87b0b26","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"The factorial sum of: 4! is 24\r\nThe fibonacci sum of: 4 is 000\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1617,"ms":3422560,"op":"terminal.output"}
+{"executionId":"1115c5d7-3548-46f5-b45f-702af87b0b26","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":1618,"ms":3422560,"op":"terminal.end"}
+{"version":1167,"changes":[{"offset":901,"length":1,"text":""}],"doc":2,"seq":1619,"ms":3429109,"op":"edit"}
+{"version":1168,"changes":[{"offset":901,"length":0,"text":"2"}],"doc":2,"seq":1620,"ms":3429623,"op":"edit"}
+{"doc":2,"seq":1621,"ms":3430630,"op":"save"}
+{"executionId":"da7aa2ff-ac9b-42d4-9e9e-2e08ed301195","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1622,"ms":3432515,"op":"terminal.start"}
+{"executionId":"da7aa2ff-ac9b-42d4-9e9e-2e08ed301195","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":1623,"ms":3432566,"op":"terminal.output"}
+{"executionId":"da7aa2ff-ac9b-42d4-9e9e-2e08ed301195","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"The factorial sum of: 4! is 24\r\nThe fibonacci sum of: 4 is 321\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1624,"ms":3432590,"op":"terminal.output"}
+{"executionId":"da7aa2ff-ac9b-42d4-9e9e-2e08ed301195","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":1625,"ms":3432591,"op":"terminal.end"}
+{"version":1169,"changes":[{"offset":852,"length":0,"text":"\n    "}],"doc":2,"seq":1626,"ms":3450860,"op":"edit"}
+{"version":1170,"changes":[{"offset":857,"length":0,"text":"\n    "},{"offset":853,"length":4,"text":""}],"doc":2,"seq":1627,"ms":3451030,"op":"edit"}
+{"version":1171,"changes":[{"offset":858,"length":0,"text":"s"}],"doc":2,"seq":1628,"ms":3451533,"op":"edit"}
+{"version":1172,"changes":[{"offset":859,"length":0,"text":"u"}],"doc":2,"seq":1629,"ms":3451684,"op":"edit"}
+{"version":1173,"changes":[{"offset":860,"length":0,"text":"m"}],"doc":2,"seq":1630,"ms":3451826,"op":"edit"}
+{"doc":2,"seq":1631,"ms":3452839,"op":"save"}
+{"version":1174,"changes":[{"offset":861,"length":0,"text":"="}],"doc":2,"seq":1632,"ms":3453501,"op":"edit"}
+{"version":1175,"changes":[{"offset":862,"length":0,"text":"n"}],"doc":2,"seq":1633,"ms":3454309,"op":"edit"}
+{"version":1176,"changes":[{"offset":863,"length":0,"text":"1"}],"doc":2,"seq":1634,"ms":3454643,"op":"edit"}
+{"version":1177,"changes":[{"offset":864,"length":0,"text":" "}],"doc":2,"seq":1635,"ms":3454785,"op":"edit"}
+{"version":1178,"changes":[{"offset":865,"length":0,"text":"="}],"doc":2,"seq":1636,"ms":3455489,"op":"edit"}
+{"version":1179,"changes":[{"offset":865,"length":1,"text":""}],"doc":2,"seq":1637,"ms":3455869,"op":"edit"}
+{"version":1180,"changes":[{"offset":865,"length":0,"text":"+"}],"doc":2,"seq":1638,"ms":3456182,"op":"edit"}
+{"version":1181,"changes":[{"offset":865,"length":1,"text":""}],"doc":2,"seq":1639,"ms":3456588,"op":"edit"}
+{"version":1182,"changes":[{"offset":865,"length":0,"text":"+"}],"doc":2,"seq":1640,"ms":3457292,"op":"edit"}
+{"version":1183,"changes":[{"offset":866,"length":0,"text":" "}],"doc":2,"seq":1641,"ms":3457543,"op":"edit"}
+{"version":1184,"changes":[{"offset":867,"length":0,"text":"n"}],"doc":2,"seq":1642,"ms":3457760,"op":"edit"}
+{"version":1185,"changes":[{"offset":868,"length":0,"text":"2"}],"doc":2,"seq":1643,"ms":3457884,"op":"edit"}
+{"doc":2,"seq":1644,"ms":3458905,"op":"save"}
+{"version":1186,"changes":[{"offset":869,"length":0,"text":";"}],"doc":2,"seq":1645,"ms":3458925,"op":"edit"}
+{"doc":2,"seq":1646,"ms":3459936,"op":"save"}
+{"version":1187,"changes":[{"offset":862,"length":0,"text":" "}],"doc":2,"seq":1647,"ms":3460364,"op":"edit"}
+{"version":1188,"changes":[{"offset":861,"length":0,"text":" "}],"doc":2,"seq":1648,"ms":3460964,"op":"edit"}
+{"version":1189,"changes":[{"offset":858,"length":0,"text":"i"}],"doc":2,"seq":1649,"ms":3461871,"op":"edit"}
+{"version":1190,"changes":[{"offset":859,"length":0,"text":"n"}],"doc":2,"seq":1650,"ms":3461967,"op":"edit"}
+{"version":1191,"changes":[{"offset":860,"length":0,"text":"t"}],"doc":2,"seq":1651,"ms":3462084,"op":"edit"}
+{"version":1192,"changes":[{"offset":861,"length":0,"text":" "}],"doc":2,"seq":1652,"ms":3462185,"op":"edit"}
+{"doc":2,"seq":1653,"ms":3463209,"op":"save"}
+{"version":1193,"changes":[{"offset":924,"length":0,"text":"\""}],"doc":2,"seq":1654,"ms":3469412,"op":"edit"}
+{"version":1194,"changes":[{"offset":925,"length":0,"text":"t"}],"doc":2,"seq":1655,"ms":3469787,"op":"edit"}
+{"version":1195,"changes":[{"offset":926,"length":0,"text":"h"}],"doc":2,"seq":1656,"ms":3469884,"op":"edit"}
+{"version":1196,"changes":[{"offset":927,"length":0,"text":"i"}],"doc":2,"seq":1657,"ms":3470074,"op":"edit"}
+{"version":1197,"changes":[{"offset":928,"length":0,"text":"s"}],"doc":2,"seq":1658,"ms":3470167,"op":"edit"}
+{"version":1198,"changes":[{"offset":929,"length":0,"text":" "}],"doc":2,"seq":1659,"ms":3470267,"op":"edit"}
+{"version":1199,"changes":[{"offset":930,"length":0,"text":"i"}],"doc":2,"seq":1660,"ms":3470405,"op":"edit"}
+{"version":1200,"changes":[{"offset":931,"length":0,"text":"s"}],"doc":2,"seq":1661,"ms":3470517,"op":"edit"}
+{"text":"#include <iostream>\n\nint recursive(int );\nvoid print(int );\nvoid fibonacci(int , int , int );\n\nint main(){\n\n    //int argc, char* argv[]\n    // if(argc<2){\n    //     std::cout<<\"usage: factorial number\";\n    // }\n\n    int paramNumber=4;\n\n    int factorial_Result  = recursive(paramNumber);\n\n    std::cout<<\"The factorial sum of: \"<<paramNumber<<\"! is \"<<factorial_Result<<std::endl;\n\n    //int Fibinacci_Result  = fibonacci(paramNumber,0,0);\n\n    std::cout<<\"The fibonacci sum of: \"<<paramNumber<<\" is \";\n    fibonacci(paramNumber,0,0);\n\n    return 0;\n}\n\nint recursive(int num){\n\n\n    if(num == 0) return 1;\n\n    //int sum =;\n    //std::cout<<num;\n\n    return recursive(num-1) * num;\n}\nvoid fibonacci(int numTimes, int n1, int n2){\n\n    numTimes = numTimes -1;\n\n    if(numTimes == 0) return ;\n\n    n2 = n2 + 1;\n\n    //n2 = fibonacci(numTimes,n1,n2+1);\n\n    int sum = n1 + n2;\n\n\n  fibonacci(numTimes, n1, n2);\n   std::cout<<\"this is n2;\n}\nvoid print(int num){\n    for(int i=0; i < num ; i++){\n        std::cout<<i<<std::endl;\n    }\n}","version":1201,"snapshot":true,"doc":2,"seq":1662,"ms":3470624,"op":"edit"}
+{"version":1202,"changes":[{"offset":933,"length":0,"text":"n"}],"doc":2,"seq":1663,"ms":3471020,"op":"edit"}
+{"version":1203,"changes":[{"offset":934,"length":0,"text":"u"}],"doc":2,"seq":1664,"ms":3471146,"op":"edit"}
+{"doc":2,"seq":1665,"ms":3472168,"op":"save"}
+{"version":1204,"changes":[{"offset":935,"length":0,"text":"m"}],"doc":2,"seq":1666,"ms":3472991,"op":"edit"}
