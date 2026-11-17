@@ -1,0 +1,4 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":"exercises/module9_Recursive/recursion.cpp","startedAt":"2026-11-17T19:54:02.789Z","attemptId":"468cfc2e-26c4-44db-bbd2-571b72a4c69f","segmentId":"4a3c9435-eb84-4908-ab45-3624f7c09777","sourceWindowId":"96b79ecd-d66a-460a-acb6-b8203d377549","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"6d129e24ca33f04c4ce4578ad8152d99c9b0e96b","seq":1,"ms":-42,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-42,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":44,"op":"fs.create"}
