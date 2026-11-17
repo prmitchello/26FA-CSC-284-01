@@ -2753,3 +2753,63 @@
 {"version":1574,"changes":[{"offset":875,"length":0,"text":"t"}],"doc":1,"seq":2752,"ms":19898647,"op":"edit"}
 {"version":1575,"changes":[{"offset":876,"length":0,"text":";"}],"doc":1,"seq":2753,"ms":19899003,"op":"edit"}
 {"doc":1,"seq":2754,"ms":19900017,"op":"save"}
+{"version":1576,"changes":[{"offset":872,"length":1,"text":""}],"doc":1,"seq":2755,"ms":19900907,"op":"edit"}
+{"version":1577,"changes":[{"offset":872,"length":0,"text":"o"}],"doc":1,"seq":2756,"ms":19901248,"op":"edit"}
+{"doc":1,"seq":2757,"ms":19902253,"op":"save"}
+{"version":1578,"changes":[{"offset":876,"length":0,"text":"="}],"doc":1,"seq":2758,"ms":19903383,"op":"edit"}
+{"version":1579,"changes":[{"offset":877,"length":0,"text":"0"}],"doc":1,"seq":2759,"ms":19903642,"op":"edit"}
+{"doc":1,"seq":2760,"ms":19904648,"op":"save"}
+{"version":1580,"changes":[{"offset":1969,"length":0,"text":"\n    "}],"doc":1,"seq":2761,"ms":19909007,"op":"edit"}
+{"version":1581,"changes":[{"offset":1974,"length":0,"text":"\n    "},{"offset":1970,"length":4,"text":""}],"doc":1,"seq":2762,"ms":19909167,"op":"edit"}
+{"version":1582,"changes":[{"offset":1975,"length":0,"text":"c"}],"doc":1,"seq":2763,"ms":19909608,"op":"edit"}
+{"version":1583,"changes":[{"offset":1976,"length":0,"text":"o"}],"doc":1,"seq":2764,"ms":19909775,"op":"edit"}
+{"version":1584,"changes":[{"offset":1977,"length":0,"text":"u"}],"doc":1,"seq":2765,"ms":19909968,"op":"edit"}
+{"version":1585,"changes":[{"offset":1978,"length":0,"text":"t"}],"doc":1,"seq":2766,"ms":19910045,"op":"edit"}
+{"version":1586,"changes":[{"offset":1979,"length":0,"text":"<"}],"doc":1,"seq":2767,"ms":19910874,"op":"edit"}
+{"version":1587,"changes":[{"offset":1980,"length":0,"text":"<"}],"doc":1,"seq":2768,"ms":19910997,"op":"edit"}
+{"doc":1,"seq":2769,"ms":19912018,"op":"save"}
+{"version":1588,"changes":[{"offset":1981,"length":0,"text":"<"}],"doc":1,"seq":2770,"ms":19912237,"op":"edit"}
+{"version":1589,"changes":[{"offset":1982,"length":0,"text":"<"}],"doc":1,"seq":2771,"ms":19912365,"op":"edit"}
+{"version":1590,"changes":[{"offset":1983,"length":0,"text":"E"}],"doc":1,"seq":2772,"ms":19912497,"op":"edit"}
+{"version":1591,"changes":[{"offset":1984,"length":0,"text":"n"}],"doc":1,"seq":2773,"ms":19912695,"op":"edit"}
+{"version":1592,"changes":[{"offset":1984,"length":1,"text":""}],"doc":1,"seq":2774,"ms":19913198,"op":"edit"}
+{"version":1593,"changes":[{"offset":1983,"length":1,"text":""}],"doc":1,"seq":2775,"ms":19913345,"op":"edit"}
+{"version":1594,"changes":[{"offset":1983,"length":0,"text":"e"}],"doc":1,"seq":2776,"ms":19913451,"op":"edit"}
+{"version":1595,"changes":[{"offset":1984,"length":0,"text":"n"}],"doc":1,"seq":2777,"ms":19914137,"op":"edit"}
+{"version":1596,"changes":[{"offset":1985,"length":0,"text":"d"}],"doc":1,"seq":2778,"ms":19914534,"op":"edit"}
+{"version":1597,"changes":[{"offset":1986,"length":0,"text":"l"}],"doc":1,"seq":2779,"ms":19914641,"op":"edit"}
+{"doc":1,"seq":2780,"ms":19915661,"op":"save"}
+{"version":1598,"changes":[{"offset":1981,"length":0,"text":"\""}],"doc":1,"seq":2781,"ms":19918957,"op":"edit"}
+{"doc":1,"seq":2782,"ms":19919978,"op":"save"}
+{"version":1599,"changes":[{"offset":1982,"length":0,"text":"\""}],"doc":1,"seq":2783,"ms":19921042,"op":"edit"}
+{"doc":1,"seq":2784,"ms":19922060,"op":"save"}
+{"version":1600,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1982,"length":0,"text":"Analysis complete. Processed 3 files."}],"doc":1,"seq":2785,"ms":19930444,"op":"edit"}
+{"doc":1,"seq":2786,"ms":19931456,"op":"save"}
+{"text":"/*\n    Mitchello J. Pierre-Rene\n    11/16/26\n    CSC 284-01\n\n\n\n*/\n\n\n#include \"LogAnalyzer.h\"\n#include <iostream>\n#include <filesystem>\n#include <thread>\n#include <vector>\n\nusing namespace std;\nnamespace fs = filesystem;\n\nint main(int argc, char* argv[]) {\n\n    //the progam is expecting 2 arguments passed, any less will encounter this error\n    if (argc < 2) {\n        cerr << \"Usage: \" << argv[0] << \" <log_directory>\\n\";\n        return 1;\n    }\n\n    //the second argument is pass to a string variable\n    string folderPath = argv[1];\n\n    LogAnalyzer analyzer;\n\n        //list of key words that need to be searched for\n        vector<string> keywords = {\"[ERROR]\", \"[WARN]\", \"[INFO]\", \"[FATAL]\", \"[DEBUG]\", \"[TRACE]\"};\n\n        //declaration of thread array list\n        vector<thread> threads;\n\n    cout << \"Analyzing folder: \" << folderPath << \"\\n\\n\";\n\n\n    int fileCount=0;\n\n    //using a for loop to iterate through all files in the directory path\n    for(auto& data : fs::directory_iterator(folderPath)){\n\n        fileCount++;\n\n        //these file system method function are used here to ensure we have a right match for the .log file\n        if(data.is_regular_file() && data.path().extension()==\".log\"){\n\n            string filename = data.path().string();\n\n            //the vector method embrace_back() create a new thread element in the vector\n            //we pass in the address to the class method, the object analyzer, file, and the list of keywords\n            threads.emplace_back(&LogAnalyzer::analyzeFile,&analyzer,filename, keywords);\n\n        }else{\n            cout<<\"sending directory not file\";\n        }\n\n    }\n\n\n    //Join all threads after launching.\n    for( thread& t : threads){\n\n        //iterates through vector list of threads and join them all\n        t.join();\n\n    }\n\n    //after the processing threads in joined the main function thread is free to resume\n    //print the final count for each key word\n    analyzer.printSummary();\n\n    cout<<\"Analysis complete. Processed< 3 files.\"<<endl\n\n    return 0;\n}\n","version":1601,"snapshot":true,"doc":1,"seq":2787,"ms":19935103,"op":"edit"}
+{"version":1602,"changes":[{"offset":2011,"length":0,"text":"<"}],"doc":1,"seq":2788,"ms":19935263,"op":"edit"}
+{"doc":1,"seq":2789,"ms":19936291,"op":"save"}
+{"version":1603,"changes":[{"offset":2015,"length":0,"text":"<"}],"doc":1,"seq":2790,"ms":19938019,"op":"edit"}
+{"version":1604,"changes":[{"offset":2016,"length":0,"text":"<"}],"doc":1,"seq":2791,"ms":19938158,"op":"edit"}
+{"doc":1,"seq":2792,"ms":19939171,"op":"save"}
+{"version":1605,"changes":[{"offset":2017,"length":0,"text":"\""}],"doc":1,"seq":2793,"ms":19940192,"op":"edit"}
+{"doc":1,"seq":2794,"ms":19941204,"op":"save"}
+{"version":1606,"changes":[{"offset":2010,"length":0,"text":"\""}],"doc":1,"seq":2795,"ms":19942108,"op":"edit"}
+{"doc":1,"seq":2796,"ms":19943122,"op":"save"}
+{"version":1607,"changes":[{"offset":2032,"length":0,"text":";"}],"doc":1,"seq":2797,"ms":19946673,"op":"edit"}
+{"doc":1,"seq":2798,"ms":19947687,"op":"save"}
+{"version":1608,"changes":[{"offset":2014,"length":1,"text":""}],"doc":1,"seq":2799,"ms":19948072,"op":"edit"}
+{"version":1609,"changes":[{"offset":2014,"length":0,"text":"f"}],"doc":1,"seq":2800,"ms":19948754,"op":"edit"}
+{"version":1610,"changes":[{"offset":2015,"length":0,"text":"i"}],"doc":1,"seq":2801,"ms":19948844,"op":"edit"}
+{"version":1611,"changes":[{"offset":2016,"length":0,"text":"l"}],"doc":1,"seq":2802,"ms":19949014,"op":"edit"}
+{"version":1612,"changes":[{"offset":2017,"length":0,"text":"e"}],"doc":1,"seq":2803,"ms":19949067,"op":"edit"}
+{"doc":1,"seq":2804,"ms":19950081,"op":"save"}
+{"version":1613,"changes":[{"offset":2014,"length":4,"text":"fileCount"}],"doc":1,"seq":2805,"ms":19950197,"op":"edit"}
+{"doc":1,"seq":2806,"ms":19951214,"op":"save"}
+{"executionId":"1411254d-063a-4c87-b428-ea984d93907c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"doc":4,"seq":2807,"ms":19954034,"op":"terminal.start"}
+{"executionId":"1411254d-063a-4c87-b428-ea984d93907c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":2808,"ms":19954084,"op":"terminal.output"}
+{"executionId":"1411254d-063a-4c87-b428-ea984d93907c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":2809,"ms":19955108,"op":"terminal.output"}
+{"executionId":"1411254d-063a-4c87-b428-ea984d93907c","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":2810,"ms":19955108,"op":"terminal.end"}
+{"executionId":"26f8458e-401f-4aab-87c4-6a801c4fbfe6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":2811,"ms":19956597,"op":"terminal.start"}
+{"executionId":"26f8458e-401f-4aab-87c4-6a801c4fbfe6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":2812,"ms":19956648,"op":"terminal.output"}
+{"executionId":"26f8458e-401f-4aab-87c4-6a801c4fbfe6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"Analyzing folder: ErrorLogs\r\n\r\nProcessing: ErrorLogs/log_2.log\r\nProcessing: ErrorLogs/log_1.log\r\nProcessing: ErrorLogs/log_14.log\r\nProcessing: ErrorLogs/log_4.log\r\nProcessing: ErrorLogs/log_5.log\r\nProcessing: ErrorLogs/log_16.log\r\nProcessing: ErrorLogs/log_10.log\r\nProcessing: ErrorLogs/log_38.log\r\nProcessing: ErrorLogs/log_3.log\r\nProcessing: ErrorLogs/log_15.log\r\nProcessing: ErrorLogs/log_11.log\r\nProcessing: ErrorLogs/log_34.log\r\nProcessing: ErrorLogs/log_13.log\r\nProcessing: ErrorLogs/log_37.log\r\nProcessing: ErrorLogs/log_17.log\r\nProcessing: ErrorLogs/log_22.log\r\nProcessing: ErrorLogs/log_26.log\r\nProcessing: ErrorLogs/log_36.log\r\nProcessing: ErrorLogs/log_27.log\r\nProcessing: ErrorLogs/log_33.log\r\nProcessing: ErrorLogs/log_28.log\r\nProcessing: ErrorLogs/log_31.log\r\nProcessing: ErrorLogs/log_18.log\r\nProcessing: ErrorLogs/log_19.log\r\nProcessing: ErrorLogs/log_9.log\r\nProcessing: ErrorLogs/log_30.log\r\nProcessing: ErrorLogs/log_40.log\r\nProcessing: ErrorLogs/log_7.log\r\nProcessing: ErrorLogs/log_20.log\r\nProcessing: ErrorLogs/log_25.log\r\nProcessing: ErrorLogs/log_23.log\r\nProcessing: ErrorLogs/log_8.log\r\nProcessing: ErrorLogs/log_32.log\r\nProcessing: ErrorLogs/log_6.log\r\nProcessing: ErrorLogs/log_39.log\r\nProcessing: ErrorLogs/log_29.log\r\nProcessing: ErrorLogs/log_35.log\r\nProcessing: ErrorLogs/log_21.log\r\nProcessing: ErrorLogs/log_12.log\r\nProcessing: ErrorLogs/log_24.log\r\n\r\n--- Keyword Summary ---\r\n[DEBUG]: 675\r\n[ERROR]: 667\r\n[FATAL]: 656\r\n[INFO]: 705\r\n[TRACE]: 661\r\n[WARN]: 636\r\n-----------------------\r\nAnalysis complete. Processed40files.\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":2813,"ms":19956738,"op":"terminal.output"}
+{"executionId":"26f8458e-401f-4aab-87c4-6a801c4fbfe6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":2814,"ms":19956738,"op":"terminal.end"}
