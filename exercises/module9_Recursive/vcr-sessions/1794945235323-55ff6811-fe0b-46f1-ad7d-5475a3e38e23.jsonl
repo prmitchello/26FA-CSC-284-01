@@ -1001,3 +1001,19 @@
 {"version":727,"changes":[{"offset":419,"length":0,"text":"/"}],"doc":2,"seq":1000,"ms":1726341,"op":"edit"}
 {"version":728,"changes":[{"offset":420,"length":0,"text":"/"}],"doc":2,"seq":1001,"ms":1726477,"op":"edit"}
 {"doc":2,"seq":1002,"ms":1727495,"op":"save"}
+{"executionId":"dd177786-ac5d-4394-a1e6-09b6e6e2b864","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1003,"ms":1743972,"op":"terminal.start"}
+{"executionId":"dd177786-ac5d-4394-a1e6-09b6e6e2b864","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007The factorial of: 4! is 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1004,"ms":1743995,"op":"terminal.output"}
+{"executionId":"dd177786-ac5d-4394-a1e6-09b6e6e2b864","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":1005,"ms":1743995,"op":"terminal.end"}
+{"version":729,"changes":[{"offset":277,"length":0,"text":" "}],"doc":2,"seq":1006,"ms":1759782,"op":"edit"}
+{"version":730,"changes":[{"offset":278,"length":0,"text":"s"}],"doc":2,"seq":1007,"ms":1759881,"op":"edit"}
+{"version":731,"changes":[{"offset":279,"length":0,"text":"u"}],"doc":2,"seq":1008,"ms":1760096,"op":"edit"}
+{"version":732,"changes":[{"offset":280,"length":0,"text":"m"}],"doc":2,"seq":1009,"ms":1760342,"op":"edit"}
+{"doc":2,"seq":1010,"ms":1761355,"op":"save"}
+{"executionId":"79cff786-171b-440e-95e0-f5e348b3362c","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1011,"ms":1766628,"op":"terminal.start"}
+{"executionId":"79cff786-171b-440e-95e0-f5e348b3362c","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007The factorial of: 4! is 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1012,"ms":1766637,"op":"terminal.output"}
+{"executionId":"79cff786-171b-440e-95e0-f5e348b3362c","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":1013,"ms":1766637,"op":"terminal.end"}
+{"executionId":"c7df2819-94e0-43de-a192-ca97ec28ed12","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":1014,"ms":1786614,"op":"terminal.start"}
+{"executionId":"c7df2819-94e0-43de-a192-ca97ec28ed12","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":1015,"ms":1786666,"op":"terminal.output"}
+{"doc":2,"seq":1016,"ms":1788478,"op":"save"}
+{"executionId":"c7df2819-94e0-43de-a192-ca97ec28ed12","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"The factorial sum of: 4! is 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":1017,"ms":1789644,"op":"terminal.output"}
+{"executionId":"c7df2819-94e0-43de-a192-ca97ec28ed12","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":1018,"ms":1789644,"op":"terminal.end"}
