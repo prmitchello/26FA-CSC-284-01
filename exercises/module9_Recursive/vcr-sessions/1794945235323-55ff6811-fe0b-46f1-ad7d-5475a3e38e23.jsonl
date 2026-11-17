@@ -974,3 +974,19 @@
 {"version":720,"changes":[{"offset":317,"length":0,"text":":"}],"doc":2,"seq":973,"ms":1599369,"op":"edit"}
 {"version":721,"changes":[{"offset":318,"length":0,"text":":"}],"doc":2,"seq":974,"ms":1599486,"op":"edit"}
 {"doc":2,"seq":975,"ms":1600496,"op":"save"}
+{"executionId":"4554f6b3-d582-4059-83a4-b80afaf45242","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"g++-16 *.cpp && recursion","confidence":2,"doc":1,"seq":976,"ms":1615827,"op":"terminal.start"}
+{"executionId":"4554f6b3-d582-4059-83a4-b80afaf45242","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":977,"ms":1615879,"op":"terminal.output"}
+{"executionId":"4554f6b3-d582-4059-83a4-b80afaf45242","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"zsh: command not found: recursion\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":978,"ms":1616200,"op":"terminal.output"}
+{"executionId":"4554f6b3-d582-4059-83a4-b80afaf45242","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"g++-16 *.cpp && recursion","confidence":2,"exitCode":127,"doc":1,"seq":979,"ms":1616201,"op":"terminal.end"}
+{"executionId":"1b0106b4-714a-48f8-97c9-9027f3edb615","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":980,"ms":1620567,"op":"terminal.start"}
+{"executionId":"1b0106b4-714a-48f8-97c9-9027f3edb615","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":981,"ms":1620619,"op":"terminal.output"}
+{"executionId":"1b0106b4-714a-48f8-97c9-9027f3edb615","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"4321the factorial of: 4is: 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":982,"ms":1620688,"op":"terminal.output"}
+{"executionId":"1b0106b4-714a-48f8-97c9-9027f3edb615","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":983,"ms":1620688,"op":"terminal.end"}
+{"version":722,"changes":[{"offset":299,"length":0,"text":" "}],"doc":2,"seq":984,"ms":1628698,"op":"edit"}
+{"doc":2,"seq":985,"ms":1629716,"op":"save"}
+{"version":723,"changes":[{"offset":302,"length":1,"text":""}],"doc":2,"seq":986,"ms":1652075,"op":"edit"}
+{"doc":2,"seq":987,"ms":1653096,"op":"save"}
+{"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"doc":1,"seq":988,"ms":1659565,"op":"terminal.start"}
+{"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007","doc":1,"seq":989,"ms":1659616,"op":"terminal.output"}
+{"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"4321the factorial of: 4 is 24\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":1,"seq":990,"ms":1662609,"op":"terminal.output"}
+{"executionId":"4fe551c7-ae72-4e72-b6bb-357d1b8bfea7","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"/Users/mitchello/Downloads/26FA-CSC-284-01/.vscode/build/recursion.out","confidence":2,"exitCode":0,"doc":1,"seq":991,"ms":1662609,"op":"terminal.end"}
