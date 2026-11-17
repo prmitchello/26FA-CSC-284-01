@@ -1113,3 +1113,74 @@
 {"doc":1,"seq":1112,"ms":18249526,"op":"save"}
 {"version":674,"changes":[{"offset":455,"length":0,"text":"\n    "}],"doc":1,"seq":1113,"ms":18253747,"op":"edit"}
 {"doc":1,"seq":1114,"ms":18254761,"op":"save"}
+{"version":675,"changes":[{"offset":460,"length":0,"text":"t"}],"doc":1,"seq":1115,"ms":18281925,"op":"edit"}
+{"version":676,"changes":[{"offset":461,"length":0,"text":"h"}],"doc":1,"seq":1116,"ms":18282037,"op":"edit"}
+{"version":677,"changes":[{"offset":462,"length":0,"text":"e"}],"doc":1,"seq":1117,"ms":18282130,"op":"edit"}
+{"version":678,"changes":[{"offset":463,"length":0,"text":" "}],"doc":1,"seq":1118,"ms":18282170,"op":"edit"}
+{"version":679,"changes":[{"offset":464,"length":0,"text":"s"}],"doc":1,"seq":1119,"ms":18282465,"op":"edit"}
+{"version":680,"changes":[{"offset":465,"length":0,"text":"e"}],"doc":1,"seq":1120,"ms":18282587,"op":"edit"}
+{"version":681,"changes":[{"offset":466,"length":0,"text":"c"}],"doc":1,"seq":1121,"ms":18282780,"op":"edit"}
+{"version":682,"changes":[{"offset":467,"length":0,"text":"o"}],"doc":1,"seq":1122,"ms":18282953,"op":"edit"}
+{"version":683,"changes":[{"offset":468,"length":0,"text":"n"}],"doc":1,"seq":1123,"ms":18283118,"op":"edit"}
+{"version":684,"changes":[{"offset":469,"length":0,"text":"d"}],"doc":1,"seq":1124,"ms":18283220,"op":"edit"}
+{"version":685,"changes":[{"offset":470,"length":0,"text":"e"}],"doc":1,"seq":1125,"ms":18283280,"op":"edit"}
+{"doc":1,"seq":1126,"ms":18284288,"op":"save"}
+{"version":686,"changes":[{"offset":470,"length":1,"text":""}],"doc":1,"seq":1127,"ms":18284334,"op":"edit"}
+{"version":687,"changes":[{"offset":470,"length":0,"text":" "}],"doc":1,"seq":1128,"ms":18284557,"op":"edit"}
+{"version":688,"changes":[{"offset":471,"length":0,"text":"a"}],"doc":1,"seq":1129,"ms":18285074,"op":"edit"}
+{"version":689,"changes":[{"offset":472,"length":0,"text":"r"}],"doc":1,"seq":1130,"ms":18285227,"op":"edit"}
+{"version":690,"changes":[{"offset":473,"length":0,"text":"g"}],"doc":1,"seq":1131,"ms":18285389,"op":"edit"}
+{"version":691,"changes":[{"offset":474,"length":0,"text":"u"}],"doc":1,"seq":1132,"ms":18285528,"op":"edit"}
+{"version":692,"changes":[{"offset":475,"length":0,"text":"m"}],"doc":1,"seq":1133,"ms":18285714,"op":"edit"}
+{"version":693,"changes":[{"offset":476,"length":0,"text":"e"}],"doc":1,"seq":1134,"ms":18285737,"op":"edit"}
+{"version":694,"changes":[{"offset":477,"length":0,"text":"n"}],"doc":1,"seq":1135,"ms":18285910,"op":"edit"}
+{"version":695,"changes":[{"offset":478,"length":0,"text":"t"}],"doc":1,"seq":1136,"ms":18286004,"op":"edit"}
+{"version":696,"changes":[{"offset":479,"length":0,"text":" "}],"doc":1,"seq":1137,"ms":18286103,"op":"edit"}
+{"version":697,"changes":[{"offset":480,"length":0,"text":"i"}],"doc":1,"seq":1138,"ms":18286290,"op":"edit"}
+{"version":698,"changes":[{"offset":481,"length":0,"text":"s"}],"doc":1,"seq":1139,"ms":18286371,"op":"edit"}
+{"version":699,"changes":[{"offset":482,"length":0,"text":" "}],"doc":1,"seq":1140,"ms":18286470,"op":"edit"}
+{"doc":1,"seq":1141,"ms":18287486,"op":"save"}
+{"version":700,"changes":[{"offset":483,"length":0,"text":"p"}],"doc":1,"seq":1142,"ms":18291141,"op":"edit"}
+{"text":"/*\n    Mithcello Pierre-Rene\n    11/16/26\n    CSC 284-01\n\n\n\n*/\n\n\n#include \"LogAnalyzer.h\"\n#include <iostream>\n#include <filesystem>\n#include <thread>\n#include <vector>\n\nusing namespace std;\nnamespace fs = std::filesystem;\n\nint main(int argc, char* argv[]) {\n\n    //the progam is expecting 2 arguments passed, any less will encounter this error\n    if (argc < 2) {\n        std::cerr << \"Usage: \" << argv[0] << \" <log_directory>\\n\";\n        return 1;\n    }\n\n    the second argument is pa\n    std::string folderPath = argv[1];\n    LogAnalyzer analyzer;\n\n        std::vector<std::string> keywords = {\"[ERROR]\", \"[WARN]\", \"[INFO]\", \"[FATAL]\", \"[DEBUG]\", \"[TRACE]\"};   // /* TODO: Add the rest of the error levels */};\n        std::vector<std::thread> threads;\n\n    std::cout << \"Analyzing folder: \" << folderPath << \"\\n\\n\";\n\n\n    for(auto& data : fs::directory_iterator(folderPath)){\n\n        if(data.is_regular_file() && data.path().extension()==\".log\"){\n\n\n            std::string filename = data.path().string();\n\n             threads.emplace_back(&LogAnalyzer::analyzeFile,&analyzer,filename, keywords);\n\n\n        }else{\n            cout<<\"sending directory not file\";\n        }\n\n    }\n    // TODO: Join all threads after launching.\n\n\n    for( std::thread& t : threads){\n\n        t.join();\n\n    }\n\n    analyzer.printSummary();\n\n    return 0;\n}\n","version":701,"snapshot":true,"doc":1,"seq":1143,"ms":18291237,"op":"edit"}
+{"version":702,"changes":[{"offset":485,"length":0,"text":"s"}],"doc":1,"seq":1144,"ms":18291476,"op":"edit"}
+{"version":703,"changes":[{"offset":486,"length":0,"text":"s"}],"doc":1,"seq":1145,"ms":18291738,"op":"edit"}
+{"version":704,"changes":[{"offset":487,"length":0,"text":" "}],"doc":1,"seq":1146,"ms":18291983,"op":"edit"}
+{"version":705,"changes":[{"offset":488,"length":0,"text":"t"}],"doc":1,"seq":1147,"ms":18292058,"op":"edit"}
+{"version":706,"changes":[{"offset":489,"length":0,"text":"o"}],"doc":1,"seq":1148,"ms":18292342,"op":"edit"}
+{"version":707,"changes":[{"offset":490,"length":0,"text":" "}],"doc":1,"seq":1149,"ms":18292567,"op":"edit"}
+{"version":708,"changes":[{"offset":491,"length":0,"text":"a"}],"doc":1,"seq":1150,"ms":18292709,"op":"edit"}
+{"version":709,"changes":[{"offset":492,"length":0,"text":" "}],"doc":1,"seq":1151,"ms":18292837,"op":"edit"}
+{"version":710,"changes":[{"offset":493,"length":0,"text":"s"}],"doc":1,"seq":1152,"ms":18293195,"op":"edit"}
+{"version":711,"changes":[{"offset":494,"length":0,"text":"t"}],"doc":1,"seq":1153,"ms":18293408,"op":"edit"}
+{"version":712,"changes":[{"offset":495,"length":0,"text":"r"}],"doc":1,"seq":1154,"ms":18293545,"op":"edit"}
+{"version":713,"changes":[{"offset":496,"length":0,"text":"n"}],"doc":1,"seq":1155,"ms":18293764,"op":"edit"}
+{"version":714,"changes":[{"offset":496,"length":1,"text":""}],"doc":1,"seq":1156,"ms":18294244,"op":"edit"}
+{"version":715,"changes":[{"offset":496,"length":0,"text":"i"}],"doc":1,"seq":1157,"ms":18294463,"op":"edit"}
+{"version":716,"changes":[{"offset":497,"length":0,"text":"n"}],"doc":1,"seq":1158,"ms":18294531,"op":"edit"}
+{"version":717,"changes":[{"offset":498,"length":0,"text":"g"}],"doc":1,"seq":1159,"ms":18294653,"op":"edit"}
+{"version":718,"changes":[{"offset":499,"length":0,"text":" "}],"doc":1,"seq":1160,"ms":18294753,"op":"edit"}
+{"version":719,"changes":[{"offset":500,"length":0,"text":"v"}],"doc":1,"seq":1161,"ms":18295381,"op":"edit"}
+{"version":720,"changes":[{"offset":501,"length":0,"text":"a"}],"doc":1,"seq":1162,"ms":18295454,"op":"edit"}
+{"version":721,"changes":[{"offset":502,"length":0,"text":"r"}],"doc":1,"seq":1163,"ms":18295624,"op":"edit"}
+{"version":722,"changes":[{"offset":503,"length":0,"text":"i"}],"doc":1,"seq":1164,"ms":18295747,"op":"edit"}
+{"version":723,"changes":[{"offset":504,"length":0,"text":"a"}],"doc":1,"seq":1165,"ms":18295853,"op":"edit"}
+{"version":724,"changes":[{"offset":505,"length":0,"text":"b"}],"doc":1,"seq":1166,"ms":18296003,"op":"edit"}
+{"version":725,"changes":[{"offset":506,"length":0,"text":"l"}],"doc":1,"seq":1167,"ms":18296187,"op":"edit"}
+{"version":726,"changes":[{"offset":507,"length":0,"text":"e"}],"doc":1,"seq":1168,"ms":18296257,"op":"edit"}
+{"doc":1,"seq":1169,"ms":18297267,"op":"save"}
+{"version":727,"changes":[{"offset":460,"length":0,"text":"/"}],"doc":1,"seq":1170,"ms":18298999,"op":"edit"}
+{"version":728,"changes":[{"offset":461,"length":0,"text":"/"}],"doc":1,"seq":1171,"ms":18299137,"op":"edit"}
+{"doc":1,"seq":1172,"ms":18300160,"op":"save"}
+{"version":729,"changes":[{"offset":548,"length":0,"text":"\n    "}],"doc":1,"seq":1173,"ms":18304445,"op":"edit"}
+{"doc":1,"seq":1174,"ms":18305458,"op":"save"}
+{"version":730,"changes":[{"offset":1272,"length":5,"text":""},{"offset":995,"length":5,"text":""},{"offset":790,"length":5,"text":""},{"offset":763,"length":5,"text":""},{"offset":751,"length":5,"text":""},{"offset":601,"length":5,"text":""},{"offset":589,"length":5,"text":""},{"offset":549,"length":4,"text":""},{"offset":515,"length":5,"text":""},{"offset":372,"length":5,"text":""},{"offset":205,"length":5,"text":""}],"doc":1,"seq":1175,"ms":18324570,"op":"edit"}
+{"doc":1,"seq":1176,"ms":18325584,"op":"save"}
+{"doc":1,"seq":1177,"ms":18329202,"op":"save"}
+{"executionId":"e82a8e31-c4ce-4408-ae76-200bd8edea30","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"doc":4,"seq":1178,"ms":18332000,"op":"terminal.start"}
+{"executionId":"e82a8e31-c4ce-4408-ae76-200bd8edea30","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":1179,"ms":18332051,"op":"terminal.output"}
+{"executionId":"e82a8e31-c4ce-4408-ae76-200bd8edea30","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1180,"ms":18332995,"op":"terminal.output"}
+{"executionId":"e82a8e31-c4ce-4408-ae76-200bd8edea30","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"g++-15 -std=c++20 -g *.cpp -o LogAnalyzer","confidence":2,"exitCode":0,"doc":4,"seq":1181,"ms":18332995,"op":"terminal.end"}
+{"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"doc":4,"seq":1182,"ms":18335253,"op":"terminal.start"}
+{"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007","doc":4,"seq":1183,"ms":18335305,"op":"terminal.output"}
+{"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"Analyzing folder: ErrorLogs\r\n\r\nProcessing: ErrorLogs/log_1.log\r\nProcessing: ErrorLogs/log_15.log\r\nProcessing: ErrorLogs/log_14.log\r\nProcessing: ErrorLogs/log_7.logProcessing: ErrorLogs/log_4.logProcessing: \r\nProcessing: Processing: Processing: Processing: ErrorLogs/log_17.log\r\nProcessing: ErrorLogs/log_12.log\r\nProcessing: ErrorLogs/log_38.log\r\n\r\nProcessing: ErrorLogs/log_39.log\r\nProcessing: ErrorLogs/log_34.log\r\nErrorLogs/log_5.log\r\nProcessing: ErrorLogs/log_20.log\r\nProcessing: Processing: ErrorLogs/log_3.log\r\nErrorLogs/log_29.log\r\nProcessing: ErrorLogs/log_23.log\r\nErrorLogs/log_10.log\r\nProcessing: ErrorLogs/log_22.log\r\nProcessing: ErrorLogs/log_16.log\r\nProcessing: ErrorLogs/log_36.log\r\nProcessing: ErrorLogs/log_27.log\r\nProcessing: ErrorLogs/log_32.log\r\nProcessing: ErrorLogs/log_33.log\r\nProcessing: ErrorLogs/log_11.log\r\nProcessing: ErrorLogs/log_21.log\r\nProcessing: Processing: ErrorLogs/log_30.log\r\nProcessing: ErrorLogs/log_6.log\r\nProcessing: ErrorLogs/log_9.log\r\nProcessing: Processing: ErrorLogs/log_28.logErrorLogs/log_40.log\r\nProcessing: ErrorLogs/log_26.log\r\nProcessing: ErrorLogs/log_25.log\r\nProcessing: ErrorLogs/log_31.log\r\nProcessing: ErrorLogs/log_35.log\r\nErrorLogs/log_24.log\r\nProcessing: ErrorLogs/log_8.log\r\nErrorLogs/log_2.log\r\nErrorLogs/log_19.log\r\n\r\nProcessing: ErrorLogs/log_13.log\r\nProcessing: ErrorLogs/log_18.log\r\nProcessing: ErrorLogs/log_37.log\r\n\r\n--- Keyword Summary ---\r\n[DEBUG]: 675\r\n[ERROR]: 667\r\n[FATAL]: 656\r\n[INFO]: 705\r\n[TRACE]: 661\r\n[WARN]: 636\r\n-----------------------\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":1184,"ms":18335399,"op":"terminal.output"}
+{"executionId":"57480836-c483-4c4d-950d-0867b66247e9","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"./LogAnalyzer ErrorLogs","confidence":2,"exitCode":0,"doc":4,"seq":1185,"ms":18335399,"op":"terminal.end"}
