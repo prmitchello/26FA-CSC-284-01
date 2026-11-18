@@ -1,0 +1,19 @@
+{"version":1,"courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-11-18T16:21:06.680Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"6d4f8b1a-ed78-46f7-b4d5-41ef17c454b6","sourceWindowId":"44cc284e-2900-451b-8d31-818855287f5a","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"aed19992b18d7092d06aede6a8ab66d6da7a5c99","seq":1,"ms":-3534,"op":"source.context"}
+{"text":"# Prerequisites\n*.d\n\n# Compiled Object files\n*.slo\n*.lo\n*.o\n*.obj\n\n# Precompiled Headers\n*.gch\n*.pch\n\n# Linker files\n*.ilk\n\n# Debugger Files\n*.pdb\n\n# Compiled Dynamic libraries\n*.so\n*.dylib\n*.dll\n*.so.*\n\n# Fortran module files\n*.mod\n*.smod\n\n# Compiled Static libraries\n*.lai\n*.la\n\n# Executables\n*.exe\n*.out\n*.app\n\n# Build directories\nbuild/\nBuild/\nbuild-*/\n\n# CMake generated files\nCMakeFiles/\nCMakeCache.txt\ncmake_install.cmake\nMakefile\ninstall_manifest.txt\ncompile_commands.json\n\n# Temporary files\n*.tmp\n*.bak\n*.swp\n\n# vcpkg\nvcpkg_installed/\n\n# debug information files\n*.dwo\n\n# test output & cache\nTesting/\n.cache/\n\n.DS_Store/\n\n#my gitignore options","version":1,"path":".gitignore","snapshot":true,"doc":1,"seq":2,"ms":-3534,"op":"snap"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":2,"seq":3,"ms":-3534,"op":"snap"}
+{"text":"{\n  \"files.exclude\": {\n    \"**/.gitkeep\": true,\n    \"**/*.class\": true,\n    \"**/*.dSYM\": true,\n    \"**/*.exe\": true,\n    \"**/vcr-course.json\": true,\n    \"**/vcr-recording.json\": true,\n    \"**/*.out\": true,\n    \"**/.vscode/build\": true\n  },\n  \"files.autoSave\": \"afterDelay\",\n  \"workbench.colorTheme\": \"Light Modern\",\n  \"terminal.integrated.cursorStyle\": \"line\",\n  \"terminal.integrated.enablePersistentSessions\": false,\n  \"debug.onTaskErrors\": \"showErrors\",\n  \"debug.terminal.clearBeforeReusing\": true,\n  \"C_Cpp.vcFormat.newLine.beforeOpenBrace.block\": \"sameLine\",\n  \"C_Cpp.vcFormat.newLine.beforeOpenBrace.function\": \"sameLine\",\n  \"C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda\": \"sameLine\"\n}\n","version":1,"path":".vscode/settings.json","snapshot":true,"doc":3,"seq":4,"ms":8490,"op":"snap"}
+{"doc":3,"seq":5,"ms":18921,"op":"close"}
+{"text":"build/*\n!build/.gitkeep\n\n.DS_Store/\n**/.DS_Store\n\n# macOS metadata\n.DS_Store\n\n# macOS debug symbol bundles\n*.dSYM/\n\n# Compiled C++ files\n*.o\n","version":1,"path":".vscode/.gitignore","snapshot":true,"doc":4,"seq":6,"ms":18931,"op":"snap"}
+{"doc":4,"seq":7,"ms":28258,"op":"close"}
+{"text":"# Auto detect text files and perform LF normalization\n* text=auto\n","version":1,"path":".gitattributes","snapshot":true,"doc":5,"seq":8,"ms":28268,"op":"snap"}
+{"version":2,"changes":[{"offset":629,"length":22,"text":""}],"doc":1,"seq":9,"ms":38766,"op":"edit"}
+{"version":3,"changes":[{"offset":628,"length":1,"text":""}],"doc":1,"seq":10,"ms":39337,"op":"edit"}
+{"doc":1,"seq":11,"ms":40349,"op":"save"}
+{"doc":1,"seq":12,"ms":40408,"op":"save"}
+{"version":4,"changes":[{"offset":617,"length":11,"text":""}],"doc":1,"seq":13,"ms":46117,"op":"edit"}
+{"doc":1,"seq":14,"ms":47133,"op":"save"}
+{"version":5,"reason":1,"changes":[{"offset":617,"length":0,"text":"\n.DS_Store/"}],"doc":1,"seq":15,"ms":47410,"op":"edit"}
+{"doc":1,"seq":16,"ms":48417,"op":"save"}
+{"doc":1,"seq":17,"ms":49164,"op":"close"}
+{"doc":5,"seq":18,"ms":49673,"op":"close"}

@@ -1760,3 +1760,4 @@
 {"executionId":"f22d4f01-10fa-4ca2-9b8e-87acf1ec3868","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"cd ..","confidence":2,"doc":1,"seq":1759,"ms":73430292,"op":"terminal.start"}
 {"executionId":"f22d4f01-10fa-4ca2-9b8e-87acf1ec3868","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":1,"seq":1760,"ms":73430292,"op":"terminal.output"}
 {"executionId":"f22d4f01-10fa-4ca2-9b8e-87acf1ec3868","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"cd ..","confidence":2,"exitCode":0,"doc":1,"seq":1761,"ms":73430292,"op":"terminal.end"}
+{"seq":1762,"ms":73626230,"op":"end"}

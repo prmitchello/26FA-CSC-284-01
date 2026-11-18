@@ -3109,3 +3109,4 @@
 {"executionId":"ece0a2b1-0406-4fc0-a4cf-82b8352071d6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd ..","confidence":2,"doc":4,"seq":3108,"ms":21437796,"op":"terminal.start"}
 {"executionId":"ece0a2b1-0406-4fc0-a4cf-82b8352071d6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":3109,"ms":21437797,"op":"terminal.output"}
 {"executionId":"ece0a2b1-0406-4fc0-a4cf-82b8352071d6","terminalId":"273eb525-ffa1-4ce6-8747-6750fa4c2ba6","commandLine":"cd ..","confidence":2,"exitCode":0,"doc":4,"seq":3110,"ms":21437797,"op":"terminal.end"}
+{"seq":3111,"ms":160222207,"op":"end"}
