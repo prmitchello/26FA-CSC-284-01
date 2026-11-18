@@ -296,3 +296,7 @@
 {"version":237,"changes":[{"offset":159,"length":0,"text":";"}],"doc":2,"seq":295,"ms":2023578,"op":"edit"}
 {"doc":2,"seq":296,"ms":2024599,"op":"save"}
 {"doc":2,"seq":297,"ms":2038063,"op":"save"}
+{"executionId":"bee9cb58-238c-4cdb-95a9-72e3e9476718","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","commandLine":"g++ game.cpp -lncurses -o app\n","confidence":2,"doc":1,"seq":298,"ms":2219616,"op":"terminal.start"}
+{"executionId":"bee9cb58-238c-4cdb-95a9-72e3e9476718","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","data":"\u001b]633;C\u0007","doc":1,"seq":299,"ms":2219667,"op":"terminal.output"}
+{"executionId":"bee9cb58-238c-4cdb-95a9-72e3e9476718","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":1,"seq":300,"ms":2219837,"op":"terminal.output"}
+{"executionId":"bee9cb58-238c-4cdb-95a9-72e3e9476718","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","commandLine":"g++ game.cpp -lncurses -o app\n","confidence":2,"exitCode":0,"doc":1,"seq":301,"ms":2219837,"op":"terminal.end"}
