@@ -30,8 +30,6 @@
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
 *.exe
@@ -53,7 +51,6 @@ compile_commands.json
 
 # Temporary files
 *.tmp
-*.log
 *.bak
 *.swp
 
@@ -68,13 +65,3 @@ Testing/
 .cache/
 
 .DS_Store/
-**/.DS_Store
-
-# macOS metadata
-.DS_Store
-
-# macOS debug symbol bundles
-*.dSYM/
-
-# Compiled C++ files
-*.o

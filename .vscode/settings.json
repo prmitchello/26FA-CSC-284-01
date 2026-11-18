@@ -14,5 +14,8 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.enablePersistentSessions": false,
   "debug.onTaskErrors": "showErrors",
-  "debug.terminal.clearBeforeReusing": true
+  "debug.terminal.clearBeforeReusing": true,
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine"
 }
