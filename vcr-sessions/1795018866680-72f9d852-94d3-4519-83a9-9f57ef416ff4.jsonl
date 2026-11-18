@@ -17,3 +17,4 @@
 {"doc":1,"seq":16,"ms":48417,"op":"save"}
 {"doc":1,"seq":17,"ms":49164,"op":"close"}
 {"doc":5,"seq":18,"ms":49673,"op":"close"}
+{"doc":2,"seq":19,"ms":176394,"op":"close"}
