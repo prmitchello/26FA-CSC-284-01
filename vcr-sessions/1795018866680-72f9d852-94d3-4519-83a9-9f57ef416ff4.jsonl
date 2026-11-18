@@ -26,3 +26,6 @@
 {"executionId":"cc4b503e-f010-4747-bd2b-81b2af291f9e","processId":-1,"doc":6,"seq":25,"ms":21637116,"op":"task.processStart"}
 {"executionId":"cc4b503e-f010-4747-bd2b-81b2af291f9e","exitCode":-1,"doc":6,"seq":26,"ms":21637531,"op":"task.processEnd"}
 {"executionId":"cc4b503e-f010-4747-bd2b-81b2af291f9e","doc":6,"seq":27,"ms":21637532,"op":"task.end"}
+{"executionId":"5c3ee77e-bfaa-47a6-b076-10ae7e6522ca","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","commandLine":"g++ game.cpp -lncurses -o app\n","confidence":2,"doc":6,"seq":28,"ms":21688934,"op":"terminal.start"}
+{"executionId":"5c3ee77e-bfaa-47a6-b076-10ae7e6522ca","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","data":"\u001b]633;C\u0007clang++: \u001b[0;1;31merror: \u001b[0m\u001b[1mno such file or directory: 'game.cpp'\u001b[0m\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":6,"seq":29,"ms":21688969,"op":"terminal.output"}
+{"executionId":"5c3ee77e-bfaa-47a6-b076-10ae7e6522ca","terminalId":"81c1442b-4625-4a23-ac9c-29164fed6e1e","commandLine":"g++ game.cpp -lncurses -o app\n","confidence":2,"exitCode":1,"doc":6,"seq":30,"ms":21688969,"op":"terminal.end"}
