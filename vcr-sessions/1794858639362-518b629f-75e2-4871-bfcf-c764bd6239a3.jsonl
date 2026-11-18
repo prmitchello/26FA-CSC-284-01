@@ -393,3 +393,9 @@
 {"executionId":"3ee48142-fbb4-4685-becf-51bc1e8f910f","doc":2,"seq":392,"ms":90136617,"op":"task.end"}
 {"executionId":"a425568e-ab44-4176-b678-ac86cfb1848b","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":393,"ms":90136622,"op":"debug.start"}
 {"executionId":"a425568e-ab44-4176-b678-ac86cfb1848b","doc":2,"seq":394,"ms":90136731,"op":"debug.end"}
+{"version":8,"changes":[{"offset":0,"length":628,"text":""}],"doc":4,"seq":395,"ms":159941354,"op":"edit"}
+{"doc":4,"seq":396,"ms":159942374,"op":"save"}
+{"version":9,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":0,"text":"# Prerequisites\n*.d\n\n# Compiled Object files\n*.slo\n*.lo\n*.o\n*.obj\n\n# Precompiled Headers\n*.gch\n*.pch\n\n# Linker files\n*.ilk\n\n# Debugger Files\n*.pdb\n\n# Compiled Dynamic libraries\n*.so\n*.dylib\n*.dll\n*.so.*\n\n# Fortran module files\n*.mod\n*.smod\n\n# Compiled Static libraries\n*.lai\n*.la\n\n# Executables\n*.exe\n*.out\n*.app\n\n# Build directories\nbuild/\nBuild/\nbuild-*/\n\n# CMake generated files\nCMakeFiles/\nCMakeCache.txt\ncmake_install.cmake\nMakefile\ninstall_manifest.txt\ncompile_commands.json\n\n# Temporary files\n*.tmp\n*.bak\n*.swp\n\n# vcpkg\nvcpkg_installed/\n\n# debug information files\n*.dwo\n\n# test output & cache\nTesting/\n.cache/\n\n.DS_Store/"}],"doc":4,"seq":397,"ms":159947903,"op":"edit"}
+{"doc":4,"seq":398,"ms":159948923,"op":"save"}
+{"doc":4,"seq":399,"ms":159949751,"op":"save"}
+{"doc":4,"seq":400,"ms":159958551,"op":"close"}
