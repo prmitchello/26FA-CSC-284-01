@@ -419,3 +419,35 @@
 {"executionId":"2d706659-e73b-4ac3-856e-48c8462bed05","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"remote: Resolving deltas:   0% (0/24)\u001b[K\rremote: Resolving deltas:   4% (1/24)\u001b[K\rremote: Resolving deltas:   8% (2/24)\u001b[K\rremote: Resolving deltas:  12% (3/24)\u001b[K\rremote: Resolving deltas:  16% (4/24)\u001b[K\rremote: Resolving deltas:  20% (5/24)\u001b[K\rremote: Resolving deltas:  25% (6/24)\u001b[K\rremote: Resolving deltas:  29% (7/24)\u001b[K\rremote: Resolving deltas:  33% (8/24)\u001b[K\rremote: Resolving deltas:  37% (9/24)\u001b[K\rremote: Resolving deltas:  41% (10/24)\u001b[K\rremote: Resolving deltas:  45% (11/24)\u001b[K\rremote: Resolving deltas:  50% (12/24)\u001b[K\rremote: Resolving deltas:  54% (13/24)\u001b[K\rremote: Resolving deltas:  58% (14/24)\u001b[K\rremote: Resolving deltas:  62% (15/24)\u001b[K\rremote: Resolving deltas:  66% (16/24)\u001b[K\rremote: Resolving deltas:  70% (17/24)\u001b[K\rremote: Resolving deltas:  75% (18/24)\u001b[K\rremote: Resolving deltas:  79% (19/24)\u001b[K\rremote: Resolving deltas:  83% (20/24)\u001b[K\rremote: Resolving deltas:  87% (21/24)\u001b[K\rremote: Resolving deltas:  91% (22/24)\u001b[K\rremote: Resolving deltas:  95% (23/24)\u001b[K\rremote: Resolving deltas: 100% (24/24)\u001b[K\rremote: Resolving deltas: 100% (24/24), completed with 9 local objects.\u001b[K\r\n","doc":2,"seq":418,"ms":160064848,"op":"terminal.output"}
 {"executionId":"2d706659-e73b-4ac3-856e-48c8462bed05","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","data":"To https://github.com/prmitchello/26FA-CSC-284-01.git\r\n   fd7b3d8..aed1999  main -> main\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":2,"seq":419,"ms":160065427,"op":"terminal.output"}
 {"executionId":"2d706659-e73b-4ac3-856e-48c8462bed05","terminalId":"e81d2df8-847b-4100-89bd-cf717aae464d","commandLine":"git push origin ","confidence":2,"exitCode":0,"doc":2,"seq":420,"ms":160065428,"op":"terminal.end"}
+{"version":10,"changes":[{"offset":628,"length":0,"text":"\n"}],"doc":4,"seq":421,"ms":160105948,"op":"edit"}
+{"version":11,"changes":[{"offset":629,"length":0,"text":"\n"}],"doc":4,"seq":422,"ms":160106165,"op":"edit"}
+{"version":12,"changes":[{"offset":630,"length":0,"text":"z"}],"doc":4,"seq":423,"ms":160106790,"op":"edit"}
+{"doc":4,"seq":424,"ms":160107803,"op":"save"}
+{"version":13,"changes":[{"offset":631,"length":0,"text":"#"}],"doc":4,"seq":425,"ms":160107833,"op":"edit"}
+{"version":14,"changes":[{"offset":631,"length":1,"text":""}],"doc":4,"seq":426,"ms":160108510,"op":"edit"}
+{"version":15,"changes":[{"offset":630,"length":1,"text":""}],"doc":4,"seq":427,"ms":160108656,"op":"edit"}
+{"version":16,"changes":[{"offset":630,"length":0,"text":"#"}],"doc":4,"seq":428,"ms":160108829,"op":"edit"}
+{"version":17,"changes":[{"offset":631,"length":0,"text":"m"}],"doc":4,"seq":429,"ms":160109479,"op":"edit"}
+{"version":18,"changes":[{"offset":632,"length":0,"text":"y"}],"doc":4,"seq":430,"ms":160109719,"op":"edit"}
+{"version":19,"changes":[{"offset":633,"length":0,"text":" "}],"doc":4,"seq":431,"ms":160109911,"op":"edit"}
+{"doc":4,"seq":432,"ms":160110929,"op":"save"}
+{"version":20,"changes":[{"offset":634,"length":0,"text":"g"}],"doc":4,"seq":433,"ms":160111167,"op":"edit"}
+{"version":21,"changes":[{"offset":635,"length":0,"text":"i"}],"doc":4,"seq":434,"ms":160111325,"op":"edit"}
+{"version":22,"changes":[{"offset":636,"length":0,"text":"t"}],"doc":4,"seq":435,"ms":160111363,"op":"edit"}
+{"doc":4,"seq":436,"ms":160112382,"op":"save"}
+{"version":23,"changes":[{"offset":637,"length":0,"text":"i"}],"doc":4,"seq":437,"ms":160112584,"op":"edit"}
+{"version":24,"changes":[{"offset":638,"length":0,"text":"g"}],"doc":4,"seq":438,"ms":160112719,"op":"edit"}
+{"version":25,"changes":[{"offset":639,"length":0,"text":"n"}],"doc":4,"seq":439,"ms":160112762,"op":"edit"}
+{"version":26,"changes":[{"offset":640,"length":0,"text":"o"}],"doc":4,"seq":440,"ms":160112919,"op":"edit"}
+{"version":27,"changes":[{"offset":641,"length":0,"text":"r"}],"doc":4,"seq":441,"ms":160113065,"op":"edit"}
+{"version":28,"changes":[{"offset":642,"length":0,"text":"e"}],"doc":4,"seq":442,"ms":160113177,"op":"edit"}
+{"doc":4,"seq":443,"ms":160114191,"op":"save"}
+{"version":29,"changes":[{"offset":643,"length":0,"text":" "}],"doc":4,"seq":444,"ms":160114873,"op":"edit"}
+{"version":30,"changes":[{"offset":644,"length":0,"text":"o"}],"doc":4,"seq":445,"ms":160115057,"op":"edit"}
+{"version":31,"changes":[{"offset":645,"length":0,"text":"p"}],"doc":4,"seq":446,"ms":160115167,"op":"edit"}
+{"version":32,"changes":[{"offset":646,"length":0,"text":"t"}],"doc":4,"seq":447,"ms":160115307,"op":"edit"}
+{"version":33,"changes":[{"offset":647,"length":0,"text":"i"}],"doc":4,"seq":448,"ms":160115397,"op":"edit"}
+{"version":34,"changes":[{"offset":648,"length":0,"text":"o"}],"doc":4,"seq":449,"ms":160115560,"op":"edit"}
+{"version":35,"changes":[{"offset":649,"length":0,"text":"n"}],"doc":4,"seq":450,"ms":160115592,"op":"edit"}
+{"version":36,"changes":[{"offset":650,"length":0,"text":"s"}],"doc":4,"seq":451,"ms":160115743,"op":"edit"}
+{"doc":4,"seq":452,"ms":160116757,"op":"save"}
