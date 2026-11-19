@@ -162,3 +162,12 @@
 {"version":132,"changes":[{"offset":783,"length":0,"text":"\n    "}],"doc":2,"seq":161,"ms":2726852,"op":"edit"}
 {"version":133,"changes":[{"offset":788,"length":0,"text":"\n    "},{"offset":784,"length":4,"text":""}],"doc":2,"seq":162,"ms":2727622,"op":"edit"}
 {"version":134,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":789,"length":0,"text":"std::string userInput = \"Hello Server\";\nsend(sock, userInput.c_str(), userInput.size(), 0);\n"}],"doc":2,"seq":163,"ms":2727964,"op":"edit"}
+{"doc":2,"seq":164,"ms":2728973,"op":"save"}
+{"version":135,"changes":[{"offset":829,"length":0,"text":"    "}],"doc":2,"seq":165,"ms":2731164,"op":"edit"}
+{"doc":2,"seq":166,"ms":2732171,"op":"save"}
+{"version":136,"changes":[{"offset":884,"length":0,"text":"\n    "}],"doc":2,"seq":167,"ms":2750949,"op":"edit"}
+{"version":137,"changes":[{"offset":889,"length":0,"text":"\n    "},{"offset":885,"length":4,"text":""}],"doc":2,"seq":168,"ms":2751087,"op":"edit"}
+{"version":138,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":890,"length":0,"text":"char buffer[4096];\nstd::memset(buffer, 0, sizeof(buffer));\nint bytesReceived = recv(sock, buffer, sizeof(buffer), 0);\nif (bytesReceived > 0) {\n    std::cout << \"Server: \" << std::string(buffer, bytesReceived) << \"\\n\";\n}\n"}],"doc":2,"seq":169,"ms":2752015,"op":"edit"}
+{"doc":2,"seq":170,"ms":2753024,"op":"save"}
+{"version":139,"changes":[{"offset":1108,"length":0,"text":"    "},{"offset":1033,"length":4,"text":"        "},{"offset":1008,"length":0,"text":"    "},{"offset":949,"length":0,"text":"    "},{"offset":909,"length":0,"text":"    "}],"doc":2,"seq":171,"ms":2755650,"op":"edit"}
+{"doc":2,"seq":172,"ms":2756669,"op":"save"}
