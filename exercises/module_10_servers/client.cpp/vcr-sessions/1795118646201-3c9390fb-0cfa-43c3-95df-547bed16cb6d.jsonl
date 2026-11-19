@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"exercises/module_10_servers/client.cpp","startedAt":"2026-11-19T20:04:06.201Z","attemptId":"b02e4ea3-85a8-4c94-a3ab-142a34601874","segmentId":"48bedfda-69dc-49f2-b5e7-df0f7c914843","sourceWindowId":"f04bf45f-816e-4fdc-a047-e99db6032ce5","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-58,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-58,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":29,"op":"fs.create"}
