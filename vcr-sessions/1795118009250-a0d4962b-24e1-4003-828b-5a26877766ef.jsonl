@@ -5,3 +5,4 @@
 {"source":"watcher","path":"content/chatroom","doc":2,"seq":4,"ms":2175,"op":"fs.create"}
 {"source":"watcher","path":"content/chatroom/ChatClient.cpp","doc":3,"seq":5,"ms":2175,"op":"fs.create"}
 {"source":"watcher","path":"content/chatroom/ChatServer.cpp","doc":4,"seq":6,"ms":2175,"op":"fs.create"}
+{"doc":1,"seq":7,"ms":176232,"op":"close"}
