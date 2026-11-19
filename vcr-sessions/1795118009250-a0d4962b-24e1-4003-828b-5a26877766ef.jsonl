@@ -6,3 +6,7 @@
 {"source":"watcher","path":"content/chatroom/ChatClient.cpp","doc":3,"seq":5,"ms":2175,"op":"fs.create"}
 {"source":"watcher","path":"content/chatroom/ChatServer.cpp","doc":4,"seq":6,"ms":2175,"op":"fs.create"}
 {"doc":1,"seq":7,"ms":176232,"op":"close"}
+{"executionId":"eb2f8dce-0a77-42a4-a048-895bb1ddb22c","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":5,"seq":8,"ms":3489156,"op":"task.start"}
+{"executionId":"eb2f8dce-0a77-42a4-a048-895bb1ddb22c","processId":-1,"doc":5,"seq":9,"ms":3489201,"op":"task.processStart"}
+{"executionId":"eb2f8dce-0a77-42a4-a048-895bb1ddb22c","exitCode":-1,"doc":5,"seq":10,"ms":3489632,"op":"task.processEnd"}
+{"executionId":"eb2f8dce-0a77-42a4-a048-895bb1ddb22c","doc":5,"seq":11,"ms":3489632,"op":"task.end"}
