@@ -131,3 +131,11 @@
 {"doc":2,"seq":130,"ms":1856381,"op":"save"}
 {"version":113,"changes":[{"offset":245,"length":0,"text":"// "},{"offset":231,"length":0,"text":"// "},{"offset":190,"length":0,"text":"// "},{"offset":141,"length":0,"text":"// "},{"offset":119,"length":0,"text":"// "},{"offset":101,"length":0,"text":"// "},{"offset":66,"length":0,"text":"// "},{"offset":44,"length":0,"text":"// "},{"offset":22,"length":0,"text":"// "}],"doc":2,"seq":131,"ms":1859059,"op":"edit"}
 {"doc":2,"seq":132,"ms":1860071,"op":"save"}
+{"version":114,"changes":[{"offset":310,"length":0,"text":"\n    "}],"doc":2,"seq":133,"ms":2613933,"op":"edit"}
+{"version":115,"changes":[{"offset":315,"length":0,"text":"\n    "},{"offset":311,"length":4,"text":""}],"doc":2,"seq":134,"ms":2614109,"op":"edit"}
+{"version":116,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":316,"length":0,"text":"SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);\nif (sock < 0) {\n    std::cerr << \"Socket creation failed.\\n\";\n    WSACleanup();\n    return 1;\n}\n"}],"doc":2,"seq":135,"ms":2614640,"op":"edit"}
+{"doc":2,"seq":136,"ms":2615658,"op":"save"}
+{"version":117,"changes":[{"offset":363,"length":0,"text":"    "}],"doc":2,"seq":137,"ms":2617805,"op":"edit"}
+{"doc":2,"seq":138,"ms":2618817,"op":"save"}
+{"version":118,"changes":[{"offset":269,"length":3,"text":""},{"offset":252,"length":3,"text":""},{"offset":208,"length":3,"text":""},{"offset":156,"length":3,"text":""},{"offset":131,"length":3,"text":""},{"offset":110,"length":3,"text":""},{"offset":72,"length":3,"text":""},{"offset":47,"length":3,"text":""},{"offset":22,"length":3,"text":""}],"doc":2,"seq":139,"ms":2624095,"op":"edit"}
+{"doc":2,"seq":140,"ms":2625108,"op":"save"}
