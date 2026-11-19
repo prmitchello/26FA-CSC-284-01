@@ -171,3 +171,9 @@
 {"doc":2,"seq":170,"ms":2753024,"op":"save"}
 {"version":139,"changes":[{"offset":1108,"length":0,"text":"    "},{"offset":1033,"length":4,"text":"        "},{"offset":1008,"length":0,"text":"    "},{"offset":949,"length":0,"text":"    "},{"offset":909,"length":0,"text":"    "}],"doc":2,"seq":171,"ms":2755650,"op":"edit"}
 {"doc":2,"seq":172,"ms":2756669,"op":"save"}
+{"version":140,"changes":[{"offset":1129,"length":0,"text":"\n    "}],"doc":2,"seq":173,"ms":2840572,"op":"edit"}
+{"version":141,"changes":[{"offset":1134,"length":0,"text":"\n    "},{"offset":1130,"length":4,"text":""}],"doc":2,"seq":174,"ms":2840948,"op":"edit"}
+{"version":142,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1135,"length":0,"text":"char buffer[4096];\nstd::memset(buffer, 0, sizeof(buffer));\nint bytesReceived = recv(sock, buffer, sizeof(buffer), 0);\nif (bytesReceived > 0) {\n    std::cout << \"Server: \" << std::string(buffer, bytesReceived) << \"\\n\";\n}\n"}],"doc":2,"seq":175,"ms":2841360,"op":"edit"}
+{"doc":2,"seq":176,"ms":2842372,"op":"save"}
+{"version":143,"changes":[{"offset":1353,"length":0,"text":"    "},{"offset":1278,"length":4,"text":"        "},{"offset":1253,"length":0,"text":"    "},{"offset":1194,"length":0,"text":"    "},{"offset":1154,"length":0,"text":"    "}],"doc":2,"seq":177,"ms":2844241,"op":"edit"}
+{"doc":2,"seq":178,"ms":2845257,"op":"save"}
