@@ -1,0 +1,7 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":".","startedAt":"2026-11-19T19:53:29.250Z","attemptId":"893894cd-fd10-4f01-9d9a-4ed40ac2576e","segmentId":"eaf14ddf-3ba2-46bb-8141-8a43b594c804","sourceWindowId":"f04bf45f-816e-4fdc-a047-e99db6032ce5","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"aed19992b18d7092d06aede6a8ab66d6da7a5c99","seq":1,"ms":-4121,"op":"source.context"}
+{"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-4121,"op":"snap"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":3,"ms":2175,"op":"source.context"}
+{"source":"watcher","path":"content/chatroom","doc":2,"seq":4,"ms":2175,"op":"fs.create"}
+{"source":"watcher","path":"content/chatroom/ChatClient.cpp","doc":3,"seq":5,"ms":2175,"op":"fs.create"}
+{"source":"watcher","path":"content/chatroom/ChatServer.cpp","doc":4,"seq":6,"ms":2175,"op":"fs.create"}
