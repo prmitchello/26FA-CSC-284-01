@@ -1,3 +1,4 @@
 {"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05","startedAt":"2026-11-19T19:53:29.234Z","attemptId":"e95212e7-1d9e-46e5-992d-3e5fc9fa4e06","segmentId":"fa068d19-ebeb-4984-943b-bd166bb39997","sourceWindowId":"f04bf45f-816e-4fdc-a047-e99db6032ce5","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"aed19992b18d7092d06aede6a8ab66d6da7a5c99","seq":1,"ms":-4105,"op":"source.context"}
 {"text":"#include <iostream>\n#include <curses.h>\n\nusing namespace std;\n\nint main(){\n\n    initscr();\n\n    printw(\"hello world\");\n    mvprintw(5,5,\"resume\");\n\n    refresh();\n\n\n    getch();\n\n    endwin();\n\n    return 0;\n\n}","version":251,"path":"game.cpp","snapshot":true,"doc":1,"seq":2,"ms":-4105,"op":"snap"}
+{"seq":3,"ms":68772773,"op":"end"}
