@@ -6,3 +6,4 @@
 {"executionId":"31a41094-6f08-4cf3-a99c-94fa44531b9a","exitCode":-1,"doc":2,"seq":5,"ms":2312,"op":"task.processEnd"}
 {"executionId":"31a41094-6f08-4cf3-a99c-94fa44531b9a","doc":2,"seq":6,"ms":2313,"op":"task.end"}
 {"doc":1,"seq":7,"ms":175945,"op":"close"}
+{"seq":8,"ms":252213,"op":"end"}
