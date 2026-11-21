@@ -13,3 +13,7 @@
 {"executionId":"65c6374f-ac1e-4520-9ac7-6fd728bbe494","terminalId":"e0d3c775-b6d6-4d89-97bd-45c924649f97","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_05'","confidence":2,"doc":4,"seq":12,"ms":19130011,"op":"terminal.start"}
 {"executionId":"65c6374f-ac1e-4520-9ac7-6fd728bbe494","terminalId":"e0d3c775-b6d6-4d89-97bd-45c924649f97","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":4,"seq":13,"ms":19130012,"op":"terminal.output"}
 {"executionId":"65c6374f-ac1e-4520-9ac7-6fd728bbe494","terminalId":"e0d3c775-b6d6-4d89-97bd-45c924649f97","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_05'","confidence":2,"exitCode":0,"doc":4,"seq":14,"ms":19130013,"op":"terminal.end"}
+{"executionId":"0995631d-8de0-4891-9b7e-f5395ad257e9","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":4,"seq":15,"ms":19990407,"op":"task.start"}
+{"executionId":"0995631d-8de0-4891-9b7e-f5395ad257e9","processId":-1,"doc":4,"seq":16,"ms":19990431,"op":"task.processStart"}
+{"executionId":"0995631d-8de0-4891-9b7e-f5395ad257e9","exitCode":-1,"doc":4,"seq":17,"ms":19990622,"op":"task.processEnd"}
+{"executionId":"0995631d-8de0-4891-9b7e-f5395ad257e9","doc":4,"seq":18,"ms":19990623,"op":"task.end"}
