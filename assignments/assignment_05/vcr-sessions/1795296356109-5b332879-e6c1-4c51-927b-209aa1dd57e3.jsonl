@@ -1,3 +1,5 @@
 {"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05","startedAt":"2026-11-21T21:25:56.109Z","attemptId":"e95212e7-1d9e-46e5-992d-3e5fc9fa4e06","segmentId":"a187ed12-942e-469c-8ac4-41d9b26d9d28","sourceWindowId":"1850db9a-cec3-4c73-b8d9-3f3bcc370106","seq":0,"ms":0,"op":"session"}
 {"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-3753,"op":"source.context"}
 {"text":"#include <iostream>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nint main(){\n\n    initscr();\n\n    WINDOW* win = newwin(20,80,0,0);\n    refresh();\n\n    printw(\"hello world\");\n\n\n    mvprintw(win,0,0,\"resume\");\n\n\n    refresh();\n\n\n    getch();\n\n    endwin();\n\n    return 0;\n\n}","version":1,"path":"game.cpp","snapshot":true,"doc":1,"seq":2,"ms":-3753,"op":"snap"}
+{"version":2,"changes":[{"offset":203,"length":0,"text":"w"}],"doc":1,"seq":3,"ms":78980,"op":"edit"}
+{"doc":1,"seq":4,"ms":79993,"op":"save"}
