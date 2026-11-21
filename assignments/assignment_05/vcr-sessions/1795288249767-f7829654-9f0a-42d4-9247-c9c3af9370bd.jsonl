@@ -2,3 +2,4 @@
 {"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-36,"op":"source.context"}
 {"text":"#include <iostream>\n#include <curses.h>\n\nusing namespace std;\n\nint main(){\n\n    initscr();\n\n    printw(\"hello world\");\n    mvprintw(5,5,\"resume\");\n\n    refresh();\n\n\n    getch();\n\n    endwin();\n\n    return 0;\n\n}","version":1,"path":"game.cpp","snapshot":true,"doc":1,"seq":2,"ms":-36,"op":"snap"}
 {"version":2,"changes":[{"offset":30,"length":0,"text":"n"}],"doc":1,"seq":3,"ms":3412053,"op":"edit"}
+{"doc":1,"seq":4,"ms":3413066,"op":"save"}
