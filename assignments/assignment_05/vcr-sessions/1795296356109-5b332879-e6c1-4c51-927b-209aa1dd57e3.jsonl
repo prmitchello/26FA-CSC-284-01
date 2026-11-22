@@ -1704,3 +1704,9 @@
 {"executionId":"30b0a896-21c1-466f-ac1a-b58189dbb32f","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":1703,"ms":13892368,"op":"terminal.output"}
 {"executionId":"30b0a896-21c1-466f-ac1a-b58189dbb32f","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":1704,"ms":13892498,"op":"terminal.output"}
 {"executionId":"30b0a896-21c1-466f-ac1a-b58189dbb32f","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":1705,"ms":13892739,"op":"terminal.output"}
+{"version":1177,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1175,"length":11,"text":"Advanced C++ Chat Client)."}],"doc":1,"seq":1706,"ms":14052697,"op":"edit"}
+{"doc":1,"seq":1707,"ms":14053707,"op":"save"}
+{"version":1178,"changes":[{"offset":1200,"length":1,"text":""}],"doc":1,"seq":1708,"ms":14054345,"op":"edit"}
+{"version":1179,"changes":[{"offset":1199,"length":1,"text":""}],"doc":1,"seq":1709,"ms":14055301,"op":"edit"}
+{"doc":1,"seq":1710,"ms":14056312,"op":"save"}
+{"doc":1,"seq":1711,"ms":14057104,"op":"save"}
