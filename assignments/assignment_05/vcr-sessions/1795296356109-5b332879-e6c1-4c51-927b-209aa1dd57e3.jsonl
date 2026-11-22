@@ -5760,3 +5760,65 @@
 {"version":3384,"changes":[{"offset":2357,"length":0,"text":"g"}],"doc":1,"seq":5759,"ms":91203326,"op":"edit"}
 {"version":3385,"changes":[{"offset":2352,"length":6,"text":"typingInput"}],"doc":1,"seq":5760,"ms":91204108,"op":"edit"}
 {"doc":1,"seq":5761,"ms":91205115,"op":"save"}
+{"version":3386,"changes":[{"offset":2398,"length":0,"text":"\n        "}],"doc":1,"seq":5762,"ms":91210231,"op":"edit"}
+{"version":3387,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2407,"length":0,"text":"case KEY_UP:{\n\n        }"}],"doc":1,"seq":5763,"ms":91210893,"op":"edit"}
+{"doc":1,"seq":5764,"ms":91211902,"op":"save"}
+{"version":3388,"changes":[{"offset":2417,"length":1,"text":""}],"doc":1,"seq":5765,"ms":91213036,"op":"edit"}
+{"version":3389,"changes":[{"offset":2416,"length":1,"text":""}],"doc":1,"seq":5766,"ms":91213203,"op":"edit"}
+{"doc":1,"seq":5767,"ms":91214213,"op":"save"}
+{"version":3390,"changes":[{"offset":2416,"length":0,"text":"D"}],"doc":1,"seq":5768,"ms":91215366,"op":"edit"}
+{"version":3391,"changes":[{"offset":2417,"length":0,"text":"O"}],"doc":1,"seq":5769,"ms":91215591,"op":"edit"}
+{"version":3392,"changes":[{"offset":2418,"length":0,"text":"W"}],"doc":1,"seq":5770,"ms":91215729,"op":"edit"}
+{"version":3393,"changes":[{"offset":2419,"length":0,"text":"N"}],"doc":1,"seq":5771,"ms":91215967,"op":"edit"}
+{"doc":1,"seq":5772,"ms":91216981,"op":"save"}
+{"version":3394,"changes":[{"offset":2388,"length":0,"text":"            "}],"doc":1,"seq":5773,"ms":91219036,"op":"edit"}
+{"version":3395,"changes":[{"offset":2400,"length":0,"text":"h"}],"doc":1,"seq":5774,"ms":91219950,"op":"edit"}
+{"version":3396,"changes":[{"offset":2401,"length":0,"text":"i"}],"doc":1,"seq":5775,"ms":91220086,"op":"edit"}
+{"version":3397,"changes":[{"offset":2402,"length":0,"text":"g"}],"doc":1,"seq":5776,"ms":91220244,"op":"edit"}
+{"version":3398,"changes":[{"offset":2403,"length":0,"text":"h"}],"doc":1,"seq":5777,"ms":91220353,"op":"edit"}
+{"version":3399,"changes":[{"offset":2400,"length":4,"text":"highlight"}],"doc":1,"seq":5778,"ms":91221144,"op":"edit"}
+{"doc":1,"seq":5779,"ms":91222161,"op":"save"}
+{"version":3400,"changes":[{"offset":2409,"length":0,"text":"="}],"doc":1,"seq":5780,"ms":91222579,"op":"edit"}
+{"doc":1,"seq":5781,"ms":91223592,"op":"save"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nvoid draw_Left(WINDOW* ,vector<string>&  , int );\n\nint main(){\n\n    //initialize the screen\n    initscr();\n    keypad(stdscr,true);\n    // curs_set(0);\n\n\n    vector<string> sideMenu ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n\n    int highlight = 0;\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n    WINDOW* mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n    WINDOW* rightInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,(terminalWidth-18));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n    WINDOW* leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n    WINDOW* bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );\n\n\n    draw_Left(leftInner, sideMenu, highlight);\n\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(mainInner,0,0);\n\n    box(leftWin,0,0);\n    box(leftInner,0,0);\n\n    box(rightWin,0,0);\n    box(rightInner,0,0);\n\n    box(bottomWin,0,0);\n    box(bottomInner,0,0);\n\n    mvwprintw(mainWin,1,16,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,1,7,\"Feed\");\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomInner,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(mainInner);\n    wrefresh(rightWin);\n    wrefresh(rightInner);\n    wrefresh(leftWin);\n    wrefresh(leftInner);\n    wrefresh(bottomWin);\n    wrefresh(bottomInner);\n\n\nvector<string> text;\n\nstring type=\"\";\n\nwhile (true)\n{\n\n\n    int typingInput = wgetch(bottomInner);\n\n    switch(typingInput){\n        case KEY_UP:{\n            highlight=()\n        }\n        case KEY_DOWN:{\n\n        }\n    }\n\n    if(typingInput == KEY_UP || typingInput == KEY_DOWN ){\n        continue;\n    }else if( typingInput == KEY_LEFT || typingInput == KEY_RIGHT  ){\n\n    }\n    if(typingInput == KEY_BACKSPACE || typingInput == '\\b' || typingInput == 127){\n        if(!type.empty()){\n            type.pop_back();\n        }\n\n        wattron(bottomInner,A_REVERSE);\n\n        wclrtoeol(bottomInner);\n        wmove(bottomInner,1,2);\n\n        wattroff(bottomInner,A_REVERSE);\n\n        mvwprintw(bottomInner,1,1,\"Type > \", type.c_str());\n        wrefresh(bottomInner);\n\n        continue;\n    }\n    text.push_back(\"You: \"+type);\n\n    if(typingInput == KEY_ENTER){\n\n        //mvwprintw(mainWin,6,2,text);\n        break;\n    }\n\n    // int tacker\n    // for(auto& strng;it = text.begin();it<text.end();)\n\n}\n\n    endwin();\n\n    return 0;\n\n}\nvoid draw_Left(WINDOW* leftInner, vector<string>& topicList , int highlight){\n\n    int length = topicList.size();\n\n    for(int i=0; i<length ; ++i){\n\n        if(i == highlight){\n\n            attron(A_REVERSE);\n                mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n            attroff(A_REVERSE);\n\n        }else{\n            mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n        }\n\n    }\n\n    wrefresh(leftInner);\n\n}\n","version":3401,"snapshot":true,"doc":1,"seq":5782,"ms":91224026,"op":"edit"}
+{"version":3402,"changes":[{"offset":2411,"length":1,"text":")"}],"doc":1,"seq":5783,"ms":91224080,"op":"edit"}
+{"doc":1,"seq":5784,"ms":91225095,"op":"save"}
+{"version":3403,"changes":[{"offset":2412,"length":0,"text":"?"}],"doc":1,"seq":5785,"ms":91226603,"op":"edit"}
+{"doc":1,"seq":5786,"ms":91227621,"op":"save"}
+{"version":3404,"changes":[{"offset":2413,"length":0,"text":"h"}],"doc":1,"seq":5787,"ms":91228975,"op":"edit"}
+{"version":3405,"changes":[{"offset":2414,"length":0,"text":"i"}],"doc":1,"seq":5788,"ms":91229079,"op":"edit"}
+{"version":3406,"changes":[{"offset":2413,"length":2,"text":"highlight"}],"doc":1,"seq":5789,"ms":91229880,"op":"edit"}
+{"version":3407,"changes":[{"offset":2422,"length":0,"text":"-"}],"doc":1,"seq":5790,"ms":91230662,"op":"edit"}
+{"version":3408,"changes":[{"offset":2423,"length":0,"text":"1"}],"doc":1,"seq":5791,"ms":91230994,"op":"edit"}
+{"doc":1,"seq":5792,"ms":91232010,"op":"save"}
+{"version":3409,"changes":[{"offset":2424,"length":0,"text":":"}],"doc":1,"seq":5793,"ms":91232327,"op":"edit"}
+{"doc":1,"seq":5794,"ms":91233340,"op":"save"}
+{"version":3410,"changes":[{"offset":2413,"length":0,"text":":"}],"doc":1,"seq":5795,"ms":91245210,"op":"edit"}
+{"version":3411,"changes":[{"offset":2414,"length":0,"text":" "}],"doc":1,"seq":5796,"ms":91245474,"op":"edit"}
+{"doc":1,"seq":5797,"ms":91246484,"op":"save"}
+{"version":3412,"changes":[{"offset":2426,"length":1,"text":""}],"doc":1,"seq":5798,"ms":91246800,"op":"edit"}
+{"doc":1,"seq":5799,"ms":91247809,"op":"save"}
+{"version":3413,"changes":[{"offset":2413,"length":0,"text":" "}],"doc":1,"seq":5800,"ms":91248805,"op":"edit"}
+{"doc":1,"seq":5801,"ms":91249824,"op":"save"}
+{"version":3414,"changes":[{"offset":2414,"length":0,"text":"t"}],"doc":1,"seq":5802,"ms":91250865,"op":"edit"}
+{"doc":1,"seq":5803,"ms":91251884,"op":"save"}
+{"version":3415,"changes":[{"offset":2415,"length":0,"text":"o"}],"doc":1,"seq":5804,"ms":91251951,"op":"edit"}
+{"version":3416,"changes":[{"offset":2416,"length":0,"text":"p"}],"doc":1,"seq":5805,"ms":91252047,"op":"edit"}
+{"version":3417,"changes":[{"offset":2417,"length":0,"text":"i"}],"doc":1,"seq":5806,"ms":91252281,"op":"edit"}
+{"doc":1,"seq":5807,"ms":91253289,"op":"save"}
+{"version":3418,"changes":[{"offset":2417,"length":1,"text":""}],"doc":1,"seq":5808,"ms":91261788,"op":"edit"}
+{"version":3419,"changes":[{"offset":2416,"length":1,"text":""}],"doc":1,"seq":5809,"ms":91261953,"op":"edit"}
+{"version":3420,"changes":[{"offset":2415,"length":1,"text":""}],"doc":1,"seq":5810,"ms":91262800,"op":"edit"}
+{"version":3421,"changes":[{"offset":2414,"length":1,"text":""}],"doc":1,"seq":5811,"ms":91262980,"op":"edit"}
+{"version":3422,"changes":[{"offset":2414,"length":0,"text":"s"}],"doc":1,"seq":5812,"ms":91263510,"op":"edit"}
+{"version":3423,"changes":[{"offset":2415,"length":0,"text":"i"}],"doc":1,"seq":5813,"ms":91263739,"op":"edit"}
+{"version":3424,"changes":[{"offset":2416,"length":0,"text":"d"}],"doc":1,"seq":5814,"ms":91263878,"op":"edit"}
+{"version":3425,"changes":[{"offset":2417,"length":0,"text":"e"}],"doc":1,"seq":5815,"ms":91263948,"op":"edit"}
+{"doc":1,"seq":5816,"ms":91264960,"op":"save"}
+{"version":3426,"changes":[{"offset":2414,"length":4,"text":"sideMenu"}],"doc":1,"seq":5817,"ms":91265353,"op":"edit"}
+{"version":3427,"changes":[{"offset":2422,"length":0,"text":" "}],"doc":1,"seq":5818,"ms":91265871,"op":"edit"}
+{"version":3428,"changes":[{"offset":2423,"length":0,"text":"-"}],"doc":1,"seq":5819,"ms":91266328,"op":"edit"}
+{"version":3429,"changes":[{"offset":2424,"length":0,"text":"1"}],"doc":1,"seq":5820,"ms":91266543,"op":"edit"}
+{"doc":1,"seq":5821,"ms":91267555,"op":"save"}
+{"version":3430,"changes":[{"offset":2411,"length":0,"text":"h"}],"doc":1,"seq":5822,"ms":91269525,"op":"edit"}
+{"version":3431,"changes":[{"offset":2412,"length":0,"text":"i"}],"doc":1,"seq":5823,"ms":91269673,"op":"edit"}
