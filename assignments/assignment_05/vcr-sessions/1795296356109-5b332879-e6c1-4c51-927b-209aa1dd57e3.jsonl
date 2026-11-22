@@ -3692,3 +3692,35 @@
 {"version":2506,"changes":[{"offset":3069,"length":16,"text":""},{"offset":2947,"length":16,"text":""}],"doc":1,"seq":3691,"ms":82506847,"op":"edit"}
 {"doc":1,"seq":3692,"ms":82507858,"op":"save"}
 {"version":2507,"changes":[{"offset":3053,"length":1,"text":""},{"offset":2947,"length":1,"text":""}],"doc":1,"seq":3693,"ms":82509325,"op":"edit"}
+{"doc":1,"seq":3694,"ms":82510334,"op":"save"}
+{"version":2508,"changes":[{"offset":3053,"length":1,"text":""},{"offset":2948,"length":1,"text":""}],"doc":1,"seq":3695,"ms":82510354,"op":"edit"}
+{"doc":1,"seq":3696,"ms":82511362,"op":"save"}
+{"version":2509,"changes":[{"offset":3051,"length":0,"text":" "}],"doc":1,"seq":3697,"ms":82515650,"op":"edit"}
+{"doc":1,"seq":3698,"ms":82516660,"op":"save"}
+{"version":2510,"changes":[{"offset":3053,"length":0,"text":" "}],"doc":1,"seq":3699,"ms":82516956,"op":"edit"}
+{"doc":1,"seq":3700,"ms":82517970,"op":"save"}
+{"version":2511,"changes":[{"offset":2947,"length":0,"text":" "}],"doc":1,"seq":3701,"ms":82518354,"op":"edit"}
+{"version":2512,"changes":[{"offset":2948,"length":0,"text":"("}],"doc":1,"seq":3702,"ms":82518763,"op":"edit"}
+{"doc":1,"seq":3703,"ms":82519776,"op":"save"}
+{"version":2513,"changes":[{"offset":2950,"length":0,"text":"+"}],"doc":1,"seq":3704,"ms":82520199,"op":"edit"}
+{"version":2514,"changes":[{"offset":2951,"length":0,"text":"1"}],"doc":1,"seq":3705,"ms":82520715,"op":"edit"}
+{"version":2515,"changes":[{"offset":2952,"length":0,"text":")"}],"doc":1,"seq":3706,"ms":82521238,"op":"edit"}
+{"version":2516,"changes":[{"offset":2953,"length":0,"text":" "}],"doc":1,"seq":3707,"ms":82522123,"op":"edit"}
+{"doc":1,"seq":3708,"ms":82523141,"op":"save"}
+{"version":2517,"changes":[{"offset":3059,"length":0,"text":"+"}],"doc":1,"seq":3709,"ms":82526269,"op":"edit"}
+{"version":2518,"changes":[{"offset":3060,"length":0,"text":"1"}],"doc":1,"seq":3710,"ms":82526934,"op":"edit"}
+{"version":2519,"changes":[{"offset":3061,"length":0,"text":")"}],"doc":1,"seq":3711,"ms":82527941,"op":"edit"}
+{"doc":1,"seq":3712,"ms":82527967,"op":"save"}
+{"version":2520,"changes":[{"offset":3058,"length":0,"text":"("}],"doc":1,"seq":3713,"ms":82529735,"op":"edit"}
+{"doc":1,"seq":3714,"ms":82530752,"op":"save"}
+{"version":2521,"changes":[{"offset":2911,"length":1,"text":""}],"doc":1,"seq":3715,"ms":82534283,"op":"edit"}
+{"version":2522,"changes":[{"offset":2910,"length":1,"text":""}],"doc":1,"seq":3716,"ms":82534467,"op":"edit"}
+{"doc":1,"seq":3717,"ms":82535477,"op":"save"}
+{"version":2523,"changes":[{"offset":2879,"length":0,"text":"\n            "}],"doc":1,"seq":3718,"ms":82536008,"op":"edit"}
+{"doc":1,"seq":3719,"ms":82537018,"op":"save"}
+{"version":2524,"changes":[{"offset":3022,"length":0,"text":"\n            "},{"offset":2880,"length":12,"text":""}],"doc":1,"seq":3720,"ms":82537446,"op":"edit"}
+{"doc":1,"seq":3721,"ms":82538466,"op":"save"}
+{"version":2525,"changes":[{"offset":3011,"length":12,"text":""}],"doc":1,"seq":3722,"ms":82554934,"op":"edit"}
+{"doc":1,"seq":3723,"ms":82554958,"op":"save"}
+{"executionId":"70d5456e-4861-4a90-9283-26431c9c3893","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","commandLine":"g++-16 game.cpp -o app -lncurses","confidence":2,"doc":2,"seq":3724,"ms":82569256,"op":"terminal.start"}
+{"executionId":"70d5456e-4861-4a90-9283-26431c9c3893","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b]633;C\u0007","doc":2,"seq":3725,"ms":82569308,"op":"terminal.output"}
