@@ -2259,3 +2259,56 @@
 {"version":1575,"changes":[{"offset":1753,"length":0,"text":"i"}],"doc":1,"seq":2258,"ms":72268915,"op":"edit"}
 {"version":1576,"changes":[{"offset":1754,"length":0,"text":"f"}],"doc":1,"seq":2259,"ms":72269080,"op":"edit"}
 {"doc":1,"seq":2260,"ms":72270119,"op":"save"}
+{"version":1577,"changes":[{"offset":1755,"length":0,"text":"()"}],"doc":1,"seq":2261,"ms":72282653,"op":"edit"}
+{"version":1578,"changes":[{"offset":1756,"length":1,"text":")"}],"doc":1,"seq":2262,"ms":72282958,"op":"edit"}
+{"doc":1,"seq":2263,"ms":72283978,"op":"save"}
+{"version":1579,"changes":[{"offset":1756,"length":0,"text":"t"}],"doc":1,"seq":2264,"ms":72285298,"op":"edit"}
+{"version":1580,"changes":[{"offset":1757,"length":0,"text":"y"}],"doc":1,"seq":2265,"ms":72285455,"op":"edit"}
+{"version":1581,"changes":[{"offset":1758,"length":0,"text":"p"}],"doc":1,"seq":2266,"ms":72285736,"op":"edit"}
+{"version":1582,"changes":[{"offset":1759,"length":0,"text":"i"}],"doc":1,"seq":2267,"ms":72285954,"op":"edit"}
+{"version":1583,"changes":[{"offset":1760,"length":0,"text":"n"}],"doc":1,"seq":2268,"ms":72286072,"op":"edit"}
+{"version":1584,"changes":[{"offset":1761,"length":0,"text":"g"}],"doc":1,"seq":2269,"ms":72286205,"op":"edit"}
+{"version":1585,"changes":[{"offset":1762,"length":0,"text":" "}],"doc":1,"seq":2270,"ms":72286332,"op":"edit"}
+{"doc":1,"seq":2271,"ms":72287347,"op":"save"}
+{"version":1586,"changes":[{"offset":1763,"length":0,"text":"="}],"doc":1,"seq":2272,"ms":72287789,"op":"edit"}
+{"version":1587,"changes":[{"offset":1764,"length":0,"text":"="}],"doc":1,"seq":2273,"ms":72287942,"op":"edit"}
+{"version":1588,"changes":[{"offset":1765,"length":0,"text":" "}],"doc":1,"seq":2274,"ms":72288322,"op":"edit"}
+{"doc":1,"seq":2275,"ms":72289333,"op":"save"}
+{"version":1589,"changes":[{"offset":1766,"length":0,"text":"b"}],"doc":1,"seq":2276,"ms":72290344,"op":"edit"}
+{"version":1590,"changes":[{"offset":1767,"length":0,"text":"a"}],"doc":1,"seq":2277,"ms":72290494,"op":"edit"}
+{"doc":1,"seq":2278,"ms":72291508,"op":"save"}
+{"version":1591,"changes":[{"offset":1768,"length":0,"text":"c"}],"doc":1,"seq":2279,"ms":72292069,"op":"edit"}
+{"version":1592,"changes":[{"offset":1769,"length":0,"text":"k"}],"doc":1,"seq":2280,"ms":72292361,"op":"edit"}
+{"doc":1,"seq":2281,"ms":72293384,"op":"save"}
+{"version":1593,"changes":[{"offset":1766,"length":4,"text":"KEY_BACKSPACE"}],"doc":1,"seq":2282,"ms":72295029,"op":"edit"}
+{"doc":1,"seq":2283,"ms":72296044,"op":"save"}
+{"version":1594,"changes":[{"offset":1779,"length":0,"text":";"}],"doc":1,"seq":2284,"ms":72296352,"op":"edit"}
+{"doc":1,"seq":2285,"ms":72297373,"op":"save"}
+{"version":1595,"changes":[{"offset":1779,"length":1,"text":""}],"doc":1,"seq":2286,"ms":72298244,"op":"edit"}
+{"doc":1,"seq":2287,"ms":72299251,"op":"save"}
+{"version":1596,"changes":[{"offset":1780,"length":0,"text":"{}"}],"doc":1,"seq":2288,"ms":72301011,"op":"edit"}
+{"version":1597,"changes":[{"offset":1781,"length":0,"text":"\n        \n    "}],"doc":1,"seq":2289,"ms":72301272,"op":"edit"}
+{"doc":1,"seq":2290,"ms":72302284,"op":"save"}
+{"version":1598,"changes":[{"offset":1790,"length":0,"text":"t"}],"doc":1,"seq":2291,"ms":72311185,"op":"edit"}
+{"version":1599,"changes":[{"offset":1791,"length":0,"text":"y"}],"doc":1,"seq":2292,"ms":72311372,"op":"edit"}
+{"version":1600,"changes":[{"offset":1792,"length":0,"text":"p"}],"doc":1,"seq":2293,"ms":72311730,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nint main(){\n\n    initscr();\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n\n\n    refresh();\n\n    //window refresh to set the create windows on the screen\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\n    refresh();\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(leftWin,0,0);\n    box(rightWin,0,0);\n    box(bottomWin,0,0);\n\n    mvwprintw(mainWin,4,16,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,2,4,\"ChatRooms\");\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomWin,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\nvector<string> text;\n\nstring type=\"\";\n\nwhile (true)\n{\n\n\n    int typing = wgetch(bottomWin);\n\n    if(typing == KEY_UP || typing == KEY_DOWN || typing == KEY_LEFT || typing == KEY_RIGHT  ){\n        continue;\n    }\n    if(typing == KEY_BACKSPACE){\n        type\n    }\n    text.push_back(\"You: \"+type);\n\n    if(typing == KEY_ENTER){\n        cout<<\"enter was presses\"<<endl;\n        //mvwprintw(mainWin,6,2,text);\n        break;\n    }\n\n    int tacker\n    for(auto& strng;it = text.begin();it<text.end();)\n\n\n}\n\n\n    getch();\n\n\n    endwin();\n\n    return 0;\n\n}","version":1601,"snapshot":true,"doc":1,"seq":2294,"ms":72311888,"op":"edit"}
+{"doc":1,"seq":2295,"ms":72312905,"op":"save"}
+{"version":1602,"changes":[{"offset":1794,"length":0,"text":"."}],"doc":1,"seq":2296,"ms":72313080,"op":"edit"}
+{"version":1603,"changes":[{"offset":1795,"length":0,"text":"c"}],"doc":1,"seq":2297,"ms":72313218,"op":"edit"}
+{"version":1604,"changes":[{"offset":1796,"length":0,"text":"l"}],"doc":1,"seq":2298,"ms":72313394,"op":"edit"}
+{"version":1605,"changes":[{"offset":1797,"length":0,"text":"e"}],"doc":1,"seq":2299,"ms":72313646,"op":"edit"}
+{"version":1606,"changes":[{"offset":1798,"length":0,"text":"a"}],"doc":1,"seq":2300,"ms":72313869,"op":"edit"}
+{"version":1607,"changes":[{"offset":1799,"length":0,"text":"r"}],"doc":1,"seq":2301,"ms":72314219,"op":"edit"}
+{"version":1608,"changes":[{"offset":1800,"length":0,"text":"()"}],"doc":1,"seq":2302,"ms":72314962,"op":"edit"}
+{"version":1609,"changes":[{"offset":1801,"length":1,"text":")"}],"doc":1,"seq":2303,"ms":72315014,"op":"edit"}
+{"version":1610,"changes":[{"offset":1802,"length":0,"text":";"}],"doc":1,"seq":2304,"ms":72315358,"op":"edit"}
+{"doc":1,"seq":2305,"ms":72316368,"op":"save"}
+{"doc":1,"seq":2306,"ms":72319194,"op":"save"}
+{"executionId":"30b0a896-21c1-466f-ac1a-b58189dbb32f","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[15;21H","doc":2,"seq":2307,"ms":72321054,"op":"terminal.output"}
+{"executionId":"30b0a896-21c1-466f-ac1a-b58189dbb32f","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[21;1H\u001b[?1049l\r\u001b[?1l\u001b>\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":2308,"ms":72322993,"op":"terminal.output"}
+{"executionId":"30b0a896-21c1-466f-ac1a-b58189dbb32f","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","commandLine":"./app","confidence":2,"exitCode":1,"doc":2,"seq":2309,"ms":72322993,"op":"terminal.end"}
+{"executionId":"b4f941c2-8039-403c-b89b-19ba6adfe43e","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","commandLine":"g++-16 game.cpp -o app -lncurses","confidence":2,"doc":2,"seq":2310,"ms":72327995,"op":"terminal.start"}
+{"executionId":"b4f941c2-8039-403c-b89b-19ba6adfe43e","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b]633;C\u0007","doc":2,"seq":2311,"ms":72328046,"op":"terminal.output"}
+{"executionId":"b4f941c2-8039-403c-b89b-19ba6adfe43e","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[01m\u001b[Kgame.cpp:\u001b[m\u001b[K In function '\u001b[01m\u001b[Kint\u001b[01;32m\u001b[K main\u001b[m\u001b[K()\u001b[m\u001b[K':\r\n\u001b[01m\u001b[Kgame.cpp:93:5:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[Kexpected initializer before '\u001b[01m\u001b[Kfor\u001b[m\u001b[K'\r\n   93 |     \u001b[01;31m\u001b[Kfor\u001b[m\u001b[K(auto& strng;it = text.begin();it<text.end();)\r\n      |     \u001b[01;31m\u001b[K^~~\u001b[m\u001b[K\r\n\u001b[01m\u001b[Kgame.cpp:93:21:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[K'\u001b[01m\u001b[Kit\u001b[m\u001b[K' was not declared in this scope; did you mean '\u001b[01m\u001b[Kint\u001b[m\u001b[K'?\r\n   93 |     for(auto& strng;\u001b[01;31m\u001b[Kit\u001b[m\u001b[K = text.begin();it<text.end();)\r\n      |                     \u001b[01;31m\u001b[K^~\u001b[m\u001b[K\r\n      |                     \u001b[32m\u001b[Kint\u001b[m\u001b[K\r\n\u001b[01m\u001b[Kgame.cpp:93:53:\u001b[m\u001b[K \u001b[01;31m\u001b[Kerror: \u001b[m\u001b[Kexpected primary-expression before '\u001b[01m\u001b[K)\u001b[m\u001b[K' token\r\n   93 |     for(auto& strng;it = text.begin();it<text.end();\u001b[01;31m\u001b[K)\u001b[m\u001b[K\r\n      |                                                     \u001b[01;31m\u001b[K^\u001b[m\u001b[K\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":2312,"ms":72328407,"op":"terminal.output"}
+{"executionId":"b4f941c2-8039-403c-b89b-19ba6adfe43e","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","commandLine":"g++-16 game.cpp -o app -lncurses","confidence":2,"exitCode":1,"doc":2,"seq":2313,"ms":72328407,"op":"terminal.end"}
