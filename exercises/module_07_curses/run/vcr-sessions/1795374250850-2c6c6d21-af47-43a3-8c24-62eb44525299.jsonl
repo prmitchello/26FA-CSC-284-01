@@ -1,0 +1,3 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"exercises/module_07_curses/run","startedAt":"2026-11-22T19:04:10.851Z","attemptId":"616d902c-b13b-43e0-9202-b3611b51001c","segmentId":"74ccfb99-52ea-4d29-b5b3-c86a52f4a5b3","sourceWindowId":"1850db9a-cec3-4c73-b8d9-3f3bcc370106","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-1216,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-1216,"op":"fs.create"}
