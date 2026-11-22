@@ -3222,3 +3222,75 @@
 {"version":2154,"changes":[{"offset":277,"length":0,"text":"="}],"doc":1,"seq":3221,"ms":80044792,"op":"edit"}
 {"version":2155,"changes":[{"offset":278,"length":0,"text":"="}],"doc":1,"seq":3222,"ms":80044941,"op":"edit"}
 {"doc":1,"seq":3223,"ms":80045969,"op":"save"}
+{"version":2156,"changes":[{"offset":279,"length":0,"text":"0"}],"doc":1,"seq":3224,"ms":80050968,"op":"edit"}
+{"doc":1,"seq":3225,"ms":80051979,"op":"save"}
+{"version":2157,"changes":[{"offset":283,"length":0,"text":"        "}],"doc":1,"seq":3226,"ms":80053138,"op":"edit"}
+{"version":2158,"changes":[{"offset":291,"length":0,"text":"o"}],"doc":1,"seq":3227,"ms":80053859,"op":"edit"}
+{"version":2159,"changes":[{"offset":291,"length":1,"text":""}],"doc":1,"seq":3228,"ms":80054748,"op":"edit"}
+{"version":2160,"changes":[{"offset":291,"length":0,"text":"a"}],"doc":1,"seq":3229,"ms":80054923,"op":"edit"}
+{"version":2161,"changes":[{"offset":292,"length":0,"text":"a"}],"doc":1,"seq":3230,"ms":80055157,"op":"edit"}
+{"version":2162,"changes":[{"offset":293,"length":0,"text":"t"}],"doc":1,"seq":3231,"ms":80055502,"op":"edit"}
+{"version":2163,"changes":[{"offset":293,"length":1,"text":""}],"doc":1,"seq":3232,"ms":80056099,"op":"edit"}
+{"version":2164,"changes":[{"offset":292,"length":1,"text":""}],"doc":1,"seq":3233,"ms":80056510,"op":"edit"}
+{"version":2165,"changes":[{"offset":292,"length":0,"text":"t"}],"doc":1,"seq":3234,"ms":80056664,"op":"edit"}
+{"version":2166,"changes":[{"offset":293,"length":0,"text":"t"}],"doc":1,"seq":3235,"ms":80056842,"op":"edit"}
+{"version":2167,"changes":[{"offset":294,"length":0,"text":"r"}],"doc":1,"seq":3236,"ms":80056985,"op":"edit"}
+{"version":2168,"changes":[{"offset":295,"length":0,"text":"i"}],"doc":1,"seq":3237,"ms":80057085,"op":"edit"}
+{"version":2169,"changes":[{"offset":296,"length":0,"text":"b"}],"doc":1,"seq":3238,"ms":80057314,"op":"edit"}
+{"doc":1,"seq":3239,"ms":80058336,"op":"save"}
+{"version":2170,"changes":[{"offset":297,"length":0,"text":"o"}],"doc":1,"seq":3240,"ms":80059137,"op":"edit"}
+{"version":2171,"changes":[{"offset":298,"length":0,"text":"n"}],"doc":1,"seq":3241,"ms":80059348,"op":"edit"}
+{"doc":1,"seq":3242,"ms":80060371,"op":"save"}
+{"version":2172,"changes":[{"offset":299,"length":0,"text":"()"}],"doc":1,"seq":3243,"ms":80061085,"op":"edit"}
+{"version":2173,"changes":[{"offset":300,"length":1,"text":")"}],"doc":1,"seq":3244,"ms":80061122,"op":"edit"}
+{"doc":1,"seq":3245,"ms":80062141,"op":"save"}
+{"version":2174,"changes":[{"offset":296,"length":1,"text":""}],"doc":1,"seq":3246,"ms":80065123,"op":"edit"}
+{"doc":1,"seq":3247,"ms":80066131,"op":"save"}
+{"version":2175,"changes":[{"offset":300,"length":0,"text":";"}],"doc":1,"seq":3248,"ms":80066954,"op":"edit"}
+{"version":2176,"changes":[{"offset":301,"length":0,"text":"\n        "}],"doc":1,"seq":3249,"ms":80067596,"op":"edit"}
+{"version":2177,"changes":[{"offset":310,"length":0,"text":"\n        "},{"offset":302,"length":8,"text":""}],"doc":1,"seq":3250,"ms":80068119,"op":"edit"}
+{"version":2178,"changes":[{"offset":311,"length":0,"text":"a"}],"doc":1,"seq":3251,"ms":80068831,"op":"edit"}
+{"version":2179,"changes":[{"offset":312,"length":0,"text":"t"}],"doc":1,"seq":3252,"ms":80069183,"op":"edit"}
+{"version":2180,"changes":[{"offset":313,"length":0,"text":"t"}],"doc":1,"seq":3253,"ms":80069404,"op":"edit"}
+{"version":2181,"changes":[{"offset":314,"length":0,"text":"r"}],"doc":1,"seq":3254,"ms":80069462,"op":"edit"}
+{"version":2182,"changes":[{"offset":315,"length":0,"text":"i"}],"doc":1,"seq":3255,"ms":80069563,"op":"edit"}
+{"doc":1,"seq":3256,"ms":80070570,"op":"save"}
+{"version":2183,"changes":[{"offset":316,"length":0,"text":"b"}],"doc":1,"seq":3257,"ms":80070913,"op":"edit"}
+{"doc":1,"seq":3258,"ms":80071922,"op":"save"}
+{"version":2184,"changes":[{"offset":317,"length":0,"text":"()"}],"doc":1,"seq":3259,"ms":80072773,"op":"edit"}
+{"version":2185,"changes":[{"offset":318,"length":1,"text":")"}],"doc":1,"seq":3260,"ms":80072818,"op":"edit"}
+{"doc":1,"seq":3261,"ms":80073830,"op":"save"}
+{"version":2186,"changes":[{"offset":316,"length":1,"text":""}],"doc":1,"seq":3262,"ms":80075511,"op":"edit"}
+{"version":2187,"changes":[{"offset":316,"length":0,"text":"o"}],"doc":1,"seq":3263,"ms":80075914,"op":"edit"}
+{"version":2188,"changes":[{"offset":317,"length":0,"text":"f"}],"doc":1,"seq":3264,"ms":80076163,"op":"edit"}
+{"version":2189,"changes":[{"offset":318,"length":0,"text":"f"}],"doc":1,"seq":3265,"ms":80076628,"op":"edit"}
+{"doc":1,"seq":3266,"ms":80077638,"op":"save"}
+{"version":2190,"changes":[{"offset":321,"length":0,"text":";"}],"doc":1,"seq":3267,"ms":80078187,"op":"edit"}
+{"doc":1,"seq":3268,"ms":80079212,"op":"save"}
+{"version":2191,"changes":[{"offset":298,"length":1,"text":"A"}],"doc":1,"seq":3269,"ms":80079946,"op":"edit"}
+{"version":2192,"changes":[{"offset":299,"length":0,"text":"_"}],"doc":1,"seq":3270,"ms":80080582,"op":"edit"}
+{"version":2193,"changes":[{"offset":300,"length":0,"text":"r"}],"doc":1,"seq":3271,"ms":80081004,"op":"edit"}
+{"version":2194,"changes":[{"offset":301,"length":0,"text":"e"}],"doc":1,"seq":3272,"ms":80081121,"op":"edit"}
+{"version":2195,"changes":[{"offset":302,"length":0,"text":"v"}],"doc":1,"seq":3273,"ms":80081515,"op":"edit"}
+{"version":2196,"changes":[{"offset":303,"length":0,"text":"e"}],"doc":1,"seq":3274,"ms":80081645,"op":"edit"}
+{"version":2197,"changes":[{"offset":304,"length":0,"text":"r"}],"doc":1,"seq":3275,"ms":80081766,"op":"edit"}
+{"version":2198,"changes":[{"offset":305,"length":0,"text":"s"}],"doc":1,"seq":3276,"ms":80082114,"op":"edit"}
+{"version":2199,"changes":[{"offset":306,"length":0,"text":"e"}],"doc":1,"seq":3277,"ms":80082988,"op":"edit"}
+{"doc":1,"seq":3278,"ms":80083997,"op":"save"}
+{"version":2200,"changes":[{"offset":298,"length":0,"text":"("}],"doc":1,"seq":3279,"ms":80084879,"op":"edit"}
+{"doc":1,"seq":3280,"ms":80085888,"op":"save"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nvoid showLeft(vector<string>& topicVec , int highlight){\n\n    if(highlight==0){\n        attrion(A_reverse);\n\n        attrioff(A_reverse);\n    }\n\n}\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n\n    vector<string> sideMenu ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n\n    int highlight = 0;\n    showLeft(sideMenu, highlight);\n\n\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n\n\n    refresh();\n\n    //window refresh to set the create windows on the screen\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\n    refresh();\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(leftWin,0,0);\n    box(rightWin,0,0);\n    box(bottomWin,0,0);\n\n    mvwprintw(mainWin,4,16,\"Advanced C++ Chat Client\");\n\n    //open support for color\n    start_color();\n    // init_pair(1,COLOR_YELLOW,COLOR_MAGENTA);\n    // attron(COLOR_PAIR(1));\n\n    // printw(\"yellow text on black magenta\");\n\n\n    mvwprintw(leftWin,3,1,\"General\");\n    mvwprintw(leftWin,4,1,\"Sports\");\n    mvwprintw(leftWin,5,1,\"Programming\");\n    mvwprintw(leftWin,6,1,\"Music\");\n    mvwprintw(leftWin,7,1,\"Random\");\n\n    // attroff(COLOR_PAIR(1));\n\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomWin,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\nvector<string> text;\n\nstring type=\"\";\n\nwhile (true)\n{\n\n\n    int typing = wgetch(bottomWin);\n\n    if(typing == KEY_UP || typing == KEY_DOWN || typing == KEY_LEFT || typing == KEY_RIGHT  ){\n        continue;\n    }\n    if(typing == KEY_BACKSPACE){\n        mvwprintw(bottomWin,2,1,\"backspace\");\n        type.clear();\n    }\n    text.push_back(\"You: \"+type);\n\n    if(typing == KEY_ENTER){\n\n        //mvwprintw(mainWin,6,2,text);\n        break;\n    }\n\n    // int tacker\n    // for(auto& strng;it = text.begin();it<text.end();)\n\n\n}\n\n\n    getch();\n\n\n    endwin();\n\n    return 0;\n\n}","version":2201,"paste":{"correlation":"candidate","origin":"unknown"},"snapshot":true,"doc":1,"seq":3281,"ms":80090098,"op":"edit"}
+{"doc":1,"seq":3282,"ms":80091115,"op":"save"}
+{"version":2202,"changes":[{"offset":311,"length":0,"text":"        "}],"doc":1,"seq":3283,"ms":80092909,"op":"edit"}
+{"doc":1,"seq":3284,"ms":80093925,"op":"save"}
+{"version":2203,"changes":[{"offset":319,"length":0,"text":"    "}],"doc":1,"seq":3285,"ms":80094857,"op":"edit"}
+{"doc":1,"seq":3286,"ms":80095864,"op":"save"}
+{"version":2204,"changes":[{"offset":323,"length":0,"text":"t"}],"doc":1,"seq":3287,"ms":80098262,"op":"edit"}
+{"version":2205,"changes":[{"offset":324,"length":0,"text":"o"}],"doc":1,"seq":3288,"ms":80098415,"op":"edit"}
+{"version":2206,"changes":[{"offset":325,"length":0,"text":"p"}],"doc":1,"seq":3289,"ms":80098499,"op":"edit"}
+{"version":2207,"changes":[{"offset":326,"length":0,"text":"i"}],"doc":1,"seq":3290,"ms":80098742,"op":"edit"}
+{"doc":1,"seq":3291,"ms":80099756,"op":"save"}
+{"version":2208,"changes":[{"offset":323,"length":4,"text":"topicVec"}],"doc":1,"seq":3292,"ms":80100354,"op":"edit"}
+{"doc":1,"seq":3293,"ms":80101375,"op":"save"}
+{"version":2209,"changes":[{"offset":331,"length":0,"text":";"}],"doc":1,"seq":3294,"ms":80105561,"op":"edit"}
+{"doc":1,"seq":3295,"ms":80106573,"op":"save"}
