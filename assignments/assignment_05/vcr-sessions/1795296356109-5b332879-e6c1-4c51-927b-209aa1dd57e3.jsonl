@@ -505,3 +505,10 @@
 {"version":343,"changes":[{"offset":507,"length":0,"text":";"}],"doc":1,"seq":504,"ms":9247094,"op":"edit"}
 {"doc":1,"seq":505,"ms":9248109,"op":"save"}
 {"doc":1,"seq":506,"ms":9248244,"op":"save"}
+{"version":344,"changes":[{"offset":627,"length":90,"text":""}],"doc":1,"seq":507,"ms":9368390,"op":"edit"}
+{"version":345,"reason":1,"changes":[{"offset":627,"length":0,"text":"wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);"}],"doc":1,"seq":508,"ms":9369231,"op":"edit"}
+{"version":346,"changes":[{"offset":492,"length":0,"text":"\n    "}],"doc":1,"seq":509,"ms":9370699,"op":"edit"}
+{"doc":1,"seq":510,"ms":9371716,"op":"save"}
+{"version":347,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":497,"length":0,"text":"wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);"}],"doc":1,"seq":511,"ms":9371744,"op":"edit"}
+{"doc":1,"seq":512,"ms":9372755,"op":"save"}
+{"doc":1,"seq":513,"ms":9373612,"op":"save"}
