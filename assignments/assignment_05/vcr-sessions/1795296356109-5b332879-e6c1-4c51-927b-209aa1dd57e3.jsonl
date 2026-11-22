@@ -644,3 +644,10 @@
 {"executionId":"ada264e8-fad6-4561-bfdd-ac9e0a20b83e","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[H^[\u001b[21;1H\u001b[?1049l\r\u001b[?1l\u001b>\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                           \r \r","doc":2,"seq":643,"ms":11453499,"op":"terminal.output"}
 {"executionId":"ada264e8-fad6-4561-bfdd-ac9e0a20b83e","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","commandLine":"./app","confidence":2,"exitCode":0,"doc":2,"seq":644,"ms":11453500,"op":"terminal.end"}
 {"doc":1,"seq":645,"ms":11466517,"op":"save"}
+{"version":392,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":290,"length":2,"text":"(LINES-1)"}],"doc":1,"seq":646,"ms":11541096,"op":"edit"}
+{"doc":1,"seq":647,"ms":11542113,"op":"save"}
+{"version":393,"changes":[{"offset":297,"length":1,"text":""}],"doc":1,"seq":648,"ms":11543164,"op":"edit"}
+{"doc":1,"seq":649,"ms":11544174,"op":"save"}
+{"version":394,"changes":[{"offset":297,"length":0,"text":"2"}],"doc":1,"seq":650,"ms":11544968,"op":"edit"}
+{"version":395,"changes":[{"offset":298,"length":0,"text":"0"}],"doc":1,"seq":651,"ms":11545119,"op":"edit"}
+{"doc":1,"seq":652,"ms":11546132,"op":"save"}
