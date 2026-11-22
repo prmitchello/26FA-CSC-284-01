@@ -990,3 +990,10 @@
 {"doc":1,"seq":989,"ms":12439184,"op":"save"}
 {"version":634,"changes":[{"offset":350,"length":0,"text":" "}],"doc":1,"seq":990,"ms":12440642,"op":"edit"}
 {"doc":1,"seq":991,"ms":12441652,"op":"save"}
+{"version":635,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":352,"length":3,"text":"(terminalWidth-40)"}],"doc":1,"seq":992,"ms":12459086,"op":"edit"}
+{"doc":1,"seq":993,"ms":12460100,"op":"save"}
+{"doc":1,"seq":994,"ms":12462011,"op":"save"}
+{"version":636,"changes":[{"offset":618,"length":1,"text":""}],"doc":1,"seq":995,"ms":12492987,"op":"edit"}
+{"version":637,"changes":[{"offset":618,"length":0,"text":"1"}],"doc":1,"seq":996,"ms":12493744,"op":"edit"}
+{"doc":1,"seq":997,"ms":12494757,"op":"save"}
+{"doc":1,"seq":998,"ms":12506411,"op":"save"}
