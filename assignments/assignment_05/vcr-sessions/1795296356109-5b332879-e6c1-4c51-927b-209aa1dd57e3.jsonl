@@ -2211,3 +2211,11 @@
 {"doc":3,"seq":2210,"ms":71896900,"op":"save"}
 {"text":"","version":1,"path":"MessageArea.java","snapshot":true,"doc":4,"seq":2211,"ms":71913862,"op":"snap"}
 {"version":2,"changes":[{"offset":0,"length":0,"text":"package assignments.assignment_05;\n\npublic class MessageArea {\n    \n}\n"}],"doc":4,"seq":2212,"ms":71914011,"op":"edit"}
+{"doc":4,"seq":2213,"ms":71915038,"op":"save"}
+{"text":"","version":1,"path":"RoomList.java","snapshot":true,"doc":5,"seq":2214,"ms":71936753,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":0,"text":"package assignments.assignment_05;\n\npublic class RoomList {\n    \n}\n"}],"doc":5,"seq":2215,"ms":71936891,"op":"edit"}
+{"version":3,"changes":[{"offset":60,"length":4,"text":""}],"doc":5,"seq":2216,"ms":71937895,"op":"edit"}
+{"doc":5,"seq":2217,"ms":71937903,"op":"save"}
+{"text":"","version":1,"path":"Window.java","snapshot":true,"doc":6,"seq":2218,"ms":71951465,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":0,"text":"package assignments.assignment_05;\n\npublic class Window {\n    \n}\n"}],"doc":6,"seq":2219,"ms":71951627,"op":"edit"}
+{"doc":6,"seq":2220,"ms":71952639,"op":"save"}
