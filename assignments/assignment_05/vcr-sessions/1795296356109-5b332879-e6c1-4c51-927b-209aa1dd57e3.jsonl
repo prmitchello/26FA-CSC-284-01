@@ -2228,3 +2228,11 @@
 {"text":"package assignments.assignment_05;\n\npublic class RoomList {\n\n}\n","version":1,"path":"RoomList.cpp","snapshot":true,"doc":9,"seq":2227,"ms":72146246,"op":"snap"}
 {"doc":6,"seq":2228,"ms":72151964,"op":"close"}
 {"text":"package assignments.assignment_05;\n\npublic class Window {\n    \n}\n","version":1,"path":"Window.cpp","snapshot":true,"doc":10,"seq":2229,"ms":72151981,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":36,"text":""}],"doc":10,"seq":2230,"ms":72171958,"op":"edit"}
+{"version":3,"changes":[{"offset":22,"length":4,"text":""}],"doc":10,"seq":2231,"ms":72172962,"op":"edit"}
+{"doc":10,"seq":2232,"ms":72172970,"op":"save"}
+{"version":2,"changes":[{"offset":0,"length":36,"text":""}],"doc":8,"seq":2233,"ms":72185047,"op":"edit"}
+{"version":3,"changes":[{"offset":27,"length":4,"text":""}],"doc":8,"seq":2234,"ms":72186053,"op":"edit"}
+{"doc":8,"seq":2235,"ms":72186072,"op":"save"}
+{"version":2,"changes":[{"offset":0,"length":36,"text":""}],"doc":9,"seq":2236,"ms":72193172,"op":"edit"}
+{"doc":9,"seq":2237,"ms":72194183,"op":"save"}
