@@ -512,3 +512,7 @@
 {"version":347,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":497,"length":0,"text":"wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);"}],"doc":1,"seq":511,"ms":9371744,"op":"edit"}
 {"doc":1,"seq":512,"ms":9372755,"op":"save"}
 {"doc":1,"seq":513,"ms":9373612,"op":"save"}
+{"version":348,"changes":[{"offset":235,"length":1,"text":""}],"doc":1,"seq":514,"ms":9504959,"op":"edit"}
+{"doc":1,"seq":515,"ms":9505979,"op":"save"}
+{"version":349,"changes":[{"offset":235,"length":0,"text":"9"}],"doc":1,"seq":516,"ms":9506067,"op":"edit"}
+{"doc":1,"seq":517,"ms":9507081,"op":"save"}
