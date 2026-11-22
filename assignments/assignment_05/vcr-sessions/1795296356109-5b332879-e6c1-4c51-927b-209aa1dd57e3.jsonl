@@ -4759,3 +4759,4 @@
 {"text":"class Window {\n\n};\n","version":6,"snapshot":true,"doc":10,"seq":4758,"ms":86215099,"op":"snap"}
 {"doc":10,"seq":4759,"ms":86226588,"op":"close"}
 {"text":"class ChatClientUI {\n\n};\n","version":4,"snapshot":true,"doc":7,"seq":4760,"ms":86226601,"op":"snap"}
+{"doc":7,"seq":4761,"ms":87041619,"op":"close"}
