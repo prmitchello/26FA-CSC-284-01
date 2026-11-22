@@ -891,3 +891,8 @@
 {"doc":1,"seq":890,"ms":11953512,"op":"save"}
 {"version":572,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":349,"length":0,"text":"sidePanelWidth"}],"doc":1,"seq":891,"ms":11953699,"op":"edit"}
 {"doc":1,"seq":892,"ms":11954712,"op":"save"}
+{"version":573,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":349,"length":14,"text":"x_startAt_0"}],"doc":1,"seq":893,"ms":11976760,"op":"edit"}
+{"doc":1,"seq":894,"ms":11977767,"op":"save"}
+{"version":574,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":494,"length":9,"text":"sidePanelLength"}],"doc":1,"seq":895,"ms":11993877,"op":"edit"}
+{"doc":1,"seq":896,"ms":11994898,"op":"save"}
+{"doc":1,"seq":897,"ms":12013206,"op":"save"}
