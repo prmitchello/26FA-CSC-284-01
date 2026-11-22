@@ -6174,3 +6174,73 @@
 {"executionId":"633513b8-fe46-41d2-90bd-b4e376ba74bb","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"kjn","doc":2,"seq":6173,"ms":92191202,"op":"terminal.output"}
 {"executionId":"633513b8-fe46-41d2-90bd-b4e376ba74bb","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?\u001b[15;132H \u001b[15;31H","doc":2,"seq":6174,"ms":92191972,"op":"terminal.output"}
 {"executionId":"633513b8-fe46-41d2-90bd-b4e376ba74bb","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?      \u001b[15;31H","doc":2,"seq":6175,"ms":92196205,"op":"terminal.output"}
+{"version":3586,"changes":[{"offset":3007,"length":0,"text":"\n        "}],"doc":1,"seq":6176,"ms":92290129,"op":"edit"}
+{"doc":1,"seq":6177,"ms":92291136,"op":"save"}
+{"version":3587,"changes":[{"offset":3012,"length":4,"text":""}],"doc":1,"seq":6178,"ms":92293309,"op":"edit"}
+{"version":3588,"changes":[{"offset":3008,"length":4,"text":"        "}],"doc":1,"seq":6179,"ms":92293884,"op":"edit"}
+{"version":3589,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":3016,"length":0,"text":"case KEY_UP:{\n            highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n                draw_Left(leftInner,sideMenu,highlight);\n            break;\n        }\n        case KEY_DOWN:{\n            highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n                draw_Left(leftInner,sideMenu,highlight);\n            break;\n        }"}],"doc":1,"seq":6180,"ms":92294883,"op":"edit"}
+{"doc":1,"seq":6181,"ms":92295894,"op":"save"}
+{"version":3590,"changes":[{"offset":3026,"length":1,"text":""}],"doc":1,"seq":6182,"ms":92296880,"op":"edit"}
+{"version":3591,"changes":[{"offset":3025,"length":1,"text":""}],"doc":1,"seq":6183,"ms":92297083,"op":"edit"}
+{"version":3592,"changes":[{"offset":3025,"length":0,"text":"E"}],"doc":1,"seq":6184,"ms":92298011,"op":"edit"}
+{"version":3593,"changes":[{"offset":3026,"length":0,"text":"n"}],"doc":1,"seq":6185,"ms":92298165,"op":"edit"}
+{"version":3594,"changes":[{"offset":3027,"length":0,"text":"t"}],"doc":1,"seq":6186,"ms":92298391,"op":"edit"}
+{"version":3595,"changes":[{"offset":3028,"length":0,"text":"t"}],"doc":1,"seq":6187,"ms":92298575,"op":"edit"}
+{"version":3596,"changes":[{"offset":3029,"length":0,"text":"e"}],"doc":1,"seq":6188,"ms":92298787,"op":"edit"}
+{"version":3597,"changes":[{"offset":3030,"length":0,"text":"r"}],"doc":1,"seq":6189,"ms":92298858,"op":"edit"}
+{"version":3598,"changes":[{"offset":3030,"length":1,"text":""}],"doc":1,"seq":6190,"ms":92299287,"op":"edit"}
+{"version":3599,"changes":[{"offset":3029,"length":1,"text":""}],"doc":1,"seq":6191,"ms":92299471,"op":"edit"}
+{"version":3600,"changes":[{"offset":3028,"length":1,"text":""}],"doc":1,"seq":6192,"ms":92299616,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nvoid draw_Left(WINDOW* ,vector<string>&  , int );\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n\n\n    keypad(stdscr,true);\n    // curs_set(0);\n\n\n    vector<string> sideMenu ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n\n    int highlight = 0;\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n    WINDOW* mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n    WINDOW* rightInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,(terminalWidth-18));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n    WINDOW* leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n    WINDOW* bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );\n\n\n    draw_Left(leftInner, sideMenu, highlight);\n\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(mainInner,0,0);\n\n    box(leftWin,0,0);\n    box(leftInner,0,0);\n\n    box(rightWin,0,0);\n    box(rightInner,0,0);\n\n    box(bottomWin,0,0);\n    box(bottomInner,0,0);\n\n    mvwprintw(mainWin,1,16,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,1,7,\"Feed\");\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomInner,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(mainInner);\n    wrefresh(rightWin);\n    wrefresh(rightInner);\n    wrefresh(leftWin);\n    wrefresh(leftInner);\n    wrefresh(bottomWin);\n    wrefresh(bottomInner);\n\n\nvector<string> text;\n\nstring type=\"\";\n\nwhile (true)\n{\n\n\n    int typingInput = wgetch(bottomInner);\n\n    switch(typingInput){\n        case KEY_UP:{\n            highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n                draw_Left(leftInner,sideMenu,highlight);\n            break;\n        }\n        case KEY_DOWN:{\n            highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n                draw_Left(leftInner,sideMenu,highlight);\n            break;\n        }\n        // case KEY_LEFT:{\n        //     highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n        //     break;\n        // }\n        // case KEY_RIGHT:{\n        //     highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n        //     break;\n        // }\n        case KEY_Ente:{\n            highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n                draw_Left(leftInner,sideMenu,highlight);\n            break;\n        }\n        case KEY_DOWN:{\n            highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n                draw_Left(leftInner,sideMenu,highlight);\n            break;\n        }\n\n    }\n\n\n\n    if(typingInput == KEY_BACKSPACE || typingInput == '\\b' || typingInput == 127){\n        if(!type.empty()){\n            type.pop_back();\n        }\n\n        wattron(bottomInner,A_REVERSE);\n\n        wclrtoeol(bottomInner);\n        wmove(bottomInner,1,2);\n\n        wattroff(bottomInner,A_REVERSE);\n\n        mvwprintw(bottomInner,1,1,\"Type > \", type.c_str());\n        wrefresh(bottomInner);\n\n        continue;\n    }\n    text.push_back(\"You: \"+type);\n\n    if(typingInput == KEY_ENTER){\n\n        //mvwprintw(mainWin,6,2,text);\n        break;\n    }\n\n    // int tacker\n    // for(auto& strng;it = text.begin();it<text.end();)\n\n}\n\n    endwin();\n\n    return 0;\n\n}\nvoid draw_Left(WINDOW* leftInner, vector<string>& topicList , int highlight){\n\n\n\n    int length = topicList.size();\n\n    for(int i=0; i<length ; ++i){\n\n        if(i == highlight){\n            //start_color();\n            attron(A_REVERSE);\n                mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n            attroff(A_REVERSE);\n\n        }else{\n            mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n        }\n\n    }\n\n    wrefresh(leftInner);\n\n}\n","version":3601,"snapshot":true,"doc":1,"seq":6193,"ms":92300301,"op":"edit"}
+{"version":3602,"changes":[{"offset":3029,"length":0,"text":"r"}],"doc":1,"seq":6194,"ms":92300445,"op":"edit"}
+{"version":3603,"changes":[{"offset":3029,"length":1,"text":""}],"doc":1,"seq":6195,"ms":92301305,"op":"edit"}
+{"version":3604,"changes":[{"offset":3028,"length":1,"text":""}],"doc":1,"seq":6196,"ms":92301463,"op":"edit"}
+{"version":3605,"changes":[{"offset":3027,"length":1,"text":""}],"doc":1,"seq":6197,"ms":92301621,"op":"edit"}
+{"version":3606,"changes":[{"offset":3026,"length":1,"text":""}],"doc":1,"seq":6198,"ms":92302009,"op":"edit"}
+{"doc":1,"seq":6199,"ms":92303029,"op":"save"}
+{"version":3607,"changes":[{"offset":3026,"length":0,"text":"N"}],"doc":1,"seq":6200,"ms":92303876,"op":"edit"}
+{"version":3608,"changes":[{"offset":3027,"length":0,"text":"T"}],"doc":1,"seq":6201,"ms":92304041,"op":"edit"}
+{"version":3609,"changes":[{"offset":3028,"length":0,"text":"E"}],"doc":1,"seq":6202,"ms":92304234,"op":"edit"}
+{"version":3610,"changes":[{"offset":3029,"length":0,"text":"R"}],"doc":1,"seq":6203,"ms":92304325,"op":"edit"}
+{"doc":1,"seq":6204,"ms":92305334,"op":"save"}
+{"version":3611,"changes":[{"offset":3030,"length":0,"text":" "}],"doc":1,"seq":6205,"ms":92308958,"op":"edit"}
+{"doc":1,"seq":6206,"ms":92309979,"op":"save"}
+{"version":3612,"changes":[{"offset":3031,"length":0,"text":"|"}],"doc":1,"seq":6207,"ms":92310032,"op":"edit"}
+{"version":3613,"changes":[{"offset":3032,"length":0,"text":"|"}],"doc":1,"seq":6208,"ms":92310202,"op":"edit"}
+{"doc":1,"seq":6209,"ms":92311210,"op":"save"}
+{"version":3614,"changes":[{"offset":3033,"length":0,"text":" "}],"doc":1,"seq":6210,"ms":92311925,"op":"edit"}
+{"doc":1,"seq":6211,"ms":92312943,"op":"save"}
+{"version":3615,"changes":[{"offset":3034,"length":0,"text":"1"}],"doc":1,"seq":6212,"ms":92313638,"op":"edit"}
+{"version":3616,"changes":[{"offset":3035,"length":0,"text":"2"}],"doc":1,"seq":6213,"ms":92313765,"op":"edit"}
+{"version":3617,"changes":[{"offset":3036,"length":0,"text":"7"}],"doc":1,"seq":6214,"ms":92314207,"op":"edit"}
+{"doc":1,"seq":6215,"ms":92315215,"op":"save"}
+{"version":3618,"changes":[{"offset":3219,"length":1,"text":""}],"doc":1,"seq":6216,"ms":92321336,"op":"edit"}
+{"version":3619,"changes":[{"offset":3218,"length":1,"text":""}],"doc":1,"seq":6217,"ms":92321500,"op":"edit"}
+{"version":3620,"changes":[{"offset":3217,"length":1,"text":""}],"doc":1,"seq":6218,"ms":92321643,"op":"edit"}
+{"version":3621,"changes":[{"offset":3216,"length":1,"text":""}],"doc":1,"seq":6219,"ms":92321797,"op":"edit"}
+{"version":3622,"changes":[{"offset":3216,"length":0,"text":"B"}],"doc":1,"seq":6220,"ms":92322451,"op":"edit"}
+{"version":3623,"changes":[{"offset":3217,"length":0,"text":"A"}],"doc":1,"seq":6221,"ms":92322603,"op":"edit"}
+{"doc":1,"seq":6222,"ms":92323616,"op":"save"}
+{"version":3624,"changes":[{"offset":3212,"length":6,"text":"KEY_BACKSPACE"}],"doc":1,"seq":6223,"ms":92323881,"op":"edit"}
+{"doc":1,"seq":6224,"ms":92324903,"op":"save"}
+{"version":3625,"changes":[{"offset":3225,"length":0,"text":" "}],"doc":1,"seq":6225,"ms":92325884,"op":"edit"}
+{"doc":1,"seq":6226,"ms":92326900,"op":"save"}
+{"version":3626,"changes":[{"offset":3226,"length":0,"text":"|"}],"doc":1,"seq":6227,"ms":92328113,"op":"edit"}
+{"version":3627,"changes":[{"offset":3227,"length":0,"text":"|"}],"doc":1,"seq":6228,"ms":92328255,"op":"edit"}
+{"version":3628,"changes":[{"offset":3228,"length":0,"text":" "}],"doc":1,"seq":6229,"ms":92328658,"op":"edit"}
+{"version":3629,"changes":[{"offset":3229,"length":0,"text":"1"}],"doc":1,"seq":6230,"ms":92328929,"op":"edit"}
+{"version":3630,"changes":[{"offset":3230,"length":0,"text":"2"}],"doc":1,"seq":6231,"ms":92329069,"op":"edit"}
+{"version":3631,"changes":[{"offset":3231,"length":0,"text":"7"}],"doc":1,"seq":6232,"ms":92329572,"op":"edit"}
+{"doc":1,"seq":6233,"ms":92330581,"op":"save"}
+{"version":3632,"changes":[{"offset":3036,"length":1,"text":""}],"doc":1,"seq":6234,"ms":92333172,"op":"edit"}
+{"version":3633,"changes":[{"offset":3035,"length":1,"text":""}],"doc":1,"seq":6235,"ms":92333322,"op":"edit"}
+{"version":3634,"changes":[{"offset":3034,"length":1,"text":""}],"doc":1,"seq":6236,"ms":92333488,"op":"edit"}
+{"doc":1,"seq":6237,"ms":92334511,"op":"save"}
+{"version":3635,"changes":[{"offset":3034,"length":0,"text":"''"}],"doc":1,"seq":6238,"ms":92334656,"op":"edit"}
+{"doc":1,"seq":6239,"ms":92335676,"op":"save"}
+{"version":3636,"changes":[{"offset":3035,"length":0,"text":"\\"}],"doc":1,"seq":6240,"ms":92336229,"op":"edit"}
+{"version":3637,"changes":[{"offset":3036,"length":0,"text":"N"}],"doc":1,"seq":6241,"ms":92336626,"op":"edit"}
+{"doc":1,"seq":6242,"ms":92337638,"op":"save"}
+{"version":3638,"changes":[{"offset":3036,"length":1,"text":""}],"doc":1,"seq":6243,"ms":92338135,"op":"edit"}
+{"version":3639,"changes":[{"offset":3036,"length":0,"text":"n"}],"doc":1,"seq":6244,"ms":92338701,"op":"edit"}
+{"doc":1,"seq":6245,"ms":92339709,"op":"save"}
