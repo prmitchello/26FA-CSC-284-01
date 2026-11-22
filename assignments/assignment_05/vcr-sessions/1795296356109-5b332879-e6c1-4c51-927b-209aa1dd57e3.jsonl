@@ -3689,3 +3689,6 @@
 {"version":2504,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1110,"length":0,"text":"showLeft(leftWin, sideMenu, highlight);"}],"doc":1,"seq":3688,"ms":82425590,"op":"edit"}
 {"version":2505,"changes":[{"offset":418,"length":4,"text":""}],"doc":1,"seq":3689,"ms":82426597,"op":"edit"}
 {"doc":1,"seq":3690,"ms":82426619,"op":"save"}
+{"version":2506,"changes":[{"offset":3069,"length":16,"text":""},{"offset":2947,"length":16,"text":""}],"doc":1,"seq":3691,"ms":82506847,"op":"edit"}
+{"doc":1,"seq":3692,"ms":82507858,"op":"save"}
+{"version":2507,"changes":[{"offset":3053,"length":1,"text":""},{"offset":2947,"length":1,"text":""}],"doc":1,"seq":3693,"ms":82509325,"op":"edit"}
