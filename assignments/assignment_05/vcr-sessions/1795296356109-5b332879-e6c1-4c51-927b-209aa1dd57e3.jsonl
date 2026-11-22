@@ -4872,3 +4872,16 @@
 {"doc":1,"seq":4871,"ms":87621044,"op":"save"}
 {"version":3034,"changes":[{"offset":2469,"length":17,"text":""}],"doc":1,"seq":4872,"ms":87623189,"op":"edit"}
 {"doc":1,"seq":4873,"ms":87624203,"op":"save"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"jk","doc":2,"seq":4874,"ms":89275943,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"n","doc":2,"seq":4875,"ms":89276155,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"j","doc":2,"seq":4876,"ms":89276273,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4877,"ms":89278007,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4878,"ms":89278229,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4879,"ms":89278402,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4880,"ms":89279189,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4881,"ms":89279415,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4882,"ms":89282440,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4883,"ms":89282760,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4884,"ms":89283001,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4885,"ms":89283312,"op":"terminal.output"}
+{"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4886,"ms":89283678,"op":"terminal.output"}
