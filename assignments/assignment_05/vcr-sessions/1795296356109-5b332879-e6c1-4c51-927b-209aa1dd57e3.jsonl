@@ -1851,3 +1851,34 @@
 {"version":1290,"changes":[{"offset":1457,"length":0,"text":"e"}],"doc":1,"seq":1850,"ms":15450909,"op":"edit"}
 {"version":1291,"changes":[{"offset":1458,"length":0,"text":"x"}],"doc":1,"seq":1851,"ms":15451185,"op":"edit"}
 {"version":1292,"changes":[{"offset":1459,"length":0,"text":"t"}],"doc":1,"seq":1852,"ms":15451389,"op":"edit"}
+{"doc":1,"seq":1853,"ms":15452395,"op":"save"}
+{"version":1293,"changes":[{"offset":1460,"length":0,"text":";"}],"doc":1,"seq":1854,"ms":15452774,"op":"edit"}
+{"doc":1,"seq":1855,"ms":15453783,"op":"save"}
+{"version":1294,"changes":[{"offset":1742,"length":0,"text":"."}],"doc":1,"seq":1856,"ms":15465224,"op":"edit"}
+{"version":1295,"changes":[{"offset":1743,"length":0,"text":"p"}],"doc":1,"seq":1857,"ms":15465519,"op":"edit"}
+{"version":1296,"changes":[{"offset":1744,"length":0,"text":"u"}],"doc":1,"seq":1858,"ms":15465782,"op":"edit"}
+{"version":1297,"changes":[{"offset":1745,"length":0,"text":"s"}],"doc":1,"seq":1859,"ms":15465933,"op":"edit"}
+{"version":1298,"changes":[{"offset":1746,"length":0,"text":"h"}],"doc":1,"seq":1860,"ms":15466036,"op":"edit"}
+{"doc":1,"seq":1861,"ms":15467045,"op":"save"}
+{"version":1299,"changes":[{"offset":1743,"length":4,"text":"push_back"}],"doc":1,"seq":1862,"ms":15467252,"op":"edit"}
+{"doc":1,"seq":1863,"ms":15468258,"op":"save"}
+{"version":1300,"changes":[{"offset":1752,"length":0,"text":"()"}],"doc":1,"seq":1864,"ms":15474187,"op":"edit"}
+{"text":"#include <iostream>\n#include <vector>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nint main(){\n\n    initscr();\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n\n\n    refresh();\n\n    //window refresh to set the create windows on the screen\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\n    refresh();\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(leftWin,0,0);\n    box(rightWin,0,0);\n    box(bottomWin,0,0);\n\n    mvwprintw(mainWin,4,16,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,2,4,\"ChatRooms\");\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomWin,1,1,\"Type...\");\n\n\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\n\n\nvector<string> text;\n\nwhile (true)\n{\n\n\n    int typing = wgetch(bottomWin);\n\n    if(typing == KEY_UP || typing == KEY_DOWN || typing == KEY_LEFT || typing == KEY_RIGHT  ){\n        continue;\n    }\n\n\n    if(typing == KEY_ENTER){\n        cout<<\"enter was presses\"<<endl;\n        mvwprintw(mainWin,6,2,text.push_back());\n        break;\n    }\n\n\n}\n\n\n    getch();\n\n\n    endwin();\n\n    return 0;\n\n}","version":1301,"snapshot":true,"doc":1,"seq":1865,"ms":15474243,"op":"edit"}
+{"doc":1,"seq":1866,"ms":15475263,"op":"save"}
+{"version":1302,"changes":[{"offset":1742,"length":12,"text":""}],"doc":1,"seq":1867,"ms":15487624,"op":"edit"}
+{"doc":1,"seq":1868,"ms":15488634,"op":"save"}
+{"version":1303,"changes":[{"offset":1636,"length":0,"text":"    "}],"doc":1,"seq":1869,"ms":15491428,"op":"edit"}
+{"version":1304,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1640,"length":0,"text":"text.push_back()"}],"doc":1,"seq":1870,"ms":15492358,"op":"edit"}
+{"doc":1,"seq":1871,"ms":15493368,"op":"save"}
+{"version":1305,"changes":[{"offset":1656,"length":0,"text":";"}],"doc":1,"seq":1872,"ms":15494110,"op":"edit"}
+{"doc":1,"seq":1873,"ms":15495121,"op":"save"}
+{"version":1306,"changes":[{"offset":1655,"length":0,"text":"c"}],"doc":1,"seq":1874,"ms":15496371,"op":"edit"}
+{"version":1307,"changes":[{"offset":1656,"length":0,"text":"h"}],"doc":1,"seq":1875,"ms":15496597,"op":"edit"}
+{"doc":1,"seq":1876,"ms":15497605,"op":"save"}
+{"version":1308,"changes":[{"offset":1655,"length":2,"text":"t"}],"doc":1,"seq":1877,"ms":15501141,"op":"edit"}
+{"version":1309,"changes":[{"offset":1656,"length":0,"text":"y"}],"doc":1,"seq":1878,"ms":15501335,"op":"edit"}
+{"version":1310,"changes":[{"offset":1657,"length":0,"text":"p"}],"doc":1,"seq":1879,"ms":15501511,"op":"edit"}
+{"version":1311,"changes":[{"offset":1658,"length":0,"text":"i"}],"doc":1,"seq":1880,"ms":15501734,"op":"edit"}
+{"version":1312,"changes":[{"offset":1659,"length":0,"text":"n"}],"doc":1,"seq":1881,"ms":15501819,"op":"edit"}
+{"version":1313,"changes":[{"offset":1660,"length":0,"text":"g"}],"doc":1,"seq":1882,"ms":15501979,"op":"edit"}
+{"doc":1,"seq":1883,"ms":15502995,"op":"save"}
