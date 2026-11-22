@@ -516,3 +516,5 @@
 {"doc":1,"seq":515,"ms":9505979,"op":"save"}
 {"version":349,"changes":[{"offset":235,"length":0,"text":"9"}],"doc":1,"seq":516,"ms":9506067,"op":"edit"}
 {"doc":1,"seq":517,"ms":9507081,"op":"save"}
+{"version":350,"changes":[{"offset":343,"length":149,"text":""}],"doc":1,"seq":518,"ms":10349729,"op":"edit"}
+{"doc":1,"seq":519,"ms":10350739,"op":"save"}
