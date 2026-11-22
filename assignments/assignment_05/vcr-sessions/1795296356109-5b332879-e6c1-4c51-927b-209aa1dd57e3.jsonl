@@ -3473,3 +3473,23 @@
 {"version":2344,"changes":[{"offset":410,"length":0,"text":"0"}],"doc":1,"seq":3472,"ms":80520732,"op":"edit"}
 {"version":2345,"changes":[{"offset":411,"length":0,"text":","}],"doc":1,"seq":3473,"ms":80520984,"op":"edit"}
 {"doc":1,"seq":3474,"ms":80521994,"op":"save"}
+{"version":2346,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":499,"length":0,"text":"static_cast<int>(i),0,topicVec.c_str()"}],"doc":1,"seq":3475,"ms":80608425,"op":"edit"}
+{"doc":1,"seq":3476,"ms":80609437,"op":"save"}
+{"version":2347,"changes":[{"offset":327,"length":1,"text":""}],"doc":1,"seq":3477,"ms":80621479,"op":"edit"}
+{"version":2348,"changes":[{"offset":326,"length":1,"text":""}],"doc":1,"seq":3478,"ms":80621646,"op":"edit"}
+{"version":2349,"changes":[{"offset":325,"length":1,"text":""}],"doc":1,"seq":3479,"ms":80621822,"op":"edit"}
+{"doc":1,"seq":3480,"ms":80622835,"op":"save"}
+{"version":2350,"changes":[{"offset":316,"length":0,"text":"i"}],"doc":1,"seq":3481,"ms":80625896,"op":"edit"}
+{"version":2351,"changes":[{"offset":317,"length":0,"text":"="}],"doc":1,"seq":3482,"ms":80626442,"op":"edit"}
+{"version":2352,"changes":[{"offset":318,"length":0,"text":"="}],"doc":1,"seq":3483,"ms":80626571,"op":"edit"}
+{"doc":1,"seq":3484,"ms":80627587,"op":"save"}
+{"version":2353,"changes":[{"offset":319,"length":0,"text":" "}],"doc":1,"seq":3485,"ms":80632467,"op":"edit"}
+{"version":2354,"changes":[{"offset":317,"length":0,"text":" "}],"doc":1,"seq":3486,"ms":80633364,"op":"edit"}
+{"doc":1,"seq":3487,"ms":80634378,"op":"save"}
+{"version":2355,"changes":[{"offset":304,"length":0,"text":"\n        "}],"doc":1,"seq":3488,"ms":80637958,"op":"edit"}
+{"doc":1,"seq":3489,"ms":80638968,"op":"save"}
+{"version":2356,"changes":[{"offset":560,"length":0,"text":"\n        "},{"offset":305,"length":8,"text":""}],"doc":1,"seq":3490,"ms":80640592,"op":"edit"}
+{"version":2357,"changes":[{"offset":553,"length":8,"text":""}],"doc":1,"seq":3491,"ms":80641602,"op":"edit"}
+{"doc":1,"seq":3492,"ms":80641613,"op":"save"}
+{"version":2358,"changes":[{"offset":500,"length":0,"text":"t"}],"doc":1,"seq":3493,"ms":80647053,"op":"edit"}
+{"doc":1,"seq":3494,"ms":80648066,"op":"save"}
