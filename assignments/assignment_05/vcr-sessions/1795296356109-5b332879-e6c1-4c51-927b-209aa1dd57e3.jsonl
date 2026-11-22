@@ -1993,3 +1993,43 @@
 {"version":1396,"changes":[{"offset":1850,"length":0,"text":"r"}],"doc":1,"seq":1992,"ms":23863882,"op":"edit"}
 {"version":1397,"changes":[{"offset":1851,"length":0,"text":"n"}],"doc":1,"seq":1993,"ms":23864075,"op":"edit"}
 {"version":1398,"changes":[{"offset":1852,"length":0,"text":"g"}],"doc":1,"seq":1994,"ms":23864302,"op":"edit"}
+{"doc":1,"seq":1995,"ms":23865317,"op":"save"}
+{"version":1399,"changes":[{"offset":1853,"length":0,"text":";"}],"doc":1,"seq":1996,"ms":23867276,"op":"edit"}
+{"doc":1,"seq":1997,"ms":23868286,"op":"save"}
+{"version":1400,"changes":[{"offset":1854,"length":0,"text":"i"}],"doc":1,"seq":1998,"ms":23871002,"op":"edit"}
+{"text":"#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nint main(){\n\n    initscr();\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n\n\n    refresh();\n\n    //window refresh to set the create windows on the screen\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\n    refresh();\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(leftWin,0,0);\n    box(rightWin,0,0);\n    box(bottomWin,0,0);\n\n    mvwprintw(mainWin,4,16,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,2,4,\"ChatRooms\");\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomWin,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(rightWin);\n    wrefresh(leftWin);\n    wrefresh(bottomWin);\n\nvector<string> text;\n\nstring type=\"\";\n\nwhile (true)\n{\n\n\n    int typing = wgetch(bottomWin);\n\n    if(typing == KEY_UP || typing == KEY_DOWN || typing == KEY_LEFT || typing == KEY_RIGHT  ){\n        continue;\n    }\n    text.push_back(\"You: \"+type);\n\n    if(typing == KEY_ENTER){\n        cout<<\"enter was presses\"<<endl;\n        //mvwprintw(mainWin,6,2,text);\n        break;\n    }\n\n    for(auto& strng;it)\n\n\n}\n\n\n    getch();\n\n\n    endwin();\n\n    return 0;\n\n}","version":1401,"snapshot":true,"doc":1,"seq":1999,"ms":23871181,"op":"edit"}
+{"version":1402,"changes":[{"offset":1856,"length":0,"text":" "}],"doc":1,"seq":2000,"ms":23871220,"op":"edit"}
+{"version":1403,"changes":[{"offset":1857,"length":0,"text":"="}],"doc":1,"seq":2001,"ms":23871908,"op":"edit"}
+{"doc":1,"seq":2002,"ms":23872928,"op":"save"}
+{"version":1404,"changes":[{"offset":1858,"length":0,"text":" "}],"doc":1,"seq":2003,"ms":23873065,"op":"edit"}
+{"doc":1,"seq":2004,"ms":23874076,"op":"save"}
+{"version":1405,"changes":[{"offset":1859,"length":0,"text":"t"}],"doc":1,"seq":2005,"ms":23876968,"op":"edit"}
+{"version":1406,"changes":[{"offset":1860,"length":0,"text":"e"}],"doc":1,"seq":2006,"ms":23877281,"op":"edit"}
+{"doc":1,"seq":2007,"ms":23878294,"op":"save"}
+{"version":1407,"changes":[{"offset":1861,"length":0,"text":"x"}],"doc":1,"seq":2008,"ms":23878628,"op":"edit"}
+{"version":1408,"changes":[{"offset":1862,"length":0,"text":"t"}],"doc":1,"seq":2009,"ms":23878949,"op":"edit"}
+{"version":1409,"changes":[{"offset":1863,"length":0,"text":"."}],"doc":1,"seq":2010,"ms":23879822,"op":"edit"}
+{"version":1410,"changes":[{"offset":1864,"length":0,"text":"b"}],"doc":1,"seq":2011,"ms":23880198,"op":"edit"}
+{"version":1411,"changes":[{"offset":1865,"length":0,"text":"e"}],"doc":1,"seq":2012,"ms":23880465,"op":"edit"}
+{"doc":1,"seq":2013,"ms":23881478,"op":"save"}
+{"version":1412,"changes":[{"offset":1866,"length":0,"text":"'"}],"doc":1,"seq":2014,"ms":23881772,"op":"edit"}
+{"doc":1,"seq":2015,"ms":23882787,"op":"save"}
+{"version":1413,"changes":[{"offset":1866,"length":1,"text":""}],"doc":1,"seq":2016,"ms":23882916,"op":"edit"}
+{"version":1414,"changes":[{"offset":1866,"length":0,"text":"g"}],"doc":1,"seq":2017,"ms":23883584,"op":"edit"}
+{"version":1415,"changes":[{"offset":1867,"length":0,"text":"i"}],"doc":1,"seq":2018,"ms":23883753,"op":"edit"}
+{"version":1416,"changes":[{"offset":1868,"length":0,"text":"n"}],"doc":1,"seq":2019,"ms":23883922,"op":"edit"}
+{"version":1417,"changes":[{"offset":1864,"length":5,"text":"begin"}],"doc":1,"seq":2020,"ms":23884674,"op":"edit"}
+{"doc":1,"seq":2021,"ms":23885690,"op":"save"}
+{"version":1418,"changes":[{"offset":1869,"length":0,"text":"()"}],"doc":1,"seq":2022,"ms":23885705,"op":"edit"}
+{"version":1419,"changes":[{"offset":1870,"length":1,"text":")"}],"doc":1,"seq":2023,"ms":23885825,"op":"edit"}
+{"doc":1,"seq":2024,"ms":23886841,"op":"save"}
+{"version":1420,"changes":[{"offset":1871,"length":0,"text":";"}],"doc":1,"seq":2025,"ms":23888429,"op":"edit"}
+{"doc":1,"seq":2026,"ms":23889441,"op":"save"}
+{"version":1421,"changes":[{"offset":1872,"length":0,"text":"i"}],"doc":1,"seq":2027,"ms":23891422,"op":"edit"}
+{"version":1422,"changes":[{"offset":1873,"length":0,"text":"t"}],"doc":1,"seq":2028,"ms":23891742,"op":"edit"}
+{"doc":1,"seq":2029,"ms":23892761,"op":"save"}
+{"version":1423,"changes":[{"offset":1874,"length":0,"text":"<"}],"doc":1,"seq":2030,"ms":23898474,"op":"edit"}
+{"doc":1,"seq":2031,"ms":23899493,"op":"save"}
+{"version":1424,"changes":[{"offset":1874,"length":1,"text":""}],"doc":1,"seq":2032,"ms":23900029,"op":"edit"}
+{"version":1425,"changes":[{"offset":1874,"length":0,"text":">"}],"doc":1,"seq":2033,"ms":23900622,"op":"edit"}
+{"doc":1,"seq":2034,"ms":23901644,"op":"save"}
