@@ -3493,3 +3493,18 @@
 {"doc":1,"seq":3492,"ms":80641613,"op":"save"}
 {"version":2358,"changes":[{"offset":500,"length":0,"text":"t"}],"doc":1,"seq":3493,"ms":80647053,"op":"edit"}
 {"doc":1,"seq":3494,"ms":80648066,"op":"save"}
+{"version":2359,"changes":[{"offset":203,"length":361,"text":""}],"doc":1,"seq":3495,"ms":81503900,"op":"edit"}
+{"doc":1,"seq":3496,"ms":81504908,"op":"save"}
+{"version":2360,"changes":[{"offset":2646,"length":0,"text":"\n"}],"doc":1,"seq":3497,"ms":81509279,"op":"edit"}
+{"version":2361,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2647,"length":0,"text":"void showLeft(vector<string>& topicVec , int highlight){\n\n    for(size_t i=0; i<topicVec.size();++i){\n\n        if(i == highlight){\n            attron(A_REVERSE);\n\n\n                mvwprintw(static_cast<int>(i),0,topicVec.c_str());\n            attroff(A_REVERSE);\n        }else{\n            mvwprintw(static_cast<int>(i),0,topicVec.c_str());\n        }\n\n    }\n\n\n}"}],"doc":1,"seq":3498,"ms":81509778,"op":"edit"}
+{"doc":1,"seq":3499,"ms":81510788,"op":"save"}
+{"version":2362,"changes":[{"offset":3008,"length":0,"text":"\n"}],"doc":1,"seq":3500,"ms":81513119,"op":"edit"}
+{"doc":1,"seq":3501,"ms":81514129,"op":"save"}
+{"version":2363,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":203,"length":0,"text":"void showLeft(vector<string>& topicVec , int highlight)"}],"doc":1,"seq":3502,"ms":81523560,"op":"edit"}
+{"doc":1,"seq":3503,"ms":81524584,"op":"save"}
+{"version":2364,"changes":[{"offset":258,"length":0,"text":";"}],"doc":1,"seq":3504,"ms":81524935,"op":"edit"}
+{"doc":1,"seq":3505,"ms":81525947,"op":"save"}
+{"version":2365,"changes":[{"offset":248,"length":9,"text":""}],"doc":1,"seq":3506,"ms":81527585,"op":"edit"}
+{"doc":1,"seq":3507,"ms":81528603,"op":"save"}
+{"version":2366,"changes":[{"offset":233,"length":8,"text":""}],"doc":1,"seq":3508,"ms":81529034,"op":"edit"}
+{"doc":1,"seq":3509,"ms":81530046,"op":"save"}
