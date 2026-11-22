@@ -2,3 +2,5 @@
 {"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-78,"op":"source.context"}
 {"source":"workspace","path":".","doc":1,"seq":2,"ms":-78,"op":"fs.create"}
 {"source":"watcher","doc":1,"seq":3,"ms":4,"op":"fs.create"}
+{"source":"workspace","operationId":"87730cde-60ba-4be1-afe8-9fd2dd05b722","doc":1,"seq":4,"ms":200459,"op":"fs.moveFrom"}
+{"source":"watcher","doc":1,"seq":5,"ms":200527,"op":"fs.delete"}

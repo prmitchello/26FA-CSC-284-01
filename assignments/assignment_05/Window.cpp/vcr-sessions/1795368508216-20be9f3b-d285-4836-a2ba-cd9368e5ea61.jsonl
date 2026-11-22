@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/Window.cpp","startedAt":"2026-11-22T17:28:28.216Z","attemptId":"74be3ca7-ceb2-44d6-bed4-057b2fdf0351","segmentId":"c234e9de-709a-4288-9475-0aca41a72d6b","sourceWindowId":"1850db9a-cec3-4c73-b8d9-3f3bcc370106","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-126,"op":"source.context"}
+{"source":"workspace","operationId":"87730cde-60ba-4be1-afe8-9fd2dd05b722","path":".","doc":1,"seq":2,"ms":-126,"op":"fs.moveTo"}
+{"source":"watcher","doc":1,"seq":3,"ms":-58,"op":"fs.create"}

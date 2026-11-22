@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/RoomList.cpp","startedAt":"2026-11-22T17:28:22.440Z","attemptId":"d04eb8d3-f40f-41fa-856e-4375943bc157","segmentId":"1d870abf-02fa-4f3a-8f51-03a47ddb689c","sourceWindowId":"1850db9a-cec3-4c73-b8d9-3f3bcc370106","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-85,"op":"source.context"}
+{"source":"workspace","operationId":"e650f187-6aea-47ea-bbfe-98ac45a8af72","path":".","doc":1,"seq":2,"ms":-85,"op":"fs.moveTo"}
+{"source":"watcher","doc":1,"seq":3,"ms":-20,"op":"fs.create"}
