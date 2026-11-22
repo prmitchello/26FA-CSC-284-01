@@ -5215,3 +5215,45 @@
 {"doc":1,"seq":5214,"ms":90309735,"op":"save"}
 {"version":3188,"changes":[{"offset":2501,"length":0,"text":"|"}],"doc":1,"seq":5215,"ms":90309748,"op":"edit"}
 {"version":3189,"changes":[{"offset":2502,"length":0,"text":"|"}],"doc":1,"seq":5216,"ms":90309852,"op":"edit"}
+{"version":3190,"changes":[{"offset":2503,"length":0,"text":" "}],"doc":1,"seq":5217,"ms":90310776,"op":"edit"}
+{"doc":1,"seq":5218,"ms":90311787,"op":"save"}
+{"version":3191,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2504,"length":0,"text":"typing == KEY_BACKSPACE"}],"doc":1,"seq":5219,"ms":90315885,"op":"edit"}
+{"version":3192,"changes":[{"offset":2526,"length":1,"text":""}],"doc":1,"seq":5220,"ms":90316846,"op":"edit"}
+{"version":3193,"changes":[{"offset":2525,"length":1,"text":""}],"doc":1,"seq":5221,"ms":90317016,"op":"edit"}
+{"version":3194,"changes":[{"offset":2524,"length":1,"text":""}],"doc":1,"seq":5222,"ms":90317156,"op":"edit"}
+{"version":3195,"changes":[{"offset":2523,"length":1,"text":""}],"doc":1,"seq":5223,"ms":90317308,"op":"edit"}
+{"version":3196,"changes":[{"offset":2522,"length":1,"text":""}],"doc":1,"seq":5224,"ms":90317468,"op":"edit"}
+{"version":3197,"changes":[{"offset":2521,"length":1,"text":""}],"doc":1,"seq":5225,"ms":90317605,"op":"edit"}
+{"version":3198,"changes":[{"offset":2520,"length":1,"text":""}],"doc":1,"seq":5226,"ms":90317747,"op":"edit"}
+{"version":3199,"changes":[{"offset":2519,"length":1,"text":""}],"doc":1,"seq":5227,"ms":90317899,"op":"edit"}
+{"version":3200,"changes":[{"offset":2518,"length":1,"text":""}],"doc":1,"seq":5228,"ms":90318286,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nvoid draw_Left(WINDOW* ,vector<string>&  , int );\n\nint main(){\n\n    //initialize the screen\n    initscr();\n    keypad(stdscr,true);\n    // curs_set(0);\n\n\n    vector<string> sideMenu ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n\n    int highlight = 0;\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n    WINDOW* mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n    WINDOW* rightInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,(terminalWidth-18));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n    WINDOW* leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n    WINDOW* bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );\n\n\n    draw_Left(leftInner, sideMenu, highlight);\n\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(mainInner,0,0);\n\n    box(leftWin,0,0);\n    box(leftInner,0,0);\n\n    box(rightWin,0,0);\n    box(rightInner,0,0);\n\n    box(bottomWin,0,0);\n    box(bottomInner,0,0);\n\n    mvwprintw(mainWin,1,16,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,1,7,\"Feed\");\n    mvwprintw(rightWin,1,3,\"Friends\");\n    mvwprintw(bottomInner,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(mainInner);\n    wrefresh(rightWin);\n    wrefresh(rightInner);\n    wrefresh(leftWin);\n    wrefresh(leftInner);\n    wrefresh(bottomWin);\n    wrefresh(bottomInner);\n\n\nvector<string> text;\n\nstring type=\"\";\n\nwhile (true)\n{\n\n\n    int typing = wgetch(bottomInner);\n\n    if(typing == KEY_UP || typing == KEY_DOWN ){\n        continue;\n    }else if( typing == KEY_LEFT || typing == KEY_RIGHT  ){\n\n    }\n    if(typing == KEY_BACKSPACE || typing == KEY){\n        if(!type.empty()){\n            type.pop_back();\n        }\n\n        wattron(bottomInner,A_REVERSE);\n\n        wmove(bottomInner,0,2);\n        wclrtoeol(bottomInner);\n        wattroff(bottomInner,A_REVERSE);\n\n        mvwprintw(bottomInner,2,1,\"backspace\");\n        type.clear();\n    }\n    text.push_back(\"You: \"+type);\n\n    if(typing == KEY_ENTER){\n\n        //mvwprintw(mainWin,6,2,text);\n        break;\n    }\n\n    // int tacker\n    // for(auto& strng;it = text.begin();it<text.end();)\n\n}\n\n    endwin();\n\n    return 0;\n\n}\nvoid draw_Left(WINDOW* leftInner, vector<string>& topicList , int highlight){\n\n    int length = topicList.size();\n\n    for(int i=0; i<length ; ++i){\n\n        if(i == highlight){\n\n            attron(A_REVERSE);\n                mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n            attroff(A_REVERSE);\n\n        }else{\n            mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n        }\n\n    }\n\n    wrefresh(leftInner);\n\n}\n","version":3201,"snapshot":true,"doc":1,"seq":5229,"ms":90318465,"op":"edit"}
+{"version":3202,"changes":[{"offset":2516,"length":1,"text":""}],"doc":1,"seq":5230,"ms":90318599,"op":"edit"}
+{"version":3203,"changes":[{"offset":2515,"length":1,"text":""}],"doc":1,"seq":5231,"ms":90318779,"op":"edit"}
+{"version":3204,"changes":[{"offset":2514,"length":1,"text":""}],"doc":1,"seq":5232,"ms":90319213,"op":"edit"}
+{"version":3205,"changes":[{"offset":2514,"length":0,"text":"D"}],"doc":1,"seq":5233,"ms":90319558,"op":"edit"}
+{"version":3206,"changes":[{"offset":2515,"length":0,"text":"E"}],"doc":1,"seq":5234,"ms":90319698,"op":"edit"}
+{"version":3207,"changes":[{"offset":2516,"length":0,"text":"L"}],"doc":1,"seq":5235,"ms":90319843,"op":"edit"}
+{"doc":1,"seq":5236,"ms":90320862,"op":"save"}
+{"version":3208,"changes":[{"offset":2514,"length":3,"text":"delete"}],"doc":1,"seq":5237,"ms":90322752,"op":"edit"}
+{"version":3209,"changes":[{"offset":2519,"length":1,"text":""}],"doc":1,"seq":5238,"ms":90323318,"op":"edit"}
+{"version":3210,"changes":[{"offset":2518,"length":1,"text":""}],"doc":1,"seq":5239,"ms":90323513,"op":"edit"}
+{"version":3211,"changes":[{"offset":2517,"length":1,"text":""}],"doc":1,"seq":5240,"ms":90323637,"op":"edit"}
+{"version":3212,"changes":[{"offset":2516,"length":1,"text":""}],"doc":1,"seq":5241,"ms":90323788,"op":"edit"}
+{"version":3213,"changes":[{"offset":2515,"length":1,"text":""}],"doc":1,"seq":5242,"ms":90323927,"op":"edit"}
+{"version":3214,"changes":[{"offset":2514,"length":1,"text":""}],"doc":1,"seq":5243,"ms":90324065,"op":"edit"}
+{"doc":1,"seq":5244,"ms":90325093,"op":"save"}
+{"version":3215,"changes":[{"offset":2514,"length":0,"text":"K"}],"doc":1,"seq":5245,"ms":90326114,"op":"edit"}
+{"version":3216,"changes":[{"offset":2515,"length":0,"text":"E"}],"doc":1,"seq":5246,"ms":90326223,"op":"edit"}
+{"version":3217,"changes":[{"offset":2516,"length":0,"text":"Y"}],"doc":1,"seq":5247,"ms":90326486,"op":"edit"}
+{"doc":1,"seq":5248,"ms":90327500,"op":"save"}
+{"version":3218,"changes":[{"offset":2517,"length":0,"text":"_"}],"doc":1,"seq":5249,"ms":90328327,"op":"edit"}
+{"version":3219,"changes":[{"offset":2518,"length":0,"text":"D"}],"doc":1,"seq":5250,"ms":90329275,"op":"edit"}
+{"version":3220,"changes":[{"offset":2519,"length":0,"text":"E"}],"doc":1,"seq":5251,"ms":90329447,"op":"edit"}
+{"doc":1,"seq":5252,"ms":90330466,"op":"save"}
+{"version":3221,"changes":[{"offset":2520,"length":0,"text":"L"}],"doc":1,"seq":5253,"ms":90330722,"op":"edit"}
+{"version":3222,"changes":[{"offset":2521,"length":0,"text":"E"}],"doc":1,"seq":5254,"ms":90330967,"op":"edit"}
+{"doc":1,"seq":5255,"ms":90331983,"op":"save"}
+{"version":3223,"changes":[{"offset":2522,"length":0,"text":"T"}],"doc":1,"seq":5256,"ms":90332059,"op":"edit"}
+{"version":3224,"changes":[{"offset":2523,"length":0,"text":"E"}],"doc":1,"seq":5257,"ms":90332301,"op":"edit"}
+{"doc":1,"seq":5258,"ms":90333314,"op":"save"}
