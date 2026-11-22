@@ -4885,3 +4885,5 @@
 {"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4884,"ms":89283001,"op":"terminal.output"}
 {"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4885,"ms":89283312,"op":"terminal.output"}
 {"executionId":"4295befc-7476-4348-930a-e22e0589ca18","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"^?","doc":2,"seq":4886,"ms":89283678,"op":"terminal.output"}
+{"version":3035,"changes":[{"offset":2502,"length":0,"text":"\n        "}],"doc":1,"seq":4887,"ms":89669440,"op":"edit"}
+{"doc":1,"seq":4888,"ms":89670449,"op":"save"}
