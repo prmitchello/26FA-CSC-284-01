@@ -6004,3 +6004,32 @@
 {"executionId":"acf1947b-a8b8-45bd-84cc-583b5c13a9ee","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[15;63H^[\u001b[10;10H\u001b[15;65H[\u001b[10;10H\u001b[15;66HD\u001b[10;10H","doc":2,"seq":6003,"ms":91801197,"op":"terminal.output"}
 {"executionId":"acf1947b-a8b8-45bd-84cc-583b5c13a9ee","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[15;67H^[\u001b[10;10H\u001b[15;69H[\u001b[10;10H\u001b[15;70HC\u001b[10;10H","doc":2,"seq":6004,"ms":91801605,"op":"terminal.output"}
 {"executionId":"acf1947b-a8b8-45bd-84cc-583b5c13a9ee","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[15;71H^[\u001b[10;10H\u001b[15;73H[\u001b[10;10H\u001b[15;74HA\u001b[10;10H","doc":2,"seq":6005,"ms":91802833,"op":"terminal.output"}
+{"version":3536,"changes":[{"offset":2942,"length":0,"text":"\n    "}],"doc":1,"seq":6006,"ms":92019843,"op":"edit"}
+{"version":3537,"changes":[{"offset":2947,"length":0,"text":"c"}],"doc":1,"seq":6007,"ms":92020112,"op":"edit"}
+{"version":3538,"changes":[{"offset":2948,"length":0,"text":"o"}],"doc":1,"seq":6008,"ms":92020280,"op":"edit"}
+{"version":3539,"changes":[{"offset":2949,"length":0,"text":"n"}],"doc":1,"seq":6009,"ms":92020461,"op":"edit"}
+{"version":3540,"changes":[{"offset":2950,"length":0,"text":"t"}],"doc":1,"seq":6010,"ms":92020592,"op":"edit"}
+{"version":3541,"changes":[{"offset":2951,"length":0,"text":"i"}],"doc":1,"seq":6011,"ms":92020714,"op":"edit"}
+{"version":3542,"changes":[{"offset":2952,"length":0,"text":"n"}],"doc":1,"seq":6012,"ms":92020813,"op":"edit"}
+{"doc":1,"seq":6013,"ms":92021833,"op":"save"}
+{"version":3543,"changes":[{"offset":2953,"length":0,"text":"u"}],"doc":1,"seq":6014,"ms":92022088,"op":"edit"}
+{"version":3544,"changes":[{"offset":2954,"length":0,"text":"e"}],"doc":1,"seq":6015,"ms":92022233,"op":"edit"}
+{"version":3545,"changes":[{"offset":2955,"length":0,"text":";"}],"doc":1,"seq":6016,"ms":92022704,"op":"edit"}
+{"doc":1,"seq":6017,"ms":92023719,"op":"save"}
+{"version":3546,"reason":1,"changes":[{"offset":2953,"length":3,"text":""}],"doc":1,"seq":6018,"ms":92027950,"op":"edit"}
+{"doc":1,"seq":6019,"ms":92028966,"op":"save"}
+{"version":3547,"reason":1,"changes":[{"offset":2942,"length":11,"text":""}],"doc":1,"seq":6020,"ms":92029876,"op":"edit"}
+{"doc":1,"seq":6021,"ms":92030883,"op":"save"}
+{"version":3548,"reason":1,"changes":[{"offset":2891,"length":0,"text":"        "}],"doc":1,"seq":6022,"ms":92034188,"op":"edit"}
+{"version":3549,"changes":[{"offset":2891,"length":8,"text":""}],"doc":1,"seq":6023,"ms":92035192,"op":"edit"}
+{"doc":1,"seq":6024,"ms":92035200,"op":"save"}
+{"version":3550,"changes":[{"offset":2898,"length":44,"text":""}],"doc":1,"seq":6025,"ms":92038591,"op":"edit"}
+{"doc":1,"seq":6026,"ms":92039604,"op":"save"}
+{"version":3551,"changes":[{"offset":2460,"length":0,"text":"\n            "}],"doc":1,"seq":6027,"ms":92042303,"op":"edit"}
+{"version":3552,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2473,"length":0,"text":"    draw_Left(leftInner,sideMenu,highlight);"}],"doc":1,"seq":6028,"ms":92042616,"op":"edit"}
+{"doc":1,"seq":6029,"ms":92043626,"op":"save"}
+{"version":3553,"changes":[{"offset":2642,"length":0,"text":"\n            "}],"doc":1,"seq":6030,"ms":92045152,"op":"edit"}
+{"version":3554,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2655,"length":0,"text":"    draw_Left(leftInner,sideMenu,highlight);"}],"doc":1,"seq":6031,"ms":92045478,"op":"edit"}
+{"doc":1,"seq":6032,"ms":92046487,"op":"save"}
+{"executionId":"acf1947b-a8b8-45bd-84cc-583b5c13a9ee","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","data":"\u001b[21;1H\u001b[?1049l\r\u001b[?1l\u001b>\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":6033,"ms":92048044,"op":"terminal.output"}
+{"executionId":"acf1947b-a8b8-45bd-84cc-583b5c13a9ee","terminalId":"cc7a830c-58bf-4341-a413-60f67d4e0262","commandLine":"./app","confidence":2,"exitCode":1,"doc":2,"seq":6034,"ms":92048044,"op":"terminal.end"}
