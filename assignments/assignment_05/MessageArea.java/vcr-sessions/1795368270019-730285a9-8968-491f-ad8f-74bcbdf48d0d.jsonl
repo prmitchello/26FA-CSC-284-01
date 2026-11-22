@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/MessageArea.java","startedAt":"2026-11-22T17:24:30.019Z","attemptId":"ec544bde-3cea-4b9a-8431-78d58fb4f184","segmentId":"156915ee-6ef7-4902-ba85-beeeafeb7882","sourceWindowId":"1850db9a-cec3-4c73-b8d9-3f3bcc370106","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-60,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-60,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":44,"op":"fs.create"}

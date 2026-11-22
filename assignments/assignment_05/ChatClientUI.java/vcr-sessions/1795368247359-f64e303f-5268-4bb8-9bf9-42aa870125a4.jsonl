@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/ChatClientUI.java","startedAt":"2026-11-22T17:24:07.359Z","attemptId":"a9c2ab55-5081-4c2b-a06e-8fefd1c882c2","segmentId":"c4e4de70-c32c-4e55-8eab-c1c28a5678ea","sourceWindowId":"1850db9a-cec3-4c73-b8d9-3f3bcc370106","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-35,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-35,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":58,"op":"fs.create"}
