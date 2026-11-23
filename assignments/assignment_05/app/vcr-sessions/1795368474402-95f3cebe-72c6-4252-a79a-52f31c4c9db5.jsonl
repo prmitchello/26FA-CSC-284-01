@@ -3,3 +3,4 @@
 {"source":"workspace","path":".","doc":1,"seq":2,"ms":-25,"op":"fs.delete"}
 {"source":"watcher","doc":1,"seq":3,"ms":89,"op":"fs.delete"}
 {"source":"watcher","doc":1,"seq":4,"ms":224568,"op":"fs.create"}
+{"seq":5,"ms":94968271,"op":"end"}

@@ -4,3 +4,4 @@
 {"source":"watcher","doc":1,"seq":3,"ms":67,"op":"fs.create"}
 {"source":"workspace","operationId":"e650f187-6aea-47ea-bbfe-98ac45a8af72","doc":1,"seq":4,"ms":209469,"op":"fs.moveFrom"}
 {"source":"watcher","doc":1,"seq":5,"ms":209534,"op":"fs.delete"}
+{"seq":6,"ms":95149787,"op":"end"}

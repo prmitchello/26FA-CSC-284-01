@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/assignment_05","startedAt":"2026-11-23T19:50:45.731Z","attemptId":"4be3aad8-5f16-4486-bebd-b8677acd8e19","segmentId":"726a6a66-a161-4afb-9958-41f0aa5c8485","sourceWindowId":"0ff76a3b-2539-4320-a8bc-df0f90ff6e6a","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-98,"op":"source.context"}
+{"source":"watcher","path":".","doc":1,"seq":2,"ms":-98,"op":"fs.create"}
+{"seq":3,"ms":8298,"op":"end"}

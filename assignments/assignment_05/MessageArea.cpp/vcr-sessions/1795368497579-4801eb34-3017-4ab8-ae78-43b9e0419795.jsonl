@@ -2,3 +2,4 @@
 {"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-70,"op":"source.context"}
 {"source":"workspace","operationId":"75b1ccc8-6b2e-481c-8e5b-3ea18195de9f","path":".","doc":1,"seq":2,"ms":-70,"op":"fs.moveTo"}
 {"source":"watcher","doc":1,"seq":3,"ms":-5,"op":"fs.create"}
+{"seq":4,"ms":94945094,"op":"end"}
