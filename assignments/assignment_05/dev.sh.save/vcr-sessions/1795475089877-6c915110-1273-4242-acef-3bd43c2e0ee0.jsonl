@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/dev.sh.save","startedAt":"2026-11-23T23:04:49.877Z","attemptId":"7702ffcc-5297-420f-aad4-2821cf1be355","segmentId":"279aeb97-a383-4130-8832-05a510736778","sourceWindowId":"2d638e3e-f76f-49a2-bee1-e68337e02698","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-72,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-72,"op":"fs.delete"}
+{"source":"watcher","doc":1,"seq":3,"ms":83,"op":"fs.delete"}

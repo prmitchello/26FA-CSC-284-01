@@ -2262,3 +2262,20 @@
 {"doc":1,"seq":2261,"ms":9083485,"op":"save"}
 {"version":1031,"changes":[{"offset":5127,"length":23,"text":""}],"doc":1,"seq":2262,"ms":9090327,"op":"edit"}
 {"doc":1,"seq":2263,"ms":9091340,"op":"save"}
+{"text":"class MessageArea {\n\n};\n","version":1,"path":"MessageArea.cpp","snapshot":true,"doc":3,"seq":2264,"ms":9179753,"op":"snap"}
+{"version":2,"changes":[{"offset":19,"length":0,"text":"\n    "}],"doc":3,"seq":2265,"ms":9181762,"op":"edit"}
+{"version":3,"changes":[{"offset":24,"length":0,"text":"\n    "},{"offset":20,"length":4,"text":""}],"doc":3,"seq":2266,"ms":9182037,"op":"edit"}
+{"doc":3,"seq":2267,"ms":9183049,"op":"save"}
+{"text":"#!/bin/bash\n\nfind . \\( -name '*.cpp' -o -name '*.h' \\) | entr -r sh -c '\n    clear\n    echo \"Compiling...\"\n    g++ -std=c++17 *.cpp -lncurses -o program &&\n    echo \"Running...\"\n    ./program\n\n\n\n\n","version":1,"path":"dev.sh.save","snapshot":true,"doc":4,"seq":2268,"ms":9198074,"op":"snap"}
+{"doc":4,"seq":2269,"ms":9201909,"op":"close"}
+{"text":"#!/bin/bash\n\n#!/bin/bash\n\nfind . \\( -name '*.cpp' -o -name '*.h' \\) | entr -c sh -c '\n    echo \"Compiling...\"\n    g++ -std=c++17 *.cpp -lncurses -o program\n\n    if [ $? -eq 0 ]; then\n        echo \"Starting program...\"\n        ./program\n    else\n        echo \"Compilation failed.\"\n    fi\n'\n\n","version":1,"path":"dev.sh","snapshot":true,"doc":5,"seq":2270,"ms":9202691,"op":"snap"}
+{"doc":5,"seq":2271,"ms":9206737,"op":"close"}
+{"text":"class Window {\n\n};\n","version":1,"path":"Window.cpp","snapshot":true,"doc":6,"seq":2272,"ms":9212622,"op":"snap"}
+{"doc":6,"seq":2273,"ms":9214032,"op":"close"}
+{"text":"class RoomList {\n\n};\n","version":1,"path":"RoomList.cpp","snapshot":true,"doc":7,"seq":2274,"ms":9214041,"op":"snap"}
+{"doc":7,"seq":2275,"ms":9216405,"op":"close"}
+{"text":"class ChatClientUI {\n\n};\n","version":1,"path":"ChatClientUI.cpp","snapshot":true,"doc":8,"seq":2276,"ms":9216418,"op":"snap"}
+{"doc":8,"seq":2277,"ms":9220802,"op":"close"}
+{"text":"class Window {\n\n};\n","version":1,"snapshot":true,"doc":6,"seq":2278,"ms":9220818,"op":"snap"}
+{"doc":6,"seq":2279,"ms":9230849,"op":"close"}
+{"text":"class RoomList {\n\n};\n","version":1,"snapshot":true,"doc":7,"seq":2280,"ms":9230860,"op":"snap"}
