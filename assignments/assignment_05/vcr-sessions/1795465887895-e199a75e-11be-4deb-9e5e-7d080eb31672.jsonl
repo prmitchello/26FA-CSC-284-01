@@ -540,3 +540,9 @@
 {"executionId":"474c8fcd-2714-41e2-8cae-08e8bb142794","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"d\b","doc":2,"seq":539,"ms":2122262,"op":"terminal.output"}
 {"executionId":"474c8fcd-2714-41e2-8cae-08e8bb142794","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"a\b","doc":2,"seq":540,"ms":2122421,"op":"terminal.output"}
 {"executionId":"474c8fcd-2714-41e2-8cae-08e8bb142794","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"\u001b[15;23H\u001b[15;31H \b","doc":2,"seq":541,"ms":2122671,"op":"terminal.output"}
+{"version":228,"changes":[{"offset":4127,"length":1,"text":""}],"doc":1,"seq":542,"ms":2259336,"op":"edit"}
+{"version":229,"changes":[{"offset":4127,"length":1,"text":""}],"doc":1,"seq":543,"ms":2259836,"op":"edit"}
+{"doc":1,"seq":544,"ms":2260854,"op":"save"}
+{"version":230,"changes":[{"offset":4127,"length":0,"text":"&"}],"doc":1,"seq":545,"ms":2260989,"op":"edit"}
+{"version":231,"changes":[{"offset":4128,"length":0,"text":"&"}],"doc":1,"seq":546,"ms":2261137,"op":"edit"}
+{"doc":1,"seq":547,"ms":2262142,"op":"save"}
