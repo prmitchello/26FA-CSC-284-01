@@ -2336,3 +2336,21 @@
 {"version":1039,"reason":1,"changes":[{"offset":158,"length":0,"text":"//#include <curses.h>"}],"doc":1,"seq":2335,"ms":9347475,"op":"edit"}
 {"doc":1,"seq":2336,"ms":9348483,"op":"save"}
 {"version":39,"changes":[{"offset":29,"length":0,"text":"n"}],"doc":7,"seq":2337,"ms":9355222,"op":"edit"}
+{"doc":7,"seq":2338,"ms":9356237,"op":"save"}
+{"version":40,"changes":[{"offset":21,"length":0,"text":"#"}],"doc":7,"seq":2339,"ms":9366408,"op":"edit"}
+{"doc":7,"seq":2340,"ms":9367416,"op":"save"}
+{"version":41,"changes":[{"offset":21,"length":19,"text":""}],"doc":7,"seq":2341,"ms":9369104,"op":"edit"}
+{"doc":7,"seq":2342,"ms":9370118,"op":"save"}
+{"version":42,"changes":[{"offset":0,"length":0,"text":"\n"}],"doc":7,"seq":2343,"ms":9372577,"op":"edit"}
+{"version":43,"changes":[{"offset":1,"length":0,"text":"\n"}],"doc":7,"seq":2344,"ms":9372743,"op":"edit"}
+{"version":44,"changes":[{"offset":19,"length":4,"text":""}],"doc":7,"seq":2345,"ms":9373745,"op":"edit"}
+{"doc":7,"seq":2346,"ms":9373751,"op":"save"}
+{"version":45,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":0,"text":"#include<ncurses.h>"}],"doc":7,"seq":2347,"ms":9374085,"op":"edit"}
+{"doc":7,"seq":2348,"ms":9375101,"op":"save"}
+{"version":46,"changes":[{"offset":9,"length":1,"text":""}],"doc":7,"seq":2349,"ms":9382747,"op":"edit"}
+{"doc":7,"seq":2350,"ms":9383766,"op":"save"}
+{"text":"class Window {\n\n};\n","version":1,"snapshot":true,"doc":6,"seq":2351,"ms":9402446,"op":"snap"}
+{"version":2,"changes":[{"offset":14,"length":0,"text":"\n    "}],"doc":6,"seq":2352,"ms":9410778,"op":"edit"}
+{"version":3,"changes":[{"offset":19,"length":0,"text":"\n    "},{"offset":15,"length":4,"text":""}],"doc":6,"seq":2353,"ms":9411179,"op":"edit"}
+{"version":4,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":20,"length":0,"text":"initscr();\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;"}],"doc":6,"seq":2354,"ms":9411697,"op":"edit"}
+{"doc":6,"seq":2355,"ms":9412706,"op":"save"}
