@@ -2224,3 +2224,7 @@
 {"executionId":"25685336-8c4b-4061-ad97-730ca93ae66d","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"n","doc":2,"seq":2223,"ms":8781956,"op":"terminal.output"}
 {"executionId":"25685336-8c4b-4061-ad97-730ca93ae66d","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"^?\b\b\b","doc":2,"seq":2224,"ms":8783212,"op":"terminal.output"}
 {"executionId":"25685336-8c4b-4061-ad97-730ca93ae66d","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"\u001b[15;23H\u001b[6;28He\n\br\n\n\bt\u001b[15;31H      \u001b[31G","doc":2,"seq":2225,"ms":8784092,"op":"terminal.output"}
+{"version":1005,"changes":[{"offset":5422,"length":0,"text":")"}],"doc":1,"seq":2226,"ms":8916490,"op":"edit"}
+{"doc":1,"seq":2227,"ms":8917500,"op":"save"}
+{"version":1006,"changes":[{"offset":5436,"length":1,"text":""}],"doc":1,"seq":2228,"ms":8918432,"op":"edit"}
+{"doc":1,"seq":2229,"ms":8919442,"op":"save"}
