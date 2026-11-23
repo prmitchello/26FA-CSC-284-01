@@ -1883,3 +1883,16 @@
 {"executionId":"b5a324b3-8446-493c-90d1-f18a2f4c4e29","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"f\u001b[?1h\u001b=","doc":2,"seq":1882,"ms":8295033,"op":"terminal.output"}
 {"executionId":"b5a324b3-8446-493c-90d1-f18a2f4c4e29","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"d\u001b[?1h\u001b=","doc":2,"seq":1883,"ms":8295161,"op":"terminal.output"}
 {"executionId":"b5a324b3-8446-493c-90d1-f18a2f4c4e29","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"\u001b[15;23H\u001b[4;29Hdfsa\n\b\b\bafsdf\u001b[6;28Hdsfsafds\u001b[8;29Hd\n\b\u001b[15;24H\u001b[15X\u001b[14;32H\u001b[?1h\u001b=","doc":2,"seq":1884,"ms":8295497,"op":"terminal.output"}
+{"version":943,"changes":[{"offset":2333,"length":77,"text":""}],"doc":1,"seq":1885,"ms":8389537,"op":"edit"}
+{"version":944,"changes":[{"offset":2325,"length":8,"text":""}],"doc":1,"seq":1886,"ms":8390541,"op":"edit"}
+{"doc":1,"seq":1887,"ms":8390551,"op":"save"}
+{"version":945,"changes":[{"offset":2304,"length":0,"text":"\n    "}],"doc":1,"seq":1888,"ms":8390595,"op":"edit"}
+{"version":946,"changes":[{"offset":2309,"length":0,"text":"\n    "},{"offset":2305,"length":4,"text":""}],"doc":1,"seq":1889,"ms":8390940,"op":"edit"}
+{"version":947,"changes":[{"offset":2310,"length":0,"text":"\n    "},{"offset":2306,"length":4,"text":""}],"doc":1,"seq":1890,"ms":8391118,"op":"edit"}
+{"version":948,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2311,"length":0,"text":"//allow keyboard input in the bottom window\n        keypad(bottomInner,true);"}],"doc":1,"seq":1891,"ms":8391683,"op":"edit"}
+{"doc":1,"seq":1892,"ms":8392692,"op":"save"}
+{"version":949,"changes":[{"offset":2409,"length":1,"text":""}],"doc":1,"seq":1893,"ms":8392765,"op":"edit"}
+{"version":950,"changes":[{"offset":2408,"length":1,"text":""}],"doc":1,"seq":1894,"ms":8393000,"op":"edit"}
+{"doc":1,"seq":1895,"ms":8394013,"op":"save"}
+{"version":951,"changes":[{"offset":2359,"length":4,"text":""}],"doc":1,"seq":1896,"ms":8394441,"op":"edit"}
+{"doc":1,"seq":1897,"ms":8395455,"op":"save"}
