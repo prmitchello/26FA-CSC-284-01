@@ -4,3 +4,6 @@
 {"executionId":"c31bbfb4-7fff-4bcf-b19e-b2483cd4e439","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","commandLine":"","confidence":2,"path":".","doc":2,"seq":3,"ms":294239,"op":"terminal.start"}
 {"executionId":"c31bbfb4-7fff-4bcf-b19e-b2483cd4e439","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","data":"\u001b]633;C\u0007","doc":2,"seq":4,"ms":294240,"op":"terminal.output"}
 {"executionId":"c31bbfb4-7fff-4bcf-b19e-b2483cd4e439","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","commandLine":"","confidence":2,"exitCode":null,"doc":2,"seq":5,"ms":294241,"op":"terminal.end"}
+{"executionId":"0e70b51e-4e13-4a48-beda-544913191e4a","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","commandLine":"./dev.sh","confidence":2,"doc":2,"seq":6,"ms":301247,"op":"terminal.start"}
+{"executionId":"0e70b51e-4e13-4a48-beda-544913191e4a","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","data":"\u001b]633;C\u0007\u001b[3J\u001b[H\u001b[2JCompiling...\r\n","doc":2,"seq":7,"ms":301316,"op":"terminal.output"}
+{"executionId":"0e70b51e-4e13-4a48-beda-544913191e4a","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","data":"Running...\r\n","doc":2,"seq":8,"ms":301762,"op":"terminal.output"}
