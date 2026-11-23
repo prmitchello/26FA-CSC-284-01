@@ -2354,3 +2354,24 @@
 {"version":3,"changes":[{"offset":19,"length":0,"text":"\n    "},{"offset":15,"length":4,"text":""}],"doc":6,"seq":2353,"ms":9411179,"op":"edit"}
 {"version":4,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":20,"length":0,"text":"initscr();\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;"}],"doc":6,"seq":2354,"ms":9411697,"op":"edit"}
 {"doc":6,"seq":2355,"ms":9412706,"op":"save"}
+{"version":5,"changes":[{"offset":0,"length":0,"text":"\n"}],"doc":6,"seq":2356,"ms":9418052,"op":"edit"}
+{"doc":6,"seq":2357,"ms":9419059,"op":"save"}
+{"version":6,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":0,"text":"#include<curses.h>"}],"doc":6,"seq":2358,"ms":9419517,"op":"edit"}
+{"version":7,"changes":[{"offset":18,"length":0,"text":"\n"}],"doc":6,"seq":2359,"ms":9419788,"op":"edit"}
+{"doc":6,"seq":2360,"ms":9420797,"op":"save"}
+{"version":1040,"changes":[{"offset":778,"length":207,"text":""}],"doc":1,"seq":2361,"ms":9453842,"op":"edit"}
+{"doc":1,"seq":2362,"ms":9454852,"op":"save"}
+{"version":8,"changes":[{"offset":273,"length":0,"text":"\n    "}],"doc":6,"seq":2363,"ms":9456399,"op":"edit"}
+{"version":9,"changes":[{"offset":278,"length":0,"text":"\n    "},{"offset":274,"length":4,"text":""}],"doc":6,"seq":2364,"ms":9456577,"op":"edit"}
+{"version":10,"changes":[{"offset":279,"length":0,"text":"\n    "},{"offset":275,"length":4,"text":""}],"doc":6,"seq":2365,"ms":9456962,"op":"edit"}
+{"version":11,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":280,"length":0,"text":"WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n    WINDOW* mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));"}],"doc":6,"seq":2366,"ms":9457269,"op":"edit"}
+{"doc":6,"seq":2367,"ms":9458298,"op":"save"}
+{"version":4,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":25,"length":0,"text":"//box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;"}],"doc":3,"seq":2368,"ms":9466230,"op":"edit"}
+{"doc":3,"seq":2369,"ms":9467240,"op":"save"}
+{"version":1041,"changes":[{"offset":982,"length":197,"text":""}],"doc":1,"seq":2370,"ms":9472266,"op":"edit"}
+{"version":1042,"changes":[{"offset":978,"length":4,"text":""}],"doc":1,"seq":2371,"ms":9473009,"op":"edit"}
+{"version":1043,"changes":[{"offset":977,"length":1,"text":""}],"doc":1,"seq":2372,"ms":9473152,"op":"edit"}
+{"version":1044,"changes":[{"offset":976,"length":1,"text":""}],"doc":1,"seq":2373,"ms":9473564,"op":"edit"}
+{"version":1045,"changes":[{"offset":975,"length":1,"text":""}],"doc":1,"seq":2374,"ms":9474427,"op":"edit"}
+{"version":1046,"changes":[{"offset":774,"length":4,"text":""}],"doc":1,"seq":2375,"ms":9475432,"op":"edit"}
+{"doc":1,"seq":2376,"ms":9475472,"op":"save"}
