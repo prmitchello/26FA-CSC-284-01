@@ -343,3 +343,18 @@
 {"executionId":"053e9ddc-c88f-41a9-999b-816653e37067","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"a\bs\b","doc":2,"seq":342,"ms":1249732,"op":"terminal.output"}
 {"executionId":"053e9ddc-c88f-41a9-999b-816653e37067","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"d\bf\b","doc":2,"seq":343,"ms":1249872,"op":"terminal.output"}
 {"executionId":"053e9ddc-c88f-41a9-999b-816653e37067","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"\u001b[15;23H\u001b[15;31H \b","doc":2,"seq":344,"ms":1249978,"op":"terminal.output"}
+{"version":156,"changes":[{"offset":3653,"length":3,"text":"K"}],"doc":1,"seq":345,"ms":1346234,"op":"edit"}
+{"version":157,"changes":[{"offset":3654,"length":0,"text":"E"}],"doc":1,"seq":346,"ms":1346349,"op":"edit"}
+{"version":158,"changes":[{"offset":3655,"length":0,"text":"Y"}],"doc":1,"seq":347,"ms":1346631,"op":"edit"}
+{"version":159,"changes":[{"offset":3656,"length":0,"text":"_"}],"doc":1,"seq":348,"ms":1347033,"op":"edit"}
+{"doc":1,"seq":349,"ms":1348046,"op":"save"}
+{"version":160,"changes":[{"offset":3657,"length":0,"text":"B"}],"doc":1,"seq":350,"ms":1348216,"op":"edit"}
+{"version":161,"changes":[{"offset":3658,"length":0,"text":"A"}],"doc":1,"seq":351,"ms":1348429,"op":"edit"}
+{"version":162,"changes":[{"offset":3659,"length":0,"text":"C"}],"doc":1,"seq":352,"ms":1348630,"op":"edit"}
+{"version":163,"changes":[{"offset":3660,"length":0,"text":"K"}],"doc":1,"seq":353,"ms":1348768,"op":"edit"}
+{"version":164,"changes":[{"offset":3661,"length":0,"text":"S"}],"doc":1,"seq":354,"ms":1348904,"op":"edit"}
+{"version":165,"changes":[{"offset":3662,"length":0,"text":"P"}],"doc":1,"seq":355,"ms":1349098,"op":"edit"}
+{"version":166,"changes":[{"offset":3663,"length":0,"text":"A"}],"doc":1,"seq":356,"ms":1349157,"op":"edit"}
+{"version":167,"changes":[{"offset":3664,"length":0,"text":"C"}],"doc":1,"seq":357,"ms":1349259,"op":"edit"}
+{"version":168,"changes":[{"offset":3665,"length":0,"text":"E"}],"doc":1,"seq":358,"ms":1349402,"op":"edit"}
+{"doc":1,"seq":359,"ms":1350416,"op":"save"}
