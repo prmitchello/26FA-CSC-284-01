@@ -1300,3 +1300,122 @@
 {"doc":1,"seq":1299,"ms":6380715,"op":"save"}
 {"version":669,"changes":[{"offset":4976,"length":249,"text":""}],"doc":1,"seq":1300,"ms":7911373,"op":"edit"}
 {"doc":1,"seq":1301,"ms":7912381,"op":"save"}
+{"version":670,"changes":[{"offset":4646,"length":330,"text":""}],"doc":1,"seq":1302,"ms":7917817,"op":"edit"}
+{"doc":1,"seq":1303,"ms":7918823,"op":"save"}
+{"version":671,"changes":[{"offset":4476,"length":172,"text":""}],"doc":1,"seq":1304,"ms":7921935,"op":"edit"}
+{"version":672,"changes":[{"offset":4475,"length":1,"text":""}],"doc":1,"seq":1305,"ms":7922915,"op":"edit"}
+{"doc":1,"seq":1306,"ms":7923924,"op":"save"}
+{"version":673,"changes":[{"offset":4240,"length":0,"text":"S"}],"doc":1,"seq":1307,"ms":7930894,"op":"edit"}
+{"version":674,"changes":[{"offset":4240,"length":1,"text":""}],"doc":1,"seq":1308,"ms":7931575,"op":"edit"}
+{"version":675,"changes":[{"offset":4240,"length":0,"text":"s"}],"doc":1,"seq":1309,"ms":7932002,"op":"edit"}
+{"version":676,"changes":[{"offset":4241,"length":0,"text":"t"}],"doc":1,"seq":1310,"ms":7932268,"op":"edit"}
+{"doc":1,"seq":1311,"ms":7933288,"op":"save"}
+{"version":677,"changes":[{"offset":4242,"length":0,"text":"a"}],"doc":1,"seq":1312,"ms":7935453,"op":"edit"}
+{"version":678,"changes":[{"offset":4243,"length":0,"text":"t"}],"doc":1,"seq":1313,"ms":7936194,"op":"edit"}
+{"version":679,"changes":[{"offset":4244,"length":0,"text":"i"}],"doc":1,"seq":1314,"ms":7936537,"op":"edit"}
+{"version":680,"changes":[{"offset":4245,"length":0,"text":"c"}],"doc":1,"seq":1315,"ms":7936609,"op":"edit"}
+{"version":681,"changes":[{"offset":4246,"length":0,"text":"_"}],"doc":1,"seq":1316,"ms":7937115,"op":"edit"}
+{"version":682,"changes":[{"offset":4247,"length":0,"text":"c"}],"doc":1,"seq":1317,"ms":7937321,"op":"edit"}
+{"version":683,"changes":[{"offset":4248,"length":0,"text":"a"}],"doc":1,"seq":1318,"ms":7937456,"op":"edit"}
+{"version":684,"changes":[{"offset":4249,"length":0,"text":"s"}],"doc":1,"seq":1319,"ms":7937550,"op":"edit"}
+{"version":685,"changes":[{"offset":4250,"length":0,"text":"t"}],"doc":1,"seq":1320,"ms":7937964,"op":"edit"}
+{"version":686,"changes":[{"offset":4251,"length":0,"text":"<"}],"doc":1,"seq":1321,"ms":7938490,"op":"edit"}
+{"version":687,"changes":[{"offset":4252,"length":0,"text":"."}],"doc":1,"seq":1322,"ms":7938595,"op":"edit"}
+{"version":688,"changes":[{"offset":4252,"length":1,"text":""}],"doc":1,"seq":1323,"ms":7939564,"op":"edit"}
+{"version":689,"changes":[{"offset":4252,"length":0,"text":">"}],"doc":1,"seq":1324,"ms":7940492,"op":"edit"}
+{"version":690,"changes":[{"offset":4252,"length":0,"text":"c"}],"doc":1,"seq":1325,"ms":7941462,"op":"edit"}
+{"version":691,"changes":[{"offset":4253,"length":0,"text":"h"}],"doc":1,"seq":1326,"ms":7941678,"op":"edit"}
+{"version":692,"changes":[{"offset":4254,"length":0,"text":"a"}],"doc":1,"seq":1327,"ms":7941712,"op":"edit"}
+{"version":693,"changes":[{"offset":4255,"length":0,"text":"r"}],"doc":1,"seq":1328,"ms":7941877,"op":"edit"}
+{"doc":1,"seq":1329,"ms":7942895,"op":"save"}
+{"version":694,"changes":[{"offset":4257,"length":0,"text":"("}],"doc":1,"seq":1330,"ms":7943358,"op":"edit"}
+{"doc":1,"seq":1331,"ms":7944369,"op":"save"}
+{"version":695,"changes":[{"offset":4269,"length":0,"text":")"}],"doc":1,"seq":1332,"ms":7945836,"op":"edit"}
+{"doc":1,"seq":1333,"ms":7946850,"op":"save"}
+{"version":696,"changes":[{"offset":4221,"length":0,"text":"            "}],"doc":1,"seq":1334,"ms":7947572,"op":"edit"}
+{"version":697,"changes":[{"offset":4233,"length":0,"text":"/"}],"doc":1,"seq":1335,"ms":7947849,"op":"edit"}
+{"version":698,"changes":[{"offset":4234,"length":0,"text":"/"}],"doc":1,"seq":1336,"ms":7947978,"op":"edit"}
+{"version":699,"changes":[{"offset":4235,"length":0,"text":"c"}],"doc":1,"seq":1337,"ms":7948488,"op":"edit"}
+{"version":700,"changes":[{"offset":4236,"length":0,"text":"a"}],"doc":1,"seq":1338,"ms":7948575,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nvoid drawLeft(WINDOW* ,vector<string>&  , int );\nvoid drawChat(WINDOW* ,vector<string>&);\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n\n\n    keypad(stdscr,true);\n    // curs_set(0);\n\n\n    vector<string> sideMenu ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n    vector <string> chat;\n\n    int highlight = 0;\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n\n    //creating new windows to hold different places on the screen\n    WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n    WINDOW* mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));\n\n    WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n    WINDOW* rightInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,(terminalWidth-18));\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n    WINDOW* leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);\n\n    WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n    WINDOW* bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );\n\n    drawLeft(leftInner, sideMenu, highlight);\n\n\n    // box creates a border for each win and gives them a visible effect\n    box(mainWin,0,0);\n    box(mainInner,0,0);\n\n    box(leftWin,0,0);\n    box(leftInner,0,0);\n\n    box(rightWin,0,0);\n    box(rightInner,0,0);\n\n    box(bottomWin,0,0);\n    box(bottomInner,0,0);\n\n    mvwprintw(mainWin,1,40,\"Advanced C++ Chat Client\");\n    mvwprintw(leftWin,1,8,\"Feed\");\n    mvwprintw(rightWin,1,6,\"Friends\");\n    mvwprintw(bottomInner,1,1,\"Type > \");\n\n    wrefresh(mainWin);\n    wrefresh(mainInner);\n    wrefresh(rightWin);\n    wrefresh(rightInner);\n    wrefresh(leftWin);\n    wrefresh(leftInner);\n    wrefresh(bottomWin);\n    wrefresh(bottomInner);\n\n\n    vector<string> text;\n\n    string type=\"\";\n\n    while (true){\n\n        int typingInput = wgetch(bottomInner);\n\n        switch(typingInput){\n            case KEY_UP:{\n                highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n                    drawLeft(leftInner,sideMenu,highlight);\n                break;\n            }\n            case KEY_DOWN:{\n                highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n                    drawLeft(leftInner,sideMenu,highlight);\n                break;\n            }\n            // case KEY_LEFT:{\n            //     highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n            //     break;\n            // }\n            // case KEY_RIGHT:{\n            //     highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n            //     break;\n            // }\n            case KEY_ENTER:\n            case '\\n':{\n                if(!type.empty()){\n                    text.push_back(\"You: \"+type);\n                    //chat.push_back(\"You: \"+type);\n                    drawChat(mainInner, text);\n\n                }\n\n                type.clear();\n                wclrtoeol(bottomInner);\n                wmove(bottomInner,0,2);\n                mvwprintw(bottomInner,0,2,\"Type > %s\");\n\n                wrefresh(bottomInner);\n\n                break;\n            }\n            case KEY_BACKSPACE:\n            case 127:\n            case '\\b': {\n                if(!type.empty()){\n                    type.pop_back();\n                }\n\n                wattron(bottomInner,A_REVERSE);\n\n                wclrtoeol(bottomInner);\n                wmove(bottomInner,1,2);\n\n                wattroff(bottomInner,A_REVERSE);\n\n                mvwprintw(bottomInner,1,1,\"Type > %s\", type.c_str());\n                wrefresh(bottomInner);\n\n                break;\n            }\n\n        }\n        if(typingInput >=32 && typingInput <= 126){\n\n            //cas\n            type+=static_cast<char>(typingInput);\n            wrefresh(bottomInner);\n\n            wclrtoeol(bottomInner);\n\n            wmove(bottomInner,1,1);\n\n            mvwprintw(bottomInner,1,1,\"Type > %s\",type.c_str());\n\n            wrefresh(bottomInner);\n\n\n        }\n    }\n\n    endwin();\n\n    return 0;\n\n}\n\nvoid drawLeft(WINDOW* leftInner, vector<string>& topicList , int highlight){\n\n\n    int length = topicList.size();\n\n    for(int i=0; i<length ; ++i){\n\n        if(i == highlight){\n            //start_color();\n            attron(A_REVERSE);\n                mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n            attroff(A_REVERSE);\n\n        }else{\n            mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n        }\n\n    }\n\n    wrefresh(leftInner);\n\n}\n\nvoid drawChat(WINDOW* mainInner,vector<string>& text){\n\n    //werase(mainInner);\n    int numMessages = text.size();\n\n    int chatHeight,chatWidth;\n\n    getmaxyx(mainInner,chatHeight,chatWidth);\n\n    //the function max use a floor of zero, and ruturns where we shoudl start inside the\n    //vector pending on screen size\n    int displayStart= max(0, static_cast<int>(text.size() - chatHeight));\n\n    int rowTotal=1;\n    for(int i=displayStart; i< numMessages; i++){\n        mvwprintw(mainInner,rowTotal++,1,text[i].c_str());\n    }\n\n    wrefresh(mainInner);\n\n}\n\n","version":701,"snapshot":true,"doc":1,"seq":1339,"ms":7948715,"op":"edit"}
+{"version":702,"changes":[{"offset":4238,"length":0,"text":"t"}],"doc":1,"seq":1340,"ms":7948949,"op":"edit"}
+{"version":703,"changes":[{"offset":4239,"length":0,"text":" "}],"doc":1,"seq":1341,"ms":7949078,"op":"edit"}
+{"version":704,"changes":[{"offset":4240,"length":0,"text":"i"}],"doc":1,"seq":1342,"ms":7949273,"op":"edit"}
+{"version":705,"changes":[{"offset":4240,"length":1,"text":""}],"doc":1,"seq":1343,"ms":7949747,"op":"edit"}
+{"version":706,"changes":[{"offset":4240,"length":0,"text":"e"}],"doc":1,"seq":1344,"ms":7949923,"op":"edit"}
+{"version":707,"changes":[{"offset":4241,"length":0,"text":"v"}],"doc":1,"seq":1345,"ms":7950127,"op":"edit"}
+{"version":708,"changes":[{"offset":4242,"length":0,"text":"e"}],"doc":1,"seq":1346,"ms":7950205,"op":"edit"}
+{"version":709,"changes":[{"offset":4243,"length":0,"text":"r"}],"doc":1,"seq":1347,"ms":7950283,"op":"edit"}
+{"version":710,"changes":[{"offset":4244,"length":0,"text":"y"}],"doc":1,"seq":1348,"ms":7950952,"op":"edit"}
+{"version":711,"changes":[{"offset":4245,"length":0,"text":"t"}],"doc":1,"seq":1349,"ms":7951092,"op":"edit"}
+{"version":712,"changes":[{"offset":4246,"length":0,"text":"h"}],"doc":1,"seq":1350,"ms":7951170,"op":"edit"}
+{"version":713,"changes":[{"offset":4247,"length":0,"text":"i"}],"doc":1,"seq":1351,"ms":7951375,"op":"edit"}
+{"version":714,"changes":[{"offset":4248,"length":0,"text":"n"}],"doc":1,"seq":1352,"ms":7951478,"op":"edit"}
+{"version":715,"changes":[{"offset":4249,"length":0,"text":"g"}],"doc":1,"seq":1353,"ms":7951561,"op":"edit"}
+{"version":716,"changes":[{"offset":4250,"length":0,"text":" "}],"doc":1,"seq":1354,"ms":7951678,"op":"edit"}
+{"version":717,"changes":[{"offset":4251,"length":0,"text":"t"}],"doc":1,"seq":1355,"ms":7951842,"op":"edit"}
+{"version":718,"changes":[{"offset":4252,"length":0,"text":"o"}],"doc":1,"seq":1356,"ms":7951896,"op":"edit"}
+{"version":719,"changes":[{"offset":4253,"length":0,"text":" "}],"doc":1,"seq":1357,"ms":7952018,"op":"edit"}
+{"version":720,"changes":[{"offset":4254,"length":0,"text":"c"}],"doc":1,"seq":1358,"ms":7952722,"op":"edit"}
+{"version":721,"changes":[{"offset":4255,"length":0,"text":"h"}],"doc":1,"seq":1359,"ms":7953039,"op":"edit"}
+{"version":722,"changes":[{"offset":4256,"length":0,"text":"a"}],"doc":1,"seq":1360,"ms":7953159,"op":"edit"}
+{"version":723,"changes":[{"offset":4257,"length":0,"text":"r"}],"doc":1,"seq":1361,"ms":7953319,"op":"edit"}
+{"version":724,"changes":[{"offset":4258,"length":0,"text":" "}],"doc":1,"seq":1362,"ms":7953539,"op":"edit"}
+{"version":725,"changes":[{"offset":4259,"length":0,"text":"t"}],"doc":1,"seq":1363,"ms":7954038,"op":"edit"}
+{"version":726,"changes":[{"offset":4260,"length":0,"text":"o"}],"doc":1,"seq":1364,"ms":7954120,"op":"edit"}
+{"version":727,"changes":[{"offset":4261,"length":0,"text":" "}],"doc":1,"seq":1365,"ms":7954287,"op":"edit"}
+{"doc":1,"seq":1366,"ms":7955301,"op":"save"}
+{"version":728,"changes":[{"offset":4262,"length":0,"text":"p"}],"doc":1,"seq":1367,"ms":7956900,"op":"edit"}
+{"version":729,"changes":[{"offset":4263,"length":0,"text":"r"}],"doc":1,"seq":1368,"ms":7957016,"op":"edit"}
+{"version":730,"changes":[{"offset":4263,"length":1,"text":""}],"doc":1,"seq":1369,"ms":7957959,"op":"edit"}
+{"version":731,"changes":[{"offset":4262,"length":1,"text":""}],"doc":1,"seq":1370,"ms":7958168,"op":"edit"}
+{"version":732,"changes":[{"offset":4262,"length":0,"text":"s"}],"doc":1,"seq":1371,"ms":7958898,"op":"edit"}
+{"version":733,"changes":[{"offset":4263,"length":0,"text":"t"}],"doc":1,"seq":1372,"ms":7959153,"op":"edit"}
+{"version":734,"changes":[{"offset":4264,"length":0,"text":"o"}],"doc":1,"seq":1373,"ms":7959261,"op":"edit"}
+{"version":735,"changes":[{"offset":4265,"length":0,"text":"p"}],"doc":1,"seq":1374,"ms":7959337,"op":"edit"}
+{"version":736,"changes":[{"offset":4266,"length":0,"text":" "}],"doc":1,"seq":1375,"ms":7959604,"op":"edit"}
+{"version":737,"changes":[{"offset":4267,"length":0,"text":"d"}],"doc":1,"seq":1376,"ms":7959891,"op":"edit"}
+{"version":738,"changes":[{"offset":4268,"length":0,"text":"i"}],"doc":1,"seq":1377,"ms":7959984,"op":"edit"}
+{"version":739,"changes":[{"offset":4269,"length":0,"text":"s"}],"doc":1,"seq":1378,"ms":7960137,"op":"edit"}
+{"version":740,"changes":[{"offset":4270,"length":0,"text":"p"}],"doc":1,"seq":1379,"ms":7960998,"op":"edit"}
+{"version":741,"changes":[{"offset":4271,"length":0,"text":"l"}],"doc":1,"seq":1380,"ms":7961127,"op":"edit"}
+{"version":742,"changes":[{"offset":4272,"length":0,"text":"a"}],"doc":1,"seq":1381,"ms":7961277,"op":"edit"}
+{"version":743,"changes":[{"offset":4273,"length":0,"text":"y"}],"doc":1,"seq":1382,"ms":7961472,"op":"edit"}
+{"version":744,"changes":[{"offset":4274,"length":0,"text":" "}],"doc":1,"seq":1383,"ms":7961656,"op":"edit"}
+{"doc":1,"seq":1384,"ms":7962669,"op":"save"}
+{"version":745,"changes":[{"offset":4275,"length":0,"text":"u"}],"doc":1,"seq":1385,"ms":7962753,"op":"edit"}
+{"version":746,"changes":[{"offset":4275,"length":1,"text":""}],"doc":1,"seq":1386,"ms":7963318,"op":"edit"}
+{"version":747,"changes":[{"offset":4275,"length":0,"text":"a"}],"doc":1,"seq":1387,"ms":7963464,"op":"edit"}
+{"version":748,"changes":[{"offset":4276,"length":0,"text":"r"}],"doc":1,"seq":1388,"ms":7963692,"op":"edit"}
+{"version":749,"changes":[{"offset":4277,"length":0,"text":"r"}],"doc":1,"seq":1389,"ms":7963869,"op":"edit"}
+{"version":750,"changes":[{"offset":4278,"length":0,"text":"o"}],"doc":1,"seq":1390,"ms":7963978,"op":"edit"}
+{"version":751,"changes":[{"offset":4279,"length":0,"text":"w"}],"doc":1,"seq":1391,"ms":7964104,"op":"edit"}
+{"version":752,"changes":[{"offset":4280,"length":0,"text":" "}],"doc":1,"seq":1392,"ms":7964211,"op":"edit"}
+{"version":753,"changes":[{"offset":4281,"length":0,"text":"u"}],"doc":1,"seq":1393,"ms":7964424,"op":"edit"}
+{"version":754,"changes":[{"offset":4282,"length":0,"text":"p"}],"doc":1,"seq":1394,"ms":7964628,"op":"edit"}
+{"version":755,"changes":[{"offset":4283,"length":0,"text":"a"}],"doc":1,"seq":1395,"ms":7964835,"op":"edit"}
+{"version":756,"changes":[{"offset":4284,"length":0,"text":" "}],"doc":1,"seq":1396,"ms":7964887,"op":"edit"}
+{"version":757,"changes":[{"offset":4285,"length":0,"text":"n"}],"doc":1,"seq":1397,"ms":7965081,"op":"edit"}
+{"version":758,"changes":[{"offset":4286,"length":0,"text":"d"}],"doc":1,"seq":1398,"ms":7965135,"op":"edit"}
+{"version":759,"changes":[{"offset":4286,"length":1,"text":""}],"doc":1,"seq":1399,"ms":7965522,"op":"edit"}
+{"version":760,"changes":[{"offset":4285,"length":1,"text":""}],"doc":1,"seq":1400,"ms":7965656,"op":"edit"}
+{"version":761,"changes":[{"offset":4284,"length":1,"text":""}],"doc":1,"seq":1401,"ms":7965792,"op":"edit"}
+{"version":762,"changes":[{"offset":4283,"length":1,"text":""}],"doc":1,"seq":1402,"ms":7965960,"op":"edit"}
+{"version":763,"changes":[{"offset":4283,"length":0,"text":" "}],"doc":1,"seq":1403,"ms":7966212,"op":"edit"}
+{"version":764,"changes":[{"offset":4284,"length":0,"text":"a"}],"doc":1,"seq":1404,"ms":7966408,"op":"edit"}
+{"version":765,"changes":[{"offset":4285,"length":0,"text":"n"}],"doc":1,"seq":1405,"ms":7966452,"op":"edit"}
+{"version":766,"changes":[{"offset":4286,"length":0,"text":"d"}],"doc":1,"seq":1406,"ms":7966561,"op":"edit"}
+{"version":767,"changes":[{"offset":4287,"length":0,"text":" "}],"doc":1,"seq":1407,"ms":7966642,"op":"edit"}
+{"version":768,"changes":[{"offset":4288,"length":0,"text":"d"}],"doc":1,"seq":1408,"ms":7967289,"op":"edit"}
+{"version":769,"changes":[{"offset":4289,"length":0,"text":"o"}],"doc":1,"seq":1409,"ms":7967402,"op":"edit"}
+{"version":770,"changes":[{"offset":4290,"length":0,"text":"w"}],"doc":1,"seq":1410,"ms":7967521,"op":"edit"}
+{"version":771,"changes":[{"offset":4291,"length":0,"text":"n"}],"doc":1,"seq":1411,"ms":7967628,"op":"edit"}
+{"version":772,"changes":[{"offset":4292,"length":0,"text":" "}],"doc":1,"seq":1412,"ms":7967786,"op":"edit"}
+{"version":773,"changes":[{"offset":4293,"length":0,"text":"i"}],"doc":1,"seq":1413,"ms":7967935,"op":"edit"}
+{"version":774,"changes":[{"offset":4294,"length":0,"text":"n"}],"doc":1,"seq":1414,"ms":7968005,"op":"edit"}
+{"version":775,"changes":[{"offset":4295,"length":0,"text":"p"}],"doc":1,"seq":1415,"ms":7968206,"op":"edit"}
+{"version":776,"changes":[{"offset":4296,"length":0,"text":"u"}],"doc":1,"seq":1416,"ms":7968415,"op":"edit"}
+{"version":777,"changes":[{"offset":4297,"length":0,"text":"t"}],"doc":1,"seq":1417,"ms":7968512,"op":"edit"}
+{"doc":1,"seq":1418,"ms":7969524,"op":"save"}
+{"version":778,"changes":[{"offset":4348,"length":0,"text":"\n            "}],"doc":1,"seq":1419,"ms":7972275,"op":"edit"}
+{"doc":1,"seq":1420,"ms":7973283,"op":"save"}
