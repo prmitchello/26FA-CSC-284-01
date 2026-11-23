@@ -2977,3 +2977,59 @@
 {"doc":3,"seq":2976,"ms":10641242,"op":"save"}
 {"text":"#include<curses.h>\n\nclass MessageArea {\n\n    private:\n\n    // initscr();\n\n    // //box values to allign the screen\n    // int terminalWidth=COLS;\n    // int terminalLength=LINES;\n\n    // int sidePanelWidth =20;\n    // int sidePanelLength = terminalLength -1;\n\n    // int y_startAt_0 = 0;\n    // int x_startAt_0 = 0;\n\n    // WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n    // WINDOW* bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );\n\n    // mvwprintw(bottomInner,1,1,\"Type > \");\n\n    // box(bottomWin,0,0);\n    // box(bottomInner,0,0);\n\n\n    // wrefresh(bottomWin);\n    // wrefresh(bottomInner);\n\n    public:\n\n    void textIput(){\n\n    }\n    void drawWindow(){\n\n    }\n\n};\n","version":101,"snapshot":true,"doc":3,"seq":2977,"ms":10643422,"op":"edit"}
 {"doc":3,"seq":2978,"ms":10644434,"op":"save"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n//#include <curses.h>\n\nusing namespace std;\n\nvoid drawLeft(WINDOW* ,vector<string>&  , int );\nvoid drawChat(WINDOW* ,vector<string>&);\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n    \n    vector <string> chat;\n\n    int highlight = 0;\n\n\n    drawLeft(leftInner, sideMenu, highlight);\n\n\n\n    vector<string> text;\n\n    string type=\"\";\n\n\n    //allow keyboard input in the bottom window\n    keypad(bottomInner,true);\n\n    while (true){\n\n        //we then read the keyboard inputs to do operation with\n        int typingInput = wgetch(bottomInner);\n\n        switch(typingInput){\n            case KEY_UP:{\n                highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n                    drawLeft(leftInner,sideMenu,highlight);\n                break;\n            }\n            case KEY_DOWN:{\n                highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n                    drawLeft(leftInner,sideMenu,highlight);\n                break;\n            }\n            // case KEY_LEFT:{\n            //     highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n            //     break;\n            // }\n            // case KEY_RIGHT:{\n            //     highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n            //     break;\n            // }\n            case KEY_ENTER:\n            case '\\n':{\n\n                if(!type.empty()){\n\n                    text.push_back(\"You: \"+type);\n                    //chat.push_back(\"You: \"+type);\n                    drawChat(mainInner, text);\n\n                }\n\n                type.clear();\n\n                wclrtoeol(bottomInner);\n\n                mvwprintw(bottomInner,1,1,\"Type > \");\n\n                wrefresh(bottomInner);\n\n                break;\n            }\n            case KEY_BACKSPACE:\n            case 127:\n            case '\\b': {\n                if(!type.empty()){\n                    type.pop_back();\n                }\n\n                wclrtoeol(bottomInner);\n                wmove(bottomInner,1,2);\n\n                mvwprintw(bottomInner,1,1,\"Type > %s\", type.c_str());\n                wrefresh(bottomInner);\n\n                break;\n            }\n\n        }\n        if(typingInput >=32 && typingInput <= 126){\n\n            //cast everything to char to stop display arrow up and down input\n            type+=static_cast<char>(typingInput);\n\n            wrefresh(bottomInner);\n\n            wclrtoeol(bottomInner);\n\n            wmove(bottomInner,1,1);\n\n            mvwprintw(bottomInner,1,1,\"Type > %s\",type.c_str());\n\n            wrefresh(bottomInner);\n\n\n        }\n    }\n\n    endwin();\n\n    return 0;\n\n}\n\nvoid drawLeft(WINDOW* leftInner, vector<string>& topicList , int highlight){\n\n\n    int length = topicList.size();\n\n    for(int i=0; i<length ; ++i){\n\n        if(i == highlight){\n            //start_color();\n            attron(A_REVERSE);\n                mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n            attroff(A_REVERSE);\n\n        }else{\n            mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n        }\n\n    }\n\n    wrefresh(leftInner);\n\n}\n\nvoid drawChat(WINDOW* mainInner,vector<string>& text){\n\n    werase(mainInner);\n\n\n    int numMessages = text.size();\n\n    int chatHeight,chatWidth;\n\n    getmaxyx(mainInner,chatHeight,chatWidth);\n\n    //the function max use a floor of zero, and ruturns where we shoudl start inside the\n    //vector pending on screen size\n    int displayStart= max(0, static_cast<int>(text.size()) - chatHeight);\n\n    int rowTotal=0;\n    for(int i=displayStart; i< numMessages; i++){\n        mvwprintw(mainInner,rowTotal++,1,text[i].c_str());\n    }\n\n    wrefresh(mainInner);\n\n}\n\n","version":1101,"snapshot":true,"doc":1,"seq":2979,"ms":10699520,"op":"edit"}
+{"doc":1,"seq":2980,"ms":10700530,"op":"save"}
+{"version":69,"changes":[{"offset":36,"length":0,"text":"\n    "}],"doc":7,"seq":2981,"ms":10708539,"op":"edit"}
+{"version":70,"changes":[{"offset":41,"length":0,"text":"\n    "},{"offset":37,"length":4,"text":""}],"doc":7,"seq":2982,"ms":10708678,"op":"edit"}
+{"version":71,"changes":[{"offset":42,"length":0,"text":"p"}],"doc":7,"seq":2983,"ms":10709297,"op":"edit"}
+{"version":72,"changes":[{"offset":43,"length":0,"text":"i"}],"doc":7,"seq":2984,"ms":10709547,"op":"edit"}
+{"version":73,"changes":[{"offset":44,"length":0,"text":"b"}],"doc":7,"seq":2985,"ms":10709666,"op":"edit"}
+{"version":74,"changes":[{"offset":45,"length":0,"text":"l"}],"doc":7,"seq":2986,"ms":10709936,"op":"edit"}
+{"version":75,"changes":[{"offset":46,"length":0,"text":"i"}],"doc":7,"seq":2987,"ms":10710186,"op":"edit"}
+{"version":76,"changes":[{"offset":47,"length":0,"text":"c"}],"doc":7,"seq":2988,"ms":10710391,"op":"edit"}
+{"version":77,"changes":[{"offset":48,"length":0,"text":"="}],"doc":7,"seq":2989,"ms":10710731,"op":"edit"}
+{"version":78,"changes":[{"offset":48,"length":1,"text":""}],"doc":7,"seq":2990,"ms":10710898,"op":"edit"}
+{"version":79,"changes":[{"offset":47,"length":1,"text":""}],"doc":7,"seq":2991,"ms":10711070,"op":"edit"}
+{"version":80,"changes":[{"offset":46,"length":1,"text":""}],"doc":7,"seq":2992,"ms":10711206,"op":"edit"}
+{"version":81,"changes":[{"offset":45,"length":1,"text":""}],"doc":7,"seq":2993,"ms":10711561,"op":"edit"}
+{"version":82,"changes":[{"offset":44,"length":1,"text":""}],"doc":7,"seq":2994,"ms":10711869,"op":"edit"}
+{"doc":7,"seq":2995,"ms":10712882,"op":"save"}
+{"version":83,"changes":[{"offset":43,"length":1,"text":""}],"doc":7,"seq":2996,"ms":10713347,"op":"edit"}
+{"version":84,"changes":[{"offset":43,"length":0,"text":"u"}],"doc":7,"seq":2997,"ms":10713918,"op":"edit"}
+{"version":85,"changes":[{"offset":44,"length":0,"text":"b"}],"doc":7,"seq":2998,"ms":10714048,"op":"edit"}
+{"version":86,"changes":[{"offset":45,"length":0,"text":"l"}],"doc":7,"seq":2999,"ms":10714259,"op":"edit"}
+{"version":87,"changes":[{"offset":46,"length":0,"text":"i"}],"doc":7,"seq":3000,"ms":10714442,"op":"edit"}
+{"version":88,"changes":[{"offset":47,"length":0,"text":"c"}],"doc":7,"seq":3001,"ms":10714589,"op":"edit"}
+{"version":89,"changes":[{"offset":48,"length":0,"text":" "}],"doc":7,"seq":3002,"ms":10714712,"op":"edit"}
+{"version":90,"changes":[{"offset":48,"length":1,"text":""}],"doc":7,"seq":3003,"ms":10715481,"op":"edit"}
+{"version":91,"changes":[{"offset":47,"length":1,"text":""}],"doc":7,"seq":3004,"ms":10715657,"op":"edit"}
+{"version":92,"changes":[{"offset":46,"length":1,"text":""}],"doc":7,"seq":3005,"ms":10715784,"op":"edit"}
+{"version":93,"changes":[{"offset":45,"length":1,"text":""}],"doc":7,"seq":3006,"ms":10715930,"op":"edit"}
+{"version":94,"changes":[{"offset":44,"length":1,"text":""}],"doc":7,"seq":3007,"ms":10716049,"op":"edit"}
+{"version":95,"changes":[{"offset":43,"length":1,"text":""}],"doc":7,"seq":3008,"ms":10716256,"op":"edit"}
+{"version":96,"changes":[{"offset":43,"length":0,"text":"r"}],"doc":7,"seq":3009,"ms":10716710,"op":"edit"}
+{"version":97,"changes":[{"offset":44,"length":0,"text":"i"}],"doc":7,"seq":3010,"ms":10716891,"op":"edit"}
+{"version":98,"changes":[{"offset":45,"length":0,"text":"v"}],"doc":7,"seq":3011,"ms":10716995,"op":"edit"}
+{"version":99,"changes":[{"offset":46,"length":0,"text":"a"}],"doc":7,"seq":3012,"ms":10717095,"op":"edit"}
+{"version":100,"changes":[{"offset":47,"length":0,"text":"t"}],"doc":7,"seq":3013,"ms":10717275,"op":"edit"}
+{"text":"#include<curses.h>\n\nclass RoomList {\n\n    private\n\n\n    initscr();\n\n\n    //box values to allign the screen\n    int terminalWidth=COLS;\n    int terminalLength=LINES;\n\n    int sidePanelWidth =20;\n    int sidePanelLength = terminalLength -1;\n\n    int y_startAt_0 = 0;\n    int x_startAt_0 = 0;\n\n    WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n    WINDOW* leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);\n\n    mvwprintw(leftWin,1,8,\"Feed\");\n\n    // box creates a border for each win and gives them a visible effect\n    box(leftWin,0,0);\n    box(leftInner,0,0);\n\n    wrefresh(leftWin);\n    wrefresh(leftInner);\n\n};\n","version":101,"snapshot":true,"doc":7,"seq":3014,"ms":10717438,"op":"edit"}
+{"version":102,"changes":[{"offset":49,"length":0,"text":":"}],"doc":7,"seq":3015,"ms":10718325,"op":"edit"}
+{"version":103,"changes":[{"offset":50,"length":0,"text":"\n    "}],"doc":7,"seq":3016,"ms":10718553,"op":"edit"}
+{"version":104,"changes":[{"offset":55,"length":0,"text":"    "}],"doc":7,"seq":3017,"ms":10719544,"op":"edit"}
+{"version":105,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":59,"length":0,"text":"vector<string> sideMenu ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};"}],"doc":7,"seq":3018,"ms":10720247,"op":"edit"}
+{"doc":7,"seq":3019,"ms":10721259,"op":"save"}
+{"version":106,"changes":[{"offset":0,"length":0,"text":"\n"}],"doc":7,"seq":3020,"ms":10728094,"op":"edit"}
+{"doc":7,"seq":3021,"ms":10729111,"op":"save"}
+{"version":107,"changes":[{"offset":0,"length":0,"text":"#"}],"doc":7,"seq":3022,"ms":10731386,"op":"edit"}
+{"version":108,"changes":[{"offset":1,"length":0,"text":"i"}],"doc":7,"seq":3023,"ms":10732021,"op":"edit"}
+{"version":109,"changes":[{"offset":2,"length":0,"text":"n"}],"doc":7,"seq":3024,"ms":10732145,"op":"edit"}
+{"version":110,"changes":[{"offset":3,"length":0,"text":"c"}],"doc":7,"seq":3025,"ms":10732278,"op":"edit"}
+{"version":111,"changes":[{"offset":4,"length":0,"text":"l"}],"doc":7,"seq":3026,"ms":10732388,"op":"edit"}
+{"version":112,"changes":[{"offset":5,"length":0,"text":"d"}],"doc":7,"seq":3027,"ms":10732591,"op":"edit"}
+{"version":113,"changes":[{"offset":6,"length":0,"text":"u"}],"doc":7,"seq":3028,"ms":10732650,"op":"edit"}
+{"version":114,"changes":[{"offset":7,"length":0,"text":"e"}],"doc":7,"seq":3029,"ms":10732762,"op":"edit"}
+{"version":115,"changes":[{"offset":8,"length":0,"text":" "}],"doc":7,"seq":3030,"ms":10732930,"op":"edit"}
+{"doc":7,"seq":3031,"ms":10733949,"op":"save"}
+{"version":116,"changes":[{"offset":8,"length":1,"text":""}],"doc":7,"seq":3032,"ms":10735156,"op":"edit"}
+{"version":117,"changes":[{"offset":8,"length":0,"text":"<"}],"doc":7,"seq":3033,"ms":10735962,"op":"edit"}
+{"version":118,"changes":[{"offset":9,"length":0,"text":">"}],"doc":7,"seq":3034,"ms":10736007,"op":"edit"}
