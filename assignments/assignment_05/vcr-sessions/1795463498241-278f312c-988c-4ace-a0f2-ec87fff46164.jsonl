@@ -1,0 +1,6 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05","startedAt":"2026-11-23T19:51:38.241Z","attemptId":"e95212e7-1d9e-46e5-992d-3e5fc9fa4e06","segmentId":"d0fa681b-c46d-42ac-9303-bb1d833aa067","sourceWindowId":"5c81cb16-d333-4e5b-b987-d945a30fac8b","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-97,"op":"source.context"}
+{"executionId":"055f340d-580e-476b-b655-43fb0e9fcf5a","terminalId":"53155c61-803e-4483-8722-cac5ec29d7d3","commandLine":"cd ..","confidence":2,"path":".","doc":1,"seq":2,"ms":-97,"op":"terminal.start"}
+{"executionId":"055f340d-580e-476b-b655-43fb0e9fcf5a","terminalId":"53155c61-803e-4483-8722-cac5ec29d7d3","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":1,"seq":3,"ms":-96,"op":"terminal.output"}
+{"executionId":"055f340d-580e-476b-b655-43fb0e9fcf5a","terminalId":"53155c61-803e-4483-8722-cac5ec29d7d3","commandLine":"cd ..","confidence":2,"exitCode":0,"doc":1,"seq":4,"ms":-96,"op":"terminal.end"}
+{"seq":5,"ms":23865,"op":"end"}
