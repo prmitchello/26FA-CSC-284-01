@@ -698,3 +698,6 @@
 {"executionId":"f965a91d-7b46-42b9-bae2-6ce550e5fc24","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"d\u001b[15;24HType > dsa","doc":2,"seq":697,"ms":2550347,"op":"terminal.output"}
 {"executionId":"f965a91d-7b46-42b9-bae2-6ce550e5fc24","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"f","doc":2,"seq":698,"ms":2550477,"op":"terminal.output"}
 {"executionId":"f965a91d-7b46-42b9-bae2-6ce550e5fc24","terminalId":"9731e40c-598e-456f-a630-ca0100d4efde","data":"\u001b[15;23H\u001b[8dYou: dsaf\u001b[15;24H           \u001b[A\b\b\b","doc":2,"seq":699,"ms":2550640,"op":"terminal.output"}
+{"version":282,"changes":[{"offset":5904,"length":0,"text":"+"}],"doc":1,"seq":700,"ms":4849777,"op":"edit"}
+{"version":283,"changes":[{"offset":5905,"length":0,"text":"1"}],"doc":1,"seq":701,"ms":4849997,"op":"edit"}
+{"doc":1,"seq":702,"ms":4851008,"op":"save"}
