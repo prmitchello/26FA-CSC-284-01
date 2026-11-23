@@ -233,3 +233,5 @@
 {"version":123,"changes":[{"offset":1782,"length":0,"text":"g"}],"doc":1,"seq":232,"ms":1156582,"op":"edit"}
 {"doc":1,"seq":233,"ms":1157590,"op":"save"}
 {"doc":1,"seq":234,"ms":1157673,"op":"save"}
+{"executionId":"bcfa83bd-1352-4159-8f08-323bb1e95c0d","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","data":"./dev.sh: line 11:  8868 Killed: 9               ./program\n./dev.sh: line 12: syntax error near unexpected token `else'\n./dev.sh: line 12: `    else'\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                       \r \r","doc":2,"seq":235,"ms":1961860,"op":"terminal.output"}
+{"executionId":"bcfa83bd-1352-4159-8f08-323bb1e95c0d","terminalId":"639c1c77-7bba-4833-8ea8-44282589d2b3","commandLine":"./dev.sh","confidence":2,"exitCode":2,"doc":2,"seq":236,"ms":1961860,"op":"terminal.end"}
