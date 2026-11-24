@@ -334,3 +334,13 @@
 {"doc":2,"seq":333,"ms":2335069,"op":"save"}
 {"version":214,"changes":[{"offset":1531,"length":0,"text":"    "}],"doc":2,"seq":334,"ms":2335994,"op":"edit"}
 {"version":215,"changes":[{"offset":1535,"length":0,"text":"    "}],"doc":2,"seq":335,"ms":2336405,"op":"edit"}
+{"doc":2,"seq":336,"ms":2337412,"op":"save"}
+{"version":216,"changes":[{"offset":1639,"length":0,"text":"\n            "}],"doc":2,"seq":337,"ms":2350579,"op":"edit"}
+{"version":217,"changes":[{"offset":1652,"length":0,"text":"\n            "},{"offset":1640,"length":12,"text":""}],"doc":2,"seq":338,"ms":2350768,"op":"edit"}
+{"version":218,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1653,"length":0,"text":"// WINDOW* leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n    // WINDOW* leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);"}],"doc":2,"seq":339,"ms":2351373,"op":"edit"}
+{"doc":2,"seq":340,"ms":2352385,"op":"save"}
+{"version":219,"changes":[{"offset":1742,"length":0,"text":"    "}],"doc":2,"seq":341,"ms":2353622,"op":"edit"}
+{"version":220,"changes":[{"offset":1746,"length":0,"text":"    "}],"doc":2,"seq":342,"ms":2353854,"op":"edit"}
+{"doc":2,"seq":343,"ms":2354873,"op":"save"}
+{"version":221,"changes":[{"offset":1750,"length":3,"text":""},{"offset":1653,"length":3,"text":""},{"offset":1539,"length":3,"text":""},{"offset":1434,"length":3,"text":""}],"doc":2,"seq":344,"ms":2358289,"op":"edit"}
+{"doc":2,"seq":345,"ms":2359307,"op":"save"}
