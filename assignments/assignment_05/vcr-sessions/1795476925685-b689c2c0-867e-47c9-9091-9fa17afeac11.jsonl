@@ -914,3 +914,32 @@
 {"version":195,"changes":[{"offset":343,"length":0,"text":"            "}],"doc":1,"seq":913,"ms":6847628,"op":"edit"}
 {"version":196,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":355,"length":0,"text":"highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;"}],"doc":1,"seq":914,"ms":6848325,"op":"edit"}
 {"doc":1,"seq":915,"ms":6849345,"op":"save"}
+{"version":197,"changes":[{"offset":383,"length":8,"text":"t"}],"doc":1,"seq":916,"ms":6864085,"op":"edit"}
+{"doc":1,"seq":917,"ms":6865107,"op":"save"}
+{"version":198,"changes":[{"offset":384,"length":0,"text":"o"}],"doc":1,"seq":918,"ms":6865519,"op":"edit"}
+{"version":199,"changes":[{"offset":385,"length":0,"text":"p"}],"doc":1,"seq":919,"ms":6865583,"op":"edit"}
+{"version":200,"changes":[{"offset":386,"length":0,"text":"i"}],"doc":1,"seq":920,"ms":6865776,"op":"edit"}
+{"text":"#include <vector>\n#include <string>\n#include<curses.h>\n\nusing namespace std;\n\nclass RoomList {\n\n    private:\n        vector<string> topicList;\n        int highlight;\n\n        RoomList(){\n            topicList ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n            int highlight = 0;\n        }\n\n    public:\n        void selectUp(){\n            highlight=(highlight == 0)? topic.size() -1: highlight-1;\n        }\n        void selectDown(){\n\n        }\n        void drawLeft(WINDOW* leftInner, vector<string>& topicList , int highlight){\n            int length = topicList.size();\n\n            for(int i=0; i<length ; ++i){\n\n                if(i == highlight){\n                    //start_color();\n                    attron(A_REVERSE);\n                        mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n                    attroff(A_REVERSE);\n\n                }else{\n                    mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n                }\n\n            }\n\n            wrefresh(leftInner);\n\n        }\n\n};\n","version":201,"snapshot":true,"doc":1,"seq":921,"ms":6865936,"op":"edit"}
+{"version":202,"changes":[{"offset":383,"length":5,"text":"topicList"}],"doc":1,"seq":922,"ms":6866690,"op":"edit"}
+{"doc":1,"seq":923,"ms":6867704,"op":"save"}
+{"version":203,"changes":[{"offset":454,"length":0,"text":"            "}],"doc":1,"seq":924,"ms":6878846,"op":"edit"}
+{"version":204,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":466,"length":0,"text":"                highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n"}],"doc":1,"seq":925,"ms":6879452,"op":"edit"}
+{"version":205,"changes":[{"offset":317,"length":0,"text":"\n    "}],"doc":1,"seq":926,"ms":6880445,"op":"edit"}
+{"doc":1,"seq":927,"ms":6881453,"op":"save"}
+{"version":206,"changes":[{"offset":511,"length":8,"text":"t"},{"offset":318,"length":4,"text":""}],"doc":1,"seq":928,"ms":6883538,"op":"edit"}
+{"version":207,"changes":[{"offset":508,"length":0,"text":"o"}],"doc":1,"seq":929,"ms":6883703,"op":"edit"}
+{"version":208,"changes":[{"offset":509,"length":0,"text":"p"}],"doc":1,"seq":930,"ms":6883786,"op":"edit"}
+{"version":209,"changes":[{"offset":510,"length":0,"text":"i"}],"doc":1,"seq":931,"ms":6883969,"op":"edit"}
+{"version":210,"changes":[{"offset":511,"length":0,"text":"c"}],"doc":1,"seq":932,"ms":6884080,"op":"edit"}
+{"version":211,"changes":[{"offset":507,"length":5,"text":"topicList"}],"doc":1,"seq":933,"ms":6884845,"op":"edit"}
+{"doc":1,"seq":934,"ms":6885859,"op":"save"}
+{"version":212,"changes":[{"offset":479,"length":4,"text":""}],"doc":1,"seq":935,"ms":6889472,"op":"edit"}
+{"version":213,"changes":[{"offset":475,"length":4,"text":""}],"doc":1,"seq":936,"ms":6889761,"op":"edit"}
+{"version":214,"changes":[{"offset":471,"length":4,"text":""}],"doc":1,"seq":937,"ms":6890087,"op":"edit"}
+{"version":215,"changes":[{"offset":467,"length":4,"text":""}],"doc":1,"seq":938,"ms":6890366,"op":"edit"}
+{"doc":1,"seq":939,"ms":6891377,"op":"save"}
+{"version":216,"changes":[{"offset":538,"length":0,"text":"\n        "}],"doc":1,"seq":940,"ms":6892042,"op":"edit"}
+{"doc":1,"seq":941,"ms":6893052,"op":"save"}
+{"version":217,"changes":[{"offset":539,"length":8,"text":""},{"offset":427,"length":0,"text":"\n        "}],"doc":1,"seq":942,"ms":6895509,"op":"edit"}
+{"version":218,"changes":[{"offset":428,"length":8,"text":""}],"doc":1,"seq":943,"ms":6896520,"op":"edit"}
+{"doc":1,"seq":944,"ms":6896526,"op":"save"}
