@@ -1656,3 +1656,21 @@
 {"doc":7,"seq":1655,"ms":62040021,"op":"save"}
 {"version":403,"changes":[{"offset":2275,"length":0,"text":"\n        "}],"doc":7,"seq":1656,"ms":62351267,"op":"edit"}
 {"doc":7,"seq":1657,"ms":62352275,"op":"save"}
+{"version":404,"changes":[{"offset":2276,"length":8,"text":""},{"offset":424,"length":0,"text":"\n    "}],"doc":7,"seq":1658,"ms":62393171,"op":"edit"}
+{"version":405,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":429,"length":0,"text":"MessageArea generalChat;"}],"doc":7,"seq":1659,"ms":62393694,"op":"edit"}
+{"doc":7,"seq":1660,"ms":62394719,"op":"save"}
+{"version":406,"changes":[{"offset":445,"length":1,"text":""}],"doc":7,"seq":1661,"ms":62395681,"op":"edit"}
+{"version":407,"changes":[{"offset":444,"length":1,"text":""}],"doc":7,"seq":1662,"ms":62395871,"op":"edit"}
+{"doc":7,"seq":1663,"ms":62396881,"op":"save"}
+{"version":408,"changes":[{"offset":445,"length":1,"text":""}],"doc":7,"seq":1664,"ms":62397335,"op":"edit"}
+{"version":409,"changes":[{"offset":444,"length":1,"text":""}],"doc":7,"seq":1665,"ms":62397516,"op":"edit"}
+{"version":410,"changes":[{"offset":443,"length":1,"text":""}],"doc":7,"seq":1666,"ms":62397693,"op":"edit"}
+{"version":411,"changes":[{"offset":442,"length":1,"text":""}],"doc":7,"seq":1667,"ms":62397835,"op":"edit"}
+{"version":412,"changes":[{"offset":441,"length":1,"text":""}],"doc":7,"seq":1668,"ms":62398060,"op":"edit"}
+{"doc":7,"seq":1669,"ms":62399078,"op":"save"}
+{"version":413,"changes":[{"offset":441,"length":0,"text":"s"}],"doc":7,"seq":1670,"ms":62399670,"op":"edit"}
+{"version":414,"changes":[{"offset":442,"length":0,"text":"p"}],"doc":7,"seq":1671,"ms":62399821,"op":"edit"}
+{"version":415,"changes":[{"offset":443,"length":0,"text":"o"}],"doc":7,"seq":1672,"ms":62399963,"op":"edit"}
+{"version":416,"changes":[{"offset":444,"length":0,"text":"r"}],"doc":7,"seq":1673,"ms":62400148,"op":"edit"}
+{"version":417,"changes":[{"offset":445,"length":0,"text":"t"}],"doc":7,"seq":1674,"ms":62400248,"op":"edit"}
+{"doc":7,"seq":1675,"ms":62401263,"op":"save"}
