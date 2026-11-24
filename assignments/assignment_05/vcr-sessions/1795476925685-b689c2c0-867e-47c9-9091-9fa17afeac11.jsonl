@@ -312,3 +312,25 @@
 {"text":"#include<curses.h>\n\nclass Window {\n\n    private:\n\n        WINDOW* mainWin;\n        WINDOW* mainInner;\n\n        WINDOW* bottomWin;\n        WINDOW* bottomInner;\n\n        WINDOW* leftWin;\n        WINDOW* leftInenr;\n\n        WINDOW* rightWin;\n        WINDOW* rightInner;\n\n        //default constructor to initialize\n        Window(){\n            WINDOW* mainWin=nullptr;\n            WINDOW* mainInner=nullptr;\n\n            WINDOW* bottomWin=nullptr;\n            WINDOW* bottomInner=nullptr;\n\n            WINDOW* leftWin=nullptr;\n            WINDOW* leftInenr=nullptr;\n\n            WINDOW* rightWin=nullptr;\n            WINDOW* rightInner=nullptr;\n        }\n\n    public:\n\n        void initialize(){\n\n            /box values to allign the screen\n            int terminalWidth=COLS;\n            int terminalLength=LINES;\n\n            int sidePanelWidth =20;\n            int sidePanelLength = terminalLength -1;\n\n            int y_startAt_0 = 0;\n            int x_startAt_0 = 0;\n\n\n            WINDOW* mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n            WINDOW* mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));\n\n        }\n\n\n    // initscr();\n\n\n\n\n    // mvwprintw(mainWin,1,40,\"Advanced C++ Chat Client\");\n\n    // // box creates a border for each win and gives them a visible effect\n    // box(mainWin,0,0);\n    // box(mainInner,0,0);\n\n    // wrefresh(mainWin);\n    // wrefresh(mainInner);\n\n    public:\n\n    void addMessage(){\n\n    }\n    void drawWindow(){\n\n    }\n\n};\n","version":201,"snapshot":true,"doc":2,"seq":311,"ms":2262437,"op":"edit"}
 {"version":202,"changes":[{"offset":708,"length":0,"text":"/"}],"doc":2,"seq":312,"ms":2262591,"op":"edit"}
 {"doc":2,"seq":313,"ms":2263603,"op":"save"}
+{"version":203,"changes":[{"offset":1241,"length":183,"text":""}],"doc":2,"seq":314,"ms":2287973,"op":"edit"}
+{"doc":2,"seq":315,"ms":2288986,"op":"save"}
+{"version":204,"reason":1,"changes":[{"offset":1241,"length":0,"text":"// mvwprintw(mainWin,1,40,\"Advanced C++ Chat Client\");\n\n    // // box creates a border for each win and gives them a visible effect\n    // box(mainWin,0,0);\n    // box(mainInner,0,0);"}],"doc":2,"seq":316,"ms":2294191,"op":"edit"}
+{"doc":2,"seq":317,"ms":2295204,"op":"save"}
+{"version":2,"changes":[{"offset":321,"length":203,"text":""}],"doc":3,"seq":318,"ms":2303403,"op":"edit"}
+{"doc":3,"seq":319,"ms":2304417,"op":"save"}
+{"version":205,"changes":[{"offset":1201,"length":0,"text":"\n            "}],"doc":2,"seq":320,"ms":2306632,"op":"edit"}
+{"doc":2,"seq":321,"ms":2307648,"op":"save"}
+{"version":206,"changes":[{"offset":1214,"length":0,"text":"\n            "},{"offset":1202,"length":12,"text":""}],"doc":2,"seq":322,"ms":2307749,"op":"edit"}
+{"version":207,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1215,"length":0,"text":"// WINDOW* bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n    // WINDOW* bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );"}],"doc":2,"seq":323,"ms":2308053,"op":"edit"}
+{"doc":2,"seq":324,"ms":2309072,"op":"save"}
+{"version":208,"changes":[{"offset":1319,"length":0,"text":"    "}],"doc":2,"seq":325,"ms":2309787,"op":"edit"}
+{"version":209,"changes":[{"offset":1323,"length":0,"text":"    "}],"doc":2,"seq":326,"ms":2310030,"op":"edit"}
+{"doc":2,"seq":327,"ms":2311045,"op":"save"}
+{"version":210,"changes":[{"offset":1327,"length":3,"text":""},{"offset":1215,"length":3,"text":""}],"doc":2,"seq":328,"ms":2314369,"op":"edit"}
+{"doc":2,"seq":329,"ms":2315385,"op":"save"}
+{"version":211,"changes":[{"offset":1420,"length":0,"text":"\n            "}],"doc":2,"seq":330,"ms":2333387,"op":"edit"}
+{"version":212,"changes":[{"offset":1433,"length":0,"text":"\n            "},{"offset":1421,"length":12,"text":""}],"doc":2,"seq":331,"ms":2333615,"op":"edit"}
+{"version":213,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1434,"length":0,"text":"// WINDOW* rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n    // WINDOW* rightInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,(terminalWidth-18));"}],"doc":2,"seq":332,"ms":2334056,"op":"edit"}
+{"doc":2,"seq":333,"ms":2335069,"op":"save"}
+{"version":214,"changes":[{"offset":1531,"length":0,"text":"    "}],"doc":2,"seq":334,"ms":2335994,"op":"edit"}
+{"version":215,"changes":[{"offset":1535,"length":0,"text":"    "}],"doc":2,"seq":335,"ms":2336405,"op":"edit"}
