@@ -2,3 +2,19 @@
 {"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-3506,"op":"source.context"}
 {"text":"{\n    \"configurations\": [\n        {\n            \"name\": \"Mac\",\n            \"includePath\": [\n                \"${workspaceFolder}/**\"\n            ],\n            \"defines\": [],\n            \"compilerPath\": \"/opt/homebrew/bin/g++-16\",\n            \"cStandard\": \"c17\",\n            \"cppStandard\": \"c++20\",\n            \"intelliSenseMode\": \"macos-gcc-arm64\"\n        }\n    ],\n    \"version\": 4\n}\n","version":1,"path":".vscode/c_cpp_properties.json","snapshot":true,"doc":1,"seq":2,"ms":-3506,"op":"snap"}
 {"doc":1,"seq":3,"ms":176205,"op":"close"}
+{"executionId":"1fd05006-99a3-48c4-8567-1ccebfa4ef99","name":"C/C++: g++-16 build active file","type":"cppbuild","path":".","doc":2,"seq":4,"ms":192148,"op":"task.start"}
+{"executionId":"1fd05006-99a3-48c4-8567-1ccebfa4ef99","processId":-1,"doc":2,"seq":5,"ms":192186,"op":"task.processStart"}
+{"executionId":"1fd05006-99a3-48c4-8567-1ccebfa4ef99","exitCode":0,"doc":2,"seq":6,"ms":192693,"op":"task.processEnd"}
+{"executionId":"1fd05006-99a3-48c4-8567-1ccebfa4ef99","doc":2,"seq":7,"ms":192693,"op":"task.end"}
+{"executionId":"564af3ad-ff1a-4cc2-9ee4-ccc2a7b659bc","name":"C/C++: g++-16 build and debug active file","type":"cppdbg","noDebug":true,"doc":2,"seq":8,"ms":192716,"op":"debug.start"}
+{"source":"watcher","path":".vscode/build/server.out","doc":3,"seq":9,"ms":192738,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM","doc":4,"seq":10,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents","doc":5,"seq":11,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Info.plist","doc":6,"seq":12,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Resources","doc":7,"seq":13,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Resources/DWARF","doc":8,"seq":14,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Resources/DWARF/server.out","doc":9,"seq":15,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Resources/Relocations","doc":10,"seq":16,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Resources/Relocations/aarch64","doc":11,"seq":17,"ms":192828,"op":"fs.create"}
+{"source":"watcher","path":".vscode/build/server.out.dSYM/Contents/Resources/Relocations/aarch64/server.out.yml","doc":12,"seq":18,"ms":192828,"op":"fs.create"}
+{"executionId":"564af3ad-ff1a-4cc2-9ee4-ccc2a7b659bc","doc":2,"seq":19,"ms":199154,"op":"debug.end"}
