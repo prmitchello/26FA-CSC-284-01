@@ -5,3 +5,4 @@
 {"executionId":"c49e5c07-04d5-42f2-a7c8-90a57dfa2288","terminalId":"ddf12490-55c8-48a9-829d-643344890e33","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_05'","confidence":2,"path":".","doc":2,"seq":4,"ms":71007181,"op":"terminal.start"}
 {"executionId":"c49e5c07-04d5-42f2-a7c8-90a57dfa2288","terminalId":"ddf12490-55c8-48a9-829d-643344890e33","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":5,"ms":71007182,"op":"terminal.output"}
 {"executionId":"c49e5c07-04d5-42f2-a7c8-90a57dfa2288","terminalId":"ddf12490-55c8-48a9-829d-643344890e33","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_05'","confidence":2,"exitCode":0,"doc":2,"seq":6,"ms":71007182,"op":"terminal.end"}
+{"seq":7,"ms":71778931,"op":"end"}
