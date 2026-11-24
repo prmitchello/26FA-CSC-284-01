@@ -1992,3 +1992,7 @@
 {"doc":7,"seq":1991,"ms":71558088,"op":"save"}
 {"version":630,"changes":[{"offset":587,"length":1,"text":""}],"doc":7,"seq":1992,"ms":71664669,"op":"edit"}
 {"doc":7,"seq":1993,"ms":71665678,"op":"save"}
+{"doc":4,"seq":1994,"ms":71715807,"op":"close"}
+{"doc":1,"seq":1995,"ms":71717022,"op":"close"}
+{"doc":6,"seq":1996,"ms":71718074,"op":"close"}
+{"doc":3,"seq":1997,"ms":71719356,"op":"close"}
