@@ -522,3 +522,14 @@
 {"doc":6,"seq":521,"ms":2855063,"op":"save"}
 {"version":3,"changes":[{"offset":327,"length":0,"text":"s"}],"doc":6,"seq":522,"ms":2856222,"op":"edit"}
 {"doc":6,"seq":523,"ms":2857231,"op":"save"}
+{"text":"class ChatClientUI {\n\n};\n","version":1,"path":"ChatClientUI.cpp","snapshot":true,"doc":7,"seq":524,"ms":2897486,"op":"snap"}
+{"version":21,"changes":[{"offset":196,"length":1,"text":""}],"doc":4,"seq":525,"ms":2925488,"op":"edit"}
+{"version":22,"changes":[{"offset":195,"length":1,"text":""}],"doc":4,"seq":526,"ms":2925673,"op":"edit"}
+{"version":23,"changes":[{"offset":194,"length":1,"text":""}],"doc":4,"seq":527,"ms":2925839,"op":"edit"}
+{"version":24,"changes":[{"offset":193,"length":1,"text":""}],"doc":4,"seq":528,"ms":2925935,"op":"edit"}
+{"version":25,"changes":[{"offset":192,"length":1,"text":""}],"doc":4,"seq":529,"ms":2926123,"op":"edit"}
+{"version":26,"changes":[{"offset":191,"length":1,"text":""}],"doc":4,"seq":530,"ms":2926288,"op":"edit"}
+{"version":27,"changes":[{"offset":190,"length":1,"text":""}],"doc":4,"seq":531,"ms":2926454,"op":"edit"}
+{"doc":4,"seq":532,"ms":2927464,"op":"save"}
+{"version":28,"changes":[{"offset":191,"length":1,"text":""}],"doc":4,"seq":533,"ms":2927923,"op":"edit"}
+{"doc":4,"seq":534,"ms":2928934,"op":"save"}
