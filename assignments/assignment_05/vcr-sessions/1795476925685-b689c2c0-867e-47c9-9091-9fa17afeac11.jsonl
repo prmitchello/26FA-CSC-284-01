@@ -460,3 +460,6 @@
 {"version":7,"changes":[{"offset":57,"length":1,"text":""}],"doc":4,"seq":459,"ms":2626982,"op":"edit"}
 {"version":8,"changes":[{"offset":56,"length":1,"text":""}],"doc":4,"seq":460,"ms":2627176,"op":"edit"}
 {"doc":4,"seq":461,"ms":2628190,"op":"save"}
+{"version":267,"changes":[{"offset":1835,"length":0,"text":"\n            "}],"doc":2,"seq":462,"ms":2636825,"op":"edit"}
+{"version":268,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1848,"length":0,"text":"mvwprintw(rightWin,1,6,\"Friends\");"}],"doc":2,"seq":463,"ms":2637493,"op":"edit"}
+{"doc":2,"seq":464,"ms":2638501,"op":"save"}
