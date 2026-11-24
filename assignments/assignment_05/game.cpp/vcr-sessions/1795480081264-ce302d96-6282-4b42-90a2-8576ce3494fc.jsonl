@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/game.cpp","startedAt":"2026-11-24T00:28:01.264Z","attemptId":"8e220bbf-2100-4479-afe5-2c424f669983","segmentId":"70daae4f-97c1-46f2-9bd7-990a31a35636","sourceWindowId":"f24a7621-7bda-4e42-9703-1c8a8f1c4a03","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-19,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-19,"op":"fs.delete"}
+{"source":"watcher","doc":1,"seq":3,"ms":47,"op":"fs.delete"}
