@@ -37,3 +37,8 @@
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"sd","doc":2,"seq":36,"ms":168974,"op":"terminal.output"}
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"f","doc":2,"seq":37,"ms":169161,"op":"terminal.output"}
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\r\n","doc":2,"seq":38,"ms":169517,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client connected from 127.0.0.1:49901\r\n","doc":2,"seq":39,"ms":202675,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: hi\r\n","doc":2,"seq":40,"ms":204684,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: this is coming from the client\r\n","doc":2,"seq":41,"ms":218638,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: stop echoing\\\r\n","doc":2,"seq":42,"ms":225688,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: hello world\r\n","doc":2,"seq":43,"ms":230676,"op":"terminal.output"}
