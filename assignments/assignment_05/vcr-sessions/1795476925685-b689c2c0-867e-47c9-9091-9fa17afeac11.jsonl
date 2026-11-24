@@ -1641,3 +1641,6 @@
 {"version":392,"changes":[{"offset":462,"length":0,"text":"p"}],"doc":7,"seq":1640,"ms":8289107,"op":"edit"}
 {"version":393,"changes":[{"offset":463,"length":0,"text":"u"}],"doc":7,"seq":1641,"ms":8289401,"op":"edit"}
 {"version":394,"changes":[{"offset":464,"length":0,"text":"t"}],"doc":7,"seq":1642,"ms":8289549,"op":"edit"}
+{"doc":7,"seq":1643,"ms":8290579,"op":"save"}
+{"version":395,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2660,"length":4,"text":"input"},{"offset":2649,"length":4,"text":"input"},{"offset":2433,"length":4,"text":"input"},{"offset":2180,"length":4,"text":"input"},{"offset":2168,"length":4,"text":"input"},{"offset":1987,"length":4,"text":"input"},{"offset":1952,"length":4,"text":"input"},{"offset":1757,"length":4,"text":"input"},{"offset":1644,"length":4,"text":"input"},{"offset":1539,"length":4,"text":"input"},{"offset":1487,"length":4,"text":"input"},{"offset":1421,"length":4,"text":"input"}],"doc":7,"seq":1644,"ms":8302947,"op":"edit"}
+{"doc":7,"seq":1645,"ms":8303960,"op":"save"}
