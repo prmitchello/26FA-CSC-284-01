@@ -911,3 +911,6 @@
 {"version":193,"changes":[{"offset":375,"length":0,"text":"w"}],"doc":1,"seq":910,"ms":6785574,"op":"edit"}
 {"version":194,"changes":[{"offset":376,"length":0,"text":"n"}],"doc":1,"seq":911,"ms":6785715,"op":"edit"}
 {"doc":1,"seq":912,"ms":6786728,"op":"save"}
+{"version":195,"changes":[{"offset":343,"length":0,"text":"            "}],"doc":1,"seq":913,"ms":6847628,"op":"edit"}
+{"version":196,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":355,"length":0,"text":"highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;"}],"doc":1,"seq":914,"ms":6848325,"op":"edit"}
+{"doc":1,"seq":915,"ms":6849345,"op":"save"}
