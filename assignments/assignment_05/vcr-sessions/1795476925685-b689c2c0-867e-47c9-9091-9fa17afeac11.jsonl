@@ -1267,3 +1267,19 @@
 {"version":217,"changes":[{"offset":2622,"length":1,"text":""}],"doc":7,"seq":1266,"ms":7625474,"op":"edit"}
 {"version":218,"changes":[{"offset":2622,"length":0,"text":"\n"}],"doc":7,"seq":1267,"ms":7626477,"op":"edit"}
 {"doc":7,"seq":1268,"ms":7626491,"op":"save"}
+{"version":112,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":207,"length":29,"text":"void drawChat(WINDOW* mainInner,vector<string>& text){\n\n    werase(mainInner);\n\n\n    int numMessages = text.size();\n\n    int chatHeight,chatWidth;\n\n    getmaxyx(mainInner,chatHeight,chatWidth);\n\n    //the function max use a floor of zero, and ruturns where we shoudl start inside the\n    //vector pending on screen size\n    int displayStart= max(0, static_cast<int>(text.size()) - chatHeight);\n\n    int rowTotal=0;\n    for(int i=displayStart; i< numMessages; i++){\n        mvwprintw(mainInner,rowTotal++,1,text[i].c_str());\n    }\n\n    wrefresh(mainInner);\n\n}"}],"doc":3,"seq":1269,"ms":7632103,"op":"edit"}
+{"doc":3,"seq":1270,"ms":7633112,"op":"save"}
+{"version":113,"changes":[{"offset":764,"length":0,"text":"    "},{"offset":738,"length":4,"text":"        "},{"offset":731,"length":4,"text":"        "},{"offset":672,"length":8,"text":"            "},{"offset":622,"length":4,"text":"        "},{"offset":602,"length":4,"text":"        "},{"offset":527,"length":4,"text":"        "},{"offset":491,"length":4,"text":"        "},{"offset":402,"length":4,"text":"        "},{"offset":355,"length":4,"text":"        "}],"doc":3,"seq":1271,"ms":7637804,"op":"edit"}
+{"doc":3,"seq":1272,"ms":7638814,"op":"save"}
+{"version":114,"changes":[{"offset":800,"length":4,"text":"        "},{"offset":770,"length":8,"text":"            "},{"offset":759,"length":8,"text":"            "},{"offset":696,"length":12,"text":"                "},{"offset":642,"length":8,"text":"            "},{"offset":618,"length":8,"text":"            "},{"offset":539,"length":8,"text":"            "},{"offset":499,"length":8,"text":"            "},{"offset":406,"length":8,"text":"            "},{"offset":355,"length":8,"text":"            "},{"offset":324,"length":4,"text":"        "},{"offset":288,"length":4,"text":"        "},{"offset":263,"length":4,"text":"        "}],"doc":3,"seq":1273,"ms":7648626,"op":"edit"}
+{"doc":3,"seq":1274,"ms":7649637,"op":"save"}
+{"version":115,"changes":[{"offset":848,"length":8,"text":"            "},{"offset":814,"length":12,"text":"                "},{"offset":799,"length":12,"text":"                "},{"offset":732,"length":16,"text":"                    "},{"offset":674,"length":12,"text":"                "},{"offset":646,"length":12,"text":"                "},{"offset":563,"length":12,"text":"                "},{"offset":519,"length":12,"text":"                "},{"offset":422,"length":12,"text":"                "},{"offset":367,"length":12,"text":"                "},{"offset":332,"length":8,"text":"            "},{"offset":292,"length":8,"text":"            "},{"offset":263,"length":8,"text":"            "}],"doc":3,"seq":1275,"ms":7650425,"op":"edit"}
+{"doc":3,"seq":1276,"ms":7651437,"op":"save"}
+{"version":116,"changes":[{"offset":391,"length":4,"text":""}],"doc":3,"seq":1277,"ms":7661171,"op":"edit"}
+{"doc":3,"seq":1278,"ms":7662182,"op":"save"}
+{"version":117,"changes":[{"offset":900,"length":4,"text":""}],"doc":3,"seq":1279,"ms":7681456,"op":"edit"}
+{"doc":3,"seq":1280,"ms":7682472,"op":"save"}
+{"version":118,"changes":[{"offset":890,"length":1,"text":""}],"doc":3,"seq":1281,"ms":7684577,"op":"edit"}
+{"doc":3,"seq":1282,"ms":7685589,"op":"save"}
+{"version":119,"changes":[{"offset":852,"length":1,"text":""}],"doc":3,"seq":1283,"ms":7686003,"op":"edit"}
+{"doc":3,"seq":1284,"ms":7687017,"op":"save"}
