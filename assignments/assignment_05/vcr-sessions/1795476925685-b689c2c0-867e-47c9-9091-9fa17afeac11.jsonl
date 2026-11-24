@@ -807,3 +807,9 @@
 {"doc":1,"seq":806,"ms":6537000,"op":"save"}
 {"version":108,"changes":[{"offset":142,"length":0,"text":";"}],"doc":1,"seq":807,"ms":6537076,"op":"edit"}
 {"doc":1,"seq":808,"ms":6538087,"op":"save"}
+{"version":109,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":399,"length":0,"text":"WINDOW* leftInner, vector<string>& topicList , int highlight"}],"doc":1,"seq":809,"ms":6557167,"op":"edit"}
+{"doc":1,"seq":810,"ms":6558179,"op":"save"}
+{"version":71,"changes":[{"offset":2672,"length":472,"text":""}],"doc":7,"seq":811,"ms":6597305,"op":"edit"}
+{"doc":7,"seq":812,"ms":6598326,"op":"save"}
+{"version":72,"changes":[{"offset":2672,"length":0,"text":"v"}],"doc":7,"seq":813,"ms":6607953,"op":"edit"}
+{"doc":7,"seq":814,"ms":6609596,"op":"save"}
