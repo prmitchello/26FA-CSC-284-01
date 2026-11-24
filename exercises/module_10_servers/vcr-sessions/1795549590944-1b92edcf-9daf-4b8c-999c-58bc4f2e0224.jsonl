@@ -43,3 +43,5 @@
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: stop echoing\\\r\n","doc":2,"seq":42,"ms":225688,"op":"terminal.output"}
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: hello world\r\n","doc":2,"seq":43,"ms":230676,"op":"terminal.output"}
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: exit\r\n","doc":2,"seq":44,"ms":234674,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"^C\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                   \r \r","doc":2,"seq":45,"ms":1216158,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"./a.out","confidence":2,"exitCode":130,"doc":2,"seq":46,"ms":1216159,"op":"terminal.end"}
