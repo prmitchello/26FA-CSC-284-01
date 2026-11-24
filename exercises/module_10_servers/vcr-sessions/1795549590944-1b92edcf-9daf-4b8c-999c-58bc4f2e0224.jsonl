@@ -42,3 +42,4 @@
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: this is coming from the client\r\n","doc":2,"seq":41,"ms":218638,"op":"terminal.output"}
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: stop echoing\\\r\n","doc":2,"seq":42,"ms":225688,"op":"terminal.output"}
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: hello world\r\n","doc":2,"seq":43,"ms":230676,"op":"terminal.output"}
+{"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Client: exit\r\n","doc":2,"seq":44,"ms":234674,"op":"terminal.output"}
