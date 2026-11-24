@@ -946,3 +946,41 @@
 {"version":73,"changes":[{"offset":2672,"length":1,"text":""}],"doc":7,"seq":945,"ms":6998275,"op":"edit"}
 {"version":74,"changes":[{"offset":2671,"length":1,"text":""}],"doc":7,"seq":946,"ms":6998515,"op":"edit"}
 {"doc":7,"seq":947,"ms":6999526,"op":"save"}
+{"version":75,"changes":[{"offset":298,"length":0,"text":"\n    "}],"doc":7,"seq":948,"ms":7093318,"op":"edit"}
+{"version":76,"changes":[{"offset":303,"length":0,"text":"\n    "},{"offset":299,"length":4,"text":""}],"doc":7,"seq":949,"ms":7093786,"op":"edit"}
+{"doc":7,"seq":950,"ms":7094795,"op":"save"}
+{"version":77,"changes":[{"offset":304,"length":0,"text":"R"}],"doc":7,"seq":951,"ms":7097102,"op":"edit"}
+{"version":78,"changes":[{"offset":305,"length":0,"text":"o"}],"doc":7,"seq":952,"ms":7097260,"op":"edit"}
+{"version":79,"changes":[{"offset":306,"length":0,"text":"o"}],"doc":7,"seq":953,"ms":7097401,"op":"edit"}
+{"version":80,"changes":[{"offset":307,"length":0,"text":"m"}],"doc":7,"seq":954,"ms":7097591,"op":"edit"}
+{"version":81,"changes":[{"offset":308,"length":0,"text":"L"}],"doc":7,"seq":955,"ms":7098300,"op":"edit"}
+{"version":82,"changes":[{"offset":309,"length":0,"text":"s"}],"doc":7,"seq":956,"ms":7098567,"op":"edit"}
+{"version":83,"changes":[{"offset":309,"length":1,"text":""}],"doc":7,"seq":957,"ms":7099019,"op":"edit"}
+{"version":84,"changes":[{"offset":309,"length":0,"text":"i"}],"doc":7,"seq":958,"ms":7099538,"op":"edit"}
+{"version":85,"changes":[{"offset":310,"length":0,"text":"s"}],"doc":7,"seq":959,"ms":7099655,"op":"edit"}
+{"version":86,"changes":[{"offset":311,"length":0,"text":"t"}],"doc":7,"seq":960,"ms":7099878,"op":"edit"}
+{"version":87,"changes":[{"offset":312,"length":0,"text":" "}],"doc":7,"seq":961,"ms":7100141,"op":"edit"}
+{"doc":7,"seq":962,"ms":7101161,"op":"save"}
+{"version":88,"changes":[{"offset":313,"length":0,"text":"t"}],"doc":7,"seq":963,"ms":7121760,"op":"edit"}
+{"version":89,"changes":[{"offset":313,"length":1,"text":""}],"doc":7,"seq":964,"ms":7122551,"op":"edit"}
+{"version":90,"changes":[{"offset":313,"length":0,"text":"t"}],"doc":7,"seq":965,"ms":7123178,"op":"edit"}
+{"version":91,"changes":[{"offset":314,"length":0,"text":"o"}],"doc":7,"seq":966,"ms":7123348,"op":"edit"}
+{"version":92,"changes":[{"offset":315,"length":0,"text":"p"}],"doc":7,"seq":967,"ms":7123427,"op":"edit"}
+{"version":93,"changes":[{"offset":316,"length":0,"text":"i"}],"doc":7,"seq":968,"ms":7123647,"op":"edit"}
+{"version":94,"changes":[{"offset":317,"length":0,"text":"c"}],"doc":7,"seq":969,"ms":7123914,"op":"edit"}
+{"version":95,"changes":[{"offset":318,"length":0,"text":"M"}],"doc":7,"seq":970,"ms":7124642,"op":"edit"}
+{"version":96,"changes":[{"offset":319,"length":0,"text":"e"}],"doc":7,"seq":971,"ms":7124799,"op":"edit"}
+{"version":97,"changes":[{"offset":320,"length":0,"text":"n"}],"doc":7,"seq":972,"ms":7124961,"op":"edit"}
+{"version":98,"changes":[{"offset":321,"length":0,"text":"u"}],"doc":7,"seq":973,"ms":7125268,"op":"edit"}
+{"version":99,"changes":[{"offset":321,"length":1,"text":""}],"doc":7,"seq":974,"ms":7125791,"op":"edit"}
+{"version":100,"changes":[{"offset":320,"length":1,"text":""}],"doc":7,"seq":975,"ms":7126001,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n#include \"Windows.cpp\"\n\n\nusing namespace std;\n\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n    Windows ui;\n    ui.initialize();\n\n    RoomList topicM\n\n\n\n    drawLeft(ui.getTopicsWindow(), sideMenu, highlight);\n\n    vector<string> text;\n\n    string type=\"\";\n\n\n    //allow keyboard input in the bottom window\n    keypad(bottomInner,true);\n\n    while (true){\n\n        //we then read the keyboard inputs to do operation with\n        int typingInput = wgetch(bottomInner);\n\n        switch(typingInput){\n            case KEY_UP:{\n                highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n                    drawLeft(leftInner,sideMenu,highlight);\n                break;\n            }\n            case KEY_DOWN:{\n                highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n                    drawLeft(leftInner,sideMenu,highlight);\n                break;\n            }\n            // case KEY_LEFT:{\n            //     highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n            //     break;\n            // }\n            // case KEY_RIGHT:{\n            //     highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n            //     break;\n            // }\n            case KEY_ENTER:\n            case '\\n':{\n\n                if(!type.empty()){\n\n                    text.push_back(\"You: \"+type);\n                    //chat.push_back(\"You: \"+type);\n                    drawChat(mainInner, text);\n\n                }\n\n                type.clear();\n\n                wclrtoeol(bottomInner);\n\n                mvwprintw(bottomInner,1,1,\"Type > \");\n\n                wrefresh(bottomInner);\n\n                break;\n            }\n            case KEY_BACKSPACE:\n            case 127:\n            case '\\b': {\n                if(!type.empty()){\n                    type.pop_back();\n                }\n\n                wclrtoeol(bottomInner);\n                wmove(bottomInner,1,2);\n\n                mvwprintw(bottomInner,1,1,\"Type > %s\", type.c_str());\n                wrefresh(bottomInner);\n\n                break;\n            }\n\n        }\n        if(typingInput >=32 && typingInput <= 126){\n\n            //cast everything to char to stop display arrow up and down input\n            type+=static_cast<char>(typingInput);\n\n            wrefresh(bottomInner);\n\n            wclrtoeol(bottomInner);\n\n            wmove(bottomInner,1,1);\n\n            mvwprintw(bottomInner,1,1,\"Type > %s\",type.c_str());\n\n            wrefresh(bottomInner);\n\n\n        }\n    }\n\n    endwin();\n\n    return 0;\n\n}\n\n\nvoid drawChat(WINDOW* mainInner,vector<string>& text){\n\n    werase(mainInner);\n\n\n    int numMessages = text.size();\n\n    int chatHeight,chatWidth;\n\n    getmaxyx(mainInner,chatHeight,chatWidth);\n\n    //the function max use a floor of zero, and ruturns where we shoudl start inside the\n    //vector pending on screen size\n    int displayStart= max(0, static_cast<int>(text.size()) - chatHeight);\n\n    int rowTotal=0;\n    for(int i=displayStart; i< numMessages; i++){\n        mvwprintw(mainInner,rowTotal++,1,text[i].c_str());\n    }\n\n    wrefresh(mainInner);\n\n}\n\n","version":101,"snapshot":true,"doc":7,"seq":976,"ms":7126168,"op":"edit"}
+{"version":102,"changes":[{"offset":318,"length":1,"text":""}],"doc":7,"seq":977,"ms":7126283,"op":"edit"}
+{"doc":7,"seq":978,"ms":7127297,"op":"save"}
+{"version":103,"changes":[{"offset":318,"length":0,"text":"s"}],"doc":7,"seq":979,"ms":7129702,"op":"edit"}
+{"doc":7,"seq":980,"ms":7130723,"op":"save"}
+{"version":104,"changes":[{"offset":319,"length":0,"text":";"}],"doc":7,"seq":981,"ms":7130784,"op":"edit"}
+{"doc":7,"seq":982,"ms":7131803,"op":"save"}
+{"version":105,"changes":[{"offset":320,"length":0,"text":"\n    "}],"doc":7,"seq":983,"ms":7132099,"op":"edit"}
+{"version":106,"changes":[{"offset":325,"length":0,"text":"\n    "},{"offset":321,"length":4,"text":""}],"doc":7,"seq":984,"ms":7132700,"op":"edit"}
+{"doc":7,"seq":985,"ms":7133712,"op":"save"}
