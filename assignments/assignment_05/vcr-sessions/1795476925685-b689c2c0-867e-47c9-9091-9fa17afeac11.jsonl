@@ -1093,3 +1093,52 @@
 {"version":176,"changes":[{"offset":760,"length":16,"text":""}],"doc":7,"seq":1092,"ms":7389174,"op":"edit"}
 {"doc":7,"seq":1093,"ms":7389185,"op":"save"}
 {"version":177,"changes":[{"offset":704,"length":0,"text":"                "}],"doc":7,"seq":1094,"ms":7389623,"op":"edit"}
+{"doc":7,"seq":1095,"ms":7390631,"op":"save"}
+{"version":178,"changes":[{"offset":720,"length":0,"text":"t"}],"doc":7,"seq":1096,"ms":7390722,"op":"edit"}
+{"version":179,"changes":[{"offset":721,"length":0,"text":"o"}],"doc":7,"seq":1097,"ms":7391207,"op":"edit"}
+{"version":180,"changes":[{"offset":722,"length":0,"text":"p"}],"doc":7,"seq":1098,"ms":7391307,"op":"edit"}
+{"doc":7,"seq":1099,"ms":7392316,"op":"save"}
+{"version":181,"changes":[{"offset":720,"length":3,"text":"topics"}],"doc":7,"seq":1100,"ms":7392737,"op":"edit"}
+{"version":182,"changes":[{"offset":726,"length":0,"text":"."}],"doc":7,"seq":1101,"ms":7393509,"op":"edit"}
+{"doc":7,"seq":1102,"ms":7394519,"op":"save"}
+{"version":183,"changes":[{"offset":727,"length":0,"text":"s"}],"doc":7,"seq":1103,"ms":7394520,"op":"edit"}
+{"version":184,"changes":[{"offset":728,"length":0,"text":"e"}],"doc":7,"seq":1104,"ms":7394646,"op":"edit"}
+{"doc":7,"seq":1105,"ms":7395656,"op":"save"}
+{"version":185,"changes":[{"offset":727,"length":2,"text":"selectUp"}],"doc":7,"seq":1106,"ms":7396671,"op":"edit"}
+{"doc":7,"seq":1107,"ms":7397685,"op":"save"}
+{"version":186,"changes":[{"offset":735,"length":0,"text":"()"}],"doc":7,"seq":1108,"ms":7397761,"op":"edit"}
+{"version":187,"changes":[{"offset":736,"length":1,"text":")"}],"doc":7,"seq":1109,"ms":7397812,"op":"edit"}
+{"version":188,"changes":[{"offset":737,"length":0,"text":";"}],"doc":7,"seq":1110,"ms":7398394,"op":"edit"}
+{"doc":7,"seq":1111,"ms":7399407,"op":"save"}
+{"version":189,"changes":[{"offset":703,"length":0,"text":"\n                "}],"doc":7,"seq":1112,"ms":7399983,"op":"edit"}
+{"doc":7,"seq":1113,"ms":7400996,"op":"save"}
+{"version":190,"changes":[{"offset":704,"length":16,"text":""},{"offset":677,"length":0,"text":"\n            "}],"doc":7,"seq":1114,"ms":7402808,"op":"edit"}
+{"doc":7,"seq":1115,"ms":7403819,"op":"save"}
+{"version":191,"changes":[{"offset":873,"length":0,"text":"\n                "},{"offset":678,"length":12,"text":""}],"doc":7,"seq":1116,"ms":7406670,"op":"edit"}
+{"doc":7,"seq":1117,"ms":7407684,"op":"save"}
+{"version":192,"changes":[{"offset":895,"length":119,"text":""},{"offset":862,"length":16,"text":""}],"doc":7,"seq":1118,"ms":7411103,"op":"edit"}
+{"doc":7,"seq":1119,"ms":7412113,"op":"save"}
+{"version":193,"changes":[{"offset":862,"length":0,"text":"                "}],"doc":7,"seq":1120,"ms":7415624,"op":"edit"}
+{"version":194,"changes":[{"offset":878,"length":0,"text":"\n                "},{"offset":862,"length":16,"text":""}],"doc":7,"seq":1121,"ms":7416247,"op":"edit"}
+{"version":195,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":879,"length":0,"text":"topics.selectUp();\n                topics.drawLeft(ui.getTopicsWindow());"}],"doc":7,"seq":1122,"ms":7416900,"op":"edit"}
+{"version":196,"changes":[{"offset":953,"length":16,"text":""}],"doc":7,"seq":1123,"ms":7417904,"op":"edit"}
+{"doc":7,"seq":1124,"ms":7417917,"op":"save"}
+{"version":197,"changes":[{"offset":892,"length":1,"text":""}],"doc":7,"seq":1125,"ms":7418489,"op":"edit"}
+{"version":198,"changes":[{"offset":892,"length":1,"text":""}],"doc":7,"seq":1126,"ms":7418942,"op":"edit"}
+{"version":199,"changes":[{"offset":892,"length":0,"text":"D"}],"doc":7,"seq":1127,"ms":7419361,"op":"edit"}
+{"version":200,"changes":[{"offset":893,"length":0,"text":"o"}],"doc":7,"seq":1128,"ms":7419663,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n#include <iostream>\n#include <vector>\n#include <string>\n#include <ncurses.h>\n#include \"Windows.cpp\"\n#include \"RoomList.cpp\"\n\n\nusing namespace std;\n\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n    Windows ui;\n    ui.initialize();\n\n    RoomList topics;\n    topics.drawLeft(ui.getTopicsWindow());\n\n\n\n    vector<string> text;\n\n    string type=\"\";\n\n\n    //allow keyboard input in the bottom window\n    keypad(bottomInner,true);\n\n    while (true){\n\n        //we then read the keyboard inputs to do operation with\n        int typingInput = wgetch(bottomInner);\n\n        switch(typingInput){\n\n            case KEY_UP:{\n\n                topics.selectUp();\n                topics.drawLeft(ui.getTopicsWindow());\n\n                break;\n            }\n            case KEY_DOWN:{\n\n                topics.selectDow();\n                topics.drawLeft(ui.getTopicsWindow());\n\n                break;\n            }\n            // case KEY_LEFT:{\n            //     highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n            //     break;\n            // }\n            // case KEY_RIGHT:{\n            //     highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n            //     break;\n            // }\n            case KEY_ENTER:\n            case '\\n':{\n\n                if(!type.empty()){\n\n                    text.push_back(\"You: \"+type);\n                    //chat.push_back(\"You: \"+type);\n                    drawChat(mainInner, text);\n\n                }\n\n                type.clear();\n\n                wclrtoeol(bottomInner);\n\n                mvwprintw(bottomInner,1,1,\"Type > \");\n\n                wrefresh(bottomInner);\n\n                break;\n            }\n            case KEY_BACKSPACE:\n            case 127:\n            case '\\b': {\n                if(!type.empty()){\n                    type.pop_back();\n                }\n\n                wclrtoeol(bottomInner);\n                wmove(bottomInner,1,2);\n\n                mvwprintw(bottomInner,1,1,\"Type > %s\", type.c_str());\n                wrefresh(bottomInner);\n\n                break;\n            }\n\n        }\n        if(typingInput >=32 && typingInput <= 126){\n\n            //cast everything to char to stop display arrow up and down input\n            type+=static_cast<char>(typingInput);\n\n            wrefresh(bottomInner);\n\n            wclrtoeol(bottomInner);\n\n            wmove(bottomInner,1,1);\n\n            mvwprintw(bottomInner,1,1,\"Type > %s\",type.c_str());\n\n            wrefresh(bottomInner);\n\n\n        }\n    }\n\n    endwin();\n\n    return 0;\n\n}\n\n\nvoid drawChat(WINDOW* mainInner,vector<string>& text){\n\n    werase(mainInner);\n\n\n    int numMessages = text.size();\n\n    int chatHeight,chatWidth;\n\n    getmaxyx(mainInner,chatHeight,chatWidth);\n\n    //the function max use a floor of zero, and ruturns where we shoudl start inside the\n    //vector pending on screen size\n    int displayStart= max(0, static_cast<int>(text.size()) - chatHeight);\n\n    int rowTotal=0;\n    for(int i=displayStart; i< numMessages; i++){\n        mvwprintw(mainInner,rowTotal++,1,text[i].c_str());\n    }\n\n    wrefresh(mainInner);\n\n}\n\n","version":201,"snapshot":true,"doc":7,"seq":1129,"ms":7419710,"op":"edit"}
+{"version":202,"changes":[{"offset":895,"length":0,"text":"n"}],"doc":7,"seq":1130,"ms":7420202,"op":"edit"}
+{"doc":7,"seq":1131,"ms":7421220,"op":"save"}
+{"version":203,"changes":[{"offset":498,"length":11,"text":"u"}],"doc":7,"seq":1132,"ms":7436327,"op":"edit"}
+{"version":204,"changes":[{"offset":499,"length":0,"text":"i"}],"doc":7,"seq":1133,"ms":7436407,"op":"edit"}
+{"version":205,"changes":[{"offset":500,"length":0,"text":"."}],"doc":7,"seq":1134,"ms":7436903,"op":"edit"}
+{"version":206,"changes":[{"offset":501,"length":0,"text":"g"}],"doc":7,"seq":1135,"ms":7437077,"op":"edit"}
+{"version":207,"changes":[{"offset":502,"length":0,"text":"e"}],"doc":7,"seq":1136,"ms":7437171,"op":"edit"}
+{"version":208,"changes":[{"offset":503,"length":0,"text":"t"}],"doc":7,"seq":1137,"ms":7437329,"op":"edit"}
+{"doc":7,"seq":1138,"ms":7438341,"op":"save"}
+{"version":209,"changes":[{"offset":501,"length":3,"text":"getChatWindow"}],"doc":7,"seq":1139,"ms":7440058,"op":"edit"}
+{"doc":7,"seq":1140,"ms":7441070,"op":"save"}
+{"version":210,"changes":[{"offset":514,"length":0,"text":"()"}],"doc":7,"seq":1141,"ms":7442703,"op":"edit"}
+{"version":211,"changes":[{"offset":515,"length":1,"text":")"}],"doc":7,"seq":1142,"ms":7442787,"op":"edit"}
+{"doc":7,"seq":1143,"ms":7443801,"op":"save"}
