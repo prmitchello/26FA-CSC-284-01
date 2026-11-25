@@ -1563,3 +1563,65 @@
 {"doc":2,"seq":1562,"ms":73902486,"op":"save"}
 {"version":19,"changes":[{"offset":36,"length":19,"text":""}],"doc":9,"seq":1563,"ms":73910559,"op":"edit"}
 {"doc":9,"seq":1564,"ms":73911575,"op":"save"}
+{"version":94,"changes":[{"offset":15,"length":19,"text":""}],"doc":10,"seq":1565,"ms":73947862,"op":"edit"}
+{"version":95,"changes":[{"offset":14,"length":1,"text":""}],"doc":10,"seq":1566,"ms":73948230,"op":"edit"}
+{"doc":10,"seq":1567,"ms":73949247,"op":"save"}
+{"version":20,"changes":[{"offset":36,"length":1,"text":""}],"doc":9,"seq":1568,"ms":73952192,"op":"edit"}
+{"doc":9,"seq":1569,"ms":73953212,"op":"save"}
+{"version":382,"changes":[{"offset":209,"length":3,"text":"h"}],"doc":1,"seq":1570,"ms":73964553,"op":"edit"}
+{"doc":1,"seq":1571,"ms":73965566,"op":"save"}
+{"version":383,"changes":[{"offset":182,"length":3,"text":"h"}],"doc":1,"seq":1572,"ms":73966036,"op":"edit"}
+{"doc":1,"seq":1573,"ms":73967047,"op":"save"}
+{"version":384,"changes":[{"offset":158,"length":3,"text":"h"}],"doc":1,"seq":1574,"ms":73968552,"op":"edit"}
+{"doc":1,"seq":1575,"ms":73969568,"op":"save"}
+{"version":385,"changes":[{"offset":139,"length":0,"text":"\n"}],"doc":1,"seq":1576,"ms":73974639,"op":"edit"}
+{"version":386,"changes":[{"offset":140,"length":0,"text":"/"}],"doc":1,"seq":1577,"ms":73975213,"op":"edit"}
+{"version":387,"changes":[{"offset":141,"length":0,"text":"/"}],"doc":1,"seq":1578,"ms":73975335,"op":"edit"}
+{"doc":1,"seq":1579,"ms":73976355,"op":"save"}
+{"version":388,"changes":[{"offset":142,"length":0,"text":"O"}],"doc":1,"seq":1580,"ms":73976846,"op":"edit"}
+{"version":389,"changes":[{"offset":143,"length":0,"text":"O"}],"doc":1,"seq":1581,"ms":73976992,"op":"edit"}
+{"version":390,"changes":[{"offset":144,"length":0,"text":"P"}],"doc":1,"seq":1582,"ms":73977391,"op":"edit"}
+{"version":391,"changes":[{"offset":145,"length":0,"text":" "}],"doc":1,"seq":1583,"ms":73977632,"op":"edit"}
+{"doc":1,"seq":1584,"ms":73978651,"op":"save"}
+{"version":392,"changes":[{"offset":146,"length":0,"text":"d"}],"doc":1,"seq":1585,"ms":73981675,"op":"edit"}
+{"version":393,"changes":[{"offset":147,"length":0,"text":"e"}],"doc":1,"seq":1586,"ms":73981898,"op":"edit"}
+{"version":394,"changes":[{"offset":148,"length":0,"text":"s"}],"doc":1,"seq":1587,"ms":73982146,"op":"edit"}
+{"version":395,"changes":[{"offset":149,"length":0,"text":"i"}],"doc":1,"seq":1588,"ms":73982318,"op":"edit"}
+{"version":396,"changes":[{"offset":150,"length":0,"text":"g"}],"doc":1,"seq":1589,"ms":73982414,"op":"edit"}
+{"version":397,"changes":[{"offset":151,"length":0,"text":"n"}],"doc":1,"seq":1590,"ms":73982610,"op":"edit"}
+{"version":398,"changes":[{"offset":152,"length":0,"text":" "}],"doc":1,"seq":1591,"ms":73982775,"op":"edit"}
+{"version":399,"changes":[{"offset":153,"length":0,"text":"i"}],"doc":1,"seq":1592,"ms":73983165,"op":"edit"}
+{"version":400,"changes":[{"offset":154,"length":0,"text":"m"}],"doc":1,"seq":1593,"ms":73983225,"op":"edit"}
+{"text":"/*\n    Mitchello Pierre-Rene\n    11/22/26\n    CSC 284-01\n    header comment\n*/\n\n#include <iostream>\n#include <string>\n#include <ncurses.h>\n\n//OOP design imp\n#include \"Windows.h\"\n#include \"RoomList.h\"\n#include \"MessageArea.h\"\n#include \"FriendsWindow.h\"\n\n\nusing namespace std;\n\n\nint main(){\n\n    //initialize the screen\n    initscr();\n\n    Windows ui;\n    ui.initialize();\n\n    RoomList topics;\n    topics.drawLeft(ui.getTopicsWindow());\n\n    FriendsWindow friends;\n    friends.drawWindow(ui.getFriendsWindow());\n\n    MessageArea generalChat;\n    MessageArea sportChat;\n    MessageArea musicChat;\n    MessageArea randomChat;\n    MessageArea programmingChat;\n\n    // vector<MessageArea> chat(5);\n\n    MessageArea* activeChat=&generalChat;\n\n\n    string input=\"\";\n\n\n    //allow keyboard input in the bottom window\n    keypad(ui.getChatWindow(),true);\n\n    while (true){\n\n        //we then read the keyboard inputs to do operation with\n        int typingInput = wgetch(ui.getChatWindow());\n\n        switch(typingInput){\n\n            case KEY_UP:{\n\n                topics.selectUp();\n\n                switch(topics.getHighlight()){\n                    case 0:{\n                        activeChat = &generalChat;\n                        break;\n                    }\n                    case 1:{\n                        activeChat = &sportChat;\n                        break;\n                    }\n                    case 2:{\n                        activeChat = &programmingChat;\n                        break;\n                    }\n                    case 3:{\n                        activeChat = &musicChat;\n                        break;\n                    }\n                    case 4:{\n                        activeChat = &randomChat;\n                        break;\n                    }\n                }\n\n                topics.drawLeft(ui.getTopicsWindow());\n                activeChat->drawChat(ui.getMainWindow());\n\n                break;\n            }\n            case KEY_DOWN:{\n\n                topics.selectDown();\n\n                switch(topics.getHighlight()){\n                    case 0:{\n                        activeChat = &generalChat;\n                        break;\n                    }\n                    case 1:{\n                        activeChat = &sportChat;\n                        break;\n                    }\n                    case 2:{\n                        activeChat = &programmingChat;\n                        break;\n                    }\n                    case 3:{\n                        activeChat = &musicChat;\n                        break;\n                    }\n                    case 4:{\n                        activeChat = &randomChat;\n                        break;\n                    }\n                }\n\n\n                topics.drawLeft(ui.getTopicsWindow());\n                activeChat->drawChat(ui.getMainWindow());\n\n\n                break;\n            }\n            // case KEY_LEFT:{\n            //     highlight=(highlight == 0)? sideMenu.size() -1: highlight-1;\n            //     break;\n            // }\n            // case KEY_RIGHT:{\n            //     highlight=(highlight == sideMenu.size()-1)? 0: highlight+1;\n            //     break;\n            // }\n            case KEY_ENTER:\n            case '\\n':{\n\n                if(!input.empty()){\n\n                    activeChat->textInput(\"You: \"+input);\n                    //chat.push_back(\"You: \"+input);\n                    activeChat->drawChat(ui.getMainWindow());\n\n                }\n\n                input.clear();\n\n                wclrtoeol(ui.getChatWindow());\n\n                mvwprintw(ui.getChatWindow(),1,1,\"Type > %s\");\n\n                wrefresh(ui.getChatWindow());\n                wrefresh(ui.getMainWindow());\n\n                break;\n            }\n            case KEY_BACKSPACE:\n            case 127:\n            case '\\b': {\n\n                if(!input.empty()){\n                    input.pop_back();\n                }\n\n                wclrtoeol(ui.getChatWindow());\n                wmove(ui.getChatWindow(),1,2);\n\n                mvwprintw(ui.getChatWindow(),1,1,\"type > %s\", input.c_str());\n                wrefresh(ui.getChatWindow());\n\n                break;\n            }\n\n        }\n\n        if(typingInput >=32 && typingInput <= 126){\n\n            //cast everything to char to stop display arrow up and down input\n            input+=static_cast<char>(typingInput);\n\n            wrefresh(ui.getChatWindow());\n\n            wclrtoeol(ui.getChatWindow());\n\n            wmove(ui.getChatWindow(),1,1);\n\n            mvwprintw(ui.getChatWindow(),1,1,\"Type > %s\",input.c_str());\n\n            wrefresh(ui.getChatWindow());\n\n\n        }\n    }\n\n    endwin();\n\n    return 0;\n\n}\n","version":401,"snapshot":true,"doc":1,"seq":1594,"ms":73983484,"op":"edit"}
+{"version":402,"changes":[{"offset":156,"length":0,"text":"o"}],"doc":1,"seq":1595,"ms":73983951,"op":"edit"}
+{"version":403,"changes":[{"offset":157,"length":0,"text":"r"}],"doc":1,"seq":1596,"ms":73984070,"op":"edit"}
+{"version":404,"changes":[{"offset":158,"length":0,"text":"t"}],"doc":1,"seq":1597,"ms":73984269,"op":"edit"}
+{"version":405,"changes":[{"offset":159,"length":0,"text":"i"}],"doc":1,"seq":1598,"ms":73984903,"op":"edit"}
+{"version":406,"changes":[{"offset":160,"length":0,"text":"n"}],"doc":1,"seq":1599,"ms":73985030,"op":"edit"}
+{"version":407,"changes":[{"offset":161,"length":0,"text":"g"}],"doc":1,"seq":1600,"ms":73985112,"op":"edit"}
+{"version":408,"changes":[{"offset":162,"length":0,"text":" "}],"doc":1,"seq":1601,"ms":73985212,"op":"edit"}
+{"version":409,"changes":[{"offset":163,"length":0,"text":"a"}],"doc":1,"seq":1602,"ms":73986160,"op":"edit"}
+{"version":410,"changes":[{"offset":164,"length":0,"text":"l"}],"doc":1,"seq":1603,"ms":73986336,"op":"edit"}
+{"version":411,"changes":[{"offset":165,"length":0,"text":"l"}],"doc":1,"seq":1604,"ms":73986439,"op":"edit"}
+{"version":412,"changes":[{"offset":166,"length":0,"text":" "}],"doc":1,"seq":1605,"ms":73986620,"op":"edit"}
+{"version":413,"changes":[{"offset":167,"length":0,"text":"t"}],"doc":1,"seq":1606,"ms":73986733,"op":"edit"}
+{"version":414,"changes":[{"offset":168,"length":0,"text":"h"}],"doc":1,"seq":1607,"ms":73986829,"op":"edit"}
+{"version":415,"changes":[{"offset":169,"length":0,"text":" "}],"doc":1,"seq":1608,"ms":73986939,"op":"edit"}
+{"version":416,"changes":[{"offset":169,"length":1,"text":""}],"doc":1,"seq":1609,"ms":73987369,"op":"edit"}
+{"version":417,"changes":[{"offset":168,"length":1,"text":""}],"doc":1,"seq":1610,"ms":73987528,"op":"edit"}
+{"version":418,"changes":[{"offset":168,"length":0,"text":"h"}],"doc":1,"seq":1611,"ms":73988177,"op":"edit"}
+{"version":419,"changes":[{"offset":169,"length":0,"text":"e"}],"doc":1,"seq":1612,"ms":73988331,"op":"edit"}
+{"version":420,"changes":[{"offset":170,"length":0,"text":" "}],"doc":1,"seq":1613,"ms":73988423,"op":"edit"}
+{"version":421,"changes":[{"offset":171,"length":0,"text":"w"}],"doc":1,"seq":1614,"ms":73989258,"op":"edit"}
+{"version":422,"changes":[{"offset":172,"length":0,"text":"i"}],"doc":1,"seq":1615,"ms":73989368,"op":"edit"}
+{"version":423,"changes":[{"offset":173,"length":0,"text":"n"}],"doc":1,"seq":1616,"ms":73989462,"op":"edit"}
+{"version":424,"changes":[{"offset":174,"length":0,"text":"d"}],"doc":1,"seq":1617,"ms":73989534,"op":"edit"}
+{"version":425,"changes":[{"offset":175,"length":0,"text":"o"}],"doc":1,"seq":1618,"ms":73989646,"op":"edit"}
+{"version":426,"changes":[{"offset":176,"length":0,"text":"w"}],"doc":1,"seq":1619,"ms":73989689,"op":"edit"}
+{"version":427,"changes":[{"offset":177,"length":0,"text":" "}],"doc":1,"seq":1620,"ms":73989840,"op":"edit"}
+{"version":428,"changes":[{"offset":178,"length":0,"text":"c"}],"doc":1,"seq":1621,"ms":73989917,"op":"edit"}
+{"version":429,"changes":[{"offset":179,"length":0,"text":"o"}],"doc":1,"seq":1622,"ms":73990029,"op":"edit"}
+{"version":430,"changes":[{"offset":180,"length":0,"text":"m"}],"doc":1,"seq":1623,"ms":73990093,"op":"edit"}
+{"version":431,"changes":[{"offset":181,"length":0,"text":"p"}],"doc":1,"seq":1624,"ms":73990307,"op":"edit"}
+{"version":432,"changes":[{"offset":182,"length":0,"text":"o"}],"doc":1,"seq":1625,"ms":73990877,"op":"edit"}
+{"version":433,"changes":[{"offset":183,"length":0,"text":"n"}],"doc":1,"seq":1626,"ms":73991060,"op":"edit"}
