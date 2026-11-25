@@ -2758,3 +2758,17 @@
 {"executionId":"311b77d2-8807-45bc-bcb0-0b59329c642f","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"l","doc":11,"seq":2757,"ms":76125098,"op":"terminal.output"}
 {"executionId":"311b77d2-8807-45bc-bcb0-0b59329c642f","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"o","doc":11,"seq":2758,"ms":76125266,"op":"terminal.output"}
 {"executionId":"311b77d2-8807-45bc-bcb0-0b59329c642f","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\u001b[15;23H\u001b[9;31H\u001b[15d     \u001b[31G","doc":11,"seq":2759,"ms":76125521,"op":"terminal.output"}
+{"executionId":"311b77d2-8807-45bc-bcb0-0b59329c642f","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\u001b[57;1H\u001b[?1049l\r\u001b[?1l\u001b>\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":11,"seq":2760,"ms":76177784,"op":"terminal.output"}
+{"executionId":"311b77d2-8807-45bc-bcb0-0b59329c642f","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"./app","confidence":2,"exitCode":1,"doc":11,"seq":2761,"ms":76177784,"op":"terminal.end"}
+{"version":169,"changes":[{"offset":648,"length":0,"text":"-"}],"doc":4,"seq":2762,"ms":76191772,"op":"edit"}
+{"version":170,"changes":[{"offset":649,"length":0,"text":"1"}],"doc":4,"seq":2763,"ms":76191927,"op":"edit"}
+{"doc":4,"seq":2764,"ms":76192947,"op":"save"}
+{"version":171,"reason":1,"changes":[{"offset":648,"length":2,"text":""}],"doc":4,"seq":2765,"ms":76196310,"op":"edit"}
+{"doc":4,"seq":2766,"ms":76197322,"op":"save"}
+{"version":172,"changes":[{"offset":354,"length":0,"text":"-"}],"doc":4,"seq":2767,"ms":76204298,"op":"edit"}
+{"version":173,"changes":[{"offset":355,"length":0,"text":"1"}],"doc":4,"seq":2768,"ms":76204420,"op":"edit"}
+{"doc":4,"seq":2769,"ms":76205433,"op":"save"}
+{"executionId":"21c95dd3-7362-4e7f-bba1-40b95d41ac42","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"g++-16 *.cpp -o app -lncurses","confidence":2,"doc":11,"seq":2770,"ms":76209627,"op":"terminal.start"}
+{"executionId":"21c95dd3-7362-4e7f-bba1-40b95d41ac42","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\u001b]633;C\u0007","doc":11,"seq":2771,"ms":76209679,"op":"terminal.output"}
+{"executionId":"21c95dd3-7362-4e7f-bba1-40b95d41ac42","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                             \r \r","doc":11,"seq":2772,"ms":76210404,"op":"terminal.output"}
+{"executionId":"21c95dd3-7362-4e7f-bba1-40b95d41ac42","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"g++-16 *.cpp -o app -lncurses","confidence":2,"exitCode":0,"doc":11,"seq":2773,"ms":76210404,"op":"terminal.end"}
