@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/FriendsWindow.h","startedAt":"2026-11-25T12:30:00.518Z","attemptId":"33a5cf7e-df55-441d-bc32-0cd609bb84a1","segmentId":"e4440fb8-3eaa-41d2-958a-06be4bf31995","sourceWindowId":"f8cbecab-e09b-42a8-8099-c64c38311d54","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-63,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-63,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":14,"op":"fs.create"}

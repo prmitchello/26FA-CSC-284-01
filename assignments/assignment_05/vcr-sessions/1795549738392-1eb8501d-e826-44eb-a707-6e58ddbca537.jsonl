@@ -744,3 +744,10 @@
 {"version":12,"changes":[{"offset":10,"length":0,"text":"e"}],"doc":5,"seq":743,"ms":60031706,"op":"edit"}
 {"version":13,"changes":[{"offset":11,"length":0,"text":"\n"}],"doc":5,"seq":744,"ms":60032712,"op":"edit"}
 {"doc":5,"seq":745,"ms":60032735,"op":"save"}
+{"text":"","version":1,"path":"FriendsWindow.h","snapshot":true,"doc":6,"seq":746,"ms":60062086,"op":"snap"}
+{"text":"#include <ncurses.h>\n\nclass FriendsWindow{\n\n    private:\n\n\n\n    public:\n\n    void drawWindow(WINDOW * win){\n        wrefresh(win);\n    }\n\n    void getWindow(){\n\n    }\n\n    void setWindow(){\n\n    }\n    void navigate(){\n\n    }\n\n\n\n};\n","version":1,"path":"FriendsWindow.cpp","snapshot":true,"doc":7,"seq":747,"ms":60072266,"op":"snap"}
+{"version":368,"changes":[{"offset":655,"length":69,"text":""}],"doc":1,"seq":748,"ms":60106251,"op":"edit"}
+{"version":369,"changes":[{"offset":651,"length":4,"text":""}],"doc":1,"seq":749,"ms":60107255,"op":"edit"}
+{"doc":1,"seq":750,"ms":60107269,"op":"save"}
+{"version":370,"changes":[{"offset":426,"length":0,"text":"\n    "}],"doc":1,"seq":751,"ms":60107685,"op":"edit"}
+{"version":371,"changes":[{"offset":431,"length":0,"text":"\n    "},{"offset":427,"length":4,"text":""}],"doc":1,"seq":752,"ms":60108055,"op":"edit"}
