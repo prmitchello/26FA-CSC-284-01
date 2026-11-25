@@ -1251,3 +1251,25 @@
 {"doc":4,"seq":1250,"ms":73029933,"op":"save"}
 {"doc":4,"seq":1251,"ms":73077360,"op":"close"}
 {"doc":8,"seq":1252,"ms":73082257,"op":"close"}
+{"version":60,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":15,"length":31,"text":"#include<curses.h>\n\nclass Windows {\n\n    private:\n\n        WINDOW* mainWin;\n        WINDOW* mainInner;\n\n        WINDOW* bottomWin;\n        WINDOW* bottomInner;\n\n        WINDOW* leftWin;\n        WINDOW* leftInner;\n\n        WINDOW* rightWin;\n        WINDOW* rightInner;\n\npublic:\n        //default constructor to initialize\n        Windows(){\n\n            mainWin=nullptr;\n            mainInner=nullptr;\n\n            bottomWin=nullptr;\n            bottomInner=nullptr;\n\n            leftWin=nullptr;\n            leftInner=nullptr;\n\n            rightWin=nullptr;\n            rightInner=nullptr;\n\n        }\n\n\n        void initialize(){\n\n            //box values to allign the screen\n            int terminalWidth=COLS;\n            int terminalLength=LINES;\n\n            int sidePanelWidth =20;\n            int sidePanelLength = terminalLength -1;\n\n            int y_startAt_0 = 0;\n            int x_startAt_0 = 0;\n\n\n            mainWin = newwin((sidePanelLength -10) ,(terminalWidth-40),y_startAt_0,(x_startAt_0 + 20));\n            mainInner = newwin((sidePanelLength -13) ,(terminalWidth-42),y_startAt_0+2,(x_startAt_0 + 21));\n\n            bottomWin = newwin( 10 ,(terminalWidth-40),(terminalLength - 11) , (x_startAt_0 + 20) );\n            bottomInner = newwin( 5 ,(terminalWidth-44),(terminalLength - 8) , (x_startAt_0 + 22) );\n\n            rightWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,(terminalWidth-20));\n            rightInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,(terminalWidth-18));\n\n            leftWin = newwin(sidePanelLength,sidePanelWidth,y_startAt_0,x_startAt_0);\n            leftInner = newwin(sidePanelLength-3,sidePanelWidth-4,y_startAt_0+2,x_startAt_0+2);\n\n            mvwprintw(rightWin,1,6,\"Friends\");\n            mvwprintw(leftWin,1,8,\"Feed\");\n            mvwprintw(bottomInner,1,1,\"Type > \");\n            mvwprintw(mainWin,1,40,\"Advanced C++ Chat Client\");\n\n            // box creates a border for each win and gives them a visible effect\n            box(mainWin,0,0);\n            box(mainInner,0,0);\n            box(bottomWin,0,0);\n            box(bottomInner,0,0);\n            box(leftWin,0,0);\n            box(leftInner,0,0);\n            box(rightWin,0,0);\n            box(rightInner,0,0);\n\n\n            wrefresh(mainWin);\n            wrefresh(mainInner);\n            wrefresh(bottomWin);\n            wrefresh(bottomInner);\n            wrefresh(rightWin);\n            wrefresh(rightInner);\n            wrefresh(leftWin);\n            wrefresh(leftInner);\n\n        }\n\n    public:\n\n        WINDOW* getTopicsWindow(){\n            return leftInner;\n        }\n        WINDOW* getMainWindow(){\n            return mainInner;\n        }\n        WINDOW* getChatWindow(){\n            return bottomInner;\n        }\n        WINDOW* getFriendsWindow(){\n            return rightInner;\n        }\n\n};\n"}],"doc":10,"seq":1253,"ms":73097111,"op":"edit"}
+{"doc":10,"seq":1254,"ms":73098118,"op":"save"}
+{"version":61,"changes":[{"offset":353,"length":262,"text":";"}],"doc":10,"seq":1255,"ms":73108695,"op":"edit"}
+{"doc":10,"seq":1256,"ms":73109704,"op":"save"}
+{"version":62,"changes":[{"offset":382,"length":1892,"text":""}],"doc":10,"seq":1257,"ms":73115534,"op":"edit"}
+{"doc":10,"seq":1258,"ms":73116553,"op":"save"}
+{"version":63,"changes":[{"offset":430,"length":41,"text":""}],"doc":10,"seq":1259,"ms":73119802,"op":"edit"}
+{"doc":10,"seq":1260,"ms":73120821,"op":"save"}
+{"version":64,"changes":[{"offset":462,"length":41,"text":""}],"doc":10,"seq":1261,"ms":73123435,"op":"edit"}
+{"doc":10,"seq":1262,"ms":73124443,"op":"save"}
+{"version":65,"changes":[{"offset":495,"length":42,"text":""}],"doc":10,"seq":1263,"ms":73126597,"op":"edit"}
+{"version":66,"changes":[{"offset":494,"length":1,"text":""}],"doc":10,"seq":1264,"ms":73126799,"op":"edit"}
+{"doc":10,"seq":1265,"ms":73127806,"op":"save"}
+{"version":67,"changes":[{"offset":529,"length":42,"text":""}],"doc":10,"seq":1266,"ms":73130028,"op":"edit"}
+{"doc":10,"seq":1267,"ms":73131038,"op":"save"}
+{"version":68,"changes":[{"offset":430,"length":0,"text":"\n        "}],"doc":10,"seq":1268,"ms":73137923,"op":"edit"}
+{"version":69,"changes":[{"offset":431,"length":8,"text":""}],"doc":10,"seq":1269,"ms":73138928,"op":"edit"}
+{"doc":10,"seq":1270,"ms":73138942,"op":"save"}
+{"version":70,"changes":[{"offset":463,"length":0,"text":"\n        "}],"doc":10,"seq":1271,"ms":73139026,"op":"edit"}
+{"version":71,"changes":[{"offset":504,"length":0,"text":"\n        "},{"offset":464,"length":8,"text":""}],"doc":10,"seq":1272,"ms":73139961,"op":"edit"}
+{"version":72,"changes":[{"offset":497,"length":8,"text":""}],"doc":10,"seq":1273,"ms":73140963,"op":"edit"}
+{"doc":10,"seq":1274,"ms":73140972,"op":"save"}
