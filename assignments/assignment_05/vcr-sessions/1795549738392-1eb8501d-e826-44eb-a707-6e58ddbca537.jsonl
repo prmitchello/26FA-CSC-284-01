@@ -4394,3 +4394,20 @@
 {"doc":1,"seq":4393,"ms":77708588,"op":"save"}
 {"version":1872,"changes":[{"offset":3181,"length":1,"text":""}],"doc":1,"seq":4394,"ms":77709380,"op":"edit"}
 {"doc":1,"seq":4395,"ms":77710402,"op":"save"}
+{"version":1873,"changes":[{"offset":3219,"length":0,"text":"\n                "}],"doc":1,"seq":4396,"ms":77715167,"op":"edit"}
+{"version":1874,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":3236,"length":0,"text":"                //the highlight amout correlates to specific chats, and the switch case handles the movement of chat\n"}],"doc":1,"seq":4397,"ms":77715696,"op":"edit"}
+{"doc":1,"seq":4398,"ms":77716705,"op":"save"}
+{"version":1875,"changes":[{"offset":3352,"length":1,"text":""}],"doc":1,"seq":4399,"ms":77717010,"op":"edit"}
+{"doc":1,"seq":4400,"ms":77718033,"op":"save"}
+{"version":1876,"changes":[{"offset":3248,"length":4,"text":""}],"doc":1,"seq":4401,"ms":77718322,"op":"edit"}
+{"version":1877,"changes":[{"offset":3244,"length":4,"text":""}],"doc":1,"seq":4402,"ms":77718518,"op":"edit"}
+{"version":1878,"changes":[{"offset":3240,"length":4,"text":""}],"doc":1,"seq":4403,"ms":77718838,"op":"edit"}
+{"version":1879,"changes":[{"offset":3236,"length":4,"text":""}],"doc":1,"seq":4404,"ms":77719152,"op":"edit"}
+{"doc":1,"seq":4405,"ms":77720165,"op":"save"}
+{"version":1880,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":4084,"length":96,"text":"//draw and update the room that was selected\n                topics.drawLeft(ui.getTopicsWindow());\n                //point to the referenced chat\n                activeChat->drawChat(ui.getMainWindow());"}],"doc":1,"seq":4406,"ms":77736035,"op":"edit"}
+{"doc":1,"seq":4407,"ms":77737048,"op":"save"}
+{"version":1881,"changes":[{"offset":4065,"length":1,"text":""}],"doc":1,"seq":4408,"ms":77737990,"op":"edit"}
+{"doc":1,"seq":4409,"ms":77739007,"op":"save"}
+{"version":1882,"changes":[{"offset":4819,"length":0,"text":" "}],"doc":1,"seq":4410,"ms":77770331,"op":"edit"}
+{"version":1883,"changes":[{"offset":4820,"length":0,"text":"/"}],"doc":1,"seq":4411,"ms":77770957,"op":"edit"}
+{"version":1884,"changes":[{"offset":4821,"length":0,"text":"/"}],"doc":1,"seq":4412,"ms":77771102,"op":"edit"}
