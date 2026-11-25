@@ -426,3 +426,8 @@
 {"version":49,"changes":[{"offset":290,"length":1,"text":""}],"doc":2,"seq":425,"ms":16869124,"op":"edit"}
 {"version":50,"changes":[{"offset":290,"length":1,"text":""}],"doc":2,"seq":426,"ms":16869829,"op":"edit"}
 {"doc":2,"seq":427,"ms":16870842,"op":"save"}
+{"version":212,"changes":[{"offset":2875,"length":0,"text":"%"}],"doc":1,"seq":428,"ms":16919899,"op":"edit"}
+{"version":213,"changes":[{"offset":2876,"length":0,"text":"s"}],"doc":1,"seq":429,"ms":16920218,"op":"edit"}
+{"doc":1,"seq":430,"ms":16921232,"op":"save"}
+{"version":214,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":3768,"length":5,"text":"Type"}],"doc":1,"seq":431,"ms":16925650,"op":"edit"}
+{"doc":1,"seq":432,"ms":16926664,"op":"save"}
