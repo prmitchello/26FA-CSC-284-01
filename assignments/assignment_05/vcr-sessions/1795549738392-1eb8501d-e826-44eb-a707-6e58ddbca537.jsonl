@@ -1273,3 +1273,23 @@
 {"version":71,"changes":[{"offset":504,"length":0,"text":"\n        "},{"offset":464,"length":8,"text":""}],"doc":10,"seq":1272,"ms":73139961,"op":"edit"}
 {"version":72,"changes":[{"offset":497,"length":8,"text":""}],"doc":10,"seq":1273,"ms":73140963,"op":"edit"}
 {"doc":10,"seq":1274,"ms":73140972,"op":"save"}
+{"version":2,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":0,"text":"#include <vector>\n#include <string>\n#include<curses.h>\n\nusing namespace std;\n\nclass RoomList {\n\n    private:\n\n        vector<string> topicList;\n        int highlight;\n\n    public:\n\n        RoomList(){\n            topicList ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n            highlight = 0;\n        }\n\n        void selectUp(){\n            highlight=(highlight == 0)? topicList.size() -1: highlight-1;\n        }\n\n        void selectDown(){\n            highlight=(highlight == topicList.size()-1)? 0: highlight+1;\n\n        }\n\n        int getHighlight(){\n            return highlight;\n        }\n\n        void drawLeft(WINDOW* leftInner){\n\n            werase(leftInner);\n            box(leftInner,0,0);\n\n\n            int length = topicList.size();\n\n            for(int i=0; i<length ; ++i){\n\n                if(i == highlight){\n                    //start_color();\n                    wattron(leftInner, A_REVERSE);\n                        mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n                    wattroff(leftInner, A_REVERSE);\n\n                }else{\n                    mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n                }\n\n            }\n\n            wrefresh(leftInner);\n\n        }\n\n};\n"}],"doc":9,"seq":1275,"ms":73152503,"op":"edit"}
+{"doc":9,"seq":1276,"ms":73153512,"op":"save"}
+{"version":3,"changes":[{"offset":200,"length":114,"text":""}],"doc":9,"seq":1277,"ms":73156933,"op":"edit"}
+{"version":4,"changes":[{"offset":199,"length":1,"text":""}],"doc":9,"seq":1278,"ms":73157147,"op":"edit"}
+{"doc":9,"seq":1279,"ms":73158158,"op":"save"}
+{"version":5,"changes":[{"offset":224,"length":85,"text":""}],"doc":9,"seq":1280,"ms":73160665,"op":"edit"}
+{"doc":9,"seq":1281,"ms":73161677,"op":"save"}
+{"version":6,"changes":[{"offset":251,"length":85,"text":""}],"doc":9,"seq":1282,"ms":73163475,"op":"edit"}
+{"doc":9,"seq":1283,"ms":73164487,"op":"save"}
+{"version":7,"changes":[{"offset":279,"length":41,"text":""}],"doc":9,"seq":1284,"ms":73165873,"op":"edit"}
+{"doc":9,"seq":1285,"ms":73166884,"op":"save"}
+{"version":8,"changes":[{"offset":321,"length":589,"text":""}],"doc":9,"seq":1286,"ms":73173042,"op":"edit"}
+{"doc":9,"seq":1287,"ms":73174059,"op":"save"}
+{"version":9,"changes":[{"offset":36,"length":18,"text":""}],"doc":9,"seq":1288,"ms":73182982,"op":"edit"}
+{"doc":9,"seq":1289,"ms":73183997,"op":"save"}
+{"text":"#pragma once;\n\n#include <vector>\n#include <string>\n#include <curses.h>\n\nusing namespace std;\n\nclass MessageArea {\n\n    private:\n\n        vector<string> messages;\n\n    public:\n\n        MessageArea();\n\n        void textInput( string input );\n\n        void drawChat(WINDOW* mainInner);\n\n};\n\n","version":85,"snapshot":true,"doc":8,"seq":1290,"ms":73197978,"op":"snap"}
+{"doc":8,"seq":1291,"ms":73203769,"op":"close"}
+{"text":"#pragma once;\n\nclass FriendsWindow{\n  public:\n\n  void drawWindow(WINDOW * );\n\n};\n","version":87,"snapshot":true,"doc":6,"seq":1292,"ms":73203778,"op":"snap"}
+{"doc":6,"seq":1293,"ms":73206386,"op":"close"}
+{"version":73,"changes":[{"offset":382,"length":0,"text":";"}],"doc":10,"seq":1294,"ms":73210463,"op":"edit"}
