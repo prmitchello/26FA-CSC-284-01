@@ -786,3 +786,14 @@
 {"doc":1,"seq":785,"ms":60215427,"op":"save"}
 {"version":380,"reason":1,"changes":[{"offset":118,"length":0,"text":"#include <ncurses.h>"}],"doc":1,"seq":786,"ms":60215716,"op":"edit"}
 {"doc":1,"seq":787,"ms":60216733,"op":"save"}
+{"text":"","version":1,"path":"MessageArea.h","snapshot":true,"doc":8,"seq":788,"ms":60236550,"op":"snap"}
+{"text":"","version":1,"path":"RoomList.h","snapshot":true,"doc":9,"seq":789,"ms":60256106,"op":"snap"}
+{"text":"","version":1,"path":"Windows.h","snapshot":true,"doc":10,"seq":790,"ms":60266300,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":0,"text":"p"}],"doc":10,"seq":791,"ms":60284092,"op":"edit"}
+{"version":3,"changes":[{"offset":1,"length":0,"text":"r"}],"doc":10,"seq":792,"ms":60284250,"op":"edit"}
+{"version":4,"changes":[{"offset":2,"length":0,"text":"a"}],"doc":10,"seq":793,"ms":60284474,"op":"edit"}
+{"version":5,"changes":[{"offset":2,"length":1,"text":""}],"doc":10,"seq":794,"ms":60285464,"op":"edit"}
+{"version":6,"changes":[{"offset":1,"length":1,"text":""}],"doc":10,"seq":795,"ms":60286090,"op":"edit"}
+{"version":7,"changes":[{"offset":1,"length":0,"text":"g"}],"doc":10,"seq":796,"ms":60286834,"op":"edit"}
+{"version":8,"changes":[{"offset":1,"length":1,"text":""}],"doc":10,"seq":797,"ms":60287597,"op":"edit"}
+{"version":9,"changes":[{"offset":1,"length":0,"text":"r"}],"doc":10,"seq":798,"ms":60288012,"op":"edit"}

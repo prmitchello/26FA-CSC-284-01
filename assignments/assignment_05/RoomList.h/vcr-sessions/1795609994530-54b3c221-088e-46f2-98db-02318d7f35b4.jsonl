@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/RoomList.h","startedAt":"2026-11-25T12:33:14.530Z","attemptId":"25935264-3384-4196-b4f7-0d6bf3944866","segmentId":"d8327843-cec3-4f7c-9a20-d23ff8005385","sourceWindowId":"f8cbecab-e09b-42a8-8099-c64c38311d54","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-50,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-50,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":72,"op":"fs.create"}
