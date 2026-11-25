@@ -1717,3 +1717,9 @@
 {"doc":3,"seq":1716,"ms":74160716,"op":"save"}
 {"version":145,"changes":[{"offset":19,"length":1,"text":""}],"doc":3,"seq":1717,"ms":74160792,"op":"edit"}
 {"doc":3,"seq":1718,"ms":74161806,"op":"save"}
+{"text":"#include \"FriendsWindow.h\"\n#include <curses.h>\n\n    void FriendsWindow::drawWindow(WINDOW * win){\n        wrefresh(win);\n    }\n","version":72,"snapshot":true,"doc":7,"seq":1719,"ms":74180495,"op":"snap"}
+{"doc":7,"seq":1720,"ms":74185144,"op":"close"}
+{"version":89,"changes":[{"offset":79,"length":0,"text":";"}],"doc":6,"seq":1721,"ms":74198982,"op":"edit"}
+{"doc":6,"seq":1722,"ms":74200002,"op":"save"}
+{"version":87,"changes":[{"offset":12,"length":1,"text":""}],"doc":8,"seq":1723,"ms":74221565,"op":"edit"}
+{"doc":8,"seq":1724,"ms":74222581,"op":"save"}
