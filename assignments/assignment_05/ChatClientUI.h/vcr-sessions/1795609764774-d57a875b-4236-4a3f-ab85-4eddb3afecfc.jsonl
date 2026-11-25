@@ -1,0 +1,4 @@
+{"version":1,"vcrVersion":"0.0.10","courseId":"26FA-CSC-284-01","folder":"assignments/assignment_05/ChatClientUI.h","startedAt":"2026-11-25T12:29:24.774Z","attemptId":"50aeb8e3-5284-4096-b2fc-efbbd4cd0809","segmentId":"4d5cf0ab-194c-4b64-9d8b-2463cefcfd6f","sourceWindowId":"f8cbecab-e09b-42a8-8099-c64c38311d54","seq":0,"ms":0,"op":"session"}
+{"branch":"main","commit":"92bdaebc8c0ee200b2bf28a2f561d8f2b2bb70ca","seq":1,"ms":-31,"op":"source.context"}
+{"source":"workspace","path":".","doc":1,"seq":2,"ms":-31,"op":"fs.create"}
+{"source":"watcher","doc":1,"seq":3,"ms":85,"op":"fs.create"}

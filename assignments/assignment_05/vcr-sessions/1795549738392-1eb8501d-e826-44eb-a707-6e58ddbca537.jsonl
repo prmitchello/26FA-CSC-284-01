@@ -730,3 +730,17 @@
 {"version":366,"changes":[{"offset":2809,"length":0,"text":"    "}],"doc":1,"seq":729,"ms":21595389,"op":"edit"}
 {"version":367,"changes":[{"offset":2813,"length":0,"text":"    "}],"doc":1,"seq":730,"ms":21595776,"op":"edit"}
 {"doc":1,"seq":731,"ms":21596793,"op":"save"}
+{"text":"","version":1,"path":"ChatClientUI.h","snapshot":true,"doc":5,"seq":732,"ms":60026376,"op":"snap"}
+{"version":2,"changes":[{"offset":0,"length":0,"text":"p"}],"doc":5,"seq":733,"ms":60029639,"op":"edit"}
+{"version":3,"changes":[{"offset":1,"length":0,"text":"r"}],"doc":5,"seq":734,"ms":60029706,"op":"edit"}
+{"version":4,"changes":[{"offset":2,"length":0,"text":"a"}],"doc":5,"seq":735,"ms":60029895,"op":"edit"}
+{"version":5,"changes":[{"offset":3,"length":0,"text":"g"}],"doc":5,"seq":736,"ms":60030143,"op":"edit"}
+{"version":6,"changes":[{"offset":4,"length":0,"text":"m"}],"doc":5,"seq":737,"ms":60030298,"op":"edit"}
+{"version":7,"changes":[{"offset":5,"length":0,"text":"a"}],"doc":5,"seq":738,"ms":60030445,"op":"edit"}
+{"version":8,"changes":[{"offset":6,"length":0,"text":" "}],"doc":5,"seq":739,"ms":60030575,"op":"edit"}
+{"version":9,"changes":[{"offset":7,"length":0,"text":"o"}],"doc":5,"seq":740,"ms":60031054,"op":"edit"}
+{"version":10,"changes":[{"offset":8,"length":0,"text":"n"}],"doc":5,"seq":741,"ms":60031290,"op":"edit"}
+{"version":11,"changes":[{"offset":9,"length":0,"text":"c"}],"doc":5,"seq":742,"ms":60031576,"op":"edit"}
+{"version":12,"changes":[{"offset":10,"length":0,"text":"e"}],"doc":5,"seq":743,"ms":60031706,"op":"edit"}
+{"version":13,"changes":[{"offset":11,"length":0,"text":"\n"}],"doc":5,"seq":744,"ms":60032712,"op":"edit"}
+{"doc":5,"seq":745,"ms":60032735,"op":"save"}
