@@ -970,3 +970,6 @@
 {"doc":7,"seq":969,"ms":60509348,"op":"save"}
 {"version":19,"changes":[{"offset":76,"length":2,"text":""}],"doc":7,"seq":970,"ms":60512288,"op":"edit"}
 {"doc":7,"seq":971,"ms":60513308,"op":"save"}
+{"version":20,"reason":1,"changes":[{"offset":76,"length":0,"text":"};"}],"doc":7,"seq":972,"ms":60528620,"op":"edit"}
+{"version":21,"reason":1,"changes":[{"offset":0,"length":0,"text":"class FriendsWindow{\n\n    public:\n"}],"doc":7,"seq":973,"ms":60529119,"op":"edit"}
+{"doc":7,"seq":974,"ms":60530128,"op":"save"}
