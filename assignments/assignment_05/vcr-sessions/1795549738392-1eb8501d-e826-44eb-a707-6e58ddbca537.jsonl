@@ -1071,3 +1071,31 @@
 {"version":25,"changes":[{"offset":21,"length":0,"text":"."}],"doc":8,"seq":1070,"ms":72669846,"op":"edit"}
 {"version":26,"changes":[{"offset":22,"length":0,"text":"c"}],"doc":8,"seq":1071,"ms":72669993,"op":"edit"}
 {"version":27,"changes":[{"offset":23,"length":0,"text":"p"}],"doc":8,"seq":1072,"ms":72670145,"op":"edit"}
+{"doc":8,"seq":1073,"ms":72671152,"op":"save"}
+{"version":28,"changes":[{"offset":23,"length":1,"text":""}],"doc":8,"seq":1074,"ms":72671561,"op":"edit"}
+{"version":29,"changes":[{"offset":23,"length":0,"text":"h"}],"doc":8,"seq":1075,"ms":72672273,"op":"edit"}
+{"version":30,"changes":[{"offset":23,"length":1,"text":""}],"doc":8,"seq":1076,"ms":72672700,"op":"edit"}
+{"version":31,"changes":[{"offset":22,"length":1,"text":""}],"doc":8,"seq":1077,"ms":72672865,"op":"edit"}
+{"version":32,"changes":[{"offset":22,"length":0,"text":"h"}],"doc":8,"seq":1078,"ms":72672973,"op":"edit"}
+{"doc":8,"seq":1079,"ms":72673984,"op":"save"}
+{"version":33,"changes":[{"offset":24,"length":0,"text":"\n"}],"doc":8,"seq":1080,"ms":72681345,"op":"edit"}
+{"version":34,"changes":[{"offset":25,"length":0,"text":"\n"}],"doc":8,"seq":1081,"ms":72681677,"op":"edit"}
+{"doc":8,"seq":1082,"ms":72682685,"op":"save"}
+{"version":35,"changes":[{"offset":0,"length":24,"text":""}],"doc":8,"seq":1083,"ms":72705572,"op":"edit"}
+{"version":36,"changes":[{"offset":0,"length":0,"text":"#"}],"doc":8,"seq":1084,"ms":72706186,"op":"edit"}
+{"version":37,"changes":[{"offset":1,"length":0,"text":"p"}],"doc":8,"seq":1085,"ms":72706403,"op":"edit"}
+{"version":38,"changes":[{"offset":2,"length":0,"text":"r"}],"doc":8,"seq":1086,"ms":72706587,"op":"edit"}
+{"doc":8,"seq":1087,"ms":72707599,"op":"save"}
+{"version":39,"changes":[{"offset":1,"length":2,"text":"pragma"}],"doc":8,"seq":1088,"ms":72708423,"op":"edit"}
+{"version":40,"changes":[{"offset":7,"length":0,"text":" "}],"doc":8,"seq":1089,"ms":72708806,"op":"edit"}
+{"version":41,"changes":[{"offset":8,"length":0,"text":"o"}],"doc":8,"seq":1090,"ms":72709028,"op":"edit"}
+{"version":42,"changes":[{"offset":9,"length":0,"text":"n"}],"doc":8,"seq":1091,"ms":72709174,"op":"edit"}
+{"version":43,"changes":[{"offset":10,"length":0,"text":"c"}],"doc":8,"seq":1092,"ms":72709233,"op":"edit"}
+{"version":44,"changes":[{"offset":11,"length":0,"text":"e"}],"doc":8,"seq":1093,"ms":72709368,"op":"edit"}
+{"version":45,"changes":[{"offset":12,"length":0,"text":";"}],"doc":8,"seq":1094,"ms":72709615,"op":"edit"}
+{"version":46,"changes":[{"offset":13,"length":0,"text":"\n"}],"doc":8,"seq":1095,"ms":72710103,"op":"edit"}
+{"version":47,"changes":[{"offset":14,"length":0,"text":"\n"}],"doc":8,"seq":1096,"ms":72710297,"op":"edit"}
+{"version":48,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":15,"length":0,"text":" MessageArea(){\n\n        }\n\n        void textInput( string input ){\n\n            messages.push_back(input);\n        }\n\n        void drawChat(WINDOW* mainInner){\n\n            werase(mainInner);\n\n            box(mainInner,0,0);\n\n\n            int numMessages = messages.size();\n\n            int chatHeight,chatWidth;\n\n            getmaxyx(mainInner,chatHeight,chatWidth);\n\n                //the function max use a floor of zero, and ruturns where we shoudl start inside the\n                //vector pending on screen size\n                int displayStart= max(0, static_cast<int>(messages.size()) - chatHeight);\n\n            int rowTotal=0;\n\n            for(int i=displayStart; i< numMessages; i++){\n\n                mvwprintw( mainInner, rowTotal++, 1, messages[i].c_str());\n\n            }\n                wrefresh(mainInner);\n        }"}],"doc":8,"seq":1097,"ms":72710706,"op":"edit"}
+{"doc":8,"seq":1098,"ms":72711718,"op":"save"}
+{"version":49,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":15,"length":836,"text":"#include <vector>\n#include <string>\n\nusing namespace std;\n\nclass MessageArea {\n\n    private:\n\n        vector<string> messages;\n\n    public:\n\n        MessageArea(){\n\n        }\n\n        void textInput( string input ){\n\n            messages.push_back(input);\n        }\n\n        void drawChat(WINDOW* mainInner){\n\n            werase(mainInner);\n\n            box(mainInner,0,0);\n\n\n            int numMessages = messages.size();\n\n            int chatHeight,chatWidth;\n\n            getmaxyx(mainInner,chatHeight,chatWidth);\n\n                //the function max use a floor of zero, and ruturns where we shoudl start inside the\n                //vector pending on screen size\n                int displayStart= max(0, static_cast<int>(messages.size()) - chatHeight);\n\n            int rowTotal=0;\n\n            for(int i=displayStart; i< numMessages; i++){\n\n                mvwprintw( mainInner, rowTotal++, 1, messages[i].c_str());\n\n            }\n                wrefresh(mainInner);\n        }\n\n};\n"}],"doc":8,"seq":1099,"ms":72728674,"op":"edit"}
+{"doc":8,"seq":1100,"ms":72729683,"op":"save"}
