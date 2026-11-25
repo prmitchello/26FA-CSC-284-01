@@ -722,3 +722,11 @@
 {"doc":1,"seq":721,"ms":21412726,"op":"save"}
 {"version":361,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2082,"length":374,"text":"case 0:{\n                        activeChat = &generalChat;\n                        break;\n                    }\n                    case 1:{\n                        activeChat = &sportChat;\n                        break;\n                    }\n                    case 2:{\n                        activeChat = &programmingChat;\n                        break;\n                    }\n                    case 3:{\n                        activeChat = &musicChat;\n                        break;\n                    }\n                    case 4:{\n                        activeChat = &randomChat;\n                        break;\n                    }"}],"doc":1,"seq":722,"ms":21533099,"op":"edit"}
 {"doc":1,"seq":723,"ms":21534117,"op":"save"}
+{"version":362,"changes":[{"offset":2800,"length":0,"text":"\n                "}],"doc":1,"seq":724,"ms":21590513,"op":"edit"}
+{"version":363,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2817,"length":0,"text":"                activeChat->drawChat(ui.getMainWindow());\n"}],"doc":1,"seq":725,"ms":21591338,"op":"edit"}
+{"doc":1,"seq":726,"ms":21592350,"op":"save"}
+{"version":364,"changes":[{"offset":2806,"length":27,"text":""}],"doc":1,"seq":727,"ms":21594245,"op":"edit"}
+{"version":365,"changes":[{"offset":2806,"length":0,"text":"   "}],"doc":1,"seq":728,"ms":21594913,"op":"edit"}
+{"version":366,"changes":[{"offset":2809,"length":0,"text":"    "}],"doc":1,"seq":729,"ms":21595389,"op":"edit"}
+{"version":367,"changes":[{"offset":2813,"length":0,"text":"    "}],"doc":1,"seq":730,"ms":21595776,"op":"edit"}
+{"doc":1,"seq":731,"ms":21596793,"op":"save"}
