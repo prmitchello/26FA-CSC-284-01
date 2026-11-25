@@ -44,3 +44,5 @@
 {"executionId":"35aa0b1a-3a9c-46ae-9db2-8e1d3700b44c","processId":-1,"doc":3,"seq":43,"ms":74589173,"op":"task.processStart"}
 {"executionId":"35aa0b1a-3a9c-46ae-9db2-8e1d3700b44c","exitCode":-1,"doc":3,"seq":44,"ms":74589457,"op":"task.processEnd"}
 {"executionId":"35aa0b1a-3a9c-46ae-9db2-8e1d3700b44c","doc":3,"seq":45,"ms":74589458,"op":"task.end"}
+{"executionId":"e916733a-68c3-4030-9a14-f2da1e96c0ef","name":"C/C++: g++-16 build active file","type":"cppbuild","doc":3,"seq":46,"ms":74678465,"op":"task.start"}
+{"executionId":"e916733a-68c3-4030-9a14-f2da1e96c0ef","processId":-1,"doc":3,"seq":47,"ms":74678466,"op":"task.processStart"}
