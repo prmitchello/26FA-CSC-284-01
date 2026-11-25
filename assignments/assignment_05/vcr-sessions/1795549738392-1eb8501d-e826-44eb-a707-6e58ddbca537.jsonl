@@ -1679,3 +1679,41 @@
 {"text":"#pragma once;\n\nclass FriendsWindow{\n  public:\n\n  void drawWindow(WINDOW * );\n\n};\n","version":87,"snapshot":true,"doc":6,"seq":1678,"ms":74087236,"op":"snap"}
 {"version":88,"changes":[{"offset":79,"length":1,"text":""}],"doc":6,"seq":1679,"ms":74099927,"op":"edit"}
 {"doc":6,"seq":1680,"ms":74100943,"op":"save"}
+{"version":182,"changes":[{"offset":35,"length":0,"text":"\n"}],"doc":2,"seq":1681,"ms":74130487,"op":"edit"}
+{"doc":2,"seq":1682,"ms":74131504,"op":"save"}
+{"version":183,"changes":[{"offset":36,"length":0,"text":"I"}],"doc":2,"seq":1683,"ms":74132764,"op":"edit"}
+{"version":184,"changes":[{"offset":37,"length":0,"text":"N"}],"doc":2,"seq":1684,"ms":74132868,"op":"edit"}
+{"version":185,"changes":[{"offset":38,"length":0,"text":"c"}],"doc":2,"seq":1685,"ms":74133033,"op":"edit"}
+{"version":186,"changes":[{"offset":39,"length":0,"text":"l"}],"doc":2,"seq":1686,"ms":74133092,"op":"edit"}
+{"version":187,"changes":[{"offset":39,"length":1,"text":""}],"doc":2,"seq":1687,"ms":74133588,"op":"edit"}
+{"version":188,"changes":[{"offset":38,"length":1,"text":""}],"doc":2,"seq":1688,"ms":74133772,"op":"edit"}
+{"version":189,"changes":[{"offset":37,"length":1,"text":""}],"doc":2,"seq":1689,"ms":74133907,"op":"edit"}
+{"version":190,"changes":[{"offset":36,"length":1,"text":""}],"doc":2,"seq":1690,"ms":74134202,"op":"edit"}
+{"version":191,"changes":[{"offset":36,"length":0,"text":"#"}],"doc":2,"seq":1691,"ms":74135141,"op":"edit"}
+{"version":192,"changes":[{"offset":37,"length":0,"text":"i"}],"doc":2,"seq":1692,"ms":74135307,"op":"edit"}
+{"version":193,"changes":[{"offset":38,"length":0,"text":"n"}],"doc":2,"seq":1693,"ms":74135394,"op":"edit"}
+{"version":194,"changes":[{"offset":39,"length":0,"text":"c"}],"doc":2,"seq":1694,"ms":74135440,"op":"edit"}
+{"version":195,"changes":[{"offset":40,"length":0,"text":"l"}],"doc":2,"seq":1695,"ms":74135536,"op":"edit"}
+{"version":196,"changes":[{"offset":41,"length":0,"text":"u"}],"doc":2,"seq":1696,"ms":74135755,"op":"edit"}
+{"version":197,"changes":[{"offset":42,"length":0,"text":"d"}],"doc":2,"seq":1697,"ms":74135853,"op":"edit"}
+{"version":198,"changes":[{"offset":43,"length":0,"text":"e"}],"doc":2,"seq":1698,"ms":74135928,"op":"edit"}
+{"version":199,"changes":[{"offset":44,"length":0,"text":" "}],"doc":2,"seq":1699,"ms":74136086,"op":"edit"}
+{"version":200,"changes":[{"offset":45,"length":0,"text":"<"}],"doc":2,"seq":1700,"ms":74136336,"op":"edit"}
+{"text":"#include <vector>\n#include <string>\n#include <>\n\n#include <RoomList.h>\n\nusing namespace std;\n\n\n    RoomList::RoomList(){\n        topicList ={\"General\", \"Sports\",\"Programming\",\"Music\",\"Random\"};\n        highlight = 0;\n    }\n\n    void RoomList::selectUp(){\n        highlight=(highlight == 0)? topicList.size() -1: highlight-1;\n    }\n\n    void RoomList::selectDown(){\n        highlight=(highlight == topicList.size()-1)? 0: highlight+1;\n\n    }\n\n    int RoomList::getHighlight(){\n        return highlight;\n    }\n\n    void RoomList::drawLeft(WINDOW* leftInner){\n\n        werase(leftInner);\n        box(leftInner,0,0);\n\n\n        int length = topicList.size();\n\n        for(int i=0; i<length ; ++i){\n\n            if(i == highlight){\n                //start_color();\n                wattron(leftInner, A_REVERSE);\n                    mvwprintw(leftInner, (i+3) ,1,\"> %s\",topicList[i].c_str());\n                wattroff(leftInner, A_REVERSE);\n\n            }else{\n                mvwprintw(leftInner, (i+3) ,1,topicList[i].c_str());\n            }\n\n        }\n\n        wrefresh(leftInner);\n\n    }\n","version":201,"snapshot":true,"doc":2,"seq":1701,"ms":74136400,"op":"edit"}
+{"doc":2,"seq":1702,"ms":74137417,"op":"save"}
+{"version":202,"changes":[{"offset":46,"length":0,"text":"c"}],"doc":2,"seq":1703,"ms":74138035,"op":"edit"}
+{"version":203,"changes":[{"offset":47,"length":0,"text":"u"}],"doc":2,"seq":1704,"ms":74138324,"op":"edit"}
+{"version":204,"changes":[{"offset":48,"length":0,"text":"r"}],"doc":2,"seq":1705,"ms":74138398,"op":"edit"}
+{"version":205,"changes":[{"offset":49,"length":0,"text":"s"}],"doc":2,"seq":1706,"ms":74138606,"op":"edit"}
+{"version":206,"changes":[{"offset":50,"length":0,"text":"e"}],"doc":2,"seq":1707,"ms":74138706,"op":"edit"}
+{"version":207,"changes":[{"offset":51,"length":0,"text":"."}],"doc":2,"seq":1708,"ms":74139067,"op":"edit"}
+{"doc":2,"seq":1709,"ms":74140080,"op":"save"}
+{"version":208,"changes":[{"offset":52,"length":0,"text":"h"}],"doc":2,"seq":1710,"ms":74140174,"op":"edit"}
+{"version":209,"changes":[{"offset":51,"length":0,"text":"s"}],"doc":2,"seq":1711,"ms":74140997,"op":"edit"}
+{"doc":2,"seq":1712,"ms":74142010,"op":"save"}
+{"version":143,"changes":[{"offset":0,"length":0,"text":"\n"}],"doc":3,"seq":1713,"ms":74158012,"op":"edit"}
+{"doc":3,"seq":1714,"ms":74159023,"op":"save"}
+{"version":144,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":0,"text":"#include <curses.h>\n"}],"doc":3,"seq":1715,"ms":74159702,"op":"edit"}
+{"doc":3,"seq":1716,"ms":74160716,"op":"save"}
+{"version":145,"changes":[{"offset":19,"length":1,"text":""}],"doc":3,"seq":1717,"ms":74160792,"op":"edit"}
+{"doc":3,"seq":1718,"ms":74161806,"op":"save"}
