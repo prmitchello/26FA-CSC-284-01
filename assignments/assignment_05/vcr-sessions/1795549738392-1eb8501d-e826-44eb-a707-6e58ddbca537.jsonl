@@ -1823,3 +1823,42 @@
 {"version":218,"changes":[{"offset":79,"length":1,"text":""}],"doc":2,"seq":1822,"ms":74647466,"op":"edit"}
 {"version":219,"changes":[{"offset":78,"length":1,"text":""}],"doc":2,"seq":1823,"ms":74647636,"op":"edit"}
 {"doc":2,"seq":1824,"ms":74648648,"op":"save"}
+{"executionId":"09d79e71-845f-4dad-9c38-85ea9d04c555","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"g++-16 ChatClientUI.cpp -o app -lncurses","confidence":2,"path":".","doc":11,"seq":1825,"ms":74670468,"op":"terminal.start"}
+{"executionId":"09d79e71-845f-4dad-9c38-85ea9d04c555","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\u001b]633;C\u0007","doc":11,"seq":1826,"ms":74670520,"op":"terminal.output"}
+{"executionId":"09d79e71-845f-4dad-9c38-85ea9d04c555","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"Undefined symbols for architecture arm64:\r\n  \"MessageArea::drawChat(_win_st*)\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n  \"MessageArea::textInput(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>)\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"MessageArea::MessageArea()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n  \"FriendsWindow::drawWindow(_win_st*)\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"Windows::initialize()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"Windows::getChatWindow()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      ...\r\n  \"Windows::getMainWindow()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n  \"Windows::getTopicsWindow()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n  \"Windows::getFriendsWindow()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"Windows::Windows()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"RoomList::selectDown()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"RoomList::getHighlight()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n  \"RoomList::drawLeft(_win_st*)\", referenced from:\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n      _main in ccbfEZDw.o\r\n  \"RoomList::selectUp()\", referenced from:\r\n      _main in ccbfEZDw.o\r\n  \"RoomList::RoomList()\", referenced from:\r\n      _main in ccbfEZDw.o\r\nld: symbol(s) not found for architecture arm64\r\ncollect2: error: ld returned 1 exit status\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":11,"seq":1827,"ms":74670721,"op":"terminal.output"}
+{"executionId":"09d79e71-845f-4dad-9c38-85ea9d04c555","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"g++-16 ChatClientUI.cpp -o app -lncurses","confidence":2,"exitCode":1,"doc":11,"seq":1828,"ms":74670721,"op":"terminal.end"}
+{"version":220,"changes":[{"offset":0,"length":0,"text":"\n"}],"doc":2,"seq":1829,"ms":74684319,"op":"edit"}
+{"doc":2,"seq":1830,"ms":74685334,"op":"save"}
+{"version":221,"changes":[{"offset":0,"length":0,"text":"#"}],"doc":2,"seq":1831,"ms":74687945,"op":"edit"}
+{"version":222,"changes":[{"offset":1,"length":0,"text":"i"}],"doc":2,"seq":1832,"ms":74688145,"op":"edit"}
+{"version":223,"changes":[{"offset":2,"length":0,"text":"n"}],"doc":2,"seq":1833,"ms":74688216,"op":"edit"}
+{"version":224,"changes":[{"offset":3,"length":0,"text":"c"}],"doc":2,"seq":1834,"ms":74688258,"op":"edit"}
+{"version":225,"changes":[{"offset":4,"length":0,"text":"l"}],"doc":2,"seq":1835,"ms":74688381,"op":"edit"}
+{"version":226,"changes":[{"offset":5,"length":0,"text":"u"}],"doc":2,"seq":1836,"ms":74688584,"op":"edit"}
+{"version":227,"changes":[{"offset":6,"length":0,"text":"d"}],"doc":2,"seq":1837,"ms":74688954,"op":"edit"}
+{"version":228,"changes":[{"offset":7,"length":0,"text":"e"}],"doc":2,"seq":1838,"ms":74689069,"op":"edit"}
+{"version":229,"changes":[{"offset":8,"length":0,"text":" "}],"doc":2,"seq":1839,"ms":74689211,"op":"edit"}
+{"version":230,"changes":[{"offset":9,"length":0,"text":"<"}],"doc":2,"seq":1840,"ms":74689541,"op":"edit"}
+{"version":231,"changes":[{"offset":10,"length":0,"text":">"}],"doc":2,"seq":1841,"ms":74689637,"op":"edit"}
+{"doc":2,"seq":1842,"ms":74690649,"op":"save"}
+{"version":232,"changes":[{"offset":10,"length":0,"text":"i"}],"doc":2,"seq":1843,"ms":74690875,"op":"edit"}
+{"version":233,"changes":[{"offset":11,"length":0,"text":"o"}],"doc":2,"seq":1844,"ms":74690947,"op":"edit"}
+{"version":234,"changes":[{"offset":12,"length":0,"text":"s"}],"doc":2,"seq":1845,"ms":74691076,"op":"edit"}
+{"version":235,"changes":[{"offset":13,"length":0,"text":"t"}],"doc":2,"seq":1846,"ms":74691300,"op":"edit"}
+{"version":236,"changes":[{"offset":14,"length":0,"text":"r"}],"doc":2,"seq":1847,"ms":74691502,"op":"edit"}
+{"version":237,"changes":[{"offset":15,"length":0,"text":"a"}],"doc":2,"seq":1848,"ms":74691659,"op":"edit"}
+{"version":238,"changes":[{"offset":16,"length":0,"text":"m"}],"doc":2,"seq":1849,"ms":74691875,"op":"edit"}
+{"version":239,"changes":[{"offset":16,"length":1,"text":""}],"doc":2,"seq":1850,"ms":74692278,"op":"edit"}
+{"version":240,"changes":[{"offset":15,"length":1,"text":""}],"doc":2,"seq":1851,"ms":74692437,"op":"edit"}
+{"version":241,"changes":[{"offset":15,"length":0,"text":"e"}],"doc":2,"seq":1852,"ms":74692481,"op":"edit"}
+{"version":242,"changes":[{"offset":16,"length":0,"text":"a"}],"doc":2,"seq":1853,"ms":74692635,"op":"edit"}
+{"version":243,"changes":[{"offset":17,"length":0,"text":"m"}],"doc":2,"seq":1854,"ms":74692727,"op":"edit"}
+{"doc":2,"seq":1855,"ms":74693735,"op":"save"}
+{"version":154,"changes":[{"offset":0,"length":0,"text":"\n"}],"doc":4,"seq":1856,"ms":74699569,"op":"edit"}
+{"doc":4,"seq":1857,"ms":74700581,"op":"save"}
+{"version":155,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":0,"length":0,"text":"#include <iostream>\n"}],"doc":4,"seq":1858,"ms":74700607,"op":"edit"}
+{"doc":4,"seq":1859,"ms":74701612,"op":"save"}
+{"version":156,"changes":[{"offset":19,"length":1,"text":""}],"doc":4,"seq":1860,"ms":74701656,"op":"edit"}
+{"doc":4,"seq":1861,"ms":74702663,"op":"save"}
+{"version":153,"changes":[{"offset":20,"length":0,"text":"\n"}],"doc":3,"seq":1862,"ms":74709599,"op":"edit"}
+{"doc":3,"seq":1863,"ms":74710608,"op":"save"}
