@@ -47,3 +47,6 @@
 {"executionId":"321663bb-3277-4222-a879-6e1f9db323ca","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"./a.out","confidence":2,"exitCode":130,"doc":2,"seq":46,"ms":1216159,"op":"terminal.end"}
 {"doc":3,"seq":47,"ms":11921095,"op":"close"}
 {"doc":1,"seq":48,"ms":11923008,"op":"close"}
+{"executionId":"b7dd6ab4-619b-4616-b20e-7916a6535c77","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_05'","confidence":2,"doc":2,"seq":49,"ms":74514295,"op":"terminal.start"}
+{"executionId":"b7dd6ab4-619b-4616-b20e-7916a6535c77","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","data":"\u001b]633;C\u0007\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                         \r \r","doc":2,"seq":50,"ms":74514295,"op":"terminal.output"}
+{"executionId":"b7dd6ab4-619b-4616-b20e-7916a6535c77","terminalId":"924e4351-1ce3-45eb-b99c-52ae978e1d6c","commandLine":"cd '/Users/mitchello/Downloads/26FA-CSC-284-01/assignments/assignment_05'","confidence":2,"exitCode":0,"doc":2,"seq":51,"ms":74514295,"op":"terminal.end"}
