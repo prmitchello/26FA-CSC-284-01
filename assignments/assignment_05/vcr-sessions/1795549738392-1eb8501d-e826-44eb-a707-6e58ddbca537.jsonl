@@ -720,3 +720,5 @@
 {"doc":1,"seq":719,"ms":21411389,"op":"save"}
 {"version":360,"changes":[{"offset":1447,"length":0,"text":"o"}],"doc":1,"seq":720,"ms":21411713,"op":"edit"}
 {"doc":1,"seq":721,"ms":21412726,"op":"save"}
+{"version":361,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":2082,"length":374,"text":"case 0:{\n                        activeChat = &generalChat;\n                        break;\n                    }\n                    case 1:{\n                        activeChat = &sportChat;\n                        break;\n                    }\n                    case 2:{\n                        activeChat = &programmingChat;\n                        break;\n                    }\n                    case 3:{\n                        activeChat = &musicChat;\n                        break;\n                    }\n                    case 4:{\n                        activeChat = &randomChat;\n                        break;\n                    }"}],"doc":1,"seq":722,"ms":21533099,"op":"edit"}
+{"doc":1,"seq":723,"ms":21534117,"op":"save"}
