@@ -680,3 +680,14 @@
 {"doc":1,"seq":679,"ms":21139430,"op":"save"}
 {"version":329,"changes":[{"offset":1637,"length":1,"text":""}],"doc":1,"seq":680,"ms":21140137,"op":"edit"}
 {"doc":1,"seq":681,"ms":21141150,"op":"save"}
+{"version":330,"changes":[{"offset":1508,"length":0,"text":"\n                    "}],"doc":1,"seq":682,"ms":21326133,"op":"edit"}
+{"version":331,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1529,"length":0,"text":"case 2:{\n                        activeChat = &musicChat;\n                        break;\n                    }"}],"doc":1,"seq":683,"ms":21326540,"op":"edit"}
+{"version":332,"changes":[{"offset":1639,"length":0,"text":"\n                    "}],"doc":1,"seq":684,"ms":21327440,"op":"edit"}
+{"version":333,"paste":{"correlation":"candidate","origin":"unknown"},"changes":[{"offset":1660,"length":0,"text":"case 2:{\n                        activeChat = &musicChat;\n                        break;\n                    }"}],"doc":1,"seq":685,"ms":21327714,"op":"edit"}
+{"doc":1,"seq":686,"ms":21328733,"op":"save"}
+{"version":334,"changes":[{"offset":1534,"length":1,"text":""}],"doc":1,"seq":687,"ms":21330219,"op":"edit"}
+{"version":335,"changes":[{"offset":1534,"length":0,"text":"3"}],"doc":1,"seq":688,"ms":21330391,"op":"edit"}
+{"doc":1,"seq":689,"ms":21331399,"op":"save"}
+{"version":336,"changes":[{"offset":1665,"length":1,"text":""}],"doc":1,"seq":690,"ms":21331830,"op":"edit"}
+{"version":337,"changes":[{"offset":1665,"length":0,"text":"4"}],"doc":1,"seq":691,"ms":21332356,"op":"edit"}
+{"doc":1,"seq":692,"ms":21333365,"op":"save"}
