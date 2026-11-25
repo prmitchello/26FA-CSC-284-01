@@ -1754,3 +1754,10 @@
 {"version":148,"changes":[{"offset":29,"length":1,"text":""}],"doc":3,"seq":1753,"ms":74409265,"op":"edit"}
 {"version":149,"changes":[{"offset":29,"length":0,"text":"\""}],"doc":3,"seq":1754,"ms":74409823,"op":"edit"}
 {"doc":3,"seq":1755,"ms":74410839,"op":"save"}
+{"text":"#include \"FriendsWindow.h\"\n#include <curses.h>\n\n    void FriendsWindow::drawWindow(WINDOW * win){\n        wrefresh(win);\n    }\n","version":72,"snapshot":true,"doc":7,"seq":1756,"ms":74419818,"op":"snap"}
+{"version":73,"changes":[{"offset":45,"length":1,"text":""}],"doc":7,"seq":1757,"ms":74421384,"op":"edit"}
+{"version":74,"changes":[{"offset":45,"length":0,"text":"\""}],"doc":7,"seq":1758,"ms":74421933,"op":"edit"}
+{"doc":7,"seq":1759,"ms":74422943,"op":"save"}
+{"version":75,"changes":[{"offset":36,"length":1,"text":""}],"doc":7,"seq":1760,"ms":74423081,"op":"edit"}
+{"version":76,"changes":[{"offset":36,"length":0,"text":"\""}],"doc":7,"seq":1761,"ms":74423545,"op":"edit"}
+{"doc":7,"seq":1762,"ms":74424554,"op":"save"}
